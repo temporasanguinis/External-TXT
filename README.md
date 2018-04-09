@@ -12,7 +12,7 @@ PAROLA CHIAVE
 
 nuova linea
 
-descrizione libera possibilmente rispettando la larghezza standard sul file
+descrizione libera possibilmente rispettando la larghezza standard di 67 caratteri
 
 nuova linea,
 
