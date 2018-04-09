@@ -2,6 +2,7 @@
 EMPTY SLOT
 #
 HELP
+Aggiornamento del 09 aprile 2018 a cura di Martinus
 Aggiornamento del 20 maggio 2009 a cura di Nis
 Aggiornamento del 23 settembre 2005 a cura di Martinus
 Aggiornamento dell'11 Luglio 2000 a cura di Dryden
@@ -10,14 +11,11 @@ Aggiornamento del 9 Marzo 1999 a cura di Dryden
 
 ---
 
-Versione: 1.5
-Aggiornamento: 20 maggio 2009
 
-L'Help di Tempora Sanguinis e' curato da Nis.
+L'Help di Tempora Sanguinis e' curato da Martinus.
 Se riscontrate errori, incongruenze, o desiderate proporre
-un nuovo argomento, potete mandare un messaggio a Nis
-tramite lo Scriba di TS, oppure all'indirizzo
-                                nadir.7@gmail.com
+un nuovo argomento, potete mandare un messaggio all'indirizzo
+                                martinus@temporasanguinis.it
 
 --- Modifiche dalla versione 2.8.4.1 alla 2.9.0.0 ----------------
 - Aggiornati: LISTINO, REFUND
@@ -79,100 +77,118 @@ giusto.
 #
 MUD
 
-  Benvenuto a Tempora Sanguinis!  Se non conosci i  comandi dei  Mud, questo  e'
-  l'help che fa per te!
+  Benvenuto a  Tempora Sanguinis!   Se non  conosci i   comandi dei
+  Mud, questo  e' l'help che fa per te!
 
-In  questo  gioco,   il  tuo  personaggio   prova  molte  delle   esperienze che
-caratterizzano la tua vita quotidiana. Infatti, puoi  indossare  degl'indumenti,
-genericamente      chiamati      equipaggiamento      (non    dimenticarti   che
-l'ambientazione dell'Impero Celeste - il  mondo  di TS  -  e'   simil-medievale,
-quindi,  oltre  ai  vestiti    normali, probabilmente ti troverai  ad  indossare
-armature,  elmi,  etc.).   Per  vedere   cos'hai   indosso,   usa   il   comando
-EQUIPMENT.   Non    devi  necessariamente   scriverlo   in  maiuscolo,   ma   in
-quest'help tutti  i comandi   lo  saranno,   per   maggior   chiarezza.  Qui  su
-Tempora Sanguinis,  infatti, non  c'e' mai  alcuna differenza  tra maiuscole   e
-minuscole.  Inoltre,  sempre  per  tua  comodita',  sappi  che puoi abbreviare i
-comandi   digitandone   solo   i  primi   caratteri;   non   c'e'  limite   alle
-abbreviazioni,  ma   stai  attento,   perche'  il   Mud  potrebbe  interpretarle
-diversamente da te.   Ad esempio, potresti  scrivere  E pensando   di abbreviare
-il comando  EQUIPMENT, ma,   per TS,  E e'  l'abbreviazione di EAST (il  comando
-che  ti  fa  muovere  verso  est)!  La  piu'  corta   abbreviazione del  comando
-EQUIPMENT, invece, e'   EQ (ed  e',   ovviamente,  molto  usata   dai  giocatori
-esperti  :-)). Probabilmente ti sei  gia' accorto di  una cosa: i  comandi  sono
-in inglese! Beh, devi sapere che i Mud, per tradizione, sono da sempre in lingua
-inglese (anche se  non  sono nati ne' in   Inghilterra, ne' in America,  ma alla
-facolta'  di Informatica  di Copenaghen  :-)).  In  Italia  si  preferisce,  in
-genere,  tradurre 'il  mondo', cioe'  le descrizioni dei luoghi, degli oggetti e
-delle persone,  ma  lasciare  in inglese  i comandi  del Mud  (che sono comunque
-pochi,  e quindi   ci si  fa l'abitudine  subito). TS  ti consente  di ottenere
-informazioni su qualsiasi  aspetto del  gioco: per  esempio, se  vuoi saperne di
-piu'   sul  comando   EQUIPMENT, devi   solo  scrivere   HELP EQUIPMENT.  Questa
-possibilita'  di  aiuto  esiste  per  tutti  i  comandi che quest'help cerchera'
-di insegnarti.
+In  questo   gioco,   il   tuo  personaggio    prova  molte   delle
+esperienze che caratterizzano la tua vita quotidiana. Infatti, puoi
+indossare      degl'indumenti,     genericamente           chiamati
+equipaggiamento       (non     dimenticarti    che  l'ambientazione
+dell'Impero Celeste -  il  mondo  di  TS  -  e'    simil-medievale,
+quindi,  oltre  ai   vestiti    normali, probabilmente  ti troverai
+ad   indossare  armature,  elmi,   etc.).    Per  vedere    cos'hai
+indosso,     usa     il     comando   EQUIPMENT.     Non       devi
+necessariamente   scriverlo   in   maiuscolo,   ma   in  quest'help
+tutti  i comandi   lo   saranno,   per   maggior   chiarezza.   Qui
+su Tempora  Sanguinis,  infatti,  non  c'e'  mai  alcuna differenza
+tra   maiuscole    e   minuscole.   Inoltre,    sempre   per    tua
+comodita',   sappi   che puoi  abbreviare  i comandi    digitandone
+solo     i   primi     caratteri;    non     c'e'   limite     alle
+abbreviazioni,  ma   stai   attento,   perche'  il    Mud  potrebbe
+interpretarle diversamente da te.   Ad esempio, potresti   scrivere
+E pensando   di abbreviare il comando  EQUIPMENT, ma,   per TS,   E
+e'   l'abbreviazione  di EAST  (il   comando che   ti   fa  muovere
+verso   est)!   La    piu'   corta    abbreviazione   del   comando
+EQUIPMENT, invece,  e'   EQ  (ed  e',    ovviamente,  molto   usata
+dai  giocatori esperti  :-)). Probabilmente ti sei  gia' accorto di
+una cosa: i  comandi  sono in inglese! Beh, devi sapere che i  Mud,
+per tradizione,  sono da  sempre in  lingua inglese  (anche se  non
+sono nati ne' in   Inghilterra,  ne' in America,  ma alla  facolta'
+di Informatica  di Copenaghen   :-)).  In  Italia  si   preferisce,
+in genere,  tradurre 'il  mondo', cioe'  le descrizioni dei luoghi,
+degli oggetti e delle persone,  ma  lasciare  in inglese  i comandi
+del  Mud   (che  sono  comunque  pochi,   e  quindi    ci  si    fa
+l'abitudine  subito). TS  ti consente  di ottenere informazioni  su
+qualsiasi  aspetto del   gioco: per  esempio,  se  vuoi saperne  di
+piu'    sul   comando    EQUIPMENT,  devi    solo   scrivere   HELP
+EQUIPMENT.  Questa possibilita'  di   aiuto  esiste  per  tutti   i
+comandi che quest'help cerchera' di insegnarti.
 
-Come EQUIPMENT  ti  fa  vedere tutti   gli oggetti  che  hai  indosso, cosi'  il
-comando  INVENTORY  ti elenca   quelli che  stai  portando  in mano. In  questo,
-come  in tutti  i  Mud,  puoi portare  in  mano  un numero  enorme  di  oggetti!
-Forse  non  sara'  molto  realistico,  ma  almeno non   ti obbliga  a rinunciare
-alla piu'  parte di  essi, e, quindi, forse  e' meglio  cosi', non  credi ?  ;-)
-Puoi guardare un oggetto con il  comando LOOK <OGGETTO>,  dove <OGGETTO> e'   il
-nome  dell'oggetto   (per  essere   esatti, basta   una  delle   parole  che  ne
-compongono  il  nome;  cosi', se   volessi  guardare  'Uno splendido diadema  di
-diamanti' ti  basterebbe  scrivere  LOOK DIADEMA).   Puoi indossare  un  oggetto
-con il  comando WEAR  <OGGETTO>, e  lo puoi prendere in mano con HOLD <OGGETTO>.
-Se e'  un'arma, puoi  impugnarla facendo  WIELD <OGGETTO>.  Puoi  togliertela di
-dosso con  il comando REMOVE <OGGETTO>,  e lasciarla a terra con DROP  <OGGETTO>
-(non  puoi lasciare a terra un  oggetto che hai indosso; prima devi  togliertelo
-con  un  REMOVE  <OGGETTO>).  Se,  al  contrario,  vuoi raccogliere qualcosa  da
-terra, usa  il   comando GET  <OGGETTO>.   Per dare  un  oggetto   a   qualcuno,
-usa    il    comando    GIVE   <OGGETTO>   TO  <NOMEPERSONAGGIO>.  Spesso vorrai
-raccogliere o dare monete: per far  questo, usa  le monete  come se   fossero un
-oggetto come tutti  gli altri, il  cui nome e'  COINS, ricordandoti di  scrivere
-prima  quante  monete vuoi  prendere  o  dare. Ad   esempio, per  dare  ad un pc
-1000 monete scrivi GIVE 1000 COINS TO <NOMEPERSONAGGIO>. Per raccogliere tutti i
-soldi che  vedi per  terra in  una stanza  scrivi semplicemente  GET COINS.  Per
-sapere quante monete possiedi, usa il comando SCORE. Ci  sono anche  altre  cose
-che puoi  fare con  gli oggetti,  e lo scoprirai acquistando piu' esperienza  di
-gioco.
+Come  EQUIPMENT   ti   fa  vedere  tutti    gli  oggetti  che   hai
+indosso, cosi'  il comando  INVENTORY  ti elenca   quelli che  stai
+portando   in  mano. In   questo,  come  in  tutti   i  Mud,   puoi
+portare   in   mano  un  numero   enorme  di   oggetti!  Forse  non
+sara'   molto   realistico,   ma    almeno  non    ti  obbliga    a
+rinunciare alla piu'  parte di   essi, e, quindi, forse  e'  meglio
+cosi', non  credi ?  ;-)  Puoi guardare un oggetto con  il  comando
+LOOK <OGGETTO>,  dove <OGGETTO>  e'   il nome  dell'oggetto    (per
+essere   esatti,  basta   una   delle   parole   che  ne compongono
+il  nome;   cosi', se    volessi  guardare   'Uno splendido diadema
+di  diamanti'  ti   basterebbe   scrivere   LOOK  DIADEMA).    Puoi
+indossare  un  oggetto con il  comando WEAR  <OGGETTO>, e  lo  puoi
+prendere  in  mano  con  HOLD  <OGGETTO>.  Se  e'   un'arma,   puoi
+impugnarla facendo   WIELD <OGGETTO>.   Puoi  togliertela  di dosso
+con  il  comando REMOVE  <OGGETTO>,  e  lasciarla a  terra con DROP
+<OGGETTO> (non  puoi lasciare a terra un  oggetto che hai  indosso;
+prima  devi   togliertelo  con  un   REMOVE   <OGGETTO>).   Se,  al
+contrario,  vuoi raccogliere qualcosa  da terra, usa  il    comando
+GET  <OGGETTO>.   Per dare   un  oggetto   a   qualcuno,  usa    il
+comando    GIVE   <OGGETTO>   TO  <NOMEPERSONAGGIO>.  Spesso vorrai
+raccogliere o dare monete: per far  questo, usa  le monete  come se
+fossero un oggetto come tutti   gli altri, il  cui nome  e'  COINS,
+ricordandoti di  scrivere prima   quante  monete vuoi  prendere   o
+dare. Ad    esempio, per   dare  ad  un pc  1000 monete scrivi GIVE
+1000 COINS TO <NOMEPERSONAGGIO>. Per raccogliere tutti i soldi  che
+vedi per  terra  in  una stanza   scrivi semplicemente  GET  COINS.
+Per sapere quante monete possiedi,  usa il comando SCORE. Ci   sono
+anche  altre  cose che puoi  fare con  gli oggetti,  e lo scoprirai
+acquistando piu' esperienza  di gioco.
 
-Magari, dopo  aver  letto  tutte queste   istruzioni, ti  sara'  venuta  sete, o
-fame. Beh, potrebbe  essere successa la  stessa cosa anche  al tuo  personaggio!
-Quando  cio'   accadra',  sara'  Tempora   Sanguinis stesso  ad  avvertirti, con
-degli opportuni  messaggi. Per   sfamarti, usa  il comando  EAT  <OGGETTO>, dove
-<OGGETTO>  deve   essere  qualcosa  di  commestibile  (del  pane,  ad  esempio).
-Similmente,  usa  il  comando  DRINK  <OGGETTO>  per  bere   (<OGGETTO> potrebbe
-essere un bicchiere pieno d'acqua).   Puoi bere  anche dalle  fontane  (ce  n'e'
-una  nel centro  di Midia, la  Capitale  dell'Impero Celeste,  che e' anche   la
-citta'  in   cui inizi   a  giocare),  semplicemente  usando   il comando  DRINK
-FOUNTAIN.   Stai  attento,   perche'  certe  bevande   potrebbero  ubriacarti, o
-addirittura  aumentare   ancora  la  tua  sete   (l'acqua  salata, ad  esempio).
-Inoltre, anche se  si tratta di  un'eventualita' molto  remota,   sappi  che nel
-Mud  esistono  anche delle  bevande avvelenate! Per  non restare  senza cibo   o
-acqua   quando ti   trovi lontano  da  un  centro  abitato,  in  genere  te  ne
-porterai  appresso delle  scorte.  Come  cibo,  va  bene  il  pane  venduto  dal
-fornaio di Midia, mentre per  l'  acqua probabilmente ti converra'   comprare un
-barile,  svuotarlo   (chissa'  che    c'era  dentro!)   e  riempirlo  dell'acqua
-della  fontana di  Midia. Per  svuotare un  barile, o un contenitore in  genere,
-usa   il comando   POUR <OGGETTO>   OUT, e  per riempirlo  FILL <OGGETTO>  WITH
-<LIQUIDO>. Se ti trovi davanti ad una fontana, come <LIQUIDO> puoi usare  WATER,
-cioe' acqua.
+Magari, dopo   aver  letto   tutte queste    istruzioni, ti   sara'
+venuta  sete,  o fame.  Beh, potrebbe   essere successa  la  stessa
+cosa anche   al tuo   personaggio! Quando   cio'   accadra',  sara'
+Tempora    Sanguinis stesso   ad  avvertirti,  con degli  opportuni
+messaggi. Per    sfamarti, usa   il comando   EAT  <OGGETTO>,  dove
+<OGGETTO>  deve   essere   qualcosa  di  commestibile   (del  pane,
+ad  esempio). Similmente,  usa  il  comando  DRINK  <OGGETTO>   per
+bere    (<OGGETTO>  potrebbe essere  un  bicchiere pieno  d'acqua).
+Puoi bere   anche dalle   fontane  (ce   n'e' una   nel centro   di
+Midia, la  Capitale  dell'Impero Celeste,  che e' anche   la citta'
+in   cui inizi   a   giocare),  semplicemente  usando   il  comando
+DRINK  FOUNTAIN.     Stai   attento,     perche'   certe    bevande
+potrebbero  ubriacarti, o addirittura  aumentare   ancora  la   tua
+sete   (l'acqua  salata, ad  esempio). Inoltre, anche se  si tratta
+di  un'eventualita' molto  remota,    sappi  che nel Mud   esistono
+anche delle  bevande avvelenate!  Per  non restare  senza  cibo   o
+acqua   quando  ti   trovi  lontano  da   un  centro   abitato,  in
+genere  te  ne porterai   appresso delle  scorte.  Come   cibo,  va
+bene   il  pane   venduto  dal  fornaio di  Midia, mentre  per  l'
+acqua probabilmente ti  converra'   comprare un  barile,  svuotarlo
+(chissa'  che    c'era   dentro!)   e  riempirlo   dell'acqua della
+fontana di  Midia.  Per  svuotare un   barile, o un  contenitore in
+genere, usa   il comando    POUR <OGGETTO>   OUT, e   per riempirlo
+FILL <OGGETTO>  WITH <LIQUIDO>. Se ti trovi davanti ad una fontana,
+come <LIQUIDO> puoi usare  WATER, cioe' acqua.
 
-Beh,  a  stomaco  pieno   possiamo  anche  porci  qualche   domanda  metafisica,
-non trovi ?  Per esempio, potresti  chiederti: 'Chi  sono  ? Cosa faccio  ?' Una
-delle  cose  belle del  Mud, rispetto  alla  vita  reale, e'  che qui  a  queste
-domande  esiste una  risposta:  devi  solo usare  il comando  SCORE! Un   altro
-comando molto utile e'  ATTRIBUTE (abbreviato  in  ATT),  che   ti  permette  di
-conoscere    le   tue  caratteristiche    d'intelligenza,    forza,    saggezza,
-destrezza, costituzione e  carisma, e   i tuoi  bonus nel  combattimento  e  nel
-lancio degli incantesimi.  Questo stesso comando  ti elenchera' anche  eventuali
-incantesimi   che  fossero   attivi  su   di  te.   L'importanza  delle  diverse
-caratteristiche   ti diventera'  chiara  andando  avanti nel  gioco.  Sappi  che
-ognuna di   esse va,   normalmente, da   3 a  18 (piu'   una  caratteristica  e'
-sviluppata,  piu'  alto  e'   questo punteggio), e puo'  raggiungere 19 o 20  in
-casi eccezionali  (specie per alcune  razze, che possiedono un dono  naturale in
-alcuni   campi,  spesso bilanciato  da  un talento  negativo  in altri).  Questa
-tabella e' incompleta, ma ti dara' un'idea dei loro campi
-di azione.
+Beh,  a  stomaco  pieno   possiamo  anche  porci  qualche   domanda
+metafisica, non  trovi ?   Per esempio,  potresti  chiederti:  'Chi
+sono  ? Cosa faccio  ?'  Una delle  cose  belle del   Mud, rispetto
+alla   vita  reale,  e'  che  qui  a   queste domande   esiste una
+risposta:  devi  solo usare  il comando  SCORE! Un   altro  comando
+molto  utile  e'   ATTRIBUTE  (abbreviato   in   ATT),   che     ti
+permette     di    conoscere       le      tue      caratteristiche
+d'intelligenza,     forza,    saggezza,  destrezza, costituzione  e
+carisma, e   i tuoi  bonus nel  combattimento  e  nel lancio  degli
+incantesimi.  Questo stesso comando  ti elenchera' anche  eventuali
+incantesimi   che   fossero   attivi   su   di   te.   L'importanza
+delle   diverse  caratteristiche   ti  diventera'   chiara  andando
+avanti nel  gioco.  Sappi  che ognuna di   esse va,    normalmente,
+da    3 a   18 (piu'    una  caratteristica   e' sviluppata,   piu'
+alto  e'   questo punteggio), e puo'  raggiungere 19 o 20  in  casi
+eccezionali   (specie per  alcune  razze,  che possiedono  un dono
+naturale  in alcuni    campi,  spesso  bilanciato  da   un talento
+negativo  in  altri).  Questa  tabella e'  incompleta, ma  ti dara'
+un'idea dei loro campi di azione.
 
 Caratteristica        Influenza
 -------------------------------------------------
@@ -193,250 +209,307 @@ Carisma            Reazioni che i personaggi guidati dal computer
                    MONSUM)
 
 
-Probabilmente  avrai notato   che, davanti  ai  comandi  che scrivi,  appare una
-riga  con  delle informazioni.   Quello e'  il  tuo  prompt: per  comprenderlo e
-personalizzarlo  usa l' omonimo comando   PROMPT. Esso ti  permette di   sapere,
-in  ogni  momento,  quali  sono  le  tue condizioni  di  salute,  la  tua  forza
-magica,  la   tua  capacita'   di  movimento   e    le   condizioni    dei  tuoi
-eventuali  nemici.  Per riguadagnare  punti ferita  (che sono  la misura   della
-tua  salute fisica),  punti  magia  (i  punti  che  ti  permettono  di  lanciare
-incantesimi)  e punti  movimento (senza  i quali  sei poco  piu' di   una bella
-statuina),   puoi  semplicemente   lasciar   passare  del   tempo,  oppure,  per
-velocizzarne  il  ricupero,  usare  degli  incantesimi   (che  ti  possono venir
-lanciati  da  un  mago,  o  che sono  contenuti  in  una  pergamena   o in   una
-pozione),   o  affidarti   al  piu'   naturale  dei  rimedi,   il   riposo.  Per
-dormire,  usa  il  comando  SLEEP;    per svegliarti, scrivi WAKE. Visto  che ci
-siamo, sappi  che puoi  sederti con  il comando  REST, che  ti  puoi rialzare in
-piedi con il  comando STAND (utile anche quando un nemico  ti ha gettato a terra
-con  una spinta),  e che puoi  riposarti con il  comando REST (ti  fa recuperare
-punti  ferita, magia  e movimento  ad una  velocita' minore  del  sonno,  ma ti
-permette di  restare coscente,  senza  quindi  che nessuno ti possa  attaccare a
-tradimento). Per  vedere, e  far vedere  a chi  ti e'  vicino, le tue condizioni
-generali di salute usa il comando REPORT. Quando  i  tuoi punti  magia  scendono
-a  0,  ti sara'  impossibile lanciare altri incantesimi; similmente, se rimani a
-corto di  punti movimento  non ti potrai piu'  muovere. Se, invece, sono  i tuoi
-punti ferita  ad arrivare  a 0  (per inedia,  per effetto  di un  veleno, o   in
-seguito ad  un combattimento),  muori.  Sappi  che in  questo gioco  ti accadra'
-diverse volte di morire; ma, proprio perche' e' un  gioco, qui  la morte  non e'
-certo un  dramma!  Infatti  potrai rientrare  tranquillamente in gioco,  come se
-niente fosse accaduto. Avrai solo perso  i  tuoi  oggetti (che  comunque  potrai
-recuperare  dal   tuo  cadavere :-)),   ed  un   po' dell'esperienza,   misurata
-anch'essa  in punti, che avevi fatto precedentemente.
+Probabilmente   avrai  notato    che,  davanti   ai   comandi   che
+scrivi,  appare una riga  con  delle informazioni.   Quello e'   il
+tuo  prompt:  per  comprenderlo  e personalizzarlo   usa l' omonimo
+comando   PROMPT. Esso ti  permette di   sapere, in  ogni  momento,
+quali   sono   le   tue condizioni   di   salute,   la  tua   forza
+magica,  la   tua  capacita'   di  movimento   e    le   condizioni
+dei  tuoi eventuali  nemici.  Per riguadagnare  punti ferita   (che
+sono   la misura    della tua   salute fisica),   punti  magia   (i
+punti   che  ti   permettono  di   lanciare incantesimi)   e punti
+movimento (senza  i quali  sei poco  piu' di   una bella statuina),
+puoi  semplicemente   lasciar   passare  del   tempo,  oppure,  per
+velocizzarne  il  ricupero,   usare  degli  incantesimi    (che  ti
+possono venir lanciati  da  un   mago,  o  che sono  contenuti   in
+una  pergamena    o in    una pozione),    o  affidarti    al  piu'
+naturale   dei   rimedi,    il    riposo.   Per  dormire,   usa  il
+comando   SLEEP;     per  svegliarti, scrivi  WAKE.  Visto   che ci
+siamo, sappi   che puoi   sederti con   il comando   REST, che   ti
+puoi rialzare in piedi con il  comando STAND (utile anche quando un
+nemico   ti  ha gettato  a  terra con   una  spinta),  e  che  puoi
+riposarti con il   comando REST (ti   fa recuperare punti   ferita,
+magia  e movimento   ad una  velocita'  minore  del  sonno,   ma ti
+permette di  restare coscente,  senza  quindi  che nessuno ti possa
+attaccare a tradimento). Per  vedere,  e  far vedere  a chi   ti e'
+vicino, le tue condizioni generali di salute usa il comando REPORT.
+Quando  i  tuoi punti  magia  scendono a  0,  ti sara'  impossibile
+lanciare altri incantesimi; similmente, se rimani a corto di  punti
+movimento  non ti  potrai piu'  muovere.  Se, invece, sono   i tuoi
+punti ferita  ad  arrivare  a 0   (per inedia,  per  effetto  di un
+veleno, o   in seguito  ad  un combattimento),  muori.   Sappi  che
+in  questo gioco  ti accadra' diverse volte di morire; ma,  proprio
+perche'  e' un   gioco, qui   la morte   non e'  certo un   dramma!
+Infatti   potrai  rientrare   tranquillamente  in  gioco,   come se
+niente  fosse accaduto.  Avrai solo  perso  i   tuoi  oggetti  (che
+comunque  potrai  recuperare  dal    tuo  cadavere  :-)),   ed   un
+po'  dell'esperienza,    misurata anch'essa   in  punti, che  avevi
+fatto precedentemente.
 
-Per muoverti da  una stanza all'altra  (i mondi dei  Mud sono tutti  organizzati
-in stanze),  usa i  comandi NORTH,  EAST, SOUTH,  WEST,  UP  e DOWN  (abbreviati
-generalmente in N,E,S,W,U e D). Quando  ti sposti da  una  stanza all'altra   ti
-vengono visualizzati  il  nome della  stanza,  la sua  descrizione completa,   e
-le  uscite  presenti.  Per  rivedere  questa  informazione  in  qualsiasi  altro
-momento,  scrivi  LOOK. Per  parlare con  gli  altri  personaggi, usa il comando
-GOSSIP (tipicamente abbreviato in  GOS), in questo  modo: GOS <QUELLO  CHE  VUOI
-DIRE>; questo  comando e'  sentito nella  stanza in  cui ti  trovi, e  nelle sue
-vicinanze.  Ad esempio, per salutare   potresti scrivere GOS Ciao! Per   parlare
-ad un  solo personaggio usa  il comando TELL <NOMEPERSONAGGIO> <MESSAGGIO>.  Per
-urlare qualcosa, usa il  comando SHOUT <QUELLO CHE  VUOI URLARE>; ti  sentiranno
-tutti i  personaggi presenti  nel Mud:  quindi, fallo  solo  se c'e' un   motivo
-veramente importante. Tieni  presente che,  per  poter usare il   comando SHOUT,
-devi essere almeno di secondo  livello,  e che lo stesso  comando ti  sottrarra'
-un certo   numero di  punti  magia  e movimento   (i livelli  sono spiegati piu'
-sotto).  Esistono  molti altri  comandi  usati  per comunicare   tra personaggi:
-essi non  compiono alcuna  azione, ma servono solo per comunicare stati  d'animo
-ed emozioni: essi vengono chiamati  comandi  sociali ('socials'  in inglese   ).
-Per  sorridere,  puoi   usare   il   comando  SMILE;   per   sorridere   ad   un
-determinato personaggio, usa  SMILE <NOMEPERSONAGGIO>,  e cosi'  via. Di  questi
-comandi ce  ne sono   decine, e  possono essere   molto divertenti da usare;  ma
-stai attento a non abusarne, e,  soprattutto, a non usarli in  modo   offensivo.
-Li  scoprirai   in  maniera   naturale  giocando: quando  vedrai  un personaggio
-compiere un'azione strana (saltare  in  alto come un canguro, ad   esempio :-)),
-chiedigli come ha  fatto, e lui te lo insegnera'. Comunque, puoi averne la lista
-scrivendo HELP COMANDI SOCIALI.
+Per muoverti da  una stanza all'altra  (i mondi dei  Mud sono tutti
+organizzati in stanze),  usa i  comandi NORTH,  EAST, SOUTH,  WEST,
+UP  e DOWN  (abbreviati generalmente in N,E,S,W,U e D). Quando   ti
+sposti  da  una   stanza all'altra    ti vengono  visualizzati  il
+nome della  stanza,  la  sua  descrizione completa,   e  le  uscite
+presenti.   Per   rivedere   questa   informazione   in   qualsiasi
+altro  momento,   scrivi   LOOK.  Per   parlare  con   gli    altri
+personaggi, usa il comando GOSSIP (tipicamente abbreviato in  GOS),
+in questo  modo: GOS <QUELLO   CHE  VUOI DIRE>; questo  comando  e'
+sentito nella  stanza  in  cui ti   trovi, e  nelle  sue vicinanze.
+Ad  esempio,  per  salutare    potresti  scrivere  GOS  Ciao!   Per
+parlare   ad   un    solo   personaggio   usa    il   comando  TELL
+<NOMEPERSONAGGIO>  <MESSAGGIO>.   Per   urlare  qualcosa,  usa   il
+comando SHOUT  <QUELLO CHE   VUOI URLARE>;  ti  sentiranno  tutti i
+personaggi  presenti  nel  Mud:  quindi,  fallo  solo   se c'e'  un
+motivo veramente importante. Tieni  presente che,  per  poter usare
+il   comando SHOUT, devi essere almeno di secondo  livello,  e  che
+lo  stesso   comando ti   sottrarra'  un certo    numero  di  punti
+magia   e  movimento    (i  livelli   sono  spiegati  piu'  sotto).
+Esistono   molti  altri   comandi   usati   per  comunicare     tra
+personaggi: essi non  compiono alcuna  azione, ma servono solo  per
+comunicare  stati   d'animo  ed  emozioni:  essi  vengono  chiamati
+comandi  sociali ('socials'  in inglese   ). Per  sorridere,   puoi
+usare     il    comando    SMILE;    per     sorridere    ad     un
+determinato  personaggio,  usa  SMILE  <NOMEPERSONAGGIO>,   e cosi'
+via. Di   questi comandi  ce  ne  sono   decine,  e  possono essere
+molto divertenti  da usare;   ma stai  attento a  non abusarne,  e,
+soprattutto, a non usarli in  modo   offensivo. Li  scoprirai    in
+maniera    naturale   giocando:  quando   vedrai   un   personaggio
+compiere un'azione strana  (saltare  in  alto  come un canguro,  ad
+esempio :-)),  chiedigli come  ha  fatto,  e lui  te lo insegnera'.
+Comunque, puoi averne la lista scrivendo HELP COMANDI SOCIALI.
 
-Prima di avventurarti nel mondo esterno, ti conviene far pratica in citta'   dei
-comandi  di    uso  piu'   comune.  Inoltre,    cerca  di  esplorarla, cosi'  da
-essere con facilita'  in grado di  trovare un certo posto, o un negozio,  quando
-ne avrai bisogno.  All'interno  di un   negozio,  usa  il   comando  <LIST>  per
-sapere   cosa  vende  il negoziante,   e  i   comandi  BUY   <OGGETTO>  e   SELL
-<OGGETTO> per, rispettivamente, acquistare  o vendere  un oggetto  (per  vendere
-un  oggetto  devi  averlo  in  mano, e  comunque  non  tutti  i  negozianti sono
-interessati  ad  ogni  sorta  di  oggetto).  Per  sapere  se  un   negoziante e'
-interessato ad  acquistare un  tuo oggetto,  ed a  quale prezzo,  usa il comando
-VALUE <OGGETTO>.
+Prima di avventurarti nel mondo esterno, ti conviene far pratica in
+citta'   dei comandi  di    uso  piu'   comune.  Inoltre,     cerca
+di   esplorarla,  cosi'   da  essere  con  facilita'   in  grado di
+trovare un  certo posto,  o un  negozio,  quando  ne avrai bisogno.
+All'interno   di  un    negozio,  usa   il    comando   <LIST>  per
+sapere    cosa   vende   il  negoziante,    e   i    comandi    BUY
+<OGGETTO>  e   SELL  <OGGETTO> per, rispettivamente,  acquistare  o
+vendere  un oggetto   (per  vendere un   oggetto  devi  averlo   in
+mano, e  comunque  non   tutti  i  negozianti sono  interessati  ad
+ogni  sorta   di  oggetto).   Per  sapere   se  un    negoziante e'
+interessato ad  acquistare  un  tuo oggetto,   ed a  quale  prezzo,
+usa il comando VALUE <OGGETTO>.
 
-Una stanza di  Midia ha  una  funzione particolare, la  stanza  delle donazioni.
-Essa  si trova  ad Est  del Tempio  della Giustizia  (la stanza in cui entri  in
-gioco per la  prima volta), e contiene  gli oggetti che altri avventurieri hanno
-lasciato a  disposizione  delle  'matricole'. In   questa stanza   puoi prendere
-qualsiasi oggetto, e considerarlo tuo.  Gli  oggetti che si  trovano  qui dentro
-sono, in  genere, sempre  sufficienti a  costruirti un  equipaggiamento di base,
-adatto ai  tuoi primi  livelli. Oooops!!!   Cos'e' un  livello ?  Un livello  e'
-la misura della tua esperienza:  esso va da 1 a  70 (1  e' il livello  di chi ha
-appena   iniziato a  giocare, 70  il livello   dei Dei  degli Dei),  e lo  puoi
-incrementare facendo punti esperienza; il modo piu' comune  per farli e'  quello
-di affrontare,  ed uccidere, dei mob,  ossia dei  nemici guidati  dal  computer.
-A questo punto, parliamo del combattimento.
+Una  stanza di   Midia ha   una  funzione  particolare, la   stanza
+delle  donazioni.  Essa   si  trova   ad  Est   del  Tempio   della
+Giustizia  (la stanza in cui entri  in gioco per la  prima  volta),
+e contiene   gli oggetti  che altri  avventurieri hanno  lasciato a
+disposizione   delle   'matricole'.   In    questa  stanza     puoi
+prendere qualsiasi oggetto, e  considerarlo tuo.  Gli  oggetti  che
+si  trovano   qui dentro  sono, in   genere, sempre   sufficienti a
+costruirti  un   equipaggiamento  di base,  adatto  ai   tuoi primi
+livelli. Oooops!!!   Cos'e' un  livello ?  Un livello  e' la misura
+della tua esperienza:  esso va da 1 a  70 (1  e' il livello  di chi
+ha appena   iniziato  a  giocare, 70   il livello   dei  Dei  degli
+Dei),  e lo   puoi incrementare facendo  punti esperienza; il  modo
+piu' comune  per farli e'  quello di affrontare,  ed uccidere,  dei
+mob,  ossia  dei  nemici  guidati  dal   computer. A  questo punto,
+parliamo del combattimento.
 
-Il  combattimento  -  vista l'ambientazione   di  TS  - sara'  parte  importante
-della tua vita. Scontro dopo scontro, il tuo personaggio guadagnera'  esperienza
-(che viene  misurata in  punti,  chiamati in gergo muddistico xp,  abbreviazione
-di eXperience Points). Il numero di xp totalizzati sino  ad ora, cosi' come   il
-numero  di xp   che ti  mancano per  il prossimo  livello, e'  visualizzato dal
-comando SCORE;  puoi anche  inserire quest'ultimo   valore nel  tuo PROMPT.  Una
-volta raggiunti i punti  necessari per salire di  livello, devi andare  dal  tuo
-capogilda (le  gilde delle  classi si   trovano all'interno  di Midia o poco  al
-di fuori delle mura, e, se ancora non sei  riuscito a trovare la tua,  significa
-che non sei abbastanza esperto  per  le difficolta'  del mondo  esterno :-))   e
-digitare  il comando  GAIN. Passando   di  livello,  il  tuo  numero   di  punti
-ferita  e magia aumentera', e otterrai diritto a delle sessioni di  allenamento,
-con le  quali potrai  migliorare la  conoscenza che  il tuo  personaggio  ha  di
-determinate abilita'  (in inglese,  skills) o  incantesimi (in inglese, spells).
-Il comando da usare  e' PRACTICE: usalo davanti  al tuo  capogilda  per   sapere
-quante  sessioni   di  allenamento    ti rimangono,   e  per   avere  un  elenco
-delle  tue   conoscenze.  Per  migliorare il  tuo personaggio  in una abilita' o
-incantesimo,  usa  il  comando PRACTICE  <NOMEABILITA'  O  NOMEINCANTESIMO>. Se,
-invece, vuoi saperne  le caratteristiche,  puoi semplicemente  usare il  comando
-HELP   (HELP   <NOMEABILITA'   O   NOMEINCANTESIMO>).   Per   usare un'abilita',
-in genere devi solo  scriverne il nome;  in ogni  caso, il loro uso e'  spiegato
-proprio nell'help relativo. Tieni  presente che  ogni capogilda  puo' insegnarti
-solo cio'  che sa,  e quindi verra'  il fatidico giorno in cui ti sentirai  dire
-'Mi dispiace,  ma non posso insegnarti  di piu''.  Beh, sappi che a  quel  punto
-dovrai andare alla ricerca di  una nuova gilda per  la tua classe, con  un  capo
-in grado di farti  progredire ulteriormente. Inoltre,  esistono  incantesimi  ed
-abilita'  particolari  che  non  vengono  insegnati all'interno di gilde, ma  da
-dei saggi,  sparsi per  il mondo:   questi ultimi,   oltre  a  richiederti delle
-sessioni  di   allenamento, si  faranno  pagare    per  i    loro  insegnamenti.
-Comunque,   non  ti  preoccupare: c'e'   ancora tempo   prima che   arrivi quel
-giorno, e, sino  ad  allora,  puoi  fare  riferimento alle  gilde   cittadine di
+Il   combattimento   -   vista l'ambientazione    di   TS   - sara'
+parte   importante della  tua vita.  Scontro dopo  scontro, il  tuo
+personaggio guadagnera'  esperienza (che viene  misurata in  punti,
+chiamati  in  gergo  muddistico  xp,   abbreviazione  di eXperience
+Points). Il numero di xp totalizzati sino  ad ora, cosi' come    il
+numero   di xp    che ti   mancano per   il prossimo   livello, e'
+visualizzato dal comando SCORE;  puoi anche  inserire  quest'ultimo
+valore nel  tuo PROMPT.  Una volta raggiunti i punti  necessari per
+salire  di  livello,  devi andare   dal  tuo  capogilda (le   gilde
+delle  classi  si   trovano  all'interno  di  Midia o  poco  al  di
+fuori delle mura, e, se ancora non sei  riuscito a trovare la  tua,
+significa che non sei abbastanza esperto  per  le difficolta'   del
+mondo  esterno :-))   e  digitare  il comando  GAIN.  Passando   di
+livello,  il  tuo  numero   di  punti ferita  e magia aumentera', e
+otterrai diritto a  delle sessioni di   allenamento, con le   quali
+potrai  migliorare la  conoscenza che  il tuo  personaggio  ha   di
+determinate  abilita'   (in inglese,   skills)  o  incantesimi  (in
+inglese, spells). Il comando  da usare  e' PRACTICE:  usalo davanti
+al tuo  capogilda  per   sapere quante  sessioni   di   allenamento
+ti rimangono,   e  per   avere  un  elenco delle  tue   conoscenze.
+Per  migliorare il  tuo personaggio  in una abilita' o incantesimo,
+usa  il  comando PRACTICE  <NOMEABILITA'  O  NOMEINCANTESIMO>.  Se,
+invece,  vuoi  saperne   le  caratteristiche,   puoi  semplicemente
+usare    il     comando    HELP      (HELP      <NOMEABILITA'     O
+NOMEINCANTESIMO>).   Per   usare  un'abilita', in genere  devi solo
+scriverne il nome;  in ogni  caso, il loro uso e'  spiegato proprio
+nell'help  relativo.  Tieni   presente  che   ogni  capogilda  puo'
+insegnarti solo cio'  che sa,  e quindi verra'  il fatidico  giorno
+in cui ti sentirai  dire 'Mi dispiace,  ma non posso insegnarti  di
+piu''.  Beh, sappi che a  quel  punto dovrai andare alla ricerca di
+una nuova gilda per  la tua classe, con  un  capo in grado di farti
+progredire  ulteriormente.  Inoltre,   esistono   incantesimi    ed
+abilita'  particolari  che  non  vengono  insegnati all'interno  di
+gilde, ma  da  dei saggi,  sparsi  per  il mondo:    questi ultimi,
+oltre  a  richiederti delle sessioni  di   allenamento, si  faranno
+pagare     per   i     loro   insegnamenti.  Comunque,    non    ti
+preoccupare: c'e'   ancora tempo   prima che   arrivi quel  giorno,
+e,  sino   ad   allora,    puoi   fare   riferimento  alle    gilde
+cittadine di
 Midia, la capitale dell'Impero Celeste!
 
 Per continuare, scrivi HELP CONTINUAMUD
 #
 CONTINUAMUD
+ Nel    Mud   incontrerai    diverse   'creature';     alcuni  sono
+ personaggi  -   che    sono   guidati    da    altri    giocatori,
+ esattamente   come  te   (in gergo   muddistico chiamati pc,   che
+ significa   playing   character,  cioe'   personaggio   giocante) 
+ -  mentre  altri  sono  gestiti  dal computer, e vengono detti mob
+ (che sta  per mobile objects - oggetti mobili - ma che in  inglese
+ significa anche 'marmaglia' :-))   o npc (non playing  characters,
+ cioe' personaggi  non giocanti,  proprio   in  quanto guidati  dal
+ computer). Per avere piu' informazioni sui  mob, scrivi  HELP MOB.
+ I comandi  che usi con i pc   e con i mob sono  gli stessi.  Oltre
+ ai comandi di  comunicazione gia' visti,  puoi guardare un  pc/mob
+ con  il  comando  LOOK <NOME>,  e  vederne  le caratteristiche,  e
+ cos'ha indosso  ( il  suo  EQUIPMENT,  cioe'). Per  i pc,   <NOME>
+ equivale  proprio al   nome del  personaggio,  mentre  per i   mob
+ basta una qualsiasi delle  parole che  ne compongono  il nome  (ad
+ esempio,  per guardare il  cubo gelatinoso  verde, ti   basterebbe
+ scrivere   LOOK  CUBO):   Per  lanciare  degli   incantesimi,  usa
+ il  comando   CAST <NOMEINCANTESIMO>,  o,  se sei  uno   psionico,
+ MIND   <NOMEINCANTESIMO>.  il  nome   dell'incantesimo deve essere
+ racchiuso  tra  apostrofi. Ad   esempio, per   lanciare un   dardo
+ incantato   (magic   missile)    scrivi    CAST   'MAGIC  MISSILE'
+ <BERSAGLIO>. Il  bersaglio  e' il nome del   mob contro  cui  vuoi
+ gettare  il   dardo. Ogni   incantesimo  richiede  degli argomenti
+ diversi (gli argomenti sono  tutto  cio' che scrivi dopo il   nome
+ dell'incantesimo;  in  questo  caso,  c'era  un  solo   argomento,
+ il  nome del bersaglio), che puoi imparare  usando il comando HELP
+ (HELP <NOMEINCANTESIMO>). L'esempio  del  dardo incantato  non  e'
+ casuale: Tempora Sanguinis, come  la gran parte  dei Diku Mud,  e'
+ vagamente  ispirato  al  sistema di  gioco  della  TSR, l'Advanced
+ Dungeons   &  Dragons.  Per  certi   versi, un    Mud  si comporta
+ infatti  proprio     come    un      Dungeon     Master,       col
+ vantaggio     di    essere assolutamente   imparziale,  e   molto,
+ molto  piu'   veloce.  :-)   Se  decidi   di combattere  contro un
+ mob,   usa   prima  il   comando  CONSIDER,  scrivendo    CONSIDER
+ <NOME>: cosi', potrai sapere  se  si tratta di  uno scontro   alla
+ tua  portata o  no. Sappi che  alcune volte potresti  non avere il
+ tempo  di  usare   questo  comando:  alcuni  mob,   infatti,  sono
+ tendenzialmente  aggressivi,    e  ti   attaccheranno    a   vista
+ (potrebberlo  farlo   perche'  ce l'hanno  con   quelli  della tua
+ razza, della tua  classe, del tuo allineamento morale - cioe',  tu
+ sei  buono  mentre loro   sono  cattivi, etc.  -   perche' tu  hai
+ ucciso un loro   amico, o semplicemente   perche' odiano  tutti  i
+ pc). Per   iniziare  uno   scontro (in    cui combatterai   usando
+ l'arma   che hai   in   pugno  in  quel   momento),  scrivi   KILL
+ <NOME>.  Il    mob  avversario    reagira'   al     tuo   attacco,
+ molto   probabilmente     entrando  anch'esso   in   combattimento
+ (altri    mob  potrebbero  scappare,  oppure  -  se  sono   maghi 
+ - dileguarsi... o  usare uno  dei   loro tremendi  incantesimi  su
+ di  te  : -)). Se  invece del comando  KILL  lanci un  incantesimo
+ aggressivo   addosso ad un mob,  egli si  comportera'  come  se lo
+ avessi   attaccato.    Sono    aggressivi   gl'incantesimi     che
+ infliggono      danno,     o      che     in      qualche     modo
+ indeboliscono il loro  bersaglio (un incantesimo  di  accecamento,
+ ad  esempio).  Durante il   combattimento, potrai   usare le   tue
+ abilita'   ed i  tuoi incantesimi  esattemente come  in qualsiasi
+ altro  momento   del  gioco,  con  un'unica  avvertenza:  non puoi
+ lanciare  incantesimi,   ed  usare   alcune  abilita',  se  il tuo
+ nemico   ti  ha  gettato  a terra;   in  quel  caso,  dovrai prima
+ rialzarti  con   il  comando    STAND.  Sii   veloce,  perche'  in
+ combattimento il mob  non sta certo ad aspettare  i  tuoi  comodi!
+ Se le  cose  si mettono  male,  non puoi  scappare  usando uno dei
+ comandi di  movimento  (NORTH, etc.),  ma  devi usare  il  comando
+ FLEE.  Se  questo  comando riesce,   ti   troverai  in   un'altra
+ stanza, adiacente  a   quella in   cui  ti trovavi  prima,  e,   a
+ questo  punto, potrai  usare   i  comandi  suddetti.  Ma  attento,
+ perche'  il  mob  ti  inseguira', e   quindi devi   essere  veloce
+ ad allontanarti  da  lui! Probabilmente,   vorrai   correre    via
+ da   lui   piu' velocemente possibile. Per far cio', puoi usare il
+ comando   RUN   <DIREZIONE>.    Ad   esempio,   con    RUN   NORTH
+ (abbreviabile   in     RUN   N),     ti   mettersti     a  correre
+ forsennatamente verso  nord:  la  tua corsa   si arrestera'  nella
+ prima  stanza  priva  di   uscite  verso   nord,  o   quando avrai
+ terminato i tuoi  punti  movimento. Se  invece riesci ad  uccidere
+ il  tuo   avversario,  guadagnerai   punti  esperienza,  e  potrai
+ disporre  degli   oggetti   e   dei   soldi   contenuti   nel  suo
+ cadavere. Per impossessarti  dei  suoi  soldi,  scrivi  GET  COINS
+ FROM <NOME>.    Il totale  dei   tuoi  averi   viene  visualizzato
+ dal comando   SCORE. Per  guardare cosa portava  con se'  il  mob,
+ scrivi  LOOK  <NOME>, e,  per prendere uno  dei  suoi oggetti, usa
+ il comando  GET  <OGGETTO> FROM <NOME>.  Se vuoi prendere tutti  i
+ suoi oggetti, scrivi GET ALL  FROM <NOME>.
 
-Nel  Mud incontrerai  diverse 'creature';   alcuni sono  personaggi - che   sono
-guidati   da  altri   giocatori, esattamente   come  te   (in gergo   muddistico
-chiamati pc,  che  significa  playing  character, cioe'  personaggio   giocante)
--  mentre  altri  sono  gestiti  dal computer, e vengono detti mob (che sta  per
-mobile objects - oggetti mobili - ma che in  inglese significa anche 'marmaglia'
-:-))  o npc (non playing characters, cioe' personaggi non giocanti, proprio   in
-quanto guidati dal computer). Per avere piu' informazioni sui  mob, scrivi  HELP
-MOB. I comandi  che usi con i pc  e con i mob sono  gli stessi. Oltre ai comandi
-di comunicazione gia' visti, puoi guardare un pc/mob con il comando LOOK <NOME>,
-e vederne le caratteristiche, e   cos'ha indosso  ( il  suo  EQUIPMENT,  cioe').
-Per  i pc,  <NOME> equivale proprio al  nome del personaggio,  mentre per i  mob
-basta una qualsiasi delle  parole che  ne compongono  il nome (ad  esempio,  per
-guardare il  cubo gelatinoso  verde, ti  basterebbe scrivere   LOOK CUBO):   Per
-lanciare  degli  incantesimi,  usa  il  comando   CAST <NOMEINCANTESIMO>, o,  se
-sei  uno  psionico,  MIND   <NOMEINCANTESIMO>.  il  nome   dell'incantesimo deve
-essere racchiuso  tra apostrofi. Ad  esempio, per  lanciare un  dardo  incantato
-(magic missile)  scrivi  CAST 'MAGIC MISSILE'  <BERSAGLIO>. Il  bersaglio  e' il
-nome del   mob contro  cui vuoi  gettare  il  dardo. Ogni  incantesimo  richiede
-degli argomenti diversi (gli argomenti sono  tutto cio' che scrivi dopo il  nome
-dell'incantesimo;  in  questo  caso,  c'era  un  solo  argomento,   il  nome del
-bersaglio), che puoi imparare  usando il comando HELP  (HELP <NOMEINCANTESIMO>).
-L'esempio del  dardo incantato non  e' casuale: Tempora Sanguinis, come  la gran
-parte  dei Diku Mud,  e' vagamente  ispirato  al  sistema di  gioco  della  TSR,
-l'Advanced  Dungeons  & Dragons.  Per certi  versi, un   Mud si comporta infatti
-proprio    come   un     Dungeon    Master,     col    vantaggio     di   essere
-assolutamente  imparziale,  e  molto,  molto  piu'  veloce.  :-)  Se  decidi  di
-combattere contro un mob,  usa  prima il  comando CONSIDER, scrivendo   CONSIDER
-<NOME>: cosi', potrai sapere  se  si tratta di  uno scontro  alla tua  portata o
-no. Sappi che alcune volte potresti non avere il tempo di usare  questo comando:
-alcuni mob,  infatti,  sono  tendenzialmente aggressivi,  e ti attaccheranno   a
-vista (potrebberlo farlo  perche' ce l'hanno con  quelli della tua  razza, della
-tua  classe, del tuo allineamento morale - cioe', tu sei buono mentre loro  sono
-cattivi, etc. -  perche' tu hai  ucciso un loro  amico, o semplicemente  perche'
-odiano  tutti i   pc). Per  iniziare  uno  scontro (in   cui combatterai  usando
-l'arma  che hai  in   pugno in  quel  momento),  scrivi  KILL <NOME>.  Il    mob
-avversario    reagira'   al    tuo   attacco,   molto  probabilmente    entrando
-anch'esso  in  combattimento  (altri   mob potrebbero scappare, oppure - se sono
-maghi - dileguarsi... o usare uno  dei  loro tremendi  incantesimi su  di  te  :
--)). Se  invece del comando  KILL  lanci un  incantesimo aggressivo   addosso ad
-un mob,  egli si  comportera'  come  se lo   avessi attaccato.  Sono  aggressivi
-gl'incantesimi    che   infliggono    danno,   o    che   in    qualche    modo
-indeboliscono il loro  bersaglio (un incantesimo  di accecamento,  ad  esempio).
-Durante il  combattimento, potrai  usare le  tue abilita'  ed i tuoi incantesimi
-esattemente come in qualsiasi altro momento  del gioco, con un'unica avvertenza:
-non puoi lanciare incantesimi,  ed usare  alcune abilita', se il tuo  nemico  ti
-ha gettato a terra;  in quel caso, dovrai prima rialzarti con il comando  STAND.
-Sii veloce, perche' in combattimento il mob  non sta certo ad aspettare  i  tuoi
-comodi! Se le  cose si mettono  male, non puoi  scappare usando uno dei  comandi
-di  movimento (NORTH, etc.),  ma devi usare  il comando FLEE. Se  questo comando
-riesce,  ti   troverai in   un'altra  stanza, adiacente  a   quella in   cui  ti
-trovavi  prima,  e,  a  questo  punto, potrai  usare  i  comandi  suddetti.  Ma
-attento,  perche'  il  mob  ti  inseguira', e   quindi devi   essere veloce   ad
-allontanarti  da  lui! Probabilmente,   vorrai   correre   via   da   lui   piu'
-velocemente possibile. Per far cio', puoi usare il comando RUN <DIREZIONE>.   Ad
-esempio, con   RUN NORTH   (abbreviabile in   RUN N),   ti mettersti   a correre
-forsennatamente verso  nord:  la  tua corsa   si arrestera' nella   prima stanza
-priva di  uscite verso  nord, o  quando avrai terminato i tuoi punti  movimento.
-Se invece riesci ad uccidere  il tuo  avversario, guadagnerai  punti esperienza,
-e potrai  disporre degli  oggetti  e  dei  soldi  contenuti  nel  suo  cadavere.
-Per impossessarti  dei suoi  soldi,  scrivi  GET COINS  FROM <NOME>.   Il totale
-dei   tuoi averi   viene visualizzato   dal comando   SCORE. Per  guardare cosa
-portava  con se'  il  mob, scrivi  LOOK  <NOME>, e,  per prendere uno  dei  suoi
-oggetti, usa  il comando  GET  <OGGETTO> FROM <NOME>.  Se vuoi prendere tutti  i
-suoi oggetti, scrivi GET ALL  FROM <NOME>.
+Probabilmente   ti  sarai    chiesto perche'   in   queste   ultime
+righe  abbiamo parlato sempre  di   mob,  e non  di  pc/mob.   Beh,
+il   fatto   e'   che su  Tempora  Sanguinis,   al  contrario    di
+quanto   avviene    nei   Mud   stranieri,   non    e'  normalmente
+possibile per due pc  combattere fra di loro, ma solo contro i  mob
+(i  personaggi   guidati dal    computer).  Questa  scelta   rende,
+secondo  noi, il Mud molto  piu'  godibile  e divertente:  non  sei
+costretto   a guardarti sempre alle  spalle, non corri il   rischio
+di   essere  attaccato  a  tradimento   da  chi  pochi   istanti si
+professava tuo   amico, non   ci sono   faide che   possano rendere
+questo mondo  invivibile per i  tuoi  pc, e  - in zone  come Midia,
+in  cui   si   e'   al riparo   dai   mob   -   ti  puoi  veramente
+rilassare.
 
-Probabilmente   ti  sarai   chiesto perche'   in  queste   ultime righe  abbiamo
-parlato sempre  di  mob,  e non  di  pc/mob.  Beh, il  fatto  e'  che su Tempora
-Sanguinis,  al  contrario   di  quanto  avviene   nei  Mud  stranieri,  non   e'
-normalmente  possibile per due pc  combattere fra di loro, ma solo contro i  mob
-(i personaggi  guidati dal   computer). Questa  scelta  rende,  secondo  noi, il
-Mud molto  piu'  godibile  e divertente:  non sei costretto   a guardarti sempre
-alle  spalle, non corri il  rischio  di  essere attaccato  a tradimento  da  chi
-pochi  istanti si   professava tuo   amico, non   ci sono   faide che   possano
-rendere questo mondo  invivibile per i  tuoi  pc, e  - in zone  come Midia,   in
-cui  si  e'  al riparo  dai  mob  -  ti  puoi veramente rilassare.
+Pero',  in un  mondo selvaggio  come quello  di Tempora  Sanguinis,
+cavarsela da  soli e'  comunque difficile,  se non   impossibile. I
+mob  sono  intelligenti, e   si  organizzano  in  gruppi   prima di
+attaccarti, e   spesso  sono   molto  forti: inoltre,   alcuni   di
+essi     sono    a   conoscenza   di    incantesimi  ed    abilita'
+terrificanti.  Stando  cosi'  le  cose,  per  i  pc   che  vogliano
+affrontare i   nemici piu' potenti -  e  sono  loro ad  offrire   i
+piu'  grandi  premi   in  termini  di punti  esperienza (xp)  e di
+oggetti  -  e' necessario  coalizzare  le  proprie  forze.  Per far
+cio',  essi  si uniscono  in   un  gruppo. Un  gruppo  e'   formato
+da un  insieme di   giocatori, uno  dei quali  assume  il  ruolo di
+capogruppo;  ogni  volta che  egli  si  muove,  tutti  gli altri lo
+seguono,  automaticamente.  Per  seguire  un  pc,   che  diventera'
+quindi   il   capo   del    gruppo,   usa   il   comando     FOLLOW
+<NOMECAPOGRUPPO>.  Appena egli   rispondera' con il   comando GROUP
+<TUONOME>,  tu entrerai  a  far  parte  del    suo  gruppo    (che,
+se     necessario,   verra'  creato   automaticamente).   Se   egli
+dara'   un'altra volta   il  comando  GROUP <TUONOME>, tu  cesserai
+di far  parte del gruppo. A quel  punto, per smettere  di seguirlo,
+scrivi  FOLLOW   <TUONOME>  (si',  proprio  il    tuo  nome!).  Per
+avere l'elenco  dei componenti  del  gruppo  in cui  ti  trovi, usa
+il comando  GROUP. Per dire  qualcosa che  venga sentito  da  tutti
+i tuoi    compagni di    gruppo, dovunque   essi  si   trovino  nel
+mondo,   usa  il  comando  GTELL.   Se vuoi   sapere  quanti gruppi
+esistono in un certo  istante  in Tempora Sanguinis, quali sono   i
+loro nomi, e chi ne fa  parte, usa il comando GWHO. Se  invece vuoi
+avere  la lista  di  tutti   i  personaggi  collegati  su   Tempora
+Sanguinis, usa  il comando WHO. Finche'  stai  all'interno   di  un
+gruppo,  tutti  i    punti  esperienza   che  realizzerete verranno
+equamente divisi  tra di voi (il capogruppo, ed  i membri di   piu'
+alto  livello  all'interno  del  gruppo,  ne  prendono  un  po'  di
+piu'),  ma,   considerando  che  i  mob  uccisi   da   un    gruppo
+forniscono piu'  xp   (anche  se  poi vanno, appunto,   divisi),  e
+che  in  gruppo  e'  possibile  affrontare e  sconfiggere  pericoli
+molto maggiori,  giocare insieme   in questo  modo paga  sempre (e,
+infatti,  vedrai  che   in  ogni  istante   il  numero  di   gruppi
+esistenti  e' piuttosto  elevato). Per   di piu',  nei momenti   di
+relax hai  qualcuno  con  cui parlare  e scherzare...  che vuoi  di
+piu' ?! :-)
 
-Pero',  in un  mondo selvaggio  come quello  di Tempora  Sanguinis, cavarsela da
-soli e' comunque difficile, se non  impossibile. I  mob sono intelligenti, e  si
-organizzano  in gruppi  prima di   attaccarti, e   spesso  sono   molto  forti:
-inoltre,   alcuni   di  essi   sono   a conoscenza  di  incantesimi ed  abilita'
-terrificanti. Stando cosi' le cose, per i pc  che vogliano affrontare i   nemici
-piu' potenti -  e  sono  loro ad  offrire  i  piu' grandi  premi  in  termini di
-punti esperienza (xp) e di oggetti - e' necessario coalizzare le  proprie forze.
-Per far  cio',  essi  si uniscono  in  un  gruppo. Un  gruppo  e'  formato da un
-insieme di  giocatori, uno dei quali assume  il ruolo di capogruppo;  ogni volta
-che egli  si muove,  tutti gli altri lo seguono, automaticamente. Per seguire un
-pc,  che  diventera'   quindi  il  capo  del  gruppo,  usa  il  comando   FOLLOW
-<NOMECAPOGRUPPO>.  Appena egli  rispondera' con il  comando GROUP <TUONOME>,  tu
-entrerai  a  far  parte  del    suo  gruppo    (che,  se    necessario,  verra'
-creato  automaticamente).  Se  egli  dara'   un'altra volta   il  comando  GROUP
-<TUONOME>, tu cesserai di far  parte del gruppo. A quel  punto, per smettere  di
-seguirlo,  scrivi FOLLOW  <TUONOME> (si',  proprio il   tuo nome!).  Per  avere
-l'elenco  dei componenti  del  gruppo  in cui  ti  trovi, usa il comando  GROUP.
-Per dire  qualcosa che  venga sentito  da tutti   i tuoi   compagni di   gruppo,
-dovunque  essi  si  trovino  nel mondo,  usa il  comando GTELL.  Se vuoi  sapere
-quanti gruppi  esistono in un certo  istante in Tempora Sanguinis, quali sono  i
-loro nomi, e chi ne fa parte, usa il comando GWHO. Se invece vuoi avere la lista
-di  tutti  i  personaggi collegati  su  Tempora  Sanguinis, usa  il comando WHO.
-Finche'  stai  all'interno   di  un  gruppo,  tutti  i   punti  esperienza   che
-realizzerete verranno  equamente divisi  tra di voi (il capogruppo, ed  i membri
-di  piu' alto livello  all'interno del  gruppo, ne  prendono un  po' di   piu'),
-ma,  considerando che i mob uccisi  da  un  gruppo  forniscono piu'  xp   (anche
-se  poi vanno, appunto,  divisi),  e  che  in  gruppo  e'  possibile  affrontare
-e  sconfiggere pericoli  molto maggiori,  giocare insieme  in questo  modo paga
-sempre (e,  infatti, vedrai che  in ogni istante  il numero di gruppi  esistenti
-e' piuttosto elevato). Per  di piu', nei momenti  di relax hai qualcuno  con cui
-parlare e scherzare... che vuoi di  piu' ?! :-)
-
-Infine, come si  esce dal  gioco  ? Beh, essenzialmente  in  due modi.  Il primo
-consiste  nell'usare il comando  QUIT: tutti i  tuoi punti esperienza   verranno
-salvati,  ma perderai   tutti i  tuoi  oggetti. L'alternativa e'  di andare alla
-locanda, e di affittare una stanza, col comando RENT.  Questo ti permettera'  di
-salvare sia  i tuoi  xp che i tuoi  preziosissimi averi, anche se  - per poterlo
-fare -  devi essere in grado di pagare l' affitto per tutto il tempo che il  tuo
-pc restera' alla locanda (il prezzo standard e' di 100 monete d'oro al  giorno  
--  giorno  'reale'  non  Mud  :-)  -  ma  puo'  aumentare  se  possiedi oggetti
+Infine, come si   esce dal  gioco   ? Beh, essenzialmente   in  due
+modi.   Il primo  consiste  nell'usare  il comando   QUIT: tutti  i
+tuoi punti  esperienza   verranno  salvati,  ma  perderai   tutti i
+tuoi   oggetti.  L'alternativa e'   di  andare alla  locanda,  e di
+affittare una stanza, col comando RENT.  Questo ti permettera'   di
+salvare sia  i tuoi  xp  che i tuoi  preziosissimi averi,  anche se
+- per poterlo fare -  devi essere in grado di pagare l' affitto per
+tutto il  tempo che  il  tuo  pc restera'  alla locanda  (il prezzo
+standard e' di 100 monete d'oro al  giorno  -  giorno  'reale'  non
+Mud    :-)   -    ma   puo'    aumentare   se    possiedi  oggetti
 particolarmente rari o preziosi)).
 
-Se, in  qualsiasi  momento  del gioco,   hai bisogno  di  aiuto,  usa il comando
-HELP. Se l'HELP non  riesce a chiarire i  tuoi dubbi, prova a  chiedere ad altri
-giocatori, ma senza abusare della loro  pazienza. I Cavalieri del Destino(quelli
-con  la  sigla  [CdD])   saranno  felici  di  aiutarti,  quindi   non  esitare a
-rivolgerti a loro  per  chiedere aiuto. Se proprio   non riesci a  risolvere  il
-tuo  problema, usa il comando  WHO  per  vedere  se c'e'  un  Dio  collegato,  e
-prova  a chiedergli  aiuto  con il   comando GOSSIP  (gli  Dei  sentono tutti  i
-GOSSIP, da qualsiasi parte del mondo provengano).
+Se, in  qualsiasi   momento  del gioco,    hai bisogno  di   aiuto,
+usa  il comando  HELP. Se  l'HELP non   riesce a  chiarire i   tuoi
+dubbi, prova a  chiedere ad altri giocatori, ma senza abusare della
+loro   pazienza.  I  Cavalieri del  Destino(quelli  con   la  sigla
+[CdD])   saranno   felici  di   aiutarti,  quindi    non  esitare a
+rivolgerti a loro  per  chiedere  aiuto. Se proprio   non riesci  a
+risolvere  il tuo  problema, usa  il comando  WHO  per  vedere   se
+c'e'  un   Dio  collegato,   e prova   a chiedergli   aiuto  con il
+comando GOSSIP  (gli   Dei  sentono tutti   i GOSSIP, da  qualsiasi
+parte del mondo provengano).
 
 Soprattutto,  cerca  di  divertirti. Noi  crediamo  che  su Tempora
 Sanguinis questo sia possibile.
