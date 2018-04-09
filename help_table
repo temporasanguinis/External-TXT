@@ -448,15 +448,17 @@ $c0015Uso$c0015           : timepkill
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 60 ore del mud
 $c0010Livello$c0010       : Eroe o LoaL
-$c0014Tiro salvezza$c0014 : Nessuno - Feeblemind e mind wipe non hanno effetto
-                sugli skill o le magie praticate dalla vittima.
+$c0014Tiro salvezza$c0014 :  Nessuno - Feeblemind  e mind wipe  non
+hanno effetto sugli skill o le magie praticate dalla vittima.
 
-Il comando TIMEPKILL  attiva  il flag  PKILL agli  Eroi e ai LoaL:  diversamente
-dall'arena, per le morti in  PKILL vengono assegnati e sottratti  punti  secondo
-lo  schema  sotto   riportato;    inoltre,  in  questo  tipo   di  combattimenti
-l'equipaggiamento e' a  rischio, e puo'  venire distrutto da  una magia o  da un
-forte colpo  proprio come  accade nei  normali combattimenti  contro i  mob. Per
-tutta la  durata del  PKILL, nessun  altro giocatore  che non  sia in pkill, puo
+Il comando TIMEPKILL  attiva  il flag  PKILL agli  Eroi e ai  LoaL:
+diversamente dall'arena, per le morti in  PKILL vengono assegnati e
+sottratti    punti    secondo   lo    schema    sotto    riportato;
+inoltre,  in  questo  tipo   di  combattimenti l'equipaggiamento e'
+a  rischio, e puo'  venire distrutto  da  una magia o  da un  forte
+colpo  proprio  come  accade  nei  normali  combattimenti  contro i
+mob. Per tutta la  durata del  PKILL, nessun  altro giocatore   che
+non  sia in pkill, puo
 lanciare incantesimi di qualunque tipo sul pg in questione.
 
 PKILL tra LOAL: 20 mega al vincitore; -50 mega allo sconfitto.
