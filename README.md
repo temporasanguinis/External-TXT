@@ -6,7 +6,7 @@ Per proporre modifiche, e' consigliabile usare l'editor integrato, e quando si f
 
 Esempio di HELP: 
 Deve inziare per forza con il simbolo 
-#
+\#
 PAROLA CHIAVE
 nuova linea
 descrizione libera possibilmente rispettando la larghezza standard sul file
@@ -15,7 +15,7 @@ Vedi anche: PAROLE CHIAVE CORRELATE
 
 help greed:
 
-#
+\#
 GREED
 
 Sintassi: greed
