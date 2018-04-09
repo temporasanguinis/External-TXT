@@ -8,9 +8,13 @@ Esempio di HELP:
 Deve inziare per forza con il simbolo 
 \#
 PAROLA CHIAVE
+
 nuova linea
+
 descrizione libera possibilmente rispettando la larghezza standard sul file
+
 nuova linea,
+
 Vedi anche: PAROLE CHIAVE CORRELATE
 
 help greed:
