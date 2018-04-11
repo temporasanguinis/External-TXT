@@ -8861,6 +8861,8 @@ POSTA
 CALLIOPE
 EXODUS
 CINDY
+QUEST
+AREAQUEST
 
 Infine, per ottenere la lista completa dei comandi a te disponibili,
 usa il comando COMMANDS.
@@ -9104,7 +9106,7 @@ Il successo in tali missioni donera' loro il diritto di possedere un
 feudo, e di divenire cosi' LORD OF A LAND, o di entrare ad Asgard, la
 dimora degl'IMMORTALI.
 
-Vedi anche: DEI, IMMORTALI, LOAL, QUESTOR, DHETHOR
+Vedi anche: DEI, IMMORTALI, LOAL, QUESTOR, DHETHOR, AREAQUEST
 
 #
 IMMORTALI
@@ -10227,6 +10229,7 @@ documento.
                     Note di Gabriel   HELP AREA_C
 
 --------------------------------------------------------------------
+
 #
 AREA_1
 
@@ -10265,6 +10268,7 @@ beneficio,  e, piu'  in generale,  non  potranno  dotare la loro area di
 alcun  meccanismo scritto  in funzione dei loro personaggi: infatti, pur
 essendo gli autori di quelle aree, non ne sono - in termini di gioco - i
 padroni.
+
 #
 AREA_2
 
@@ -10328,6 +10332,7 @@ modificata, per correggere errori  di sintassi o di  impostazione.
 Terminato  il testing, l'area verra' aggiunta al mondo dell'Impero
 Celeste, e  il nome  dell'autore  verra' aggiunto nella Sala degli
 Esploratori, perche' sia sempre ricordato con stima e gratitudine.
+
 #
 AREA_3
 
@@ -10827,6 +10832,7 @@ Feudali: salvo macroscopici errori di sintassi, di ambientazione o
 di  bilanciamento,  essi non  vengono toccati  dalle  Divinita' di
 Tempora Sanguinis, perche' sono proprieta' dei loro autori *anche*
 in termini di gioco.
+
 #
 AREA_A
 
@@ -10893,6 +10899,7 @@ chiave (a meno che non sia una cosa voluta).
 Inoltre, con il Report uscite, ci si assicuri di non aver lasciato
 nessuna descrizione d'uscita  di default  (nel caso, e'  possibile
 rimuoverle con Elimina descrizione promemoria).
+
 #
 AREA_B
 
@@ -10922,6 +10929,7 @@ accettata e messa su piu' velocemente:
   scartate.
 
 Dryden
+
 #
 AREA_C
 
@@ -11114,6 +11122,7 @@ giudicare i prezzi, tenete conto di alcuni fattori.
   fuoco.
  
 Vedi anche: LISTINO
+
 #
 LISTINO
 
@@ -11518,6 +11527,7 @@ dal pg stesso. In caso contrario, o se la colpa e' del pg stesso, i sigilli
 non verranno restituiti.
 
 $c0010----------------------------------------------------------------$c0007
+
 #
 BACKUP
 
@@ -11569,6 +11579,8 @@ Per questo tipo di servizio rivolgersi soltanto a $c0015Nis$c0007.
 Se ci dovessero essere problemi il servizio potrebbe essere tolto in qualunque momento 
 e senza preavviso.
 
+Vedi anche: SOCKET
+
 #
 "DEATH TRAP"
 
@@ -11580,6 +11592,7 @@ frantumazione dell'EQ, il giocatore dovra' recarsi da un fabbro per
 ripararlo.
 
 Vedi anche: PSIONIC DANGER SENSE
+
 #
 ANTIDT
 
@@ -11935,6 +11948,7 @@ di combattimento prolungata e particolarmente intensa, nella quale
 si uccidono molti mob, in sequenza.
 
 Vedi anche: ESPERIENZA
+
 #
 GAG GAGLIST
 
@@ -12887,7 +12901,7 @@ un'altra. Il comando per interagire con lui e' QUEST / MISSIONE:
                                quest, o per poterne chiedere un'altra
     quest info                 per rileggere il compito assegnato
 
-VEDI ANCHE: -
+VEDI ANCHE: QUEST, AREAQUEST
 
 #
 GREED
@@ -12898,6 +12912,142 @@ Tramite questo comando, sacrificando 1 punto Karma, il pg otterra' un bonus
 agli XP ed ai sigilli ottenuti nei successivi 25 minuti (tick) di gioco.
 
 Vedi anche: KARMA, SIGILLI, XP
+
+#
+SOCKET SOCKETABLE CRISTALLI CRISTALLO ARTIFACT 
+
+Sintassi: insert <<oggetto artifact>> <<oggetto socketable>>
+
+In Tempora Sanguinis sono stati introdotti alcuni oggetti chiamati 
+SOCKET,che possono essere trovati in maniera casuale nei corpi di
+specifici MOB presenti nelle aree frequentate dagli eroi. Questi 
+oggetti, che riportano il flag SOCKETABLE, risultano inizialmente
+privi di apply e caratteristiche. 
+Essi pero’ possono essere migliorati grazie all’inserimento degli
+oggetti ARTIFACT, ovvero di specifici CRISTALLI che ne possono 
+migliorare le caratteristiche, fino a livelli addirittura superiori 
+a quelli normalmente raggiungibili tramite EDIT del LISTINO dei sigilli 
+divini.
+Nel corso delle tue avventure nell’Impero Celeste, ti capiterà di 
+trovare nel corpo degli avversari sconfitti CRISTALLI di vario genere
+(forza, vita, potere, spirito, concentrazione, salute, difesa, 
+rigenerazione, salvezza). Tali oggetti possono a volte comparire quando
+l’avversario sconfitto e’ al massimo di due livelli inferiori rispetto 
+al livello di colui che ha sferrato il colpo mortale.
+Migliorare le caratteristiche di questi oggetti pero’ non e’ azione 
+priva di rischi. Un inserimento sbagliato puo’ portare a ridurre la 
+specifica caratteristica gia’ precedentemente migliorata, azzerarla 
+del tutto o addirittura portare alla rottura dell’oggetto stesso.
+
+Tramite il comando “INSERT <<ARTIFACT>> <<SOCKETABLE>>”, si puo’ tentare
+di migliorare le caratteristiche dell’oggetto con rischi e costi in 
+monete crescenti, inserendo fino a 10 cristalli per tipo, rispettando
+il numero massimo di slot presenti nel pezzo, ovvero 5.
+
+Gli oggetti SOCKETABLE diventano PERSONAL una volta indossati.
+I pezzi SOCKET hanno diversi nomi che li rendono riconoscibili (per 
+esempio Mantello del Gelo, Maniche dell’Oscurita’, Visiera della 
+Fiamma).
+
+Vista la natura rischisa e l’alto costo di miglioramento, vengono 
+normalmente usati dagli eroi piu’ esperti che cosi’ possono sperare di
+migliorare il loro equipaggiamento. Per i personaggi meno esperti i 
+cristalli possono essere una preziosa merce di scambio per ottenere 
+equipaggiamento utilizzabile senza costi o rischi.
+
+Esempio:
+Tizium vuole aumentare i suoi HP con l’inserimento di CRISTALLI VITA nel
+suo Orecchino del Gelo, un oggetto SOCKETABLE. Ha 10 cristalli vita 
+a disposizione.
+Il primo cristallo viene inserito perfettamente, senza costi aggiuntivi.
+Il secondo cristallo e’ a sua volta inserito correttamente con un costo
+in denaro di 100000 monete. L’orecchino del Gelo ora riporta come 
+apply 10 hp. Il terzo inserimento pero’ non va a buon fine. Tizium 
+spende comunque le 200000 monete necessarie, ma riporta il numero di
+hp dell’oggetto a 5. Se Tizium riuscisse ad inserire 5 cristalli e 
+se volesse provare ad inserire un sesto cristallo, questo inserimento
+sarebbe molto piu’ rischioso dei precedenti. Se l’inserimento non 
+andasse a buon fine, il pezzo potrebbe tornare a 0 per quanto riguarda
+l’apply HP. Con inserimenti superiori il pezzo potrebbe addirittura
+andare distrutto, risultando inutilizzabile. I rischi e i costi sono 
+proporzionati al valore della apply finale dell’oggetto.
+
+Vedi anche: SIGILLI, LISTINO
+
+#
+AREAQUEST ZONAQUEST
+
+Nell’impero Celeste eroi e avventurieri trovano sempre nuove avventure
+da vivere in gruppo o in solitaria per guadagnare SIGILLI DIVINI e SIGILLI
+ELEMENTALI. Oltre alle missioni ed agli eventi organizzati dagli immortali
+e dagli dei, esistono dei MOB, detti QUESTOR, che assegnano compiti speciale 
+specifiche zone QUEST, dove i giocatori possono mettersi alla prova per 
+ottenere oggetti rari e potenti, premi unici e speciali e SIGILLI DIVINI.
+
+Un' AREAQUEST o ZONAQUEST è una zona speciale, nella quale i personaggi 
+dovranno risolvere un’avventura. Le zone QUEST, dette anche QUEST FISSE, sono:
+- LE DODICI CASE, una zona dedicata ai NON-EROI o a NEO-EROI, posta nell’oceano 
+greco. I giocatori dovranno portare lo scudo di Atena alla moribonda Lady 
+Isabel,sconfiggendo i cavalieri dello zodiaco che si troveranno sul loro 
+percorso, fino alla sconfitta di Ares. Oltre ai SIGILLI ELEMENTALI presenti 
+sui MOB della quest, una volta consegnato lo scudo a Lady Isabel, i giocatori
+potranno ottenere dei buoni XP o delle armature speciali che potranno essere
+accumulate e unite, formando cosi’ oggetti piu’ potenti.
+- MORROWINDL, una zona dedicata a giocatori con PWP inferiore a 1200. Gli 
+eroi dovranno portare il loro soccorso agli elfi della citta’ di Arborlon,
+sconfiggendo i potenti demoni che assediano la città e il temibile Wisteron,
+un gigantesco ragno capace di sputare acido sui suoi nemici. Alla fine dell’
+avventura i giocatori, oltre ai SIGILLI DIVINI e ai SIGILLI ELEMENTALI, 
+riceveranno delle monete speciali che permetteranno ai giocatori di ottenere
+dei pezzi di equipaggiamento forgiati dagli elfi di morrowindl. Tra questi 
+pezzi ne esistono tre dotati di particolari caratteristiche che permetteranno
+ai giocatori di potenziare il proprio personaggio.
+- BLACK HEART, dopo aver recuperato l’indizio dalla veggente di Camelot, i 
+giocatori dovranno affrontare una serie di sfide per poi consegnare al Custode
+del Cristallo il medaglione di ghiaccio, l’anello del fuoco e il cuore del 
+demone distruttore, ottenendo cosi’ preziosi SIGILLI DIVINI. Questa quest e’
+riservata ai giocatori entro un certo livello di PWP.
+- ATLANTIDE, i giocatori dovranno detronizzare l’usurpatore del regno di 
+Atlantide, sconfiggere il terribile Leviatano e riportare sul trono il vero 
+Re. Oltre ai SIGILLI ELEMENTALI e i SIGILLI DIVINI (consegnati anche alla fine
+della quest), i giocatori avranno la possibilita’ di accettare in dono uno tra
+due oggetti proposti dal nuovo re. Alcuni oggetti presenti in questa avventura
+sono molto potenti e rari, come gli scudi elementali (che donano immunita’ ad 
+alcuni elementi) o le scintille divine che donano ai personaggi caster il 
+potere delle SLAY MAGICHE.
+- RAVENLOFT, un luogo d’ombra popolato da creature oscure guidate dal potente 
+Stradh. I giocatori affronteranno schiere di nemici, guadagnando SIGILLI 
+DIVINI.
+- IL LABIRINTO SOPRA LE NUVOLE, una zona che cambia ad ogni avventura, dove 
+ogni stanza rivela insidie e potenti nemici. I giocatori dovranno avventurarsi
+al di sopra delle nuvole per sfidare gli angeli presenti, guadagnando SIGILLI
+DIVINI.
+- I PORTALI DIMENSIONALI. I popoli liberi sono l’ultimo baluardo per tutti 
+coloro che vogliono sconfiggere le terribili creature planari, provenienti 
+da dimensioni astrali lontane ed inaccessibili. Alla fine dell’avventura i 
+giocatori riceveranno SIGILLI DIVINI, oltre alle gemme e ai cristalli trovati
+lungo il percorso. Questa avventura, data la sua complessita’, e’ destinata 
+a giocatori.con PWP superiore al 400.
+Esistono alcune zone che, seppur non caratterizzate da particolari narrazioni
+di fondo o procedure particolari di gioco, consentono ai giocatori di 
+guadagnare SIGILLI DIVINI. Tra queste vi sono l’OLIMPO, ALIENI, I CREPACCI 
+DEI GIGANTI DI GHIACCIO, I DEMONI, DROWCITY e altre ancora. Alcune di queste
+zone possono essere completate solo una volta a reboot.
+
+Oltre alle aree riservate, esistono due QUESTOR che si aggirano per le strade di Mida:
+- DHETHOR IL QUESTOR, che si puo’ trovare nella parte sud di MIDIA, assegna 
+all’avventuriero la ricerca di un oggetto rubato, indicandogli la location
+nella quale potra’ essere ritrovato. Ad ogni Reboot potranno essere svolte 
+fino a 15 ricerche, che una volta portate a termine verranno premiate in 
+base al livello del personaggio con punti esperienza, punti karma e sigilli
+di diverso tipo.
+- EOWARION L’ERRANTE, che gira per le strade del centro di MIDIA, assegna 
+all’avventuriero una Quest card, su cui sono presenti 4 oggetti da recuperare. 
+Ogni oggetto trovato fara’ ottenere ai personaggi 1 sigillo divino e un 
+premioin denaro. Se la scheda verra’ completata, il premio risultera’ piu’
+consistente.
+
+Vedi anche: DHETHOR, QUEST
 
 #~
 
