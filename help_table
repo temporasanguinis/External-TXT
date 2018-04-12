@@ -10115,7 +10115,7 @@ che ella conoscesse dei metodi per migliorare il corpo e  per
 essere  piu' potenti in combattimento.  Di sicuro e' solo una
 delle tante leggende dell'Impero.
 
-Vedi anche: EROI
+Vedi anche: EROI, TRAIN
 
 #
 RISORSE
@@ -13048,6 +13048,22 @@ premioin denaro. Se la scheda verra’ completata, il premio risultera’ piu’
 consistente.
 
 Vedi anche: DHETHOR, QUEST
+
+#
+TRAIN
+
+Gli eroi possono migliorare le proprie caratteristiche da CINDY, attraverso 
+l'utilizzo degli xp accumulati con il comando PRAC. Esiste pero' un'ulteriore modo 
+attraverso cui e' possibile aumentare la potenza del proprio personaggio. Utilizzando 
+i SIGILLI DIVINI e i SIGILLI ELEMENTALI possono essere effettuati dei TRAIN.
+Ciascun TRAIN aggiunge dei punti ai propri valori di HIT POINTS, MANA, MOVIMENTO, 
+HITROLL, DAMROLL, MANA REGEN, HIT REGEN, MOV REGEN E SPELLPOWER.
+Il costo per il primo TRAIN di ogni caratteristica, costa 400 sigilli per ogni tipo. 
+Ad ogni TRAIN di quella specifica caratteristica, il costo aumenta di ulteriori
+400 sigilli per tipo.
+I TRAIN non contano nel massimale dello SPELLPOWER raggiungibile sull'equipaggiamento.
+
+Vedi anche: CINDY, LISTINO
 
 #~
 
