@@ -3825,7 +3825,7 @@ usato in vari modi.
 Vedi anche: EXAMINE, READ
 
 #
-OPEN CLOSE LOCK UNLOCK
+OPEN CLOSE LOCK UNLOCK CUT DIG PUSH PULL TWIST LIFT
 
 Il comando  'OPEN' serve per  aprire sia porte di ogni tipo, sia
 contenitori chiusi, come ad esempio scrigni, scatole. Per aprire
@@ -3847,6 +3847,15 @@ I comandi LOCK ed UNLOCK servono rispettivamente per chiudere  a
 chiave ed aprire una porta od un contenitore (se il  contenitore
 ha una serratura, come per esempio un baule).Ovviamente, occorre
 essere in possesso (in inventario) della giusta chiave.
+
+Oltre a questi comandi  specifici  per porte, cancelli e  grate,
+esistono altri modi per interagire  con  il  mondo  circostante, 
+permettendo cosi' ai giocatori di aprire passaggi segreti e non.
+Questi comandi  sono:  PULL  (tirare),  PUSH  (spingere),  TWIST
+(ruotare), lIFT (sollevare), TURN  (girare),  CUT  (tagliare)  e 
+DIG (scavare).
+Questi ultimi due, DIG e CUT, necessitano  di  oggetti speciali,
+come lame o picconi, dotati delle apposite caratteristiche.
 
 Vedi anche: LOCK, UNLOCK, PICK, KNOCK
 
@@ -4801,7 +4810,7 @@ In particolare:
 - Per riporre tutti gli oggetti di un certo tipo: put all.pane borsa
 - Per riporre un certo numero di oggetti simili:  put 9*pane borsa
 
-Vedi anche: GET, DROP
+Vedi anche: GET, DROP, PUOR, FILL
 
 #
 EXAMINE
@@ -4921,7 +4930,7 @@ che, a maggior ragione, un umano,  puo' decidere di  inseguire la
 vittima, poiche' chi vede  una persona  scappare conosce anche la
 direzione verso la quale si e' diretto.
 
-Vedi anche: RETREAT
+Vedi anche: RETREAT, WIMP
 
 #
 IMPLEMENTOR
@@ -4941,7 +4950,7 @@ per conoscere l'email degli dei bisogna usare il commando:
 Vedi anche: GODLIST
 
 #
-GUILD
+GUILD GUILDMASTER
 
 Le gilde sono i luoghi dove tutti i giocatori possono andare per
 crescere  e imparare  nuove abilita'  quando  hanno raggiunto la
@@ -5005,6 +5014,19 @@ Monaci: Imparano da  Lee, nel  monastero.  Esso si  trova viaggiando
         verso  Ovest,  Nord, poi  nuovamente verso  Ovest e di nuovo
         Nord,  partendo dalla  Piazza del Mercato; in ogni direzione
         bisogna fare circa 4 o 5 spostamenti.
+        
+        
+--- Altri maestri ---------------------------------------------------
+
+Oltre alle gilde esistono vari maestri sparsi  per  l'impero  celeste 
+dove si possono imparare altre skill o capacita' speciali.
+Non e' detto che tutte le abilita' da loro insegnate  possano  essere
+imparate  dal  vostro  personaggio,  in  quanto adatte solo ad alcune 
+classi.
+Questi maestri sono: Freccia d'oro, il cacciatore, il  maestro  Ninja, 
+il maestro dei monaci Lee,  il  Marinaio  di  Midia  e  la  venerabile 
+Maestra.
+
 
 Vedi anche: PRACTICE, GAIN
 
@@ -7796,7 +7818,10 @@ $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0007 : 60
 
 Con questa disciplina lo Psionico forza il suo corpo a non sentire piu'
-fame o sete per 12 ore. 
+fame o sete per 12 ore. Questo comando puo' essere usato dallo psionico
+per servirsi di cibi e bevande, senza provare sazieta'.
+Lo psionico puo' sfruttare questa abilita' per bere molte pozioni in un
+brevissimo arco di tempo.
 
 Vedi anche: -
  
@@ -12895,7 +12920,7 @@ a volte tra troppi disedit e spostamenti non si capisce piu' quale oggetto
 si sta usando, in quel caso il conteggio viene sempre fatto.
  
 #
-QUESTOR DHETHOR
+QUESTOR DHETHOR EOWARION
 
 Chi vuole mettere alla prova la sua conoscenza dell'Impero Celeste vada nella
 parte sud di Midia e cerchi il saggio Dhethor. Egli vi potra' affidare delle
@@ -12911,6 +12936,17 @@ un'altra. Il comando per interagire con lui e' QUEST / MISSIONE:
     quest time/tempo           per sapere quanto tempo resta per compiere la
                                quest, o per poterne chiedere un'altra
     quest info                 per rileggere il compito assegnato
+    
+Oltre al saggio Dhethor, esiste un altro questor, Eowarion, che gira per le strade di 
+Midia assegnando all'avventuriero una Questcard, su cui sono presenti 4 oggetti da 
+recuperare. Ogni oggetto trovato fara' ottenere ai personaggi 1 sigillo divino e un 
+premio in denaro. Se la scheda verra' completata, il premio risultera' piu' 
+consistente. Per chiedergli una quest bastera' scrivere il comando:
+    
+    ask Eowarion Questcard
+    
+Leggendo la questcard, sara' possibile conoscere i comandi specifici e gli oggetti 
+necessari al compimento della missione.  
 
 VEDI ANCHE: QUEST, AREAQUEST
 
