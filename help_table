@@ -3852,7 +3852,7 @@ Oltre a questi comandi  specifici  per porte, cancelli e  grate,
 esistono altri modi per interagire  con  il  mondo  circostante, 
 permettendo cosi' ai giocatori di aprire passaggi segreti e non.
 Questi comandi  sono:  PULL  (tirare),  PUSH  (spingere),  TWIST
-(ruotare), lIFT (sollevare), TURN  (girare),  CUT  (tagliare)  e 
+(ruotare), LIFT (sollevare), TURN  (girare),  CUT  (tagliare)  e 
 DIG (scavare).
 Questi ultimi due, DIG e CUT, necessitano  di  oggetti speciali,
 come lame o picconi, dotati delle apposite caratteristiche.
@@ -4810,7 +4810,7 @@ In particolare:
 - Per riporre tutti gli oggetti di un certo tipo: put all.pane borsa
 - Per riporre un certo numero di oggetti simili:  put 9*pane borsa
 
-Vedi anche: GET, DROP, PUOR, FILL
+Vedi anche: GET, DROP, POUR, FILL
 
 #
 EXAMINE
@@ -7820,8 +7820,6 @@ $c0012Costo in mana$c0007 : 60
 Con questa disciplina lo Psionico forza il suo corpo a non sentire piu'
 fame o sete per 12 ore. Questo comando puo' essere usato dallo psionico
 per servirsi di cibi e bevande, senza provare sazieta'.
-Lo psionico puo' sfruttare questa abilita' per bere molte pozioni in un
-brevissimo arco di tempo.
 
 Vedi anche: -
  
