@@ -10096,7 +10096,14 @@ Si  dice che, in qualche lontano  angolo dell'Impero Celeste,
 viva la Saggia  Calliope.  Ella  possiede  una caratteristica
 unica,  tale  che molti  la  ritengono una semplice leggenda.
 
-Vedi anche: EROI
+Calliope permette a partire dal livello 21 di migliorare le 
+statistiche di FORZA, DESTREZZA, INTELLIGENZA, CARISMA, SAGGEZZA
+e COSTITUZIONE al costo di 10 pratiche per ogni punto aggiuntivo. 
+Dal livello 31, le pratiche necessarie per ogni punto saranno 5.
+In alternativa e' possibile usare 25 mega di xp per comprare una 
+pratica o utilizzare 3 GEMME della tipologia richiesta.
+
+Vedi anche: EROI, GEMME
 
 #
 EXODUS
@@ -11808,6 +11815,8 @@ di oggetto, lo stesso oggetto va junkato$c0007 quindi fatevi i conti prima.
 E' possibile chiedere servizi su tali oggetti $c0009SOLO a Nis o Dimitric0007, 
 dall'edit normale, al passaggio per cancellazione.
 
+Vedi anche: RANDOMPOP
+
 #
 COMUNICARE COMUNICAZIONE
 
@@ -11965,6 +11974,7 @@ I messaggi da parte degl'IMPLEMENTOR, degli DEI e degli SPIRITI GUIDA
 non possono essere bloccati col comando GAG.
 
 Vedi anche: -
+
 #
 BANCA BANK BANCHE
 
@@ -11977,6 +11987,7 @@ banca pubblica e' quella di  Midia (dal  Centro di Midia: sud,  3 est,
 I comandi per le operazioni bancarie sono DEPOSIT, WITHDRAW e BALANCE.
 
 Vedi anche: BALANCE, WITHDRAW, DEPOSIT.
+
 #
 BALANCE
 
@@ -12972,7 +12983,7 @@ l'apply HP. Con inserimenti superiori il pezzo potrebbe addirittura
 andare distrutto, risultando inutilizzabile. I rischi e i costi sono 
 proporzionati al valore della apply finale dell'oggetto.
 
-Vedi anche: SIGILLI, LISTINO
+Vedi anche: SIGILLI, LISTINO, RANDOMPOP
 
 #
 AREAQUEST ZONAQUEST
@@ -13034,7 +13045,8 @@ guadagnare SIGILLI DIVINI. Tra queste vi sono l'OLIMPO, ALIENI, I CREPACCI
 DEI GIGANTI DI GHIACCIO, I DEMONI, DROWCITY e altre ancora. Alcune di queste
 zone possono essere completate solo una volta a reboot.
 
-Oltre alle aree riservate, esistono due QUESTOR che si aggirano per le strade di Mida:
+Oltre alle aree riservate, esistono due QUESTOR che si aggirano per le strade
+di Mida:
 - DHETHOR IL QUESTOR, che si puo' trovare nella parte sud di MIDIA, assegna 
 all'avventuriero la ricerca di un oggetto rubato, indicandogli la location
 nella quale potra' essere ritrovato. Ad ogni Reboot potranno essere svolte 
@@ -13053,17 +13065,100 @@ Vedi anche: DHETHOR, QUEST
 TRAIN
 
 Gli eroi possono migliorare le proprie caratteristiche da CINDY, attraverso 
-l'utilizzo degli xp accumulati con il comando PRAC. Esiste pero' un'ulteriore modo 
-attraverso cui e' possibile aumentare la potenza del proprio personaggio. Utilizzando 
-i SIGILLI DIVINI e i SIGILLI ELEMENTALI possono essere effettuati dei TRAIN.
+l'utilizzo degli xp accumulati con il comando PRAC. Esiste pero' un'ulteriore
+modo attraverso cui e' possibile aumentare la potenza del proprio personaggio.
+Utilizzando i SIGILLI DIVINI e i SIGILLI ELEMENTALI possono essere effettuati 
+dei TRAIN.
 Ciascun TRAIN aggiunge dei punti ai propri valori di HIT POINTS, MANA, MOVIMENTO, 
 HITROLL, DAMROLL, MANA REGEN, HIT REGEN, MOV REGEN E SPELLPOWER.
-Il costo per il primo TRAIN di ogni caratteristica, costa 400 sigilli per ogni tipo. 
-Ad ogni TRAIN di quella specifica caratteristica, il costo aumenta di ulteriori
-400 sigilli per tipo.
+Il costo per il primo TRAIN di ogni caratteristica, costa 400 sigilli per ogni
+tipo. Ad ogni TRAIN di quella specifica caratteristica, il costo aumenta di 
+ulteriori 400 sigilli per tipo.
 I TRAIN non contano nel massimale dello SPELLPOWER raggiungibile sull'equipaggiamento.
 
 Vedi anche: CINDY, LISTINO
+
+#
+GEMME
+
+Le gemme sono oggetti RANDOMPOP, che possono comparire nel corpo di alcuni mob 
+una volta sconfitti. Le gemme possono essere di vario genere e servono a migliorare 
+le propriestatistiche da CALLIOPE, in alternativa a XP e PRATICHE.
+
+Vedi anche: CALLIOPE, RANDOMPOP
+
+#
+RANDOMPOP
+
+In alcune occasioni, sconfiggendo dei MOB specifici, e' possibile scorgere 
+all'interno del loro corpo degli oggetti RANDOMPOP. Essi sono riconoscibili per 
+via della frase che comparira' alla morte dei MOB, che ti invitera' a controllare
+il contenuto del loro corpo.
+Questi oggetti possono essere di vario tipo: CRISTALLI, GEMME, OGGETTI SOCKET, 
+RAMI DI LIS o altri oggetti speciali.
+
+Questi ultimi sono degli oggetti che appaiono in 4 o 5 versioni, ciascuna con 
+diversi apply. Gli oggetti sono:
+
+- denti di vampiro                          (5 tipi)
+- amuleto delle tempeste                    (4 tipi)
+- maschera dell'ira                         (5 tipi)
+- gambali della stella cadente              (5 tipi)
+- manto delle ombre                         (5 tipi)
+- scudo nero con una falce di luna bianca   (5 tipi)
+- stivali in pelle di drago bianco          (5 tipi)
+- guanti del potere                         (5 tipi)
+- globi pulsanti                            (4 tipi)
+- maniche di viverna artica                 (5 tipi)
+
+Questi pezzi, qualora si possieda tutta la serie di un tipo specifico (per esempio 
+tutti e 5 i denti di vampiro), possono essere uniti per formare un oggetto piu'
+potente, che riportera' alcune caratteristiche casuali dei pezzi uniti insieme.
+Per unire i pezzi bisogna recarsi presso le streghe alla torre della magia.
+
+Vedi anche: GEMME, SOCKET, QUESTLIS
+
+#
+"SCALA DEI DANNI" DANNI
+
+Ogni colpo portato a termine riporta la potenza e la forza del danno effettuato,
+tramite una descrizione del danno stesso. Soltanto chi utilizza la modalita' di 
+gioco powerplay (PWP) conosce la precisa entita' del danno fatto.
+La scala dei danni e' la seguente:
+
+manca
+colpisce appena
+colpisce di striscio
+colpisce
+colpisce con forza
+colpisce con molta forza
+colpisce con estrema ferocia
+massacra
+>> decima <<
+>> mutila <<
+<> devasta <>
+<> DEMOLISCE <>
+-<>-DISTRUGGE-<>-
+-=-=-SPAPPOLA-=-=-
+-=-=-SMEMBRA-=-=-
+-=-=-SCONQUASSA-=-=-
+<><><>SMINUZZA<><><>
+<><><>SQUARCIA<><><>
+(<>) DISINTEGRA (<>)
+..* DISGREGA *..
+*._POLVERIZZA_.*
+*-.NEBULIZZA.-*
+<>ATOMIZZA<>
+<><>FOLGORA<><>
+*.*ANNICHILISCE*.*
+<*>OBLITERA<*>
+*:*NUCLEARIZZA*:*
+***ANNIENTA***
+***SMATERIALIZZA***
+
+Vedi anche: PWP, RPG
+
+
 
 #~
 
