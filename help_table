@@ -13017,6 +13017,29 @@ l'apply HP. Con inserimenti superiori il pezzo potrebbe addirittura
 andare distrutto, risultando inutilizzabile. I rischi e i costi sono 
 proporzionati al valore della apply finale dell'oggetto.
 
+----- Tabella degli inserimenti dei cristalli ----------------------------------
+
+- da +0 a +1  probabilita' di riuscita 80% in caso di fail si perde solo 
+              il cristallo, costo 0 monete
+- da +1 a +2  probabilita' di riuscita 73% in caso di fail si perde solo 
+              il cristallo, costo 100k monete
+- da +2 a +3  probabilita' di riuscita 66% in caso di fail si perde il cristallo 
+              e l'oggetto ritorna al livello precedente, costo 200k monete
+- da +3 a +4  probabilita' di riuscita 59% in caso di fail si perde il cristallo 
+              e l'oggetto ritorna al livello precedente, costo 300k monete
+- da +4 a +5  probabilita' di riuscita 52% in caso di fail si perde il cristallo 
+              e l'oggetto ritorna al livello precedente, costo 400k monete
+- da +5 a +6  probabilita' di riuscita 45% in caso di fail si perde il cristallo 
+              e l'oggetto ritorna al livello ZERO, costo 500k monete
+- da +6 a +7  probabilita' di riuscita 38% in caso di fail si perde il cristallo 
+              e l'oggetto ritorna al livello ZERO, costo 1M monete
+- da +7 a +8  probabilita' di riuscita 31% in caso di fail si perde il cristallo 
+              e l'oggetto ritorna al livello ZERO, costo 2M monete
+- da +8 a +9  probabilita' di riuscita 24% in caso di fail si perde il cristallo 
+              e l'oggetto ritorna al livello ZERO, costo 3M monete
+- da +9 a +10 probabilita' di riuscita 17% in caso di fail si distrugge tutto
+              (oggetto, cristallo, soldi) costo 5M monete
+
 Vedi anche: SIGILLI, LISTINO, RANDOMPOP
 
 #
