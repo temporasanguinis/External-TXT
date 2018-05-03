@@ -12862,32 +12862,30 @@ Attivando la skill sara' possibile usare cast, mind e recall anche da seduti.
 #
 FRIGHTEN INTIMORISCI
 
-Social per eroi supremi dal livello 4 in su, ossia dal livello in rosso.
-Sintassi: frighten (argomento)
-Usato senza argomento genera un messaggio nella stanza.
-Usato con l'argomento zone genera un messaggio visibile in tutta l'area 
-in cui si trova il personaggio;  questa opzione funziona dal livello
-bianco in su.
-Usato con l'argomento world genera un messaggio visibile a tutto il mud;
-questa opzione e' solo per gli eroi supremi di livello 6 (grigio scuro).
+Social per eroi supremi dal livello  4 in su, ossia dal livello  in
+rosso. Sintassi: frighten (argomento) Usato senza argomento  genera
+un messaggio  nella stanza.  Usato con  l'argomento zone  genera un
+messaggio visibile in tutta l'area in cui si trova il  personaggio;
+questa  opzione  funziona  dal  livello  bianco  in  su.  Usato con
+l'argomento  world genera  un messaggio  visibile a  tutto il  mud;
+questa opzione e'  solo per gli  eroi supremi di  livello 6 (grigio
+scuro).
 
 #
 FIX AGGIUSTA
 
-Questo comando puo' essere utilizzato presso un barbaro oppure un ranger
-che hanno gia praticato la skill repair, in modo da riparare piu' 
-velocemente i vostri oggetti.
-La sintassi e': Fix <oggetto> <personaggio>
-dove "oggetto" e' l'oggetto che volete appunto riparare, e "personaggio" 
-e' il nome del personaggio, barbaro o ranger, in grado di riparare oggetti.
-Se il riparatore non fallisce la skill non viene laggato dalla riparazione,
-subisce invece un lag minimo se la riparazione fallisce, e il personaggio
-che usa fix.
-L'oggetto resta nell'inventario del riparatore per cui a fine riparazione
-andra' restituito.
-Il pagamento invece avviene automaticamente con una tassa del 10% in piu'
-su ogni riparazione che andra' al riparatore come ricompensa per il 
-servizio reso.  
+Questo comando puo' essere  utilizzato presso un barbaro  oppure un
+ranger che hanno gia praticato la skill repair, in modo da riparare
+piu' velocemente i  vostri oggetti. La  sintassi e': Fix  <oggetto>
+<personaggio>  dove  "oggetto"  e'  l'oggetto  che  volete  appunto
+riparare, e  "personaggio" e'  il nome  del personaggio,  barbaro o
+ranger, in grado di riparare oggetti. Se il riparatore non fallisce
+la skill non viene laggato dalla riparazione, subisce invece un lag
+minimo se la  riparazione fallisce, e  il personaggio che  usa fix.
+L'oggetto  resta  nell'inventario  del riparatore  per  cui  a fine
+riparazione  andra'   restituito.  Il   pagamento  invece   avviene
+automaticamente con una tassa del  10% in piu' su ogni  riparazione
+che andra' al riparatore come ricompensa per il servizio reso.  
 
 Vedi anche: REPAIR
  
@@ -12898,53 +12896,57 @@ rent/2 sigilli elementali per tipo
 
 #
 "WEAPON SPELL"
-Per quanto riguarda gli edit dei weapon spell sulle armi, se il dado
-dell'arma e' originale e l'arma e' riconoscibile, va bene anche se
-e' derentata, e dovete editare solo weapon spell elementali quali,
-freeze, scorch, spark, energy bolt, corrode, chill touch, il conteggio
-del danno totale dell'arma non viene fatto.
-Per esempio, su un martello elementale, potete editare anche 4 weapon
-spell, anche se il valore totale sara' maggiore di 60.
-Viene invece fatto il conteggio nel caso vogliate editare weapon spell
-quali i cause, light serious e critic, oppure vogliate cambiare il dado
-dell'arma.
-Puo' capitare invece che l'arma di base non e' riconoscibile per cui
-non e' possibile capire se il dado e' originale oppure e' stato cambiato,
-dato che la maggior parte delle volte, i sigilli applicati o non applicati
-sull'arma non sono un criterio valido, sia perche' ci possono essere premi 
-quest senza le key appropriate, sia perche' il sistema dei sigilli e' 
-soggetto a vari errori oppure ci sono applicati sigilli vecchi, sia perche'
-a volte tra troppi disedit e spostamenti non si capisce piu' quale oggetto
-si sta usando, in quel caso il conteggio viene sempre fatto.
- 
+Per quanto  riguarda gli  edit dei  weapon spell  sulle armi, se il
+dado  dell'arma e'  originale e  l'arma e'  riconoscibile, va  bene
+anche  se  e'  derentata,  e  dovete  editare  solo  weapon   spell
+elementali  quali,  freeze, scorch,  spark,  energy bolt,  corrode,
+chill  touch, il  conteggio del  danno totale  dell'arma non  viene
+fatto. Per esempio, su un martello elementale, potete editare anche
+4 weapon  spell, anche  se il  valore totale  sara' maggiore di 60.
+Viene invece fatto  il conteggio nel  caso vogliate editare  weapon
+spell  quali  i  cause, light  serious  e  critic, oppure  vogliate
+cambiare il dado dell'arma. Puo' capitare invece che l'arma di base
+non e' riconoscibile per cui non e' possibile capire se il dado  e'
+originale oppure e' stato cambiato, dato che la maggior parte delle
+volte, i sigilli  applicati o non  applicati sull'arma non  sono un
+criterio valido, sia perche' ci possono essere premi quest senza le
+key appropriate, sia perche' il  sistema dei sigilli e' soggetto  a
+vari errori oppure ci sono applicati sigilli vecchi, sia perche'  a
+volte tra troppi  disedit e spostamenti  non si capisce  piu' quale
+oggetto  si sta  usando, in  quel caso  il conteggio  viene sempre
+fatto.
+
 #
 QUESTOR DHETHOR EOWARION
 
-Chi vuole mettere alla prova la sua conoscenza dell'Impero Celeste vada nella
-parte sud di Midia e cerchi il saggio Dhethor. Egli vi potra' affidare delle
-missioni, e se le porterete a termine vi premiera' generosamente. Avrete un
-tempo limite entro il quale completare una missione, e c'e' un tempo minimo
-di attesa per poterne chiedere una nuova dopo averne completata o fallita
+Chi vuole mettere alla prova la sua conoscenza dell'Impero  Celeste
+vada nella parte sud di Midia  e cerchi il saggio Dhethor. Egli  vi
+potra' affidare  delle missioni,  e se  le porterete  a termine  vi
+premiera'  generosamente. Avrete  un tempo  limite entro  il quale
+completare  una missione,  e c'e'  un tempo  minimo di  attesa per
+poterne  chiedere  una  nuova  dopo  averne  completata  o  fallita
 un'altra. Il comando per interagire con lui e' QUEST / MISSIONE:
 
-    quest request/richiedi     per richiedere una missione al Questor
-    quest complete/completa    per fare rapporto al Questor una volta compiuta
-                               la missione
-    quest fail/fallita         per rinunciare alla quest
-    quest time/tempo           per sapere quanto tempo resta per compiere la
-                               quest, o per poterne chiedere un'altra
-    quest info                 per rileggere il compito assegnato
-    
-Oltre al saggio Dhethor, esiste un altro questor, Eowarion, che gira per le strade di 
-Midia assegnando all'avventuriero una Questcard, su cui sono presenti 4 oggetti da 
-recuperare. Ogni oggetto trovato fara' ottenere ai personaggi 1 sigillo divino e un 
-premio in denaro. Se la scheda verra' completata, il premio risultera' piu' 
-consistente. Per chiedergli una quest bastera' scrivere il comando:
-    
+    quest  request/richiedi      per  richiedere  una  missione  al
+    Questor quest complete/completa    per fare rapporto al Questor
+    una volta compiuta  la missione quest  fail/fallita         per
+    rinunciare  alla  quest quest  time/tempo            per sapere
+    quanto  tempo  resta  per  compiere  la  quest,  o  per poterne
+    chiedere un'altra quest  info                 per rileggere  il
+    compito assegnato
+
+Oltre al  saggio Dhethor,  esiste un  altro questor,  Eowarion, che
+gira  per  le  strade  di  Midia  assegnando  all'avventuriero  una
+Questcard,  su  cui sono  presenti  4 oggetti  da  recuperare. Ogni
+oggetto trovato fara' ottenere ai personaggi 1 sigillo divino e  un
+premio  in  denaro.  Se  la  scheda  verra'  completata,  il premio
+risultera'  piu'  consistente. Per  chiedergli  una quest  bastera'
+scrivere il comando:
+
     ask Eowarion Questcard
-    
-Leggendo la questcard, sara' possibile conoscere i comandi specifici e gli oggetti 
-necessari al compimento della missione.  
+
+Leggendo  la  questcard,   sara'  possibile  conoscere   i  comandi
+specifici e gli oggetti necessari al compimento della missione.  
 
 VEDI ANCHE: QUEST, AREAQUEST
 
@@ -12953,8 +12955,9 @@ GREED
 
 Sintassi: greed
 
-Tramite questo comando, sacrificando 1 punto Karma, il pg otterra' un bonus
-agli XP ed ai sigilli ottenuti nei successivi 25 minuti (tick) di gioco.
+Tramite questo comando, sacrificando 1 punto Karma, il pg  otterra'
+un bonus agli  XP ed ai  sigilli ottenuti nei  successivi 25 minuti
+(tick) di gioco.
 
 Vedi anche: KARMA, SIGILLI, XP
 
@@ -12963,199 +12966,215 @@ SOCKET SOCKETABLE CRISTALLI CRISTALLO ARTIFACT
 
 Sintassi: insert <<oggetto artifact>> <<oggetto socketable>>
 
-In Tempora Sanguinis sono stati introdotti alcuni oggetti chiamati 
-SOCKET,che possono essere trovati in maniera casuale nei corpi di
-specifici MOB presenti nelle aree frequentate dagli eroi. Questi 
-oggetti, che riportano il flag SOCKETABLE, risultano inizialmente
-privi di apply e caratteristiche. 
-Essi pero' possono essere migliorati grazie all'inserimento degli
-oggetti ARTIFACT, ovvero di specifici CRISTALLI che ne possono 
-migliorare le caratteristiche, fino a livelli addirittura superiori 
-a quelli normalmente raggiungibili tramite EDIT del LISTINO dei sigilli 
-divini.
-Nel corso delle tue avventure nell'Impero Celeste, ti capiterà di 
-trovare nel corpo degli avversari sconfitti CRISTALLI di vario genere
-(forza, vita, potere, spirito, concentrazione, salute, difesa, 
-rigenerazione, salvezza). Tali oggetti possono a volte comparire quando
-l'avversario sconfitto e' al massimo di due livelli inferiori rispetto 
-al livello di colui che ha sferrato il colpo mortale.
-Migliorare le caratteristiche di questi oggetti pero' non e' azione 
-priva di rischi. Un inserimento sbagliato puo' portare a ridurre la 
-specifica caratteristica gia' precedentemente migliorata, azzerarla 
-del tutto o addirittura portare alla rottura dell'oggetto stesso.
+In Tempora Sanguinis sono stati introdotti alcuni oggetti  chiamati
+SOCKET,che possono essere trovati  in maniera casuale nei  corpi di
+specifici MOB  presenti nelle  aree frequentate  dagli eroi. Questi
+oggetti, che riportano  il flag SOCKETABLE,  risultano inizialmente
+privi  di  apply  e  caratteristiche.  Essi  pero'  possono  essere
+migliorati grazie all'inserimento degli oggetti ARTIFACT, ovvero di
+specifici CRISTALLI che  ne possono migliorare  le caratteristiche,
+fino  a   livelli  addirittura   superiori  a   quelli  normalmente
+raggiungibili  tramite EDIT  del LISTINO  dei sigilli  divini. Nel
+corso  delle  tue  avventure nell'Impero  Celeste,  ti  capiterà di
+trovare  nel corpo  degli avversari  sconfitti CRISTALLI  di vario
+genere  (forza,  vita,  potere,  spirito,  concentrazione,  salute,
+difesa,  rigenerazione,  salvezza). Tali  oggetti  possono a  volte
+comparire  quando  l'avversario  sconfitto  e'  al  massimo  di due
+livelli inferiori rispetto al livello  di colui che ha sferrato  il
+colpo  mortale.  Migliorare le  caratteristiche  di questi  oggetti
+pero' non e' azione priva di rischi. Un inserimento sbagliato  puo'
+portare a ridurre la specifica caratteristica gia'  precedentemente
+migliorata, azzerarla del tutto o addirittura portare alla  rottura
+dell'oggetto stesso.
 
-Tramite il comando “INSERT <<ARTIFACT>> <<SOCKETABLE>>”, si puo' tentare
-di migliorare le caratteristiche dell'oggetto con rischi e costi in 
-monete crescenti, inserendo fino a 10 cristalli per tipo, rispettando
-il numero massimo di slot presenti nel pezzo, ovvero 5.
+Tramite il  comando “INSERT  <<ARTIFACT>> <<SOCKETABLE>>”,  si puo'
+tentare di migliorare le caratteristiche dell'oggetto con rischi  e
+costi in monete crescenti, inserendo fino a 10 cristalli per  tipo,
+rispettando il numero massimo di slot presenti nel pezzo, ovvero 5.
 
-Gli oggetti SOCKETABLE diventano PERSONAL una volta indossati.
-I pezzi SOCKET hanno diversi nomi che li rendono riconoscibili (per 
-esempio Mantello del Gelo, Maniche dell'Oscurita', Visiera della 
+Gli oggetti  SOCKETABLE diventano  PERSONAL una  volta indossati. I
+pezzi SOCKET hanno diversi  nomi che li rendono  riconoscibili (per
+esempio Mantello  del Gelo,  Maniche dell'Oscurita',  Visiera della
 Fiamma).
 
-Vista la natura rischisa e l'alto costo di miglioramento, vengono 
-normalmente usati dagli eroi piu' esperti che cosi' possono sperare di
-migliorare il loro equipaggiamento. Per i personaggi meno esperti i 
-cristalli possono essere una preziosa merce di scambio per ottenere 
-equipaggiamento utilizzabile senza costi o rischi.
+Vista la natura rischisa  e l'alto costo di  miglioramento, vengono
+normalmente usati dagli eroi piu' esperti che cosi' possono sperare
+di  migliorare  il  loro  equipaggiamento.  Per  i  personaggi meno
+esperti i cristalli  possono essere una  preziosa merce di  scambio
+per ottenere equipaggiamento utilizzabile senza costi o rischi.
 
-Esempio:
-Tizium vuole aumentare i suoi HP con l'inserimento di CRISTALLI VITA nel
-suo Orecchino del Gelo, un oggetto SOCKETABLE. Ha 10 cristalli vita 
-a disposizione.
-Il primo cristallo viene inserito perfettamente, senza costi aggiuntivi.
-Il secondo cristallo e' a sua volta inserito correttamente con un costo
-in denaro di 100000 monete. L'orecchino del Gelo ora riporta come 
-apply 10 hp. Il terzo inserimento pero' non va a buon fine. Tizium 
-spende comunque le 200000 monete necessarie, ma riporta il numero di
-hp dell'oggetto a 5. Se Tizium riuscisse ad inserire 5 cristalli e 
-se volesse provare ad inserire un sesto cristallo, questo inserimento
-sarebbe molto piu' rischioso dei precedenti. Se l'inserimento non 
-andasse a buon fine, il pezzo potrebbe tornare a 0 per quanto riguarda
-l'apply HP. Con inserimenti superiori il pezzo potrebbe addirittura
-andare distrutto, risultando inutilizzabile. I rischi e i costi sono 
+Esempio:  Tizium vuole  aumentare i  suoi HP  con l'inserimento  di
+CRISTALLI VITA nel suo  Orecchino del Gelo, un  oggetto SOCKETABLE.
+Ha  10  cristalli vita  a  disposizione. Il  primo  cristallo viene
+inserito  perfettamente,   senza  costi   aggiuntivi.  Il   secondo
+cristallo e'  a sua  volta inserito  correttamente con  un costo in
+denaro  di 100000  monete. L'orecchino  del Gelo  ora riporta  come
+apply 10 hp. Il terzo inserimento pero' non va a buon fine.  Tizium
+spende comunque le 200000  monete necessarie, ma riporta  il numero
+di hp dell'oggetto a 5. Se Tizium riuscisse ad inserire 5 cristalli
+e  se  volesse  provare  ad  inserire  un  sesto  cristallo, questo
+inserimento  sarebbe  molto  piu'  rischioso  dei  precedenti.   Se
+l'inserimento non andasse a buon fine, il pezzo potrebbe tornare  a
+0  per quanto  riguarda l'apply  HP. Con  inserimenti superiori  il
+pezzo   potrebbe    addirittura   andare    distrutto,   risultando
+inutilizzabile. I rischi e i costi sono 
 proporzionati al valore della apply finale dell'oggetto.
 
 ----- Tabella degli inserimenti dei cristalli ----------------------------------
 
-- da +0 a +1  probabilita' di riuscita 80% in caso di fail si perde solo 
-              il cristallo, costo 0 monete
-- da +1 a +2  probabilita' di riuscita 73% in caso di fail si perde solo 
-              il cristallo, costo 100k monete
-- da +2 a +3  probabilita' di riuscita 66% in caso di fail si perde il cristallo 
-              e l'oggetto ritorna al livello precedente, costo 200k monete
-- da +3 a +4  probabilita' di riuscita 59% in caso di fail si perde il cristallo 
-              e l'oggetto ritorna al livello precedente, costo 300k monete
-- da +4 a +5  probabilita' di riuscita 52% in caso di fail si perde il cristallo 
-              e l'oggetto ritorna al livello precedente, costo 400k monete
-- da +5 a +6  probabilita' di riuscita 45% in caso di fail si perde il cristallo 
-              e l'oggetto ritorna al livello ZERO, costo 500k monete
-- da +6 a +7  probabilita' di riuscita 38% in caso di fail si perde il cristallo 
-              e l'oggetto ritorna al livello ZERO, costo 1M monete
-- da +7 a +8  probabilita' di riuscita 31% in caso di fail si perde il cristallo 
-              e l'oggetto ritorna al livello ZERO, costo 2M monete
-- da +8 a +9  probabilita' di riuscita 24% in caso di fail si perde il cristallo 
-              e l'oggetto ritorna al livello ZERO, costo 3M monete
-- da +9 a +10 probabilita' di riuscita 17% in caso di fail si distrugge tutto
-              (oggetto, cristallo, soldi) costo 5M monete
+- da +0 a +1  probabilita' di riuscita 80% in caso di fail si perde
+							solo il cristallo, costo 0 monete
+- da +1 a +2  probabilita' di riuscita 73% in caso di fail si perde
+							solo il cristallo, costo 100k monete
+- da +2 a +3  probabilita' di riuscita 66% in caso di fail si perde
+							il cristallo e l'oggetto ritorna al livello precedente,
+							costo 200k monete
+- da +3 a +4  probabilita' di riuscita 59% in caso di fail si perde
+							il cristallo e l'oggetto ritorna al livello precedente,
+							costo 300k monete
+- da +4 a +5  probabilita' di riuscita 52% in caso di fail si perde
+							il cristallo e l'oggetto ritorna al livello precedente,
+							costo 400k monete
+- da +5 a +6  probabilita' di riuscita 45% in caso di fail si perde
+							il cristallo e l'oggetto ritorna al livello ZERO,
+							costo 500k monete
+- da +6 a +7  probabilita' di riuscita 38% in caso di fail si perde
+							il cristallo e l'oggetto ritorna al livello ZERO,
+							costo 1M monete
+- da +7 a +8  probabilita' di riuscita 31% in caso di fail si perde
+							il cristallo e l'oggetto ritorna al livello ZERO,
+							costo 2M monete
+- da +8 a +9  probabilita' di riuscita 24% in caso di fail si perde
+							il cristallo e l'oggetto ritorna al livello ZERO,
+							costo 3M monete
+- da +9 a +10 probabilita' di riuscita 17% in caso di fail
+							si distrugge tutto (oggetto, cristallo, soldi),
+							costo 5M monete
 
 Vedi anche: SIGILLI, LISTINO, RANDOMPOP
 
 #
 AREAQUEST ZONAQUEST
 
-Nell'impero Celeste eroi e avventurieri trovano sempre nuove avventure
-da vivere in gruppo o in solitaria per guadagnare SIGILLI DIVINI e SIGILLI
-ELEMENTALI. Oltre alle missioni ed agli eventi organizzati dagli immortali
-e dagli dei, esistono dei MOB, detti QUESTOR, che assegnano compiti speciale 
-specifiche zone QUEST, dove i giocatori possono mettersi alla prova per 
-ottenere oggetti rari e potenti, premi unici e speciali e SIGILLI DIVINI.
+Nell'impero  Celeste  eroi  e  avventurieri  trovano  sempre  nuove
+avventure da vivere in gruppo o in solitaria per guadagnare SIGILLI
+DIVINI e  SIGILLI ELEMENTALI.  Oltre alle  missioni ed  agli eventi
+organizzati dagli immortali  e dagli dei,  esistono dei MOB,  detti
+QUESTOR, che assegnano compiti speciale specifiche zone QUEST, dove
+i giocatori possono mettersi alla prova per ottenere oggetti rari e
+potenti, premi unici e speciali e SIGILLI DIVINI.
 
-Un' AREAQUEST o ZONAQUEST è una zona speciale, nella quale i personaggi 
-dovranno risolvere un'avventura. Le zone QUEST, dette anche QUEST FISSE, sono:
-- LE DODICI CASE o QUEST DELLO ZODIACO, una zona dedicata ai NON-EROI o a 
-NEO-EROI, posta nell'oceano greco. I giocatori dovranno portare lo scudo di 
-Atena alla moribonda Lady Isabel,sconfiggendo i cavalieri dello zodiaco che
-si troveranno sul loro percorso, fino alla sconfitta di Arles. Oltre ai SIGILLI 
-ELEMENTALI presenti sui MOB della quest, una volta consegnato lo scudo a Lady 
-Isabel, i giocatori potranno ottenere dei buoni XP o delle armature speciali 
-che potranno essere accumulate e unite, formando cosi' oggetti piu' potenti.
-- MORROWINDL, una zona dedicata a giocatori con PWP inferiore a 1200. Gli 
-eroi dovranno portare il loro soccorso agli elfi della citta' di Arborlon,
-sconfiggendo i potenti demoni che assediano la città e il temibile Wisteron,
-un gigantesco ragno capace di sputare acido sui suoi nemici. Alla fine dell'
-avventura i giocatori, oltre ai SIGILLI DIVINI e ai SIGILLI ELEMENTALI, 
-riceveranno delle monete speciali che permetteranno ai giocatori di ottenere
-dei pezzi di equipaggiamento forgiati dagli elfi di morrowindl. Tra questi 
-pezzi ne esistono tre dotati di particolari caratteristiche che permetteranno
-ai giocatori di potenziare il proprio personaggio.
-- BLACK HEART, dopo aver recuperato l'indizio dalla veggente di Camelot, i 
-giocatori dovranno affrontare una serie di sfide per poi consegnare al Custode
-del Cristallo il medaglione di ghiaccio, l'anello del fuoco e il cuore del 
-demone distruttore, ottenendo cosi' preziosi SIGILLI DIVINI. Questa quest e'
-riservata ai giocatori entro un certo livello di PWP.
-- ATLANTIDE, i giocatori dovranno detronizzare l'usurpatore del regno di 
-Atlantide, sconfiggere il terribile Leviatano e riportare sul trono il vero 
-Re. Oltre ai SIGILLI ELEMENTALI e i SIGILLI DIVINI (consegnati anche alla fine
-della quest), i giocatori avranno la possibilita' di accettare in dono uno tra
-due oggetti proposti dal nuovo re. Alcuni oggetti presenti in questa avventura
-sono molto potenti e rari, come gli scudi elementali (che donano immunita' ad 
-alcuni elementi) o le scintille divine che donano ai personaggi caster il 
-potere delle SLAY MAGICHE.
-- RAVENLOFT, un luogo d'ombra popolato da creature oscure guidate dal potente 
-Stradh. I giocatori affronteranno schiere di nemici, guadagnando SIGILLI 
-DIVINI.
-- IL LABIRINTO SOPRA LE NUVOLE, una zona che cambia ad ogni avventura, dove 
-ogni stanza rivela insidie e potenti nemici. I giocatori dovranno avventurarsi
-al di sopra delle nuvole per sfidare gli angeli presenti, guadagnando SIGILLI
-DIVINI.
-- I PORTALI DIMENSIONALI. I popoli liberi sono l'ultimo baluardo per tutti 
-coloro che vogliono sconfiggere le terribili creature planari, provenienti 
-da dimensioni astrali lontane ed inaccessibili. Alla fine dell'avventura i 
-giocatori riceveranno SIGILLI DIVINI, oltre alle gemme e ai cristalli trovati
-lungo il percorso. Questa avventura, data la sua complessita', e' destinata 
-a giocatori.con PWP superiore al 400.
-Esistono alcune zone che, seppur non caratterizzate da particolari narrazioni
-di fondo o procedure particolari di gioco, consentono ai giocatori di 
-guadagnare SIGILLI DIVINI. Tra queste vi sono l'OLIMPO, ALIENI, I CREPACCI 
-DEI GIGANTI DI GHIACCIO, I DEMONI, DROWCITY e altre ancora. Alcune di queste
+Un'  AREAQUEST  o ZONAQUEST  è  una zona  speciale,  nella quale  i
+personaggi dovranno  risolvere un'avventura.  Le zone  QUEST, dette
+anche QUEST FISSE,  sono: - LE  DODICI CASE o  QUEST DELLO ZODIACO,
+una  zona  dedicata ai  NON-EROI  o a  NEO-EROI,  posta nell'oceano
+greco.  I  giocatori  dovranno  portare  lo  scudo  di  Atena  alla
+moribonda Lady Isabel,sconfiggendo i cavalieri dello zodiaco che si
+troveranno sul loro percorso,  fino alla sconfitta di  Arles. Oltre
+ai  SIGILLI  ELEMENTALI presenti  sui  MOB della  quest,  una volta
+consegnato lo scudo  a Lady Isabel,  i giocatori potranno  ottenere
+dei  buoni  XP  o  delle  armature  speciali  che  potranno  essere
+accumulate  e   unite,  formando   cosi'  oggetti   piu'  potenti. 
+- MORROWINDL,  una zona  dedicata a  giocatori con  PWP inferiore a
+1200. Gli eroi  dovranno portare il  loro soccorso agli  elfi della
+citta' di Arborlon, sconfiggendo i potenti demoni che assediano  la
+città e il temibile Wisteron, un gigantesco ragno capace di sputare
+acido sui suoi nemici. Alla fine dell' avventura i giocatori, oltre
+ai SIGILLI DIVINI e ai SIGILLI ELEMENTALI, riceveranno delle monete
+speciali che permetteranno  ai giocatori di  ottenere dei pezzi  di
+equipaggiamento forgiati dagli elfi di morrowindl. Tra questi pezzi
+ne  esistono   tre  dotati   di  particolari   caratteristiche  che
+permetteranno ai giocatori  di potenziare il  proprio personaggio. 
+- BLACK  HEART, dopo  aver recuperato  l'indizio dalla  veggente di
+Camelot, i giocatori dovranno affrontare una serie di sfide per poi
+consegnare  al Custode  del Cristallo  il medaglione  di ghiaccio,
+l'anello del  fuoco e  il cuore  del demone  distruttore, ottenendo
+cosi'  preziosi  SIGILLI  DIVINI.  Questa  quest  e'  riservata  ai
+giocatori entro un certo livello  di PWP. - ATLANTIDE, i  giocatori
+dovranno  detronizzare   l'usurpatore  del   regno  di   Atlantide,
+sconfiggere il terribile  Leviatano e riportare  sul trono il  vero
+Re.  Oltre ai  SIGILLI ELEMENTALI  e i  SIGILLI DIVINI  (consegnati
+anche alla fine della  quest), i giocatori avranno  la possibilita'
+di accettare  in dono  uno tra  due oggetti  proposti dal nuovo re.
+Alcuni oggetti presenti  in questa avventura  sono molto potenti  e
+rari, come  gli scudi  elementali (che  donano immunita'  ad alcuni
+elementi) o le scintille divine che donano ai personaggi caster  il
+potere delle SLAY MAGICHE.  - RAVENLOFT, un luogo  d'ombra popolato
+da  creature  oscure  guidate  dal  potente  Stradh.  I   giocatori
+affronteranno schiere di nemici,  guadagnando SIGILLI DIVINI. -  IL
+LABIRINTO SOPRA LE NUVOLE, una  zona che cambia ad ogni  avventura,
+dove  ogni  stanza rivela  insidie  e potenti  nemici.  I giocatori
+dovranno  avventurarsi al  di sopra  delle nuvole  per sfidare  gli
+angeli   presenti,  guadagnando   SIGILLI  DIVINI.   -  I   PORTALI
+DIMENSIONALI.  I popoli  liberi sono  l'ultimo baluardo  per tutti
+coloro  che  vogliono sconfiggere  le  terribili creature  planari,
+provenienti da  dimensioni astrali  lontane ed  inaccessibili. Alla
+fine dell'avventura i  giocatori riceveranno SIGILLI  DIVINI, oltre
+alle  gemme  e  ai  cristalli  trovati  lungo  il  percorso. Questa
+avventura, data la sua  complessita', e' destinata a  giocatori.con
+PWP  superiore  al  400.  Esistono  alcune  zone  che,  seppur  non
+caratterizzate  da  particolari  narrazioni  di  fondo  o procedure
+particolari di gioco, consentono ai giocatori di guadagnare SIGILLI
+DIVINI. Tra queste vi sono l'OLIMPO, ALIENI, I CREPACCI DEI GIGANTI
+DI GHIACCIO, I  DEMONI, DROWCITY e  altre ancora. Alcune  di queste
 zone possono essere completate solo una volta a reboot.
 
-Oltre alle aree riservate, esistono due QUESTOR che si aggirano per le strade
-di Mida:
-- DHETHOR IL QUESTOR, che si puo' trovare nella parte sud di MIDIA, assegna 
-all'avventuriero la ricerca di un oggetto rubato, indicandogli la location
-nella quale potra' essere ritrovato. Ad ogni Reboot potranno essere svolte 
-fino a 15 ricerche, che una volta portate a termine verranno premiate in 
-base al livello del personaggio con punti esperienza, punti karma e sigilli
-di diverso tipo.
-- EOWARION L'ERRANTE, che gira per le strade del centro di MIDIA, assegna 
-all'avventuriero una Quest card, su cui sono presenti 4 oggetti da recuperare. 
-Ogni oggetto trovato fara' ottenere ai personaggi 1 sigillo divino e un 
-premio in denaro. Se la scheda verra' completata, il premio risultera' piu'
-consistente.
+Oltre alle aree riservate, esistono due QUESTOR che si aggirano per
+le strade di Mida: - DHETHOR IL QUESTOR, che si puo' trovare  nella
+parte  sud  di MIDIA,  assegna  all'avventuriero la  ricerca  di un
+oggetto rubato, indicandogli la location nella quale potra'  essere
+ritrovato.  Ad  ogni  Reboot  potranno  essere  svolte  fino  a  15
+ricerche, che una volta portate a termine verranno premiate in base
+al  livello del  personaggio con  punti esperienza,  punti karma  e
+sigilli di  diverso tipo.  - EOWARION  L'ERRANTE, che  gira per  le
+strade  del centro  di MIDIA,  assegna all'avventuriero  una Quest
+card, su cui  sono presenti 4  oggetti da recuperare.  Ogni oggetto
+trovato fara' ottenere ai personaggi  1 sigillo divino e un  premio
+in denaro.  Se la  scheda verra'  completata, il  premio risultera'
+piu' consistente.
 
 Vedi anche: DHETHOR, QUEST, DODICI CASE, QUEST DELLO ZODIACO
 
 #
 TRAIN
 
-Gli eroi possono migliorare le proprie caratteristiche da CINDY, attraverso 
-l'utilizzo degli xp accumulati con il comando PRAC. Esiste pero' un'ulteriore
-modo attraverso cui e' possibile aumentare la potenza del proprio personaggio.
-Utilizzando i SIGILLI DIVINI e i SIGILLI ELEMENTALI possono essere effettuati 
-dei TRAIN.
-Ciascun TRAIN aggiunge dei punti ai propri valori di HIT POINTS, MANA, MOVIMENTO, 
-HITROLL, DAMROLL, MANA REGEN, HIT REGEN, MOV REGEN E SPELLPOWER.
-Il costo per il primo TRAIN di ogni caratteristica, costa 400 sigilli per ogni
-tipo. Ad ogni TRAIN di quella specifica caratteristica, il costo aumenta di 
-ulteriori 400 sigilli per tipo.
-I TRAIN non contano nel massimale dello SPELLPOWER raggiungibile sull'equipaggiamento.
+Gli eroi  possono migliorare  le proprie  caratteristiche da CINDY,
+attraverso  l'utilizzo degli  xp accumulati  con il  comando PRAC.
+Esiste  pero'  un'ulteriore   modo  attraverso  cui   e'  possibile
+aumentare la potenza del proprio personaggio. Utilizzando i SIGILLI
+DIVINI e i SIGILLI ELEMENTALI possono essere effettuati dei  TRAIN.
+Ciascun TRAIN aggiunge  dei punti ai  propri valori di  HIT POINTS,
+MANA, MOVIMENTO, HITROLL, DAMROLL, MANA REGEN, HIT REGEN, MOV REGEN
+E SPELLPOWER. Il costo per  il primo TRAIN di ogni  caratteristica,
+costa 400 sigilli per ogni tipo. Ad ogni TRAIN di quella  specifica
+caratteristica, il costo aumenta di ulteriori 400 sigilli per tipo.
+I TRAIN  non contano  nel massimale  dello SPELLPOWER raggiungibile
+sull'equipaggiamento.
 
 Vedi anche: CINDY, LISTINO, EROI
 
 #
 GEMME
 
-Le gemme sono oggetti RANDOMPOP, che possono comparire nel corpo di alcuni mob 
-una volta sconfitti. Le gemme possono essere di vario genere e servono a migliorare 
-le proprie statistiche da CALLIOPE, in alternativa a XP e PRATICHE.
+Le gemme sono oggetti RANDOMPOP, che possono comparire nel corpo di
+alcuni mob una  volta sconfitti. Le  gemme possono essere  di vario
+genere e servono a  migliorare le proprie statistiche  da CALLIOPE,
+in alternativa a XP e PRATICHE.
 
 Vedi anche: CALLIOPE, RANDOMPOP
 
 #
 RANDOMPOP
 
-In alcune occasioni, sconfiggendo dei MOB specifici, e' possibile scorgere 
-all'interno del loro corpo degli oggetti RANDOMPOP. Essi sono riconoscibili per 
-via della frase che comparira' alla morte dei MOB, che ti invitera' a controllare
-il contenuto del loro corpo.
-Questi oggetti possono essere di vario tipo: CRISTALLI, GEMME, OGGETTI SOCKET, 
-RAMI DI LIS o altri oggetti speciali.
+In alcune occasioni, sconfiggendo  dei MOB specifici, e'  possibile
+scorgere all'interno del loro  corpo degli oggetti RANDOMPOP.  Essi
+sono riconoscibili per  via della frase  che comparira' alla  morte
+dei  MOB, che  ti invitera'  a controllare  il contenuto  del loro
+corpo.  Questi oggetti  possono essere  di vario  tipo: CRISTALLI,
+GEMME, OGGETTI SOCKET, RAMI DI LIS o altri oggetti speciali.
 
-Questi ultimi sono degli oggetti che appaiono in 4 o 5 versioni, ciascuna con 
-diversi apply. Gli oggetti sono:
+Questi ultimi sono  degli oggetti che  appaiono in 4  o 5 versioni,
+ciascuna con diversi apply. Gli oggetti sono:
 
 - denti di vampiro                          (5 tipi)
 - amuleto delle tempeste                    (4 tipi)
@@ -13168,19 +13187,20 @@ diversi apply. Gli oggetti sono:
 - globi pulsanti                            (4 tipi)
 - maniche di viverna artica                 (5 tipi)
 
-Questi pezzi, qualora si possieda tutta la serie di un tipo specifico (per esempio 
-tutti e 5 i denti di vampiro), possono essere uniti per formare un oggetto piu'
-potente, che riportera' alcune caratteristiche casuali dei pezzi uniti insieme.
-Per unire i pezzi bisogna recarsi presso le streghe alla torre della magia.
+Questi  pezzi,  qualora  si  possieda tutta  la  serie  di  un tipo
+specifico  (per esempio  tutti e  5 i  denti di  vampiro),  possono
+essere uniti per  formare un oggetto  piu' potente, che  riportera'
+alcune caratteristiche casuali dei pezzi uniti insieme. Per unire
+i pezzi bisogna recarsi presso le streghe alla torre della magia.
 
 Vedi anche: GEMME, SOCKET, QUESTLIS
 
 #
 "SCALA DEI DANNI" DANNI
-
-Ogni colpo portato a termine riporta la potenza e la forza del danno effettuato,
-tramite una descrizione del danno stesso. Soltanto chi utilizza la modalita' di 
-gioco powerplay (PWP) conosce la precisa entita' del danno fatto.
+ Ogni colpo  portato a  termine riporta  la potenza  e la forza del
+ danno  effettuato,  tramite  una  descrizione  del  danno  stesso.
+ Soltanto  chi  utilizza  la  modalita'  di  gioco  powerplay (PWP)
+ conosce la precisa entita' del danno fatto.
 La scala dei danni e' la seguente:
 
 manca
@@ -13218,41 +13238,53 @@ Vedi anche: PWP, RPG
 #
 DODICI CASE "QUEST DELLO ZODIACO"
 
-Nell'oceano greco e' possibile trovare un'AREAQUEST adatta a gruppi di NON-EROI e a NEO-EROI:
-le DODICI CASE o QUEST DELLO ZODIACO. 
+Nell'oceano greco e' possibile trovare un'AREAQUEST adatta a gruppi
+di NON-EROI e a NEO-EROI: le DODICI CASE o QUEST DELLO ZODIACO. 
 
-I giocatori dovranno recuperare lo scudo di Atena in possesso del terribile Arles e portarlo
-alla moribonda Lady Isabel, sconfiggendo i cavalieri dello zodiaco che si troveranno sul loro 
-percorso. 
-Il percorso e' pero' accidentato: oltre ai cavalieri posti in difesa delle dodici case, ciascuno 
-dotato di caratteristiche uniche come classi diverse, poteri e oggetti speciali, l'avventura offre 
-numerosi ostacoli che necessitano di grandi attenzioni e l'utilizzo di diverse strategie. 
-In questa zona sono presenti molteplici trappole da disarmare grazie all'aiuto di chierici, ranger o 
-ladri, insidiose TELEPORT, che condurranno i giocatori in luoghi remoti o inospitali, locazioni 
-NOREGEN o NOMAGIC, in cui bisognera' stare molto attenti a non esaurire i propri punti vita, mana e 
-movimento per non rimanerci bloccati per l'eternita'. 
+I giocatori dovranno recuperare lo  scudo di Atena in possesso  del
+terribile Arles e portarlo alla moribonda Lady Isabel, sconfiggendo
+i cavalieri dello zodiaco che  si troveranno sul loro percorso.  Il
+percorso e' pero' accidentato:  oltre ai cavalieri posti  in difesa
+delle dodici case, ciascuno  dotato di caratteristiche uniche  come
+classi  diverse,  poteri  e  oggetti  speciali,  l'avventura  offre
+numerosi ostacoli che necessitano di grandi attenzioni e l'utilizzo
+di  diverse  strategie.  In questa  zona  sono  presenti molteplici
+trappole da disarmare grazie all'aiuto di chierici, ranger o ladri,
+insidiose TELEPORT, che condurranno i giocatori in luoghi remoti  o
+inospitali, locazioni  NOREGEN o  NOMAGIC, in  cui bisognera' stare
+molto attenti a non esaurire i propri punti vita, mana e  movimento
+per non rimanerci bloccati per l'eternita'. 
 
-Prima di avventurarvi in questa zona, trovate il gruppo di avventurieri necessario, dotato magari
-di diverse abilita', al fine di compensarvi a vicenda. In alcune fasi infatti sara' di grande aiuto
-padroneggiare incantesimi come il POLYMORPH o il CHANGE FORM, ugualmente alla potenza di un BACKSTAB 
-bene assestato o al potere mentale di uno PSIONICO. Potete anche servirvi delle capacita' di personaggi
-multiclasse, dotati di incantesimi di cura o della potenza dei guerrieri, al fine di abbattere nemici
-esperti nella magia. Imparate a sfruttare le varie location, soprattutto quelle in cui non e' 
-possibile utilizzare la magia, e apprendete le migliori strategie, che di certo vi renderanno giocatori
-migliori.
+Prima  di  avventurarvi  in  questa  zona,  trovate  il  gruppo  di
+avventurieri necessario, dotato magari di diverse abilita', al fine
+di compensarvi a  vicenda. In alcune  fasi infatti sara'  di grande
+aiuto padroneggiare incantesimi come il POLYMORPH o il CHANGE FORM,
+ugualmente alla potenza di un  BACKSTAB bene assestato o al  potere
+mentale di uno PSIONICO.  Potete anche servirvi delle  capacita' di
+personaggi  multiclasse,  dotati  di incantesimi  di  cura  o della
+potenza dei guerrieri,  al fine di  abbattere nemici esperti  nella
+magia. Imparate a sfruttare  le varie location, soprattutto  quelle
+in  cui  non e'  possibile  utilizzare la  magia,  e apprendete  le
+migliori strategie, che di certo vi renderanno giocatori migliori.
 
-Sara' molto utile recuperare dei servitori, grazie ad incantesimi come MONSUM, CHARM MONSTER o HYPNOSIS.
+Sara' molto utile recuperare  dei servitori, grazie ad  incantesimi
+come MONSUM, CHARM MONSTER o HYPNOSIS.
 
-E' consigliato munirsi di pozioni o pergamene per ogni evenienza, cosi' come di resistenze o immunita'
-agli elementi, al sonno e alla paralisi. Ricordate di esplorate bene le aree per NON-EROI prima di 
-sostenere la quest: scoprirete quanto aiuto possono darvi alcuni oggetti all'apparenza inutili.
+E' consigliato munirsi di  pozioni o pergamene per  ogni evenienza,
+cosi' come di resistenze o immunita' agli elementi, al sonno e alla
+paralisi. Ricordate di esplorate bene le aree per NON-EROI prima di
+sostenere la  quest: scoprirete  quanto aiuto  possono darvi alcuni
+oggetti all'apparenza inutili.
 
-Oltre ai SIGILLI ELEMENTALI e agli oggetti presenti sui MOB della quest, una volta consegnato lo scudo 
-a Lady Isabel, i giocatori potranno ottenere dei buoni XP o delle armature speciali che potranno 
-essere accumulate e unite, formando cosi' oggetti piu' potenti.
+Oltre ai SIGILLI ELEMENTALI e  agli oggetti presenti sui MOB  della
+quest, una  volta consegnato  lo scudo  a Lady  Isabel, i giocatori
+potranno  ottenere  dei  buoni XP  o  delle  armature speciali  che
+potranno essere  accumulate e  unite, formando  cosi' oggetti  piu'
+potenti.
 
-Vista la natura della quest, vi sono dei limiti di gioco in quest'area: personaggi con PWP o
-caratteristiche troppo elevate (quali DAMROLL e SPELL POWER), non potranno accedervi o perdereanno 
+Vista  la  natura della  quest,  vi sono  dei  limiti di  gioco  in
+quest'area:  personaggi con  PWP o  caratteristiche troppo  elevate
+(quali DAMROLL e SPELL POWER), non potranno accedervi o perdereanno
 punti KARMA all'uccisione di ogni avversario.
 
 Vedi anche: AREAQUEST, QUEST, KARMA
