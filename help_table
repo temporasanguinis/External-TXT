@@ -673,47 +673,50 @@ regioni centrali:
 
 #
 "MAPPA MIDIA" MIDIA
-
-                      * * * La citta' di MIDIA * * *
-
-
-                                       La Stanza delle Regole
-                                      /
-             North                   /
-               |  /Up          Temple Altar           Scuola di MUD
-               | /                  |                      |
-        West---+---East             |                      |
-             / |               Tempio della         La stanza delle
-        Down/  |               Giustizia--------------Donazioni----------Chiesa
-             South                  |
-                                    |
-             Gilda                  |              Reception
-             Chierici               |                 /
-                |                   |               /
-                |------------Centro di Midia-----Locanda---Bar
-                |               (Fontana)      del Teschio
-             Gilda                  |
-             Paladini               |
-                                    |
-                                    |
-       Negozio Magia   Panettiere   |      Negozio Oggetti    Armeria
-             |             |        |            |               |
- <----------Strada-Principale---Centro------Strada-Principale------------>
-             |             |    Commerciale      |               |
-           Gilda        Fabbro      |         Fermata          Gilda
-           Maghi                    |         Carrozza       Guerrieri
-                                    |
-                                    |                                  Gilda
-                                    |   /Ponte di Midia               Psionici
-                                    |  /                                  |
- SCACCHIERA <---Vicolo-povero------Piazza----------Viale-Ombreggiato------|
-                      |           Accordo      |           |              |
-                   Locanda           |       Gilda       Argine       Magazzino
-                   Grubby            |       Ladri         |
-                                     |                    Fiume
-                                 Discarica
-
-
+...................................................................
+.                * * * La citta' di MIDIA * * *                   .
+.      North                                                      .
+.        | /Up                  Gli Eventi di Lis                 .
+.        |/                            /                          .
+. West---+---East         La Stanza delle Regole                  .
+.       /|                          /                             .
+.  Down/ |        Cindy            /      Scuola                  .
+.      South      /         L'Altare      del MUD   Confraternita .
+.                |         del Tempio        |         di Midia   .
+.                |               |           |               |    .
+.            Il Tempio      Il Tempio     La stanza delle    |    .
+.            di Midia -- della Giustizia --- Donazioni --- Chiesa .
+.                                |                                .
+.           Gilda                |            Reception--Scriba   .
+.           Chierici             |                /               .
+.              |             Il Centro           /                .
+.              |----------- Commerciale------------- La Locanda   .
+.              |             (Fontana)             del Teschio    .
+.            Gilda               |                                .
+.           Paladini             |            Banca-----Tribunale .
+.                                |                       |        .
+.  Cavalieri   Oggetti  Forno    |   Emporio  Armeria    |        .
+.   Destino    Magici     |      |       |      |        |        .
+.      |         |        |    Centro    |      |        |        .
+.<-----+--Strada-Principale  Commerciale-+---Strada-Principale--->.
+.      |         |        |      |       |      |        |        .
+.      |       Gilda    Negozio  |  Carrozza  Gilda      Banco    .
+.      |       Maghi    Magia    |    Metro   Guerrieri  Lotteria .
+. S    |                         |                                .
+. C    |                         |   Ponte   Gilda       Gilda    .
+. A    |                         |  /Midia   Mercenari   Psionici .
+. C    |                         | /            |        |        .
+. C  <-+----Vicolo-povero------Piazza------Viale-Ombreggiato      .
+. H    |              |       Accordo   |       |        |        .
+. I    |            Locanda      |    Gilda     |        |        .
+. E   Ponte         Grubby       |    Ladri   Argine  Magazzino   .
+. R    |                     Discarica          |                 .
+. A    |                        /        <---Fiume--->            .
+.    Parte sud              Sewer                                 .
+.    di Midia                                                     .
+.      |                                                          .
+.      v                                                          .
+...................................................................
 #
 DISPLAY
 
