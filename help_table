@@ -11158,9 +11158,7 @@ LISTINO
 
 $c0010--- Modifiche alle armi ---------------------------------------$c0007
 
-$c0014+1 Hitroll (fino a +4)			200 sigilli divini$c0007
-$C0012+1 Damroll (fino a +4)			200 sigilli divini$c0007
-                        
+$c0014+1 Hitroll (fino a +4)			100 sigilli divini$c0007
 $c0014+1 Hitroll (fino a +5)			400 sigilli divini$c0007
 $c0012+1 Damroll (fino a +5)			400 sigilli divini$c0007
 
