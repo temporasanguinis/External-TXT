@@ -1,0 +1,2208 @@
+# 
+EMPTY SLOT
+#
+SPIRITI "SPIRITI GUIDA"
+
+    !!!NOTA: Esiste una nuova voce dell'help chiamata ETICA, qui ci sono
+             le regole su come comportarsi con i vari comandi.
+             Fai WIZHELP ETICA per visualizzarla.
+
+    Questi sono i comandi riservati agli Spiriti Guida:
+
+    Nome           Funzione
+    -------------------------------------------------------------------
+
+    ,              Emote per gli Spiriti: non visualizza il nome dell'
+                   autore, e non evidenzia la riga dell'emote (e'
+                   perfetto per fare scherzi ;-))): la sintassi e'
+                   uguale a quella dei comandi : e emote
+    "              Abbreviazione di think
+    approve        Imposta o rimuovi l'approvazione del nome di un pc
+    at             Esegui un comando in un'altra stanza
+    bamfin         Configura il tuo messaggio di ingresso nelle stanze
+    bamfout        Configura il tuo messaggio di uscita dalle stanze
+    beep           Manda un beep a qualcuno, o abilita/disabilita i beep
+    behaviours     Visualizza i comportamenti associati ad un mob
+    forcerent      Fai rentare uno o piu' pc
+    givepq         Assegna sigilli ai PG
+    goto           Vai da un pc/mob, o in una particolare stanza
+    home           Torna a casa (usa wizset home per impostarla)
+    iat            Esegui in invisibilita' un comando in un'altra stanza
+    invisible      Ti rendi invisibile
+    mshow          Visualizza tutti i mob che corrispondo alla chiave di
+                   ricerca
+    mforce         Fai eseguire un comando ad uno o piu' mob
+    nohassle       Fai si' che i mob aggressivi t'ignorino
+    noshout        Impedisci ad un pc di urlare
+    ostring        Effettua un restring su un oggetto in inventario
+    purge          Elimina dalla tua locazione un mob o un oggetto
+    setsev         Setta il livello dei log da ricevere
+    slay           Uccidi un mob o un pg
+    snowball       Tira una palla di neve a qualcuno
+    stat           Ottieni informazioni su un pc, mob, stanza od oggetto
+    stealth        Disabilita la visualizzazione dei tuoi bamfin/bamfout
+                   oltre a numerosi messaggi di movimento, in modo che
+                   se lo attivi i mortali non possano individuarti
+    string         Cambia la descrizione di un oggetto o di un pc/mob
+    think          Invia un tuo pensiero a tutti gli Dei
+    transfer       Trasferisci un pc nella stanza in cui ti trovi
+    utenti         Guarda la lista degli utenti collegato con relativo ip
+    vis            Diventi visibile
+    wizhelp        Ottieni informazioni su un comando per Dei
+
+    Questi comandi, in mano agli Spiriti, assumono nuove funzionalita':
+
+    Nome           Funzione
+    -------------------------------------------------------------------
+
+    examine        Esamina un pc/mob, guardandone anche l'inventario
+    kill           Come slay
+    where          Agisce a livello world-wide, e senza argomenti
+                   visualizza la posizione di tutti i pc collegati
+    who            Ha molte nuove opzioni, controllale con who -?
+    blast          Da usare come punizione, stunna il target per
+                   100 tick.
+
+    Altri argomenti di cui richiedere il wizhelp:
+
+    Nome           Funzione
+    -------------------------------------------------------------------
+
+    prompt         Mostra le opzioni per Spiriti del prompt
+
+    Per ottenere una lista breve di tutti i comandi per Spiriti a te
+    disponibili, scrivi semplicemente wizhelp.
+
+#
+"ROOM TELEPORT"
+ 
+Alcune cose che potrebbero servire agli Immortali sulle teleport room:
+ 
+ 
+edit tele <time> <room> <flags> [<countdown>]
+ 
+flags = 
+1     LOOK    (chi viene teleportato eseguira' un look automatico)
+2     COUNT   (questa e' una countdown room)
+4     RANDOM  (dopo la prima volta, il teleport time sara' random)
+8     SPIN    (non implementato)
+ 
+Some things to note:
+ 
+ if you are going to set the COUNT flag, then leave the <time> = 0
+ 
+ COUNT, RANDOM and SPIN are more or less mutually exclusive.
+ 
+ 
+examples
+ 
+   edit tele 30 1000 1       ;  teleport fires every 30 ticks, goes to room
+			        1000, does a look
+ 
+   edit tele  0 1000 3 30    ; 30 ticks after a player enters this room,
+				they will be teleported to room 1000, and
+				they will do a look.
+ 
+   edit tele  0 1000 2 30    ; 30 ticks after a player enters this room,
+				they will be teleported to room 1000, and they
+				will NOT do a look
+ 
+Any questions, post them on the board
+ 
+The random time will be between 10 and 100 ticks
+ 
+(so roughly between 7.5 seconds and 75 seconds)
+ 
+Note, this is a god command, mortals can't do it.
+ 
+
+#
+"SECTOR TYPES"
+
+0  = indoors
+1  = city
+2  = fields
+3  = forest
+4  = hills
+5  = mountains
+6  = water (swimmable)
+7  = river (non-swimmable)
+8  = air
+9  = water
+10 = desert
+11 = tree
+12 = darkcity
+
+#
+EDIT
+
+   Edit allows you to edit rooms.  The room you are currently in is
+the one that is edited.  You can edit any room, but the changes will
+not be permanent.  However, using the rsave, and rload commands, you
+can save your changes into a file, and reload them later into the
+game, (if it crashes, for example).
+ 
+The fields work as follows:
+ 
+ edit <field> <attributes>
+ 
+   field is one of the following:
+ 
+	name     :  changes the name of the room.
+	desc     :  changes the room description.
+	exit     :  adds, deletes or modifies a room's exits
+	fs       :  changes the Flags, and Sector type.
+	exdsc    :  adds, changes or deletes an exit description
+	extra    :  adds an extra description to a room.
+	riv      :  adds special parameters for rivers.
+	tele     :  makes the room a teleport room.
+        tunn     :  makes the room a tunnel room.
+ 
+   attributes:
+ 
+	name  <name of room>
+	desc  <enter>  (it will prompt you for text)
+	exit  <dir> <door flags> <key> <to_room> [<open command>]
+	fs    <flags> <sector_type>
+	exdsc <dir> <enter>  (prompts you for text)
+	extra <keywords> <enter>  (prompts you for text)
+	riv   <speed> <dir>
+        tele  <time> <to_room> <look-flag>
+        tunn  <mob_lim>
+ 
+<dir>  0 = n, 1 = e, 2 = s, 3 = w, 4 = u, 5= d.
+<door flags> 
+        'S' - secret flag
+        'C' - climb
+        'P' - pickproof
+        'D' - is_door
+        "edit exit 0 2s 23 blah-blah"
+        and SECRET|IS_DOOR|PICKPROOF exit will be created
+ 
+<key> item # that opens door, (if no door, use -1)
+<to_room>  The room # that the exit goes to.
+		* Optional command
+[<open command>] Command to open this exit 
+		(pull=224, twist=371, turn=372 lift=373, push=374)
+		 You will be prompted for the open to be
+		 twisted/pulled/turned.
+<flags>   type help roomflags.
+<sector_type>  Type help sector_type
+<time> The time interval between teleports.  Must be a multiple of 10
+       10 is very fast.  60 is much slower.  
+<look-flag> whether to do a look when the characters are teleported.
+            if this number is 0, they won't know they've been teleported
+            unless they look on their own.  if the number is not 0, each 
+            time they are teleported, they are forced to look.
+ 
+<keywords> which things will trigger info.. for example if the keyword is
+	case
+	then if you type look at case, the text will be displayed.
+ 
+<speed>  must be a multiple of 15. if you do not want the river to flow, 
+	speed should be 0.  
+ 
+<mob_lim>  A number, indicating the number of mobiles that can be in the
+           room at one time.  The TUNNEL roomflag must be set, although
+           use of edit tunn X  automatically sets the flag.           
+ 
+#
+ROOMFLAGS
+
+   DARK           1
+   DEATH          2
+   NO_MOB         4
+   INDOORS        8
+   PEACEFUL      16  /* No fighting */
+   NOSTEAL       32  /* No Thieving */ Does not work (yet)
+   NO_SUM        64  /* No summoning of creatures in these rooms */
+   NO_MAGIC     128  Does not work yet
+   TUNNEL       256 /* only X people in room (X set by edit tunn) */
+   PRIVATE      512 no teleport to this room, no goto when more than 2 people
+
+#
+ECHO ","
+
+Sintassi:
+
+ > ,<messaggio>
+
+Fornisce l'echo di <messaggio> nella stanza in cui si e'.
+Non deve essere usato per disturbare i pg.
+
+Vedi anche: SYSTEM
+
+#
+"#"
+
+Sintassi:
+
+ > # <"set" | "show" | "log"> <cmd> <"level" | "position"> <livello>
+
+Questo comando e' in teoria usato per  abbassare ed alzare in  modo
+dinamico i livelli di altri comandi, ma in pratica non e' mai stato
+testato ed utilizzato. Attualmente e' disabilitato.
+
+Vedi anche: -
+
+#
+ADDZONE
+
+Sintassi:
+
+ > addzone <gilda> <numero zona>
+
+Questo comando assegna la zona specificata alla proprieta' della
+Gilda specificata.
+
+Vedi anche: REMZONE, SHOW
+
+#
+REMZONE
+
+Sintassi:
+
+ > remzone <gilda> <numero zona>
+
+Elimina la zona specificata dalle proprieta' della Gilda specificata.
+
+Vedi anche: ADDZONE, SHOW
+
+#
+CLEARSAVE
+
+Sintassi:
+
+ > clearsave
+
+Elimina le save room temporanee non piu' usate nella directory
+delle save room.
+
+Vedi anche: -
+
+#
+SETSEV
+
+Definisce il livello dei messaggi di sistema che riceviamo. Tali messaggi
+sono delle informazioni su l'entrata/uscita dei PG, sullo stato di inizia_
+lizzazione delle zone, ecc...
+
+Comando: SETSEV <range>
+
+Dove range e' un numero da 0 a 5, dove 0 corrisponde al livello dove si
+ricevono il maggior numero di informazioni.
+Per disabilitare totalmente la ricezione di questi messaggi fare SETSEV 9
+
+ATTENZIONE: Per ora, i livelli di messaggi implementati sono solo 0 e  9,
+in pratica, e' possibile solo ABILITARE (con 0) e DISABILITARE (con 9)  i
+messaggi di log.
+
+#
+STRING RESTRING
+
+Per cambiare le stringhe di testo associate agli oggetti o ai mob.
+
+Comando: STRING <obj|char> <nome> <campo> <stringa da cambiare|keyword>
+
+Dove per <campo> va posto una delle seguenti chiavi.
+(!!!ATTENZIONE non possono essere abbreviate!!!)
+
+Name               (la chiave con cui interagire con obj/mob - kill giant)
+Short              (il nome che viene visualizzato in inventario (objs)
+                    o il nome che viene visualizzato nelle azioni (mob))
+Long               (Il nome che viene visualizzato in un look nella stanza)
+Title              (per i giocatori (Riservato agli Dei degli Dei))
+Description        (la descrizione del obj/mob visualizzata al LOOK AT ...)
+Delete-description (solo per gli objs. Ma bisogna porre una keyword)
+
+Se viene omesso il campo <stringa da cambiare|keyword> il comando entra
+in edit mode e ci permette di scrive su piu' line (un po come nel comando
+MAIL <nomepg> dall Scriba), per concludere l'editazione digitare '@' .
+
+Esempio: modificare lo spazzino in Pippo la Bestia.
+STRING mob spazzino name pippo
+STRING mob pippo short $c000909Pippo la Bestia$c000707
+STRING mob pippo long $c000909Pippo la Bestia$c000707 ti attende qui.
+STRING mob pippo description
+->$c000909Pippo la Bestia$c000707 e' un MOB giocattolo creato per una prova.
+->@
+
+NOTE: il comando string agisce anche sugli obj/mob che non sono nel nostro
+inventario, pertanto, principalmente al principio si puo' rischiare, visto
+la complessivita' della sintassi di fare casini. Mentre per i mob non c'e'
+un comando alternativo, per gli oggetti e' meglio utilizzare il comando
+OSTRING.
+
+Vedi anche: OSTRING
+
+#
+LOAD
+
+Carica un oggetto e lo piazza nell'inventario oppure un mob e lo piazza
+nella stanza. Il formato e':
+
+ > load <mob|obj> <numero|chiave>
+
+E' possibile  usare  indifferentemente  una  chiave oppure un vnum, per
+identificare il target. Per i mob, e' possibile usare il comando MSHOW.
+
+Un abbreviazione  di  'load mob' e' OLOAD, una di  'load mob' e' MLOAD.
+
+Vedi anche: MSHOW, OLOAD, MLOAD
+
+#
+OLOAD
+
+Sintassi:
+
+ > oload <vnum|chiave>
+
+Carica l'oggetto specificato in invertario.
+
+Vedi anche: MLOAD, LOAD
+
+#
+MLOAD
+
+Sintassi:
+
+ > mload <vnum|chiave>
+
+Carica il mob specificato nella stanza in cui si e'.
+
+Vedi anche: OLOAD, LOAD
+
+#
+REPOP
+
+Sintassi:
+
+ > repop [-r] <numero zona>
+
+Forza il repop della zona specificata. L'opzione -r  serve
+per bloccare temporaneamente il repop della zona. Un'altra
+chiamata con -r sulla stessa zona fara' ripartire il repop.
+
+Vedi anche: SHOW
+
+#
+NOJOIN
+
+Sintassi:
+
+ > nojoin
+
+Il nojoin puo' essere attivato e disatto. Quando e' attivo,
+nessun Immortale di livello inferiore al proprio puo' usare
+goto per entrare nella stanza in cui si e'.
+
+Vedi anche: GOTO
+
+#
+THINK
+
+Il comando per inviare il proprio pensiero agli altri Dei. Esso si basa
+su un canale di comunicazione riservato che permette di essere ascoltati
+in tutto il mondo da tutti gli dei di livello pari o superiore al nostro
+livello di invisibilita'.
+
+Esempio:
+INVIS 61
+THINK ciao
+Dryden (Lev.70) ci legge
+Nesland (Lev.61) ci legge
+Shea (lev.58) NON ci legge
+
+Il comando THINK puo' essere abbreviato con " (doppie virgolette alte).
+
+#
+NOHASSLE
+
+Abilita o disabilita l'aggressivita' dei MOB nei nostri confronti.
+Se NOHASSLE e' ON il mob non ci attacca anche se e' aggressivo.
+(se non provocato).
+
+#
+BAMFIN
+
+Consente di settare il messaggio che compare agli altri giocatori alla
+nostra entrata in una stanza.
+
+Sintassi:
+
+ > bamfin <testo del messaggio>
+
+Esistono due argomenti addizionali che possono essere utilizzati per
+incrementare il messaggio e sono:
+~N che corrisponde al nome del nostro PG
+~H pone il termine 'his' oppure 'her' a secondo del sesso del nostro PG
+
+Per ripristinare il messaggio di default digitare: BAMFIN DEF
+
+Esempio:
+BAMFIN In un battito di palpebre ti accorgi che ~N ti sta osservando...
+
+Vedi anche: BAMFOUT, STEALTH
+
+#
+BAMFOUT
+
+Consente di settare il messaggio che compare agli altri giocatori alla
+nostra uscita da una stanza.
+
+Sintassi:
+
+ > bamfout <testo del messaggio>
+
+Esistono due argomenti addizionali che possono essere utilizzati per
+incrementare il messaggio e sono:
+~N che corrisponde al nome del nostro PG
+~H pone il termine 'his' oppure 'her' a secondo del sesso del nostro PG
+
+Per ripristinare il messaggio di default digitare: BAMFOUT DEF
+
+Esempio:
+BAMFOUT Batti le palpebre e ti accorgi che ~N non c'e' piu'...
+
+Vedi anche: BAMFIN, STEALTH
+
+#
+QUI SHUTDOW
+
+Sono due comandi che hanno priorita' piu' alta rispetto rispettivamente
+a QUIT e SHITDOWN, in modo che non  si possano dare questi due  comandi
+abbreviandoli per sbaglio.
+
+I comandi non fanno nulla, in effetti, se non fornire un  avvertimento.
+
+#
+PURGE
+
+Consente di ripulire l'Impero Celeste dalle nostre schifezze :P
+
+Sintassi:
+PURGE           Elimina dalla stanza tutti i mob e obj presenti (diponibile
+                solo al 70 lvl)
+PURGE <mob>     Elimina dalla stanza il mob specificato
+PURGE <obj>     Elimina dalla stanza l'oggetto specificato
+PURGE <pg>      Butta fuori dal server il PG specificato
+		ATTENZIONE! L'eq del pg purgato viene CLONATO! Una copia
+                dello stesso rimane a terra.
+
+Vedi anche: FORCERENT, DISCON
+
+#
+STAT
+
+Ci  permette di visualizzare tutte  le informazioni  inerenti un pg, mob
+o oggetto.  Queste  info sono c omplete di  tutti  i dettagli possibili.
+Attenzione questo comando cerca anche al di fuori del nostro inventario.
+
+Comando: STAT <mob|pg|obj>
+
+In addizionale e' possibile ottenere informazioni sulla stanza in cui si
+e' con il comando: STAT ROOM
+
+Vedi anche: CSTAT, OSTAT
+
+#
+USERS UTENTI
+
+Visualizza l'associazione nomi [pg - ip] provenienza  dei PG  attualmente
+in gioco.
+
+!!!NOTA: Benche' possa  essere un comando utile per individuare possibili
+MP, non e' affidabile in quanto,a causa di reti interne, proxy e gateway,
+e'  possibile  che diversi giocatori  si connettano  realmente tramite un
+unico IP. Pertanto meglio fidarsi esclusivamente della propria esperienza
+e nel dubbio tralasciare ogni affermazione e riferire agli Dei degli Dei.
+
+#
+AT
+
+Quest comando di permette di eseguire dei comandi in stanze lontano
+dalla nostra locazione attuale.
+
+Comando: AT <vnum|mob|pg> <comando> <altri elementi>
+
+Esempi:
+
+          AT 3054 look board
+          AT 3005 say Benvenuti al Centro di Midia
+          AT rosetta mforce rosetta goss ciao a tutti
+          AT nessy give pozione nessy
+ecc..
+
+Vedi anche: INVISIBLE, IAT
+
+#
+ADVANCE
+
+Permette di avanzare il livello di un pg in una data classe.
+
+Sintassi:
+
+ > advance <nome> <classe> <livello>
+
+	Class =	W)arrior, C)leric, T)hief, M)age, S)orcerer, P)aladin,
+		Ps(I)onist, R)anger, A)ntipaladin, D)ruid, B)arbarian,
+		Mon(k), Bard(h)
+	Level = Il livello a cui il pg va avanzato, 1-69.
+
+Esempio:
+
+ > advance nessy w 60
+
+ATTENZIONE: Questo comando ha parecchie imperfezioni, prima tra tutte il
+fatto che non  setta correttamente  l'esperienza ai  pg, infatti non  e' 
+utilizzato. Pertanto evitate di usarlo. :) Se avete ADVANCE, avete anche
+SET (@), usate quello. :)
+
+#
+BEEP
+
+Manda un impulso sonoro al terminale di un PG, nonche' setta lo stato
+di ricevimento dei BEEP al nostro terminale, se impartito senza argomenti.
+
+Comando: BEEP dryden (manda un beep al pc dryden)
+         BEEP (setta on|off il ricevimento dei beep al nostro terminale.
+
+#
+CHPWD
+
+Cambia la password ad un pg, anche se questo non e' in gioco.
+
+Sintassi:
+
+ > chpwd <nome> <nuova password>
+
+#
+CREATE
+
+Sintassi:
+
+ > create <start> <end>
+
+Il comando CREATE crea delle stanze da <start> ad <end>. Le stanze
+saranno vuote, ed andranno poi riempite con REDIT. 
+
+#
+CLONE
+
+Sintassi:
+
+ > clone [mob|obj] <nome> <n.esemplari>
+
+Il comando CLONE, come e' facile intuire,  clona mob od oggetti nel numero
+espresso in <n.esemplari>. Gli oggetti od i mob clonati  manterranno tutte
+le caratteristiche (eventuali EDIT o STRING) del mob od oggetto originale.
+
+#
+DEBUG
+
+Questo comando  permette agl'implementatori di verificare la
+situazione  e la  corruzione delle strutture dati in memoria
+di Tempora Sanguinis. Non ha utilita' ai fini dei meccanismi
+di gioco.
+
+Sintassi:
+
+ > debug
+
+#
+DISCON
+
+Questo comando serve per sconnettere qualcuno dal gioco. Questo
+puo' essere utile per ovviare a situazioni quali la perdita  di
+controllo del terminale, se qualcuno lo richiede. Si raccomanda
+di essere  comunque  prudenti  nell'utilizzare  questo comando.
+
+Un altro utilizzo di questo comando e' quello di impartire  una
+piccola punizione a qualcuno che disturba il gioco.
+
+Sintassi:
+
+ > discon <nome>
+
+NOTA: Questo  comando  funziona anche  sui parilivello,  quindi
+Immortali, Spiriti e Dei possono usarlo per rompersi le scatole
+a vicenda. :)
+
+#
+DRAINLEVEL
+
+E' usato dagli Dei  per togliere livelli ad un pg in modo  analogo ad
+un ENERGY DRAIN o al DRAIN da nonmorto. I livelli saranno tolti dalla
+classe piu' alta del pg. Puo' essere usato come punizione esemplare a
+qualche pg.
+
+Sintassi:
+
+ > drainlevel <nome> <numero di livelli>
+
+Esempio:
+
+Se Dryden e' MU:50 e WA:45, e Logan fa DRAINLEVEL Dryden 5, alla fine
+Dryden si ritrovera' MU:45 e WA:45.
+
+#
+SCAN
+
+Sintassi:
+
+ > scan
+
+Per mezzo di questo comando, uno Spirito od un Dio puo' vedere
+con esattezza chi c'e' nelle sue vicinanze,  similmente a come
+accade usando la skill SPOT, ma con esattezza assoluta e senza
+lag, ovviamente.
+
+#
+EVENT
+
+E' usato per il debugging delle procedure speciali dei mob. Il comando
+event forza un mob ad eseguire la propra procedura speciale.
+
+Sintassi:
+
+ > event <nome mob>
+
+#
+FORCE
+
+Sintassi:
+
+ > force <nome> <comando>
+ > force all <comando>
+
+Questo comando permette ad chi lo usa di impartire un ordine ad un
+pg. Se il primo argomento e' "all", tutti i pg in gioco di livello
+inferiore a quello di chi lo usa eseguiranno il comando.
+
+Esempi:
+
+ > force shea remove all
+ > force all shout Tanti Auguri!
+
+!!!NOTA: Questo comando *NON* deve essere usato per disturbare  le
+persone. Al limite, se necessario, come forma di punizione.
+
+#
+FREEZE
+
+Sintassi:
+
+ > freeze <vittima>
+
+FREEZE impedisce ad un giocatore di  usare qualunque comando. Se per
+esempio qualcuno  si  connette ed  inizia ad  insultare in GOSSIP  o
+SHOUT, oppure  se  fa pkill non  autorizzato,  questo comando  torna
+molto utile. Non potra' essere rimosso finche' un Dio od uno Spirito
+non usa nuovamente il comando freeze sulla vittima.
+
+Attenzione, questo comando puo' essere davvero utile. Se uno Spirito
+nota in un  pg qualcosa di  sospetto che  palesemente  non  dovrebbe
+essere, puo'  usare  FREEZE sul pg  incriminato,  e  successivamente
+avvertire un Dio che provvederea' ad analizzare la situazione.
+
+#
+FORCERENT
+
+Questo comando consente a un Immortale di rentare  automaticamente un  pg.
+E' utile per rentare pg  che sono rimasti LD (link dead).
+
+Sintassi:
+
+ > forcerent <nome>
+
+E' possibile usare il  comando per rentare automaticamente tutti i pg  LD
+in gioco, tramite la sintassi:
+
+ > forcerent alldead
+
+ATTENZIONE: Usare questa forma di FORCERENT SOLO se non sono presenti  in
+gioco pg polymorphati! Questo spell infatti agisce copiando il pg che  lo
+usa in una stanza particolare e ponendolo LD, e dando la sua  connessione
+ad  un mob.   Se il  pg originale viene rentato,  questo non potra'  piu' 
+fare RETURN e tornare quindi nella sua forma originale!
+
+#
+GHOST
+
+Sintassi:
+
+ > ghost <nome pg>
+
+GHOST serve per caricare in gioco un pg rentato. E' ovviamente possibile
+usarlo solo se il pg argomento esiste.  Puo' essere utile per  osservare
+l'eq o l'inventario di un pg. E'  opportuno usare FORCERENT in  seguito,
+in modo da non lasciare pg LINK DEAD in giro.
+
+#
+INVISIBLE
+
+Setta il nostro stato di  invisibilita' nei confronti del livello degli
+altri PG in gioco. Per PG di livello superiore a noi risulteremo sempre
+visibili.
+
+Sintassi:
+
+ > invisible <livello soglia>
+
+Esempio: INVISIBLE 0  (risulteremo visibili a tutti)
+         INVISIBLE 50 (risulteremo visibili a tutti i livelli superiori
+                       agli eroi)
+         INVISIBLE 58 (risulteremo visibili sono a immortali e Dei)
+
+Inoltre  il  comando  INVISIBLE se dato senza  altri argomenti funge da
+switch tra il nostro livello massimo ed il livello 0.
+E' possibile portarsi a  livello di visibilita' 0 anche con  il comando
+VIS.
+
+Vedi anche: VIS
+
+#
+NOGUILDTALK
+
+Sintassi:
+
+ > noguildtalk
+
+Permette ad un Dio di leggere o meno i GUILDTALK.
+
+Vedi anche: GUILDTALK
+
+#
+PQTOOBJ
+
+Sintassi:
+ 
+ > pqtoobj <oggetto> <n.sigilli>
+
+Assegna il numero di Sigilli indicato sull'oggetto specificato.  Questo
+fa fede all'edit di un oggetto e permette di tenere traccia dei Sigilli
+usati sullo stesso. E' buona cosa usarlo SEMPRE quando si fa un edit.
+
+Vedi anche: OEDIT, OOEDIT
+
+#
+IMPTEST
+
+Questo comando e' usato dagli Implementor per usare i comandi nuovi.
+Generalmente, non e' una buona idea usarlo se non si sa  esattamente
+cosa si sta facendo.
+
+#
+INTERVEN
+
+Sintassi:
+
+ > interven <portal|astral|summon|kill|logall|eclipse|dns|
+		req|rpgboost|locate>
+
+INTERVEN permette di abilitare/disabilitare i flag globali di TS:
+
+portal	 = abilita/disabilita lo spell/skills PORTAL (MU/SO/PS/CL).
+astral	 = abilita/disabilita gli spell/skills di ASTRAL WALK, PROBABILITY
+                                     TRAVEL, TELEPORT WITHOUT ERROR
+summon	 = abilita/disabilita gli spell/skills di SUMMON, MINDSUMMON.
+kill  	 = abilita/disabilita il 'racial killing' (Non usare).
+logall	 = setta il logging globale su TUTTI gli utenti.
+eclipse	 = causa un eclissi su tutto il mondo (tutte le stanze all'aperto
+                                               diventano buie).
+dns	 = abilita/disabilita l'utilizzo del DNS per la risoluzione degli
+                                               indirizzi ip.
+req	 = fa si che tutti i nuovi utenti debbano essere autorizzati per
+                       poter entrare in gioco (mediante il comando AUTH).
+locate   = abilita/disabilita lo spell LOCATE OBJECT.
+rpgboost = limita gli spell 'anti-rpg':
+		31  LOCATE OBJECT (cl)
+			Solo all'interno della zona
+		40  SUMMON (cl/mu/so)
+			Solo all'interno della zona
+		42  WORD OF RECALL (cl)
+			Solo chierici
+		101 ASTRAL WALK (cl/dr)
+			Disabilitato
+		163 TELEPORT WITHOUT ERROR (mu/so) (non abilitato)
+			Solo all'interno della zona
+		164 PORTAL (mu/so/cl)
+			Solo all'interno della zona
+		221 DOORWAY (psi)
+			Solo all'interno della zona
+		222 PSI PORTAL (psi)
+			Solo all'interno della zona
+		223 MINDSUMMON (psi)
+			Solo all'interno della zona
+		232 SCRY (psi)
+			Solo all'interno della zona
+		278 PROBABILITY TRAVEL (psi)
+			Disabilitato
+
+	Il teleport dei maghi e degli psi non  vengono modificati;  allo
+	stesso modo, rimane inalterato il transport/portal via plant dei 
+	Druidi che ora diventano l'unica classe  ad avere un incantesimo
+	di teleport 'world-wide'.
+
+Vedi anche: AUTH
+
+#
+LOG
+
+Questo comando setta il bit LOG ad un utente (tutte le azioni del pg
+verranno loggate). Per rimuovere il bit, riusare il comando.
+
+Sintassi:
+
+ > log <nome>
+
+Attenzione, questo comando non ha utilta' se il server e' stato compilato
+col flag LOG_ALL abilitato.
+
+#
+MFORCE
+
+Costringe un mob presente nella nostra stanza a eseguire un comando che
+passiamo al comando come argomento.
+
+Sintassi:
+
+ > mforce <mob|all> <stringa comando>
+
+La key ALL forza tutti i mob presenti nella nostra locazione a eseguire il
+comando.
+
+Esempio: MFORCE Rosetta gos ciao a tutti
+         MFORCE ALL hit nessy
+
+Vedi anche: FORCE
+
+#
+MOBEDIT MEDIT
+
+Sintassi:
+
+ > medit <nome>
+
+Il comando permette di editare le caratteristiche di un mob (che
+deve essere presente nella stessa locazione del comando).
+
+#
+NOSHOUT
+
+Noshout impedisce o abilita i comandi shout, gossip e auction al PG il cui
+nome viene posto come argomento al comando.
+
+Sintassi:
+
+ > noshout <nome pg> <durata>
+
+Esempio: NOSHOUT nessy (nessy non puo' piu' usare shout gossip e auct)
+         NOSHOUT nessy (la seconda volta, nessy riacquista l'uso dei
+                        comandi).
+	 NOSHOUT nessy 12 (nessy viene noshoutato per 12 tick)
+
+La durata e' opzionale, se viene usato senza l'argomento della durata
+il noshout persiste finche un'immortale non lo toglie.
+
+#
+NUKE
+
+Il comando NUKE cancella un pg in modo permanente. Il pg deve essere in
+gioco e nella stessa stanza di chi usa il comando. Puo' essere usato il
+comando GHOST.   Puo'  essere usato  come  punizione estrema per  un pg
+scorretto, oltre che per ovvie ragioni d'amministrazione.
+
+Sintassi:
+ 
+ > nuke <nome>
+
+#
+OEDIT
+
+Sintassi:
+
+ > oedit <nome>
+
+Il comando permette di editare un oggetto che si ha in inventario.
+
+Vedi anche: OOEDIT, OSAVE, PQTOOBJ
+
+#
+OOEDIT
+
+Sintassi:
+
+ > ooedit <nome> <argomenti...>
+
+Questo comando e' la versione del comando di edit con interfaccia
+a linea di  comando. Per  ottenere un help  dettagliato, usare la
+forma:
+
+ > ooedit help
+
+Vedi anche: OEDIT, OSAVE, PQTOOBJ
+
+#
+OSAVE
+
+Sintassi:
+
+ > osave <oggetto> <vnum>
+
+Questo comando permette di salvare  nella directory  degli oggetti
+un oggetto editato, specificandone il VNUM.
+
+!!!NOTA: Attenzione, il vnum deve  essere  LIBERO!  Altrimenti  ci
+possono essere dei problemi con la lista degli oggetti, al momento
+del boot del Mud.
+
+Vedi anche: OEDIT, OOEDIT
+
+#
+RESTORE
+
+Sintassi:
+
+ > restore <nome>
+
+Il comando RESTORE permette di portare un pg  al massimo dei  suoi
+hp/mana/mov. Inoltre, tolgie veleni, fame, sete ed ubriachezza per
+un giorno. Se usato su pg di livello 58+, da loro tutte le classi,
+e setta tutti i loro skill a Superbo (Special).
+
+#
+RSAVE
+
+Sintassi:
+
+ > rsave <start> [<end>]
+
+RSAVE serve per salvare nella directory delle stanze stanze editate.
+Omettendo l'<end>, verra' salvata solo la stanza <start>.
+
+Vedi anche: WREBUILD, RLOAD
+
+#
+RLOAD
+
+Sintassi:
+
+ > rload <start> [<end>]
+
+RLOAD permette di caricare in gioco stanze (da <stary> ad <end>, o solo
+<start>, se <end> non e' specificato) dalla directory  delle stanze  (e
+NON dal database).
+
+Vedi anche: WREBUILD, RSAVE
+
+#
+RELOAD
+
+Sintassi:
+
+ > reload
+
+RELOAD permette di  liberare e successivamente ricaricare in memoria
+alcuni testi statici come il MOTD, il WMOTD, la lista dei SACERDOTI,
+ecc.
+
+#
+REDIT
+
+Sintassi:
+
+ > redit
+
+REDIT permette di editare la stanza in cui si e' in quel momento.
+
+Vedi anche: RSAVE, RLOAD, WREBUILD
+
+#
+SHUTDOWN
+
+Sintassi:
+
+ > shutdown
+
+Usato per fermare il server di Tempora Sanguinis.
+
+#
+SNOOP
+
+Il comando SNOOP permette di avere  l'output del terminale di un dato  pg,
+al proprio terminale. Per vedere esattamente cosa vede e fa. Per terminare
+usare SNOOP col proprio nome.
+
+Sintassi:
+
+ > snoop <nome>
+
+#
+SNOWBALL
+
+Sintassi:
+
+ > snowball <nome>
+
+E' un social riservato agli Immortali/Dei. Tiri una palla di neve
+a un PG.
+
+PS: Dryden NON c'entra con questo social, proviene dall'originale
+ShadowDale. [ Lo aggiungo perche' me lo hanno chiesto TUTTI :) ]
+
+#
+SWITCH
+
+Sintassi:
+
+ > switch <nome mob>
+
+SWITCH permette ad  un Dio di entrare in un  mob e di  giocarlo come
+se effettivamente  fosse lui (il  pg viene messo LD e la connessione
+viene assgnata al  mob, come  per  il  POLYMORPH). Se  il mob  viene
+ucciso, ovviamente, il Dio non verra' ucciso, semplicemente tornera'
+nel suo corpo, come se avesse usato RETURN.
+
+#
+SLAY
+
+ > slay <nome mob|pg>
+
+Uccide un mob od un pg. Ovviamente il mob/pg deve trovarsi nella
+medesima stanza di chi usa il comando. Per gli Immortali/Spiriti
+e Dei, il KILL equivale allo SLAY.
+
+!!!NOTA:  questo  comando puo'  essere utilizzato anche per uccidere  un
+giocatore, ma e' praticamente da non utilizzare se non in casi estremi e
+ed esclusivamente punitivi (l'uso a tale scopo dovra' essere relazionato
+agli Dei).
+
+#
+SYSTEM
+
+Sintassi:
+
+ > system <messaggio>
+
+Permette di mandare un messaggio sul terminale di tutti gli utenti 
+conness in quel  momento,  senza tener conto di  eventuali deaf  o
+noshout.
+
+#
+STEALTH
+
+Funge da switch per la visualizzazione o meno dei messaggi di entrata
+uscita dalle stanze. E' come essere sempre in SNEAK.
+
+Vedi anche: BAMFIN, BANFOUT
+
+#
+SHOW
+
+Sintassi:
+
+ > show <opzione> [<nome> ...]
+
+  Questo comando ha diverse opzioni:
+
+  zones                 -> visualizza una lista di tutte le zone,
+                           assieme al vnum dela prima e dell'ultima
+                           stanza;
+
+  {mob|obj} <nome>      -> visualizza tutti i mob o gli oggetti con
+                           un certo nome;
+
+  {mob|obj} <vnum zona> -> visualizza tutti i mob o gli oggetti
+                           contenuti nella zona specificata;
+
+  rooms <vnum zona>     -> visualizza tutte le stanze contenute nella
+                           zona specificata;
+
+  rooms death           -> visualizza tutte le death trap presenti nel
+                           Mud;
+
+  rooms private         -> visualizza tutte le stanze private presenti
+                           nel Mud;
+
+  rooms nogain          -> visualizza tutte le stanze noregen presenti
+                           nel Mud;
+
+  guilds                -> visualizza l'elenco delle gilde, e di tutti
+                           i loro dati (inclusa la lista degl'iscritti);
+
+  prayers               -> visualizza la lista dei sacerdoti, e dei loro
+                           Dei;
+
+  roomaffects           -> visualizza la lista degli affect di stanza
+                           attivi;
+
+#
+SILENCE
+
+Silence abilita e disabilita la possibilita' di urlare (SHOUT) dei
+pg in polymorph.
+
+Sintassi:
+
+ > silence
+
+#
+TRANSFER
+
+Trasferisci un mob|pg nella stanza in cui sei attualmente, e' un summon
+esteso che non risente dei flag delle stanze.
+
+Sintassi:
+
+ > transfer <mob|pg>
+
+!!!NOTE: Questo comando non va utilizzato per infastidire  i giocatori,
+e' sempre cortese chiedere il loro  permesso prima di un trasferimento.
+
+#
+VIEW
+
+Sintassi:
+
+ > view <bug|typo|idea|motd|wmotd>
+
+Permette di leggere online alcuni file di testo inerenti al mud, come
+il motd, oppure le liste di bug, idee e typos.
+
+#
+WIZHELP
+
+Sintassi:
+
+ > wizhelp [<keyword>]
+
+E' la versione per Immortali/Spiriti/Dei dell'HELP.
+
+Ultimo aggiornamento: 11/7/2000 a cura di Dryden.
+
+#
+SITELOCK
+
+Sintassi:
+
+ > sitelock <opzione> [<host>]
+
+  Questo comando permette di gestire la lista dei siti da cui TS non
+  accetta connessioni, ed ha diverse opzioni:
+
+  add <host>  -> aggiunge un sito alla lista dei siti banditi
+
+  rem <host>  -> toglie un sito dalla lista dei siti banditi
+
+  globalon    -> rifiuta temporaneamente tutte le nuove connessioni
+
+  globaloff   -> ripristina il normale funzionamento delle connessioni
+
+  status      -> visualizza lo stato del flag di disabilitazione delle
+                 connessioni, nonche' la lista dei siti banditi
+
+  Attenzione: su TS la lista dei siti banditi e' *persistente*. Questo
+  significa che viene mantenuta da un reboot all'altro, e che un sito,
+  una volta bandito, verra' rifiutato da TS (anche per anni ed anni :-))
+  sinche' non sara' stato riammesso esplicitamente.
+  Al contrario, il flag globale di disabilitazione viene automaticamente
+  annullato ad ogni reboot.
+
+#
+WREBUILD
+
+Sintassi:
+
+ > wrebuild
+
+WREBUILD serve per salvare nel database (e quindi rendere 'definitive')
+tutte le stanze nella directory nelle stanze.
+
+!!!NOTA: Con  l'introduzione  del database  dinamico, questo comando e'
+diventato obsoleto, e puo'creare problemi.
+
+#
+ZLOAD
+
+ > zload <numero zona>
+
+Carica in memoria le stanze di una zona in fase di edit (nella
+directory delle zone) - non nel database.
+
+Vedi anche: ZCLEAN, ZSAVE
+
+#
+ZSAVE
+
+Sintassi:
+
+ > zsave <numero zona> [<start> <end>]
+
+ZSAVE  salva  nella  directory delle  zone il file .zon  della  zona
+attualmente  in fase di  edit. E' possibile  specificare una  stanza
+di <start> ed una di <end>. Se <start> ed <end> non sono specificati
+
+!!!NOTA: il file .zon precedente sara' sovrascritto!
+
+Vedi anche: ZLOAD, ZCLEAN
+
+#
+ZCLEAN
+
+Sintassi:
+
+ > zclean <numero zona>
+
+Questo comando  elimina tutti i mob  e gli oggetti  dalla  zona
+specificata.
+
+!!!NOTA: La zona rimane soggetta ai repop, quindi nella maggior
+parte dei casi l'effettos ara' temporaneo.
+
+Vedi anche: ZLOAD, ZSAVE, SHOW
+
+#
+@ SET
+
+Sintassi:
+
+ > @<campo> <nome> [<valore> <valore> ...]
+
+Questo comando e' molto potente e permette di settare ogni  aspetto
+di giocatori o mob. Per avere aiuto piu' dettagliato sulla sintassi
+digitare @ senza argomenti.
+
+Vedi anche: WIZSET
+
+#
+GOTO
+
+Permette di spostarsi nella locazione o presso il pg/mob dato come
+argomento al comando.
+
+Sintassi:
+
+Sintassi:
+
+ > goto <mob|pg|vnum>
+
+Esempio: GOTO Rosetta  (vai da Rosetta)
+         GOTO nessy    (Vai dal pg Nessy)
+         GOTO 999      (vai alla locazione 999)
+
+#
+"AUTHORIZE AUTH"
+
+Sintassi:
+
+ > auth Newbie yes
+ > auth Newbie no
+ > auth Newbie <messaggio>
+
+Questo comando setta il modo AUTHORIZE per il server: ogni nuovo pg
+creato dovra' essere autorizzato ad entrare in gioco da un Dio.  Il 
+Dio puo'  anche mandare  ai  pg in  attesa  di  entrare in gioco un
+messaggio. Con gli argomenti yes e no si attiva o disattiva il modo
+AUTHORIZE.
+
+!!!NOTA: Su Tempora Sanguinis questo modo non e' mai stato testato,
+e di conseguenza non ci sono garanzie che funzioni. Quindi,e' molto
+meglio evitare questo comando.
+
+Vedi anche: -
+
+#
+HOME
+
+Funge come un Word of recall per Immortali e Dei.
+
+Sintassi:
+
+ > home
+
+La stanza a cui si viene trasferiti puo' essere anche definita
+diversamente tramite il comando WIZSET.
+
+Vedi anche: WIZSET, SETHOME
+
+#
+SETHOME
+
+Sintassi:
+
+ > sethome
+
+Questo comando permette ad uno Spirito/Dio  di settare la  propria
+stanza HOME. Quando entrera' in gioco,  entrera' in quella stanza,
+a prescindere dal fatto che abbia rentato o meno.  Per settare  la
+propria home, basta raggiungerla ed usare il  comando SETHOME  sul
+posto.
+
+Vedi anche: HOME
+
+#
+WIZSET
+
+Sintassi: 
+
+ > wizset <opzione> [<argomenti>...]
+
+Il comando wizset setta alcune opzioni proprie dei personaggi
+divini.
+
+Le possibili opzioni sono:
+
+- home
+
+  Configura la stanza in cui si viene trasportati al login.
+  Questo settaggio ha senso solo per sveltire alcune operazioni
+  legate all'uso dei comandi di modifica on-line del mondo.
+  Sicomme questi comandi non vengono usati su TS, la stessa opzione
+  home risulta inutile.
+
+- logintro [<prefisso dei messaggi di log>]
+
+  Configura la stringa prefisso dei messaggi di log; se non viene
+  specificato alcun prefisso, si ripristina il settaggio di default
+  (tre asterischi).
+
+#
+SHOWDOC
+
+Sintassi:
+
+ > showdoc <nomefile>
+
+	Visualizza il file specificato (la directory di default e' doc).
+Questo comando viene tipicamente usato per esaminare i file di documen-
+tazione di TS, primo tra tutti il file whatsnew.
+
+#
+PROMPT
+
+Opzioni specifiche degl'Immortali per il prompt (per quelle generali,
+esegui help prompt) :
+
+	%R - numero di stanza in cui ti trovi
+	%iS - On se lo stealth e' abilitato, Off altrimenti
+	%iH - On se il nohassle e' abilitato, Off altrimenti
+	%iI - livello di invisibilita'
+	%iN - nome del pc che stai snoopando
+ 
+Alcuni prompt predefiniti:
+
+ 40: H:100 R:4056>
+ 41: H:100 R:4056 i51+>
+ 
+	Per attivare un prompt predefinito, scrivi prompt <n>, dove <n> e'
+	il numero del prompt predefinito.
+
+#
+IMMORTALI
+
+    Questi sono i comandi riservati agl'Immortali:
+
+    Nome           Funzione
+    -------------------------------------------------------------------
+
+    ,              Emote per Immortali: non visualizza il nome dell'
+                   autore, e non evidenzia la riga dell'emote (e'
+                   perfetto per fare scherzi ;-))): la sintassi e'
+                   uguale a quella dei comandi : e emote
+    "              Abbreviazione di think
+    approve        Imposta o rimuovi l'approvazione del nome di un pc
+    bamfin         Configura il tuo messaggio di ingresso nelle stanze
+    bamfout        Configura il tuo messaggio di uscita dalle stanze
+    forcerent      Fai rentare uno o piu' pc
+    invisible      Ti rendi invisibile
+    mforce         Fai eseguire un comando ad uno o piu' mob
+    mshow          Visualizza la lista dei mob associati ad una parola
+                   chiave specificata
+    nohassle       Fai si' che i mob aggressivi t'ignorino
+    noshout        Impedisci ad un pc di urlare
+    purge          Distrugge un mob od un oggetto, o fa scollegare un pc
+    slay           Uccidi un mob
+    snowball       Tira una palla di neve a qualcuno
+    stealth        Disabilita la visualizzazione dei tuoi bamfin/bamfout
+    think          Invia un tuo pensiero a tutti gl'Immortali
+    wizhelp        Ottieni informazioni su un comando per Immortali
+
+    Questi comandi, in mano agl'Immortali, assumono nuove funzionalita':
+
+    Nome           Funzione
+    -------------------------------------------------------------------
+
+    examine        Esamina un pc/mob, guardandone anche l'inventario
+    kill           Come slay
+    where          Agisce a livello world-wide, e senza argomenti
+                   visualizza la posizione di tutti i pc collegati
+    who            Ha molte nuove opzioni, controllale con who -?
+    blast          Da usare come punizione, stunna la vittima per
+                   100 tick.
+
+    Altri argomenti di cui richiedere il wizhelp:
+
+    Nome           Funzione
+    -------------------------------------------------------------------
+
+    prompt         Mostra le opzioni per Immortali del prompt
+
+    Per ottenere una lista breve di tutti i comandi per Immortali a te
+    disponibili, scrivi semplicemente wizhelp.
+
+#
+DEI
+
+    Questi sono i comandi riservati agli Dei:
+
+    Nome           Funzione
+    -------------------------------------------------------------------
+
+    ,              Emote per Dei: non visualizza il nome dell'
+                   autore, e non evidenzia la riga dell'emote (e'
+                   perfetto per fare scherzi ;-))): la sintassi e'
+                   uguale a quella dei comandi : e emote
+    "              Abbreviazione di think
+    #              Configura i livelli richiesti dai diversi comandi
+    @              Modifica le caratteristiche di un pc
+    advance        Fai aumentare di livello un pc
+    approve        Imposta o rimuovi l'approvazione del nome di un pc
+    at             Esegui un comando in un'altra stanza
+    auth           Non consentire automaticamente l'ingresso ai nuovi pc
+    bamfin         Configura il tuo messaggio di ingresso nelle stanze
+    bamfout        Configura il tuo messaggio di uscita dalle stanze
+    beep           Manda un beep a qualcuno, o abilita/disabilita i beep
+    behaviours     Visualizza i comportamenti associati ad un mob
+    bind           Casta un incantesimo charm di lunga durata
+    brew           Crea una pozione
+    chpwd          Cambia la password di un pc
+    clone          Clona un oggetto o un mob
+    create         Crea un insieme di stanze
+    cstat          Ottieni informazioni su un pc/mob
+    dbclearskill   Azzera la conoscenza di uno skill a tutti i
+                   personaggi registrati
+    debug          Controlla le strutture dati di Tempora Sanguinis
+    discon         Sconnetti un pc (tipicamente usato per i linkdead)
+    drain          Fai diminuire di livello un pc
+    edit           Obsoleto (per editare una stanza in vt100 usa redit)
+    event          Costringi un mob ad eseguire la sua special procedure
+    findkey        Visualizza i dati di uno skill per codice
+    findvalue      Visualizza i dati di uno skill per sottostringa
+    force          Fai eseguire un comando ad uno o piu' pc
+    forcerent      Fai rentare uno o piu' pc
+    freeze         Congela un pc (non potra piu' fare niente)
+    ghost          Fai uscire un pc dalla locanda
+    goto           Vai da un pc/mob, o in una particolare stanza
+    home           Torna a casa (usa wizset home per impostarla)
+    iat            Esegui in invisibilita' un comando in un'altra stanza
+    imptest        Comando di test, usato per implementazioni temporanee
+    interven       Setta alcuni flag di TS
+    invisible      Ti rendi invisibile
+    load           Carica un oggetto, un mob, od una stanza
+    log            Attiva/disattiva il log su un pc
+    medit          Edita un mob
+    mforce         Fai eseguire un comando ad uno o piu' mob
+    mudstats       Visualizza alcune statistiche sull'attivita' del mud
+    nohassle       Fai si' che i mob aggressivi t'ignorino
+    noshout        Impedisci ad un pc di urlare
+    nuke           Distrugge un pc
+    oedit          Edita un oggetto
+    ooedit         Edita un oggetto (obsoleto)
+    osave          Salva un oggetto (buggato, non usare)
+    ostat          Ottieni informazioni su un oggetto
+    ostring        Effettua un restring
+    player         Implementato nullo
+    purge          Distrugge un mob od un oggetto, o fa scollegare un pc
+    quests         Visualizza lo stato delle quest per LoaL e Immortale
+    redit          Edita una stanza in vt100
+    reload         Ricarica i file di testo (motd, etc.) e i mob script
+    renamepc       Cambia nome ad un personaggio
+    reroll         Implementato nullo
+    restore        Ripristina tutti i valori di un pc
+    restore_char   Ripristina il file personaggio di un pc
+    restore_equip  Ripristina il file dell'equipaggiamento di un pc
+    rload          Carica una o piu' stanze
+    rrload         Non implementato
+    rsave          Salva una o piu' stanze
+    scan           Vedi i mob nelle tue vicinanze
+    scribe         Crea una pergamena magica
+    seek           Visualizza la lista dei pc in possesso di un oggetto
+    setsev         Setta il livello dei log da ricevere
+    show           Guarda la lista delle zone, oppure gli oggetti, i
+                   mob, le stanze di una zona
+    showdoc        Esamina un file di documentazione
+    shutdow        Serve per prevenire uno shutdown accidentale (analogo
+                   al comando qui per quit)
+    shutdown       Fai terminare TS
+    silence        Impedisci ai pc polymorphati di urlare
+    sitelock       Gestisci la lista dei siti banditi da TS
+    slay           Uccidi un mob
+    snoop          Spia un pc
+    snowball       Tira una palla di neve a qualcuno
+    stat           Ottieni informazioni su un pc, mob, stanza od oggetto
+    stealth        Disabilita la visualizzazione dei tuoi bamfin/bamfout
+    string         Cambia la descrizione di un oggetto o di un pc/mob
+    switch         Impersona un mob
+    system         Invia un messaggio a tutti i pc collegati
+    teams          Non implementato
+    think          Invia un tuo pensiero a tutti gli Dei
+    transfer       Trasferisci un pc nella stanza in cui ti trovi
+    users          Guarda la lista degli utenti collegato
+    view           Esamina uno dei file predefiniti di TS
+    wizhelp        Ottieni informazioni su un comando per Dei
+    wizset         Configura alcuni flag
+    wrebuild       Coagula tutte le modifiche alle stanze in
+                   tinyworld.wld.new
+    zclean         Cancella tutti gli oggetti ed i mob da una zona
+    zload          Carica una zona
+    zsave          Salva una zona
+
+    Questi comandi, in mano agli Dei, assumono nuove funzionalita':
+
+    Nome           Funzione
+    -------------------------------------------------------------------
+
+    examine        Esamina un pc/mob, guardandone anche l'inventario
+    kill           Come slay
+    return         Cessa di impersonare un mob
+    where          Agisce a livello world-wide, e senza argomenti
+                   visualizza la posizione di tutti i pc collegati
+    who            Ha molte nuove opzioni, controllale con who -?
+    blast          Da usare come punizione, stunna la vittima per
+                   100 tick.
+
+    Altri argomenti di cui richiedere il wizhelp:
+
+    Nome           Funzione
+    -------------------------------------------------------------------
+
+    prompt         Mostra le opzioni per Dei del prompt
+    room teleport  Valori usati nell'editing delle stanze
+    sector types   Come sopra
+    roomflags      Come sopra
+
+    Per ottenere una lista breve di tutti i comandi per Dei a te
+    disponibili, scrivi semplicemente wizhelp.
+
+#
+APPROVE
+
+Con questo comando puoi impostare o rimuovere l'approvazione del nome
+di un pc. L'approvazione e' necessaria per permettere al pc di
+superare l'ottavo.
+
+Sintassi:
+
+ > approve <pg>
+
+I personaggi il cui nome non e' ancora stato approvato vengono
+segnalati con il flag [KO] dal comando who.
+Digitando il comando con il nome di un PG di livello inferiore al 10
+che era gia' stato approvato, gli si toglie l'approvazione.
+
+!!!NOTA: Il parere di Dryden in riferimento all'approvazione di un nome
+e' il seguente: 'Se un nome non e' offensivo o troppo ridicolo e se non
+ci sono mob con nomi simili, io il nome lo approvo'.
+Questo NON e' una regola assoluta, e' solo un parere. E' molto meglio
+se il nome e' a tema in un mondo fantasy, l'APPROVE nacque proprio per
+questo.
+Nel caso si abbiano dubbi lasciate che gli Dei o altri per voi si
+assumano la responsabilita'.
+
+#
+RENAMEPC
+
+Sintassi:
+
+ > renamepc <vecchio nome> <nuovo nome>
+
+Questo comando permette di  rinominare  un pc (per potergli concedere l'
+approvazione, ad esempio).
+Il comando richiede la  presenza del pc  nella stessa stanza del Dio che
+ne fa uso, e controlla che  non esista gia'  un pc di nome <nuovo nome>.
+Prima di usare questo comando,  ad ogni modo,  bisognerebbe controllare,
+usando lo show mob e lo show  obj, che non  esistano ne' mob ne' oggetti
+di nome <nuovo nome>.
+Eseguendo questo comando, vengono aggiornate  tutte le strutture dati ed
+i file del pc, che viene anche automaticamente espulso dal gioco. Potra'
+subito ricollegarsi usando il nuovo nome.
+
+#
+GIVEPQ DAIPQ
+
+Sintassi:
+
+ > givepq <nome> <numero>
+
+Assegna il <numero> di Sigilli al  personaggio <nome>, che deve essere
+nella stessa stanza di chi usa il comando.
+
+!!!NOTA: Se chi esegue il comando e' INVISIBILE  a chi lo  subisce, il
+target non ricevera' nessun output. Questo non significa che i Sigilli
+non gli sono stati dati.
+
+Vedi anche: INVISIBLE, GETPQ
+
+#
+GETPQ PRENDIPQ
+
+Sintassi:
+
+ > getpq <nome> <numero>
+
+Sottrae <numero> Sigilli al pg <nome>, che deve essere nella stessa
+stanza di chi usa il comando.
+
+!!!NOTA: Se chi esegue il comando e' INVISIBILE  a chi lo  subisce, il
+target non ricevera' nessun output. Questo non significa che i Sigilli
+non gli sono stati tolti.
+
+Vedi anche: GIVEPQ, INVISIBLE
+
+#
+GIVEEL DAIEL
+
+Sintassi:
+
+ > giveel <nome> <tipo> <numero>
+
+Assegna il <numero> di Sigilli del <tipo> al  personaggio <nome>, che
+deve essere nella stessa stanza di chi usa il comando.
+Il tipo di sigilli puo essere uno dei 4 elementali.
+
+!!!NOTA: Se chi esegue il comando e' INVISIBILE  a chi lo  subisce, il
+target non ricevera' nessun output. Questo non significa che i Sigilli
+non gli sono stati dati.
+
+
+Vedi anche: INVISIBLE, GETPQ, GETEL
+
+#
+GETPQ PRENDIPQ
+
+Sintassi:
+
+ > getel <nome> <tipo> <numero>
+
+Sottrae <numero> Sigilli del <tipo> al pg <nome>, che deve essere
+nella stessa stanza di chi usa il comando.
+Il tipo di sigilli puo essere uno dei 4 elementali.
+
+!!!NOTA: Se chi esegue il comando e' INVISIBILE  a chi lo  subisce, il
+target non ricevera' nessun output. Questo non significa che i Sigilli
+non gli sono stati tolti.
+
+Vedi anche: GIVEPQ, INVISIBLE
+
+
+#
+OSTAT
+
+Sintassi: 
+
+ > ostat <nome oggetto>
+
+Mostra informazioni sull'oggetto specificato; al contrario del comando
+STAT, l'OSTAT cerca l'oggetto nell'inventario dell'utente.
+
+#
+CSTAT
+
+Sintassi: 
+
+ > cstat <nome pc/mob>
+
+Mostra informazioni sul pc/mob specificato; al contrario del comando
+STAT, il CSTAT cerca il pc/mob nell'inventario dell'utente.
+
+#
+DBCLEARSKILL
+
+Sintassi: 
+
+ > dbclearskill <id skill>
+
+Azzera la conoscenza di uno skill a tutti i personaggi registrati.
+
+#
+OSTRING
+
+Effettua un restring dell'oggetto specificato, che deve trovarsi nell'
+inventario del Dio che esegue il comando.
+
+Sintassi:
+
+ > ostring <oggetto> <keywords>|<short desc>[|<room desc>]
+
+Dove:
+<keywords>   e' la lista delle parole chiave dell'oggetto, come al
+             solito separate da uno spazio; il comando le converte
+             automaticamente in caratteri minuscoli.
+<short desc> e' la stringa che viene visualizzata quando l'oggetto
+             e' nell'inventario dell'utente.
+<room desc>  e' la stringa che viene visualizzata quando si fa un
+             look nella stanza dove si trova l'oggetto. Se questo
+             campo viene omesso verra' assegnata la stessa frase
+             di <short desc>, con l'aggiunta di un e' qui in terra.
+Esempio:
+OSTRING dagger stiletto intarsiato|Uno stiletto finemente intarsiato
+
+L'oggetto dagger prende la descrizione 'Uno stiletto finemente
+intarsiato', e le parole chiave con cui riferirsi ad esso sono
+'stiletto' ed 'intarsiato'.
+Se lasciato in una stanza, la sua descrizione sara': 'Uno stiletto
+finemente intarsiato e' qui in terra.'
+
+Vedi anche: STRING
+
+#
+IAT AT
+
+Il comando AT permette di eseguire dei comandi in stanze lontane
+rispetto alla nostra locazione attuale.
+
+Sintassi:
+
+ > AT <vnum|mob|pg> <comando> <altri elementi>
+
+Esempi:
+
+          AT 3054 look board
+          AT 3005 say Benvenuti al Centro di Midia
+          AT rosetta mforce rosetta goss ciao a tutti
+          AT nessy give pozione nessy
+ecc..
+
+IAT funziona esattamente come il comando AT, ma esegue il comando
+passato  come  argomento  al  massimo  livello  di invisibilita'.
+Al termine del comando,  ripristina il  livello di  invisibilita'
+originale.
+
+Vedi anche: INVISIBLE
+
+#
+FINDKEY
+
+Sintassi: 
+
+ > findkey <codice skill>
+
+Visualizza la descrizione dello skill, specificato per codice.
+
+#
+FINDVALUE
+
+Sintassi: 
+
+ > findvalue <stringa di identificazione>
+
+Visualizza tutti gli skill nella cui descrizione e' presente
+la sottostringa specificata.
+
+#
+MUDSTATS
+
+Sintassi:
+
+ > mudstats
+
+Visualizza alcune statistiche sull'attivita' del mud.
+
+#
+RESTORE_CHAR
+
+Sintassi: 
+
+ > restore_char <backup> <nome pc>
+
+Ripristina il  file personaggio di  un pc  dai backup  di  sistema 
+si TS. Sono disponibili due tipi  di  backup: quello  giornaliero,
+identificato dal carattere 'd', e quello settimanale, identificato
+dal carattere 'w'.
+Inoltre si possono usare come argomenti i numeri 2 3 4 5 6 per
+avere un restore fino a 6 giorni precedenti.
+Al momento del  ripristino, il  personaggio specificato  non  deve
+trovarsi in gioco.
+
+#
+RESTORE_EQUIP
+
+Sintassi: 
+
+ > restore_equip <backup> <nome pc>
+
+Ripristina il file eq di un pc dai backup di sistema di TS.
+Sono disponibili due  tipi di backup:  quello  giornaliero,
+identificato  dal  carattere  'd',  e  quello  settimanale,
+identificato dal carattere 'w'.
+Inoltre si possono usare come argomenti i numeri 2 3 4 5 6
+per avere un restore fino a 6 giorni precedenti.
+Al momento del ripristino, il  personaggio specificato non
+deve trovarsi in gioco.
+
+#
+BIND
+
+Sintassi: 
+
+ > bind <follower> <master>
+
+Casta un incantesimo di charm di durata infinita per far si' che il mob
+<follower> diventi seguace del pc/mob <master>.
+
+#
+BEHAVIOURS
+
+Sintassi:
+
+ > behaviours <mob>
+
+Visualizza i comportamenti associati ad un particolare mob.
+
+#
+SEEK
+
+Sintassi:
+
+ > seek <chiave> <argomento>
+
+Visualizza la  lista dei pg  in  possesso  dell'oggetto specificato.
+I pg interessati sono  quelli RENTATI. Per  avere  una  lista  delle
+numerose opzioni di questo comando usare il comando senza argomenti.
+
+#
+MSHOW
+
+Sintassi: 
+
+ > mshow <chiave mob>
+
+Visualizza la lista dei mob associati alla parola chiave specificata.
+
+#
+BREW
+
+Sintassi: 
+
+ > brew '<incantesimo>'
+
+Crea una pozione i cui effetti corrispondono  all'incantesimo
+specificato. Come per il comando CAST, il nome dello spell va
+racchiuso tra apostrofi (').
+
+!!!NOTA: Nonostante sia tecnicamente possibile creare pozioni
+di  qualunque spell o skill, per  motivi tecnici (ed  evitare
+crash) e' bene usarlo SOLO con  spell effettivamente  usabili
+via pozione. (Es: lo  shield va  bene,  il  resurrect  od  il
+quivering palm, no).
+
+#
+SCRIBE
+
+Sintassi:  
+
+ > scribe '<incantestesimo>'
+
+Crea una pergamena magica su cui e' inscritto l'incantesimo
+specificato. Come per il comando CAST, il nome dello spell
+va racchiuso tra apostrofi (').
+
+!!!NOTA: Nonostante sia tecnicamente possibile creare pergamene
+di  qualunque spell o skill, per  motivi  tecnici  (ed  evitare
+crash) e' bene  usarlo SOLO  con  spell effettivamente  usabili
+via pozione. (Es:  lo  shield  va  bene,  il  resurrect  od  il
+quivering palm, no).
+
+#
+BLAST
+
+Sintassi:
+
+ > blast <vittima>
+
+Questo comando e' da usare unicamente come punizione, e non deve
+essere usato per sfavorire o disturbare i pg. Stunna la  vittima
+per 100 tick.
+
+#
+QUESTS
+
+  Sintassi: quests <opzione> [<argomenti>...]
+
+Il comando quests visualizza lo stato delle quest attive per LoaL
+e Immortale.
+
+Le possibili opzioni sono:
+
+- list
+
+  Elenca tutte le quest in corso, visualizzando lo stato di
+  avanzamento di ognuna.
+
+- view <nome pc>
+
+  Visualizza tutte le informazioni relative alla quest assegnata
+  al pc specificato.
+
+- add <nome pc> <classe (sigla)> [loal/immo]
+
+  Aggiunge il nome del pc alla Quest Table (doc/quests), occupandosi
+  di mettere la data.
+
+- remove <nome pc>
+
+  Rimuove il pc dalla Quest Table.
+
+- table
+
+  Mostra la Quest Table.
+
+#
+BANDO
+
+***** Forme e modalita' di collaborazione a Tempora Sanguinis *****
+
+Salve a tutti, scrivo questo messaggio per informarvi su un'importante
+decisione presa da noi Dei di Tempora Senguinis, riguardante il ruolo
+dei collaboratori e degl'Immortali. 
+
+Come gl'Immortali piu' vecchi ben sanno, si tratta di una querelle
+vecchia quanto TS: gli Immortali non vengono considerati, non hanno
+poteri, e vengono tenuti a margine dello sviluppo del Mud. Si tratta in
+effetti di una questione che noi stessi Dei non siamo a lungo riusciti a
+risolvere, e su cui non siamo fino ad ora riusciti a trovare un accordo.
+
+Alcuni di noi, infatti, avrebbero preferito scindere chiaramente il
+ruolo di 'collaboratore al Mud' da quello di Immortale, non legando in
+alcun modo le due carriere; altri, invece, propendevano per una dinamica
+dei rapporti interni piu' tradizionale, in cui prima si diventa
+Immortali dimostrando di conoscere il gioco, e poi, pian piano, si
+'progredisce' sino a diventare dei veri e propri collaboratori. La
+spinosita' di questo problema ha fatto si' che noi stessi Dei abbiamo a
+lungo evitato di discuterne, in attesa che risultasse chiaro, a noi per
+primi, se e a cosa potessero servire gli Immortali su Tempora Sanguinis,
+e se e quanto la loro reale esperienza di gioco conferisse loro una
+priorita' al momento della scelta dei potenziali collaboratori. 
+
+Da qualche tempo a questa parte pero', TS e' cresciuto, e le tante cose
+di cui occuparsi (con la concreta possibilita' che ve ne siano sempre di
+piu') sono ormai troppe per le nostre sole forze, e, se non ci
+attrezziamo in tempo, rischiamo di perdere delle occasioni importanti
+per la crescita di questo mud. Cosi', in questi giorni abbiamo discusso
+la questione Immortali e collaboratori, ed abbiamo stilato un nuovo
+progetto di collaborazione, che ora vi esporro'. 
+
+Innanzitutto, crediamo che sia necessario diversificare, in maniera
+netta, i ruoli dei collaboratori dagli altri personaggi: anche se,
+potendo ripartire da 0, forse non sarebbe stata una scelta sbagliata
+quella di eliminare tout-court la 'carriera dell'Immortale', lasciando
+aperta solo la via del LoaL, e procedendo a scegliere i collaboratori
+'per nomina Divina', il parco Immortali che si e' venuto a creare nel
+frattempo ci impedisce, ovviamente, di procedere ad una qualsiasi forma
+di repulisti. Dunque, gli Immortali continueranno ad esistere, ma il
+loro ruolo sara' quello di 'personaggi da esposizione; diciamo che
+l'Immortale sara' un modo di dire 'ho finito di giocare con questo
+personaggio, e voglio far sapere agli altri quanto sono stato bravo'.
+Coloro i quali, invece, hanno seriamente intenzione di collaborare a
+questo Mud, impegnandosi in uno dei 'compiti' previsti da noi Dei
+Supremi, smetteranno le spoglie di Immortali, per assumere quelle di
+Dei: questa radicale diversificazione e' secondo noi necessaria per
+chiarire, anche a livello psicologico, l'abisso che passa tra un Dio ed
+un Immortale, abisso che la semplice differenza di uno o due livelli non
+puo' rendere: il primo 'gestisce' il gioco, il secondo e' solo un
+personaggio da vetrina. 
+
+Questi Dei (di livello 61) saranno a completa disposizione dei loro
+possessori (che potranno chiedere la 'promozione' di un loro personaggio
+attuale, o optare per un personaggio del tutto nuovo) per tutto il tempo
+per cui continuera' la loro collaborazione, ed oltre ai poteri che il
+loro status gli conferisce all'interno del gioco avranno accesso a tutti
+gli strumenti di supporto dei collaboratori (questa mailing list, il mud
+di test, aree Web ed ftp riservate, etc.). 
+
+I ruoli per cui, al momento, crediamo opportuno richiedere
+collaborazioni continuate sono: 
+
+- Costante presenza di Dei on/line per assegnare quest, dialogare,
+aiutare e controllare i giocatori;
+- realizzazione del sito Web di TS;
+- gestione dell'Help-on-line (una versione continuamente aggiornata,
+su Web, del famoso help interno di TS);
+- moderazione della mailing list pubblica di TS;
+- coordinamento della mailing list per gli areabuilder e traduzione
+di aree;
+- promozione di TS su media, newsgroup, etc.
+
+Per il primo punto, in particolare, vorremmo istituire una sorta di
+'orari', tentando di organizzare la presenza degli Dei sul mud in modo
+da avere sempre 'qualcuno' disponibile per le richieste dei pc, per
+eventuali quest, problemi, etc.: certamente, non dovrebbe essera una
+cosa rigida, ma almeno una divisione dei giorni e delle 'fasce orarie'
+di presenza degli Dei sarebbe auspicabile, e fornirebbe ai pc degli
+importanti punti di riferimento (ora come ora il problema di riuscire a
+'trovare' un certo Dio o Immortale e' molto sentito dai giocatori).
+
+Vi ricordo che nessuno vi obbliga a collaborare, e che dovete farlo solo
+se ve la sentite, e se siete sicuri di avere il tempo e la voglia
+necessari: e' meglio non collaborare, piuttosto che collaborare male. 
+
+Infine, tutto quanto delineato in questo messaggio riguarda solo le forme
+di collaborazione 'continuate' previste da noi Dei: aiuti 'una-tantum' a
+TS (come eventuali nuove aree, etc.) verranno premiati in altre maniere.
+
+Per eventuali dubbi, chiarimenti e proposte di collaborazione, vi
+invitiamo ad utilizzare la board Immortali, e a discuterne fra
+di voi, con gli Immortali di livello 59 (che hanno gia' definito i
+loro futuri ruoli), e ovviamente con noi Dei.
+
+Sybil, Colei che ricorda - 9 Gennaio 1999
+
+#
+ETICA FAQ
+
+Questo paragrafo e'  stato creato principalmente  per definire  in forma
+inequivocabile le varie  regole di comportamento per immortali  e Spriti
+Guida.
+
+Innanzi tutto ecco le prime regole appena si  e' stati portati a livello
+58 o superiore:
+
+1) EQ: L'eq che si aveva da mortali rimane di proprio possesso, pertanto
+       e' possibile farne l'uso  che  si vuole (darlo come premio quest,
+       regalarlo agli amici, junkarlo, ecc.) AD ESCLUSIONE degli oggetti
+       che si e' ricevuto  come  premi quest oppure che hanno subito dei
+       miglioramenti  tramite  l'applicazione di  sigilli.  Questi vanno
+       inesorabilmente junkati o tenuti come eq  personale per dar sfogo
+       alla propria  vanita'.  NON e'  possibile  passarli ai propri PG.
+
+2) MultiPlay: Anche se la buona fede e'  riconosciuta tra gli  Immortali
+       e gli Spiriti, per evitare qualsiasi polemica e' ASSOLUTAMENTE da
+       evitare qualsiasi forma  di MP, eccezione  fatta previo richiesta
+       degli Dei degli Dei di usare un proprio PG mortale.
+
+3) ODI: Un Immortale/Spirito   e' tenuto a  dare un  ottimo  esempio  di
+       comportamento nei confronti  dei PG mortali.  Faide e odi con gli
+       altri personaggi  dovranno essere  dimenticati  ed  eventualmente
+       mediati tramite gli Dei.Comportamenti offensivi ed ingiustificati
+       nei confronti dei PG non sono tolerati.
+
+4) COMPITI: Un immortale  ha diritto a fare Quest ed a  intrattenere  il
+       gioco mediante rpg o altro,  non e' pero'  consentito  disturbare
+       i singoli PG o peggio  utilizzare i comandi che si a disposizione
+       al fine di ostacolarli e di produrgli  danno (volontario o meno).
+       Ovviamente  scrap, morti  o perdita di  eq durante  le quest  non
+       possono venire imputati  all'Immortale.    L'immortale  ha  anche
+       priorita' nei confronti dei singoli mortali per trattare con gli
+       Dei un incarico definito all'interno del Mud.
+
+       Gli  Spiriti  sono tenuti  a  dare priorita' ai  compiti  a  loro
+       assegnati dagli  Dei degli Dei,  nonostante  cio'  possono  anche
+       loro  interagire  come gli  altri  Immortali  indicendo  Quest  o
+       momenti di rpg. Si diventa Spiriti  per via nominale e il livello
+       e' temporaneo e dura per il tempo dell'incarico.
+
+5) FIDUCIA: Sia Immortali che Spiriti  hanno comandi che permetterebbero
+       loro di favorirsi e favorire  i propri amici,  tale comportamento
+       sarebbe considerato come il  tradimento della fiducia posta dagli
+       Dei e pertanto si incapperebbe in punizioni esemplari.
+
+       Gli Dei  sono tuttora disponibili  per qualsiasi   chiarimento in
+       materia. Si  ricorda che  la lettura dei  log sara' l'unica prova
+       valida in atto di discussioni.
+
+(FAQ) - PROCEDURE E COMANDI:
+
+Q: Ho promosso una quest, come mi devo comportare?
+A: Se durante la Quest ha assistito uno Spirito,  lo stesso spirito puo'
+   provedere a  dare i  Sigilli  ai singoli pc.  Altrimenti  mandare una
+   mail a uno degli  Dei d egli Dei,  spiegando brevemente  la Quest  ed
+   indicando il corretto nome dei  PG e il numero dei  PQ da a ssegnare.
+   Gli Dei rimangono comunque giudici, e possono sindacare premi secondo
+   loro troppo generosi o troppo miseri.
+
+Q: Posso chiedere l'aiuto di uno Spirito per abellire la mia Quest?
+A: Certamente, se lo spirito non e' impegnato in altre mansioni in
+   quel momento.
+
+Q: Mi e' morto un PG durante la quest, posso ressurreggerlo?
+A: Se sono  presenti altri  Chierici on-line no,  altrimenti al costo di
+   4 Sigilli si.
+
+Q: Un pg ha perso l'eq durante una Quest, come posso aiutarlo?
+A: Non puoi. Puoi mailare un Dio degli Dei e accordandoti con lui  sulle
+   modalita' di un eventuale refund, se proprio giudichi che a parer tuo
+   debba essere fatto.  Nella maggior  parte dei casi, comunque, non  si
+   fanno  refund  per Quest, i refund  sono  per i malfunzionamenti  del 
+   server. Dryden fa notare  che 'In Quest si  rischia sempre, fa  parte 
+   della sfida. Se non c'e' rischio, non ha senso che ci sia un premio'.
+
+Q: Come si possono ottenere restring sugli oggetti o sui mob?
+A: Se e' presente  uno Spirito  si puo' chiedere  la sua  disponibilita'
+   per il  restring  di oggetti  e  mob (questi  ultimi sono  un po piu'
+   difficoltosi).  Lo Spirito  ha comunque potere  decisionale e non  e'
+   obbligato.
+
+Q: Posso fare un restring sugli oggetti di un PG ?
+A: Se sei uno  Spirito si, viene lasciato  al singolo la  valorizzazione
+   del restring, ossia si  puo' fare sia dopo  una pray sia  per  motivi
+   di bonta', ovviamente  il primo motivo e'  preferito. Se qualcuno  ha
+   espresso una pray  per un restring ed lo  Spirito l'ha sentita,  esso 
+   non e'  comunque  obbligato ad  esaudirla (in questo  caso vigono  le 
+   regole generali sulle pray).
+   Agli Spiriti e' stato  concesso lo strumento  restring per  agevolare
+   il  lavoro  degli Dei,  nonche' per dare  un po di  colore all'Impero
+   Celeste.  Si deve cercare pero' di non eccedere e vanno assolutamente
+   evitati  oggetti  dal nome offensivo.  (Per il cattivo  gusto abbiamo
+   gia' Logan :P).
+   Dryden consiglia 'Il restring deve rimanere un qualcosa di distintivo,
+   pertanto  e'  meglio  non concedere restring in  maniera smodata,  ma
+   con parsimonia, in modo che rimanga qualcosa di raro e prezioso.'
+
+Q: Posso caricare tanti MOB facili che pero' pagano tanto?
+A: NO! Tale evento sara'  valutato dagli  Dei degli Dei e punito in modo
+   esemplare.
+
+Q: Posso andare a prendere un oggetto e regalarlo a un PG?
+A: NO! Per nessuna ragione.
+
+Q: Ho visto che due PG hanno lo stesso IP posso slayarne uno?
+A: Assolutamente no! Puo'  capitare che piu'  pg che  si connettono a un
+   gateway  o  a  un proxy  presentino lo stesso ip,  meglio indagare  e
+   fare un rapporto agli dei degli Dei che valuteranno per il meglio.
+
+Q: Voglio semplicemente parlare con gli  Dei ma anche giocare un  mio PG
+   mortale, posso fare MP?
+A: No, o l'uno o l'altro.
+
+Q: Come posso diventare uno Spirito?
+A: Contatta un Dio degli Dei e proponiti per un incarico fisso all'interno
+   del mud, il Dio non e' pero' obbligato ad accontentarti. (leggi
+   WIZHELP BANDO).
+
+#
+KARMA
+
+Il commando karma per ora e' da non usare, in quanto e' ancora da definire
+Il commando prende valori positivi e negativi, per incrementare o decrementare
+il karma del personaggio.
+
+#
+"COMANDO ROOM"
+
+Questo comando e' molto intuitivo, basta fare room +NUMERO per aggiungere un flag
+e room -NUMERO per toglierlo, per avere i flag disponibili, usate il comando senza
+argomenti.
+
+#
+IMMORTALIZE
+
+Il comando immortalize serve per promuovere o declassare i giocatori in quest
+o gli immortali gia' esistenti, lo si ha dal livello 64 ma solo gli dei di alto
+livello possono promuovere per livelli piu alti del 61. Inoltre il comando crea
+una copia di backup dei file del giocatore, se questo non e' gia' immortale,
+in modo da potergli concedere una "rimortalizzazione" in caso di fine del suo
+dovere da immortale per un motivo o un'altro.
+
+#~
+
