@@ -13018,36 +13018,38 @@ pezzo   potrebbe    addirittura   andare    distrutto,   risultando
 inutilizzabile. I rischi e i costi sono 
 proporzionati al valore della apply finale dell'oggetto.
 
------ Tabella degli inserimenti dei cristalli ----------------------------------
+----- Tabella degli inserimenti dei cristalli ---------------------
 
 - da +0 a +1  probabilita' di riuscita 80% in caso di fail si perde
-							solo il cristallo, costo 0 monete
+		      solo il cristallo, 
+              costo 0 monete
 - da +1 a +2  probabilita' di riuscita 73% in caso di fail si perde
-							solo il cristallo, costo 100k monete
+		      solo il cristallo, 
+              costo 100k monete
 - da +2 a +3  probabilita' di riuscita 66% in caso di fail si perde
-							il cristallo e l'oggetto ritorna al livello precedente,
-							costo 200k monete
+		      il cristallo e l'oggetto torna al livello precedente,
+			  costo 200k monete
 - da +3 a +4  probabilita' di riuscita 59% in caso di fail si perde
-							il cristallo e l'oggetto ritorna al livello precedente,
-							costo 300k monete
+			  il cristallo e l'oggetto torna al livello precedente,
+			  costo 300k monete
 - da +4 a +5  probabilita' di riuscita 52% in caso di fail si perde
-							il cristallo e l'oggetto ritorna al livello precedente,
-							costo 400k monete
+			  il cristallo e l'oggetto torna al livello precedente,
+			  costo 400k monete
 - da +5 a +6  probabilita' di riuscita 45% in caso di fail si perde
-							il cristallo e l'oggetto ritorna al livello ZERO,
-							costo 500k monete
+			  il cristallo e l'oggetto torna al livello ZERO,
+			  costo 500k monete
 - da +6 a +7  probabilita' di riuscita 38% in caso di fail si perde
-							il cristallo e l'oggetto ritorna al livello ZERO,
-							costo 1M monete
+			  il cristallo e l'oggetto torna al livello ZERO,
+	    	  costo 1M monete
 - da +7 a +8  probabilita' di riuscita 31% in caso di fail si perde
-							il cristallo e l'oggetto ritorna al livello ZERO,
-							costo 2M monete
+			  il cristallo e l'oggetto torna al livello ZERO,
+			  costo 2M monete
 - da +8 a +9  probabilita' di riuscita 24% in caso di fail si perde
-							il cristallo e l'oggetto ritorna al livello ZERO,
-							costo 3M monete
+			  il cristallo e l'oggetto torna al livello ZERO,
+	          costo 3M monete
 - da +9 a +10 probabilita' di riuscita 17% in caso di fail
-							si distrugge tutto (oggetto, cristallo, soldi),
-							costo 5M monete
+			  si distrugge tutto (oggetto, cristallo, soldi),
+			  costo 5M monete
 
 Vedi anche: SIGILLI, LISTINO, RANDOMPOP
 
@@ -13064,15 +13066,16 @@ potenti, premi unici e speciali e SIGILLI DIVINI.
 
 Un'  AREAQUEST  o ZONAQUEST  è  una zona  speciale,  nella quale  i
 personaggi dovranno  risolvere un'avventura.  Le zone  QUEST, dette
-anche QUEST FISSE,  sono: - LE  DODICI CASE o  QUEST DELLO ZODIACO,
-una  zona  dedicata ai  NON-EROI  o a  NEO-EROI,  posta nell'oceano
-greco.  I  giocatori  dovranno  portare  lo  scudo  di  Atena  alla
-moribonda Lady Isabel,sconfiggendo i cavalieri dello zodiaco che si
-troveranno sul loro percorso,  fino alla sconfitta di  Arles. Oltre
-ai  SIGILLI  ELEMENTALI presenti  sui  MOB della  quest,  una volta
-consegnato lo scudo  a Lady Isabel,  i giocatori potranno  ottenere
-dei  buoni  XP  o  delle  armature  speciali  che  potranno  essere
-accumulate  e   unite,  formando   cosi'  oggetti   piu'  potenti. 
+anche QUEST FISSE,  sono: 
+- LE  DODICI CASE  o  QUEST  DELLO  ZODIACO, una  zona  dedicata ai  
+NON-EROI  o  a   NEO-EROI,  posta  nell'oceano greco.  I  giocatori  
+dovranno  portare  lo  scudo  di  Atena alla moribonda Lady Isabel,
+sconfiggendo i  cavalieri dello zodiaco che si troveranno sul  loro 
+percorso,   fino  alla  sconfitta   di  Arles.  Oltre  ai   SIGILLI  
+ELEMENTALI  presenti  sui  MOB  della  quest,  una volta consegnato 
+lo scudo  a Lady Isabel,  i giocatori potranno  ottenere dei  buoni  
+XP  o  delle  armature  speciali  che  potranno  essere  accumulate  
+e unite, formando cosi' oggetti piu' potenti. 
 - MORROWINDL,  una zona  dedicata a  giocatori con  PWP inferiore a
 1200. Gli eroi  dovranno portare il  loro soccorso agli  elfi della
 citta' di Arborlon, sconfiggendo i potenti demoni che assediano  la
@@ -13088,48 +13091,52 @@ Camelot, i giocatori dovranno affrontare una serie di sfide per poi
 consegnare  al Custode  del Cristallo  il medaglione  di ghiaccio,
 l'anello del  fuoco e  il cuore  del demone  distruttore, ottenendo
 cosi'  preziosi  SIGILLI  DIVINI.  Questa  quest  e'  riservata  ai
-giocatori entro un certo livello  di PWP. - ATLANTIDE, i  giocatori
-dovranno  detronizzare   l'usurpatore  del   regno  di   Atlantide,
-sconfiggere il terribile  Leviatano e riportare  sul trono il  vero
-Re.  Oltre ai  SIGILLI ELEMENTALI  e i  SIGILLI DIVINI  (consegnati
-anche alla fine della  quest), i giocatori avranno  la possibilita'
-di accettare  in dono  uno tra  due oggetti  proposti dal nuovo re.
-Alcuni oggetti presenti  in questa avventura  sono molto potenti  e
-rari, come  gli scudi  elementali (che  donano immunita'  ad alcuni
-elementi) o le scintille divine che donano ai personaggi caster  il
-potere delle SLAY MAGICHE.  - RAVENLOFT, un luogo  d'ombra popolato
-da  creature  oscure  guidate  dal  potente  Stradh.  I   giocatori
-affronteranno schiere di nemici,  guadagnando SIGILLI DIVINI. -  IL
-LABIRINTO SOPRA LE NUVOLE, una  zona che cambia ad ogni  avventura,
-dove  ogni  stanza rivela  insidie  e potenti  nemici.  I giocatori
-dovranno  avventurarsi al  di sopra  delle nuvole  per sfidare  gli
-angeli   presenti,  guadagnando   SIGILLI  DIVINI.   -  I   PORTALI
-DIMENSIONALI.  I popoli  liberi sono  l'ultimo baluardo  per tutti
-coloro  che  vogliono sconfiggere  le  terribili creature  planari,
-provenienti da  dimensioni astrali  lontane ed  inaccessibili. Alla
-fine dell'avventura i  giocatori riceveranno SIGILLI  DIVINI, oltre
-alle  gemme  e  ai  cristalli  trovati  lungo  il  percorso. Questa
-avventura, data la sua  complessita', e' destinata a  giocatori.con
-PWP  superiore  al  400.  Esistono  alcune  zone  che,  seppur  non
-caratterizzate  da  particolari  narrazioni  di  fondo  o procedure
-particolari di gioco, consentono ai giocatori di guadagnare SIGILLI
-DIVINI. Tra queste vi sono l'OLIMPO, ALIENI, I CREPACCI DEI GIGANTI
-DI GHIACCIO, I  DEMONI, DROWCITY e  altre ancora. Alcune  di queste
-zone possono essere completate solo una volta a reboot.
+giocatori con un PWP inferiore a 500. 
+- ATLANTIDE, i  giocatori dovranno  detronizzare   l'usurpatore del
+regno di Atlantide, sconfiggere il terribile  Leviatano e riportare
+sul trono il  vero Re.  Oltre  ai  SIGILLI ELEMENTALI  e i  SIGILLI 
+DIVINI  (consegnati  anche  alla fine  della  quest),  i  giocatori 
+avranno  la possibilita' di accettare  in dono  uno tra due oggetti  
+proposti dal nuovo re. Alcuni oggetti presenti  in questa avventura  
+sono molto potenti  e rari, come  gli scudi  elementali (che donano
+immunita'  ad alcuni elementi) o le scintille  divine che donano ai 
+personaggi caster il potere delle SLAY MAGICHE.  
+- RAVENLOFT, un luogo  d'ombra popolato da  creature oscure guidate
+dal  potente  Stradh.  I giocatori affronteranno schiere di nemici, 
+guadagnando SIGILLI DIVINI. 
+-  IL  LABIRINTO  SOPRA  LE  NUVOLE,  una  zona che cambia  ad ogni  
+avventura,  dove  ogni  stanza  rivela  insidie  e potenti  nemici.  
+I giocatori dovranno  avventurarsi al  di sopra  delle  nuvole  per 
+sfidare gli angeli presenti, guadagnando SIGILLI DIVINI.   
+-  I PORTALI DIMENSIONALI.  I popoli liberi sono  l'ultimo baluardo
+per tutti coloro  che  vogliono sconfiggere  le  terribili creature  
+planari, provenienti da dimensioni lontane, oscure e inaccessibili. 
+Alla fine dell'avventura i  giocatori riceveranno  SIGILLI  DIVINI, 
+oltre  alle  gemme  e  ai  cristalli  trovati  lungo  il  percorso. 
+Quest'avventura, data la complessita', e' destinata a giocatori con
+PWP  superiore  al  400.  
+
+Esistono alcune zone che, seppur non caratterizzate  da particolari
+narrazioni  di  fondo  o procedure particolari di gioco, consentono 
+ai giocatori di  guadagnare  SIGILLI  DIVINI. Tra  queste  vi  sono 
+l'OLIMPO, ALIENI, I CREPACCI DEI  GIGANTI  DI  GHIACCIO, I  DEMONI, 
+DROWCITY e  altre  ancora.  Alcune  di queste zone  possono  essere 
+completate solo una volta a reboot.
 
 Oltre alle aree riservate, esistono due QUESTOR che si aggirano per
-le strade di Midia: - DHETHOR IL QUESTOR, che si puo' trovare  nella
-parte  sud  di MIDIA,  assegna  all'avventuriero la  ricerca  di un
+le strade di Midia: 
+- DHETHOR IL QUESTOR, che si puo' trovare  in un'incrocio di strade
+nella parte sud di MIDIA, assegna all'avventuriero la ricerca di un
 oggetto rubato, indicandogli la location nella quale potra'  essere
 ritrovato.  Ad  ogni  Reboot  potranno  essere  svolte  fino  a  15
 ricerche, che una volta portate a termine verranno premiate in base
 al  livello del  personaggio con  punti esperienza,  punti karma  e
-sigilli di  diverso tipo.  - EOWARION  L'ERRANTE, che  gira per  le
-strade  del centro  di MIDIA,  assegna all'avventuriero  una Quest
-card, su cui  sono presenti 4  oggetti da recuperare.  Ogni oggetto
-trovato fara' ottenere ai personaggi  1 sigillo divino e un  premio
-in denaro.  Se la  scheda verra'  completata, il  premio risultera'
-piu' consistente.
+sigilli di  diverso tipo.  
+- EOWARION  L'ERRANTE, che gira per  le strade  del centro di MIDIA,
+assegna all'avventuriero  una  Quest  card, su cui  sono  presenti 4  
+oggetti  da  recuperare.  Ogni  oggetto  trovato  fara'  ottenere ai 
+personaggi  1 sigillo divino e un  premio in  denaro.  Se la  scheda 
+verra'  completata, il  premio risultera' piu' consistente.
 
 Vedi anche: DHETHOR, QUEST, DODICI CASE, QUEST DELLO ZODIACO
 
