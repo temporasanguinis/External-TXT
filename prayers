@@ -1,0 +1,18 @@
+# Lavinio Cerquetti, 1-Mar-97
+# Lista dei personaggi mortali 'pregabili' (Dei ed Immortali lo sono
+# sempre); in sostanza, i sacerdoti degli Dei.
+# Il comando e' pray <pc> <preghiera>
+# Gli dei vedono sempre e comunque tutte le pray, incluse quelle
+# indirizzate a qualunque sacerdote.
+# I sacerdoti vedono solo le pray destinate a loro o al loro Dio.
+# Il formato del file e': <sacerdote>|<immortale>
+
+Law|Martinus
+Nightingale|Rayden
+Yyrcoon|Tornado
+Vladir|Martinus
+Belial|Druuna
+Diabolicus|Jubyl
+Hellbrass|Kash
+Adamant|Babbonatale
+
