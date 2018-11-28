@@ -1,6 +1,8 @@
 # README #
 
 Questa repository contiene i file di testo necessari al mud, help etc.
+Viene sincronizzata sul mud ogni ora e 10 minuti, dopo bisogna usare il commando reload sul mud, per rendere le modifiche effettive.
+Bisogna fare attenzione all'editor di testo usato, per non creare problemi sul gioco.
 
 Per proporre modifiche, e' consigliabile usare l'editor integrato, e quando si fa submit, di creare un pull request cosi si possono valutare e integrare le modifiche.
 
