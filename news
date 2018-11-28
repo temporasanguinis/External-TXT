@@ -1,0 +1,289 @@
+Versione 2.13.12.29
+- Modificato il manashield per psionici, ora dura di piu'.
+- Modificato il lag dello psionic disintegrate, ora e' uguale 
+  a quello di maghi e' stregoni
+- Modificato il lag del cryocinetic per psionici monoclasse, 
+  ora e' uguale a quello del disintegrate
+- Modificata la formula del flamestrike, ora fa (livello+sp)d8 per tutti
+- Modificato reversion, ogni 30 spell power si guadagna un livello sulla 
+  reversione (NON sul dispel magic, quello e' rimasto invariato), 
+  diminuito inoltre il lag delllo spell.
+- Modificato il moltiplicatore delle slay allineamento, 
+  ora si fa x1.75 su tutti gli allineamenti
+- Modificata la visualizzazione dei livelli immortali, 
+  ora e' possibile distinguere attraverso una stringa solo gli immortali 
+  (livello fino al 60) e gli dei (livello dal 61 in su)
+- Sistemati anche gli help degli spell modificati.
+
+
+
+Versione 2.13.3.23
+  - Modificata la premiazione di Atlantide, ora paga sempre sigilli+karma
+    e in piu 2 oggetti per terra tra cui scegliere.
+  - Le quest di Eowarion hanno una piccola percentuale di pagare 1 punto
+    karma anziche' i 2 divini ai pg dal 50 in su, per ogni oggetto trovato.
+  - Meditate per psionici monoclasse o multiclassati con sole classi tank
+    ora ripristina anche movimento.
+  - On line la nuova versione della carrozza e la metropolitana realizzate
+    da Ash. Leggete bene l'avviso nella stanza della carrozza di midia.
+  - Aggiunto un bonus al bash da 3 al titano, e un bonus sullo stun per
+    pg con forza 24+. Non vale per i mob ne' per i personaggi polimorfati.
+
+
+Versione 2.12.7.1
+  - ATTENZIONE: lo spell earthquake ora ingaggia anche i volatili se essi
+    si trovano al chiuso.
+  - Migliorato il comando consider, ora e' simile all'incantesimo know 
+    monster per chi ha praticato le lore.
+  - Corretto un bug di Dhethor che non faceva prendere l'oggetto quest ai 
+    barbari.
+  - Ora anche gli stregoni monoclasse possono farsi lo spell blink usando
+    il comando cast.
+  - Corretto il backstab, ora entra anche sui mob morenti.
+  - Corretto un bug da crash sui personaggi polimorfati link dead.
+  - Migliorata la skill bellow.
+  - Migliorata la skill value, sia per ladri che per ranger.
+
+
+Versione 2.12.3.18
+ - Ora Dhethor da' la possibilita' di risolvere 15 missioni a tutti, 
+   indipendentemente dal pwp e dal pagamento che rimane comunque a pwp.
+   Chi completa tutte e 15 le quest ricevera' un punto karma come premio
+   bonus. Tutto il resto e' rimasto invariato.
+ - Introdotta una procedura per unire le armature dei cavalieri dello zodiaco,
+   per maggiori dettagli consultare le news sul forum oppure chiedete aiuto
+   oppure "dettagli" a Jorde.
+ - Il doorway non e' piu' limitato dal livello del target, similarmente al
+   portal di maghi e chierici. Rimane comunque possibile portalare mob
+   immortali, ma non pg immortali.
+ - Quanto lo psionico tenta di invertire le particelle magiche attorno alla
+   propria vittima nulla di piu' magico potrebbe trovarvi se non un elemento
+   che circonda il nemico servendosene come scudo. Cio' e' la manifestazione
+   fisica dell'essenza della magia stessa e attraverso il potere della mente
+   lo psionico puo' rivolgerla contro la sua vittima.
+   Prima pero', e' necessario che lo psionico entri in possesso di tale 
+   elemento espandendo questa energia magica a favore di se stesso, affinche'
+   anche il suo corpo ne sia circondato. Poiche' cio' accada, lo psionico
+   non potra' essere affetto da alcuno scudo elementale in quanto e' risaputo
+   che non e' concesso ad alcun mortale appropriarsi di un secondo elemento,
+   quantomeno per vie dirette.
+   Dunque, una volta che lo psionico sara' entrato in possesso di tale elemento
+   e ne sara' circondato potra' rivolgerlo contro la vittima la quale oltre
+   a venirne privata diventera' anche vulnerabile all'elemento stesso, oltre
+   a perdere, come succede solitamente durante il processo di reversione,
+   ogni altra magia da cui e' affetta.
+   Attenzione: questa nuova tecnica NON funzionera' sui personaggi, ne' sullo 
+   psionico stesso, per i quali continua a valere il vecchio effetto.
+   NB: la modifica puo' essere soggetta a ricalibrature/bilanciamenti.   
+
+Versione 2.9.0.7
+ - Modificata l'AI dei mob chierici, ora castano anche qualche altro spell
+   diverso dai soliti.
+ - Alcuni polymorph da mago non hanno piu' restrizioni di classe o allineamento, 
+   inoltre l'elementale del fuoco ora e' di classe chierico e non piu' druido.
+   Per saperne di piu' leggi help polymorph aggiornato anche esso.
+ - Aumentato il premio del forziere della quest dei portali dimensionali.
+ - Da ora teleport e psionic teleport funzionano anche nelle aree astral, anche da
+   polimorfati, continuano invece ad essere bloccati per i mob, in modo tale che essi
+   non si teleportino dalle aree appositamente astral per questo motivo.
+ - In memoria del mud ormai spento Lands of Darkness, e come complemento a Eowarion
+   che spesso fa il difficile, oggi abbiamo introdotto il "questor", un mob che potrete 
+   trovare nell'incrocio principale di Midia sud, e che vi affidera' missioni di ricerca.
+   Andate a trovarlo e usate il comando "quest"/"missione" per interagire con lui. 
+   Le sue quest sono indipendenti da quelle di Eowarion, potrete portare avanti una 
+   questcard e una missione del questor contemporaneamente.
+   Il questor sostituisce in parte il servizio di quest online di Nis, in cui era dato il 
+   nome esatto di una stanza e bisognava trovarla.
+ - Ora quando si pola o si spola si rimane sempre gruppati, senza bisogno
+   di rifollare il capogruppo oppure farsi rifollare.
+ - I multiclasse non dividono piu' gli xp per le classi, come gia succede
+   da eroi, ma ora dal primo livello.
+ - I comandi group e groupcheck incolonnano correttamente le percentuali 
+   (per chi usa un carattere a larghezza fissa) e le colorano a seconda del valore.
+ - Tolti i socket nella quest di atlantide e aggiunti nuovi premi.
+ - Tolto il malus allo shield block ai guerrieri monoclasse che usano la mastery
+ - Ora gli oggetti socketable sono stati inseriti come pop random su un po' di
+   mob in giro per il mud.
+
+Versione 2.9.0.6 - Skill per tutti i gusti
+ - Ora da Calliope non serve piu' la gemma per praccare le stat a pratiche,
+   ma e' possibile spendere tre gemme della stat caratteristica in caso non
+   si vuol consumare pratiche, le gemme vanno tenute in inventario.
+ - Il resu e' cambiato: resu senza gemme fa perdere 1 punto stat casuale,
+   resu con 3 gemme anche miste, non giovinezza, non fanno perdere ne' pratiche
+   ne' stat.
+   Inoltre ora il resurect porta il chierico effettivamente ad 1 mana 1 hp
+   1 mov. Vale lo stesso per il reincarnate.
+   Tolti i bonus karma su reincarnate e resurrect.
+ - Nuova skill per barbai, magic resistance, dettagli nell'help on line.
+ - Sistemato un bug degli hp dei cl/wa/th.
+ - Per adeguare gli hp dei nuovi pg a quelli dei vecchi pg che hanno avuto
+   il migliore reroll tra 20 e in piu' un gain random e' stata inserita una
+   procedura che fa la stessa cosa per tutti i pg eroi.
+ - Per eliminare un'ingiustizia nei confronti dei tank, che oltre a sopportare 
+   le botte si prendono anche le fumate, e per simmetria e uguaglianza tra tank
+   e caster, e' stato modificato il save degli oggetti:
+      - damroll e hit-n-dam danno un piccolo malus al save, prima invece era piu' 
+        consistente e dipendeva dal bonus al danno;
+      - hitroll da' un piccolo bonus, questo era gia' cosi' e continua a valere;
+      - spellfail da' un piccolo bonus come hitroll;
+      - spellpower da' un piccolo malus come damroll.
+ - La quest di Blackheart e' stata resa piu' semplice: molti mob sono piu' deboli, 
+   sono state tolte le immunita' fisiche random, e dal demone distruttore si puo' 
+   scappare.
+ - Inserito un nuovo oggetto pop random, il ramo magico di Lis.
+ - Lo spell identify non stunna piu' e lagga meno.
+ - Corretto un bug sul dispel degli scudi dei mob.
+ - L'incantesimo cause light da' una stringa diversa se il pg e' di razza vampiro,
+   ma l'effetto e' sempre lo stesso.
+ - Rivista la skill value, ora se un ladro riesce a capire le caratteristiche 
+   esatte, vede sempre tutto, compresi i flag sull'oggetto.
+ - La skill "greed" e' cambiata, ora e' passata da forza 10 a forza 25 (25 karma 
+   per avere +25% sigilli per 25 minuti), e in piu' da' anche bonus xp con lo stesso
+   tasso del 25%.
+   In piu', chiunque renta e rimane rentato per almeno 24 ore ora ricevera' un certo
+   tempo di greed omaggio, dipendente da quanto tempo e' rimasto rentato.
+
+Versione 2.9.0.5 - I soldi non bastano mai
+ - Da oggi apre i battenti a Midia il banco della lotteria, dove ognuno potra' 
+   tentare la fortuna. Le estrazioni avvengono al piu' una volta al giorno, 
+   al boot, purche' sia stato venduto un numero minimo di biglietti.
+   Il costo del biglietto e' di 2000 monete per livello. I premi secondari
+   sono in monente, il primo premio sta a voi scoprirlo.
+ - Uniformato il messaggio di fine mana sul portal per le classi chierico
+   non mago.
+ - Aggiunto echo sullo spell mana.
+ - Tolta la classe antipaladino al demonic form della marilith e del glabrezu.
+ - Sono stati inseriti alcuni oggetti con procedure particolari. L'indizio per
+   uno di questi potreste trovarlo nell'area di Naiti.
+ - Tolta la classe guerriero a tutti gli altri polymorph di ascension e demonic
+   form.
+ - Risolto l'annoso problema dei polymorph che rispondevano agli attacchi con 
+   armi da lancio, caricando come i mob.
+ - Ora si puo' scegliere quale forma prendere specificando una key, come per 
+   polymorph e change form.
+ - Il tempo per cui bisogna aspettare per poter usare di nuovo questi spell e' 
+   stato rivisto verso il basso, ora conta la differenza tra il livello 
+   (e livello eroe) del pg e il livello minimo per poter assumere la forma scelta.
+   Le caratteristiche dei polymorph, la durata delle trasformazioni e il livello 
+   minimo necessario per ognuna restano quelle di prima.
+ - Correzione al consider, non funziona piu' sui pg polati, e sistemato un typo 
+   sempre sul consider;
+ - Aggiunto il comando gcheck (gc), come abbreviazione di groupcheck
+ - Nuove procedure speciali da scoprire ;)
+ - Ora i memorize trainati passano al poly, come gia' avveniva per quelli praccati;
+ - I pg polati possono entrare in gilda (ma non usare le banche);
+ - I pg polati possono riparare l'eq dai fabbri.
+ - Cambiato l'algoritmo che genera i numeri casuali.
+ - Le armi senza spell slayer non possono piu' essere caricate con charge.
+ - Implementata la challenge skexie con i rispettivi premi e qualche modifica
+   all'area.
+ - Ora nell'attribute e' possibile visualizzare anche gli spell curse e poison.
+ - Corretto un bug sull'hit regen negativo che poteva causare qualche problema
+   in alcune circostanze.
+ - Sistemati due ritorni a capo, nel poison e disarm.
+ - Corretti alcuni bug inerenti allo spell creeping death.
+ - Corretto un problema nel passaggio degli affect sui polymorph.
+ - Rimesso, in prova, il vecchio sistema di disallineamento.
+ - La razza nano raggiunge al massimo il livello 15 per le classi paladino e ranger.
+ - Il change form driade regina e' cambiato in base alle esigenze dei loal.
+   Ora ha 60 hp in meno rispetto a prima ma 6 dam in piu', inoltre lo spell
+   power e' stato ridotto a 18 per vari motivi.
+ - Corretto un baco del dualwield per cui il dam dell'arma holdata non valeva 
+   per i colpi tirati durante il round (mentre valeva per il primo colpo fatto 
+   con hit, il backstab, ecc.)
+ - Altra sistemata al disallineamento: e' diminuito un po' il peso dato alla 
+   differenza di livello, e di parecchio il disallineamento tra good ed evil, 
+   per aiutare i neutrali che deragliano a non precipitare subito verso gli 
+   estremi. Sperando che sia la volta buona e ci si metta una pietra sopra.
+ - Rimessi nell'area di Sommerlund dei mob che furono tolti dal repop a causa
+   di un bug.
+ - Le badge degli skexie ora sono immuni e non sono piu' ne' cursate ne'
+   magiche.
+ - Diminuito l'invecchiamento offline.
+ - Fix sui combat che permette a chi muore di vedere il colpo che lo/la uccide.
+ - Introdotto un nuovo modo per ringiovanire, per chi vuole andare sotto i 60 anni 
+   praccabili da Calliope, evitando di editare la age. 
+   Trovate le indicazioni qui: http://www.temporasanguinis.it/viewtopic.php?t=1566
+ - Risolto il bug di Calliope per cui se per sbaglio si compravano prac da polati, 
+   venivano perse. Ora si e' costretti a returnare.
+ - Sistemato il Rhyodin outpost che era inutilmente intasato di mob, ora si cammina 
+   meglio.
+
+Versione 2.9.0.4a - "Tempora Sanguinis 2" - Ellenroh's Rage
+- Da ora non servono piu' 2Giga in XP per diventare eroi supremi,
+  ma 600Mega XP.
+
+Versione 2.9.0.4 - "Tempora Sanguinis 2" - Ellenroh's Rage
+  Ellenroh si e' stufata di vedere sempre le stesse facce, e di premiare 
+  sempre la stessa gente. Ha deciso quindi di ribellarsi agli Dei ed esigere 
+  un cambiamento.
+  Pertanto, da oggi in poi, non regalera' piu' oggetti belli e pronti, 
+  ma delle monete, dei segni di riconoscimento con cui poi ciascuno potra' 
+  riscattare la propria ricompensa. Ne dara' sempre una ciascuno, 
+  indipendentemente da quanti saranno i valorosi che riporteranno Arborlon 
+  sulla terraferma.
+  Ha inoltre stabilito che non dara' a ciascun pg piu' di un ben preciso 
+  numero di monete, che ha determinato sulla base del costo di ogni premio, 
+  prevedendo che ognuno possa comprare tutti gli oggetti che vende e avanzare 
+  qualche moneta per ricomprarli se si rompono.
+
+Versione 2.9.0.3 - "Tempora Sanguinis 2" - Towards a new Quest
+- Da oggi identify mostra anche l'AC, per le armor, o il dado, 
+  per le armi, che l'oggetto avrebbe in condizioni eccellenti.
+- Il comando per rimuovere i messaggi dalle bacheche e' ora:
+  remove <numero> from <bacheca>. I Capigilda che volessero avere una
+  maggiore sicurezza possono contattarci indicandoci il livello minimo
+  per cui un pg puo' utilizzare tale comando.
+- Se cercate nelle foreste troverete un esploratore che raccoglie radici 
+  e bacche con poteri magici e potrebbe vendervele per qualche spicciolo.
+- Lo spell investiture e' stato migliorato, ora non toglie tutto il
+  movimento e il mana guadagnato e' in dipendenza del livello.
+- On line una nuova quest fissa, I Portali Dimensionali.
+- Ora gli oggetti pop random si trovano sui mob di livello adatto ai
+  pg cui sono dedicati.
+- La quest Blackheart ora e' limitata a 500 pwp. Chi supera il limite
+  delle aree a pwp e uccide mob in queste aree perdera' un punto Karma, 
+  1 mega XP, 10 sigilli Divini, 100 sigilli elementali per tipo oppure 
+  se non ha una di queste cose, XP pari ad una morte.
+  La perdita funziona anche da polimorfati.
+- Migliorate due skill, il find food e il bellow. Siete invitati a 
+  provarle.
+- I forzieri di sigilli non si splittano piu' in gruppo e si rompono
+  fuori zona.
+- Il Karma dato dalle quest di Bh e Atlantide non si splitta piu' in
+  gruppo.
+- Tolti i sigilli divini dal demone distruttore, ora il premio si prende
+  a fine quest, ed e' sempre forziere + karma
+- Unificato il premio karma e forziere di sigilli di Atlantide, come per
+  Bh.
+
+Versione 2.9.0.2 - "Tempora Sanguinis 2" - Renewal of Chaos
+- Tolto il forziere di sigilli dai premi quest di Morrowindl.
+- Ora sending e messenger si imparano fino al massimo (100) per tutti, 
+  senza resettarsi al rent
+- Cambiato l'algoritmo per generare i numeri casuali - addio trucchetti:)
+- Corretto un bug che non permetteva agli stregoni di memorizzare se
+  polimorfati in una creatura di classe mago.
+- E' possibile ripraccare gli spell dal guildmaster degli stregoni, senza
+  spesa di pratiche, per risolvere un problema che si creava sui memorize
+  dei multiclasse con spell in comune all'altra classe.
+- I mob immortali non prendono piu' gli oggetti notake.
+- Il comando gag non funziona piu' se si sta dormendo o si e' svenuti,
+  inoltre impedisce lo scry e il foll anche forzato da charm e simili.
+- Tolti gli oggetti socketable dalla quest di Morrowindl.
+- Cambiato il disallineamento.
+- Ora le questcard pagano piu' xp ai pg di livello inferiore al 50,
+  e dal 50 in su 1 o 2 divini per ogni oggetto trovato invece degli
+  elementali.
+- I polymorph maghi non castano piu' monsum, charm, teleport, feeblemind
+  energy drain.
+- I polymorph chierici non tentano piu di astralare se sono feriti
+- Dual wield e disarm non fanno piu' cadere le armi a terra, restano in
+  inventario.
+- Aggiunto un messaggio sul bash da 1 round per evidenziarlo.
+- On line la nuova versione di Daemion's manor, riviste Isengard, Brea, alcuni
+  oggetti dei sotterranei campi, aggiunto qualche sigillo elementale in giro.
+
+
+
