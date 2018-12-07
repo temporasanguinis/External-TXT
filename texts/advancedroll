@@ -1,0 +1,12 @@
+Nel sistema avanzato, hai 75 punti da dividere tra le tue stat.
+Nessuna stat puo' essere inferiore a 6, ne' superiore a 18.
+Per quanto riguarda i decimali della forza, essi vanno da 0 a 100, e ogni
+punto loro assegnato li incrementa di 10 unita'; se la forza finale del tuo
+personaggio sara' inferiore a 18, essi verranno automaticamente posti a 0.
+Gli aggiustamenti legati alla razza vengono automaticamente effettuati
+da Tempora Sanguinis, e possono portare le stat a superare il limite di
+18. Lo stesso dicasi per gli aggiustamenti che abbassano delle stat:
+per esempio, se desideri avere un Half giant con destrezza 16, ora
+dovrai attribuirgli una destrezza pari a 18 (dal momento che essi hanno
+un malus di -2 alla destrezza).
+Scrivi sotto i nomi delle stat il numero di punti che intendi assegnargli.

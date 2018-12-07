@@ -1,0 +1,28 @@
+Rapida sintesi delle razze di Tempora Sanguinis:
+
+ 0)Dwarven: molto robusto, forte, intelligente, saggio
+ 1)Moon Elf: forte, molto agile, intelligente, saggio, carismatico
+ 2)Gold Elf: forte, molto agile, molto intelligente, carismatico
+ 3)Wild Elf: robusto, molto forte, molto agile, carismatico
+ 4)Sea Elf: molto forte, agile, intelligente, saggio, carismatico
+ 5)Human: robusto, forte, agile, intelligente, saggio, carismatico
+ 6)Gnome: robusto, forte, abile, molto intelligente, carismatico
+ 7)Halfling: agilissimo, intelligente, saggio, carismatico
+ 8)Half Elf: robusto, forte, agile, intelligente, saggio, carismatico
+ 9)Half Orc: molto robusto, forte, agile, intelligente, saggio
+10)Half Ogre: molto robusto, molto forte, saggio, carismatico
+11)Half Giant: molto robusto, fortissimo, carismatico
+12)Dark Elf: forte, agilissimo, intelligente, saggio
+13)Orc: molto robusto, forte, agile, intelligente, saggio
+14)Goblin: robusto, molto agile, intelligente, poco saggio, carismatico
+15)Troll: molto robusto, fortissimo, carismatico
+16)Dark dwarf: molto robusto, forte, intelligente, saggio
+17)Mindflayer: forte, intelligentissimo, molto saggio
+18)Brownie: agilissimo, intelligentissimo, molto carismatico
+19)Primate: molto robusto, molto forte, molto agile, carismatico
+
+Per vedere i limiti di livello di tutte le razze scrivi '-' e invio.
+Per vedere le caratteristiche di tutte le razze scrivi '?' e invio.
+Per tornare alla scelta del sesso scrivi 'b' e invio.
+Per scegliere una razza scrivi il numero relativo e premi invio.
+La tua scelta: ^
