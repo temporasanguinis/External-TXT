@@ -652,22 +652,22 @@ regioni centrali:
                \                      |      [Colline]         o
   ...        [Contea]---...           |          |             |
     \            |                    |          |  [Camelot]  |
-     \           |     [Doom Island]  |          | /           |
+     \           |[isola del destino] |          | /           |
 [Foresta elfi]    \          \        |          |/       o----o-----[Ninja]
        \           \          \       |          o       /
         \          |           [-------------]   |      /
-...----[Foresta  ]-o-----------[La Citta'  di]---o-----o
+...----[ Foresta ]-o-----------[La Citta'  di]---o-----o
        [Haon  Dor]             [  M I D I A  ]   |      \
         /   /                  [-------------]   |       o------------[Goblin]
  [Grecia]  /                          |          o             ...
           /    [Spider Haunt]-o-------o         / \             /
-         /                   /         \       /   \           /
-   [Quickland]              /        [Alieni]  |  [Avamposto Orchi]
-                           /                   |
-                          /                [Mirkwood]
-                         o---[TS Arena]         \
-                          \                      \                 
-                 [Campi d'Addestramento]         ...
+         /                   /         \       /  [Avamposto Orchi]            
+   [Quickland]              /        [Alieni]  |        [Geldor e Midir]
+                           /                   o--------------o
+                          /                [Mirkwood]         |
+                         o---[TS Arena]         \     [Villaggio di Toewin]
+                          \                      \                     
+                 [Campi d'Addestramento]    [Licantropia]    
 
 
 
@@ -13103,7 +13103,12 @@ avranno  la possibilita' di accettare  in dono  uno tra due oggetti
 proposti dal nuovo re. Alcuni oggetti presenti  in questa avventura  
 sono molto potenti  e rari, come  gli scudi  elementali (che donano
 immunita'  ad alcuni elementi) o le scintille  divine che donano ai 
-personaggi caster il potere delle SLAY MAGICHE.  
+personaggi caster il potere delle SLAY MAGICHE. 
+- CAVE ABBANDONATE DI MONTE ROTTO,  le antiche  miniere di minerali
+prezioso, sono diventati il covo degli Skaven.
+- CITTA' SOTTERRANEA DI MIDRAASH, luogo misterioso il  cui  accesso
+e' proibito dall'Ordine di Midia, e' stato conquistato dalle tribu'
+dell'oscuro Gramfell.
 - RAVENLOFT, un luogo  d'ombra popolato da  creature oscure guidate
 dal  potente  Stradh.  I giocatori affronteranno schiere di nemici, 
 guadagnando SIGILLI DIVINI. 
