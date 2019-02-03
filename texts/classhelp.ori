@@ -1,19 +1,32 @@
-Cleric:       Good defense.  Healing spells
-Druid:        Real outdoors types.  Spells, not many items
-Fighter:      Big, strong and stupid.  Nuff said.
-Magic-users:  Weak, puny, smart and very powerful at high levels.
-Thieves:      Quick, agile, sneaky.  Nobody trusts them.
-Monks:        Masters of the martial arts.  They can only be single classed
-Barbarians:   Strong fighters, trackers and survivers. More move, faster
-              hit point regeneration. Limited magic use. Single class only and
-              only Humans and Half-Giants can be Barbarians.
-Paladins:     Holy warriors, defenders of good. Good fighters, some cleric
-	      abilities.
-Rangers:      Woodland hunters. These guys are one with the ways of the
-	      the forest life. Some druid type skills and warrior.
-Psionists:    Mind benders, they use the power of the mind to do
-	      unthought-of things
+Chierico (Cl):     Buona difesa, incantesimi curativi e di protezione, discrete
+                   abilita' in combattimento.
+Druido (Dr):       Incantesimi curativi e di attacco, esperto nell'uso degli
+                   elementi, mutaforma, esperto evocatore.
+Guerriero (Wa):    Esperto nel combattimento corpo a corpo, abile nel buttare a
+                   terra il nemico, ottime abilita' difensive.
+Mago (Mu):         Fragile, dotato di molti incantesimi di utilita' e attacco,
+                   buon evocatore, ottimo mutaforma.
+Stregone (So):     Fragile, dotato di molti incantesimi di utilita' e attacco,
+                   buon evocatore, ottimo mutaforma.				  
+Ladro (Th):        Agile, veloce, silenzioso e letale. Nessuno si fida di lui.
+Monaco (Mo):       Maestro nel combattimento a mani nude, addestrato a modificare
+                   i suoi attacchi in base alle situazioni. Fragile, veloce e letale.
+Barbaro (Ba):      Possente e feroce guerriero, vive per la guerra e odia la magia.
+                   Ottime abilita' offensive e difensive.
+Paladino (Pa):     Guerriero sacro, difensore del bene e degli indifesi. Buone abilita'
+                   combattive e discreti incantesimi curativi.
+Ranger (Ra):       Esploratore esperto, conoscitore delle forze della natura. Ottime 
+                   abilita' di caccia e arciere insuperabile. Abile nel riparare 
+				   oggetti rotti.
+Psionico (Ps:      Esperto mentalista che attacca le percezioni degli avversari, 
+                   ha grandi poteri sul proprio corpo e sul molte creature. 
+Antipaladino (Ap): Guerriero devoto agli dei oscuri, possiede il potere del fuoco e la
+                   capacita' di derubare agli avversari le energie magiche e fisiche.
 
-REMEMBER single class characters have a better hit point ratio than multi's.
+RICORDA: i personaggi di un'unica classe, hanno caratteristiche di base migliori 
+rispetto ai multiclassi e possono apprendere meglio di loro incantesimi, abilita' e 
+caratteristiche.
+
+Per ulteriori curiosita', consulta il forum del gioco, dove troverai anche utili guide!
 
 Scegli la classe ('-' per l'elenco di quelle disponibili): ^
