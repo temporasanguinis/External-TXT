@@ -19,7 +19,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
 - Aggiunte: SOCKET, GEMME, CRISTALLI, AREAQUEST, DHETHOR, TRAIN,
-RANDOMPOP, SCALA DEI DANNI e DODICI CASE
+  RANDOMPOP, SCALA DEI DANNI, DODICI CASE, VALORE OGGETTI
                                 
 
 --- Modifiche dalla versione 2.8.4.1 alla 2.9.0.0 ----------------
@@ -701,7 +701,7 @@ regioni centrali:
 .           Paladini             |            Banca-----Tribunale .
 .                                |                       |        .
 .  Cavalieri   Oggetti  Forno    |   Emporio  Armeria    |        .
-.   Destino    Magici     |      |       |      |        |        .
+.   Destino    Magici     |      |       |      |     Midia Alta  .
 .      |         |        |    Centro    |      |        |        .
 .<-----+--Strada-Principale  Commerciale-+---Strada-Principale--->.
 .      |         |        |      |       |      |        |        .
@@ -3424,6 +3424,20 @@ controllarlo sono i Drow. Se si entra in possesso di questi oggetti,
 e'  possibile sfruttare  l'enorme  potere di  evocazione  che questa
 magia racchiude.
 
+Creatura      Livello      Oggetto
+--------------------------------------------------------------------
+Vrock         one          una spada nera con le rune verdi
+Hezrou        two          un pugnale runico
+Glabrezu      three        un bastone nero  
+Nalfeshnee    four         un pugnale a forma di ragno
+Marilith      five         una frusta a forma di serpente
+Balor         six          un infuso preparato da una strega
+--------------------------------------------------------------------
+
+Gli oggetti necessari per le evocazioni possono essere trovati in
+varie zone dell'impero: Orshingal, la citta' dei Drow e Darkenwood.
+
+
 Vedi anche: CONJURE ELEMENTAL, GOLEM
 
 #
@@ -3480,18 +3494,26 @@ elemento, riuscendo cosi' a crescere e rigenerarsi. Per poter compiere il
 rituale, e' necessario avere delle particolari pietre, che sono la chiave
 per aprire i piani elementali. Queste pietre sono:
  
-'red stone'       per gli elementali del fuoco
-                  crescono assorbendo sorgenti di luce, muoiono in acqua
-'pale blue stone' per gli elementali dell'acqua
-                  crescono inglobando bevande o stando in acqua, nuotano
-'grey stone'      per gli elementali della terra
-                  crescono inglobando pietre, o in montagna
-'clear stone'     per gli elementali dell'aria
-                  crescono ovunque all'aperto
+'una pietra di color rosso cupo':    per gli elementali del fuoco
+                                     crescono assorbendo sorgenti di luce, 
+                                     muoiono in acqua
+                  
+'una pietra di colore blu pallido':  per gli elementali dell'acqua
+                                     crescono inglobando bevande o stando 
+                                     in acqua, nuotano
+                  
+'una pietra di colore grigio opaco': per gli elementali della terra
+                                     crescono inglobando pietre, o in 
+                                     montagna
+                  
+'una pietra trasparente':            per gli elementali dell'aria
+                                     crescono ovunque all'aperto
 
 Le pietre  vanno tenute in mano affinche' l'evocazione  abbia successo, e
 quando l'incantesimo ha  avuto successo e  l'elementale ha attraversato i
 piani astrali, la pietra si distrugge.
+Le pietre  per le evocazioni si formano in prossimita' di zone desertiche
+e possono essere trovate nell'antica citta' abbandonata di Old Thalos.
 
 Vedi anche: FIRE SERVANT, EARTH SERVANT, WATER SERVANT, WIND SERVANT,
             CACAODEMON
@@ -9984,7 +10006,7 @@ usato per la  riparazione ha un costo, che corrisponde  circa alla meta'
 del  compenso che  chiede il Super Fabbro.  Inoltre, ci  vuole parecchio
 tempo per lavorare gli oggetti: la riparazione procede per 6 round.
 
-Vedi anche: SCRAP
+Vedi anche: SCRAP, VALORE DEGLI OGGETTI
 
 #
 PARRY
@@ -13215,10 +13237,10 @@ Vedi anche: GEMME, SOCKET, QUESTLIS
 
 #
 "SCALA DEI DANNI" DANNI
- Ogni colpo  portato a  termine riporta  la potenza  e la forza del
- danno  effettuato,  tramite  una  descrizione  del  danno  stesso.
- Soltanto  chi  utilizza  la  modalita'  di  gioco  powerplay (PWP)
- conosce la precisa entita' del danno fatto.
+Ogni colpo  portato a  termine riporta  la potenza  e la forza del
+danno  effettuato,  tramite  una  descrizione  del  danno  stesso.
+Soltanto  chi  utilizza  la  modalita'  di  gioco  powerplay (PWP)
+conosce la precisa entita' del danno fatto.
 La scala dei danni e' la seguente:
 
 manca
@@ -13306,6 +13328,30 @@ quest'area:  personaggi con  PWP o  caratteristiche troppo  elevate
 punti KARMA all'uccisione di ogni avversario.
 
 Vedi anche: AREAQUEST, QUEST, KARMA
+
+#
+"VALORE DEGLI OGGETTI" VALORE OGGETTI
+
+Gli  oggetti possiedono uno specifico valore espresso in monete che 
+indica  anche  il  livello minimo che il personaggio deve avere per 
+poterli indossare, espresso secondo lo schema di questa tabella:
+
+-------------------------------------------------------------------
+    Livelli                 Valore dell'oggetto
+
+    1-10	                1-100
+    11-20	                101-1000
+    21-30	                1001-10000
+    31-40	                10001-50000
+    41-50	                50000 o superiore
+-------------------------------------------------------------------
+
+Il valore dell'oggetto incide anche sul costo di riparazione.
+
+
+Vedi anche: REPAIR, MUD, NEWBIE
+
+
 
 
 #~
