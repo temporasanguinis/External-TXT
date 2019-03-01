@@ -2952,7 +2952,7 @@ propria  dei monaci,  mediante  il quale  chi lo esegue riesce ad incanalare
 la propria energia  nel palmo  della mano,  per poi scagliarla  come un'onda
 contro un avversario. L'avversario deve essere di livello uguale o minore, e
 deve avere meno del doppio di  Hit Points di chi attacca.  Il Quivering Palm
-puo' essere usato solamente una volta ogni mese.
+puo' essere usato ogni 2*(9-livello eroe) tick.
 
 Vedi anche: NEW QUIVERING PALM
 
@@ -10085,7 +10085,7 @@ quella  di un monaco  normale, l'energia  sprigionata  dalle sue mani e' in
 grado di uccidere creature molto piu' grandi che non con il Quivering Palm.
 Oltre a questo,  i monaci eroi  hanno una maggiore  capacita' di recuperare
 le proprie forze: questo permette loro di  usare questa imbattibile tecnica
-anche una volta al giorno. Il New Quivering non migliora con la pratica.
+ogni (9-livello eroe) tick. Il New Quivering non migliora con la pratica.
 
 Vedi anche: QUIVERING PALM
 
