@@ -1,6 +1,6 @@
 
 Versione 2.19.3.1 - $c0009MARZO 2019 $c0007- I doni degli dei
-- Sono state aggiunte delle nuove aree:
+- $c0012Aree$c0007Sono state aggiunte delle nuove aree:
   EROI - La torre nera di Hoeur [Trad. by Nalith]
 - Per semplificare la vita ai nuovi giocatori e facilitare coloro che tornano dopo
   lungo tempo, gli dei hanno creato un sistema di aiuti basato sull'avanzamento dei
@@ -11,6 +11,12 @@ Versione 2.19.3.1 - $c0009MARZO 2019 $c0007- I doni degli dei
   personalizzati sul personaggio che li riceve. [by Martinus]
 - Ora con il comando GROUPCHECK si possono vedere gli spell attivi e in scadenza sui 
   compagni del gruppo. [by Martinus]
+- $c0012Listino$c0007 - Aggiunta la possibilita' per i monaci di editare il dado sui guanti: potranno avere
+  come le altre classi fino a 50 punti di danno sul dado dell'arma. Dovranno pero'
+  utilizzare due slot sui guanti per editare il nuovo dado. Tale cambiamento necessitera'
+  di un periodo di prova. Qualora tale prova dovesse andare male e questa possibilita'
+  dovvesse venire eliminata, ad insindacabile giudizio dello staff, coloro che hanno 
+  fatto la modifica riceveranno un rimborso sulla spesa in sigilli.
 - Aggiunta una razza tutta nuova tra quelle disponibili tramite l'incantesimo druidico
   'Reincarnate'. A voi il compito di scoprirla. [by Martinus, Dimitri & Phoenix]
 - Modificato il cooldown delle skill per monaci 'Quivering palm' e 'New quivering palm':
@@ -29,7 +35,7 @@ Versione 2.19.3.1 - $c0009MARZO 2019 $c0007- I doni degli dei
 - Corretti alcuni bug, typo e problemi minori ad alcune aree dell'Impero.
   
 Versione 2.19.2.1 - $c0009FEBBRAIO 2019 $c0007- Cantieri aperti in tutto l'Impero/3 
-- Sono state aggiunte delle nuove aree:
+- $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
   NON EROI - Le montagne orientali [Trad. by Nalith]
   NON EROI - Le miniere di Falrhun [Trad. by Kiruna]
   TUTTI - Il bosco dei druidi di Namor [Trad. by Stellos]
@@ -63,7 +69,7 @@ Versione 2.19.2.1 - $c0009FEBBRAIO 2019 $c0007- Cantieri aperti in tutto l'Imper
   logico lo spostamento tra aree. 
 
 Versione 2.19.1.1 - $c0009GENNAIO 2019 $c0007 - Cantieri aperti in tutto l'Impero/2
-- Sono state aggiunte delle nuove aree:
+- $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
   PER TUTTI - La parte sud di Mida [Trad. by Nalith] - Trovate alcuni mob molto utili: 
   un'area piena di segreti, da esplorare a fondo interagento con i mob.
   NON EROI/SUPERIOR - Il tempio dei Druidi Banditi [Trad. by Tyrant]
@@ -79,7 +85,7 @@ Versione 2.18.12.1 - $c0009NOVEMBRE/DICEMBRE 2018 $c0007 - Cantieri aperti in tu
   suo volto. Alcune nuove terre si sono aggiunte alla sfera di influenza di 
   Midia e dei suoi eroi, altre hanno cambiato volto, grazie al lavoro di divini
   architetti.
-- Ecco la lista delle principali aree aggiunte o tradotte:
+- $c0012Aree$c0007 - Ecco la lista delle principali aree aggiunte o tradotte:
   EROI - I quartieri alti di Midia [Nalith]
   EROI - La citta' sotterranea di Midraash [Nalith]
   EROI - Ravenloft [Trad. by Tyrant]
@@ -96,7 +102,8 @@ Versione 2.18.11.1 - $c0009AGOSTO/OTTOBRE 2018 $c0007- La guerra dei draghi
   Hit roll e Dam roll. Per gli over edit da monoclasse o il quinto edit di 
   Hit&Dam sulle armi bisogna comunque rivolgersi a Dimitri. 
   [modifica di Martinus e Balir]
-- Sono state aggiunte delle piccole modifiche al listino divini.
+- $c0012Listino$c0007 - Sono state aggiunte delle piccole modifiche al listino divini
+  in particolare sul costo degli edit di Hit&dam.
 - Corretti alcuni typo e inserite nuove voci nell'help. Ora potrete trovare 
   informazioni sulle voci: SOCKET, GEMME, CRISTALLI, AREAQUEST, DHETHOR, TRAIN, 
   RANDOMPOP, SCALA DEI DANNI e DODICI CASE. Aggiornata la mappa di Midia e molte 
@@ -126,8 +133,6 @@ Versione 2.13.12.29
   (livello fino al 60) e gli dei (livello dal 61 in su)
 - Sistemati anche gli help degli spell modificati.
 
-
-
 Versione 2.13.3.23
   - Modificata la premiazione di Atlantide, ora paga sempre sigilli+karma
     e in piu 2 oggetti per terra tra cui scegliere.
@@ -139,7 +144,6 @@ Versione 2.13.3.23
     da Ash. Leggete bene l'avviso nella stanza della carrozza di midia.
   - Aggiunto un bonus al bash da 3 al titano, e un bonus sullo stun per
     pg con forza 24+. Non vale per i mob ne' per i personaggi polimorfati.
-
 
 Versione 2.12.7.1
   - ATTENZIONE: lo spell earthquake ora ingaggia anche i volatili se essi
@@ -154,7 +158,6 @@ Versione 2.12.7.1
   - Corretto un bug da crash sui personaggi polimorfati link dead.
   - Migliorata la skill bellow.
   - Migliorata la skill value, sia per ladri che per ranger.
-
 
 Versione 2.12.3.18
  - Ora Dhethor da' la possibilita' di risolvere 15 missioni a tutti, 
@@ -187,31 +190,3 @@ Versione 2.12.3.18
    psionico stesso, per i quali continua a valere il vecchio effetto.
    NB: la modifica puo' essere soggetta a ricalibrature/bilanciamenti.   
 
-Versione 2.9.0.7
- - Modificata l'AI dei mob chierici, ora castano anche qualche altro spell
-   diverso dai soliti.
- - Alcuni polymorph da mago non hanno piu' restrizioni di classe o allineamento, 
-   inoltre l'elementale del fuoco ora e' di classe chierico e non piu' druido.
-   Per saperne di piu' leggi help polymorph aggiornato anche esso.
- - Aumentato il premio del forziere della quest dei portali dimensionali.
- - Da ora teleport e psionic teleport funzionano anche nelle aree astral, anche da
-   polimorfati, continuano invece ad essere bloccati per i mob, in modo tale che essi
-   non si teleportino dalle aree appositamente astral per questo motivo.
- - In memoria del mud ormai spento Lands of Darkness, e come complemento a Eowarion
-   che spesso fa il difficile, oggi abbiamo introdotto il "questor", un mob che potrete 
-   trovare nell'incrocio principale di Midia sud, e che vi affidera' missioni di ricerca.
-   Andate a trovarlo e usate il comando "quest"/"missione" per interagire con lui. 
-   Le sue quest sono indipendenti da quelle di Eowarion, potrete portare avanti una 
-   questcard e una missione del questor contemporaneamente.
-   Il questor sostituisce in parte il servizio di quest online di Nis, in cui era dato il 
-   nome esatto di una stanza e bisognava trovarla.
- - Ora quando si pola o si spola si rimane sempre gruppati, senza bisogno
-   di rifollare il capogruppo oppure farsi rifollare.
- - I multiclasse non dividono piu' gli xp per le classi, come gia succede
-   da eroi, ma ora dal primo livello.
- - I comandi group e groupcheck incolonnano correttamente le percentuali 
-   (per chi usa un carattere a larghezza fissa) e le colorano a seconda del valore.
- - Tolti i socket nella quest di atlantide e aggiunti nuovi premi.
- - Tolto il malus allo shield block ai guerrieri monoclasse che usano la mastery
- - Ora gli oggetti socketable sono stati inseriti come pop random su un po' di
-   mob in giro per il mud.
