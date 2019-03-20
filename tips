@@ -1,71 +1,81 @@
 #0-0
+Se hai appena creato il tuo personaggio, ricordati di esaminare il tuo inventario con il
+comando '$c0009INV$c0007'. Troverai molti oggetti utili per iniziare a giocare.~
+Per esaminare il contenuto di borse e forzieri, usa il comando '$c0009EXA [nomeoggetto]$c0007'.~
 Ogni tanto, gli dei organizzano degli Eventi nel gioco, i dettagli si trovano sul forum~
 Puoi trovare consigli sul gioco, e molto altro sul sito: https://www.temporasanguinis.it~
-Per attivare/disattivare il canale dei consigli puoi usare il comando NOTIPS~
+Per attivare/disattivare il canale dei consigli puoi usare il comando '$c0009NOTIPS$c0007'~
 $~
 
 #1-9
+Per leggere il contenuto di libri, mappe e pergamene, usa il comando '$c0009READ [nomeoggetto]$c0007'.~
+Con l'avanzare dei livelli, riceverai dei doni da parte degli dei, che ti serviranno per giocare
+ed esplorare. Alcuni di essi sono lettere e mappe che ti permetteranno di acquisire le nozioni necessarie
+per migliorare la tua comprensione del mondo di Tempora Sanguinis. Ricordati di leggerle con attenzione!~
+Per esaminare il contenuto di borse e forzieri, usa il comando '$c0009EXA [nomeoggetto]$c0007'.~
 Fino al livello 3 puoi fare esperienza sacrificando gli oggetti che puoi prendere
-usando il comando 'junk [nomeoggetto]', dopo il livello 3 lo stesso comando ti fara' 
+usando il comando '$c0009JUNK [nomeoggetto]$c0007', dopo il livello 3 lo stesso comando ti fara' 
 guadagnare monete d'oro.~
-Se ti perdi puoi usare il comando 'pray casa' che ti riportera' nel posto in cui
-sei entrato l'ultima volta. Questo funziona anche se ti trovi in combattimento e
+Se ti perdi puoi usare il comando '$c0009PRAY CASA$c0007' che ti riportera' nel posto in cui
+sei entrato in gioco l'ultima volta. Questo funziona anche se ti trovi in combattimento e
 non da' lag.~
-Se muori e non sai come recuperare il tuo corpo e il tuo equipaggiamento puoi
-andare in sala delle preghiere a midia e scrivere 'pray aiuto' che ti portera'
+Se il tuo personaggio muore e non sai come recuperare il corpo e l'equipaggiamento puoi
+andare in sala delle preghiere a Midia e scrivere '$c0009PRAY AIUTO$c0007' che ti portera'
 il tuo corpo con l'equipaggiamento se non e' stato raccolto da un mob.~
-Per orientarti nella citta' di midia scrivi 'help midia' che ti mostrera' una mappa.~
-Per conoscere i vari comandi nei dettagli scrivi 'help mud' ed 'help continuamud'~
-Zone consigliate per fare esperienza: Scacchiera, Mirkwood e Foresta Elfica~
-Zone con equipaggiamento che puoi usare: Scacchiera, Foresta Elfica, Utopya, Isola del Destino.
-Per sapere cosa fa un oggetto vai da Bronn, si trova a Midia, dagli l'oggetto e ti dira'
-le caratteristiche ad un costo in monete molto piccolo.~
-Se sei un nuovo giocatore, devi sapere che e' stata fondata una gilda, i Cavalieri del Destino,
-con lo scopo di aiutarti, per maggiori informazioni contatta gli immortali in gioco.~
+Per orientarti nella citta' di Midia scrivi '$c0009HELP MIDIA$c0007' che ti mostrera' una mappa.~
+Per conoscere i vari comandi nei dettagli scrivi '$c0009HELP MUD$c0007' ed '$c0009HELP CONTINUAMUD$c0007'~
+Zone consigliate per fare esperienza: $c0012la scacchiera di Midia, la foresta di Mirkwood, la 
+foresta elfica, le miniere di Falrhun$c0007.~
+Zone con equipaggiamento che puoi usare: $c0012la scacchiera di Midia, la foresta di Mirkwood, la 
+foresta elfica, le miniere di Falrhun, Utopya, l'isola del destino$c0007.
+Per sapere cosa fa un oggetto vai da Bronn, a Midia, dagli l'oggetto e ti dira' le caratteristiche pagando
+un prezzo in monete.~
+Se sei un nuovo giocatore, chiedi informazioni sulla gilda dei Cavalieri del Destino, i membri della gilda
+si impegnano ad aiutare i nuovi giocatori. Per maggiori informazioni contatta gli immortali in gioco.~
 $~
 
 #10-20
-Puoi usare il comando 'junk [oggetto]' fino al livello 15 per guadagnare monete d'oro,
+Puoi usare il comando '$c0009JUNK [nomeoggetto]$c0007' fino al livello 15 per guadagnare monete d'oro,
 dal livello 16 le quantita' di monete che guadagnerai dipende dal valore dell'oggetto.~
-Puoi usare il comando 'pray casa' fino al livello 15.~
-Puoi usare il comando 'pray aiuto' in sala preghiere per recuperare il tuo corpo in caso
-di morte.~
-Puoi identificare l'equipaggiamento da te trovato da Bronn, pagando solo qualche moneta
-in piu', infatti piu' cresci e piu paghi.~
-Zone consigliate: Castel Mistamere, Isola del destino, Skexie Palace, Miniere di Moria, 
-Fogne di Midia.~
-Zone con equipaggiamento che puoi usare: Utopya, Mistamere, Isola del Destino, Nani, 
-Fortezza invasa, Skexie Palace.~
+Puoi usare il comando '$c0009PRAY CASA$c0007' fino al livello 15.~
+Puoi usare il comando '$c0009PRAY AIUTO$c0007' nella sala delle preghiere a Midia per recuperare il tuo 
+corpo in caso di morte.~
+Puoi identificare l'equipaggiamento da te trovato da Bronn, a Midia, pagando solo qualche moneta:
+piu' crescerai di livello e piu pagherai.~
+Zone consigliate per fare esperienza: $c0012Castel Mistamere, l'isola del destino, le miniere di Falrhun, .~
+Zone con equipaggiamento che puoi usare: $c0012Utopya, Castel Mistamere, isola del Destino, regno dei nani, 
+fortezza invasa dagli orchi del clan Spezzaossa, il palazzo degli Skexie$c0007.~
 $~
 
 #21-30
-Puoi migliorare le tue statistice dall'istruttrice Calliope. E' difficile raggiungerla
-a piedi, quindi ti consiglio di chiedere un portale e meno che tu non sia psionico e hai
-gia il tuo portale personale. Migliorare ogni statistica ti costera' 10 pratiche di quelle
-acquisite all'avanzare dei tuoi livelli.~
-Fai attenzione a non avanzare di livello se hai gia 50 pratiche o piu', altrimenti non
-ne prenderai altre.~
-Zone consigliate: Utopya, Grecia, Fortezza invasa, Orshingal, Licantropia, Nani.~
-Ora puoi usare quasi tutto l'equipaggiamento che trovi nelle zone che fai.
+Puoi migliorare le tue statistice dall'istruttrice Calliope($c0009HELP CALLIOPE$c0007). E' difficile raggiungerla
+a piedi, quindi inizialmente prova a chiedere un $c0009PORTAL$c0007 a qualche altro personaggio in gioco, a
+meno che tu non sia psionico dotato di skill $c0009DOORWAY$c0012 tuo portale personale. Migliorare 
+ogni statistica (Forza, Saggezza, Intelligenza, Carisma, Destrezza, Costituzione) ti costera' 10 pratiche tra 
+quelle acquisite con l'avanzare dei livelli.~
+Zone consigliate per fare esperienza: $c0012Utopya, Grecia, Fortezza invasa dagli orchi del clan Spezzaossa, Orshingal,
+terre desolate di Lyth, regno dei Nani$c0007.~
+Ora puoi usare quasi tutto l'equipaggiamento che trovi nelle zone dove fai esperienza.
 Puoi ancora identificare gli oggetti da Bronn e scegliere quello che per te e' migliore.~
+Puoi riparare gli oggetti rovinati dal fabbro Compton. Cerca la sua fucina a Midia Sud.~
 $~
 
 #31-40
-Puoi migliorare le tue statische da calliope al costo di solo 5 pratiche per ognuna.~
+Puoi migliorare le tue statistiche da Calliope al costo di solo 5 pratiche per statistica,
+oppure puoi usare le gemme che trovi su alcuni mob ($c0009HELP GEMMA$c0007).~
 Puoi ancora identificare i tuoi oggetti da Bronn fino al liv 40.~
-Zone consigliate: Utopya, Grecia, Iperborea, Incantevole foresta di Ydwen, Fortezza invasa, 
-Ade, Licantropia, Orshingal, Mordilnia, Villaggio dei Gitani, Arctica.~
+Zone consigliate per fare esperienza: $c0012Utopya, Grecia, citta' di Iperborea, Incantevole foresta di Ydwen, 
+Fortezza invasa dagli orchi del clan Spezzaossa, Ade, terre desolate di Lyth, Orshingal, Mordilnia, Villaggio 
+dei Gitani, Arctica.~
 Puoi usare tutto l'equipaggiamento che trovi in queste zone, puoi anche provare a vedere
-nella sala donazioni di New Thalos se c'e' qualcosa di interessante.~
+nella sala delle donazioni di New Thalos se c'e' qualcosa di interessante.~
 $~
 
 #41-49
 Fino al livello 45 puoi continuare a migliorare le tue statistiche da Calliope al costo
 di 5 pratiche ciascuna, se non hai intenzione di reincarnare (cioe' cambiare razza tramite
-il reincarnate dei druidi) si consiglia di portare al massimo le tue stat entro questo livello
-o se non ti bastano le pratiche comunque consumarle tutte per migliorare le stat dato che dal
-livello 46 oltre alle 5 pratiche occorre anche una gemma caratteristica della statistica che
-vuoi migliorare. Se invece hai intezione di reincarnare si consiglia di migliorare le stat fino
+lo spell $c0009REINCARNATE$c0007 dei druidi) si consiglia di portare al massimo le tue stat entro questo livello.
+Se invece hai intezione di reincarnare si consiglia di migliorare le statistiche fino
 ai seguenti limiti e tenere le pratiche per il futuro per non perdere ulteriori stat
 durante il reincarnate: forza 17, destrezza 15, carisma 15, intelligenza 15 saggezza 15.
 Queste sono le stat che sicuramente non perderai quando dovrai reincarnare e ci tengo a
@@ -76,30 +86,34 @@ fortezza dei giganti, sauria.~
 Ora puoi utilizzare quasi tutto l'equipaggiamento che trovi in giro,quindi prova sempre a 
 dare un'occhiata alla sala donazioni di New Thalos, spesso oggetti che non servono agli 
 eroi potrebbero essere utili a te.~
-Zone con oggetti interessanti o di utilita': Old thalos, monastero ninja, white plume mountain,
-tyr's zone, hill giant, rhyodin, avalon.~
+Zone con oggetti interessanti o di utilita': $c0012Old thalos, il monastero dei ninja, il vulcano White Plume,
+Darkenwood, le montagne orientali, l'avamposto di Rhyodin, Avalon$c0007.~
 Per conoscere le caratteristiche di cio' che trovate, ora dovrete cercare un altro identatore,
 oppure usare pergamene di identificazione.~
-Consiglio di esplorare il piu possibile, potresti trovare oggetti carini o utili nelle zone 
-piu'sperdute del mud. ~
+Esplora le terre dell'impero celesto il piu possibile, potresti trovare oggetti rari o utili nelle zone 
+piu'sperdute.~
 $~
 
 #50-52
 Dal livello 50 si possono usare tutti gli oggetti trovati.~
-Se vuoi, puoi farti reincarnare da un druido in un altra razza, ricorda pero' che le
+Se vuoi, puoi farti reincarnare da un druido in un altra razza, ricorda che le
 razze dei reincarnate sono casuali e possono servire piu tentativi per avere quella
 desiderata e ad ogni tentativo si perde un punto costituzione, quindi pensaci bene
 o accontentati di una che vada bene per la tua classe.~
-Dopo aver fatto 200mega di XP si diventa eroi di livello 1, ed ogni 50 mega acquisite
-un livello eroe fino al 7 (lord/lady) che e' il massimo.~
-Ad ogni livello eroe si possono imparare altre skill o spell da un mob di nome Exodus.~
-Se non sei ancora eroe oppure sei neo eroe potresti provare la quest delle 12 case alla
-quale si accede dall'oceano greco, con un gruppo di pg del tuo stesso livello.~
-Zone consigliate per neo eroi: New Thalos, medness, mezzigiganti, Rhyiana, iperborea,
-camelot, geldor, sauria, sommerlund, myrran bassa (inizialmente provate prima in gruppo).~
-Nel momento in cui sei eroe hai la possibilita' di migliorare attraverso gli xp
-punti ferita, mana, damroll, hitroll, spell power, movimento e i vari regen da un mob
+Per conoscere le caratteristiche delle razze, usa i comandi $cooo9SHOWCAP, SHOWCAP STAT,
+SHOWCAP LEV$c0007.~
+Dopo aver fatto 200mega di XP (punti esperienza) si diventa eroi di livello 1, ed ogni 50 mega si
+acquistera' un livello eroe, fino al raggiungimento del livello 7 (lord/lady).~
+Ad ogni livello eroe si possono imparare altre skill o spell da un mob di nome Exodus
+che si trova presso l'alta torre della magia.~
+Se non sei ancora $c0009EROE$c0007 oppure sei $c0009NEOEROE$c0007, potresti provare la quest delle 
+$c0009DODICI CASE$c0007 alla quale si accede dall'oceano greco, con un gruppo di pg del tuo stesso livello.~
+Zone consigliate per NEOEROI: $c0012New Thalos, Medness, Villaggio dei Mezzigiganti, Rhyiana, Iperborea,
+Citta' di camelot, Geldor, Sauria, Sommerlund, valle di Myrran, tempio dei druidi banditi, Darkenwood$c0007.~
+Nel momento in cui si diventa eroi si acquisisce la capacita' di migliorare attraverso gli xp alcune caratteristiche
+come i punti vita, i punti mana, damroll, hitroll, spell power, movimento e i vari regen da un mob
 di nome Cindy, consigliamo pero' di farlo al livello 6 eroe dal momento che i tuoi
-maxxaggi xp sono piu alti dei soliti 150000 a mob e dopo aver imparato tutte le skill.~
+maxxaggi xp sono piu alti dei soliti 150000 xp per ogni mob sconfitto e dopo aver imparato tutte le skill.
+Per ulteriori informazioni, consulta l'help del gioco ($c0009HELP EROI, HELP MAXXAGGI, HELP DIGNITY, HELP CINDY$c0007).~
 $~
 

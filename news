@@ -1,5 +1,7 @@
 
 Versione 2.19.3.1 - $c0009MARZO 2019 $c0007- I doni degli dei
+- $c0012Aree$c0007Sono state aggiunte delle nuove aree:
+  EROI - La torre nera di Hoeur [Trad. by Nalith]
 - Per semplificare la vita ai nuovi giocatori e facilitare coloro che tornano dopo
   lungo tempo, gli dei hanno creato un sistema di aiuti basato sull'avanzamento dei
   livelli: $c0011i doni degli dei$c0007. 
@@ -7,12 +9,20 @@ Versione 2.19.3.1 - $c0009MARZO 2019 $c0007- I doni degli dei
   Successivamente, una volta diventati eroi, i personaggi riceveranno un dono ad ogni
   avanzamento di livello eroe. Gli oggetti elargiti dagli dei verranno automaticamente
   personalizzati sul personaggio che li riceve. [by Martinus]
+- Ora con il comando GROUPCHECK si possono vedere gli spell attivi e in scadenza sui 
+  compagni del gruppo. [by Martinus]
+- $c0012Listino$c0007 - Aggiunta la possibilita' per i monaci di editare il dado sui guanti: potranno avere
+  come le altre classi fino a 50 punti di danno sul dado dell'arma. Dovranno pero'
+  utilizzare due slot sui guanti per editare il nuovo dado. Tale cambiamento necessitera'
+  di un periodo di prova. Qualora tale prova dovesse andare male e questa possibilita'
+  dovvesse venire eliminata, ad insindacabile giudizio dello staff, coloro che hanno 
+  fatto la modifica riceveranno un rimborso sulla spesa in sigilli.
 - Aggiunta una razza tutta nuova tra quelle disponibili tramite l'incantesimo druidico
-  'Reincarnate'. A voi il compito di scoprirla. [by Martinus, Dimitri @ Phoenix]
+  'Reincarnate'. A voi il compito di scoprirla. [by Martinus, Dimitri & Phoenix]
 - Modificato il cooldown delle skill per monaci 'Quivering palm' e 'New quivering palm':
   ora si potranno rispettivamente lanciare ogni 2*(9-livello eroe)e 9-livello eroe tick. 
 - E' stata aggiunta una nuova MINIQUEST a New Thalos per NON EROI e NEOEROI: qualcuno
-  potrebbe avere bisogno dei vostri servigi presso la locanda del demone danzante.
+  potrebbe avere bisogno dei vostri servigi presso la locanda del Demone Danzante.
 - E' stato aggiunto un frammento della sfera dei Draghi Antichi. Provate a cercare 
   informazioni a Midia Sud.
 - A Midia sud, presso l'accademia dei Sapienti, ora Garius Dakal, mastro alchimista, 
@@ -25,7 +35,7 @@ Versione 2.19.3.1 - $c0009MARZO 2019 $c0007- I doni degli dei
 - Corretti alcuni bug, typo e problemi minori ad alcune aree dell'Impero.
   
 Versione 2.19.2.1 - $c0009FEBBRAIO 2019 $c0007- Cantieri aperti in tutto l'Impero/3 
-- Sono state aggiunte delle nuove aree:
+- $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
   NON EROI - Le montagne orientali [Trad. by Nalith]
   NON EROI - Le miniere di Falrhun [Trad. by Kiruna]
   TUTTI - Il bosco dei druidi di Namor [Trad. by Stellos]
@@ -59,7 +69,7 @@ Versione 2.19.2.1 - $c0009FEBBRAIO 2019 $c0007- Cantieri aperti in tutto l'Imper
   logico lo spostamento tra aree. 
 
 Versione 2.19.1.1 - $c0009GENNAIO 2019 $c0007 - Cantieri aperti in tutto l'Impero/2
-- Sono state aggiunte delle nuove aree:
+- $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
   PER TUTTI - La parte sud di Mida [Trad. by Nalith] - Trovate alcuni mob molto utili: 
   un'area piena di segreti, da esplorare a fondo interagento con i mob.
   NON EROI/SUPERIOR - Il tempio dei Druidi Banditi [Trad. by Tyrant]
@@ -75,7 +85,7 @@ Versione 2.18.12.1 - $c0009NOVEMBRE/DICEMBRE 2018 $c0007 - Cantieri aperti in tu
   suo volto. Alcune nuove terre si sono aggiunte alla sfera di influenza di 
   Midia e dei suoi eroi, altre hanno cambiato volto, grazie al lavoro di divini
   architetti.
-- Ecco la lista delle principali aree aggiunte o tradotte:
+- $c0012Aree$c0007 - Ecco la lista delle principali aree aggiunte o tradotte:
   EROI - I quartieri alti di Midia [Nalith]
   EROI - La citta' sotterranea di Midraash [Nalith]
   EROI - Ravenloft [Trad. by Tyrant]
@@ -92,7 +102,8 @@ Versione 2.18.11.1 - $c0009AGOSTO/OTTOBRE 2018 $c0007- La guerra dei draghi
   Hit roll e Dam roll. Per gli over edit da monoclasse o il quinto edit di 
   Hit&Dam sulle armi bisogna comunque rivolgersi a Dimitri. 
   [modifica di Martinus e Balir]
-- Sono state aggiunte delle piccole modifiche al listino divini.
+- $c0012Listino$c0007 - Sono state aggiunte delle piccole modifiche al listino divini
+  in particolare sul costo degli edit di Hit&dam.
 - Corretti alcuni typo e inserite nuove voci nell'help. Ora potrete trovare 
   informazioni sulle voci: SOCKET, GEMME, CRISTALLI, AREAQUEST, DHETHOR, TRAIN, 
   RANDOMPOP, SCALA DEI DANNI e DODICI CASE. Aggiornata la mappa di Midia e molte 
@@ -122,8 +133,6 @@ Versione 2.13.12.29
   (livello fino al 60) e gli dei (livello dal 61 in su)
 - Sistemati anche gli help degli spell modificati.
 
-
-
 Versione 2.13.3.23
   - Modificata la premiazione di Atlantide, ora paga sempre sigilli+karma
     e in piu 2 oggetti per terra tra cui scegliere.
@@ -135,7 +144,6 @@ Versione 2.13.3.23
     da Ash. Leggete bene l'avviso nella stanza della carrozza di midia.
   - Aggiunto un bonus al bash da 3 al titano, e un bonus sullo stun per
     pg con forza 24+. Non vale per i mob ne' per i personaggi polimorfati.
-
 
 Versione 2.12.7.1
   - ATTENZIONE: lo spell earthquake ora ingaggia anche i volatili se essi
@@ -150,7 +158,6 @@ Versione 2.12.7.1
   - Corretto un bug da crash sui personaggi polimorfati link dead.
   - Migliorata la skill bellow.
   - Migliorata la skill value, sia per ladri che per ranger.
-
 
 Versione 2.12.3.18
  - Ora Dhethor da' la possibilita' di risolvere 15 missioni a tutti, 
@@ -182,140 +189,4 @@ Versione 2.12.3.18
    Attenzione: questa nuova tecnica NON funzionera' sui personaggi, ne' sullo 
    psionico stesso, per i quali continua a valere il vecchio effetto.
    NB: la modifica puo' essere soggetta a ricalibrature/bilanciamenti.   
-
-Versione 2.9.0.7
- - Modificata l'AI dei mob chierici, ora castano anche qualche altro spell
-   diverso dai soliti.
- - Alcuni polymorph da mago non hanno piu' restrizioni di classe o allineamento, 
-   inoltre l'elementale del fuoco ora e' di classe chierico e non piu' druido.
-   Per saperne di piu' leggi help polymorph aggiornato anche esso.
- - Aumentato il premio del forziere della quest dei portali dimensionali.
- - Da ora teleport e psionic teleport funzionano anche nelle aree astral, anche da
-   polimorfati, continuano invece ad essere bloccati per i mob, in modo tale che essi
-   non si teleportino dalle aree appositamente astral per questo motivo.
- - In memoria del mud ormai spento Lands of Darkness, e come complemento a Eowarion
-   che spesso fa il difficile, oggi abbiamo introdotto il "questor", un mob che potrete 
-   trovare nell'incrocio principale di Midia sud, e che vi affidera' missioni di ricerca.
-   Andate a trovarlo e usate il comando "quest"/"missione" per interagire con lui. 
-   Le sue quest sono indipendenti da quelle di Eowarion, potrete portare avanti una 
-   questcard e una missione del questor contemporaneamente.
-   Il questor sostituisce in parte il servizio di quest online di Nis, in cui era dato il 
-   nome esatto di una stanza e bisognava trovarla.
- - Ora quando si pola o si spola si rimane sempre gruppati, senza bisogno
-   di rifollare il capogruppo oppure farsi rifollare.
- - I multiclasse non dividono piu' gli xp per le classi, come gia succede
-   da eroi, ma ora dal primo livello.
- - I comandi group e groupcheck incolonnano correttamente le percentuali 
-   (per chi usa un carattere a larghezza fissa) e le colorano a seconda del valore.
- - Tolti i socket nella quest di atlantide e aggiunti nuovi premi.
- - Tolto il malus allo shield block ai guerrieri monoclasse che usano la mastery
- - Ora gli oggetti socketable sono stati inseriti come pop random su un po' di
-   mob in giro per il mud.
-
-Versione 2.9.0.6 - Skill per tutti i gusti
- - Ora da Calliope non serve piu' la gemma per praccare le stat a pratiche,
-   ma e' possibile spendere tre gemme della stat caratteristica in caso non
-   si vuol consumare pratiche, le gemme vanno tenute in inventario.
- - Il resu e' cambiato: resu senza gemme fa perdere 1 punto stat casuale,
-   resu con 3 gemme anche miste, non giovinezza, non fanno perdere ne' pratiche
-   ne' stat.
-   Inoltre ora il resurect porta il chierico effettivamente ad 1 mana 1 hp
-   1 mov. Vale lo stesso per il reincarnate.
-   Tolti i bonus karma su reincarnate e resurrect.
- - Nuova skill per barbai, magic resistance, dettagli nell'help on line.
- - Sistemato un bug degli hp dei cl/wa/th.
- - Per adeguare gli hp dei nuovi pg a quelli dei vecchi pg che hanno avuto
-   il migliore reroll tra 20 e in piu' un gain random e' stata inserita una
-   procedura che fa la stessa cosa per tutti i pg eroi.
- - Per eliminare un'ingiustizia nei confronti dei tank, che oltre a sopportare 
-   le botte si prendono anche le fumate, e per simmetria e uguaglianza tra tank
-   e caster, e' stato modificato il save degli oggetti:
-      - damroll e hit-n-dam danno un piccolo malus al save, prima invece era piu' 
-        consistente e dipendeva dal bonus al danno;
-      - hitroll da' un piccolo bonus, questo era gia' cosi' e continua a valere;
-      - spellfail da' un piccolo bonus come hitroll;
-      - spellpower da' un piccolo malus come damroll.
- - La quest di Blackheart e' stata resa piu' semplice: molti mob sono piu' deboli, 
-   sono state tolte le immunita' fisiche random, e dal demone distruttore si puo' 
-   scappare.
- - Inserito un nuovo oggetto pop random, il ramo magico di Lis.
- - Lo spell identify non stunna piu' e lagga meno.
- - Corretto un bug sul dispel degli scudi dei mob.
- - L'incantesimo cause light da' una stringa diversa se il pg e' di razza vampiro,
-   ma l'effetto e' sempre lo stesso.
- - Rivista la skill value, ora se un ladro riesce a capire le caratteristiche 
-   esatte, vede sempre tutto, compresi i flag sull'oggetto.
- - La skill "greed" e' cambiata, ora e' passata da forza 10 a forza 25 (25 karma 
-   per avere +25% sigilli per 25 minuti), e in piu' da' anche bonus xp con lo stesso
-   tasso del 25%.
-   In piu', chiunque renta e rimane rentato per almeno 24 ore ora ricevera' un certo
-   tempo di greed omaggio, dipendente da quanto tempo e' rimasto rentato.
-
-Versione 2.9.0.5 - I soldi non bastano mai
- - Da oggi apre i battenti a Midia il banco della lotteria, dove ognuno potra' 
-   tentare la fortuna. Le estrazioni avvengono al piu' una volta al giorno, 
-   al boot, purche' sia stato venduto un numero minimo di biglietti.
-   Il costo del biglietto e' di 2000 monete per livello. I premi secondari
-   sono in monente, il primo premio sta a voi scoprirlo.
- - Uniformato il messaggio di fine mana sul portal per le classi chierico
-   non mago.
- - Aggiunto echo sullo spell mana.
- - Tolta la classe antipaladino al demonic form della marilith e del glabrezu.
- - Sono stati inseriti alcuni oggetti con procedure particolari. L'indizio per
-   uno di questi potreste trovarlo nell'area di Naiti.
- - Tolta la classe guerriero a tutti gli altri polymorph di ascension e demonic
-   form.
- - Risolto l'annoso problema dei polymorph che rispondevano agli attacchi con 
-   armi da lancio, caricando come i mob.
- - Ora si puo' scegliere quale forma prendere specificando una key, come per 
-   polymorph e change form.
- - Il tempo per cui bisogna aspettare per poter usare di nuovo questi spell e' 
-   stato rivisto verso il basso, ora conta la differenza tra il livello 
-   (e livello eroe) del pg e il livello minimo per poter assumere la forma scelta.
-   Le caratteristiche dei polymorph, la durata delle trasformazioni e il livello 
-   minimo necessario per ognuna restano quelle di prima.
- - Correzione al consider, non funziona piu' sui pg polati, e sistemato un typo 
-   sempre sul consider;
- - Aggiunto il comando gcheck (gc), come abbreviazione di groupcheck
- - Nuove procedure speciali da scoprire ;)
- - Ora i memorize trainati passano al poly, come gia' avveniva per quelli praccati;
- - I pg polati possono entrare in gilda (ma non usare le banche);
- - I pg polati possono riparare l'eq dai fabbri.
- - Cambiato l'algoritmo che genera i numeri casuali.
- - Le armi senza spell slayer non possono piu' essere caricate con charge.
- - Implementata la challenge skexie con i rispettivi premi e qualche modifica
-   all'area.
- - Ora nell'attribute e' possibile visualizzare anche gli spell curse e poison.
- - Corretto un bug sull'hit regen negativo che poteva causare qualche problema
-   in alcune circostanze.
- - Sistemati due ritorni a capo, nel poison e disarm.
- - Corretti alcuni bug inerenti allo spell creeping death.
- - Corretto un problema nel passaggio degli affect sui polymorph.
- - Rimesso, in prova, il vecchio sistema di disallineamento.
- - La razza nano raggiunge al massimo il livello 15 per le classi paladino e ranger.
- - Il change form driade regina e' cambiato in base alle esigenze dei loal.
-   Ora ha 60 hp in meno rispetto a prima ma 6 dam in piu', inoltre lo spell
-   power e' stato ridotto a 18 per vari motivi.
- - Corretto un baco del dualwield per cui il dam dell'arma holdata non valeva 
-   per i colpi tirati durante il round (mentre valeva per il primo colpo fatto 
-   con hit, il backstab, ecc.)
- - Altra sistemata al disallineamento: e' diminuito un po' il peso dato alla 
-   differenza di livello, e di parecchio il disallineamento tra good ed evil, 
-   per aiutare i neutrali che deragliano a non precipitare subito verso gli 
-   estremi. Sperando che sia la volta buona e ci si metta una pietra sopra.
- - Rimessi nell'area di Sommerlund dei mob che furono tolti dal repop a causa
-   di un bug.
- - Le badge degli skexie ora sono immuni e non sono piu' ne' cursate ne'
-   magiche.
- - Diminuito l'invecchiamento offline.
- - Fix sui combat che permette a chi muore di vedere il colpo che lo/la uccide.
- - Introdotto un nuovo modo per ringiovanire, per chi vuole andare sotto i 60 anni 
-   praccabili da Calliope, evitando di editare la age. 
-   Trovate le indicazioni qui: http://www.temporasanguinis.it/viewtopic.php?t=1566
- - Risolto il bug di Calliope per cui se per sbaglio si compravano prac da polati, 
-   venivano perse. Ora si e' costretti a returnare.
- - Sistemato il Rhyodin outpost che era inutilmente intasato di mob, ora si cammina 
-   meglio.
-
-
 
