@@ -4,7 +4,13 @@ comando '$c0009INV$c0007'. Troverai molti oggetti utili per iniziare a giocare.~
 Per esaminare il contenuto di borse e forzieri, usa il comando '$c0009EXA [nomeoggetto]$c0007'.~
 Ogni tanto, gli dei organizzano degli Eventi nel gioco, i dettagli si trovano sul forum~
 Puoi trovare consigli sul gioco, e molto altro sul sito: https://www.temporasanguinis.it~
-Per attivare/disattivare il canale dei consigli puoi usare il comando '$c0009NOTIPS$c0007'~
+Per attivare/disattivare il canale dei consigli puoi usare il comando '$c0009NOTIPS$c0007'.~
+Per attivare la visione a colori del gioco, usa il comando '$c0009SET ANSI ENABLE$c0007'.~
+Per attivare il canale di comunicazione off-topic, usa il comando '$c0009NOOT$c0007'.~
+Per avere ulteriori informazioni e per poter modificare la barra in cui sono riassunte le 
+caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009HELP PROMPT$c0007'.~
+Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
+SCORE e ATTRIBUTE$c0007'.~
 $~
 
 #1-9
@@ -32,6 +38,12 @@ Per sapere cosa fa un oggetto vai da Bronn, a Midia, dagli l'oggetto e ti dira' 
 un prezzo in monete.~
 Se sei un nuovo giocatore, chiedi informazioni sulla gilda dei Cavalieri del Destino, i membri della gilda
 si impegnano ad aiutare i nuovi giocatori. Per maggiori informazioni contatta gli immortali in gioco.~
+Per attivare la visione a colori del gioco, usa il comando '$c0009SET ANSI ENABLE$c0007'.~
+Per attivare il canale di comunicazione off-topic, usa il comando '$c0009NOOT$c0007'.~
+Per avere ulteriori informazioni e per poter modificare la barra in cui sono riassunte le 
+caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009HELP PROMPT$c0007'.~
+Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
+SCORE e ATTRIBUTE$c0007'.~
 $~
 
 #10-20
@@ -45,6 +57,12 @@ piu' crescerai di livello e piu pagherai.~
 Zone consigliate per fare esperienza: $c0012Castel Mistamere, l'isola del destino, le miniere di Falrhun, .~
 Zone con equipaggiamento che puoi usare: $c0012Utopya, Castel Mistamere, isola del Destino, regno dei nani, 
 fortezza invasa dagli orchi del clan Spezzaossa, il palazzo degli Skexie$c0007.~
+Per attivare la visione a colori del gioco, usa il comando '$c0009SET ANSI ENABLE$c0007'.~
+Per attivare il canale di comunicazione off-topic, usa il comando '$c0009NOOT$c0007'.~
+Per avere ulteriori informazioni e per poter modificare la barra in cui sono riassunte le 
+caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009HELP PROMPT$c0007'.~
+Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
+SCORE e ATTRIBUTE$c0007'.~
 $~
 
 #21-30
@@ -92,6 +110,7 @@ Per conoscere le caratteristiche di cio' che trovate, ora dovrete cercare un alt
 oppure usare pergamene di identificazione.~
 Esplora le terre dell'impero celesto il piu possibile, potresti trovare oggetti rari o utili nelle zone 
 piu'sperdute.~
+Se vuoi avere informazioni su quest e aree speciali, scrivi $c0009HELP AREAQUEST$c0007.~
 $~
 
 #50-52
