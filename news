@@ -1,4 +1,25 @@
 
+Versione 2.19.3.2 - $c0009MARZO 2019 $c0007- Il ritorno degli avventurieri
+- Per semplificare la vita e rendere piu' semplice il resanc in fase di quest,
+  e' stata aggiunta una nuova preghiera per i chierici monoclasse: invocando il Dio della
+  luce, Nalith, con una spesa di 400 mana si potra' avvolgere con la luce divina i membri 
+  del proprio gruppo con lo spell "sanctuary". Nalith si invoca con il comando '$c0009PRAY GARD$c0007'.
+  Tale preghiera, vista la complessita' del rito, non si puo' fare in combattimento e lagga 
+  il pg per 4 round.
+- Disponibile una nuova razza reincarnabile, lo Skexie.
+- Modifiche estetiche alle skill di lotta dei mob/pg di razza Panda.
+- La razza arcangelo ora e' huge, ma ha un valore di destrezza minore.
+- Le scintille si caricano ogni tick in maniera randomica da 1 al numero di slay presenti
+  sull'arma, per un massimo di 5 cariche.
+- Il circle non ha limiti per quanto riguarda il numero di pg in combattimento.
+- Il trip di pg huge ha efficacia sugli avversari huge.
+- Kick, bash e trip entrano anche con 5 pg contemporaneamente in combattimento.
+- Le stance dei monaci possono essere cambiate in combattimento.
+- Modifiche varie alla torre nera di Hoeur: vi troverete nuove procedure e nuove tipologie 
+  di location: le stanze elementali.
+- Tutti i cambiamenti sono da considerarsi in fase di test.
+
+
 Versione 2.19.3.1 - $c0009MARZO 2019 $c0007- I doni degli dei
 - $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
   NEO EROI - Le dodici case [by Tornado & Phoenix] - $c0009Versione rivista e  
