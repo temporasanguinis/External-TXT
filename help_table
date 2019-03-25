@@ -2,7 +2,8 @@
 EMPTY SLOT
 #
 HELP
-Aggiornamento del 15 agosto 2018 a cura di Martinus, Ranek, Phoenix
+Aggiornamento del 25 marzo 2019 a cura di Nalith
+Aggiornamento del 15 agosto 2018 a cura di Martinus, Nalith, Phoenix
 Aggiornamento del 20 maggio 2009 a cura di Nis
 Aggiornamento del 23 settembre 2005 a cura di Martinus
 Aggiornamento dell'11 Luglio 2000 a cura di Dryden
@@ -12379,9 +12380,9 @@ Questa tecnica,  se imparata a  sufficienza, permette ad un monaco
 di apprendere piu stili di combattimento e usarli nelle varie
 situazioni di gioco. Questi stili di combattimento si apprendono
 ai livelli piu alti della vita di un monaco e gli permettono di
-adattarsi e combattere avversari temibili. Una volta attivato uno
-stile di combattimento, questo rimarra attivo per tutta la durata
-prestabilita, e non si potra' disattivare, e nemmeno cambiare stile
+adattarsi e combattere avversari temibili. Le stance possono essere
+cambiate durante il combattimento, cio' rende il monaco molto versatile
+per affrontare situazioni impreviste di pericolo.
 Gli stili di combattimento non migliorano con l'uso, il monaco deve
 apprendere fino in fondo le tecniche dal proprio maestro.
 
@@ -13158,6 +13159,11 @@ l'OLIMPO, ALIENI, I CREPACCI DEI  GIGANTI  DI  GHIACCIO, I  DEMONI,
 DROWCITY e  altre  ancora.  Alcune  di queste zone  possono  essere 
 completate solo una volta a reboot.
 
+Nell'impero vi capitera' di incontrare dei MOB che necessitano  del
+vostro aiuto, permettendovi cosi' di accedere a missioni secondarie.
+Sono  riconoscibili  per  la  presenta del  simbolo $c0011(!)$c0007
+accanto alla descrizione.
+
 Oltre alle aree riservate, esistono due QUESTOR che si aggirano per
 le strade di Midia: 
 - DHETHOR IL QUESTOR, che si puo' trovare  in un'incrocio di strade
@@ -13350,6 +13356,8 @@ Il valore dell'oggetto incide anche sul costo di riparazione.
 
 
 Vedi anche: REPAIR, MUD, NEWBIE
+
+
 
 
 
