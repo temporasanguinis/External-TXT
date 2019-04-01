@@ -1,4 +1,13 @@
 
+Versione 2.19.4.1 - $c0009APRILE 2019 $c0007- Il ritorno degli avventurieri/2
+- $c0012Aree$c0007 - Innalzato il pwp limite dell'area quest "il castello del Cuore Nero":
+  ora potranno entrare personaggi con PWP fino a 750.
+- Introdotte per gli immortali alcune modifiche sul comando history. Ora verranno salvati
+  anche i messaggi del canale THINK.
+- Sistemato un bug importante che tra le altre cose faceva aumentare il PWP in maniera 
+  sproporzionata ad ogni train di Spellpower. Questo potra' causare un lento abbassamento
+  del PWP dei giocatori caster e una migliore proporzione dei sigilli spesi.
+
 Versione 2.19.3.2 - $c0009MARZO 2019 $c0007- Il ritorno degli avventurieri
 - Per semplificare la vita e rendere piu' semplice il resanc in fase di quest,
   e' stata aggiunta una nuova preghiera per i chierici monoclasse: invocando il Dio della
