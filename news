@@ -12,6 +12,14 @@ Versione 2.19.4.1 - $c0009APRILE 2019 $c0007- Il ritorno degli avventurieri/2
 - Sistemato un bug importante che tra le altre cose faceva aumentare il PWP in maniera 
   sproporzionata ad ogni train di Spellpower. Questo potra' causare un lento abbassamento
   del PWP dei giocatori caster e una migliore proporzione dei sigilli spesi.
+- Il questor Eowarion ha subito alcune modifiche per migliorarne l'utilizzo da parte dei
+  giocatori.
+- Abbassato il cooldown per gli spell "Ascension" e "Demonic form".
+- Ora la skill "Drain" degli antipaladini permette un riallineamento quando viene usata
+  sui nemici nonostante il personaggio sia in piena salute.
+- Non e' piu' possibile donare oggetti personal.
+- Alcune razze hanno dei messaggi scenografici personalizzati che compaiono in certi casi, 
+  quando le skill utilizzate infliggono malus particolari all'avversario.
 
 Versione 2.19.3.2 - $c0009MARZO 2019 $c0007- Il ritorno degli avventurieri
 - Per semplificare la vita e rendere piu' semplice il resanc in fase di quest,
