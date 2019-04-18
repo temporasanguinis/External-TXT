@@ -1,10 +1,13 @@
 
 Versione 2.19.4.1 - $c0009APRILE 2019 $c0007- Il ritorno degli avventurieri/2
-- $c0012Aree$c0007 Sono state aggiunte delle nuove aree:
+- $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
   NON EROI - Le fogne di Midia [Trad. by Tyrant]
   NEOEROI - Il livello inferiore delle fogne di Midia [Trad. by Tyrant]
   PER TUTTI - Il labirinto delle fogne di Midia [Trad. by Tyrant]
   PER TUTTI - Le gallerie del sottomondo [Trad. by Tyrant]
+- $c0012Quest$c0007 - In giro per l'Impero vaga un vecchio evocatore, bandito da Midia.
+  Avra' un compito per gli avventurieri che desiderano ottenere il potere della sfera
+  dei Draghi Antichi. Portate a lui i frammenti e otterrete una ricompensa.
 - Innalzato il pwp limite dell'area quest "il castello del Cuore Nero":
   ora potranno entrare personaggi con PWP fino a 750.
 - Introdotte per gli immortali alcune modifiche sul comando history. Ora verranno salvati
@@ -20,6 +23,7 @@ Versione 2.19.4.1 - $c0009APRILE 2019 $c0007- Il ritorno degli avventurieri/2
 - Non e' piu' possibile donare oggetti personal.
 - Alcune razze hanno dei messaggi scenografici personalizzati che compaiono in certi casi, 
   quando le skill utilizzate infliggono malus particolari all'avversario.
+- Risolti vari bug.
 
 Versione 2.19.3.2 - $c0009MARZO 2019 $c0007- Il ritorno degli avventurieri
 - Per semplificare la vita e rendere piu' semplice il resanc in fase di quest,
