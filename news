@@ -4,7 +4,7 @@ Versione 2.19.5.1 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita
   servira' piu' portare in giro decine di oggetti audio che aumentano inutilmente
   lo scroll per tutti.
 - Tradotte in italiano le dignity presenti nel title di tutte le classi.
-- $c0012Skill e spell$c0007 - Inizia un periodo ricco di novit√†, in cui verranno
+- $c0012Skill e spell$c0007 - Inizia un periodo ricco di novit‡, in cui verranno
   aggiunti spell e skill caratterizzanti per ogni classe al fine di dare valore a
   tutti i diversi stili di gioco.
 - Abbassato il cooldown per gli spell "ASCENSION" e "DEMONIC FORM".
@@ -17,9 +17,9 @@ Versione 2.19.5.1 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita
 - Migliorato lo spell "DETECT ORIGINAL" per psionici e druidi. Potranno lanciare 
   l'incantesimo anche sui compagni di gruppo, favorendo l'utilita' per il gruppo di queste
   classi. Se l'incantesimo e' lanciato su altri, durera' 2 tick.
-- Aggiunto un potere naturale al ladro monoclasse legato al "DODGE": data l'esperienza 
-  con trappole e sotterfugi, un ladro finito dentro ad una stanza di tipo DEATH TRAP,  
-  avra' la possibilita' di salvare i vari pezzi del suo equipaggiamento in maniera 
+- Aggiunto un potere naturale al ladro monoclasse legato al "DODGE": "AVOID DEATHTRAP".
+  Data l'esperienza con trappole e sotterfugi, un ladro finito dentro ad una stanza di tipo 
+  DEATH TRAP, avra' la possibilita' di salvare i vari pezzi del suo equipaggiamento in maniera 
   randomica.
 - $c0012Aree$c0007 - In alcuni luoghi, arcani poteri indeboliscono il potere di ogni creatura
   o avventuriero presente, riducendo l'impatto delle immunita'. Nuove sfide attendono i piu' 
