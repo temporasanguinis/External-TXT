@@ -1,4 +1,30 @@
 
+Versione 2.19.5.1 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita'
+- Aggiunti dei messaggi che ad ogni tick segnalano il passaggio del tempo: non
+  servira' piu' portare in giro decine di oggetti audio che aumentano inutilmente
+  lo scroll per tutti.
+- Tradotte in italiano le dignity presenti nel title di tutte le classi.
+- $c0012Skill e spell$c0007 - Inizia un periodo ricco di novità, in cui verranno
+  aggiunti spell e skill caratterizzanti per ogni classe al fine di dare valore a
+  tutti i diversi stili di gioco.
+- Abbassato il cooldown per gli spell "ASCENSION" e "DEMONIC FORM".
+- Ora la skill "DRAIN" degli antipaladini permette un riallineamento quando viene usata
+  sui nemici nonostante il personaggio sia in piena salute.
+- Corretta e migliorata la skill "REVERSION" degli psionici. Ora puo' essere usata in
+  combattimento, ha effetti potenziati tutti da scoprire. Se la skill ha successo, il lag
+  per lo psionico sara' di un round, in caso di insuccesso il lag sara' di due round.
+  Gli psionici multiclasse hanno da ora accesso ad una versione depotenziata della skill.
+- Migliorato lo spell "DETECT ORIGINAL" per psionici e druidi. Potranno lanciare 
+  l'incantesimo anche sui compagni di gruppo, favorendo l'utilita' per il gruppo di queste
+  classi. Se l'incantesimo e' lanciato su altri, durera' 2 tick.
+- Aggiunto un potere naturale al ladro monoclasse legato al "DODGE": data l'esperienza 
+  con trappole e sotterfugi, un ladro finito dentro ad una stanza di tipo DEATH TRAP,  
+  avra' la possibilita' di salvare i vari pezzi del suo equipaggiamento in maniera 
+  randomica.
+- $c0012Aree$c0007 - In alcuni luoghi, arcani poteri indeboliscono il potere di ogni creatura
+  o avventuriero presente, riducendo l'impatto delle immunita'. Nuove sfide attendono i piu' 
+  coraggiosi!
+
 Versione 2.19.4.1 - $c0009APRILE 2019 $c0007- Il ritorno degli avventurieri/2
 - $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
   NON EROI - Le fogne di Midia [Trad. by Tyrant]
@@ -20,9 +46,6 @@ Versione 2.19.4.1 - $c0009APRILE 2019 $c0007- Il ritorno degli avventurieri/2
   del PWP dei giocatori caster e una migliore proporzione dei sigilli spesi.
 - Il questor Eowarion ha subito alcune modifiche per migliorarne l'utilizzo da parte dei
   giocatori.
-- Abbassato il cooldown per gli spell "Ascension" e "Demonic form".
-- Ora la skill "Drain" degli antipaladini permette un riallineamento quando viene usata
-  sui nemici nonostante il personaggio sia in piena salute.
 - Non e' piu' possibile donare oggetti personal.
 - Alcune razze hanno dei messaggi scenografici personalizzati che compaiono in certi casi, 
   quando le skill utilizzate infliggono malus particolari all'avversario.
@@ -42,7 +65,7 @@ Versione 2.19.3.2 - $c0009MARZO 2019 $c0007- Il ritorno degli avventurieri
 - Per semplificare la vita e rendere piu' semplice il resanc in fase di quest,
   e' stata aggiunta una nuova preghiera per i chierici monoclasse: invocando il Dio della
   Luce, Nalith di Gard, con una spesa di 400 mana si potra' avvolgere della sua luce i membri 
-  del proprio gruppo con lo spell "sanctuary". Nalith si invoca con il comando '$c0009PRAY$c0007 
+  del proprio gruppo con lo spell "SANCTUARY". Nalith si invoca con il comando '$c0009PRAY$c0007 
   $c0009GARD$c0007'. Tale preghiera, vista la complessita' del rituale richiesto, non potra' 
   essere fatta in combattimento. Il lag per il pg orante e' di 4 round.
 - Disponibile una nuova razza reincarnabile, lo Skexie.
@@ -82,7 +105,7 @@ Versione 2.19.3.1 - $c0009MARZO 2019 $c0007- I doni degli dei
   dovvesse venire eliminata, ad insindacabile giudizio dello staff, coloro che hanno 
   fatto la modifica riceveranno un rimborso sulla spesa in sigilli.
 - Aggiunta una razza tutta nuova tra quelle disponibili tramite l'incantesimo druidico
-  'Reincarnate'. A voi il compito di scoprirla. [by Martinus, Dimitri & Phoenix]
+  "REINCARNATE". A voi il compito di scoprirla. [by Martinus, Dimitri & Phoenix]
 - Modificato il cooldown delle skill per monaci 'Quivering palm' e 'New quivering palm':
   ora si potranno rispettivamente lanciare ogni 2*(9-livello eroe)e 9-livello eroe tick. 
 - E' stata aggiunta una nuova MINIQUEST a New Thalos per NON EROI e NEOEROI: qualcuno
@@ -122,8 +145,8 @@ Versione 2.19.2.1 - $c0009FEBBRAIO 2019 $c0007- Cantieri aperti in tutto l'Imper
   le proprie creazioni.
 - Corretti alcuni typo e inserite nuove voci nell'help. Ora potrete trovare 
   informazioni sulle voci: VALORE DEGLI OGGETTI. Alcuni help sono stati migliorati,
-  ora e' piu' facile capire quali oggetti servono per gli spell CACAODEMON e CONJURE 
-  ELEMENTAL. [modifiche di Nalith]
+  ora e' piu' facile capire quali oggetti servono per gli spell "CACAODEMON" e "CONJURE 
+  ELEMENTAL". [modifiche di Nalith]
 - Alcuni oggetti sono stati leggermente modificati per evitare abusi in zone non adatte.
 - Come segnalato dallo Strillone di Midia, alcuni pezzi in vendita nei vari negozi 
   della citta' sono solo disponibili temporaneamente.
