@@ -2,6 +2,7 @@
 EMPTY SLOT
 #
 HELP
+Aggiornamento del 3 maggio 2019 a cura di Nalith
 Aggiornamento del 25 marzo 2019 a cura di Nalith
 Aggiornamento del 15 agosto 2018 a cura di Martinus, Nalith, Phoenix
 Aggiornamento del 20 maggio 2009 a cura di Nis
@@ -201,14 +202,15 @@ Caratteristica        Influenza
 
 Intelligenza       Punti magia e velocita' di apprendimento di
                    abilita' ed incantesimi
-Forza              Capacita' di combattere e quantita' di oggetti
-                   che si possono portare in mano
-Destrezza          Capacita' di schivare colpi, di stendere a terra
+Forza              Capacita' di combattere, danno inflitto e la
+                   quantita' di oggetti che si possono portare 
+                   in mano, 
+Destrezza          Capacita' di schivare colpi, di buttare a terra
                    i propri avversari, di usare archi e frecce
 Saggezza           Numero di abilita' ed incantesimi che puoi
                    imparare
 Costituzione       Numero massimo di punti ferita, e resistenza
-									 agli shock fisici
+                   agli shock fisici
 Carisma            Reazioni che i personaggi guidati dal computer
                    hanno nei tuoi confronti, numero massimo di mob
                    evocabili e controllabili (con l'incantesimo
@@ -645,6 +647,8 @@ $c0010Livello$c0010    Dignita'          Colore usato nel comando who
 - Ogni  livello, dal 58 al 69,  ha una propria  Dignity, anche in
   funzione anche  dell'allineamento:  non sono  riportate qui per
   brevita', ma e' possibile vederle con HELP IMMLIST e GODLIST.
+  
+Vedi anche: LEVELS
 #
 MAPPA MONDO "MAPPA MONDO"
 
@@ -1266,7 +1270,8 @@ $c0012Costo in mana$c0007 : 10
 Lanciando questo incantesimo  su una vittima,  il caster la circonda di un 
 bagliore rosa. Sebbene questo non arrechi danno alla vittima (e quindi non 
 provochi un attacco da parte sua), cambia la sua Armor Class di +20 punti, 
-rendendola  piu' facile da colpire.
+rendendola piu' facile da colpire con le armi e con i potenti calci dei
+monaci e dei guerrieri.
  
 Vedi anche: -
 
@@ -2328,11 +2333,11 @@ Sparse per tutto  l'Impero Celeste si trovano molte rocce e macigni. Sono
 pressoche' inutili per chiunque, tranne che per i Druidi, che grazie alla
 loro  sintonia con  la natura  possono  evocare  lo spirito  della pietra
 tramite questo incantesimo. Lanciato su una roccia qualsiasi, essa prende
-vita sotto forma  di rockman,  la cui  potenza  dipende  direttamente dal
+vita  sotto  forma di  golem,  la cui  potenza  dipende  direttamente dal
 peso della pietra che lo ha originato.
 
 Piu' il Druido e' potente (in termini di livello e  SPELLPOWER), piu'  il
-rockman sara' resistente e potente.
+golem sara' resistente e potente.
  
 Vedi anche: -
 
@@ -2447,7 +2452,7 @@ Vedi anche: -
 $c0015Uso$c0015           : cast 'dust devil'
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 12 ore
-$c0010Livello       : 1 Druidi, 3 Chierici
+$c0010Livello             : 1 Druidi, 3 Chierici
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0007 : 10
  
@@ -3198,6 +3203,8 @@ in modo diverso a seconda della classe:
 Monaci e Ladri: il dodge permette di evitare  del tutto gli attacchi del
 nemico. Ad ogni attacco, verra'  effettuato un  check  sulla destrezza e
 sull'abilita'  dodge. Se il check ha successo,  il colpo viene schivato.
+Quando il colpo non viene schivato, il dodge permette l'assorbimento del
+danno ricevuto: cio' dipende dal livello del monaco e del ladro.
 
 Tutte le altre classi: il dodge permette di assorbile 1d3 punti di danno
 dagli  attacchi  portati  a  termine  con  successo dal  nemico. Sarebbe
@@ -3209,7 +3216,12 @@ massimo nella propria Gilda,altre solo fino ad un certo punto, e saranno
 poi costrette a cercare altri maestri nell'Impero che,  a pagamento,  li
 facciano praticare ancora.
 
-Vedi anche: ABSORB DAMAGE, MONACI, LADRI
+Il ladro monoclasse, tramite questa abilita',  sfrutta le sue conoscenze
+legate alle trappole e ai sotterfugi. Nel caso in cui finisse  dentro ad 
+una stanza di tipo DEATH TRAP,  avra' la possibilita' di  salvare i vari 
+pezzi del suo equipaggiamento in maniera randomica.
+
+Vedi anche: ABSORB DAMAGE, MONACI, LADRI, AVOID DEATHTRAP
  
 #
 "RETREAT"
@@ -3670,7 +3682,7 @@ una discreta protezione contro ogni attacco, poiche' abbassa la Armor
 Class della vittima di 10 punti. Inoltre, esso deflette completamente
 i Magic Missile, di qualunque livello essi siano.
 
-Vedi anche: ARMOR, PSIONIC SHIELD
+Vedi anche: ARMOR, PSIONIC SHIELD, MAGIC MISSILE
 
 #
 SUCCOR
@@ -4203,6 +4215,16 @@ permette a chi non e' gigante di sbattere a terra anche gli  avversari
 piu' grossi. Un caso particolare  sono i BROWNIE, essi sono immuni  al
 bash, a meno che non venga fatto da un altro BROWNIE.
 
+Gli effetti della skill dipendono dalla forza del personaggio:
+- Forza 19: il bash potra'  atterrare il nemico 1 o 2 round ma  il lag 
+  per il personaggio sara' sempre di 2 round.
+- Forza 20: il bash atterreta' l'avversario  almeno per 2 o 3 round ma
+  per il personaggio sara' sempre di 2 round.
+- Forza 21: il bash ha la possibilita' di fare  svenire  il nemico per
+  l'impatto.
+- Forza 24: il  titano,  vista  la  sua  immensa  forza,  ha  migliori 
+  possibilita' di fare svenire il nemico.
+
 Vedi anche: KICK, TRIP, BROWNIE
 
 #
@@ -4586,7 +4608,10 @@ una delle classi piu' versatili e 'atipiche'. Il ladro monoclasse e'
 abbastanza difficile da giocare,specie se si e' poco esperti del mud.
 E' comunque una  classe estremamente  divertente una volta presa  la
 mano coi sistemi di gioco. Inoltre, il ladro permette una vasta gamma
-di multiclasse. (WA/TH CL/TH MU/TH...)
+di multiclasse. (WA/TH CL/TH MU/TH...). Il ladro monoclasse, esperto
+in trappole e sotterfugi, ha la capacita' speciale di salvare  parte
+del suo equipaggiamento nel caso in cui finisca in stanze in cui sono
+poste delle trappole mortali (DEATH TRAP).
 
 Per vedere le abilita': PRAC T
 Vedi anche: STEAL, SNEAK, BACKSTAB, DUAL WIELD, DISGUISE, HIDE
@@ -5097,7 +5122,7 @@ dove: W - Guerriero
       B - Barbaro
       H - Bardo
 
-Vedi anche: CLASSI
+Vedi anche: CLASSI, DIGNITY
 
 #
 BRIEF
@@ -5136,7 +5161,7 @@ attacchi  speciali. Se hai  imparato  i LORE  che insegna  la
 Venerabile Maestra di Mordilnia,l'output di un CONSIDER sara'
 piu' dettagliato.
 
-Vedi anche: KNOW MONSTER, LORE
+Vedi anche: KNOW MONSTER, LORE, VALUE
 
 #
 EXPERIENCE XP "PUNTI ESPERIENZA"
@@ -5202,7 +5227,7 @@ trovarsi nel  proprio inventario.  Per sapere quali  poteri o
 effetti  risiedono  in una  pozione  magica,  e'  sufficiente
 identificarla.
 
-Vedi anche: IDENTIFY, DRINK, RECITE
+Vedi anche: IDENTIFY, DRINK, RECITE, BREW
 
 #
 RECITE SCROLLS PERGAMENA
@@ -5230,7 +5255,7 @@ contiene  l'incantesimo REFRESH,  mentre non  e' necessario
 specificare  nulla se contenesse lo STONE SKIN (incantesimo
 che agisce solo su chi lo lancia, non su altri).
 
-Vedi anche: QUAFF, READ MAGIC, SUCCOR
+Vedi anche: QUAFF, READ MAGIC, SUCCOR, SCRIBE
 
 #
 USE STAFFS WANDS BASTONE SCETTRO
@@ -6277,10 +6302,12 @@ $c0012Costo in mana$c0007 : 35
  
 Questo spell ha successo solo solo se il caster compie un tiro per colpire
 con esito positivo. Se funziona toglie alla vittima fino a 100 punti ferita
-piu uno per ogni punto spellpower del caster.
+piu uno per ogni punto spellpower del caster. Il danno di questo incantesimo
+e' speciale e quindi non puo' essere fermato da immunita' o resistenze.
 Puo' essere lanciato anche in combattimento.
 
-I chierici single class hanno un bonus sull'hitroll nell'uso di questo spell.
+I chierici single class hanno un bonus  sull'hitroll  e  sul danno inflitto 
+nell'uso di questo spell.
  
 Vedi anche: -
 
@@ -6390,7 +6417,7 @@ E' usato per non sentire piu' i tell degli altri. Usandolo una seconda
 volta fa tornare la situazione normale. Ricorda che un Immortale  puo'
 comunque parlarti, anche se usi questo comando.
 
-Vedi anche: NOGOSSIP, DEAFEN, NOAUCTION, NOHEROGOSSIP
+Vedi anche: NOGOSSIP, DEAFEN, NOAUCTION, NOHEROGOSSIP, NOOT
  
 #
 NOGOSSIP
@@ -6398,7 +6425,7 @@ NOGOSSIP
 Scrivi nogossip per disabilitare il canale di gossip. Scrivilo
 di nuovo per riabilitarlo.
  
-Vedi anche: NOHEROGOSSIP,NOAUCTION,DEAFEN
+Vedi anche: NOHEROGOSSIP, NOAUCTION, DEAFEN, NOOT
 
 #
 NOHEROGOSSIP
@@ -6406,7 +6433,7 @@ NOHEROGOSSIP
 Scrivi noherogossip per disabilitare il canale di gossip degli eroi.
 Riscrivi lo stesso comando per riabilitarlo.
  
-Vedi anche: NOGOSSIP, NOAUCTION, DEAFEN, NOTELL
+Vedi anche: NOGOSSIP, NOAUCTION, DEAFEN, NOTELL, NOOT
 
 #
 NOAUCTION
@@ -6448,7 +6475,7 @@ Attento! Al contrario del GOSSIP, il comando HEROGOSSIP non e' limitato
 alla tua zona, ma ha effetto in tutto il mondo.
  
 Vedi anche: GOSSIP, SHOUT, AUCTION, NOHEROGOSSIP, NOGOSSIP, NOAUCTION.
-		DEAFEN
+		DEAFEN, NOOT
 
 #
 PROMPT
@@ -6607,6 +6634,7 @@ abbiamo scelto di assistere). Alcuni  mob si assistono tra di loro  in
 maniera  automatica, questo  accade generalmente per mob della  stassa
 razza, ma usando ASSIST e' piu' facile buttare giu' nemici anche molto
 grossi.
+Il comando ASSIST causa un round di lag al pg o al mob assistivo.
 
 Vedi anche: RESCUE, KILL
 
@@ -7199,7 +7227,7 @@ Umanoidi con la testa tantacoluta,  vedono al buio,  altissima  intelligenza e
 ottima saggezza, bassa costituzione, destrezza e carisma.
 
 #
-PRIMATE PRIMATI
+PRIMATE PRIMATI SCIMMIA
 
 Primati
 
@@ -7639,8 +7667,10 @@ da poter vedere per qualche attimo come se si trovasse dinnazi a
 lei. E' utile per vedere dove e' un particolare mob o pg, e  per
 sincerarsi  bene di un  target prima di un eventuale  DOORWAY  o
 PORTAL, ed evitare cosi' di finire in posti non desiderati.
+Se lo SCRY e' presente su un oggetto come spell affect, esso 
+concedera' poteri simili alla skill SPY.
 
-Vedi anche: DOORWAY, PSI PORTAL
+Vedi anche: DOORWAY, PSI PORTAL, SPY
 
 #
 "PROBABILITY TRAVEL"
@@ -7899,7 +7929,9 @@ $c0012Costo in mana$c0007 : 25
 Questa forma di attacco Psionico permette a chi lo usa di mandare un
 forte pensiero di disturbo direttamente nella psiche della  vittima, 
 col risultato di fare sanguinare il suo cervello. Il  danno inflitto
-e' pari a (livello)d6 +1 per ogni 2 livelli del caster.
+e' pari a (livello)d6 +1 per ogni 2 livelli del caster. Questo spell
+ha un danno  speciale, percio'  non puo'  subire  riduzioni di danno
+tramite immunita' o resistenze.
  
 Vedi anche: TOWER OF IRON WILL
 
@@ -7971,7 +8003,7 @@ Con  questo potentissimo  attacco  Psionico, il caster  rilascia una
 enorme  onda d'ulto creata per mezzo della mente, la quale  colpisce 
 senza pieta' le creature nella locazione se non gruppate col caster.
 Il danno prodotto sara' pari a (livello)d4 +1 per ogni livello dello
-Psionico.
+Psionico. Il danno causato da questo spell non e' di tipo elementale
 
 Vedi anche: TOWER OF IRON WILL
 
@@ -8251,7 +8283,7 @@ REVERSION
 $c0015Uso$c0015           : reverse <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : Psionici 6o livello Eroe Monoclasse
+$c0010Livello$c0010       : Psionici 6o livello Eroe 
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0007 : 100
 
@@ -8261,12 +8293,14 @@ gli spell dai quali essa e' affetta.
 Se lo psionico non e' affetto da uno scudo elementale sara' anche
 possibile entrare in possesso di un eventuale elemento magico che
 circonda la vittima in modo tale che lo psionico attraverso il suo
-potere mentale se ne serva come scudo per se stesso e come arma 
+potere mentale se ne serva come scudo per  se  stesso  e come arma 
 contro la vittima rendendola vulnerabile a tale elemento.
-Il livello della reversione e' incrementato di uno per ogni 30 spell power. 
-(Questa particolare tecnica non puo' essere utilizzata contro personaggi).
-Attenzione: l'effetto e' similare al DISPEL MAGIC, ed e' considerato
-aggressivo sui mob. Non funziona sugli oggetti.
+Il livello della reversione e' incrementato di uno per ogni 30 Spell 
+power. L'effetto e' similare al DISPEL MAGIC, ed e' considerato
+aggressivo sui mob. Non funziona sugli oggetti e puo' essere usata
+in combattimento.
+I multiclasse possono imparare una versione depotenziata di questa 
+skill.
 
 Vedere anche: DISPEL MAGIC
 
@@ -9364,7 +9398,10 @@ $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0007 : 20
 
 Fa si' che il caster riesca a colpire un mago, anche se questi si
-trova sotto la protezione dello spell BLINK.
+trova sotto la protezione dello spell BLINK. 
+Psionici e druidi possono lanciare questo incantesimo sui membri del 
+proprio gruppo, permettendo loro di vedere tra le immagini illusorie
+per un tempo ridotto.
 
 Vedi anche: BLINK
 
@@ -9899,7 +9936,7 @@ Shield block    - Tutti i monoclassi
 Feast           - Tutti
 Repair          - Barbari, Ranger
 Canibalize      - Maghi, Druidi, Chierici
-Reversion	- Psionici monoclasse
+Reversion	 - Psionici
 Monsum Seven    - Maghi
 Pain Mirror     - Psionici
 
@@ -10032,7 +10069,7 @@ Livello minimo: Eroe di 6 livello.
 Chi impara questa abilita' puo' tentare di parare un attacco, sia esso
 fisico che magico, usando il suo scudo, elemento indispensabile per la
 parata. Si migliora sopratutto con la pratica, e riduce notevolmente i
-danni ricevuti.
+danni ricevuti. I guerrieri monoclasse hanno un bonus su questa skill.
 
 Vedi anche: DODGE, PARRY
 
@@ -11772,7 +11809,7 @@ Questa  situazione si  verifica  come nell'esempio  seguente:
 
 --------------------------------------------------------------------
 
-Vedi anche: EROI, GROUP
+Vedi anche: EROI, GROUP, SHOWCAP, SHOWCAP LEVEL, SHOWCAP STAT
 
 #
 ATTRIBUTES
@@ -11845,7 +11882,7 @@ cercate di  utilizzare lo SHOUT il meno possibile, perche' certamente
 disturberete gli  altri giocatori  se urlate cose che non interessano
 a nessuno.
 
-Vedi anche: SAY, TELL, GOSSIP, WHISPER, ASK, SPEAK
+Vedi anche: SAY, TELL, GOSSIP, WHISPER, ASK, SPEAK, NOOT, NOGOS
 
 #
 QUESTLIS QZLis QNLis
@@ -13356,6 +13393,17 @@ Il valore dell'oggetto incide anche sul costo di riparazione.
 
 
 Vedi anche: REPAIR, MUD, NEWBIE
+
+#
+"AVOID DEATHTRAP"
+
+Skill per: Ladri monoclasse
+
+Questa tecnica, acquisita naturalmente dal ladro monoclasse insieme
+al DODGE, gli permette di avere possibilita' di salvare parte del
+suo equipaggiamento nei casi in cui cada vittima di una DEATH TRAP.
+
+Vedi anche: DEATHTRAP, DT, DODGE
 
 
 
