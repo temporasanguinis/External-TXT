@@ -11265,13 +11265,13 @@ slay magiche, come le scintille divine.
 
 $c0010--- Bit RESISTANT e IMMUNE ------------------------------------$c0007
 
-Rendere resistant un oggetto	500 sigilli divini
-Rendere immune un'arma		2000 sigilli divini piu 1000 per elemento
-Se l'arma e' gia' resistente	1500 sigilli divini piu 1000 per elemento
-Rendere immune una borsa	 900 sigilli divini piu  750 per elemento 
-Se la borsa e' gia' resistente	400 sigilli divini piu 750 per elemento
-Rendere immune i guanti		2000 sigilli divini piu 1000 per elemento
-Se sono  gia' resistenti	1500 sigilli divini piu 1000 per elemento
+Rendere resistant un oggetto      500 sigilli divini
+Rendere immune un'arma            2000 sigilli divini piu 1000 per elemento
+Se l'arma e' gia' resistente      1500 sigilli divini piu 1000 per elemento
+Rendere immune una borsa          900 sigilli divini piu  750 per elemento 
+Se la borsa e' gia' resistente    400 sigilli divini piu 750 per elemento
+Rendere immune i guanti           2000 sigilli divini piu 1000 per elemento
+Se sono  gia' resistenti          1500 sigilli divini piu 1000 per elemento
 
 E' possibile rendere immuni i guanti SOLO per la classe monk, e viene
 considerato come un'edit all'arma, e i guanti diventano utilizzabili
@@ -11316,15 +11316,19 @@ Es. un guerriero Monoclasse puo' decidere di editare ulteriori 5 hp (e
 massimo 5!) su un oggetto che abbia gia' +20 Hit points, a costo di 400
 sigilli divini.
 
-$c0010--- Saving All (NEW)--------------------------------------------$c0007
+$c0010--- Saving All -------------------------------------------------$c0007
 E' possibile editare un massimo di -10 saving all per pg, al costo di
 200 sigilli elementali per tipo, per ogni save editato e distribuiti a
 piacimento sugli oggetti del giocatore. Rimangono validi i limiti di
 edit e overedit sui singoli oggetti. 
 
+$c0010--- Liberare slot di oggetti -----------------------------------$c0007
+E' possibile eliminare apply presenti sugli oggetti al costo di 2000
+sigilli elementali per tipo.
+
 $c0010--- Spell affect -----------------------------------------------$c0007
-E' possibile ottenere alcuni spell affect (al massimo uno per oggetto,
-e su oggetti che non abbiano altri spell affect)
+E' possibile ottenere alcuni spell affect. Questi spell affect possono
+essere editati su un singolo slot.
 
 AFFECT                          COSTO
 
@@ -11332,7 +11336,7 @@ Sense life                      1600 sigilli divini
 Flying                          1600 sigilli divini
 Water Breath                    2400 sigilli divini
 Travelling                      400  sigilli divini
-True Sight                      800  sigilli divini
+True Sight                      1200 sigilli divini
 Telepathy                       1200 sigilli divini
 Hide & Sneak                    NON Editabili
 
@@ -11383,18 +11387,10 @@ $c0010--- Align e Race Slayer ----------------------------------------$c0007
 La proprieta' SLAYER aumenta considerevolmente il danno che viene 
 inflitto su avversari della razza o dell'allineamento scelto.
 Nel caso delle Race Slayer il danno viene moltiplicato per due, mentre
-nel caso delle Align Slayer il danno dipende anche dall'allineamento di
-chi utilizza l'arma. Le proprieta' Align Slayer e Race Slayer possono 
-essere editate solo sull'arma, e solo nel caso dei monaci sui guanti.
-E' possibile editare una sola Race Slayer per arma.
-
-Attaccante/Bersaglio	Good	Neutral    Evil
-
-Good			x1.5   x1.75   x1.75
-
-Neutral			x1.75	  x1.5   x1.75
-
-Evil			x1.75	  x1.75   x1.5
+nel caso delle Align Slayer il danno viene moltiplicato per 1.75. 
+Le proprieta' Align Slayer e Race Slayer possono essere editate solo 
+sull'arma, e solo nel caso dei monaci sui guanti. E' possibile editare 
+una sola Race Slayer per arma.
 
 ALIGNMENT SLAYER		COSTO
 
@@ -11565,7 +11561,6 @@ al momento. Non e' possibile invece passare i 400 sigilli della quest del
 tribunale e nell'incertezza saranno fatti i dovuti controlli.
 Questo servizio potrebbe essere tolto in qualunque momento in caso
 di abusi o violazione delle regole.
-E' possibile richiedere il passaggio soltanto a Dimitri o Nis.
 
 $c0014PG ceduti o regalati$c0007
 Non e' possibile cedere, vendere o regalare un proprio personaggio ad
