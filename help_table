@@ -1115,7 +1115,7 @@ Questo  incantesimo aumenta  l'abilita' di  un giocatore  di scovare trappole
 che possono  essere di livello  corrispondente o minore a  quello del caster.
 Non e' comunque possibile individuare le DT, Death Traps.
  
-Vedi anche: FIND TRAPS
+Vedi anche: FIND TRAPS, DEATH TRAP
 
 #
 "SLEEP"
@@ -3002,7 +3002,7 @@ Chi possiede questa abilita' puo' controllare se nelle vicinanze ci siano
 trappole  pronte a  scattare,  e, in caso  affermativo,  identificarle  e
 renderle visibili.
  
-Vedi anche: SPELL FIND TRAPS, DISARM TRAP
+Vedi anche: SPELL FIND TRAPS, DISARM TRAP, DEATHTRAP
 
 #
 "SAFE FALL"
@@ -3071,7 +3071,7 @@ disarmare un avversario, oppure disarmare una trappola.
   DISARM TRAP.  Se l'operazione riesce, la trappola viene resa inoffensiva,
   altrimenti scattera' contro il giocatore.
 
-Vedi anche: FIND TRAP
+Vedi anche: FIND TRAP, DEATHTRAP
 
 #
 "SIGN" "SIGN LANGUAGE"
@@ -4611,7 +4611,7 @@ mano coi sistemi di gioco. Inoltre, il ladro permette una vasta gamma
 di multiclasse. (WA/TH CL/TH MU/TH...). Il ladro monoclasse, esperto
 in trappole e sotterfugi, ha la capacita' speciale di salvare  parte
 del suo equipaggiamento nel caso in cui finisca in stanze in cui sono
-poste delle trappole mortali (DEATH TRAP).
+poste delle trappole mortali (DEATHTRAP).
 
 Per vedere le abilita': PRAC T
 Vedi anche: STEAL, SNEAK, BACKSTAB, DUAL WIELD, DISGUISE, HIDE
@@ -4991,7 +4991,7 @@ Vedi anche: RETREAT, WIMP
 #
 IMPLEMENTOR
 
-Sono gli Dei degli Dei: Dryden, Sybil, Gabriel.
+Sono gli Dei degli Dei: Martinus, Nalith e Dryden.
 
 Grazie al loro lavoro  e alla loro  passione che l'Impero Celeste
 di Tempora Sanguinis puo' esistere.
@@ -11677,17 +11677,6 @@ e senza preavviso.
 
 Vedi anche: SOCKET
 
-#
-"DEATH TRAP"
-
-Le nuove trappole mortali, non fanno perdere l'equipaggiamento al
-giocatore, ma quando un giocatore finisce in Death Trap, subisce una
-morte regolare senza possibilita' di resurrezione, ed il suo EQ
-viene ridotto in pessime condizioni. Per evitare la successiva
-frantumazione dell'EQ, il giocatore dovra' recarsi da un fabbro per
-ripararlo.
-
-Vedi anche: PSIONIC DANGER SENSE
 
 #
 ANTIDT
@@ -11714,7 +11703,9 @@ dipendono anche dal numero di classi del personaggio.
 Questi limiti si intendono 'senza equipaggiamento'. In altre parole,
 senza  eq questi sono i massimi possibili, ma se si indossa un pezzo
 che  accresce  il valore  di una  caratteristica, il risultato sara'
-maggiore del limite 'da nudo'.
+maggiore del limite 'da nudo'. Questi valori possono essere superati
+effettuando  degli  speciali  addestramenti  effettuati   da  CINDY,
+chiamati TRAIN.
 
                  | MonoClasse   BiClasse   TriClasse
          --------|-----------------------------------
@@ -11724,37 +11715,35 @@ maggiore del limite 'da nudo'.
            REGEN |        100         70          50
          HITROLL |         40         25          15
          DAMROLL |         40         25          15
-	MEMORIZE |	   30         18          12
+        MEMORIZE |         30         18          12
 
 N.B. Ci sono tre eccezioni a questa tabella:
       - Warrior Monoclasse: il limite massimo e' 650 Hp.
       - Barbari Monoclasse: il limite massimo e' 750 Hp.
       - Barbari Monoclasse: il limite massimo e' 200 Mana.
-     I  Wa e i  Ba,  dunque,  possono  superare il limite massimo
-     di 600 Hp, ma solamente attraverso l'avanzamento di livello;
-     in  altre  parole,  possono  gainare  oltre  il  limite,  ma
-     non possono aumentare gli Hp oltre i 600 tramite Cindy.
        
 --- Limiti Massimi Assoluti -----------------------------------------
 
-Questi invece sono i limiti che non possono essere superati nemmeno
-con i bonus dell'equipaggiamento.  Oltre alle voci  precedenti (Hp,
-Mana, etc.), ci sono anche Absorb Damage e Spell Power.
+Ogni personaggio con il suo equipaggiamento non puo' superare i 
+limiti razziali, descritti tramite il comando SHOWCAP. 
+
+--- Limiti Equipaggiamento -----------------------------------------
+
+Alcune caratteristiche dell'equipaggiamento non possono andare 
+oltre ad un limite massimo dovuto al numero di classi del 
+personaggio. Se gli oggetti indossati hanno una valore 
+totale maggiore del limite consentito, verranno conteggiati solo
+fino al raggiungimento del valore massimo, cosi' indicato:
+
 
                  | MonoClasse   BiClasse   TriClasse
-         --------|-----------------------------------
-              HP |      1500*      1500*       1500*
-             MOV |      1000*      1000*       1000*
-            MANA |      1500*      1500*       1500*
-           REGEN |        250        250         250
-         HITROLL |        250        250         250
-         DAMROLL |        250        250         250
-   --------------------------------------------------
-      SPELLPOWER |        100         40          20
+   --------------------------------------------------------
+      SPELLPOWER |        120         45+bonus    25+bonus
    ABSORB DAMAGE |         20         16          12
 
-*) In questo casi i maxxaggi dipendono dai massimali per singolo
-   oggetto negli edit del listino
+Il bonus sullo spellpower e' di 10 per ogni classe caster del 
+personaggio (Un Mu/Ps/Wa potra' avere sull'equipaggiamento 
+25+10+10 spellpower).
 
 --- Maxxaggio dei Punti Esperienza ---------------------------------
 
@@ -11901,8 +11890,6 @@ doppio dei punti morrowindl per acquistare l'oggetto, come punti sia guadagnati
 che spesi.
 $c0009Se non si hanno personaggi che rispettano i requisiti per il passaggio
 di oggetto, lo stesso oggetto va junkato$c0007 quindi fatevi i conti prima.
-E' possibile chiedere servizi su tali oggetti $c0009SOLO a Nis o Dimitric0007, 
-dall'edit normale, al passaggio per cancellazione.
 
 Vedi anche: RANDOMPOP
 
@@ -13135,6 +13122,7 @@ potenti, premi unici e speciali e SIGILLI DIVINI.
 Un'  AREAQUEST  o ZONAQUEST  è  una zona  speciale,  nella quale  i
 personaggi dovranno  risolvere un'avventura.  Le zone  QUEST, dette
 anche QUEST FISSE,  sono: 
+
 - LE  DODICI CASE  o  QUEST  DELLO  ZODIACO, una  zona  dedicata ai  
 NON-EROI  o  a   NEO-EROI,  posta  nell'oceano greco.  I  giocatori  
 dovranno  portare  lo  scudo  di  Atena alla moribonda Lady Isabel,
@@ -13144,6 +13132,7 @@ ELEMENTALI  presenti  sui  MOB  della  quest,  una volta consegnato
 lo scudo  a Lady Isabel,  i giocatori potranno  ottenere dei  buoni  
 XP  o  delle  armature  speciali  che  potranno  essere  accumulate  
 e unite, formando cosi' oggetti piu' potenti. 
+
 - MORROWINDL,  una zona  dedicata a  giocatori con  PWP inferiore a
 1200. Gli eroi  dovranno portare il  loro soccorso agli  elfi della
 citta' di Arborlon, sconfiggendo i potenti demoni che assediano  la
@@ -13154,12 +13143,14 @@ speciali che permetteranno  ai giocatori di  ottenere dei pezzi  di
 equipaggiamento forgiati dagli elfi di morrowindl. Tra questi pezzi
 ne  esistono   tre  dotati   di  particolari   caratteristiche  che
 permetteranno ai giocatori  di potenziare il  proprio personaggio. 
+
 - BLACK  HEART, dopo  aver recuperato  l'indizio dalla  veggente di
 Camelot, i giocatori dovranno affrontare una serie di sfide per poi
 consegnare  al Custode  del Cristallo  il medaglione  di ghiaccio,
 l'anello del  fuoco e  il cuore  del demone  distruttore, ottenendo
 cosi'  preziosi  SIGILLI  DIVINI.  Questa  quest  e'  riservata  ai
 giocatori con un PWP inferiore a 500. 
+
 - ATLANTIDE, i  giocatori dovranno  detronizzare   l'usurpatore del
 regno di Atlantide, sconfiggere il terribile  Leviatano e riportare
 sul trono il  vero Re.  Oltre  ai  SIGILLI ELEMENTALI  e i  SIGILLI 
@@ -13168,19 +13159,24 @@ avranno  la possibilita' di accettare  in dono  uno tra due oggetti
 proposti dal nuovo re. Alcuni oggetti presenti  in questa avventura  
 sono molto potenti  e rari, come  gli scudi  elementali (che donano
 immunita'  ad alcuni elementi) o le scintille  divine che donano ai 
-personaggi caster il potere delle SLAY MAGICHE. 
+personaggi caster il potere delle SLAY MAGICHE.
+
 - CAVE ABBANDONATE DI MONTE ROTTO,  le antiche  miniere di minerali
 prezioso, sono diventati il covo degli Skaven.
+
 - CITTA' SOTTERRANEA DI MIDRAASH, luogo misterioso il  cui  accesso
 e' proibito dall'Ordine di Midia, e' stato conquistato dalle tribu'
 dell'oscuro Gramfell.
+
 - RAVENLOFT, un luogo  d'ombra popolato da  creature oscure guidate
 dal  potente  Stradh.  I giocatori affronteranno schiere di nemici, 
 guadagnando SIGILLI DIVINI. 
+
 -  IL  LABIRINTO  SOPRA  LE  NUVOLE,  una  zona che cambia  ad ogni  
 avventura,  dove  ogni  stanza  rivela  insidie  e potenti  nemici.  
 I giocatori dovranno  avventurarsi al  di sopra  delle  nuvole  per 
-sfidare gli angeli presenti, guadagnando SIGILLI DIVINI.   
+sfidare gli angeli presenti, guadagnando SIGILLI DIVINI. 
+
 -  I PORTALI DIMENSIONALI.  I popoli liberi sono  l'ultimo baluardo
 per tutti coloro  che  vogliono sconfiggere  le  terribili creature  
 planari, provenienti da dimensioni lontane, oscure e inaccessibili. 
@@ -13400,14 +13396,37 @@ Vedi anche: REPAIR, MUD, NEWBIE
 Skill per: Ladri monoclasse
 
 Questa tecnica, acquisita naturalmente dal ladro monoclasse insieme
-al DODGE, gli permette di avere possibilita' di salvare parte del
+al DODGE, gli permette di avere possibilita'  di salvare  parte del
 suo equipaggiamento nei casi in cui cada vittima di una DEATH TRAP.
 
-Vedi anche: DEATHTRAP, DT, DODGE
+Vedi anche: DEATHTRAP, DODGE
 
+#
+"TRAPPOLA MORTALE" "DEATH TRAP" DEATHTRAP DT
 
+Esistono luoghi molto pericolosi nell'Impero e alcuni  di essi sono
+caratterizzati dalla presenza di DT o TRAPPOLE MORTALI. Queste sono 
+locazioni che causeranno la morte certa dei personaggi che oseranno
+entrare  in  esse.  La  morte  in DT  non causera' la necessita' di 
+recuperare  gli  XP  persi,  ma  danneggera'  l'equipaggiamento che
+necessitera' di essere riparato. Tali  locazioni, che rappresentano
+trappole o luoghi  impervi e  pericolosi,  possono essere percepite
+dagli psionici esperti tramite l'incantesimo PSIONIC DANGER  SENSE.
 
+Alcune stanze, chiamate  DT A TEMPO,  sono  normali  locazioni  che 
+rappresentano  solitamente  luoghi  pericolanti  o instabili. Se il
+personaggio restera' troppo tempo  in queste  stanze,  finira'  per
+morire  per  effetti  della  trappola.   Tali  locazioni  non  sono
+distinguibili dalle altre tramite il potere psionico.
 
+I ladri monoclasse, esperti di trappole, hanno la  possibilita'  di
+salvare dalla rovina i  pezzi del  loro  equipaggiamento  grazie al 
+loro potere naturale AVOID DEATHTRAP.
+
+Per evitare  la  successiva  frantumazione  dell'EQ,  il  giocatore 
+dovra' recarsi da un fabbro per ripararlo.
+
+Vedi anche: AVOID DEATHTRAP, FIND TRAP, PSIONIC DANGER SENSE
 
 
 #~
