@@ -17,7 +17,7 @@ Versione 2.19.5.1 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita
   servira' piu' portare in giro decine di oggetti audio che aumentano inutilmente
   lo scroll per tutti.
 - Tradotte in italiano le dignity presenti nel title di tutte le classi.
-- $c0012Skill e spell$c0007 - Inizia un periodo ricco di novità, in cui verranno
+- $c0012Skill e spell$c0007 - Inizia un periodo ricco di novita', in cui verranno
   aggiunti spell e skill caratterizzanti per ogni classe al fine di dare valore a
   tutti i diversi stili di gioco.
 - Abbassato il cooldown per gli spell "ASCENSION" e "DEMONIC FORM".
@@ -34,7 +34,14 @@ Versione 2.19.5.1 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita
   Data l'esperienza con trappole e sotterfugi, un ladro finito dentro ad una stanza di tipo 
   DEATH TRAP, avra' la possibilita' di salvare i vari pezzi del suo equipaggiamento in maniera 
   randomica.
+- I personaggi che hanno ricevuto il dono di diventare sacerdoti degli dei, gli AVATAR, ora 
+  hanno accesso ad un potere unico e speciale.
+- Aumentato il numero di spell lanciabili e migliorata l'AI dei mob caster. Ora alcuni di
+  essi useranno le loro armi come Spell Slayer.
+- Corretto un piccolo bug sul Leviatano che gli impediva di soffiare come gli altri draghi. 
+  Ora e' un po' piu' pericoloso.
 - Aggiunti nuovi help e corrette alcune voci gia' presenti.
+- Corretti alcuni bug che facevano crashare o creavano problemi di vario genere.
 
 Versione 2.19.4.1 - $c0009APRILE 2019 $c0007- Il ritorno degli avventurieri/2
 - $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
