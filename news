@@ -7,10 +7,19 @@ Versione 2.19.5.1 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita
 - In alcuni luoghi, arcani poteri indeboliscono il potere di ogni creatura
   o avventuriero presente, riducendo l'impatto delle immunita'. Nuove sfide attendono i piu' 
   coraggiosi!
-- $c0012Quest$c0007 - Rivista parzialmente la quest "I portali dimensionali". Ora 
-  il premio e' parzialmente distribuito sui nemici: affrontateli tutti e otterrete 
-  cio' che cercate. Alcuni nemici saranno piu' semplici da affrontare, altri invece 
-  richiederanno nuovi sforzi.  
+- $c0012Quest$c0007 - Alcune importanti novita' per le quest dell'Impero Celeste.
+- Il premio della quest "I portali dimensionali" ora e' parzialmente distribuito sui nemici: 
+  affrontateli tutti e otterrete cio' che cercate. Alcuni nemici saranno piu' semplici da 
+  affrontare, altri invece richiederanno nuovi sforzi.  
+- Niav Anipal, l'evocatore, si nasconde in luoghi sempre diversi dell'Impero: tra le montagne
+  orientali, tra le foreste occidentali, presso il mercato rionale, le terre di Camelot o
+  anche in giro tra le paludi della valle maledetta. Il suo eterno peregrinare lo porta lontano: cercatelo.
+- I luoghi in cui sono custoditi i frammenti della sfera dei Draghi Antichi, sono ora protetti
+  per ordine del Consiglio di Midia, da nuovi e ancor piu' potenti incantesimi elementali.
+- Per completare l'incantesimo di riunificazione della sfera dei Draghi Antichi, Niav Anipal
+  avra' bisogno di recuperare del sangue di drago. Non sempre sara' facilmente recuperabile.
+- Aggiunti dei sigilli divini e sigilli elementali nel laboratorio alchemico di Blackmouth.
+  Ora le chiavi della torre scompaiono una volta usate.
 - $c0012Listino$c0007 - Aggiunta la possibilita' di editare piu' spell affect su
   un unico slot e la possibilita' di liberare slot occupati sugli oggetti.
 - Aggiunti dei messaggi che ad ogni tick segnalano il passaggio del tempo: non
