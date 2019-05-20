@@ -2,6 +2,7 @@
 EMPTY SLOT
 #
 HELP
+Aggiornamento del 20 maggio 2019 a cura di Nalith
 Aggiornamento del 3 maggio 2019 a cura di Nalith
 Aggiornamento del 25 marzo 2019 a cura di Nalith
 Aggiornamento del 15 agosto 2018 a cura di Martinus, Nalith, Phoenix
@@ -13423,6 +13424,52 @@ dovra' recarsi da un fabbro per ripararlo.
 
 Vedi anche: AVOID DEATHTRAP, FIND TRAP, PSIONIC DANGER SENSE
 
+
+#
+"SCRIGNO DORATO" SCRIGNO 
+
+Gli scrigni dorati sono potenti artefatti magici, creati dagli dei
+e dotati di incredibili poteri. Essi possono essere ottenuti  in 2
+modi:
+
+- al 50%, tramite il completamento della quest del "Labirinto  tra 
+  le nuvole";
+  
+- donando degli oggetti  elementali  presso  l'altare  del  tempio 
+  elementale:  gli  oggetti  verranno  distrutti  e  il  PG potra' 
+  ottenere o un rimborso parziale in sigilli elementali  o il dono
+  di uno scrigno.
+  
+Gli scrigni magici possono contenere un massimo  di 100  oggetti.
+Questo permettera', come per i magici cesti di foglie di Lis,  di
+ottenere una riduzione del numero di oggetti nel RENT.
+Depositando un oggetto dentro lo scrigno,  esso  prendera'  key e 
+descrizione aggiuntive dal contenuto: se io ad esempio, inserissi
+una pozione porpora dentro allo scrigno, esso verrebbe rinominato
+"uno scrigno dorato contenente una pozione porpora".
+
+Gli scrigni funzionano con pergamene, pozioni, cristalli e gemme.
+Non accettano oggetti  NORENT  o con  costo di RENT a partire da 
+5000 monete e superiore, inclusi pergamene e pozioni create 
+tramite le skill BREW e SCRIBE.
+Uno scrigno potrà contenere solo un  tipo  di oggetto. Una volta 
+inserito un’oggetto,  lo  scrigno  non  e' piu' resettabile e si 
+potra' usare solo per quell’oggetto.
+Non si possono inserire oggetti con flag PERSONAL o AUTOPERSONAL
+Se si decide  di  rendere  lo  scrigno  PERSONAL,  solamente  il 
+proprietario potra' usare i comandi GET e PUT,  mentre EXAMINE e 
+IDENTIFY potranno essere usati da tutti gli altri.
+Per prendere oggetti dallo scrigno bisognera' scrivere le parole 
+chiave dell'oggetto per intero. Non funziona  con  abbreviazioni
+(GET CRIS non funzionera', ma bisognera' digitare GET CRISTALLO)
+Gli oggetti  restringati  o  editati (tipo  le  pozioni vecchie) 
+perderanno il loro restring/edit una volta inseriti. 
+
+$c0009FATE ATTENZIONE!$c0007
+$c0009Gli oggetti unici non verranno refundati.$c0007
+  
+
+Vedi anche: LISTINO, AREAQUEST
 
 #~
 
