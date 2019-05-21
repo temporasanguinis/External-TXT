@@ -12402,7 +12402,10 @@ situazioni di gioco. Questi stili di combattimento si apprendono
 ai livelli piu alti della vita di un monaco e gli permettono di
 adattarsi e combattere avversari temibili. Le stance possono essere
 cambiate durante il combattimento, cio' rende il monaco molto versatile
-per affrontare situazioni impreviste di pericolo.
+per affrontare situazioni impreviste di pericolo. Le stance si possono
+cambiare per un massimo di 4 volte, dopo di che bisogna aspettare 3
+ore per poterla ricambiare, oppure fino a 12 ore per ritornare alla
+forma di combattimento classica.
 Gli stili di combattimento non migliorano con l'uso, il monaco deve
 apprendere fino in fondo le tecniche dal proprio maestro.
 
@@ -12414,7 +12417,7 @@ capacita' difensiva del monaco, permettendogli di schivare i colpi
 con piu destrezza. Con questo stile pero' la capacita' di bloccare
 gli attacchi con lo scudo diminuisce, e gli attacchi del monaco
 sono inferiori.
-$c0005Durata$c0005 6 ore
+$c0005Durata$c0005 3+ ore
 $c0015Uso$c0015: "stance mangusta"
 
 Tiger stance:
@@ -12423,7 +12426,7 @@ monaco di infliggere danni all'avversario. Al contrario, la difesa
 e la capacita' di colpire ne risentono, perdendo absorb damage,
 armor class e hitroll. Inoltre si ha qualche malus sulla capacita'
 di schivare i colpi.
-$c0005Durata$c0005 6 ore
+$c0005Durata$c0005 3+ ore
 $c0015Uso$c0015: "stance tigre"
 
 Phoenix stance:
@@ -12434,7 +12437,7 @@ l'abilita' di parare i colpi con lo scudo. Con questa tecnica il
 monaco e' capace di fare 2 attacchi ogni round, pero i colpi sono
 infuocati. Gli attacchi dipendono dal livello di maestria del
 monaco nell'abilita', arrivando fino ad un massimo di 3.
-$c0005Durata$c0005 3 ore
+$c0005Durata$c0005 3+ ore
 $c0015Uso$c0015: "stance fenice"
 
 #
