@@ -18,8 +18,10 @@ Versione 2.19.5.2 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita
 - $c0012Skill e spell$c0007 - Alcune skill sono in fase di modifica:
 - Cambiato il funzionamento di AVOID BACKATTACK: ora entra in funzione un po' meno,
   ma quando accade, lagga il ladro di un round. Non sara' possibile quindi per i 
-  ladri continuare a tentare CIRCLE o BACKSTAB a nastro e al contempo i barbari
+  ladri continuare a tentare CIRCLE o BACKSTAB a ripetizione e al contempo i barbari
   saranno un po' piu' vulnerabili e non piu' immuni ai ladri.
+- Modificate le stance del monaco, ora sono cambiabili in combattimento. Per informazioni,
+  HELP STANCE.
 
 Versione 2.19.5.1 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita'
 - $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
