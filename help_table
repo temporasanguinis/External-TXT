@@ -11077,7 +11077,7 @@ del Paladino, egli potra' assumere la forma di un Angelo sempre piu'
 potente. E' possibile rimanere Angelo per tutta la durata dello spell,
 ma questo non sara' piu' utilizzabile per un certo tempo, in funzione
 del livello del Paladino e della potenza dell'Angelo scelto: se sono
-uguali si dovra' attendere una settimana, e via via sempre meno quanto
+uguali si dovra' attendere 48 ore, e via via sempre meno quanto
 piu' il livello del Paladino supera quello dell'Angelo.
 
 Key         Livello  Creatura                  Commenti
@@ -12648,7 +12648,7 @@ dell'Antipaladino. egli potra' trasformarsi in demoni sempre piu'
 potenti. L'Antipaladino puo rimanere demone per tutta la durata
 dell'incantesimo, che pero' non potra' usare per un certo tempo,
 dipendente dal suo livello e dal livello del demone che ha scelto:
-se sono uguali dovra' aspettare una settimana, e via via sempre
+se sono uguali dovra' aspettare 48 ore, e via via sempre
 meno quanto piu' il suo livello supera quello del demone.
 
 Key         Livello  Creatura                  Commenti
