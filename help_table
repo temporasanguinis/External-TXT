@@ -11103,8 +11103,8 @@ CRUSADE
 
 $c0015Uso$c0015           : cast 'crusade'
 $c0006Cumulativo$c0006    : No
-$c0005Durata$c0005 effetto: $c0010Livello$c0010 da eroe del caster *12 ore
-$c0005Durata$c0005 spell  : 96 ore
+$c0005Durata$c0005 effetto: $c0010Livello$c0010 da eroe - ore
+$c0005Durata$c0005 spell  : 12 ore
 $c0010Livello$c0010       : Paladini Eroi di 3 livello
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0007 : 30
@@ -12701,8 +12701,8 @@ Vedi anche: SANCTUARY
 
 $c0015Uso$c0015           : cast 'death grip'
 $c0006Cumulativo$c0006    : No
-$c0005Durata$c0005 effetto: $c0010Livello$c0010 da eroe *12 ore
-$c0005Durata$c0005 spell  : 96 ore
+$c0005Durata$c0005 effetto: $c0010Livello$c0010 da eroe - ore
+$c0005Durata$c0005 spell  : 12 ore
 $c0010Livello$c0010       : Antipaladini Eroi di 3 livello
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0007 : 30
