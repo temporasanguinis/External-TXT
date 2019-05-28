@@ -20,8 +20,20 @@ Versione 2.19.5.2 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita
   ma quando accade, lagga il ladro di un round. Non sara' possibile quindi per i 
   ladri continuare a tentare CIRCLE o BACKSTAB a ripetizione e al contempo i barbari
   saranno un po' piu' vulnerabili e non piu' immuni ai ladri.
-- Modificate le stance del monaco, ora sono cambiabili in combattimento. Per informazioni,
-  HELP STANCE.
+- Modificate le stance del monaco, ora sono intercambiabili in combattimento. Corretto
+  un bug sulla durata. Per informazioni, HELP STANCE.
+- Modificate le durate e il cooldown di CRUSADE e DEATH GRIP. Ora sono molto piu' facili 
+  da usare.
+- Lo spell drudico CHANGESTAFF non distrugge piu' gli oggetti non idonei, ma li danneggia.
+- I druidi non potranno piu' sacrificare oggetti personal presso l'altare nei pressi di
+  Vertus.
+- Aggiunto un check sul numero di classi dei pg sotto effetto di incantesimi di trasmutazione.
+  I pg monoclasse avranno i bonus dei monoclasse, nonostante il polymorph si comporti da
+  multiclasse: non diminuiranno piu' gli xp ricevuti e non avranno il failskill dei multiclasse.
+- Rivisti i cap della razza VEGMAN. Ora puo' arrivare a 250 Spellpower.
+- Implementato bonus spellpower per i polymorph che permette cosi' di superare il cap
+  dell'equipaggiamento.
+- Gli HP praccati da Cindy vengono ereditati da tutti i polymorph.
 
 Versione 2.19.5.1 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita'
 - $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
