@@ -1,4 +1,54 @@
 
+Versione 2.19.5.3 - $c0009MAGGIO 2019 $c0007- L'equilibrio delle forze
+- $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
+  NON EROI - Il palazzo degli skexie [Trad. by Tyrant] - Sono state riviste 
+  completamente le tre quest della zona, destinate ora ai livelli 20/29, 30/39,
+  40/50. Sono stati aggiunti due oggetti premio a quelli disponibili tramite
+  il sistema di premiazione dell'antico skexie, un vestito e una pozione.
+- Sono state tolte alcune DT dal palazzo degli skexie e una posta tra le montagne 
+  orientali.
+- Sono stati aggiunti dei sigilli in alcuni mob principali delle zone per eroi.
+- $c0012Quest$c0007 - Alcune importanti novita' per le quest dell'Impero Celeste.
+  Cambiano i sistemi di premiazione di alcune quest dell'Impero e il punteggio 
+  PWP richiesto ai PG per accedervi, al fine di garantire una progressione di 
+  gioco migliore e lineare.
+- SKEXIE: le tre sfide sono state modificate e meglio caratterizzate per tutti i
+  NON EROI.
+- ATLANTIDE: ora e' possibile accedervi avendo almeno 200 PWP. Redistribuiti sui MOB
+  i sigilli del premio finale: ora molti nuovi nemici pagano un premio.
+  Rimesso il doppio drop a fine quest e un piccolo premio in karma e sigilli.
+- PORTALI DIMENSIONALI: ora e' possibile accedervi avendo almeno 500 PWP. Aggiunti sui
+  MOB alcuni sigilli a fronte del taglio compiuto nell'ultima versione.
+- LABIRINTO: ora e' possibile accedervi avendo almeno 400 PWP. Aggiunti sui MOB alcuni
+  sigilli.
+- MIDRAASH: Diminuiti i sigilli del forziere finale e ridistribuiti sui MOB. E' stato
+  aggiunto un nuovo mob e un sistema rivisto di trappole random.
+- MONTE ROTTO: Ora la quest paga qualche sigillo in piu'. Abbassato il premio finale e 
+  redistribuiti sui MOB molti sigilli. I MOB principali sono un po' piu' semplici da
+  affrontare, mentre ad alcuni mob secondari sono stati alzati gli HP.
+- MORROWINDL: rivisti al rialzo gli HP di alcuni MOB. Aggiunti alcuni sigilli.
+- DARKENWOOD: Limitato l'ingresso della zona a 1800 pwp. Aggiunti alcuni sigilli.
+- HOEUR: Limitato l'ingresso della zona a 1000 pwp.
+- BLACKMOUTH: Aggiunti alcuni sigilli.
+- $c0012Oggetti$c0007 - Rivisti alcuni degli oggetti presenti nell'area del Mercato rionale
+- E' stato spostato su un MOB di Geldor il randompop dei guanti del potere. A voi il compito
+  di scoprire la sua locazione.
+- $c0012Skill e spell$c0007 - Alcune skill sono in fase di modifica:
+- Rivisto il rapporto tra incantesimi di polymorph e PWP: il tema e' molto delicato e dopo
+  molte discussioni e numerose prove, lo staff e' giunto alla seguente implementazione,
+  che risulta in fase di test fino a considerazioni future.
+- I polymorph avanzati NON UMANOIDI guadagnano bonus HP e DAM in base al PWP del giocatore.
+- I polymorph avanzati UMANOIDI guadagnano bonus HP in base al PWP del giocatore.
+- Aumento generale della forza dei polymorph NON UMANOIDI.
+- I polymorph che permettono guadagni dello SPELLPOWER, concedono l'aumento del valore 
+  rispetto al CAP derivante dall'equipaggiamento del PG, che non maxxera' piu' a 120, ma a
+  120+bonus.
+- Rivisti i cap della razza VEGMAN. Ora puo' arrivare a 250 Spellpower e a 1800 mana.
+  Il cambiamento avra' valore sia sui polymorph che sul reincarnate.
+- Gli HP praccati da Cindy vengono ereditati da tutti i polymorph.
+- ASCENSION e DEMONIC FORM perdono il guadagno PWP sui polymorph avanzati, ma guadagnano
+  una forte riduzione del cooldown dell'incantesimo.
+
 Versione 2.19.5.2 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita'/2
 - $c0012Quest$c0007 - Alcune importanti novita' per le quest dell'Impero Celeste.
 - Cambia la quest "il labirinto sopra le nuvole": ora l'ingresso e' protetto da 
@@ -30,10 +80,6 @@ Versione 2.19.5.2 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita
 - Aggiunto un check sul numero di classi dei pg sotto effetto di incantesimi di trasmutazione.
   I pg monoclasse avranno i bonus dei monoclasse, nonostante il polymorph si comporti da
   multiclasse: non diminuiranno piu' gli xp ricevuti e non avranno il failskill dei multiclasse.
-- Rivisti i cap della razza VEGMAN. Ora puo' arrivare a 250 Spellpower.
-- Implementato bonus spellpower per i polymorph che permette cosi' di superare il cap
-  dell'equipaggiamento.
-- Gli HP praccati da Cindy vengono ereditati da tutti i polymorph.
 
 Versione 2.19.5.1 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita'
 - $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
