@@ -12381,7 +12381,7 @@ Vedi anche: BACKSTAB, CIRCLE
 #
 "SWORD MASTERY" "MACE MASTERY" "KNIFE MASTERY"
 
-Skill per: Guerrieri monoclasse eroi
+Skill per: Guerrieri monoclasse eroi e Guerrieri di razza Brownie
 
 Questa tecnica,  se imparata a  sufficienza, permette ad un guerriero
 di diventare un vero maestro d'armi con l'arma scelta. Il guerriero
@@ -12390,6 +12390,9 @@ degli eroi, e guadagna un attacco extra con probabilita' di entrata
 intorno al 60% solo con il tipo di arma scelto. Le armi con le quali
 un guerriero si puo specializzare sono Spada, Mazza, e Pugnale.
 (Quindi armi che fanno danno "fendente","mazzata","pugnalata")
+I guerrieri brownie, essendo di statura piccola, imparano ad usare
+meglio il loro pugnale, guadagnando l'abilita' di dare colpi taglienti
+al loro avversario, ma non guadagnano ulteriori attacchi.
 
 #
 STANCE "MONGOOSE STANCE" "TIGER STANCE" "PHOENIX STANCE"
