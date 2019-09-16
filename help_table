@@ -12198,11 +12198,11 @@ $c0010Livello$c0010       : 20 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0007 : 150
 
-L'incantesimo, se lanciato su un  personaggio, ne causa la crescita  fino 
-al doppio della dimensione originale: questo comporta l'aumento degli hit
-points e del  danno causato rispettivamente di 30 punti e 3 punti, mentre
-la destrezza viene abbassata di 2 punti, di cui uno permanente, fino alla
-scadenza dello spell.
+Questo incantesimo,  che  puo' essere lanciato solo su un personaggio,  ne
+causa la crescita  fino  al  doppio  della  dimensione  originale.  Questo
+comporta l'aumento dei  punti vita e del danno causato rispettivamente  di
+30 punti e 3 punti, mentre la destrezza viene abbassata di 2 punti, di cui
+uno permanente, fino alla scadenza dello spell.
 
 #
 CURSING
