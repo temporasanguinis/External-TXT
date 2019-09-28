@@ -1,4 +1,44 @@
 
+Versione 2.19.6.1 - $c0009SETTEMBRE 2019 $c0007- Oscuri presagi
+- $c0012Aree$c0007 - Sono state rinnovate alcune aree:
+  EROI - L'isola di Deadhame [Trad. by Tyrant] - La zona e' stata completamente
+  rinnovata. Ora e' destinata a gruppi di eroi.
+- $c0012Quest$c0007 - Sono state rinnovate alcune aree:
+  EROI - Le terre infestate di Arachnos [Trad. by Tyrant] - La zona ora e' una 
+  quest destinata agli eroi con almeno 1600 PWP. Non sara' sempre accessibile.
+  Fate attenzione: e' un luogo davvero pericoloso.
+  EROI - Le terre di Krynn [Dryden] - Dopo oltre 15 anni di attesa e' arrivata
+  fra noi la quest dei draconiani! Un'avventura complessa e piena di pericoli:
+  riusciranno gli eroi ad essere all'altezza di questi temibili nemici?
+- All'interno dell'area non tutte le protezioni funzioneranno e anche le vostre 
+  armi potrebbero venire danneggiate. Le armi che assegnano una slay razziale 
+  draconiana o slay drago possono perdere tale proprieta' contro di essi, 
+  danneggiandosi gravemente. Usatele a vostro rischio e pericolo, sapendo 
+  che un nuovo oggetto con questa caratteristica si puo' trovare da qualche 
+  parte nell'Impero.
+- Sono state fatte piccole modifiche ad alcune aree per rendere possibili nuove 
+  miniquest.
+- Qualche miglioria e' presente nella gilda dei gladiatori.
+- Alcuni oggetti sono stati modificati, correggendo alcune procedure che non 
+  funzionavano. A Monte Rotto alcuni oggetti si scrappano in caso di uscita 
+  dalla zona, a causa degli influssi della Warpietra.
+- In alcune zone non e' piu' possibile usare il teleport sia per uscire che per
+  entrare.
+- Oltre a queste sono presenti alcune zone accessibili solo tramite l'intervento
+  degli dei. A loro resta la piena liberta' di renderle accesibili per eventi e quest.
+- $c0012Miniquest$c0007 - Sono state modificate alcune miniquest:
+- TOEWIN: Ora vanno fatti tutti i passaggi della quest. Il premio e' stato migliorato.
+- Alcuni dei questor scompaiono dopo aver dato il premio. In caso di repop andranno
+  ritrovati.
+- Nuovi questor si possono trovare a Midia sud o in giro per l'Impero, ma non sempre.
+  Tale novita' permette che ad ogni boot il gioco possa avere la sua dose di novita'
+  e varieta'.
+- Corretti alcuni bug presenti sui mob. Ora i mob immortali non assistono piu' e i mob
+  di altri mob, funzionano molto meglio e possono essere pericolosi. 
+- Piccole migliorie per rendere la vita piu' semplice a non vedenti e ipovedenti che
+  usano screen reader.
+- Qualche segreto da scoprire: mica dobbiamo proprio svelarvi tutto! :)
+
 Versione 2.19.6.1 - $c0009GIUGNO 2019 $c0007- L'equilibrio delle forze/2
 - $c0012Aree$c0007 - Sono state sistemate alcune aree:
   NON EROI - Le estensioni del tempio di Midia [Trad. by Nalith] - Sono state inseriti
@@ -206,77 +246,5 @@ Versione 2.19.3.2 - $c0009MARZO 2019 $c0007- Il ritorno degli avventurieri
 - Modifiche varie alla torre nera di Hoeur: vi troverete nuove procedure e nuove tipologie 
   di location: le stanze elementali.
 - Tutti i cambiamenti sono da considerarsi in fase di test.
-
-
-Versione 2.19.3.1 - $c0009MARZO 2019 $c0007- I doni degli dei
-- $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
-  NEOEROI - Le dodici case [by Tornado & Phoenix] - $c0009Versione rivista e  
-  corretta con nuove sfide, nuovi oggetti e nuovi premi!$c0007
-  EROI - La torre nera di Hoeur [Trad. by Nalith]
-- Per semplificare la vita ai nuovi giocatori e facilitare coloro che tornano dopo
-  lungo tempo, gli dei hanno creato un sistema di aiuti basato sull'avanzamento dei
-  livelli: $c0011i doni degli dei$c0007. 
-  I doni verranno elargiti alla creazione del personaggio e ai livelli 5/10/20/30/40/45/50.
-  Successivamente, una volta diventati eroi, i personaggi riceveranno un dono ad ogni
-  avanzamento di livello eroe. Gli oggetti elargiti dagli dei verranno automaticamente
-  personalizzati sul personaggio che li riceve. [by Martinus]
-- Ora con il comando GROUPCHECK si possono vedere gli spell attivi e in scadenza sui 
-  compagni del gruppo. [by Martinus]
-- $c0012Listino$c0007 - Aggiunta la possibilita' per i monaci di editare il dado sui guanti: potranno 
-  avere come le altre classi fino a 50 punti di danno sul dado dell'arma. Dovranno pero'
-  utilizzare due slot sui guanti per editare il nuovo dado. Tale cambiamento necessitera'
-  di un periodo di prova. Qualora tale prova dovesse andare male e questa possibilita'
-  dovvesse venire eliminata, ad insindacabile giudizio dello staff, coloro che hanno 
-  fatto la modifica riceveranno un rimborso sulla spesa in sigilli.
-- Aggiunta una razza tutta nuova tra quelle disponibili tramite l'incantesimo druidico
-  "REINCARNATE". A voi il compito di scoprirla. [by Martinus, Dimitri & Phoenix]
-- Modificato il cooldown delle skill per monaci 'Quivering palm' e 'New quivering palm':
-  ora si potranno rispettivamente lanciare ogni 2*(9-livello eroe)e 9-livello eroe tick. 
-- E' stata aggiunta una nuova MINIQUEST a New Thalos per NON EROI e NEOEROI: qualcuno
-  potrebbe avere bisogno dei vostri servigi presso la locanda del Demone Danzante.
-- E' stato aggiunto un frammento della sfera dei Draghi Antichi. Provate a cercare 
-  informazioni a Midia Sud.
-- A Midia sud, presso l'accademia dei Sapienti, ora Garius Dakal, mastro alchimista, 
-  cerca speciali pietre alchemiche, in cambio di un premio. Aiutatelo a recuperarle.
-- Sempre a Midia sud e' comparso un cantastorie che narra le gesta degli eroi e degli dei
-  passati e presenti. Otterrai anche tu l'onore di essere ricordato per sempre?
-- Elminster e' tornato in citta'! Il vecchio mago e' tornato a Midia, piu' arrabbiato e 
-  inacidito che mai. Attenti a voi, cani randagi!
-- Piccoli cambiamenti in alcune aree e modifiche ad alcuni mob.
-- Corretti alcuni bug, typo e problemi minori ad alcune aree dell'Impero.
-  
-Versione 2.19.2.1 - $c0009FEBBRAIO 2019 $c0007- Cantieri aperti in tutto l'Impero/3 
-- $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
-  NON EROI - Le montagne orientali [Trad. by Nalith]
-  NON EROI - Le miniere di Falrhun [Trad. by Kiruna]
-  TUTTI - Il bosco dei druidi di Namor [Trad. by Stellos]
-  NON EROI/SUPERIOR - La citta' di Mordilnia [Trad. by Kiruna]
-  NON EROI/SUPERIOR/NEOEROI - L'ingresso alla valle dei maghi [Trad. by Tyrant & Nalith] 
-  NON EROI/SUPERIOR/NEOEROI - Le caverne dei trogloditi [Trad. by Nalith] 
-  NON EROI/SUPERIOR/NEOEROI - L'arena di Felix [Trad. by Kiruna]
-  SUPERIOR/NEOEROI/EROI - Darkenwood [Trad. by Tyrant]
-  EROI - La fossa del sangue di Glovirin [by Nalith] - $c0009Versione di prova per evento
-  speciale di Dimitri$c0007
-- Leggere modifiche ad aree per NONEROI, ora alcune di esse pagano qualche xp in piu', 
-  per rendere la fase di gioco iniziale meno frustrante e meno soggetta a train.
-- Piccole modifiche all'area delle citta' di Geldor e Midir e agli oggetti della quest
-  presso il palazzo degli Skexie.
-- Inseriti nuovi MOB interattivi in alcune aree. Provate ad interagirci, aiutandoli a 
-  risolvere piccole o grandi missioni: sapranno ricompensarvi!
-  I mob interattivi possono essere riconosciuti dalla presenza del simbolo $c0011(!)$c0007
-  in descrizione.
-- Sul forum sono stati attivati nuovi concorsi (Help e Guide): chi vuole puo' proporre
-  le proprie creazioni.
-- Corretti alcuni typo e inserite nuove voci nell'help. Ora potrete trovare 
-  informazioni sulle voci: VALORE DEGLI OGGETTI. Alcuni help sono stati migliorati,
-  ora e' piu' facile capire quali oggetti servono per gli spell "CACAODEMON" e "CONJURE 
-  ELEMENTAL". [modifiche di Nalith]
-- Alcuni oggetti sono stati leggermente modificati per evitare abusi in zone non adatte.
-- Come segnalato dallo Strillone di Midia, alcuni pezzi in vendita nei vari negozi 
-  della citta' sono solo disponibili temporaneamente.
-- A New Thalos il Sultano ha fatto allargare e modificare le strade che portano alla
-  citta': ora gli spostamenti sono piu' sicuri per i viaggiatori!
-- $c0011ATTENZIONE$c0007: alcuni collegamenti tra aree sono cambiati per rendere piu' semplice e 
-  logico lo spostamento tra aree. 
 
 
