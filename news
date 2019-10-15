@@ -1,5 +1,29 @@
 
-Versione 2.19.6.1 - $c0009SETTEMBRE 2019 $c0007- Oscuri presagi
+
+Versione 2.19.9.2 - $c0009OTTOBRE 2019 $c0007- Oscuri presagi/2
+- $c0012Varie$c0007 - Sono state fatte alcune sistemazioni:
+- Corretti alcuni bug e moltissimi typo segnalati.
+- Ricalibrati alcuni mob presenti nelle nuove aree.
+- Ad Arachnos sono state sistemate le stanze delle uova di ragno:
+  ora sono meno penalizzanti. Seguiranno comunque alcune revisioni
+  per bilanciare meglio l'area a seguito dei feedback.
+  L'area e' e rimarra' orientata ad offrire sfide per PG di alto livello.
+- Alcune aree quest non sono piu' raggiungibili di teleport, anche per evitare
+  tristi conseguenze con morti in zone non raggiungibili.
+- Assegnati dei malus ai save-all dei mob presso la quest per
+  NEO-EROI de "le dodici case". Ora saranno piu' accessibili per
+  i PG che vorranno affrontarle al giusto livello, con molte chicche
+  ancora da scoprire.
+- Inseriti 3 nuovi miniquestor: Garamin (EROI), Artafet (EROI) e Yuran (NON EROI).
+- Si segnala che l'area dei draconiani e' momentaneamente slinkata:
+  avrete presto notizie in merito, non dubitate.
+- Un messaggio segnala la presenza in INVENTARIO degli oggetti che si rompono in 
+  caso di uscita dall'area: fate attenzione.
+- Aggiunti alcuni comandi per rendere la vita piu' semplici agli immortali e per 
+  la gestione dei refund.
+  
+
+Versione 2.19.9.1 - $c0009SETTEMBRE 2019 $c0007- Oscuri presagi
 - $c0012Aree$c0007 - Sono state rinnovate alcune aree:
   EROI - L'isola di Deadhame [Trad. by Tyrant] - La zona e' stata completamente
   rinnovata. Ora e' destinata a gruppi di eroi.
