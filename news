@@ -1,5 +1,23 @@
 
-
+Versione 2.19.11.1 - $c0009NOVEMBRE 2019 $c0007- Oscuri presagi/3
+- $c0012Aree$c0007 - Sono state rinnovate alcune aree:
+  NON EROI - Il vulcano White Plume [Trad. by Tyrant] - La zona e' stata ampliata,
+  corretta e rivista. Ora e' destinata a gruppi di livello 40/50.
+- $c0012Quest$c0007 - Sono state rinnovate alcune aree:
+  EROI - La piramide di Akin-Ra [Trad. by Tyrant] - La zona ora e' una 
+  quest destinata agli eroi. Per iniziare la sfida, bisogna cercare un vecchio
+  nomade nell'oasi del grande deserto dell'est.
+- $c0012Varie$c0007 - Sono state fatte alcune sistemazioni e revisioni:
+- Inserito l'incantesimo di HUMANOID GROWTH nel prompt di chi ha lo spell attivo.
+- Ora le porte che hanno comandi speciali di apertura si chiudono ugualmente con
+  il comando "CLOSE".
+- Corretti gli zombie di Ravenloft: ora si moltiplicano come un tempo.
+- Ricominciato lo sviluppo del programma TSKREATOR per la creazione delle
+  aree (by Auriel, Martinus e Otacon) ed e' stato pubblicata una nuova versione
+  corretta.
+- Implementate alcune nuove procedure utilizzabili dagli immortali per le quest
+  e nuove procedure speciali per mob, oggetti e room.
+    
 Versione 2.19.9.2 - $c0009OTTOBRE 2019 $c0007- Oscuri presagi/2
 - $c0012Varie$c0007 - Sono state fatte alcune sistemazioni:
 - Corretti alcuni bug e moltissimi typo segnalati.
@@ -22,7 +40,6 @@ Versione 2.19.9.2 - $c0009OTTOBRE 2019 $c0007- Oscuri presagi/2
 - Aggiunti alcuni comandi per rendere la vita piu' semplici agli immortali e per 
   la gestione dei refund.
   
-
 Versione 2.19.9.1 - $c0009SETTEMBRE 2019 $c0007- Oscuri presagi
 - $c0012Aree$c0007 - Sono state rinnovate alcune aree:
   EROI - L'isola di Deadhame [Trad. by Tyrant] - La zona e' stata completamente
