@@ -16,22 +16,31 @@ Versione 2.19.11.1 - $c0009GENNAIO 2020 $c0007- Tra cielo e terra
   che molto sia cambiato nell'Ordine dopo la grande guerra di Gramfell...
   L'area, nella sua versione temporanea, e' momentaneamente destinata alle
   quest personali dei candidati Avatar di Nalith.
+- Ribilanciati i mob di RAVENLOFT, ARACHNOS, NAITI E AKIN-RA.
 - $c0012Varie$c0007 - Sono state fatte alcune sistemazioni e revisioni:
 - Per modificare la PASSWORD o accedere alle CONFIGURAZIONE, ora e'
   richiesto l'uso della lettera maiuscola nel menu' di gioco, per evitare 
   cambi accidentali.
-- Ribilanciati i mob di RAVENLOFT, ARACHNOS, NAITI E AKIN-RA.
 - Una strana maledizione interferisce sulle preghiere agli dei: qualcosa sta 
   per cambiare. Le preghiere pagate con punti KARMA, recall a parte, sono 
   momentaneamente bloccate da oscuri incantesimi.
 - Aumentate il numero di pozioni nei DONI DEGLI DEI.
+- Ora è possibile derentare armi per DUAL WIELD (armi Hold o Hold/Wield),
+  modificandone anche il dado.
 - Alcuni miniquestor e mob parlanti sono piu' chiari e non necessitano di
   traduttori.
 - Phoenix sta cominciando a raccogliere i nominativi dei candidati per la
   prova dei nuovi titoli nobiliari, per coloro che aspirano a diventato 
   Vassalli dell'Impero: chi vuol essere un LORD OF A LAND?
 - Tante, TANTE, tante procedure speciali dei mob, tutte da scoprire.
-
+- Ridotto lo spam del WEAR ALL.
+- FIX di alcuni bug e procedure exploitabili.
+- Implementata la O visualizzabile nel prompt per indicare la presenza
+  attiva dello spell DETECT ORIGINAL.
+- Gli AVATAR possono ora approvare i nomi dei nuovi PG.
+- Reso più leggibile l'output del comando OFFER.
+- Ora lo stagno GRIGIO FERRO porta a Deadhame e non piu' ad Arachnos.
+- Nell'Impero Celeste sono stati trovai alcuni oggetti nuovi: le RUNE!
 
 Versione 2.19.11.1 - $c0009NOVEMBRE 2019 $c0007- Oscuri presagi/3
 - $c0012Aree$c0007 - Sono state rinnovate alcune aree:
