@@ -13125,7 +13125,7 @@ Un'  AREAQUEST  o ZONAQUEST  è  una zona  speciale,  nella quale  i
 personaggi dovranno  risolvere un'avventura.  Le zone  QUEST, dette
 anche QUEST FISSE,  sono: 
 
-- LE  DODICI CASE  o  QUEST  DELLO  ZODIACO, una  zona  dedicata ai  
+- $c0001LE  DODICI CASE  o  QUEST  DELLO  ZODIACO$c0007, una  zona  dedicata ai  
 NON-EROI  o  a   NEO-EROI,  posta  nell'oceano greco.  I  giocatori  
 dovranno  portare  lo  scudo  di  Atena alla moribonda Lady Isabel,
 sconfiggendo i  cavalieri dello zodiaco che si troveranno sul  loro 
@@ -13135,7 +13135,7 @@ lo scudo  a Lady Isabel,  i giocatori potranno  ottenere dei  buoni
 XP  o  delle  armature  speciali  che  potranno  essere  accumulate  
 e unite, formando cosi' oggetti piu' potenti. 
 
-- MORROWINDL,  una zona  dedicata a  giocatori con  PWP inferiore a
+- $c0001MORROWINDL$c0007,  una zona  dedicata a  giocatori con  PWP inferiore a
 1200. Gli eroi  dovranno portare il  loro soccorso agli  elfi della
 citta' di Arborlon, sconfiggendo i potenti demoni che assediano  la
 città e il temibile Wisteron, un gigantesco ragno capace di sputare
@@ -13146,14 +13146,14 @@ equipaggiamento forgiati dagli elfi di morrowindl. Tra questi pezzi
 ne  esistono   tre  dotati   di  particolari   caratteristiche  che
 permetteranno ai giocatori  di potenziare il  proprio personaggio. 
 
-- BLACK  HEART, dopo  aver recuperato  l'indizio dalla  veggente di
+- $c0001BLACK  HEART$c0007, dopo  aver recuperato  l'indizio dalla  veggente di
 Camelot, i giocatori dovranno affrontare una serie di sfide per poi
 consegnare  al Custode  del Cristallo  il medaglione  di ghiaccio,
 l'anello del  fuoco e  il cuore  del demone  distruttore, ottenendo
 cosi'  preziosi  SIGILLI  DIVINI.  Questa  quest  e'  riservata  ai
 giocatori con un PWP inferiore a 500. 
 
-- ATLANTIDE, i  giocatori dovranno  detronizzare   l'usurpatore del
+- $c0001ATLANTIDE$c0007, i  giocatori dovranno  detronizzare   l'usurpatore del
 regno di Atlantide, sconfiggere il terribile  Leviatano e riportare
 sul trono il  vero Re.  Oltre  ai  SIGILLI ELEMENTALI  e i  SIGILLI 
 DIVINI  (consegnati  anche  alla fine  della  quest),  i  giocatori 
@@ -13163,29 +13163,38 @@ sono molto potenti  e rari, come  gli scudi  elementali (che donano
 immunita'  ad alcuni elementi) o le scintille  divine che donano ai 
 personaggi caster il potere delle SLAY MAGICHE.
 
-- CAVE ABBANDONATE DI MONTE ROTTO,  le antiche  miniere di minerali
+- $c0001CAVE ABBANDONATE DI MONTE ROTTO$c0007,  le antiche  miniere di minerali
 prezioso, sono diventati il covo degli Skaven.
 
-- CITTA' SOTTERRANEA DI MIDRAASH, luogo misterioso il  cui  accesso
+- $c0001CITTA' SOTTERRANEA DI MIDRAASH$c0007, luogo misterioso il  cui  accesso
 e' proibito dall'Ordine di Midia, e' stato conquistato dalle tribu'
 dell'oscuro Gramfell.
 
-- RAVENLOFT, un luogo  d'ombra popolato da  creature oscure guidate
+- $c0001RAVENLOFT$c0007, un luogo  d'ombra popolato da  creature oscure guidate
 dal  potente  Stradh.  I giocatori affronteranno schiere di nemici, 
 guadagnando SIGILLI DIVINI. 
 
--  IL  LABIRINTO  SOPRA  LE  NUVOLE,  una  zona che cambia  ad ogni  
+-  $c0001IL  LABIRINTO  SOPRA  LE  NUVOLE$c0007,  una  zona che cambia  ad ogni  
 avventura,  dove  ogni  stanza  rivela  insidie  e potenti  nemici.  
 I giocatori dovranno  avventurarsi al  di sopra  delle  nuvole  per 
 sfidare gli angeli presenti, guadagnando SIGILLI DIVINI. 
 
--  I PORTALI DIMENSIONALI.  I popoli liberi sono  l'ultimo baluardo
+-  $c0001I PORTALI DIMENSIONALI$c0007.  I popoli liberi sono  l'ultimo baluardo
 per tutti coloro  che  vogliono sconfiggere  le  terribili creature  
 planari, provenienti da dimensioni lontane, oscure e inaccessibili. 
 Alla fine dell'avventura i  giocatori riceveranno  SIGILLI  DIVINI, 
 oltre  alle  gemme  e  ai  cristalli  trovati  lungo  il  percorso. 
 Quest'avventura, data la complessita', e' destinata a giocatori con
 PWP  superiore  al  400.  
+
+-  $c0001KALTENLAND$c0007.  L'usurpatore ha preso il posto del Gran
+Sanghor e ora dalla fortezza di Ikaya si inneggiano inni di guerra.
+Ma qualcuno cerca di riportare la pace su queste gelide terre.
+
+-  $c0001ARACHNOS$c0007.  L'imperatrice dei ragni e' tornata e tesse le
+sue ragnatele illusorie per distruggere le terre degli uomini.
+Quest'avventura, data la complessita', e' destinata a giocatori con
+PWP  superiore  al  1500. 
 
 Esistono alcune zone che, seppur non caratterizzate  da particolari
 narrazioni  di  fondo  o procedure particolari di gioco, consentono 
@@ -13201,20 +13210,20 @@ accanto alla descrizione.
 
 Oltre alle aree riservate, esistono due QUESTOR che si aggirano per
 le strade di Midia: 
-- DHETHOR IL QUESTOR, che si puo' trovare  in un'incrocio di strade
+- $c0001DHETHOR IL QUESTOR$c0007, che si puo' trovare  in un'incrocio di strade
 nella parte sud di MIDIA, assegna all'avventuriero la ricerca di un
 oggetto rubato, indicandogli la location nella quale potra'  essere
 ritrovato.  Ad  ogni  Reboot  potranno  essere  svolte  fino  a  15
 ricerche, che una volta portate a termine verranno premiate in base
 al  livello del  personaggio con  punti esperienza,  punti karma  e
 sigilli di  diverso tipo.  
-- EOWARION  L'ERRANTE, che gira per  le strade  del centro di MIDIA,
+- $c0001EOWARION  L'ERRANTE$c0007, che gira per  le strade  del centro di MIDIA,
 assegna all'avventuriero  una  Quest  card, su cui  sono  presenti 4  
 oggetti  da  recuperare.  Ogni  oggetto  trovato  fara'  ottenere ai 
 personaggi  1 sigillo divino e un  premio in  denaro.  Se la  scheda 
 verra'  completata, il  premio risultera' piu' consistente.
 
-Vedi anche: DHETHOR, QUEST, DODICI CASE, QUEST DELLO ZODIACO
+Vedi anche: DHETHOR, QUEST, DODICI CASE, QUEST DELLO ZODIACO, RUNE
 
 #
 TRAIN
@@ -13242,7 +13251,7 @@ alcuni mob una  volta sconfitti. Le  gemme possono essere  di vario
 genere e servono a  migliorare le proprie statistiche  da CALLIOPE,
 in alternativa a XP e PRATICHE.
 
-Vedi anche: CALLIOPE, RANDOMPOP
+Vedi anche: CALLIOPE, RANDOMPOP, RUNE
 
 #
 RANDOMPOP
@@ -13274,7 +13283,7 @@ essere uniti per  formare un oggetto  piu' potente, che  riportera'
 alcune caratteristiche casuali dei pezzi uniti insieme. Per unire
 i pezzi bisogna recarsi presso le streghe alla torre della magia.
 
-Vedi anche: GEMME, SOCKET, QUESTLIS
+Vedi anche: GEMME, SOCKET, QUESTLIS, RUNE
 
 #
 "SCALA DEI DANNI" DANNI
@@ -13432,6 +13441,42 @@ Vedi anche: AVOID DEATHTRAP, FIND TRAP, PSIONIC DANGER SENSE
 
 
 #
+RUNE RUNA RUNICO
+
+Le rune sono potenti  artefatti che si  possono trovare  in  alcune
+zone.
+
+
+$c0001LISTINO PREMI RUNICI$c0008
+
+$c0009NOME OGGETTO               LUOGO IN CUI COMPARE$c0007
+una Runa del Ghiaccio      Abissi di Kaltenland
+una Runa della Lava        Città sotterranea di Midraash
+una Runa del Sole          Labirinto tra le nuvole
+una Runa della Sabbia      Cave abbandonate di Monte Rotto
+una Runa del Vento         Portali Dimensionali
+una Runa del Buio          Ravenloft/Arachnos/Akin-Ra (solo a volte)
+
+$c0001NOME OGGETTO PREZZO$c0007
+Scudo Cold                 55 rune del ghiaccio + 5000 sigilli
+Scudo Elect                55 rune del vento + 5000 sigilli
+Scudo Acid                 20 rune della sabbia + 2000 sigilli
+Scintilla Cold             30 rune del ghiaccio + 2000 sigilli
+Scintilla Elect            30 rune del vento + 2000 sigilli
+Scintilla Acid             30 rune della sabbia + 2000 sigilli
+Scintilla Energy           35 rune del sole + 2000 sigilli
+Scintilla Fire             35 rune della lava + 2000 sigilli
+
+Possibilità di usare le Rune del Buio al posto di altre tipologie. 
+Per l’acquisto di un oggetto se ne possono usare al massimo 5 per una 
+scintilla e 10 per uno scudo in sostituzione delle rune richieste 
+(Esempio: per acquistare uno scudo cold, potrò utilizzare 30 rune di 
+ghiaccio e 10 rune del buio, insieme ai sigilli).
+
+
+Vedi anche: AREAQUEST, LISTINO,
+
+#
 "SCRIGNO DORATO" SCRIGNO 
 
 Gli scrigni dorati sono potenti artefatti magici, creati dagli dei
@@ -13475,7 +13520,7 @@ $c0009FATE ATTENZIONE!$c0007
 $c0009Gli oggetti unici non verranno refundati.$c0007
   
 
-Vedi anche: LISTINO, AREAQUEST
+Vedi anche: LISTINO, AREAQUEST, RUNE
 
 #~
 
