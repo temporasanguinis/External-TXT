@@ -11284,26 +11284,26 @@ ovviamente che non sia NOEDIT.
 		
 $c0010--- Modifiche agli Apply --------------------------------------$c0007
 
-MODIFICA			COSTO		MASSIMALE
+MODIFICA                    COSTO             MASSIMALE
 
-+1 Hitroll			100 sigilli	4  punti
-+1 Damroll			400 sigilli	4  punti
-+5 Hit Points			200 sigilli	20 punti
-+15 Mana			400 sigilli	45 punti
-+15 Movimento			200 sigilli	45 punti
-+5 Hp Regen			200 sigilli	10 punti
-+4 Manaregen			200 sigilli	10 punti
-+15 Moveregen			400 sigilli	30 punti
--5 Spellfail			200 sigilli	20 punti
-+2 Spellpower			400 sigilli	10 punti
-+1 Absorb Damage		400 sigilli	2  punti
--2 Save All			200 sigilli	8  punti
--5 Armor			100 sigilli	30 punti	
--5 Age				200 sigilli	--------
-+5% Bash, Backstab, Kick	400 sigilli	5  punti
-+10% Hide, sneak		400 sigilli	10 punti
-+5% Find traps, Pick, Steal     400 sigilli     5  punti
-+2 all AC massimale		300 sigilli	AC:6(AC:8 overedit)
++1 Hitroll                  100 sigilli	      4  punti
++1 Damroll                  400 sigilli	      4  punti
++5 Hit Points               200 sigilli       20 punti
++15 Mana                    400 sigilli	      45 punti
++15 Movimento               200 sigilli	      45 punti
++5 Hp Regen                 200 sigilli       10 punti
++4 Manaregen                200 sigilli	      10 punti
++15 Moveregen               400 sigilli	      30 punti
+-5 Spellfail                200 sigilli	      20 punti
++2 Spellpower               400 sigilli	      10 punti
++1 Absorb Damage            400 sigilli	      2  punti
+-2 Save All                 200 sigilli	      8  punti
+-5 Armor                    100 sigilli	      30 punti	
+-5 Age                      200 sigilli	      --------
++5% Bash, Backstab, Kick	400 sigilli	      5  punti
++10% Hide, sneak            400 sigilli	      10 punti
++5% Find traps, Pick, Steal 400 sigilli       5  punti
++2 all AC massimale	        300 sigilli	      AC:6(AC:8 overedit)
 
 Tutti i costi di questa parte del listino sono intesi in sigilli Divini
 I costi per Hitroll e Damroll non sono applicabili alle armi, per le
@@ -11358,28 +11358,29 @@ $c0010--- Resistenze e Immunita' -------------------------------------$c0007
 E' possibile ottenere determinate (e solo quelle) resistenze e immunita'
 attraverso gli edit.
 
-RESISTENZA			COSTO
+RESISTENZA          COSTO
 
-Sleep				400  sigilli divini
-Poison				400  sigilli divini
-Hold				800  sigilli divini
-Cold				1200 sigilli divini/4000 sigilli Acqua
-Electricity			1200 sigilli divini/4000 sigilli Aria
-Acid				1200 sigilli divini/4000 sigilli Terra
-Energy				1200 sigilli divini
-Fire				1200 sigilli divini/4000 sigilli Fuoco
-Pierce				1800 sigilli di ogni tipo
-Slash				3000 sigilli di ogni tipo
-Blunt				4000 sigilli di ogni tipo
+Sleep               400  sigilli divini
+Poison              400  sigilli divini
+Hold                800  sigilli divini
+Cold                1200 sigilli divini/4000 sigilli Acqua
+Electricity	        1200 sigilli divini/4000 sigilli Aria
+Acid                1200 sigilli divini/4000 sigilli Terra
+Energy              1200 sigilli divini
+Fire                1200 sigilli divini/4000 sigilli Fuoco
+Pierce              1800 sigilli di ogni tipo
+Slash               3000 sigilli di ogni tipo
+Blunt               4000 sigilli di ogni tipo
 
 
-IMMUNITA'			COSTO    
-Hypnosis			400  sigilli divini
-Charm				400  sigilli divini
-Sleep				1200 sigilli divini
-Hold				1600 sigilli divini
-Poison				2000 sigilli divini
-Drain				2200 sigilli divini
+IMMUNITA'           COSTO    
+
+Hypnosis            400  sigilli divini
+Charm               400  sigilli divini
+Sleep               1200 sigilli divini
+Hold                1600 sigilli divini
+Poison              2000 sigilli divini
+Drain               2200 sigilli divini
 
 N.B. I costi con / in mezzo, significano che l'edit e' possibile farlo
 con uno dei tipi di sigilli, a scelta del giocatore.
@@ -11394,21 +11395,21 @@ Le proprieta' Align Slayer e Race Slayer possono essere editate solo
 sull'arma, e solo nel caso dei monaci sui guanti. E' possibile editare 
 una sola Race Slayer per arma.
 
-ALIGNMENT SLAYER		COSTO
+ALIGNMENT SLAYER		 COSTO
 
-1a slay su un'arma		3000 sigilli di tutti i tipi
-2a slay su un'arma		4000 sigilli di tutti i tipi
-3a slay su un'arma		5000 sigilli di tutti i tipi
+1a slay su un'arma		 3000 sigilli di tutti i tipi
+2a slay su un'arma		 4000 sigilli di tutti i tipi
+3a slay su un'arma		 5000 sigilli di tutti i tipi
 
-RACE SLAYER			COSTO
+RACE SLAYER			     COSTO
 
-Slay Human			Non Editabile
-Slay su un tipo di Giant	1200 sigilli divini
-Slay Troll, Titano 		2400 sigilli divini
-Slay Brownie			3000 sigilli divini
-Slay Arachnoid			3200 sigilli divini
-Slay Demonic			3000 Sigilli divini
-Slay Devil o Angelic		3000 sigilli divini
+Slay Human               Non Editabile
+Slay su un tipo di Giant 1200 sigilli divini
+Slay Troll, Titano       2400 sigilli divini
+Slay Brownie             3000 sigilli divini
+Slay Arachnoid           3200 sigilli divini
+Slay Demonic             3000 Sigilli divini
+Slay Devil o Angelic     3000 sigilli divini
 
 NB: Non e' possibile effettuare questo tipo di edit su armi che contengono
 slay magiche, come le scintille divine.
@@ -11419,17 +11420,17 @@ La proprieta' weapon spell permette ad un'arma di rilasciare una magia ogni
 volta che colpisce un avversario. Le magie attualmente editabili su di un'arma
 sono queste:
 
-WEAPON SPELL			COSTO
+WEAPON SPELL        COSTO
 
-Spark				400  sigilli divini/2000 sigilli Aria
-Scorch				400  sigilli divini/2000 sigilli Fuoco
-Freeze				400  sigilli divini/2000 sigilli Acqua
-Corrode				400  sigilli divini/2000 sigilli Terra
-Energy bolt			400  sigilli divini/500 sigilli per ogni elemento
-Cause light			1400 sigilli divini
-Cause serious			2500 sigilli divini
-Cause critic			3600 sigilli divini
-Chill touch			1200 sigilli divini/6000 sigilli Acqua
+Spark               400  sigilli divini/2000 sigilli Aria
+Scorch              400  sigilli divini/2000 sigilli Fuoco
+Freeze              400  sigilli divini/2000 sigilli Acqua
+Corrode             400  sigilli divini/2000 sigilli Terra
+Energy bolt	        400  sigilli divini/500 sigilli per ogni elemento
+Cause light         1400 sigilli divini
+Cause serious       2500 sigilli divini
+Cause critic        3600 sigilli divini
+Chill touch         1200 sigilli divini/6000 sigilli Acqua
 
 Si puo avere anche piu di un weapon spell per arma, ma il costo per
 ogni edit successivo al primo aumenta in questo modo:
