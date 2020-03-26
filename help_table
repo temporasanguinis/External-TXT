@@ -2,6 +2,7 @@
 EMPTY SLOT
 #
 HELP
+Aggiornamento del 26 marzo 2020 a cura di Nalith
 Aggiornamento del 20 maggio 2019 a cura di Nalith
 Aggiornamento del 3 maggio 2019 a cura di Nalith
 Aggiornamento del 25 marzo 2019 a cura di Nalith
@@ -13457,7 +13458,7 @@ una Runa della Sabbia      Cave abbandonate di Monte Rotto
 una Runa del Vento         Portali Dimensionali
 una Runa del Buio          Ravenloft/Arachnos/Akin-Ra (solo a volte)
 
-$c0001NOME OGGETTO PREZZO$c0007
+$c0009NOME OGGETTO               PREZZO$c0007
 Scudo Cold                 55 rune del ghiaccio + 5000 sigilli
 Scudo Elect                55 rune del vento + 5000 sigilli
 Scudo Acid                 20 rune della sabbia + 2000 sigilli
