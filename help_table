@@ -13380,7 +13380,7 @@ indica  anche  il  livello minimo che il personaggio deve avere per
 poterli indossare, espresso secondo lo schema di questa tabella:
 
 -------------------------------------------------------------------
-    Livelli                 Valore dell'oggetto
+    LIVELLI                 VALORE DELL'OGGETTO
 
     1-10	                1-100
     11-20	                101-1000
@@ -13439,10 +13439,9 @@ RUNE RUNA RUNICO
 Le rune sono potenti artefatti che si possono trovare in  alcune
 zone.
 
+$c0010--- Listino premi runici --------------------------------------$c0007
 
-$c0001LISTINO PREMI RUNICI$c0008
-
-$c0009NOME OGGETTO               LUOGO IN CUI COMPARE$c0007
+$c0011NOME OGGETTO               LUOGO IN CUI COMPARE$c0007
 una Runa del Ghiaccio      Abissi di Kaltenland
 una Runa della Lava        Città sotterranea di Midraash
 una Runa del Sole          Labirinto tra le nuvole
@@ -13450,7 +13449,7 @@ una Runa della Sabbia      Cave abbandonate di Monte Rotto
 una Runa del Vento         Portali Dimensionali
 una Runa del Buio          Ravenloft/Arachnos/Akin-Ra (solo a volte)
 
-$c0009NOME OGGETTO               PREZZO$c0007
+$c0011NOME OGGETTO               PREZZO$c0007
 Scudo Cold                 55 rune del ghiaccio + 5000 sigilli
 Scudo Elect                55 rune del vento + 5000 sigilli
 Scudo Acid                 20 rune della sabbia + 2000 sigilli
@@ -13509,8 +13508,7 @@ chiave dell'oggetto per intero. Non funziona  con  abbreviazioni
 Gli oggetti  restringati  o  editati (tipo  le  pozioni vecchie) 
 perderanno il loro restring/edit una volta inseriti. 
 
-$c0009FATE ATTENZIONE!$c0007
-$c0009Gli oggetti unici non verranno refundati.$c0007
+$c0011ATTENZIONE!$c0007 Gli oggetti unici non verranno refundati.$c0007
   
 
 Vedi anche: LISTINO, AREAQUEST, RUNE
