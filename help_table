@@ -23,7 +23,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
 - Aggiunte: SOCKET, GEMME, CRISTALLI, AREAQUEST, DHETHOR, TRAIN,
-  RANDOMPOP, SCALA DEI DANNI, DODICI CASE, VALORE OGGETTI
+  RANDOMPOP, SCALA DEI DANNI, DODICI CASE, VALORE OGGETTI, RUNA
                                 
 
 --- Modifiche dalla versione 2.8.4.1 alla 2.9.0.0 ----------------
@@ -11228,9 +11228,13 @@ LISTINO
 
 $c0010--- Modifiche alle armi ---------------------------------------$c0007
 
-$c0014+1 Hitroll (fino a +4)			100 sigilli divini$c0007
-$c0014+1 Hitroll (fino a +5)			400 sigilli divini$c0007
-$c0012+1 Damroll (fino a +5)			400 sigilli divini$c0007
+E' possibile modificare un'arma aggiungendo Hitroll e Damroll. Qualora
+entrambe le apply avessero lo stesso valore, possono essere uniti in un
+unico slot di Hit&Dam senza costi aggiuntivi.
+
++1 Hitroll (fino a +4)			100 sigilli divini
++1 Hitroll (fino a +5)			400 sigilli divini
++1 Damroll (fino a +5)			400 sigilli divini
 
 $C0010--- Dadi delle armi -------------------------------------------$c0007
 
@@ -11250,8 +11254,8 @@ Quindi nell'esempio 3d8->4d6 si pagherebbero 400 sigilli divini e 600
 per ogni elemento. In caso di valore negativo, non si avranno sigilli
 indietro.
 
-$c0015Il Danno massimale dell'arma non puo superare $c000950$c0015
-inclusi  i  bonus  sul +damroll e non oltre i $c000960$c0015
+$c0015Il Danno massimale dell'arma non puo superare $c001150$c0015
+inclusi  i  bonus  sul +damroll e non oltre i $c001160$c0015
 compreso il massimale di weapon spell.$c0007
 Esempio, un'arma 6d8 puo avere al massimo un bonus di +2 al damroll
 e non deve avere weapon spell. Un'arma 3d10 con cause critic(27) puo
@@ -11443,12 +11447,15 @@ Il massimo di weapon spell editabili e' 4
 L'unica eccezione a queste regole e' fatta per i monaci,
 i quali possono avere anche piu weapon spell al costo base, ma
 le armi in questione diventeranno anti monk only class.
-$c0015N.B. si possono avere weapon spell SOLO sulle armi.$c0007
+$c0011N.B. si possono avere weapon spell solo sulle armi.$c0007
 
 $c0010--- Enchant ----------------------------------------------------$c0007
 
 Il costo di un Enchant Weapon lanciato da un immortale e' di 400 sigilli divini.
 Il costo di un Enchant Armor lanciato da un immortale e' di 100 sigilli divini.
+
+Questi incantesimi rendono l'arma o la corazza indossabili solo da 
+personaggi aventi lo stello align dell'immortale da cui sono state incantate.
 
 $c0010--- Spostamento di edit ----------------------------------------$c0007
 
@@ -11461,11 +11468,11 @@ Gli spostamenti di edit si effettuano calcolando il valore dell'edit in
 sigilli divini e dividendolo per 10 indipendentemente se l'edit e' stato
 fatto in sigilli elementali o divini. In caso di edit che prevedono
 SOLO un tipo di sigilli, il 10% verra' calcolato con quel tipo di sigilli.
-$c0009Attenzione:$c0007Gli spostamenti di edit si pagano IN TUTTI I CASI.
+$c0009Attenzione:$c0007 Gli spostamenti di edit si pagano in tutti i casi.
 
 $c0010--- Servizi Vari -----------------------------------------------$c0007
 
-$c0010Reincarnate Mirato: $c0007
+$c0010Reincarnate mirato $c0007
 Permette ad un giocatore di ottenere un cambiamento di razza, scegliendo la 
 nuova razza tra le razze possibili attraverso l'incantesimo REINCARNATE.
 Il costo e' di 400 sigilli divini e 750 elementali per ogni tipo se la razza
@@ -11473,7 +11480,7 @@ attuale non permette l'avanzamento del personaggio fino al 50esimo livello e
 non esiste alcuna razza di rollaggio che permette al personaggio di livellare 
 il 50 per ogni classe, in ogni altro caso e' di 2000 sigilli per ogni tipo. 
 
-$c0006Recupero del corpo:$c0007
+$c0010Recupero del corpo$c0007
 Si puo' chiedere ad un immortale o ad uno spirito guida di recuperare il corpo 
 di un giocatore e/o di resuscitarlo. Il costo per questo aiuto divino
 e' di 10 sigilli divini oppure di (pwp+liv)/5 sigilli elementali se il pg ha 
@@ -11481,45 +11488,34 @@ eq per un totale minore o uguale a 1200 pwp, di 200 divini se ha eq
 per un totale maggiore di 1200 pwp, in quest'ultimo caso in mancanza di sigilli 
 divini e' possibile effettuare il pagamento con (pwp+liv)*2 sigilli elementali.
 
-N.B. Il costo in sigilli, e' uguale sia in caso di resurrect, che in caso
-di semplice recupero eq, inoltre il pwp si riferisce al pg vestito con
-tutto l'eq.
-
-$c0014Pratiche:$c0007
-Al costo di 10 sigilli per ogni tipo e' acquistabile una pratica.
+$c0010Acquisto delle pratiche$c0007
+Al costo di 20 sigilli elementali per ogni tipo e' acquistabile una pratica.
 Questo servizio e' l'equivalente di 5M di px spesi da Calliope.
 
-$c0005Rename:$c0007
-
-Ogni richiesta di rename verre' valutata dagli Dei e a seconda del caso potrebbe 
+$c0010Rename$c0007
+Ogni richiesta di rename verra' valutata dagli Dei e a seconda del caso potrebbe 
 essere concessa o negata.
--Rename per cambio classe: bisogna richiedere una quest a Dimitri, se la 
+- $c0011Rename per cambio classe$c0007: bisogna richiedere una quest a Dimitri, se la 
 richiesta viene approvata il pg dovre' pagare 400 sigilli divini prima 
 dell'assegnazione della quest, e avre' a disposizione tre mesi per risolverla dopo 
 di che la quest viene considerata fallita. Il pg con la vecchia classe va cancellato, 
 questo discorso vale anche se viene cancellato prima della richiesta di rename dal 
 momento in cui rimangono gli oggetti personalizzati/editati.
 I sigilli spesi non saranno refundati.
-
--Rename per il solo cambiamento di nome per pg senza edit: 200 sigilli elementali a 
+- $c0011Rename per il solo cambiamento di nome per pg senza edit$c0007: 200 sigilli elementali a 
 scelta. Il nuovo nome ovviamente non deve essere in uso. Per capirci sono quei casi 
 in cui il pg ritiene che il proprio nome non sia piu' adeguato al proprio personaggio 
 e per motivazioni piu' o meno rpg decide di cambiarlo senza secondi fini.
-
--Rename doppi: sono concessi solo se entrambi i pg da rinominare non hanno oggetti 
+- $c0011Rename doppi$c0007: sono concessi solo se entrambi i pg da rinominare non hanno oggetti 
 personal. I pg devono appartenere allo stesso proprietario. Il costo e' di 400 divini 
 per ogni rename.
+- $c0011Rename per nomi inappropriati$c0007: nel caso il nome del personaggio non sia approvabile 
+e quando questo sia deciso dagli Dei per ragioni di inammissibilita' dello stesso, il 
+rename e' gratuito.
 
 In tutti gli altri casi il costo e' di 400 sigilli divini.
 
-Il rename e' gratuito nel caso il nome del personaggio non sia approvabile e quando 
-questo sia deciso dagli Dei per ragioni di inammissibilita' dello stesso.
-
-NB: $c0009Nei rename per cambio classe il pg della nuova classe deve essere almeno di 50, in 
-ogni classe se e' multi, a meno che i 2 pg, ossia quello da rinominare e quello da 
-cancellare, non siano dello stesso livello.$c0007
-
-$c0010ATTENZIONE$c0007: Dal momento in cui NON e' possibile fondere 2 personaggi, in caso di
+$c0011ATTENZIONE$c0007: Dal momento in cui non e' possibile fondere 2 personaggi, in caso di
 rename, i sigilli nello score del personaggio nuovo vengono passati al vecchio
 dimezzati prima del rename, punti karma e punti morrowindl del nuovo personaggio
 vanno persi, e verra' passato al rename lo score del pg vecchio, quindi e' bene
@@ -11527,33 +11523,33 @@ consumare prima del rename questi punti, se si hanno.
 Non e' nemmeno possibile recuperare/refundare eventuali edit fatti sul nuovo
 personaggio, che vanno persi.
 
-$c0011Cambio del tipo di danno dell'arma:$C0007
-E' possibile ottenere il cambio del messaggio di danno della propria arma.
-Questo senza cambiare tipo di danno per esempio un'arma slash, si puo
-cambiare da fendente, a colpo d'ascia oppure artigliata. Questa modifica
-e' gratuita quando crea problemi con gli edit, altrimenti il costo e' di
-200 sigilli elementali(anche diversi)
+$c0010Cambio del tipo di danno dell'arma$C0007
+E' possibile ottenere la modifica del messaggio di danno della propria arma.
+Questo e' possibile anche senza cambiare tipo di danno. Per esempio un'arma di tipo 
+SLASH, puo' avere diversi messaggi di danno (fendente, colpo d'ascia, artigliata...)
+che possono essere cosi' modificati a proprio piacimento. Il costo di questa modifica
+e' di 200 sigilli elementali per tipo.
 
-$c0015Edit del flag NO-DISPEL$c0007
-E' possibile solo AGGIUNGERE il flag NO-DISPEL ad un'oggetto al costo di
-500 sigilli elementali per tipo. L'oggetto diventa personalizzato.
+$c0010Aggiunta del flag NO-DISPEL$c0007
+E' possibile aggiungere il flag NO-DISPEL ad un'oggetto al costo di
+500 sigilli elementali per tipo. L'oggetto assumera' anche il flag PERSONAL.
 
-$c0012Edit del flag ANTI-DT$c0007
+$c0010Aggiunta del flag ANTI-DT$c0007
 E' possibile AGGIUNGERE il flag ANTI-DT ad un'oggetto al costo di
 1000 sigilli di ogni tipo. L'oggetto diventa personalizzato e a prova di
 Death Trap.
 
-$c0014Peso delle armi$c0007
+$c0010Modifica del peso delle armi$c0007
 E' possibile diminuire il peso delle armi con peso iniziale inferiore a 40
 al costo di 20 sigilli divini e 100 sigilli di ogni elemento per ogni unita
 di peso.
 
-$c0014Conversione di sigilli$c0007
-E' possibile convertire sigilli divini in sigilli elementali:
+$c0010Conversione di sigilli$c0007
+E' possibile convertire sigilli divini in sigilli elementali con il seguente cambio:
 1 sigillo divino = 20 sigilli elementali a scelta del giocatore.
 Non e' possibile invece convertire sigilli elementali in divini. 
 
-$c0014Passaggio di sigilli tra PG$c0007
+$c0010Passaggio di sigilli tra PG$c0007
 E' possibile, tra pg dello stesso proprietario, passare sigilli dimezzati 
 solo al proprio personaggio principale. Da questo servizio sono esclusi pg 
 in comune, dove per comune si intende qualsiasi personaggio la cui password 
@@ -11565,37 +11561,37 @@ tribunale e nell'incertezza saranno fatti i dovuti controlli.
 Questo servizio potrebbe essere tolto in qualunque momento in caso
 di abusi o violazione delle regole.
 
-$c0014PG ceduti o regalati$c0007
+$c0010Personaggi ceduti o regalati$c0007
 Non e' possibile cedere, vendere o regalare un proprio personaggio ad
 un altro giocatore. Quindi per i personaggi che vengono utilizzati da
 giocatori che non siano i proprietari valgono le regole per i pg in comune
 che troverete scritte nella sala delle regole.
 
-$c0011SCINTILLE $c0009DIVINE$c0007
+$c0010Potenziamento delle scintille divine$c0007
 E' possibile unire due o piu' scintille divine, in modo da poter avere tutte le
 slay magiche sullo stesso oggetto. Ogni slay pero' occupera' uno slot diverso.
 Come base e' possibile usare sempre una delle scintille divine. Per aggiungere
 la cold il costo e' di 4000 acqua, per la electricity 4000 aria, per la fire
 4000 fuoco, per la acid 4000 terra, per la energy 1000 elementi per tipo.
-$c0009ATTENZIONE:$c0011 NON e' possibile editare slay razziali e/o allineamento,
+
+$c0011ATTENZIONE:$c0011 NON e' possibile editare slay razziali e/o allineamento,
 ne' i dadi, su armi che contengono slay magiche.$c0007
 
-$c0014REFUND$c0007
-vedi $c0015HELP REFUND$c0007
-
-$c0014Disedit$c0007
+$c0010Rimozione di edit dagli oggetti$c0007
 E' possibile diseditare qualunque oggetto per depersonalizzarlo, in ogni caso 
-i sigilli spesi non sono recuperabili in nessun modo, ne' divini ne' elementali.
+i sigilli spesi NON sono recuperabili in nessun modo, ne' divini ne' elementali.
 Non e' possibile invece, diseditare oggetti derentati, ad eccezione dei premi 
 quest morrowindl e atlantide. E' invece possibile recuparare il 75% dei sigilli 
 spesi dai seguenti disedit:
-resistenze
-immunita'
-slay allineamento e razziali
-edit che superano i maxxaggi per la propria razza
-edit per passaggio ad oggetto migliore (per esempio: 
-dal manto minore morrowindl al manto morrowindl, o dal medaglione di morrowindl
-ai medaglioni elementali, etc..)
+
+- resistenze
+- immunita'
+- slay allineamento e razziali
+- edit che superano i maxxaggi per la propria razza
+- edit per passaggio ad oggetto migliore (per esempio dal manto minore 
+  morrowindl al manto morrowindl, o dal medaglione di morrowindl
+  ai medaglioni elementali, etc..)
+
 E' inoltre possibile recuperare un edit per passaggio ad un pezzo socketable 
 con apply dello stesso tipo; ad esempio: se un pg ha editato 20 hp su un 
 medaglione e mi porta un medaglione socketable con 20 o piu hp, i 20 hp del 
@@ -11604,21 +11600,16 @@ Edit su pezzi socketable invece NON sono recuperabili.
 In ogni caso i sigilli elementali non possono essere recuperati e sono da 
 considerarsi persi.
 
-$c0014Edit su oggetti Socketable$c0007
-Vedi $c0015HELP $c0009EDIT SU SOCKET$c0007
+$c0010Edit su oggetti di tipo Socketable$c0007
+Vai alla voce $c0011HELP EDIT SU SOCKET$c0007
 
+$c0010Refund e scrap dell'equipaggiamento$c0007
+Vai alla voce $c0011HELP REFUND$c0007
 
-$c0014OGGETTI QuestLis, QNLis e QZLis$c0007
-Gli oggetti con key QNLis e QZLis sono premi di eventi dei rami di Lis.
-Per saperne di piu' leggi attentamente $c0010HELP QuestLis QNLis QZLis$c0007.
+$c0010Oggetti speciali di Lis$c0007
+Gli oggetti con key QNLis e QZLis sono premi doati durante gli eventi dei rami di 
+Lis. Per saperne di piu' leggi attentamente $c0011HELP QUESTLIS$c0007.
 
-$c0014Richiesta di controllo dei Log$c0007
-E' possibile chiedere a Dimitri di controllare i log quando si crede 
-di aver subito un torto, o per altre cose. Il costo del servizio e' di 200 
-sigilli per ogni tipo, che verranno restituiti al pg se dai log viene fuori 
-che il pg ha subito un torto, o e' successo qualche bug che non dipendeva 
-dal pg stesso. In caso contrario, o se la colpa e' del pg stesso, i sigilli 
-non verranno restituiti.
 
 $c0010----------------------------------------------------------------$c0007
 
@@ -13445,7 +13436,7 @@ Vedi anche: AVOID DEATHTRAP, FIND TRAP, PSIONIC DANGER SENSE
 #
 RUNE RUNA RUNICO
 
-Le rune sono potenti  artefatti che si  possono trovare  in  alcune
+Le rune sono potenti artefatti che si possono trovare in  alcune
 zone.
 
 
@@ -13469,10 +13460,10 @@ Scintilla Acid             30 rune della sabbia + 2000 sigilli
 Scintilla Energy           35 rune del sole + 2000 sigilli
 Scintilla Fire             35 rune della lava + 2000 sigilli
 
-Possibilità di usare le Rune del Buio al posto di altre tipologie. 
-Per l’acquisto di un oggetto se ne possono usare al massimo 5 per una 
+Possibilita' di usare le Rune del Buio al posto di altre tipologie. 
+Per l'acquisto di un oggetto se ne possono usare al massimo 5 per una 
 scintilla e 10 per uno scudo in sostituzione delle rune richieste 
-(Esempio: per acquistare uno scudo cold, potrò utilizzare 30 rune di 
+(Esempio: per acquistare uno scudo cold, potro' utilizzare 30 rune di 
 ghiaccio e 10 rune del buio, insieme ai sigilli).
 
 
