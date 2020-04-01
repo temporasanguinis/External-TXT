@@ -11468,7 +11468,7 @@ Gli spostamenti di edit si effettuano calcolando il valore dell'edit in
 sigilli divini e dividendolo per 10 indipendentemente se l'edit e' stato
 fatto in sigilli elementali o divini. In caso di edit che prevedono
 SOLO un tipo di sigilli, il 10% verra' calcolato con quel tipo di sigilli.
-$c0009Attenzione:$c0007 Gli spostamenti di edit si pagano in tutti i casi.
+$c0011Attenzione:$c0007 Gli spostamenti di edit si pagano in tutti i casi.
 
 $c0010--- Servizi Vari -----------------------------------------------$c0007
 
@@ -11574,7 +11574,7 @@ Come base e' possibile usare sempre una delle scintille divine. Per aggiungere
 la cold il costo e' di 4000 acqua, per la electricity 4000 aria, per la fire
 4000 fuoco, per la acid 4000 terra, per la energy 1000 elementi per tipo.
 
-$c0011ATTENZIONE:$c0011 NON e' possibile editare slay razziali e/o allineamento,
+$c0011ATTENZIONE:$c0007 non e' possibile editare slay razziali e/o allineamento,
 ne' i dadi, su armi che contengono slay magiche.$c0007
 
 $c0010Rimozione di edit dagli oggetti$c0007
@@ -13379,15 +13379,17 @@ Gli  oggetti possiedono uno specifico valore espresso in monete che
 indica  anche  il  livello minimo che il personaggio deve avere per 
 poterli indossare, espresso secondo lo schema di questa tabella:
 
--------------------------------------------------------------------
-    LIVELLI                 VALORE DELL'OGGETTO
+$c0010----------------------------------------------------------------$c0007
+
+    $c0010LIVELLI                 VALORE DELL'OGGETTO$c0007
 
     1-10	                1-100
     11-20	                101-1000
     21-30	                1001-10000
     31-40	                10001-50000
     41-50	                50000 o superiore
--------------------------------------------------------------------
+    
+$c0010----------------------------------------------------------------$c0007
 
 Il valore dell'oggetto incide anche sul costo di riparazione.
 
@@ -13437,7 +13439,7 @@ Vedi anche: AVOID DEATHTRAP, FIND TRAP, PSIONIC DANGER SENSE
 RUNE RUNA RUNICO
 
 Le rune sono potenti artefatti che si possono trovare in  alcune
-zone.
+zone quest.
 
 $c0010--- Listino premi runici --------------------------------------$c0007
 
@@ -13465,6 +13467,7 @@ scintilla e 10 per uno scudo in sostituzione delle rune richieste
 (Esempio: per acquistare uno scudo cold, potro' utilizzare 45 rune di 
 ghiaccio e 10 rune del buio, insieme ai sigilli).
 
+$c0010----------------------------------------------------------------$c0007
 
 Vedi anche: AREAQUEST, LISTINO,
 
