@@ -1,5 +1,66 @@
 
-Versione 2.19.11.1 - $c0009GENNAIO 2020 $c0007- Tra cielo e terra
+Versione 2.20.18.4 - $c0009APRILE 2020 $c0007- Sangue e gloria
+- $c0012Quest$c0007 - Sono state rinnovate alcune aree:
+- LOAL - Le terre nascoste [by Martinus & Phoenix] - Va online il 
+  nuovo sistema per la gestione delle quest per diventare LORD OF A LAND!
+  Per informazioni sul funzionamento e la lista d'attesa, consultare il
+  divino Phoenix.
+- EROI - La citta' oscura di Menzoberranzan [by Tyrant] - La dea Lloth
+  sembra essere pronta per invadere il Sopramondo, rinvigorita dal potere
+  dei suoi seguaci. Chi potra' fermarla?
+- PVP - La gabbia dei combattimenti di Gan'har [by Auriel & Nalith] - La
+  gabbia e' un luogo in cui e' possibile svolgere sfide a squadre o in 
+  solitaria. L'obiettivo e' accumulare piu' punti possibili e vincere la
+  sfida, guadagnando lauti premi. Chi riuscira' a scalare la classifica
+  divisa in categorie e ottenere gloria e onore?
+- $c0012Aree$c0007 - Sono state rinnovate alcune aree:  
+- PER TUTTI - Il regno dei nani di Gilimdor [Trad. by Nalith] 
+- EROI - La citta' costiera di Rhila [by Nalith]
+- Piccole modifiche e correzioni a varie aree. Nuove procedure a MONTEROTTO.
+- $c0012Miniquestor$c0007 - Aggiunti alcuni miniquestor:
+- EOWARION e' stato molto migliorato e reso piu' semplice. Provatelo e
+  dateci un vostro feedback.
+- MERRIL GHULIAN e' un vecchio minatore del villaggio di Basant. Ora
+  e' sempre alla ricerca di pepite d'oro e delle preziose gemme di Vilintar.
+  Cercalo oltre le colline rocciose, lungo l'antica via che porta a 
+  New Thalos.
+- BURO IL CONTRABBANDIERE cerca qualcuno che possa aiutarlo con i suoi
+  sporchi affari. Cercalo presso il villaggio di Kalivirem.
+- VANAREL LA SACERDOTESSA ha un passato misterioso e una missione per
+  coloro che vogliono diventare avatar di Nalith. Quali segreti si
+  nasconderanno a Rhila? Cosa vuole nascondere l'Ordine dei maghi di Midia?
+- $c0012Spell$c0007 - Sono state fatte alcune sistemazioni e revisioni:
+- REVERSION ora lagga solo un round. Costo in mana dimezzato se viene
+  lanciato su mob di livello inferiore.
+- PSIONIC DANGER SENSE ora rivela la presenza nella stanza osservata di
+  potenziali TELEPORT e DT a tempo.
+- POISON ha ora effetti aggiuntivi, blocca regen e assegna un danno 
+  percentuale.
+- SPRINGLEAP ha ora effetti aggiuntivi tutti da scoprire.
+- Aggiunte nuove weapon spell destinate ai soli monaci, acquisibili con le
+  RUNE.
+- $c0012Bugfix$c0007 - Sono state fatte alcune sistemazioni e revisioni:
+- Risolti alcuni problemi sui polymorph e sul WAKE fatto su pg soggetti
+  a incantesimo SLEEP.
+- Sistemati i moltiplicatori dei negozi soggetti a carisma.
+- $c0012Varie$c0007 - Sono state fatte alcune sistemazioni e revisioni:
+- Entra in fase di test un nuovo sistema di gestione del gruppo: ora sara'
+  possibile avere al massimo un numero di PG in gruppo pari al proprio CARISMA/2.
+  Il valore e' arrotondato per difetto. Gli dei saranno felici di avere un vostro
+  parere per bilanciare al meglio la cosa.
+- Se sono attivi MXP, e' possibile clickare sul nome del PG che vi ha appena 
+  scritto, per attivare la risposta.
+- Ridotto lo spam durante la vestizione del PG dopo incantesimi poliformanti.
+- FIX restituisce il pezzo al giocatore che chiede la riparazione.
+- Inserite procedure di drop delle rune nelle aree quest segnalate dal listino.
+- Il listino delle rune e' stato aggiornato.
+  $c0001DISCLAIMER$c0007: Il listino e' soggetto a modifiche dovute alla
+  fase di test, cosi' come il sistema di premiazione. Ascolteremo i vostri
+  pareri in merito.
+- Altre novita' tutte da scoprire!
+
+
+Versione 2.20.11.1 - $c0009GENNAIO 2020 $c0007- Tra cielo e terra
 - $c0012Quest$c0007 - Sono state rinnovate alcune aree:
 - EROI - Il labirinto tra le nuvole [by Martinus] - La sfida si fa sempre 
   piu' ardua tra le nuvole, oltre la montagna titanica. Perche' qualcuno
@@ -221,58 +282,4 @@ Versione 2.19.5.2 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita
 - Aggiunto un check sul numero di classi dei pg sotto effetto di incantesimi di trasmutazione.
   I pg monoclasse avranno i bonus dei monoclasse, nonostante il polymorph si comporti da
   multiclasse: non diminuiranno piu' gli xp ricevuti e non avranno il failskill dei multiclasse.
-
-Versione 2.19.5.1 - $c0009MAGGIO 2019 $c0007- Nuovi poteri, nuove responsabilita'
-- $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
-  PER TUTTI - Il laboratorio alchemico di Blackmouth [Trad. by Tyrant]
-  PER TUTTI - Le stanze segrete - Verranno inserite e ampliate col passare del
-  tempo e collegate a parti diverse dell'Impero.
-- In alcuni luoghi, arcani poteri indeboliscono il potere di ogni creatura
-  o avventuriero presente, riducendo l'impatto delle immunita'. Nuove sfide attendono i piu' 
-  coraggiosi!
-- $c0012Quest$c0007 - Alcune importanti novita' per le quest dell'Impero Celeste.
-- Il premio della quest "I portali dimensionali" ora e' parzialmente distribuito sui nemici: 
-  affrontateli tutti e otterrete cio' che cercate. Alcuni nemici saranno piu' semplici da 
-  affrontare, altri invece richiederanno nuovi sforzi.  
-- Niav Anipal, l'evocatore, si nasconde in luoghi sempre diversi dell'Impero: tra le montagne
-  orientali, tra le foreste occidentali, presso il mercato rionale, le terre di Camelot o
-  anche in giro tra le paludi della valle maledetta. Il suo eterno peregrinare lo porta lontano: cercatelo.
-- I luoghi in cui sono custoditi i frammenti della sfera dei Draghi Antichi, sono ora protetti
-  per ordine del Consiglio di Midia, da nuovi e ancor piu' potenti incantesimi elementali.
-- Per completare l'incantesimo di riunificazione della sfera dei Draghi Antichi, Niav Anipal
-  avra' bisogno di recuperare del sangue di drago. Non sempre sara' facilmente recuperabile.
-- Aggiunti dei sigilli divini e sigilli elementali nel laboratorio alchemico di Blackmouth.
-  Ora le chiavi della torre scompaiono una volta usate.
-- $c0012Listino$c0007 - Aggiunta la possibilita' di editare piu' spell affect su
-  un unico slot e la possibilita' di liberare slot occupati sugli oggetti.
-- Aggiunti dei messaggi che ad ogni tick segnalano il passaggio del tempo: non
-  servira' piu' portare in giro decine di oggetti audio che aumentano inutilmente
-  lo scroll per tutti.
-- Tradotte in italiano le dignity presenti nel title di tutte le classi.
-- $c0012Skill e spell$c0007 - Inizia un periodo ricco di novita', in cui verranno
-  aggiunti spell e skill caratterizzanti per ogni classe al fine di dare valore a
-  tutti i diversi stili di gioco.
-- Abbassato il cooldown per gli spell "ASCENSION" e "DEMONIC FORM".
-- Ora la skill "DRAIN" degli antipaladini permette un riallineamento quando viene usata
-  sui nemici nonostante il personaggio sia in piena salute.
-- Corretta e migliorata la skill "REVERSION" degli psionici. Ora puo' essere usata in
-  combattimento, ha effetti potenziati tutti da scoprire. Se la skill ha successo, il lag
-  per lo psionico sara' di un round, in caso di insuccesso il lag sara' di due round.
-  Gli psionici multiclasse hanno da ora accesso ad una versione depotenziata della skill.
-- Migliorato lo spell "DETECT ORIGINAL" per psionici e druidi. Potranno lanciare 
-  l'incantesimo anche sui compagni di gruppo, favorendo l'utilita' per il gruppo di queste
-  classi. Se l'incantesimo e' lanciato su altri, durera' 2 tick.
-- Aggiunto un potere naturale al ladro monoclasse legato al "DODGE": "AVOID DEATHTRAP".
-  Data l'esperienza con trappole e sotterfugi, un ladro finito dentro ad una stanza di tipo 
-  DEATH TRAP, avra' la possibilita' di salvare i vari pezzi del suo equipaggiamento in maniera 
-  randomica.
-- I personaggi che hanno ricevuto il dono di diventare sacerdoti degli dei, gli AVATAR, ora 
-  hanno accesso ad un potere unico e speciale.
-- Aumentato il numero di spell lanciabili e migliorata l'AI dei mob caster. Ora alcuni di
-  essi useranno le loro armi come Spell Slayer.
-- Corretto un piccolo bug sul Leviatano che gli impediva di soffiare come gli altri draghi. 
-  Ora e' un po' piu' pericoloso.
-- Aggiunti nuovi help e corrette alcune voci gia' presenti.
-- Corretti alcuni bug che facevano crashare o creavano problemi di vario genere.
-
 
