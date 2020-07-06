@@ -13522,7 +13522,7 @@ FISHING PESCA BAIT ESCA
 Skill per: Tutti
 
 Questa abilita' permette all'avventuriero di pescare lungo un corso
-d'acqua. Per pescare è necessaria un'apposita canna da pesca e una
+d'acqua. Per pescare e' necessaria un'apposita canna da pesca e una
 esca. Nella citta' costiera di Rhila si puo' trovare qualcuno 
 disposto a svelare i suoi segreti.
 
@@ -13548,7 +13548,7 @@ Vedi anche: ALLSKILL, ALLSPELL, AWARD
 $c0015Uso$c0015           : cast 'healing rain'
 $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : 2+0
-$c0010Livello$c0010       : Druidi 2° livello Eroe
+$c0010Livello$c0010       : Druidi livello 2 Eroe
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0007 : 80
 
