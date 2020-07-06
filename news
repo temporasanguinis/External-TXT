@@ -28,7 +28,8 @@ Versione 2.20.6.7 - $c0009LUGLIO 2020 $c0007- Forze della natura
 - Correzioni typo a Isengard, modifiche al repop dell'area
 - Alcuni oggetti che si ditruggono fuori zona ora eseguono il controllo sul nome 
   della zona e non il numero dell'area.
-
+- Le modifiche sono da considerarsi in fase di test e potrebbero essere soggette
+  a bilanciamento.
 
 Versione 2.20.2.6 - $c0009GIUGNO 2020 $c0007- Dark Lord
 - $c0012Quest$c0007 - Sono state rinnovate alcune aree:
