@@ -1,4 +1,35 @@
 
+Versione 2.20.6.7 - $c0009LUGLIO 2020 $c0007- Forze della natura
+- $c0012Aree$c0007 - Correzioni in alcune aree:
+- Correzione degli skeletal lord a Castel Destino. Ora sono meno soggetti ad
+  abusi.
+- I Goblin presso la gabbia di Gan'har pagano 2 punti.
+- Nuovi dialoghi e premi disponibili presso la quest del tribunale.
+- $c0012Skill e spell$c0007 -
+- Nuova skill: Pesca (Fishing), legata al raggiungimento di un Award disponibile 
+  tramite un nuovo maestro a Rhila. Servira' completare una miniquest.
+- Nuova skill per Druidi eroi: Healing rain.
+- Gabbia di Gan'har: disponibili dei premi minori, le medaglie. Sono versioni meno 
+  potenti del trofeo per i primi personaggi delle categorie da 2,3,4 personaggi.
+- $c0012Varie$c0007 -
+- Possibilita' maggiori di interazione con i mob tramite l'ampliamento dei 
+  Behavior, da ora integrati in TSKreator per aumentare le possibilita' degli
+  areabuilder.
+- Ampliamento degli AWARD: migliorata l'interazione con i mob. Molti di questi
+  interagiranno con i PG, richiamando gli award ricevuti.
+- Implementazione delle skill di tipo AURA.
+- Nuovi affect con durata basata sul ROUND in alternativa al TICK.
+- Modificato l'output di ATTRIBUTE per nuove meccaniche di gioco.
+- $c0012Bugfix$c0007 -
+- Correzione di alcuni affect che raddoppiavano gli effetti al reset del pg.
+- Piccole correzioni alla Gabbia di Gan'har. Typo e bug fix sul premio consegnato
+  dal custode.
+- Correzioni typo/procedure ed errori a Mordor.
+- Correzioni typo a Isengard, modifiche al repop dell'area
+- Alcuni oggetti che si ditruggono fuori zona ora eseguono il controllo sul nome 
+  della zona e non il numero dell'area.
+
+
 Versione 2.20.2.6 - $c0009GIUGNO 2020 $c0007- Dark Lord
 - $c0012Quest$c0007 - Sono state rinnovate alcune aree:
 - EROI - Mordor [by Samak, Auriel, Dimitri & Mordor] - Una grande avventura destinata
