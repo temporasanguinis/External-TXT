@@ -13516,5 +13516,58 @@ $c0011ATTENZIONE!$c0007 Gli oggetti unici non verranno refundati.$c0007
 
 Vedi anche: LISTINO, AREAQUEST, RUNE
 
+#
+FISHING PESCA BAIT ESCA
+
+Skill per: Tutti
+
+Questa abilita' permette all'avventuriero di pescare lungo un corso
+d'acqua. Per pescare è necessaria un'apposita canna da pesca e una
+esca. Nella citta' costiera di Rhila si puo' trovare qualcuno 
+disposto a svelare i suoi segreti.
+
+E' necessario avere in mano una canna da pesca per poi procedere 
+al fissaggio dell'esca. Migliore sara' la qualita' dell'esca e della
+canna, migliori saranno i pesci che si potranno pescare. 
+La sintassi e' la seguente:
+
+ > BAIT/ESCA <cibo> 
+
+Una volta sistemata l'esca si puo' provvedere a pescare con il 
+comando FISH o PESCA.
+
+Con questa tecnica si possono trovare dei rari pesci con poteri
+magici, che doneranno bonus a chi li consumera'. Le canne da 
+pesca possono rovinarsi facilmente, se usate con poca attenzione.
+
+Vedi anche: ALLSKILL, ALLSPELL, AWARD
+
+#
+"HEALING RAIN"
+
+$c0015Uso$c0015           : cast 'healing rain'
+$c0006Cumulativo$c0006    : -
+$c0005Durata$c0005        : 2+0
+$c0010Livello$c0010       : Druidi 2° livello Eroe
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : 80
+
+Il druido invoca le forze naturali nella stanzatramite antichi 
+rituali. Questo incantesimo permette al druido di evocare una pioggia 
+magica che agisce come un'aura intorno al gruppo di cui fa parte. Se 
+la pioggia colpisce un personaggio ferito, provvedera' a curarlo ad 
+ogni round, alzando il suo valore di SAVE ALL.
+
+L'incantesimo può essere lanciato all'aperto, guarendo i feriti di 1d8
+punti ferita ad ogni round. Se il druido si trova in una foresta, acquista 
+un bonus aggiuntivo basato sul suo livello di spellpower. 
+
+Per funzionare, necessita da parte del druido della riserva di una 
+certa quantita' di energia magica, fino alla fine della durata 
+dell'incantesimo.
+
+Vedi anche: HEALING, NATURES CURE, MINOR HEAL
+
+
 #~
 
