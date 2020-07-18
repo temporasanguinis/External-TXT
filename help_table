@@ -5407,8 +5407,8 @@ $c0012Costo in mana$c0007 : 5
 Per mezzo di questo incantesimo un Chierico puo' chiedere alla sua
 Divinita' di inviargli del cibo.  Questo appare sotto forma di  un 
 fungo magico,piccolo ma estremamente nutriente. Esso infatti sazia
-chi lo mangia  per (5+livello del chierico  che l'ha creato)  ore,
-fino e non oltre un massimo di 24 ore.
+chi lo mangia  per (5+livello/4 del chierico che l'ha creato) ore,
+fino e non oltre un massimo di 20 ore.
  
 Vedi anche: CREATE WATER, FIND FOOD, FIND WATER
 
