@@ -6733,7 +6733,7 @@ Vedi anche: BARBARO
 #
 TAN SKIN
 
-Skill per: Guerrieri, Ranger, Barbari, Antipaladini
+Skill per: Guerrieri, Ranger, Barbari, Antipaladini e Conciatori
 
 Questa abilita' permette al guerriero di produrre scuoiando il corpo
 della sua vittima un pezzo d'armatura.
@@ -6757,9 +6757,22 @@ particolari. Come  prevedibile, i Draghi,  per esempio, sono  sempre
 un'ottima scelta. Il  fattore di protezione  dell'armatura  ottenuta
 e' funzione anche del livello della creatura uccisa. I RANGER  hanno
 inoltre dei bonus  particolari  su questa  abilita', e  le  armature
-prodotte da loro sono spesso molto buone, anche se sottovalutate. :)
+prodotte da loro sono spesso molto buone, anche se sottovalutate.
 
-Vedi anche: KILL, RANGER
+Ora questa skill funziona anche una volta completata la miniquest di
+apprendimento del mestiere di CONCIATORE, che  sblocca uno specifico
+award. Se si e' diventati esperti del  mestiere, anche  se non si e' 
+di una classe a cui normalmente appartiene  questa  capacita', sara'
+possibile creare alcuni oggetti. Lavorando la pelle  di creature  di
+alto licello, si ha  la possibilita  di creare delle bande  di cuoio 
+che si possono applicare a un  qualsiasi  equipaggiamento, potenzian
+dolo temporaneamente, fino al RENT o al successivo REBOOT. 
+Il mestiere si puo' imparare da un un conciatore roo.
+
+La skill puo' avere risultati  migliori anche grazie agli  attributi 
+DESTREZZA e INTELLIGENZA.
+
+Vedi anche: KILL, RANGER, FISHING, MESTIERI
  
 #
 BELLOW
@@ -13540,7 +13553,9 @@ Con questa tecnica si possono trovare dei rari pesci con poteri
 magici, che doneranno bonus a chi li consumera'. Le canne da 
 pesca possono rovinarsi facilmente, se usate con poca attenzione.
 
-Vedi anche: ALLSKILL, ALLSPELL, AWARD
+La skill migliora anche grazie agli attributi CARISMA e SAGGEZZA.
+
+Vedi anche: ALLSKILL, ALLSPELL, AWARD, MESTIERI, TAN
 
 #
 "HEALING RAIN"
@@ -13568,6 +13583,19 @@ dell'incantesimo.
 
 Vedi anche: HEALING, NATURES CURE, MINOR HEAL
 
+#
+MESTIERI
+
+Con questo termine si indicano una serie di skill speciali 
+acquistabili tramite il completamento di alcune miniquest e 
+l'ottenimento di un titolo di riconoscimento speciale detto
+AWARD. Solitamente l'abilita', oltre che aumentare con la
+pratica, dipende dagli attributi del personaggio.
+
+Con la pratica e' possibile diventarne maestri e sbloccare
+nuove abilita' speciali.
+
+Vedi anche: AWARD, TAN, FISHING
 
 #~
 
