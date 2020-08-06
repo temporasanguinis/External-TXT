@@ -1,4 +1,31 @@
 
+Versione 2.20.1.8 - $c0009AGOSTO 2020 $c0007- Forze della natura/2
+- $c0012Aree$c0007 - Correzioni ad alcune aree:
+- Aggiunte nuove stanze e descrizioni per le quest Loal [by Martinus & Phoenix].
+- Aggiunta una nuova zona (in fase pre-alpha): Tamriel [by Auriel]
+- Correzioni varie alla foresta di Haon'Dor, alla citta' dei giganti del fuoco
+  e alle terre oscure di Mordor.
+- Ribilanciamento della quest di  Mordor: ora i mob fanno piu male e certe procedure 
+  sono state aggiunte o modificate.
+- Il mestolo di Mordor e' stato ribilanciato con dei malus.
+- $c0012Codice$c0007
+- Aggiunta della funzione del Vicecapo nei gruppi. Se il Capogruppo muore, verra'
+  sostituito dal Vicecapo.
+- Nuovo mestiere: Conciatore. Come gia' avvenuto per la pesca, la skill e' legata 
+  al raggiungimento di un Award disponibile tramite un nuovo maestro nelle terre
+  dei Roo. Servira' completare una miniquest.
+- Nuove World Stats che indicano i droprate e il tempo di attivita' dei PG.
+- Introdotto un nuovo modo di spendere le gocce di sangue di drago (in fase alpha).
+- I varchi d'accesso alle aree della quest Loal ora sono teleport, anziche' uscite 
+  da aprire.
+- Varie correzioni a typo di spell, skill e stanze.
+- Ribilanciamento della skill di pesca, ora e' piu' dipendente da stats del pg, meno 
+  cooldown e si apprende piu velocemente.
+- Fix per i mob scavenger che potevano raccogliere oggetti personali: ora non sara'
+  piu' possibile.
+- Fix a healing rain, remove paralysis e mass exorcism (ora in gruppo da liv 50 
+  funziona anche su liv 52).
+
 Versione 2.20.6.7 - $c0009LUGLIO 2020 $c0007- Forze della natura
 - $c0012Aree$c0007 - Correzioni in alcune aree:
 - Correzione degli skeletal lord a Castel Destino. Ora sono meno soggetti ad
@@ -31,7 +58,7 @@ Versione 2.20.6.7 - $c0009LUGLIO 2020 $c0007- Forze della natura
 - Le modifiche sono da considerarsi in fase di test e potrebbero essere soggette
   a bilanciamento.
 
-Versione 2.20.2.6 - $c0009GIUGNO 2020 $c0007- Dark Lord
+Versione 2.20.2.6 - $c0009GIUGNO 2020 $c0007- L'oscuro signore
 - $c0012Quest$c0007 - Sono state rinnovate alcune aree:
 - EROI - Mordor [by Samak, Auriel, Dimitri & Mordor] - Una grande avventura destinata
   a gruppi di eroi molto forti. Preparatevi, il signore oscuro vi attende!
