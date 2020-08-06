@@ -2,6 +2,7 @@
 EMPTY SLOT
 #
 HELP
+Aggiornamento del 6 agosto 2020 a cura di Nalith
 Aggiornamento del 26 marzo 2020 a cura di Nalith
 Aggiornamento del 20 maggio 2019 a cura di Nalith
 Aggiornamento del 3 maggio 2019 a cura di Nalith
@@ -20,6 +21,11 @@ L'Help di Tempora Sanguinis e' curato da Martinus.
 Se riscontrate errori, incongruenze, o desiderate proporre
 un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
+                                
+--- Modifiche dalla versione 2.19.2.1 alla 2.20.8.1 ----------------
+- Aggiunte: MESTIERI, HEALING RAIN, FISHING, TAN (aggiornato), 
+  SCRIGNO DORATO, LISTINO (aggiornato), AWARD
+                                                               
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
 - Aggiunte: SOCKET, GEMME, CRISTALLI, AREAQUEST, DHETHOR, TRAIN,
@@ -13462,17 +13468,26 @@ una Runa della Lava        Citta' sotterranea di Midraash
 una Runa del Sole          Labirinto tra le nuvole
 una Runa della Sabbia      Cave abbandonate di Monte Rotto
 una Runa del Vento         Portali Dimensionali
-una Runa del Buio          Ravenloft/Arachnos/Akin-Ra (solo a volte)
+una Runa del Buio          Mordor/Ravenloft/Arachnos/Akin-Ra (a volte)
 
 $c0011NOME OGGETTO               PREZZO$c0007
 Scudo Cold                 55 rune del ghiaccio + 5000 sigilli
 Scudo Elect                55 rune del vento + 5000 sigilli
-Scudo Acid                 20 rune della sabbia + 2000 sigilli
-Scintilla Cold             30 rune del ghiaccio + 2000 sigilli
-Scintilla Elect            30 rune del vento + 2000 sigilli
-Scintilla Acid             30 rune della sabbia + 2000 sigilli
+Scudo Acid                 25 rune della sabbia + 2000 sigilli
+Scintilla Cold             35 rune del ghiaccio + 2000 sigilli
+Scintilla Elect            35 rune del vento + 2000 sigilli
+Scintilla Acid             35 rune della sabbia + 2000 sigilli
 Scintilla Energy           35 rune del sole + 2000 sigilli
 Scintilla Fire             35 rune della lava + 2000 sigilli
+
+$c0010--- Listino premi runici riservati ai monaci ------------------$c0007
+
+$c0011NOME OGGETTO               PREZZO$c0007
+Guanto infuocato           15 rune del vento + 15000 sigilli del fuoco
+Guanto elettrificato       30 rune del vento + 30000 sigilli dell'aria
+Guanto raggelante          30 rune del ghiaccio+ 30000 sigilli dell'acqua
+Guanto corrosivo           30 rune della sabbia + 30000 sigilli della terra
+Guanto energetico          35 rune del sole + 10000 sigilli elementali per tipo
 
 Possibilita' di usare le Rune del Buio al posto di altre tipologie. 
 Per l'acquisto di un oggetto se ne possono usare al massimo 5 per una 
@@ -13482,7 +13497,7 @@ ghiaccio e 10 rune del buio, insieme ai sigilli).
 
 $c0010----------------------------------------------------------------$c0007
 
-Vedi anche: AREAQUEST, LISTINO,
+Vedi anche: AREAQUEST, LISTINO
 
 #
 "SCRIGNO DORATO" SCRIGNO 
@@ -13596,6 +13611,24 @@ Con la pratica e' possibile diventarne maestri e sbloccare
 nuove abilita' speciali.
 
 Vedi anche: AWARD, TAN, FISHING
+
+#
+AWARD
+
+Gli Award sono titoli onorifici che gli eroi dell'impero celeste
+possono guadagnare durante le loro avventure o come speciale concessione
+degli dei.
+
+Tali titoli possono essere PUBLIC (indicati pubblicamente da alcuni mob),
+GOOD, EVIL, NEUTRAL o SHAMEFUL. Alcuni award sbloccano la possibilita'
+di poter usufruire delle skill derivate dai MESTIERI, altri possono dare
+luogo a azioni di parte di MOB e attivare procedure speciali in alcune aree.
+
+Per vedere quali titoli sono stati sbloccati dal tuo personaggio, basta 
+usare il comando "AWARD". Per vedere la lista dei titoli al momento 
+disponibili, basta usare il comando "AWARD LIST".
+
+Vedi anche: MESTIERI
 
 #~
 
