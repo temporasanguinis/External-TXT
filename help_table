@@ -656,7 +656,8 @@ $c0010Livello$c0010    Dignita'          Colore usato nel comando who
   funzione anche  dell'allineamento:  non sono  riportate qui per
   brevita', ma e' possibile vederle con HELP IMMLIST e GODLIST.
   
-Vedi anche: LEVELS
+Vedi anche: LEVELS, FRIGHTEN, EROI
+
 #
 MAPPA MONDO "MAPPA MONDO"
 
@@ -664,7 +665,7 @@ Gran parte delle terre dell'Impero Celeste sono ancora selvagge ed
 inesplorate.  Tuttavia, e' possibile tracciare una mappa delle sue
 regioni centrali:
 
-  [Monastero dei monaci]                        ...       [Miniere dei nani]
+  [Monastero dei monaci]                        ...       [Regno dei nani]
              \                                   |          ...  /
               \                      ...         |            \ /
                \                      |      [Colline]         o
@@ -683,10 +684,10 @@ regioni centrali:
    [Quickland]              /        [Alieni]  |        [Geldor e Midir]
                            /                   o--------------o
                           /                [Mirkwood]         |
-                         o---[TS Arena]         \     [Villaggio di Toewin]
-                          \                      \                     
-                 [Campi d'Addestramento]    [Licantropia]    
-
+                         o---[Arena]            \     [Villaggio di Toewin]
+                          \                      \            |        
+            [Campi d'Addestramento]  [Villaggio di Lith]      |  
+                                                        [Citta' di Rhila]
 
 
 #
@@ -1694,7 +1695,7 @@ davanti  a  se  per  formare  un  luminoso  raggio bianco dall'effetto
 congelante. Il  danno  inflitto  alla  vittima e' pari a (livello)d10,
 la vittima puo' dimezzare tramite tiro salvezza.
 
-Vedi anche: -
+Vedi anche: PSIONIC DISINTEGRATE
 
 #
 "MENTAL VAMPIRISM"
@@ -2078,7 +2079,7 @@ e insicuro.  Finche' continua  a piovere, chiunque tenti di combattere -
 eccezion fatta per il Druido -  avra' dei  malus dipendenti  dal livello
 del Druido stesso.
 
-Vedi anche: -
+Vedi anche: HEALING RAIN
 
 #
 "COMMUNE"
@@ -2981,7 +2982,10 @@ molto  efficace e  potente.  Essa puo'  essere usata  solo  quando  si viene
 buttati  per  terra in un  combattimento (BASH): dalla  posizione  seduta si
 puo'  usare lo  Spring Leap,  grazie al  quale  il monaco  si rialza  e, nel
 farlo, colpisce l'avversario  con grande potenza.  Le due azioni,  rialzarsi
-e attaccare, sono contemporanee.
+e attaccare, sono contemporanee. 
+Se il monaco non si trova in combattimento, puo'  utilizzare la tecnica  per
+rialzarsi da terra, roteando su se stesso e scagliando a tutti coloro che si
+trovano nella stanza dei sassi, attaccandoli.
 
 Vedi anche: BASH, KICK 
 
@@ -3816,7 +3820,7 @@ in grado di sapere se si  stanno muovendo  silenziosamente o  meno.
 
 N.B. I ladri sono gli unici a possedere questa abilita', ma dal 16o
      livello WA  in   poi  chi e' di razza Brownie  si muove sempre
-     in SNEAK, grazie alle proprie dimensioni.Inoltre anche monaci,
+     in SNEAK, grazie alle proprie dimensioni. Inoltre anche monaci,
      barbari e ranger possono impararla. Ma, mentre per i monaci il
      funzionamento e'  analogo a quello  dei ladri, i barbari  ed i
      ranger possono usare SNEAK solo all'aperto.
@@ -13133,7 +13137,7 @@ QUESTOR, che assegnano compiti speciale specifiche zone QUEST, dove
 i giocatori possono mettersi alla prova per ottenere oggetti rari e
 potenti, premi unici e speciali e SIGILLI DIVINI.
 
-Un'  AREAQUEST  o ZONAQUEST  è  una zona  speciale,  nella quale  i
+Un'  AREAQUEST  o ZONAQUEST  e' una zona  speciale,  nella quale  i
 personaggi dovranno  risolvere un'avventura.  Le zone  QUEST, dette
 anche QUEST FISSE,  sono: 
 
@@ -13222,6 +13226,7 @@ accanto alla descrizione.
 
 Oltre alle aree riservate, esistono due QUESTOR che si aggirano per
 le strade di Midia: 
+
 - $c0001DHETHOR IL QUESTOR$c0007, che si puo' trovare  in un'incrocio di strade
 nella parte sud di MIDIA, assegna all'avventuriero la ricerca di un
 oggetto rubato, indicandogli la location nella quale potra'  essere
@@ -13229,6 +13234,7 @@ ritrovato.  Ad  ogni  Reboot  potranno  essere  svolte  fino  a  15
 ricerche, che una volta portate a termine verranno premiate in base
 al  livello del  personaggio con  punti esperienza,  punti karma  e
 sigilli di  diverso tipo.  
+
 - $c0001EOWARION  L'ERRANTE$c0007, che gira per  le strade  del centro di MIDIA,
 assegna all'avventuriero  una  Quest  card, su cui  sono  presenti 4  
 oggetti  da  recuperare.  Ogni  oggetto  trovato  fara'  ottenere ai 
@@ -13628,7 +13634,7 @@ Per vedere quali titoli sono stati sbloccati dal tuo personaggio, basta
 usare il comando "AWARD". Per vedere la lista dei titoli al momento 
 disponibili, basta usare il comando "AWARD LIST".
 
-Vedi anche: MESTIERI
+Vedi anche: MESTIERI, DIGNITY, AREAQUEST
 
 #~
 
