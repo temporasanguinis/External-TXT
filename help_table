@@ -4053,6 +4053,12 @@ sintassi del comando SET e' la seguente:
    usando completamente comandi in Italiano.Con set italiano off
    si ritorna ad avere la priorita' ai comandi in inglese(questo
    e' il default).
+   
+- set IPOVEDENTE/LOWVISION <enable - disable/off>
+  Permette di impostare la visualizzazione combatta dei combat_
+  timenti, favorendo un minore scroll e migliorando la leggibi_
+  lita', rendendo piu' accessibile il gioco anche per coloro
+  che usano un sintetizzatore vocale.
 
 Vedi anche: GROUP, GWHO, ORDER, WHOIS, COLORI, EXITS, SEGUACI
  
