@@ -6652,7 +6652,6 @@ abbiamo scelto di assistere). Alcuni  mob si assistono tra di loro  in
 maniera  automatica, questo  accade generalmente per mob della  stassa
 razza, ma usando ASSIST e' piu' facile buttare giu' nemici anche molto
 grossi.
-Il comando ASSIST causa un round di lag al pg o al mob assistivo.
 
 Vedi anche: RESCUE, KILL
 
@@ -6747,7 +6746,7 @@ barbari: O si vince, o si muore!
 Vedi anche: BARBARO
 
 #
-TAN SKIN
+TAN SKIN CONCIATORE
 
 Skill per: Guerrieri, Ranger, Barbari, Antipaladini e Conciatori
 
@@ -6788,7 +6787,7 @@ Il mestiere si puo' imparare da un un conciatore roo.
 La skill puo' avere risultati  migliori anche grazie agli  attributi 
 DESTREZZA e INTELLIGENZA.
 
-Vedi anche: KILL, RANGER, FISHING, MESTIERI
+Vedi anche: KILL, RANGER, PESCATORE, ALCHIMISTA, MINATORE, MESTIERI
  
 #
 BELLOW
@@ -13594,10 +13593,13 @@ comando FISH o PESCA.
 Con questa tecnica si possono trovare dei rari pesci con poteri
 magici, che doneranno bonus a chi li consumera'. Le canne da 
 pesca possono rovinarsi facilmente, se usate con poca attenzione.
+Alcuni pesci o creature trovate possono essere usate per ricette
+alchemiche.
 
 La skill migliora anche grazie agli attributi CARISMA e SAGGEZZA.
 
-Vedi anche: ALLSKILL, ALLSPELL, AWARD, MESTIERI, TAN
+Vedi anche: ALLSKILL, ALLSPELL, AWARD, MESTIERI, CONCIATORE,
+            ALCHIMISTA, MINATORE
 
 #
 "HEALING RAIN"
@@ -13637,7 +13639,7 @@ pratica, dipende dagli attributi del personaggio.
 Con la pratica e' possibile diventarne maestri e sbloccare
 nuove abilita' speciali.
 
-Vedi anche: AWARD, TAN, FISHING
+Vedi anche: AWARD, PESCATORE, CONCIATORE, ALCHIMISTA, MINATORE
 
 #
 AWARD
@@ -13667,6 +13669,52 @@ aree del gioco o semplicemente legati a marchi registrati, sono vietati.
 Gli amministratori si riservano la possibilita' di modificare il nome dei PG.
 
 Vedi anche: AVATAR, NEWBIE, MUD
+
+#
+MINE MINATORE
+
+Skill per: Tutti
+
+Questa abilita' permette all'avventuriero di scavare alla ricerca di materiale
+piu' o meno preziosi, utili anche per l'arte alchemica. Per scavare la roccia 
+e' necessario avere un apposito piccone e trovarsi in una locazione appropriata
+(miniera, collina, montagna o tunnel). Questo mestiere puo' essere imparato
+presso le miniere nei territori dei nani di Gilimdor. 
+
+E' necessario avere in mano un piccone prima di procedere allo scavo, tramite
+il comando MINE.
+
+Con questa tecnica si possono trovare tesori e persino cristalli. In alternativa, 
+il materiale raccolto puo' essere utilizzato nell'alchimia.
+
+La skill migliora anche grazie agli attributi FORZA e COSTITUZIONE.
+
+Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA
+
+
+#
+ALCHIMIA ALCHIMISTA
+
+Skill per: Tutti
+
+Questa abilita' permette all'avventuriero di padroneggiare l'arte dell'alchimia.
+Attraverso l'apprendimento di diverse ricette, e' possibile ottenere potenti 
+pozioni, artefatti e polveri magiche. Questo mestiere puo' essere imparato
+presso l'Accademia dei Sapienti, situata nel quartiere sud di Midia
+
+E' necessario essere in un luogo adatto, dove sono presenti gli appositi strumenti
+alchemici come un crogiolo, un mortaio e un apparato alchemico. Una volta pronti
+sara' necessario studiare le ricette e predisporre gli ingredienti, preparandoli
+attraverso varie lavorazioni. 
+
+Gli ingredienti si possono ottenere pescando, scavando nelle miniere o tramite
+la lavorazione delle pelli delle varie creature. Altri ingredienti possono essere
+ottenuti tramite cristalli o gemme.
+Esistono ricette segrete o ancora celate, nascoste in luoghi remoti dell'impero.
+
+La skill migliora anche grazie agli attributi INTELLIGENZA e SAGGEZZA.
+
+Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, MINATORE
 
 #~
 
