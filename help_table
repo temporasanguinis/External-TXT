@@ -24,7 +24,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 
 --- Modifiche dalla versione 2.19.2.1 alla 2.20.8.1 ----------------
 - Aggiunte: MESTIERI, HEALING RAIN, FISHING, TAN (aggiornato), 
-  SCRIGNO DORATO, LISTINO (aggiornato), AWARD
+  SCRIGNO DORATO, LISTINO (aggiornato), AWARD, AVATAR, NOMI, MESTIERI
                                                                
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
@@ -7467,6 +7467,13 @@ pray naitamer - richiede 1 punto karma recitato fuori combat acid
 shield da 70 tick, recitato in combat acid storm di livello 70 
 contro l'avversario
 pray shadowdance - richiede 1 punto karma, energy shield da 70 tick.
+pray gard - riservata ai chierici monoclasse
+
+Al momento il sistema di preghiere a costo di punti karma e' in fase 
+di revisione e tali punti non sono piu' ottenibili tramite quest.
+
+
+Vedi anche: IMMORTALI, DEI, AVATAR, KARMA
 
 #
 DRUIDO DRUID DRUIDI
@@ -9191,11 +9198,11 @@ regolamenta ogni aspetto.
 Vedere anche: GUILDTALK, GUILDWHO
 
 #
-SACERDOTI
+SACERDOTI AVATAR
 
-  I Sacerdoti  sono i prediletti  dagli Dei:  non tutti  gli  Dei  ne
+I Sacerdoti o avatar sono i prediletti dagli Dei: non tutti gli dei ne
 hanno, ed alcuni potrebbero averne piu'  d'uno, fino ad arrivare all'
-organizzazione di una propria Chiesa.
+organizzazione di un proprio culto religioso.
 Non esistono nemmeno regole precise circa i poteri dei Sacerdoti, ne'
 riguardo  ai loro compiti,  anche se tutti i sacerdoti possono essere
 pregati come  gli Dei, e hanno il  potere di decidere quali preghiere
@@ -9204,7 +9211,12 @@ Ogni Dio, infatti, e' giudice supremo  per tutto cio' che concerne il
 suo culto, ed una sola cosa e' sicura: ogni offesa ad un Sacerdote e'
 un'offesa al suo Dio.
 
-Vedi anche: PRAY, DEI
+Essendo scelti e benedetti dai loro protettori, ottengono poteri e doni speciali.
+Tra questi vi e' la possibilita' di resuscitare in battaglia (come accade a volte 
+ai paladini), ascoltare le preghiere innalzate dai credenti al loro dio e la 
+possibilita' di approvare i nomi dei nuovi avventurieri.
+
+Vedi anche: EROI, NOMI, DEI, IMMORTALI, LOAL, EROI, SACERDOTE, PRAY
 
 #
 QUEST MISSIONE
@@ -9238,17 +9250,17 @@ Essi dimorano ad Asgard, la reggia degli Dei, e guardano con freddo
 distacco le vicende dell'Impero Celeste.
 Nulla piu' di cio' che accade qui puo' toccarli ed interessarli.
 
-Vedi anche: DEI, LOAL
+Vedi anche: DEI, LOAL, SACERDOTI, AVATAR
 
 #
 DEI
 
-  Gli Dei sono la risposta alla domanda 'Chi ha creato l'Impero Celeste
-?'. I loro poteri non hanno limite, e i motivi per cui di tanto in tanto
+Gli Dei sono la risposta alla domanda 'Chi ha creato l'Impero Celeste?'. 
+I loro poteri non hanno limite, e i motivi per cui di tanto in tanto
 decidono di avere rapporti con i mortali sono al di la' della
 comprensione di questi ultimi, di cui si servono come innocue pedine.
 
-Vedi anche: IMMORTALI, LOAL
+Vedi anche: IMMORTALI, LOAL, SACERDOTI, AVATAR
 
 #
 ARENA
@@ -10251,10 +10263,13 @@ RISORSE
 
 --- Pagine HTML ------------------------------------------------------
 
-a) Le pagine Web ufficiali di Tempora Sanguinis:
-b) Il Forum di Tempora Sanguinis:
+Le pagine Web ufficiali di Tempora Sanguinis:
+a) Il Forum di Tempora Sanguinis:
 
-	 http://www.noshout.it
+	 http://www.temporasanguinis.it
+
+b) La pagina ufficiale di Facbook
+c) Il gruppo Whatsapp ufficiale
 
 
 --- I client ---------------------------------------------------------
@@ -13325,27 +13340,27 @@ colpisce con forza
 colpisce con molta forza
 colpisce con estrema ferocia
 massacra
->> decima <<
->> mutila <<
-<> devasta <>
-<> DEMOLISCE <>
--<>-DISTRUGGE-<>-
--=-=-SPAPPOLA-=-=-
--=-=-SMEMBRA-=-=-
--=-=-SCONQUASSA-=-=-
-<><><>SMINUZZA<><><>
-<><><>SQUARCIA<><><>
-(<>) DISINTEGRA (<>)
-..* DISGREGA *..
-*._POLVERIZZA_.*
-*-.NEBULIZZA.-*
-<>ATOMIZZA<>
-<><>FOLGORA<><>
-*.*ANNICHILISCE*.*
-<*>OBLITERA<*>
-*:*NUCLEARIZZA*:*
-***ANNIENTA***
-***SMATERIALIZZA***
+decima
+mutila
+devasta
+DEMOLISCE
+DISTRUGGE
+SPAPPOLA
+SMEMBRA
+SCONQUASSA
+SMINUZZA
+SQUARCIA
+DISINTEGRA
+DISGREGA
+POLVERIZZA
+NEBULIZZA
+ATOMIZZA
+FOLGORA
+ANNICHILISCE
+OBLITERA
+NUCLEARIZZA
+ANNIENTA
+SMATERIALIZZA
 
 Vedi anche: PWP, RPG
 
@@ -13557,7 +13572,7 @@ $c0011ATTENZIONE!$c0007 Gli oggetti unici non verranno refundati.$c0007
 Vedi anche: LISTINO, AREAQUEST, RUNE
 
 #
-FISHING PESCA BAIT ESCA
+FISHING PESCA BAIT ESCA PESCATORE
 
 Skill per: Tutti
 
@@ -13643,24 +13658,13 @@ disponibili, basta usare il comando "AWARD LIST".
 Vedi anche: MESTIERI, DIGNITY, AREAQUEST
 
 #
-AVATAR
-
-Gli Avatar sono i sacerdoti degli dei o degli immortali. Essi eroi leggendari
-che scelgono di dedicare la loro vita al servizio di una divinita'.
-
-Essendo benedetti dai loro protettori, tra i loro poteri, vi sono la 
-possibilita' di resuscitare in battaglia (come accade a volte ai paladini),
-percepire le preghiere innalzate al loro dio e approvare i nomi dei nuovi
-avventurieri.
-
-Vedi anche: EROI
-
-#
 NOME NOMI
 
 Per giocare nel mondo di Tempora Sanguinis 2 e' importante scegliere un
-nome che rispetti i canoni del Medieval RPG. Nomi inappropriati o legati
-a marchi registrati sono vietati.
+nome che rispecchi i canoni del Medieval RPG. Nomi inappropriati, non
+allineati all'ambientazione di Tempora Sanguinis 2, gia' presenti su NPC di 
+aree del gioco o semplicemente legati a marchi registrati, sono vietati.
+Gli amministratori si riservano la possibilita' di modificare il nome dei PG.
 
 Vedi anche: AVATAR, NEWBIE, MUD
 
