@@ -31,9 +31,9 @@ M
 $c0014Il tuo tocco gelido su $N$c0014 e' sufficiente per spedirl$Z all'altro mondo!~
 $c0014Senti che $n$c0004 ti tocca e la sua mano e' gelida... troppo gelida... - $c0001RIP!~
 $c0014$n$c0014 tocca $N$c0014 che subito cade a terra morente e viola in volto. Fa venire i brividi, vero?~
-$c0014Tutto intorno a te diventa gelido, tranne $N$c0014, bersaglio mancato.~
-$c0014Eviti $n$c0014 e il suo tocco gelido!~
-$c0014$n$c0014 cerca senza successo di usare il tocco gelido su $N.~
+$c0012Tutto intorno a te diventa gelido, tranne $N$c0012, bersaglio mancato.~
+$c0012Eviti $n$c0012 e il suo tocco gelido!~
+$c0012$n$c0012 cerca senza successo di usare il tocco gelido su $N$c0012.~
 $c0014Congeli $N.~
 $c0014Non appena $n$c0014 ti sfiora, senti un brivido gelido correre nel tuo corpo.~
 $c0014$n$c0014 raggela $N$c0014, che sembra meno vitale. ~
@@ -98,18 +98,18 @@ $c0004Ignori lo stupido tentativo di $n$c0004 di attaccarti con una palla di fuo
 $c0004La palla di fuoco di $n$c0004 punta verso $N$c0004, ma egli chiude gli occhi e questa scompare.~
 M
  27
-$c0009$N$c0009 e' scosso dal potere dell'incantesimo, ed e' distrutt$Z.~
-$c0009Non riesci a contenere il potere dell'incantesimo di $n$c0009, e muori!~
-$c0009$n$c0009 tocca $N$c0009 con una mano incendescente. $N$c0009 viene distrutt$Z!~
-$c0001Manchi $N$c0001 col tuo tocco, l'incantesimo e' sprecato.~
-$c0001$n$c0001 ti manca col suo tocco di fuoco.~
-$c0001$n$c0001 manca $N$c0001 col suo tocco di fuoco.~
-$c0009Concentri il potere nella tua mano, e tocchi $N$c0009 che urla di dolore.~
-$c0009$n$c0009 ti tocca, e tu vieni paralizzato dal dolore!~
-$c0009$n$c0009 tocca $N$c0009, che urla forte per il dolore.~
-$c0012Sei talmente debole che non riusciresti neanche a bruciare un capello di $N$c0012!~
-$c0012$n$c0012 vuole usare harm su di te, ma ci ha gia' ripensato.~
-$c0012$n$c0012 pensa di colpire $N$c0012, ma subito cambia idea.~
+$c0005$N$c0009 e' scosso dal potere virulento dell'incantesimo e viene consumat$Z dalle piaghe che consumano il suo corpo.~
+$c0005Non riesci a contenere il potere dell'incantesimo virulento di $n$c0005, e muori!~
+$c0005$n$c0005 tocca $N$c0005 con una mano. $N$c0005 viene consumat$Z dalle piaghe!~
+$c0008Manchi $N$c0008 col tuo tocco virulento, l'incantesimo e' sprecato.~
+$c0008$n$c0008 ti manca col suo tocco virulento.~
+$c0008$n$c0008 manca $N$c0005 col suo tocco virulento.~
+$c0005Concentri il potere nella tua mano, e tocchi $N$c0005 che urla per le piaghe che si formano sul suo corpo.~
+$c0005$n$c0005 ti tocca, e tu vieni paralizzato dal dolore delle piaghe che compaiono sul tuo corpo!~
+$c0005$n$c0005 tocca $N$c0005, che urla forte per il dolore.~
+$c0005Sei talmente debole che non riusciresti neanche a consumare un capello di $N$c0005!~
+$c0005$n$c0005 vuole usare harm su di te, ma ci ha gia' ripensato.~
+$c0005$n$c0005 pensa di colpire $N$c0005, ma subito cambia idea.~
 M
  30
 $c0012Il tuo fulmine magico fa $c0015ESPLODERE$c0012 $N$c0012!~
@@ -154,18 +154,18 @@ $c0010Sembra che $N$c0010 non si senta molto bene, e' scoss$Z da violenti tremit
 ~
 M
  37
-$c0014$N$c0014 muore fulminat$Z dal tuo abbraccio elettrico.~
-$c0014$n$c0014 ti fa provare il suo abbraccio elettrico. Il tuo cuore non regge...~
-$c0014$n$c0014 fulmina $N$c0014 a morte!~
-$c0014$N$c0014 evita il tuo abbraccio elettrico!~
-$c0014$n$c0014 cerca di attaccarti con l'abbraccio elettrico, ma tu eviti in scioltezza.~
-$c0014$N$c0014 evita l'abbraccio elettrico di $n$c0014.~
-$c0014Abbracci con forza $N$c0014, e gli dai una bella scossa!~
-$c0014$n$c0014 ti fulmina col suo abbraccio!~
-$c0014$n$c0014 fulmina $N$c0014 col suo abbraccio elettrico!~
-$c0006Tenti di fulminare $N$c0006, ma la scossa ti si ritorce contro!~
-$c0006Queste stupide creature si rompono per un nonnulla, mah...~
-$c0006L'atmosfera diventa elettrica, $n$c0006 ha cercato di fulminare $N$c0006!~
+$c0012$N$c0012 muore fulminat$Z dalla tua stretta abbraccio elettrica.~
+$c0012$n$c0012 ti fa provare la sua stretta elettrica. Il tuo cuore non regge...~
+$c0012$n$c0012 fulmina $N$c0012 a morte!~
+$c0004$N$c0004 evita la tua stretta elettrica!~
+$c0004$n$c0004 cerca di attaccarti con la stretta elettrica, ma tu eviti in scioltezza.~
+$c0004$N$c0004 evita la stretta elettrica di $n$c0004.~
+$c0012Stringi con forza $N$c0012, e gli dai una bella scossa!~
+$c0012$n$c0012 ti fulmina con la sua stretta elettrica!~
+$c0012$n$c0012 fulmina $N$c0012 con la sua stretta elettrica!~
+$c0012Tenti di fulminare $N$c0012, ma la scossa ti si ritorce contro!~
+$c0012Queste stupide creature si rompono per un nonnulla, mah...~
+$c0012L'atmosfera diventa elettrica, $n$c0012 ha cercato di fulminare $N$c0012!~
 M
  48
 $c0005Ti avvicini in silenzio e conficchi $p $c0005nella schiena di $N$c0005, uccidendol$Z senza pieta'.~
@@ -186,7 +186,7 @@ $c0003Il tuo calcio colpisce la testa di $N$c0003 aprendogliela in due!~
 $c0003$n$c0003 ti colpisce alla testa con un calcio e te la apre in due! Ci mancherai.~
 $c0003$n$c0003 colpisce $N$c0003 alla testa con un calcio cosi' violento da aprirla in due!~
 $c0003Cerchi di calciare $N$c0003 alla mascella, ma egli ti schiva.~
-$c0003$n$c0003 ti manca con un violevto calcio.~
+$c0003$n$c0003 ti manca con un violento calcio.~
 $c0003$n$c0003 cerca di calciare $N$c0003 al volto, ma manca il bersaglio.~
 $c0003Il tuo calcio colpisce $N$c0003 al plesso solare.~
 $c0003$n$c0003 ti colpisce al plesso solare con un calcio! Ti manca il respiro!~
@@ -206,33 +206,33 @@ $c0001Prendi la rincorsa, e mandi $N$c0001 a terra con una potente spallata.~
 $c0001$n$c0001 ti colpisce con una spallata e ti manda a terra!~
 $c0001$n$c0001 prende la rincorsa e manda $N$c0001 a terra con una spallata.~
 $c0004Carichi $N$c0004 con tutta la tua forza, ma con un gesto egli ti respinge!~
-$c0004$n$c0004 ha cercato di mandati a terra con una spallata! Che inett$z!~
+$c0004$n$c0004 ha cercato di mandarti a terra con una spallata! Che inett$z!~
 $c0004$n$c0004 cerca di caricare $N$c0004 ma inciampa e cade! Che figura!~ 
 M
  55
-$c0003Il tuo incantesimo e' sufficente ad uccidere $N$c0003...~
-$c0003Il tocco di $n$c0003 ti da immenso dolore. Ci mancherai.~
-$c0003Il tocco di $n$c0003 e' abbastanza potente da porre fine ai dolori di $N$c0003.~
-$c0003$N$c0003 evita il tuo tocco.~
-$c0003Eviti il tocco di $n$c0003.~
-$c0003L'incantesimo di $n$c0003 e' sprecato, $N$c0003 evita il colpo.~
-$c0003Tocchi $N$c0003 che rabbrividisce per il dolore.~
-$c0003Il tocco di $n$c0003 ti provoca dolore!~
-$c0003$n$c0003 tocca $N$c0003, che rabbrividisce per il dolore!~
+$c0013Il tuo incantesimo e' sufficente ad uccidere $N$c0013...~
+$c0013Il tocco di $n$c0013 ti da immenso dolore. Ci mancherai.~
+$c0013Il tocco di $n$c0013 e' abbastanza potente da porre fine ai dolori di $N$c0013.~
+$c0008$N$c0008 evita il tuo tocco.~
+$c0008Eviti il tocco di $n$c0008.~
+$c0008L'incantesimo di $n$c0008 e' sprecato, $N$c0008 evita il colpo.~
+$c0013Tocchi $N$c0013 che rabbrividisce per il dolore.~
+$c0013Il tocco di $n$c0013 ti provoca dolore!~
+$c0013$n$c0013 tocca $N$c0013, che rabbrividisce per il dolore!~
 $c0011Ti senti umiliat$z, $N$c0011 disperde il tuo incantesimo senza neanche pensarci.~
 $c0011Sembra che qualcuno abbia cercato di ferirti, mah, che strano...~
 $c0011$N$c0011 non nota neanche l'attacco di $n$c0011.~
 M
  56
-$c0011La potenza del tuo incantesimo uccide brutalmente $N$c0011!~
-$c0011Senti un enorme dolore non appena $n$c0011 ti sfiora. Poi, piu' nulla.~
-$c0011Il tocco di $n$c0011 provoca atroci sofferenze a $N$c0011, che muore per il dolore.~
-$c0011$N$c0011 evita il tuo tocco.~
-$c0011Eviti il tocco di $n$c0011.~
-$c0011L'incantesimo di $n$c0011 va sprecato, $N$c0011 evita il colpo.~
-$c0011Sfiori $N$c0011, che urla per il dolore!~
-$c0011Non appena $n$c0011 ti sfiora, senti il tuo corpo invaso dal dolore!~
-$c0011$N$c0011 urla per il dolore causato dal tocco di $n$c0011!~
+$c0013La potenza del tuo incantesimo uccide brutalmente $N$c0013!~
+$c0013Senti un enorme dolore non appena $n$c0013 ti sfiora. Poi, piu' nulla.~
+$c0013Il tocco di $n$c0013 provoca atroci sofferenze a $N$c0013, che muore per il dolore.~
+$c0008$N$c0008 evita il tuo tocco.~
+$c0008Eviti il tocco di $n$c0008.~
+$c0008L'incantesimo di $n$c0008 va sprecato, $N$c0008 evita il colpo.~
+$c0013Sfiori $N$c0013, che urla per il dolore!~
+$c0013Non appena $n$c0013 ti sfiora, senti il tuo corpo invaso dal dolore!~
+$c0013$N$c0013 urla per il dolore causato dal tocco di $n$c0013!~
 $c0001Ti senti umiliat$z, $N$c0001 trasforma il tuo incantesimo in un cono gelato.~
 $c0001Trasformi l'incantesimo di $n$c0001 in un cono gelato, YUM!~
 $c0001$N$c0001 trasforma l'incantesimo di $n$c0001 in un invitante cono gelato.~
@@ -308,29 +308,29 @@ $c0001$n$c0001 cerca di colpirti con delle meteore, che idiota.~
 $c0001$N$c0001 ignora completamente lo sciame di meteore di $n$c0001!~
 M
  72
-$c0012$N$c0012 e' smembrat$Z per l'impatto con la tua tempesta di ghiaccio!~
-$c0012Il violento impatto con la tempesta di ghiaccio di $n$c0012 ti e' fatale!~
-$c0012$N$c0012 e' smembrat$Z dall'impatto con la tempesta di ghiaccio di $n$c0012!~
-$c0012$N$c0012 si ripara dalla violenza della tua tempesta.~
-$c0012Riesci ad evitare la tempesta di ghiaccio di $n$c0012!~
-$c0012$N$c0012 evita la tempesta di ghiaccio di $n$c0012!~
-$c0012Colpisci duramente $N$c0012 con la tua tempesta di ghiaccio.~
-$c0012$n$c0012 ti manda a terra con la violenza della sua tempesta di ghiaccio.~
-$c0012$n$c0012 schianta $N$c0012 con una tempesta di ghiaccio.~
+$c0014$N$c0014 e' smembrat$Z per l'impatto con la tua tempesta di ghiaccio!~
+$c0014Il violento impatto con la tempesta di ghiaccio di $n$c0014 ti e' fatale!~
+$c0014$N$c0014 e' smembrat$Z dall'impatto con la tempesta di ghiaccio di $n$c0014!~
+$c0006$N$c0006 si ripara dalla violenza della tua tempesta.~
+$c0006Riesci ad evitare la tempesta di ghiaccio di $n$c0006!~
+$c0006$N$c0006 evita la tempesta di ghiaccio di $n$c0006!~
+$c0014Colpisci duramente $N$c0014 con la tua tempesta di ghiaccio.~
+$c0014$n$c0014 ti manda a terra con la violenza della sua tempesta di ghiaccio.~
+$c0014$n$c0014 schianta $N$c0014 con una tempesta di ghiaccio.~
 $c0004$N$c0004 viene circontat$Z da una luce bianca, ed e' immune all'attacco.~
 $c0004Crei uno scudo per proteggerti dalla tempesta di ghiaccio di $n$c0004.~
 $c0004$N$c0004 e' immune alla tempesta di ghiaccio di $n$c0004.~
 M
  84
-$c0011La potenza del tuo incantesimo uccide $N$c0011!~
-$c0011Senti un forte dolore non appena $n$c0011 ti sfiora. Poi, piu' nulla.~
-$c0011Il tocco di $n$c0011 provoca un forte fremito a $N$c0011, che muore per il dolore.~
-$c0011$N$c0011 evita il tuo tocco.~
-$c0011Eviti il tocco di $n$c0011.~
-$c0011L'incantesimo di $n$c0011 va sprecato, $N$c0011 evita il colpo.~
-$c0011Sfiori $N$c0011, e gli provochi una fitta di dolore!~
-$c0011Non appena $n$c0011 ti sfiora, senti una fitta di dolore!~
-$c0011Il corpo di $N$c0011 viene scosso dal dolore causato dal tocco di $n$c0011!~
+$c0013La potenza del tuo incantesimo uccide $N$c0013!~
+$c0013Senti un forte dolore non appena $n$c0013 ti sfiora. Poi, piu' nulla.~
+$c0013Il tocco di $n$c0013 provoca un forte fremito a $N$c0013, che muore per il dolore.~
+$c0008$N$c0008 evita il tuo tocco.~
+$c0008Eviti il tocco di $n$c0008.~
+$c0008L'incantesimo di $n$c0013 va sprecato, $N$c0008 evita il colpo.~
+$c0013Sfiori $N$c0013, e gli provochi una fitta di dolore!~
+$c0013Non appena $n$c0013 ti sfiora, senti una fitta di dolore!~
+$c0013Il corpo di $N$c0013 viene scosso dal dolore causato dal tocco di $n$c0013!~
 $c0001Ti senti umiliat$z, $N$c0001 fa un gesto e l'incantesimo ti si ritorce contro.~
 $c0001Fai in modo che l'incantesimo di $n$c0001 torni al mittente!~
 $c0001$N$c0001 ignora l'incantesimo di $n$c0001.~
@@ -505,29 +505,29 @@ $c0012$n soffia saette su di te! Tu gli infili una spina in bocca e accendi il t
 $c0012$n soffia saette su $N, il quale gli infila una spina in bocca e accende il televisore!~
 M
  244
-$c0010La$c0010 tua nuvola di fiamme brucia $N$c0010 a morte, non ne rimane piu' nulla.~
-$c0010Una nuvola di gas ti circonda, $n$c0010 sogghigna e tu sei incenerit$Z.~
-$c0010La nube di fiamme di $n$c0010 riduce $N$c0010 a una carcassa bruciacchiata.~
-$c0010La tua nuvola di fuoco circonda $N$c0010 non facendo altro che farl$Z sorridere.~
-$c0010La nuvola di fuoco di $n$c0010 ti circonda ma non ti scalfisce.~
-$c0010La nuvola di gas fiammeggiante di $n$c0010 manca $N$c0010!~
-$c0010Dirigi il gas verso $N$c0010 e l$Z guardi soddisfatt$z mentre viene avvolt$Z dalle fiamme.~
-$c0010La nuvola di fiamme di $n$c0010 ti circonda - $c0009OUCH!~
-$c0010$n$c0010 sogghigna mentre osserva la sua nuvola di fiamme bruciare $N$c0010!~
+$c0009La$c0009 tua nuvola di fiamme brucia $N$c0009 a morte, non ne rimane piu' nulla.~
+$c0009Una nuvola di gas ti circonda, $n$c0009 sogghigna e tu sei incenerit$Z.~
+$c0009La nube di fiamme di $n$c0009 riduce $N$c0009 a una carcassa bruciacchiata.~
+$c0001La tua nuvola di fuoco circonda $N$c0001 non facendo altro che farl$Z sorridere.~
+$c0001La nuvola di fuoco di $n$c0001 ti circonda ma non ti scalfisce.~
+$c0001La nuvola di gas fiammeggiante di $n$c0001 manca $N$c0001!~
+$c0009Dirigi il gas verso $N$c0009 e l$Z guardi soddisfatt$z mentre viene avvolt$Z dalle fiamme.~
+$c0009La nuvola di fiamme di $n$c0009 ti circonda - $c0115OUCH!~
+$c0009$n$c0009 sogghigna mentre osserva la sua nuvola di fiamme bruciare $N$c0009!~
 $c0004Che brutto modo di suicidarsi!~
 $c0004$n$c0004 ti manda addosso gas infuocato, che non ti sfiora neanche.~
 $c0004$n$c0004 cerca di bruciare $N$c0004 con del gas infuocato... ma non l$Z scalfisce neanche.~
 M
  245
-$c0010Disintegri $c0012$N$c0010 in piccolissimi frammenti!~
-$c0010Urli ed esplodi in mille pezzi, $n$c0010 sogghigna.~
-$c0010$n $c0011disintegra$c0010 $N$c0010 in mille pezzi!~
-$c0010Manchi $N$c0010 col tuo raggio per un pelo!~
-$c0010$n$c0010 ti manca col suo raggio disintegrante!~
-$c0010$n$c0010 manca $N$c0010 col suo raggio disintegrante! Che peccato!~
-$c0010Sorridi vedendo il tuo raggio disintegrante colpire in pieno $N$c0010!~
-$c0010Il tuo corpo e' scosso violentemente dal raggio disintegrante di $n$c0010! Riesci a tenerti assieme!~
-$c0010$n$c0010 ride di gusto quando il suo raggio disintegrante colpisce in pieno $N$c0010!~
+$c0011Disintegri $c0011$N$c0011 in piccolissimi frammenti!~
+$c0011Urli ed esplodi in mille pezzi, $n$c0011 sogghigna.~
+$c0011$n $c0011disintegra$c0011 $N$c0011 in mille pezzi!~
+$c0003Manchi $N$c0003 col tuo raggio per un pelo!~
+$c0003$n$c0003 ti manca col suo raggio disintegrante!~
+$c0003$n$c0003 manca $N$c0003 col suo raggio disintegrante! Che peccato!~
+$c0011Sorridi vedendo il tuo raggio disintegrante colpire in pieno $N$c0011!~
+$c0011Il tuo corpo e' scosso violentemente dal raggio disintegrante di $n$c0011! Riesci a tenerti assieme!~
+$c0011$n$c0011 ride di gusto quando il suo raggio disintegrante colpisce in pieno $N$c0011!~
 $c0004Disintegrate su un Dio! Hah, che bella barzelletta!~
 $c0004Eviti con noncuranza il raggio disintegrante di $n$c0004.~
 $c0004$n$c0004 manda contro $N$c0004 un raggio disintegrante, che viene ignorato.~
@@ -589,134 +589,134 @@ $c0004Trasformi l'acido di $n$c0004 in un getto d'acqua, e lo rispedisci al mitt
 $c0004$N$c0004 trasforma l'acido di $n$c0004 in acqua e glielo rispedisce contro.~
 M
  315
-$c0012Trafiggi $N$c0012. L'energia della tua arma l$Z fa $c0011ESPLODERE!~
-$c0012La potenza dell'arma di $n$c0012 ti fa $c0011ESPLODERE!~
-$c0012$n$c0012 trafigge $N$c0012, che pochi secondi dopo... $c0011ESPLODE!~
-$c0012$N$c0012 evita le scariche della tua arma!~
-$c0012Eviti le scariche dell'arma di $n$c0012!~
-$c0012$N$c0012 evita le scariche dell'arma di $n$c0012!~
+$c0012Trafiggi $N$c0012. L'elettricita' della tua arma l$Z fa $c0615ESPLODERE!~
+$c0012La potenza dell'arma di $n$c0012 ti fa $c0615ESPLODERE!~
+$c0012$n$c0012 trafigge $N$c0012, che pochi secondi dopo... $c0615ESPLODE!~
+$c0004$N$c0004 evita le scariche elettriche della tua arma!~
+$c0004Eviti le scariche dell'arma di $n$c0004!~
+$c0004$N$c0004 evita le scariche dell'arma di $n$c0004!~
 $c0012Dalla tua arma scaturiscono scariche elettriche che colpiscono $N$c0012!~
 $c0012Le scariche dell'arma di $n$c0012 ti colpiscono!~
 $c0012Le scariche elettriche scaturite dell'arma di $n$c0012 colpiscono $N$c0012!~
-$c0014$N$c0014 ignora completamente il potere della tua arma!~
-$c0014$n$c0014 cerca di colpirti con un'arma elettrica. Che pazz$z...~
-$c0014Il potere dell'arma di $n$c0014 non ha alcun effetto su $N$c0014!~
+$c0004$N$c0004 ignora completamente il potere della tua arma!~
+$c0004$n$c0004 cerca di colpirti con un'arma elettrica. Che pazz$z...~
+$c0004Il potere dell'arma di $n$c0004 non ha alcun effetto su $N$c0004!~
 M
  316
-$c0009Con un ultimo fendente, dividi in due il corpo di $N$c0009. I pezzi cadono a terra ed iniziano ad ardere...~
-$c0009$n$c0009 ti taglia da parte a parte con la sua arma fiammeggiante! $c0011Addio...~
+$c0009Con un ultimo colpo, dividi in due il corpo di $N$c0009. I pezzi cadono a terra ed iniziano ad ardere...~
+$c0009$n$c0009 ti taglia da parte a parte con la sua arma fiammeggiante! $c0001Addio...~
 $c0009$n$c0009, con un ultimo colpo, taglia $N$c0009 da parte a parte! Cio' che resta del suo corpo cade a terra ed inizia ad ardere...~
-$c0009$N$c0009 evita le fiamme della tua arma!~
-$c0009Eviti le fiamme dell'arma di $n$c0009!~
-$c0009$N$c0009 evita le fiamme dell'arma di $n$c0009!~
+$c0001$N$c0001 evita le fiamme della tua arma!~
+$c0001Eviti le fiamme dell'arma di $n$c0001!~
+$c0001$N$c0001 evita le fiamme dell'arma di $n$c0001!~
 $c0009Dalla tua arma scaturiscono fiamme che bruciano $N$c0009!~
 $c0009Le fiamme dell'arma di $n$c0009 ti bruciano!~
 $c0009Dall'arma di $n$c0009 si sprigionano fiamme che bruciano $N$c0009!~
-$c0013$N$c0013 ignora completamente il potere della tua arma!~
-$c0013$n$c0013 cerca di colpirti con un'arma fiammeggiante. Che ingenu$z...~
-$c0013Il potere dell'arma di $n$c0013 non ha alcun effetto su $N$c0013!~
+$c0001$N$c0001 ignora completamente il potere della tua arma!~
+$c0001$n$c0001 cerca di colpirti con un'arma fiammeggiante. Che ingenu$z...~
+$c0001Il potere dell'arma di $n$c0001 non ha alcun effetto su $N$c0001!~
 M
  317
-$c0006Il gelo della tua arma penetra nel corpo di $N$c0006, che cade a terra immobile.~
-$c0006$n$c0006 ti colpisce. Senti il gelo impadronirsi di te... poi piu' nulla...~
-$c0006$n$c0006 colpisce $N$c0006, che rimane immobile per alcuni secondi, un brivido di freddo, e cade a terra inerme...~
+$c0014Il gelo della tua arma penetra nel corpo di $N$c0014, che cade a terra immobile.~
+$c0014$n$c0014 ti colpisce. Senti il gelo impadronirsi di te... poi piu' nulla...~
+$c0014$n$c0014 colpisce $N$c0014, che rimane immobile per alcuni secondi, un brivido di freddo, e cade a terra inerme...~
 $c0006$N$c0006 evita il gelo della tua arma!~
 $c0006Eviti il gelo dell'arma di $n$c0006!~
 $c0006$N$c0006 evita il gelo dell'arma di $n$c0006!~
-$c0006Il freddo intenso emanato dalla tua arma fa rabbrividire $N$c0006!~
-$c0006Il gelo dell'arma di $n$c0006 ti fa rabbrividire!~
-$c0006L'arma di $n$c0006 sprigiona un freddo intenso che danneggia $N$c0006!~
-$c0012$N$c0012 ignora completamente il potere della tua arma!~
-$c0012$n$c0012 cerca di colpirti con un'arma congelante. Che idiota...~
-$c0012Il potere dell'arma di $n$c0012 non ha alcun effetto su $N$c0012!~
+$c0014Il freddo intenso emanato dalla tua arma fa rabbrividire $N$c0014!~
+$c0014Il gelo dell'arma di $n$c0014 ti fa rabbrividire!~
+$c0014L'arma di $n$c0014 sprigiona un freddo intenso che danneggia $N$c0014!~
+$c0006$N$c0006 ignora completamente il potere della tua arma!~
+$c0006$n$c0006 cerca di colpirti con un'arma congelante. Che idiota...~
+$c0006Il potere dell'arma di $n$c0006 non ha alcun effetto su $N$c0006!~
 M
  318
-$c0002Apri un grosso squarcio sul corpo di $N$c0002 con la tua arma grondante di veleno. $N$c0002 cade a terra, scoss$Z da spasmi. Poi resta immobile... per sempre.~
-$c0002Senti che le tue ferite bruciano troppo... cadi a terra. Poi il buio.~
-$c0002$n$c0002 apre una grossa ferita sul corpo di $N$c0002 con la sua arma grondante di veleno. $N$c0002 cade a terra, scoss$Z da spasmi. Poi resta immobile...~
+$c0010Apri un grosso squarcio sul corpo di $N$c0010 con la tua arma grondante di acido. $N$c0010 cade a terra, scoss$Z da spasmi. Poi resta immobile... per sempre.~
+$c0010Senti che le tue ferite bruciano troppo... cadi a terra. Poi il buio.~
+$c0010$n$c0010 apre una grossa ferita sul corpo di $N$c0010 con la sua arma grondante di acido. $N$c0010 cade a terra, scoss$Z da spasmi. Poi resta immobile...~
 $c0002$N$c0002 evita l'acido della tua arma!~
 $c0002Eviti l'acido dell'arma di $n$c0002!~
-$c0002$N$c0002 evita l'acido dell'arma di $n$c0002!~
-$c0002Il veleno sulla tua arma brucia sul corpo di $N$c0002!~
-$c0002Il veleno sull'arma di $n$c0002 brucia la tua pelle!~
-$c0002L'arma di $n$c0002 gronda di veleno che brucia la pelle di $N$c0002!~
-$c0011$N$c0011 ignora completamente il potere della tua arma!~
-$c0011$n$c0011 cerca di colpirti con un'arma avvelenata. Che ignorante...~
-$c0011Il potere dell'arma di $n$c0011 non ha alcun effetto su $N$c0011!~
+$c0002$N$c0010 evita l'acido dell'arma di $n$c0002!~
+$c0010L'acido sulla tua arma consuma il corpo di $N$c0010!~
+$c0010L'acido sull'arma di $n$c0010 brucia la tua pelle!~
+$c0010L'arma di $n$c0010 gronda acido che brucia la pelle di $N$c0010!~
+$c0002$N$c0002 ignora completamente il potere della tua arma!~
+$c0002$n$c0002 cerca di colpirti con un'arma grondante acido. Che ignorante...~
+$c0002Il potere dell'arma di $n$c0002 non ha alcun effetto su $N$c0002!~
 M
  319
-$c0012La tua arma sprigiona un forte fascio d'energia che $c0115INCENERISCE$c0012 $N$c0012!~
-$c0012Dall'arma di $n$c0012 esce un grosso fascio d'energia! Addio...~
-$c0012Dall'arma di $n$c0012 si sprigiona un forte fascio d'energia che $c0115INCENERISCE$c0012 $N$c0012!~
-$c0012$N$c0012 evita l'energia della tua arma!~
-$c0012Eviti l'energia dell'arma di $n$c0012!~
-$c0012$N$c0012 evita l'energia dell'arma di $n$c0012!~
-$c0012Vedi l'energia della tua arma che fa urlare di dolore $N$c0012!~
-$c0012$n$c0012 ti colpisce con un'arma ad energia! $c0009ARGH!~
-$c0012L'arma di $n$c0012 sprigiona un fascio d'energia che fa urlare di dolore $N$c0012!~
-$c0010$N$c0010 ignora completamente il potere della tua arma!~
-$c0010$n$c0010 cerca di colpirti con un'arma ad energia. Che stupid$z...~
-$c0010Il potere dell'arma di $n$c0010 non ha alcun effetto su $N$c0010!~
+$c0011La tua arma sprigiona un forte fascio d'energia che $c0315INCENERISCE$c0011 $N$c0011!~
+$c0011Dall'arma di $n$c0011 esce un grosso fascio d'energia! Addio...~
+$c0011Dall'arma di $n$c0011 si sprigiona un forte fascio d'energia che $c0315INCENERISCE$c0011 $N$c0011!~
+$c0003$N$c0003 evita l'energia della tua arma!~
+$c0003Eviti l'energia dell'arma di $n$c0003!~
+$c0003$N$c0003 evita l'energia dell'arma di $n$c0003!~
+$c0011L'energia della tua arma fa urlare di dolore $N$c0011!~
+$c0011$n$c0011 ti colpisce con un'arma ad energia! $c0015ARGH!~
+$c0011L'arma di $n$c0011 sprigiona un fascio d'energia che fa urlare di dolore $N$c0011!~
+$c0003$N$c0003 ignora completamente il potere della tua arma!~
+$c0003$n$c0003 cerca di colpirti con un'arma ad energia. Che stupid$z...~
+$c0003Il potere dell'arma di $n$c0003 non ha alcun effetto su $N$c0003!~
 M
  321
-$c0012Le scariche elettriche che ti circondano $c0015FOLGORANO$c0012 $N$c0012 a morte!~
+$c0012Le scariche elettriche avvolgono il tuo corpo e $c0115FOLGORANO$c0012 $N$c0012 a morte!~
 $c0012Vieni travolt$Z dalla potenza delle scariche elettriche di $n$c0012!~
-$c0012Le scariche elettriche di $n $c0015FOLGORANO$c0012 $N$c0012 a morte!~
+$c0012Le scariche elettriche di $n $c0115FOLGORANO$c0012 $N$c0012 a morte!~
 $c0004$N$c0004 riesce ad evitare le tue scariche elettriche.~
-$c0004Eviti le scariche elettriche che circondano $n$c0004.~
-$c0004$N$c0004 evita le scariche elettriche attorno al corpo di $n$c0004.~
+$c0004Eviti le scariche elettriche scagliate da $n$c0004.~
+$c0004$N$c0004 evita le scariche elettriche scagliate da $n$c0004.~
 $c0012Le tue scariche elettriche provocano a $N$c0012 spasmi di dolore!~
 $c0012Urli di dolore quando vieni colpit$Z dall'elettricita' di $n$c0012!~
-$c0012L'elettricita' attorno a $n$c0012 colpisce $N$c0012, che urla di dolore!~
+$c0012L'elettricita' scagliata da $n$c0012 colpisce $N$c0012, che urla di dolore!~
 $c0014Vorresti colpire $N$c0014, ma proprio non ci riesci...~
 $c0014$n$c0014 ha tentato un flebile tentativo di attaccarti con l'elettricita'.~
 $c0014$n$c0014 attacca $N$c0014 con l'elettricita', ma rimane $w stess$z filminat$z.~
 M
  322
 $c0010$N$c0010 viene inghiottit$Z dal tuo acido... e non ne rimane piu' nulla.~
-$c0010L'acido attorno al corpo di $n$c0010 ti inghiotte... addio...~
-$c0010$N$c0010 viene inghiottito dall'acido di $n$c0010... e non ne rimane piu' nulla.~
+$c0010L'acido emesso dal corpo di $n$c0010 ti inghiotte... addio...~
+$c0010$N$c0010 viene inghiottito dal getto d'acido di $n$c0010... e non ne rimane piu' nulla.~
 $c0002$N$c0002 evita il tuo attacco acido.~
 $c0002Eviti l'attacco acido di $n$c0002.~
-$c0002$N$c0002 evita l'attacco acido di $n$c0002.~
-$c0010Il tuo acido raggiunge $N$c0010 che ne rimane bruciat$Z!~
+$c0002$N$c0010 evita l'attacco acido di $n$c0002.~
+$c0010Il tuo getto d'acido raggiunge $N$c0010 che ne rimane sfigurat$Z!~
 $c0010Non riesci ad evitare l'attacco acido di $n$c0010... ARGH! CHE MALE!~
-$c0010$N$c0010 viene travolto dall'acido attorno a $n$c0010.~
+$c0010$N$c0010 viene travolto dall'acido lanciato da $n$c0010.~
 $c0003Il tuo attacco d'acido ti si ritorce contro! ARGH!~
 $c0003$n$c0003 ti attacca con dell'acido. Tu neanche l$z guardi.~
 $c0003$n$c0003 attacca $N$c0003 con dell'acido. $N$c0003 neanche si volta.~
 M
  323
-$c0014Il freddo intenso attorno al tuo corpo assidera a morte $N$c0014!~
-$c0014Colpendo $n$c0014, senti tanto, troppo freddo... addio per sempre...~
-$c0014$N$c0014 colpisce $n$c0014, ma rimane assiderato a morte dal freddo che egli emette.~
-$c0006$N$c0006 non risente del tuo scudo congelante.~
-$c0006Non risenti dello scudo congelante di $n$c0006.~
-$c0006$N$c0006 attacca $n$c0006 senza risentire del suo scudo congelante.~
+$c0014Il freddo intenso emanato dal tuo corpo assidera a morte $N$c0014!~
+$c0014Il gelo di $n$c0014 ti avvolge e senti tanto, troppo freddo... addio per sempre...~
+$c0014$N$c0014 rimane assiderato a morte dal freddo emesso da $n$c0014.~
+$c0006$N$c0006 non risente del freddo emesso dal tuo corpo.~
+$c0006Non risenti del gelo intenso emesso da $n$c0006.~
+$c0006$N$c0006 sembra non risentire del freddo intenso emesso da $n$c0006.~
 $c0014Il freddo che il tuo corpo emette congela $N$c0014.~
 $c0014Il freddo che $n$c0014 emette ti congela!~
-$c0014Lo scudo di freddo di $n$c0014 congela $N$c0014.~
+$c0014L'intenso freddo di $n$c0014 congela $N$c0014.~
 $c0012Provi ad attaccare $N$c0012 col freddo... ma ti si ghiaccia la mano!~
 $c0012$n$c0012 prova ad attaccarti col freddo, ma tu non te ne curi minimamente.~
-$c0012Lo scudo di $n$c0012 non ha alcun effetto su $N$c0012!~
+$c0012Il gelo di $n$c0012 non ha alcun effetto su $N$c0012!~
 M
  324
 $c0011$N$c0011 muore tra atroci dolori, travolto dalla tua immensa energia!~
-$c0011L'energia di $n$c0011 ti colpisce... senti come se stessi per esplodereeeee...~
-$c0011$N $c0009ESPLODE$c0011, colpit$Z a morte dall'energia di $n$c0011!~
-$c0003$N$c0003 schiva il tuo scudo energetico.~
-$c0003$n$c0003 ti attacca con l'energia, ma tu la schivi.~
-$c0003$N$c0003 evita abilmente il riflusso energetico di $n$c0003.~
-$c0011$N$c0011 ti colpisce, ma il tuo scudo energetico l$Z travolge!~
-$c0011Colpisci $n$c0011, ma il suo riflusso energetico ti provoca forte dolore!~
-$c0011$N$c0011 colpisce $n$c0011, ma subisce gli effetti del suo riflusso energetico.~
-$c0008L'energia del tuo scudo non fa neanche il solletico a $N$c0008!~
-$c0008Ignori completamente lo scudo energetico di $n$c0008.~
-$c0008Il riflusso energetico di $n$c0008 non fa neanche il solletico a $N$c0008!~
+$c0011Il fascio di energia di $n$c0011 ti colpisce... ti senti come se stessi per esplodereeeee...~
+$c0011$N $c0015ESPLODE$c0011, colpit$Z a morte dall'energia di $n$c0011!~
+$c0003$N$c0003 schiva il tuo raggio energetico.~
+$c0003$n$c0003 ti attacca con un fascio di pura energia, ma tu la schivi.~
+$c0003$N$c0003 evita abilmente il fascio di energia di $n$c0003.~
+$c0011Osservi $N$c0011 mentre il tuo fascio di energia l$Z travolge!~
+$c0011Il fascio energetico di $n$c0011 ti provoca immenso dolore!~
+$c0011Il fascio energetico di $n$c0011 colpisce in pieno volto $N$c0011!~
+$c0008Il tuo fascio energetico non fa neanche il solletico a $N$c0008!~
+$c0008Ignori completamente il raggio energetico di $n$c0008.~
+$c0008Il fascio energetico di $n$c0008 non fa neanche il solletico a $N$c0008!~
 M
  325
 ~
-$c0001Le tue ferite sono grosse - troppo grosse - muori di sofferenza.~
+$c0001Le tue ferite sono profonde - troppo profonde - muori di sofferenza.~
 $c0001$N$c0001 giace a terra sanguinante, e muore di sofferenza.~
 ~
 $c0001Giaci a terra soffrendo delle tue ferite.~
@@ -786,3 +786,4 @@ $c0004$n$c0004 cerca di pugnalarti, l$z guardi male, e subito cambia idea.~
 $c0004$n$c0004 cerca di pugnalare $N$c0004, ma subito se ne pente.~
 
 $~
+
