@@ -1,4 +1,51 @@
 
+Versione 2.20.25.8 - $c0009AGOSTO 2020 $c0007- Forze della natura/3
+- $c0012Codice$c0007 - Grandi lavori sono stati svolti questo mese!
+- Aggiunta la modalita' di combattimento speciale per migliorare l'accessibilita'
+  per i giocatori non-vedenti e ipovedenti. Per attivare la nuova modalita'
+  bisogna usare il comando SET IPOVEDENTE ENABLE. Per informazioni aggiuntive,
+  leggere la voce HELP SET.
+- Nuovi mestieri: Minatore e Alchimista. Come gia' avvenuto per gli altri mestieri, 
+  le skill sono legate all'ottenimento di Award, tramite il completamento di due
+  miniquest. Per ottenere questi award, visitate l'Accademia dei Sapienti a Midia
+  sud e le miniere dei nani di Gilimdor. Per informazioni aggiuntive, leggere la
+  voce HELP MESTIERI. L'alchimista puo' al momento creare solo oggetti NORENT,
+  in quanto ancora soggetto a bilanciamento.
+- Presso la gabbia si possono svolgere combattimenti tra giocatori PVP, basta 
+  comunicare al custode con i comandi ASK CUSTODE PVP.
+- Sono stati aggiunti molti nuovi mob interattivi, in particolare tra i guildmaster 
+  e i maestri di vario genere. Segnalate eventuali problemi per comportamenti 
+  insoliti o frasi errate.
+- Corretto un problema sui mob negozianti: ora e' possibile acquistare oggetti con 
+  uguale VNUM ma differenti nomi.
+- Bugfix minori e miglioramenti al motore di gioco per supportare delle meccaniche 
+  future in fase di sviluppo.
+- Aggiunti e migliorati alcuni comandi disponibili alle divinita'.
+- $c0012Skill e spell$c0007 - 
+- Correzione dello spell HEALING RAIN: ora castarlo senza eq per riservare meno mana 
+  fara' si che curi di meno. Ora l'incantesimo e' visibile sul pg tramite il comando 
+  LOOK.
+- Gli effetti del sonno e dello svenimento durano due round e non si possono prolungare 
+  fino al passaggio dei due round.
+- Corretto un bug per il quale gli incantesimi ad area dimezzavano il danno ogni volta 
+  che uno tra i mob colpiti passava il tiro salvezza. Tale dimezzamento dei danni era
+  passato anche ai mob successivi colpiti.
+- I barbari possono raccogliere/tenere chiavi anche senza la skill MAGIC RESISTANCE.
+- DODGE: i monaci possono ora evitare anche gli scudi elementali.
+- Ribilanciato il TAN dei conciatori.
+- $c0012Betatesting$c0007 - Gli dei potranno abilitare queste novita' in betatesting:
+- COOLDOWN: i tank monoclasse quando bashano si laggano di 1 round ma non possono 
+  bashare fino al passaggio del secondo round. Per il round in cui non sono laggati, 
+  potranno fare altro (Drain, kick, bind wounds, raccogliere fiori...).
+- Aggiunte alcune skill da fare nei round di cooldown del bash e quando non si e'  
+  impegnati in un combattimento per le classi tank monoclasse.
+- Gli scudi elementali ora assegnano un danno minore per lo spalm massimale che dipende
+  dal livello del mob affrontato. Ogni round pero' lo scudo elementale genera delle 
+  scariche elementali che possono colpire membri casuali del gruppo, anche non
+  impegnati direttamente nel combattimento.
+- I pg di statura normale possono bashare i mob HUGE ma solo con effetti che durano 1 o
+  2 round. Il bash non potra' fare svenire i mob (STUN).
+
 Versione 2.20.1.8 - $c0009AGOSTO 2020 $c0007- Forze della natura/2
 - $c0012Aree$c0007 - Correzioni ad alcune aree:
 - Aggiunte nuove stanze e descrizioni per le quest Loal [by Martinus & Phoenix].
@@ -247,78 +294,4 @@ Versione 2.19.9.1 - $c0009SETTEMBRE 2019 $c0007- Oscuri presagi
 - Alcuni oggetti sono stati modificati, correggendo alcune procedure che non 
   funzionavano. A Monte Rotto alcuni oggetti si scrappano in caso di uscita 
   dalla zona, a causa degli influssi della Warpietra.
-- In alcune zone non e' piu' possibile usare il teleport sia per uscire che per
-  entrare.
-- Oltre a queste sono presenti alcune zone accessibili solo tramite l'intervento
-  degli dei. A loro resta la piena liberta' di renderle accesibili per eventi e quest.
-- $c0012Miniquest$c0007 - Sono state modificate alcune miniquest:
-- TOEWIN: Ora vanno fatti tutti i passaggi della quest. Il premio e' stato migliorato.
-- Alcuni dei questor scompaiono dopo aver dato il premio. In caso di repop andranno
-  ritrovati.
-- Nuovi questor si possono trovare a Midia sud o in giro per l'Impero, ma non sempre.
-  Tale novita' permette che ad ogni boot il gioco possa avere la sua dose di novita'
-  e varieta'.
-- Corretti alcuni bug presenti sui mob. Ora i mob immortali non assistono piu' e i mob
-  di altri mob, funzionano molto meglio e possono essere pericolosi. 
-- Piccole migliorie per rendere la vita piu' semplice a non vedenti e ipovedenti che
-  usano screen reader.
-- Qualche segreto da scoprire: mica dobbiamo proprio svelarvi tutto! :)
-
-Versione 2.19.6.1 - $c0009GIUGNO 2019 $c0007- L'equilibrio delle forze/2
-- $c0012Aree$c0007 - Sono state sistemate alcune aree:
-  NON EROI - Le estensioni del tempio di Midia [Trad. by Nalith] - Sono state inseriti
-  nuovi mob a tema. Ora troverete chierici e sacerdoti devoti agli dei di Midia.
-  L'area e' destinata a PG di livello 8-20.
-- Sono stati tolti i flag RPGboost da Geldor, dal mercato rionale e dalla giungla di
-  Irash. Ora si possono raggiungere tramite portal. I tesori di Geldor ora sono in
-  possesso dei MOB. Nei boschi a sud di Midir e' stato ritrovato uno strano altare.
-- Cindy e Calliope sono state invertite: gli eroi, ormai esperti avventurieri, 
-  potranno facilmente raggiungere la piramide del culto del serpente, dove Cindy e'
-  ora nascosta.
-- Corretti alcuni bug presenti sui mob.
-
-Versione 2.19.5.3 - $c0009MAGGIO 2019 $c0007- L'equilibrio delle forze
-- $c0012Aree$c0007 - Sono state aggiunte delle nuove aree:
-  NON EROI - Il palazzo degli skexie [Trad. by Tyrant] - Sono state riviste 
-  completamente le tre quest della zona, destinate ora ai livelli 20/29, 30/39,
-  40/50. Sono stati aggiunti due oggetti premio a quelli disponibili tramite
-  il sistema di premiazione dell'antico skexie, un vestito e una pozione.
-- Sono state tolte alcune DT dal palazzo degli skexie e una posta tra le montagne 
-  orientali.
-- Sono stati aggiunti dei sigilli in alcuni mob principali delle zone per eroi.
-- $c0012Quest$c0007 - Alcune importanti novita' per le quest dell'Impero Celeste.
-  Cambiano i sistemi di premiazione di alcune quest dell'Impero e il punteggio 
-  PWP richiesto ai PG per accedervi, al fine di garantire una progressione di 
-  gioco migliore e lineare.
-- SKEXIE: le tre sfide sono state modificate e meglio caratterizzate per tutti i
-  NON EROI.
-- ATLANTIDE: ora e' possibile accedervi avendo almeno 200 PWP. Redistribuiti sui MOB
-  i sigilli del premio finale: ora molti nuovi nemici pagano un premio.
-  Rimesso il doppio drop a fine quest e un piccolo premio in karma e sigilli.
-- PORTALI DIMENSIONALI: ora e' possibile accedervi avendo almeno 500 PWP. Aggiunti sui
-  MOB alcuni sigilli a fronte del taglio compiuto nell'ultima versione.
-- LABIRINTO: ora e' possibile accedervi avendo almeno 400 PWP. Aggiunti sui MOB alcuni
-  sigilli.
-- MIDRAASH: Diminuiti i sigilli del forziere finale e ridistribuiti sui MOB. E' stato
-  aggiunto un nuovo mob e un sistema rivisto di trappole random.
-- MONTE ROTTO: Ora la quest paga qualche sigillo in piu'. Abbassato il premio finale e 
-  redistribuiti sui MOB molti sigilli. I MOB principali sono un po' piu' semplici da
-  affrontare, mentre ad alcuni mob secondari sono stati alzati gli HP.
-- MORROWINDL: rivisti al rialzo gli HP di alcuni MOB. Aggiunti alcuni sigilli.
-- DARKENWOOD: Limitato l'ingresso della zona a 1800 pwp. Aggiunti alcuni sigilli.
-- HOEUR: Limitato l'ingresso della zona a 1000 pwp.
-- BLACKMOUTH: Aggiunti alcuni sigilli.
-- $c0012Oggetti$c0007 - Rivisti alcuni degli oggetti presenti nell'area del Mercato rionale
-- E' stato spostato su un MOB di Geldor il randompop dei guanti del potere. A voi il compito
-  di scoprire la sua locazione.
-- $c0012Skill e spell$c0007 - Alcune skill sono in fase di modifica:
-- Rivisto il rapporto tra incantesimi di polymorph e PWP: il tema e' molto delicato e dopo
-  molte discussioni e numerose prove, lo staff e' giunto alla seguente implementazione,
-  che risulta in fase di test fino a considerazioni future.
-- I polymorph avanzati NON UMANOIDI guadagnano bonus HP e DAM in base al PWP del giocatore.
-- I polymorph avanzati UMANOIDI guadagnano bonus HP in base al PWP del giocatore.
-- Aumento generale della forza dei polymorph NON UMANOIDI.
-- I polymorph che permettono guadagni dello SPELLPOWER, concedono l'aumento del valore 
-  rispetto al CAP derivante dall'equipaggiamento del PG, che non maxxera' piu' a 120, ma a
-  120+bonus.
 
