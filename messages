@@ -56,15 +56,15 @@ $c0007Un tuo gesto e' sufficente per trasformare il raggio di $n$c0007 in una fa
 $c0007$N fa un gesto, e l'arcobaleno di $n$c0007 si trasforma in una bellissima farfalla!~
 M
  22
-$c0009$N$c0009 e' dissolt$Z dal potere del $c0015Bene$c0009. Non ne rimane piu' nulla.$c0007~
-$c0009$n$c0009 ti dissolve, ti penti di essere stato cosi' cattiv$Z, e muori...~
-$c0009$n$c0009 invoca il potere del $c0015Bene$c0009 e dissolve $N$c0009 con un gesto!~
-$c0009$N$c0009 non patisce il potere del $c0015Bene$c0007!~
-$c0009$n$c0009 cerca di dissolverti usando la forza del $c0015Bene$c0009, ma senza risultato.~
-$c0009$N$c0009 ride quando $n$c0009 cerca di dissolverl$Z col potere del $c0015Bene$c0007!~
-$c0009$N$c0009 ha un fremito, e soffre della sua malvagita'!~
-$c0009$n$c0009 ti tocca, e tu senti la tua anima soffrire!~
-$c0009$n$c0009 tocca $N$c0009 facendo soffrire il suo spirito malvagio!~
+$c0015$N$c0015 e' dissolt$Z dal potere del $c0014Bene$c0015. Non ne rimane piu' nulla.$c0007~
+$c0015$n$c0015 ti dissolve, ti penti di essere stato cosi' cattiv$Z, e muori...~
+$c0015$n$c0015 invoca il potere del $c0014Bene$c0015 e dissolve $N$c0015 con un gesto!~
+$c0007$N$c0007 non patisce il potere del $c0015Bene$c0007!~
+$c0007$n$c0007 cerca di dissolverti usando la forza del $c0015Bene$c0007, ma senza risultato.~
+$c0007$N$c0007 ride quando $n$c0007 cerca di dissolverl$Z col potere del $c0015Bene$c0007!~
+$c0015$N$c0015 ha un fremito, e soffre della sua malvagita'!~
+$c0015$n$c0015 ti tocca, e senti l'anima soffrire per le tue colpe!~
+$c0015$n$c0015 tocca $N$c0015 facendo soffrire il suo spirito malvagio!~
 $c0001Pensi davvero che abbia qualche effetto su $N?~
 $c0001$n$c0001 ha cercato di usare un dispel evil su di te. Mah...~
 $c0001$n$c0001 e' stupid$z...~
@@ -98,12 +98,12 @@ $c0004Ignori lo stupido tentativo di $n$c0004 di attaccarti con una palla di fuo
 $c0004La palla di fuoco di $n$c0004 punta verso $N$c0004, ma egli chiude gli occhi e questa scompare.~
 M
  27
-$c0005$N$c0009 e' scosso dal potere virulento dell'incantesimo e viene consumat$Z dalle piaghe che consumano il suo corpo.~
+$c0005$N$c0005 e' scosso dal potere virulento dell'incantesimo e viene consumat$Z dalle piaghe che consumano il suo corpo.~
 $c0005Non riesci a contenere il potere dell'incantesimo virulento di $n$c0005, e muori!~
 $c0005$n$c0005 tocca $N$c0005 con una mano. $N$c0005 viene consumat$Z dalle piaghe!~
-$c0008Manchi $N$c0008 col tuo tocco virulento, l'incantesimo e' sprecato.~
-$c0008$n$c0008 ti manca col suo tocco virulento.~
-$c0008$n$c0008 manca $N$c0005 col suo tocco virulento.~
+$c0013Manchi $N$c0013 col tuo tocco virulento, l'incantesimo e' sprecato.~
+$c0013$n$c0008 ti manca col suo tocco virulento.~
+$c0013$n$c0008 manca $N$c0013 col suo tocco virulento.~
 $c0005Concentri il potere nella tua mano, e tocchi $N$c0005 che urla per le piaghe che si formano sul suo corpo.~
 $c0005$n$c0005 ti tocca, e tu vieni paralizzato dal dolore delle piaghe che compaiono sul tuo corpo!~
 $c0005$n$c0005 tocca $N$c0005, che urla forte per il dolore.~
@@ -210,29 +210,29 @@ $c0004$n$c0004 ha cercato di mandarti a terra con una spallata! Che inett$z!~
 $c0004$n$c0004 cerca di caricare $N$c0004 ma inciampa e cade! Che figura!~ 
 M
  55
-$c0013Il tuo incantesimo e' sufficente ad uccidere $N$c0013...~
-$c0013Il tocco di $n$c0013 ti da immenso dolore. Ci mancherai.~
-$c0013Il tocco di $n$c0013 e' abbastanza potente da porre fine ai dolori di $N$c0013.~
-$c0008$N$c0008 evita il tuo tocco.~
-$c0008Eviti il tocco di $n$c0008.~
-$c0008L'incantesimo di $n$c0008 e' sprecato, $N$c0008 evita il colpo.~
-$c0013Tocchi $N$c0013 che rabbrividisce per il dolore.~
-$c0013Il tocco di $n$c0013 ti provoca dolore!~
-$c0013$n$c0013 tocca $N$c0013, che rabbrividisce per il dolore!~
+$c0015Il tuo incantesimo e' sufficente ad uccidere $N$c0015...~
+$c0015Il tocco di $n$c0015 ti da immenso dolore. Ci mancherai.~
+$c0015Il tocco di $n$c0015 e' abbastanza potente da porre fine ai dolori di $N$c0015.~
+$c0007$N$c0007 evita il tuo tocco.~
+$c0007Eviti il tocco di $n$c0007.~
+$c0007L'incantesimo di $n$c0007 e' sprecato, $N$c0007 evita il colpo.~
+$c0015Tocchi $N$c0015 che rabbrividisce per il dolore.~
+$c0015Il tocco di $n$c0015 ti provoca dolore!~
+$c0015$n$c0015 tocca $N$c0015, che rabbrividisce per il dolore!~
 $c0011Ti senti umiliat$z, $N$c0011 disperde il tuo incantesimo senza neanche pensarci.~
 $c0011Sembra che qualcuno abbia cercato di ferirti, mah, che strano...~
 $c0011$N$c0011 non nota neanche l'attacco di $n$c0011.~
 M
  56
-$c0013La potenza del tuo incantesimo uccide brutalmente $N$c0013!~
-$c0013Senti un enorme dolore non appena $n$c0013 ti sfiora. Poi, piu' nulla.~
-$c0013Il tocco di $n$c0013 provoca atroci sofferenze a $N$c0013, che muore per il dolore.~
-$c0008$N$c0008 evita il tuo tocco.~
-$c0008Eviti il tocco di $n$c0008.~
-$c0008L'incantesimo di $n$c0008 va sprecato, $N$c0008 evita il colpo.~
-$c0013Sfiori $N$c0013, che urla per il dolore!~
-$c0013Non appena $n$c0013 ti sfiora, senti il tuo corpo invaso dal dolore!~
-$c0013$N$c0013 urla per il dolore causato dal tocco di $n$c0013!~
+$c0015La potenza del tuo incantesimo uccide brutalmente $N$c0015!~
+$c0015Senti un enorme dolore non appena $n$c0015 ti sfiora. Poi, piu' nulla.~
+$c0015Il tocco di $n$c0015 provoca atroci sofferenze a $N$c0015, che muore per il dolore.~
+$c0007$N$c0008 evita il tuo tocco.~
+$c0007Eviti il tocco di $n$c0007.~
+$c0007L'incantesimo di $n$c0007 va sprecato, $N$c0007 evita il colpo.~
+$c0015Sfiori $N$c0015, che urla per il dolore!~
+$c0015Non appena $n$c0015 ti sfiora, senti il tuo corpo invaso dal dolore!~
+$c0015$N$c0015 urla per il dolore causato dal tocco di $n$c0015!~
 $c0001Ti senti umiliat$z, $N$c0001 trasforma il tuo incantesimo in un cono gelato.~
 $c0001Trasformi l'incantesimo di $n$c0001 in un cono gelato, YUM!~
 $c0001$N$c0001 trasforma l'incantesimo di $n$c0001 in un invitante cono gelato.~
@@ -252,15 +252,15 @@ $c0004Trasformi le fiamme di $n$c0004 in un un gustoso ghiacciolo! Yumm! :)~
 $c0004$N$c0004 transforma le fiamme di $n$c0004 in un ghiacciolo!~
 M
  58
-$c0008$N$c0008 e' dissolt$Z dal potere del $c0009Male$c0008. Non ne rimane piu' nulla.~
-$c0008$n$c0008 ti dossolve, ti penti di essere stato cosi' buon$Z, e muori...~
-$c0008$n$c0008 invoca il potere del $c0009Male$c0008 e dissolve $N$c0008 con un gesto!~
-$c0008$N$c0008 non patisce il potere del $c0009Male$c0008!~
-$c0008$n$c0008 cerca di dissolverti usando la forza del $c0009Male$c0008, ma senza risultato.~
-$c0008$N$c0008 ride quando $n$c0008 cerca di dissolverl$Z col potere del $c0009Male$c0008!~
-$c0008$N$c0008 ha un fremito, e soffre della sua bonta'!~
-$c0008$n$c0008 ti tocca, e tu senti la tua anima soffrire!~
-$c0008$n$c0008 tocca $N$c0008 facendo soffrire il suo spirito buono!~
+$c0005$N$c0005 e' dissolt$Z dal potere del $c0008Male$c0005. Non ne rimane piu' nulla.~
+$c0005$n$c0005 ti dossolve, ti penti di essere stato cosi' buon$Z, e muori...~
+$c0005$n$c0005 invoca il potere del $c0008Male$c0005 e dissolve $N$c0005 con un gesto!~
+$c0013$N$c0013 non patisce il potere del $c0005Male$c0013!~
+$c0013$n$c0013 cerca di dissolverti usando la forza del $c0005Male$c0013, ma senza risultato.~
+$c0013$N$c0013 ride quando $n$c0013 cerca di dissolverl$Z col potere del $c0005Male$c0013!~
+$c0005$N$c0005 ha un fremito, e la sua anima buona soffre!~
+$c0005$n$c0005 ti tocca, e tu senti la tua anima soffrire!~
+$c0005$n$c0005 tocca $N$c0005 facendo soffrire il suo spirito buono!~
 $c0001Pensi davvero che abbia qualche effetto su $N$c0001?~
 $c0001$n$c0001 ha cercato di usare un dispel evil su di te. Mah...~
 $c0001$n$c0001 e' stupid$z...~
@@ -322,43 +322,43 @@ $c0004Crei uno scudo per proteggerti dalla tempesta di ghiaccio di $n$c0004.~
 $c0004$N$c0004 e' immune alla tempesta di ghiaccio di $n$c0004.~
 M
  84
-$c0013La potenza del tuo incantesimo uccide $N$c0013!~
-$c0013Senti un forte dolore non appena $n$c0013 ti sfiora. Poi, piu' nulla.~
-$c0013Il tocco di $n$c0013 provoca un forte fremito a $N$c0013, che muore per il dolore.~
-$c0008$N$c0008 evita il tuo tocco.~
-$c0008Eviti il tocco di $n$c0008.~
-$c0008L'incantesimo di $n$c0013 va sprecato, $N$c0008 evita il colpo.~
-$c0013Sfiori $N$c0013, e gli provochi una fitta di dolore!~
-$c0013Non appena $n$c0013 ti sfiora, senti una fitta di dolore!~
-$c0013Il corpo di $N$c0013 viene scosso dal dolore causato dal tocco di $n$c0013!~
+$c0015La potenza del tuo incantesimo uccide $N$c0015!~
+$c0015Senti un forte dolore non appena $n$c0015 ti sfiora. Poi, piu' nulla.~
+$c0015Il tocco di $n$c0015 provoca un forte fremito a $N$c0015, che muore per il dolore.~
+$c0007$N$c0008 evita il tuo tocco.~
+$c0007Eviti il tocco di $n$c0007.~
+$c0007L'incantesimo di $n$c0007 va sprecato, $N$c0007 evita il colpo.~
+$c0015Sfiori $N$c0015, e gli provochi una fitta di dolore!~
+$c0015Non appena $n$c0015 ti sfiora, senti una fitta di dolore!~
+$c0015Il corpo di $N$c0015 viene scosso dal dolore causato dal tocco di $n$c0015!~
 $c0001Ti senti umiliat$z, $N$c0001 fa un gesto e l'incantesimo ti si ritorce contro.~
 $c0001Fai in modo che l'incantesimo di $n$c0001 torni al mittente!~
 $c0001$N$c0001 ignora l'incantesimo di $n$c0001.~
 M
  112
-$c0008$N$c0008 muore all'istante per il potere della tua parola del $c0015Bene$c0008.~
-$c0008Senti una parola di potere, e muori all'istante.~
-$c0008$N$c0008 ascolta la parola di potere di $n$c0008, e cade a terra mort$Z.~
-$c0008$N$c0008 affronta il potere del $c0015Bene$c0008 senza esserne intaccat$Z.~
-$c0008Rimani indifferente quando $n$c0008 cerca di ucciderti con una parola di potere.~
-$c0008$N$c0008 rimane indifferente alla parola di potere di $n$c0008.~
-$c0008Danneggi $N$c0008 col potere della tua parola.~
-$c0008Ascolti la parole del $c0015Bene$c0008 di $n$c0008. Ti mancano le forze per un'attimo.~
-$c0008$N$c0008 ascolta la parola di potere del $c0015Bene$c0008 di $n$c0008 e quasi sviene.~
+$c0015$N$c0015 muore all'istante per il potere della tua parola del $c0014Bene$c0015.~
+$c0015Senti una parola di potere, e muori all'istante.~
+$c0015$N$c0015 ascolta la parola di potere di $n$c0015, e cade a terra mort$Z.~
+$c0007$N$c0007 affronta il potere del $c0015Bene$c0007 senza esserne intaccat$Z.~
+$c0007Rimani indifferente quando $n$c0007 cerca di ucciderti con una parola di potere.~
+$c0007$N$c0007 rimane indifferente alla parola di potere di $n$c0007.~
+$c0015Danneggi $N$c0015 col potere della tua parola.~
+$c0015Ascolti la parole del $c0014Bene$c0015 di $n$c0015. Ti mancano le forze per un'attimo.~
+$c0015$N$c0015 ascolta la parola di potere del $c0014Bene$c0015 di $n$c0015 e quasi sviene.~
 $c0001$N$c0001 si limita a sorridere quando sente la tua parola di potere.~
 $c0001$n$c0001 mormora una parola di potere. Troppo poco per scalfirti, comunque.~
 $c0001La parola di potere di $n$c0001 riesce solo a far ridere $N$c0001.~
 M
  113
-$c0008$N$c0008 muore all'istante per il potere della tua parola del $c0009Male$c0008.~
-$c0008Senti una parola di potere, e muori all'istante.~
-$c0008$N$c0008 ascolta la parola di potere di $n$c0008, e cade a terra mort$Z.~
-$c0008$N$c0008 affronta il potere del $c0009Male$c0008 senza esserne intaccat$Z.~
-$c0008Rimani indifferente quando $n$c0008 cerca di ucciderti con una parola di potere.~
-$c0008$N$c0008 rimane indifferente alla parola di potere di $n$c0008.~
-$c0008Danneggi $N$c0008 col potere della tua parola.~
-$c0008Ascolti la parole del $c0009Male$c0008 di $n$c0008. Ti mancano le forze per un'attimo.~
-$c0008$N$c0008 ascolta la parola di potere del $c0009Male$c0008 di $n$c0008 e quasi sviene.~
+$c0005$N$c0005 muore all'istante per il potere della tua parola del $c0008Male$c0005.~
+$c0005Senti una parola di potere, e muori all'istante.~
+$c0005$N$c0005 ascolta la parola di potere di $n$c0005, e cade a terra mort$Z.~
+$c0013$N$c0013 affronta il potere del $c0008Male$c0013 senza esserne intaccat$Z.~
+$c0013Rimani indifferente quando $n$c0013 cerca di ucciderti con una parola di potere.~
+$c0013$N$c0013 rimane indifferente alla parola di potere di $n$c0013.~
+$c0005Danneggi $N$c0005 col potere della tua parola.~
+$c0005Ascolti la parole del $c0008Male$c0005 di $n$c0005. Ti mancano le forze per un'attimo.~
+$c0005$N$c0005 ascolta la parola di potere del $c0008Male$c0005 di $n$c0005 e quasi sviene.~
 $c0001$N$c0001 si limita a sorridere quando sente la tua parola di potere.~
 $c0001$n$c0001 mormora una parola di potere. Troppo poco per scalfirti, comunque.~
 $c0001La parola di potere di $n$c0001 riesce solo a far ridere $N$c0001.~
