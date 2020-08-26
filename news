@@ -33,6 +33,8 @@ Versione 2.20.25.8 - $c0009AGOSTO 2020 $c0007- Forze della natura/3
 - I barbari possono raccogliere/tenere chiavi anche senza la skill MAGIC RESISTANCE.
 - DODGE: i monaci possono ora evitare anche gli scudi elementali.
 - Ribilanciato il TAN dei conciatori.
+- Il comando ASSIST non lagga piu' il personaggio che viene assistito. In questo modo
+  e' piu' semplice anche per ipovedenti e nonvedenti partecipare al combattimento.
 - $c0012Betatesting$c0007 - Gli dei potranno abilitare queste novita' in betatesting:
 - COOLDOWN: i tank monoclasse quando bashano si laggano di 1 round ma non possono 
   bashare fino al passaggio del secondo round. Per il round in cui non sono laggati, 
