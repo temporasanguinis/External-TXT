@@ -227,7 +227,7 @@ M
 $c0015La potenza del tuo incantesimo uccide brutalmente $N$c0015!~
 $c0015Senti un enorme dolore non appena $n$c0015 ti sfiora. Poi, piu' nulla.~
 $c0015Il tocco di $n$c0015 provoca atroci sofferenze a $N$c0015, che muore per il dolore.~
-$c0007$N$c0008 evita il tuo tocco.~
+$c0007$N$c0007 evita il tuo tocco.~
 $c0007Eviti il tocco di $n$c0007.~
 $c0007L'incantesimo di $n$c0007 va sprecato, $N$c0007 evita il colpo.~
 $c0015Sfiori $N$c0015, che urla per il dolore!~
@@ -325,7 +325,7 @@ M
 $c0015La potenza del tuo incantesimo uccide $N$c0015!~
 $c0015Senti un forte dolore non appena $n$c0015 ti sfiora. Poi, piu' nulla.~
 $c0015Il tocco di $n$c0015 provoca un forte fremito a $N$c0015, che muore per il dolore.~
-$c0007$N$c0008 evita il tuo tocco.~
+$c0007$N$c0007 evita il tuo tocco.~
 $c0007Eviti il tocco di $n$c0007.~
 $c0007L'incantesimo di $n$c0007 va sprecato, $N$c0007 evita il colpo.~
 $c0015Sfiori $N$c0015, e gli provochi una fitta di dolore!~
