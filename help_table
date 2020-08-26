@@ -3217,6 +3217,9 @@ nemico. Ad ogni attacco, verra'  effettuato un  check  sulla destrezza e
 sull'abilita'  dodge. Se il check ha successo,  il colpo viene schivato.
 Quando il colpo non viene schivato, il dodge permette l'assorbimento del
 danno ricevuto: cio' dipende dal livello del monaco e del ladro.
+Il monaco, essendo esperto  nella difesa  dagli attacchi di ogni genere,
+puo' a volte evitare anche il  danno  generato  dagli  scudi  elementali 
+degli avversari.
 
 Tutte le altre classi: il dodge permette di assorbile 1d3 punti di danno
 dagli  attacchi  portati  a  termine  con  successo dal  nemico. Sarebbe
@@ -3231,9 +3234,9 @@ facciano praticare ancora.
 Il ladro monoclasse, tramite questa abilita',  sfrutta le sue conoscenze
 legate alle trappole e ai sotterfugi. Nel caso in cui finisse  dentro ad 
 una stanza di tipo DEATH TRAP,  avra' la possibilita' di  salvare i vari 
-pezzi del suo equipaggiamento in maniera randomica.
+pezzi del suo equipaggiamento in maniera casuale.
 
-Vedi anche: ABSORB DAMAGE, MONACI, LADRI, AVOID DEATHTRAP
+Vedi anche: ABSORB DAMAGE, MONACI, LADRI, AVOID DEATHTRAP, EVASION
  
 #
 "RETREAT"
@@ -4592,7 +4595,7 @@ l'uso di armi, armature ed oggetti magici in genere.
 
 Per vedere le abilita': PRAC B
 Vedi anche: BERSERK, HIDE, SNEAK, CAMOUFLAGE, FEIGH DEATH, BASH, KICK,
-		SKIN, DISGUISE
+		SKIN, DISGUISE, FURY
 
 #
 GUERRIERO WARRIOR FIGHTER GUERRIERI
@@ -5009,7 +5012,7 @@ Vedi anche: RETREAT, WIMP
 #
 IMPLEMENTOR
 
-Sono gli Dei degli Dei: Martinus, Nalith e Dryden.
+Sono gli Dei degli Dei: Martinus, Nalith, Yffre e Dryden.
 
 Grazie al loro lavoro  e alla loro  passione che l'Impero Celeste
 di Tempora Sanguinis puo' esistere.
@@ -6318,6 +6321,9 @@ $c0010Livello$c0010       : 25 Chierici
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0007 : 35
  
+Il chierico utilizza la magia per consumare il corpo del nemico, toccandolo
+con la sua mano. Il corpo del nemico viene colpito da piaghe e pustole, come
+se fosse soggetto ad una malattia contagiosa.
 Questo spell ha successo solo solo se il caster compie un tiro per colpire
 con esito positivo. Se funziona toglie alla vittima fino a 100 punti ferita
 piu uno per ogni punto spellpower del caster. Il danno di questo incantesimo
