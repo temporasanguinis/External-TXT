@@ -6532,9 +6532,19 @@ verranno sostituiti dal mud con il loro attuale valore.
                    F - scudi elementali  S - sanctuary
                    I - invisibility      T - true sight
                    A - anti magic shell  D - protection from drain
-		   P - polymorph self
-	Per vedere gli scudi elementali nel prompt con il proprio colore
-	bisogna usare %F e %f rispettivamente
+		           P - polymorph self    G - growth
+	  Per vedere gli scudi elementali nel prompt con il proprio colore
+	  bisogna usare %F e %f rispettivamente
+      
+      %l - indica lo stato di reattivita' (lag) (+ oppure -)
+      %gr, resoconto del gruppo (per evitare l'uso continuativo del comando 
+      GROUP, cosi' da poterlo usare su un pannello visibile, e per un futuro 
+      UI nel client ufficiale).
+      
+      Mettendo qualsiasi opzione con ! esclamativo alla fine del codice, 
+      lo manda come entity mxp e non visualizza a schermo. (es.: %H!)
+    
+    
 
 Questi sono alcuni Prompt gia' preparati, e' sufficiente digitare
 'prompt <numero>',  ad esempio 'prompt 9',  per settare  i prompt
