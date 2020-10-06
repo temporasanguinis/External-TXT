@@ -4062,6 +4062,10 @@ sintassi del comando SET e' la seguente:
   timenti, favorendo un minore scroll e migliorando la leggibi_
   lita', rendendo piu' accessibile il gioco anche per coloro
   che usano un sintetizzatore vocale.
+  
+- set PAUSE <enable - disable/off>
+   Permette di impostare il blocco nelle visualizzazioni delle
+   pagine, in modo da permettere una lettura piu' semplice.
 
 Vedi anche: GROUP, GWHO, ORDER, WHOIS, COLORI, EXITS, SEGUACI
  
@@ -6669,7 +6673,7 @@ maniera  automatica, questo  accade generalmente per mob della  stassa
 razza, ma usando ASSIST e' piu' facile buttare giu' nemici anche molto
 grossi.
 
-Vedi anche: RESCUE, KILL
+Vedi anche: RESCUE, KILL, MELEE COMBAT
 
 #
 WHOZONE
@@ -6759,7 +6763,7 @@ un piccolo malus. Inoltre, mentre si sta combattendo usando  BERSERK,
 non  e'  possibile  fuggire dal  combattimento!  Da qui il motto  dei
 barbari: O si vince, o si muore!
 
-Vedi anche: BARBARO
+Vedi anche: BARBARO, MELEE COMBAT
 
 #
 TAN SKIN CONCIATORE
@@ -9041,7 +9045,7 @@ L'absorb damage e' cumulativo, ma gli oggetti con questa  proprieta'
 sono  molto rari!  L'ABSORB DAMAGE  non viene raddoppiato  se si  e'
 sotto l'effetto del SANCTUARY.
 
-Vedi anche: -
+Vedi anche: MELEE COMBAT
 
 #
 RAPPORTI
@@ -9443,7 +9447,7 @@ in ginocchio  per il  trauma,  rimanendo  stordita  per un  round  di
 combattimento,  durante  il  quale  non  potra' usare  incantesimi od
 abilita' particolari.
 
-Vedi anche: ANTIPALADINI
+Vedi anche: ANTIPALADINI, MELEE COMBAT
 
 #
 "DETECT ORIGINAL"
@@ -9785,7 +9789,7 @@ possono effettuarla, quindi non sprecate pratiche inutilmente!
 Il trip non puo' essere effettuato su creature volanti o su creture
 non umanoidi (devono avere le gambe!).
 
-Vedi anche: BASH, YELL
+Vedi anche: BASH, YELL, MELEE COMBAT
 
 #
 DIRTKICK
@@ -9797,7 +9801,7 @@ negli occhi dell'avversario, accecandolo temporaneamente. L'effetto
 sortito sara' una minore efficacia nei  suoi attacchi, ed un  forte
 malus sul suo HITROLL.
 
-Vedi anche: YELL, TRIP
+Vedi anche: YELL, TRIP, MELEE COMBAT
 
 #
 GUILDWHO
@@ -9954,6 +9958,7 @@ Stone skin      - Druidi
 Bloom           - Druidi
 Acid storm      - Maghi, Stregoni
 Monsum Seven    - Stregoni
+Melee Combat    - Tutti a parte Maghi, Stregoni, Psionici e Chierici
 
 $c0009--- Livello 2, 250M xp ----------------------------------------$c0007
 
@@ -10116,7 +10121,7 @@ alcuni attacchi fisici che gli vengono inferti. La pratica porta ad
 una sempre  maggiore efficacia  delle parate,  riducendo in maniera
 significativa i colpi ricevuti.
 
-Vedi anche: SHIELD BLOCK, DODGE
+Vedi anche: SHIELD BLOCK, DODGE, MELEE COMBAT
 
 #
 "SHIELD BLOCK"
@@ -10129,7 +10134,7 @@ fisico che magico, usando il suo scudo, elemento indispensabile per la
 parata. Si migliora sopratutto con la pratica, e riduce notevolmente i
 danni ricevuti. I guerrieri monoclasse hanno un bonus su questa skill.
 
-Vedi anche: DODGE, PARRY
+Vedi anche: DODGE, PARRY, MELEE COMBAT
 
 #
 WATCH
@@ -13610,7 +13615,10 @@ Con questa tecnica si possono trovare dei rari pesci con poteri
 magici, che doneranno bonus a chi li consumera'. Le canne da 
 pesca possono rovinarsi facilmente, se usate con poca attenzione.
 Alcuni pesci o creature trovate possono essere usate per ricette
-alchemiche.
+alchemiche. 
+
+Una volta usata la tecnica in una location, da quel luogo non sara'
+possibile pescare fino al successivo REBOOT.
 
 La skill migliora anche grazie agli attributi CARISMA e SAGGEZZA.
 
@@ -13734,3 +13742,74 @@ Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, MINATORE
 
 #~
 
+#
+"MELEE COMBAT" HEADBUTT ELBOW KNEEHIT CHOKE BATTLECRY
+Skill per: Guerrieri, barbari, ranger, paladini, antipaladini, monaci
+
+Queste abilita' di combattimento possono essere imparate dal custode della Gabbia di
+Gan'har e permettono al giocatore di usare una serie di colpi corpoa corpo speciali.
+I tank monoclasse che apprendono tali tecniche, diventano piu' reattivi,
+acquisendo la possibilita' di ricevere LAG da bash solo per 1 round, ma un COOLDOWN 
+di 2 round. 
+
+$c0009Esempio$c0007
+Marlon usa il bash su Ferlon. Ferlon viene gettato a terra e laggato per 
+due round. Marlon, avendo usato il bash, riceve un round di lag e per un secondo
+round non potra' usare la tecnica del bash, ma solo altre tecniche di
+combattimento.
+
+I colpi che possono essere usati sono:
+
+HEADBUTT - TESTATA:           Il combattente colpisce con la testa l'avversario. 
+                              Puo' causare sanguinamento all'avversario (BLEEDING)
+
+ELBOW - GOMITATA:             Il combattente colpisce con il gomito l'avversario.
+                              Puo' causare una breve paralisi all'avversario.
+                         
+KNEEHIT - GINOCCHIO:          Solo su umanoidi. Il combattente colpisce al ginocchio
+                              l'avversario. Puo' causare un breve rallentamento 
+                              nell'avversario (SLOWNESS).
+
+CHOKE - SOFFOCA:              Solo su nemici laggati e umanoidi. Soffoca la vittima
+                              facendo danno di tipo speciale. Puo' addormentare 
+                              l'avversario (SLEEP).
+
+BATTLECRY - GRIDODIBATTAGLIA: In base alla classe di appartenenza applica dei bonus
+                              di durata variabile ai compagni di gruppo. Il PG viene
+                              laggato.
+
+Queste abilita' speciali possono essere usate anche fuori dal combattimento, senza
+causare la partecipazione alla mischia (un PG fuori combattimento fa danno, ma non 
+viene coinvolto, come accade per gli incantesimi), a meno di non farne gia' parte.
+
+Ogni classe puo' attivare una speciale combinazione che, se eseguita con successo,
+offre la possibilita' di sferrare colpi finali che danneggiano fortemente il nemico
+e lo gettano a terra.
+
+Vedi anche: BASH, KICK, GUERRIERO, BARBARO, MONACO, RANGER, PALADINO, ANTIPALADINO
+
+#
+AFFLIZIONI BLEEDING BURNING CHILLED SHOCKED
+
+Le afflizioni sono particolari stati in cui il personaggio o il MOB si viene a trovare
+a causa degli effetti di danni fisici o magici. L'attivazione di questi stati avviene 
+casualmente a causa di grandi danni subiti, rimanendo attivi per 1 o 2 round
+
+BLEEDING: la vittima comincia a sanguinare copiosamente e perde punti vita. I non morti
+          sono immuni a questa afflizione. Il danno e' di tipo speciale (come accade per
+          l'incantesimo HARM).
+          
+BURNING:  la vittima brucia e perde punti vita per danno di tipo FIRE.
+
+CHILLED:  la vittima viene parzialmente congelato, ricevendo danno di tipo COLD.
+          La vittima manchera' l'avversario con i suoi colpi, essendo rallentata (se non 
+          e' immune al freddo).
+
+SHOCKED:  la vittima viene percorsa da scariche elettriche e danneggiata, aumentando
+          la possibilita' di ricevere danni critici dagli avversari (se non e' immune alla
+          elettricita').
+
+Le afflizioni vengono applicate solo da certe skill e da certi spell. Sono esclusi da questi
+effetti speciali gli incantesimi piu' potenti, come DISINTEGRATE e ACID STORM, al fine di
+favorire l'uso di combinazioni diverse e speciali: scoprite la vostra e scatenate il potere
+che e' in voi!
