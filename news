@@ -13,8 +13,8 @@ Versione 2.20.2.9 - $c0009OTTOBRE 2020 $c0007- Potere e Sapienza
   collaterali alla vittima in casi specifici, di durata variabile (1-2 round).
   Bleeding, Burning, Chilled e Shocked possono essere stati causati da spell
   elementali che fanno un danno considerevole.
-- La pesca ora si può praticare una volta a locazione per boot, con migliori
-  possibilità di buona riuscita.
+- La pesca ora si puo' praticare una volta a locazione per boot, con migliori
+  possibilita' di buona riuscita.
 - Aggiunta la key "ingrediente" agli ingredienti dell'alchimia.
 - I nuovi scudi elementali sono ora impostati come default, avendo superato
   la fase di betatesting. Ora tutti i personaggi in combattimento o fuori dal
@@ -22,7 +22,7 @@ Versione 2.20.2.9 - $c0009OTTOBRE 2020 $c0007- Potere e Sapienza
 - Il profeta errante accetta donazioni di denaro e restituisce delle profezie
   che hanno effetti diversi sul personaggio (piu' e' alta la donazione, maggiori
   sono gli effetti positivi e negativi).
-- Possibilità di ottenere tramite le profezie del profeta errante la comparsa
+- Possibilita' di ottenere tramite le profezie del profeta errante la comparsa
   del "loot goblin", un mob wimpy, che permette di ottenere degli award e porta 
   con se' alcuni tesori.
 - Ulteriori agevolazioni per giocatori non vedenti in fase di creazione del
