@@ -1,4 +1,78 @@
 
+Versione 2.20.7.12 - $c0009DICEMBRE 2020 $c0007- Potere e Sapienza/3
+- $c0012Quest e aree$c0007 - 
+- EROI - La fossa dei Draghi di Azharul [by Auriel]
+- Correzioni ad alcune aree.
+- $c0012Codice$c0007 - 
+- Riadattato il range dei colori PWP, e introdotto un rango sopra ad
+  Eroe Supremo a 9000 PWP: Leggenda.
+- Bilanciamento delle bande create dai conciatori con il comando Tan: 
+  le piu rare ora hanno durata limitata e costo di rent diverso.
+- Ribilanciamento sulla riuscita del mining (si sbaglia meno) e del 
+  fishing (un po meno ingredienti alchemici generati)
+- Consider e Know Monster mostrano approssimativamente anche il dam bonus 
+  del mob oltre ai dadi dei colpi a mani nude.
+- I MU/CL possono ora usare il polymorph "Mindflayer antico" prima riservato
+  ai soli monoclasse, essendo di fatto valutato come un caster puro.
+- Il polyphorm druidico "Unicorno argento" e' ora allineato con il Balor e 
+  e l'Arcangelo, sia come durata che come cooldown
+- Implementata afflizione CORRODED causata da acido: iminuisce absorb damage
+  per 2 round a chi ne viene colpito.  
+- $c0012Bugfix$c0007 - 
+- Le afflizioni vengono ora tolte alla morte del PG e al resu non si 
+  dovrebbe morire per i loro effetti nefasti.
+- Fix per crash causati dai comandi Auction e Users
+- Fix exploits degli spell Dispel good e evil
+
+
+Versione 2.20.7.12 - $c0009NOVEMBRE 2020 $c0007- Potere e Sapienza/2
+- $c0012QAree$c0007 - 
+- Il macchinario di Midia sud accessibile tramite la miniquest ora e' umanoide e non basha 
+  per poter provare nuove skill e combo.
+- Vhal di Midraash ha uno scudo elementale in meno per bilanciarne la difficoltà.
+- La via lattea e' accessibile solo a PG sotto i 1000 PWP.
+- Il Loot goblin comunica ora a mondo quando si teleporta (cosi e possibile trovarlo 
+  se viene aggredito da altri mob)
+- $c0012Codice$c0007 - 
+- Nuovi comandi per capogruppo: "set group tank nomepg", e "set group healer xxx", 
+  visibili nel group, per agevolare i cleric senza trigger
+- cambiamento: groupcheck - ora si puo fare "groupcheck tank" o "groupcheck healer", la 
+  percentuale si puo aggiungere alla fine ("groupcheck tank 50")
+- cambiamento a steal: non si rubano oggetti personali a pg
+- Alcuni oggetti di alchimia ora sono usabili da barbari
+- Aggiunte un paio di ricette alchemiche che non si vedono in lista: bisogna trovare 
+  le ricette che sono state aggiunte su alcuni mob/mercanti nel mud
+- cambiato il sistema di grouping a carisma: ora si potra' sempre gruppare ma la 
+  redditivita' del gruppo cadra se oltre una soglia. La base e' il carisma del 
+  capogruppo, ma puo' essere modificata da certe zone quest e avere malus o bonus. 
+  Verra' mostrata una scritta quando la redditivita' e' sotto al 100%.
+- Le scimmie ora possono usare i mercanti ma con prezzi molto cari
+- Afflizioni: chilled e burning fanno un po' piu' di danno,
+- Bash: introdotto un nuovo gradino nel bash a forza 20: si basha sempre da 2 round.
+- Razze: demone, mezzogigante, arcangelo ora hanno forza 20 e bashano da 2, panda non e' 
+  piu huge e puo' essere growato. I poly da AP e Pa quindi bashano da 2 e Mezzogigante e' 
+  forse una possibile scelta di razza. (Nota: huge non serve piu' per poter bashare, solo 
+  la forza detta il bash). La classe Wa/So ora e' giocabile siccome il demone basha da 2 e memma bene.
+- Humanoid growth e' cambiato: alza la forza di 2, pero' e' raddoppiato il malus in destrezza massimale 
+  (ragione: siccome il flag HUGE non esiste piu' il growth  era solo un malus al bash, 
+  ora invece puo fare arrivare alla soglia del bash da 2 ma cala la destrezza ancor di piu' 
+  per compensare)
+- Le aste ora vengono depositate e si puo vendere merce anche mentre si e' offline 
+  (in fase betatesting attivabile da god)
+- Reso piu' acessibile ai giocatori: le stanze dove spell elementali hanno piu' 
+  (o meno) effetto ora mostrano delle scritte apposite (con colori appositi)
+- $c0012Bugfix$c0007 - 
+- Lo status del Vicecapo rimane anche polando e spolando.
+- mining: risolto un problema di arrotondamento in divisione che forse impediva 
+  ad alcuni pg di ottenere tutte le materie.
+- Il comando WIMPY non aveva implementazione: ora il pg fugge automaticamente se 
+  sotto al 30% di hp e non e' laggato.
+- Fix a possibile crash per affects da polati.
+- Fix di possibile crash in alcuni comandi da immortali.
+- I mob paladini e certi undead non si alzano se incapacitati e non si svegliano 
+  subito se addormentati.
+- I non morti non sanguinano piu'.
+
 Versione 2.20.2.9 - $c0009OTTOBRE 2020 $c0007- Potere e Sapienza
 - Tantissime novita' a partire da questi primi giorni di ottobre:
 - Un nuovo sito, un nuovo webclient, una nuova mappa tutta da scoprire!
@@ -220,113 +294,4 @@ Versione 2.20.18.4 - $c0009APRILE 2020 $c0007- Sangue e gloria
   potenziali TELEPORT e DT a tempo.
 - POISON ha ora effetti aggiuntivi, blocca regen e assegna un danno 
   percentuale.
-- SPRINGLEAP ha ora effetti aggiuntivi tutti da scoprire.
-- Aggiunte nuove weapon spell destinate ai soli monaci, acquisibili con le
-  RUNE.
-- $c0012Bugfix$c0007 - Sono state fatte alcune sistemazioni e revisioni:
-- Risolti alcuni problemi sui polymorph e sul WAKE fatto su pg soggetti
-  a incantesimo SLEEP.
-- Sistemati i moltiplicatori dei negozi soggetti a carisma.
-- $c0012Varie$c0007 - Sono state fatte alcune sistemazioni e revisioni:
-- Entra in fase di test un nuovo sistema di gestione del gruppo: ora sara'
-  possibile avere al massimo un numero di PG in gruppo pari al proprio CARISMA/2.
-  Il valore e' arrotondato per difetto. Gli dei saranno felici di avere un vostro
-  parere per bilanciare al meglio la cosa.
-- Se sono attivi MXP, e' possibile clickare sul nome del PG che vi ha appena 
-  scritto, per attivare la risposta.
-- Ridotto lo spam durante la vestizione del PG dopo incantesimi poliformanti.
-- FIX restituisce il pezzo al giocatore che chiede la riparazione.
-- Inserite procedure di drop delle rune nelle aree quest segnalate dal listino.
-- Il listino delle rune e' stato aggiornato.
-  $c0001DISCLAIMER$c0007: Il listino e' soggetto a modifiche dovute alla
-  fase di test, cosi' come il sistema di premiazione. Ascolteremo i vostri
-  pareri in merito.
-- Altre novita' tutte da scoprire!
 
-
-Versione 2.20.11.1 - $c0009GENNAIO 2020 $c0007- Tra cielo e terra
-- $c0012Quest$c0007 - Sono state rinnovate alcune aree:
-- EROI - Il labirinto tra le nuvole [by Martinus] - La sfida si fa sempre 
-  piu' ardua tra le nuvole, oltre la montagna titanica. Perche' qualcuno
-  ha rapito Derhyn, figlio di Re Dorak? Cosa nascondera' mai la magia del
-  Filatterio? 
-- EROI - Gli abissi di Kaltenland [by Tyrant] - Dopo mesi di lavoro, test 
-  e finiture varie, va online una nuova quest realizzata dal sommo Tyrant.
-  Gli eroi riusciranno ad affrontare la nuova minaccia che viene dal gelido
-  nord?
-- EROI - Il palazzo delle nebbie eterne di Agarhal [by Nalith] - I segreti
-  che nascondono i maghi dell'Ordine di Midia sono ormai divenuti il centro
-  dei dibattiti in molte locande dell'Impero. Quali trame e complotti si
-  costruiscono negli eleganti palazzi della bianca citta'? Qualcuno sostiene
-  che molto sia cambiato nell'Ordine dopo la grande guerra di Gramfell...
-  L'area, nella sua versione temporanea, e' momentaneamente destinata alle
-  quest personali dei candidati Avatar di Nalith.
-- Ribilanciati i mob di RAVENLOFT, ARACHNOS, NAITI E AKIN-RA.
-- $c0012Varie$c0007 - Sono state fatte alcune sistemazioni e revisioni:
-- Per modificare la PASSWORD o accedere alle CONFIGURAZIONE, ora e'
-  richiesto l'uso della lettera maiuscola nel menu' di gioco, per evitare 
-  cambi accidentali.
-- Una strana maledizione interferisce sulle preghiere agli dei: qualcosa sta 
-  per cambiare. Le preghiere pagate con punti KARMA, recall a parte, sono 
-  momentaneamente bloccate da oscuri incantesimi.
-- Aumentate il numero di pozioni nei DONI DEGLI DEI.
-- Ora è possibile derentare armi per DUAL WIELD (armi Hold o Hold/Wield),
-  modificandone anche il dado.
-- Alcuni miniquestor e mob parlanti sono piu' chiari e non necessitano di
-  traduttori.
-- Phoenix sta cominciando a raccogliere i nominativi dei candidati per la
-  prova dei nuovi titoli nobiliari, per coloro che aspirano a diventato 
-  Vassalli dell'Impero: chi vuol essere un LORD OF A LAND?
-- Tante, TANTE, tante procedure speciali dei mob, tutte da scoprire.
-- Ridotto lo spam del WEAR ALL.
-- FIX di alcuni bug e procedure exploitabili.
-- Implementata la O visualizzabile nel prompt per indicare la presenza
-  attiva dello spell DETECT ORIGINAL.
-- Gli AVATAR possono ora approvare i nomi dei nuovi PG.
-- Reso più leggibile l'output del comando OFFER.
-- Ora lo stagno GRIGIO FERRO porta a Deadhame e non piu' ad Arachnos.
-- Nell'Impero Celeste sono stati trovai alcuni oggetti nuovi: le RUNE!
-  Per scoprirne il listino, e' possibile consultare l'help del gioco 
-  con il comando $c0001HELP RUNE$c0007.
-
-Versione 2.19.11.1 - $c0009NOVEMBRE 2019 $c0007- Oscuri presagi/3
-- $c0012Aree$c0007 - Sono state rinnovate alcune aree:
-  NON EROI - Il vulcano White Plume [Trad. by Tyrant] - La zona e' stata ampliata,
-  corretta e rivista. Ora e' destinata a gruppi di livello 40/50.
-- $c0012Quest$c0007 - Sono state rinnovate alcune aree:
-  EROI - La piramide di Akin-Ra [Trad. by Tyrant] - La zona ora e' una 
-  quest destinata agli eroi. Per iniziare la sfida, bisogna cercare un vecchio
-  nomade nell'oasi del grande deserto dell'est.
-- $c0012Varie$c0007 - Sono state fatte alcune sistemazioni e revisioni:
-- Inserito l'incantesimo di HUMANOID GROWTH nel prompt di chi ha lo spell attivo.
-- Ora le porte che hanno comandi speciali di apertura si chiudono ugualmente con
-  il comando "CLOSE".
-- Corretti gli zombie di Ravenloft: ora si moltiplicano come un tempo.
-- Ricominciato lo sviluppo del programma TSKREATOR per la creazione delle
-  aree (by Auriel, Martinus e Otacon) ed e' stato pubblicata una nuova versione
-  corretta.
-- Implementate alcune nuove procedure utilizzabili dagli immortali per le quest
-  e nuove procedure speciali per mob, oggetti e room.
-    
-Versione 2.19.9.2 - $c0009OTTOBRE 2019 $c0007- Oscuri presagi/2
-- $c0012Varie$c0007 - Sono state fatte alcune sistemazioni:
-- Corretti alcuni bug e moltissimi typo segnalati.
-- Ricalibrati alcuni mob presenti nelle nuove aree.
-- Ad Arachnos sono state sistemate le stanze delle uova di ragno:
-  ora sono meno penalizzanti. Seguiranno comunque alcune revisioni
-  per bilanciare meglio l'area a seguito dei feedback.
-  L'area e' e rimarra' orientata ad offrire sfide per PG di alto livello.
-- Alcune aree quest non sono piu' raggiungibili di teleport, anche per evitare
-  tristi conseguenze con morti in zone non raggiungibili.
-- Assegnati dei malus ai save-all dei mob presso la quest per
-  NEO-EROI de "le dodici case". Ora saranno piu' accessibili per
-  i PG che vorranno affrontarle al giusto livello, con molte chicche
-  ancora da scoprire.
-- Inseriti 3 nuovi miniquestor: Garamin (EROI), Artafet (EROI) e Yuran (NON EROI).
-- Si segnala che l'area dei draconiani e' momentaneamente slinkata:
-  avrete presto notizie in merito, non dubitate.
-- Un messaggio segnala la presenza in INVENTARIO degli oggetti che si rompono in 
-  caso di uscita dall'area: fate attenzione.
-- Aggiunti alcuni comandi per rendere la vita piu' semplici agli immortali e per 
-  la gestione dei refund.
-  
