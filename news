@@ -2,21 +2,21 @@
 Versione 2.20.7.12 - $c0009DICEMBRE 2020 $c0007- Potere e Sapienza/3
 - $c0012Quest e aree$c0007 - 
 - EROI - La fossa dei Draghi di Azharul [by Auriel]
-- Correzioni ad alcune aree.
+- Correzioni minori ad alcune aree.
 - $c0012Codice$c0007 - 
-- Riadattato il range dei colori PWP, e introdotto un rango sopra ad
-  Eroe Supremo a 9000 PWP: Leggenda.
-- Bilanciamento delle bande create dai conciatori con il comando Tan: 
+- Riadattato il range dei colori PWP, e introdotto un rango superiore ad
+  Eroe Supremo che necessita di un punteggio di 9000 PWP: Leggenda.
+- Bilanciamento delle bande create dai conciatori con il comando TAN: 
   le piu rare ora hanno durata limitata e costo di rent diverso.
-- Ribilanciamento sulla riuscita del mining (si sbaglia meno) e del 
-  fishing (un po meno ingredienti alchemici generati)
+- Ribilanciamento sulla riuscita del MINE (si sbaglia meno) e del 
+  FISH (un po' meno ingredienti alchemici generati)
 - Consider e Know Monster mostrano approssimativamente anche il dam bonus 
   del mob oltre ai dadi dei colpi a mani nude.
 - I MU/CL possono ora usare il polymorph "Mindflayer antico" prima riservato
   ai soli monoclasse, essendo di fatto valutato come un caster puro.
 - Il polyphorm druidico "Unicorno argento" e' ora allineato con il Balor e 
   e l'Arcangelo, sia come durata che come cooldown
-- Implementata afflizione CORRODED causata da acido: iminuisce absorb damage
+- Implementata afflizione CORRODED causata da acido: diminuisce absorb damage
   per 2 round a chi ne viene colpito.  
 - $c0012Bugfix$c0007 - 
 - Le afflizioni vengono ora tolte alla morte del PG e al resu non si 
@@ -29,38 +29,39 @@ Versione 2.20.7.12 - $c0009NOVEMBRE 2020 $c0007- Potere e Sapienza/2
 - $c0012QAree$c0007 - 
 - Il macchinario di Midia sud accessibile tramite la miniquest ora e' umanoide e non basha 
   per poter provare nuove skill e combo.
-- Vhal di Midraash ha uno scudo elementale in meno per bilanciarne la difficolt√†.
+- Vhal di Midraash ha uno scudo elementale in meno per bilanciarne la difficolt‡.
 - La via lattea e' accessibile solo a PG sotto i 1000 PWP.
-- Il Loot goblin comunica ora a mondo quando si teleporta (cosi e possibile trovarlo 
+- Il Loot goblin annuncia ora quando si teleporta (cosi' e possibile trovarlo 
   se viene aggredito da altri mob)
 - $c0012Codice$c0007 - 
-- Nuovi comandi per capogruppo: "set group tank nomepg", e "set group healer xxx", 
-  visibili nel group, per agevolare i cleric senza trigger
-- cambiamento: groupcheck - ora si puo fare "groupcheck tank" o "groupcheck healer", la 
-  percentuale si puo aggiungere alla fine ("groupcheck tank 50")
-- cambiamento a steal: non si rubano oggetti personali a pg
-- Alcuni oggetti di alchimia ora sono usabili da barbari
-- Aggiunte un paio di ricette alchemiche che non si vedono in lista: bisogna trovare 
-  le ricette che sono state aggiunte su alcuni mob/mercanti nel mud
-- cambiato il sistema di grouping a carisma: ora si potra' sempre gruppare ma la 
-  redditivita' del gruppo cadra se oltre una soglia. La base e' il carisma del 
-  capogruppo, ma puo' essere modificata da certe zone quest e avere malus o bonus. 
-  Verra' mostrata una scritta quando la redditivita' e' sotto al 100%.
+- Nuovi comandi per capogruppo: "SET GROUP TANK NOMEPG", e "SET GROUP HEALER NOMEPG", 
+  visibili nel group, per agevolare i chierici senza trigger
+- Il groupcheck ora ha piu' opzioni: scrivendo "GROUPCHECK TANK" o "GROUPCHECK HEALER", la 
+  percentuale si puo aggiungere alla fine (per esempio"GROUPCHECK TANK 50")
+- STEAL non permette di rubare oggetti personali ai pg
+- Alcuni oggetti creati tramite Alchimia ora sono usabili da barbari
+- Aggiunte un paio di ricette alchemiche segrete: bisogna trovare 
+  le ricette che sono state aggiunte su alcuni mob/mercanti dell'impero
+- cambiato il sistema di GROUP basato sul carisma: ora si potra' sempre unirsi ai gruppi 
+  ma la redditivita' del gruppo diminuira' oltre una certa soglia. La base di partenza 
+  rimani il carisma del capogruppo, ma puo' essere modificata da certe zone quest e avere 
+  malus o bonus. Verra' mostrata una scritta quando la redditivita' e' sotto al 100%.
 - Le scimmie ora possono usare i mercanti ma con prezzi molto cari
-- Afflizioni: chilled e burning fanno un po' piu' di danno,
-- Bash: introdotto un nuovo gradino nel bash a forza 20: si basha sempre da 2 round.
-- Razze: demone, mezzogigante, arcangelo ora hanno forza 20 e bashano da 2, panda non e' 
-  piu huge e puo' essere growato. I poly da AP e Pa quindi bashano da 2 e Mezzogigante e' 
-  forse una possibile scelta di razza. (Nota: huge non serve piu' per poter bashare, solo 
-  la forza detta il bash). La classe Wa/So ora e' giocabile siccome il demone basha da 2 e memma bene.
-- Humanoid growth e' cambiato: alza la forza di 2, pero' e' raddoppiato il malus in destrezza massimale 
-  (ragione: siccome il flag HUGE non esiste piu' il growth  era solo un malus al bash, 
-  ora invece puo fare arrivare alla soglia del bash da 2 ma cala la destrezza ancor di piu' 
-  per compensare)
-- Le aste ora vengono depositate e si puo vendere merce anche mentre si e' offline 
+- CHILLED e BURNING fanno un po' piu' di danno,
+- Introdotto un nuovo livello di BASH per pg e mob con forza 20: si basha sempre da 2 round.
+- Demoni, mezzogiganti e arcangeli ora hanno forza 20 e bashano da 2, i panda non sono 
+  piu huge e possono essere oggetto di incantesimo Humanoid Growth. I poly da AP e Pa quindi 
+  bashano da 2 e Mezzogigante diventa una possibile scelta di razza. Nota: essere huge non 
+  serve piu' per poter bashare, solo la forza detta il bash. La classe WA/SO ora e' giocabile 
+  siccome il demone basha da 2 e puo' memorizzare gli incantesimi bene.
+- Humanoid growth e' cambiato: alza la forza di 2, ma raddoppia il malus in destrezza massimale 
+  (siccome il flag HUGE non esiste piu' il growth  diventava solo un malus al bash, 
+  ora invece puo fare arrivare alla soglia del bash da 2 diminuendo la destrezza ancor di piu' 
+  per compensare l'aggiunta)
+- Le aste ora vengono depositate e si puo vendere la merce anche mentre si e' offline 
   (in fase betatesting attivabile da god)
-- Reso piu' acessibile ai giocatori: le stanze dove spell elementali hanno piu' 
-  (o meno) effetto ora mostrano delle scritte apposite (con colori appositi)
+- Le stanze dove spell elementali hanno piu' o meno effetto ora mostrano delle scritte 
+  apposite e colori che richiamano l'elemento specifico.
 - $c0012Bugfix$c0007 - 
 - Lo status del Vicecapo rimane anche polando e spolando.
 - mining: risolto un problema di arrotondamento in divisione che forse impediva 
