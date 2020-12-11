@@ -656,7 +656,7 @@ $c0010Livello$c0010    Dignita'          Colore usato nel comando who
   funzione anche  dell'allineamento:  non sono  riportate qui per
   brevita', ma e' possibile vederle con HELP IMMLIST e GODLIST.
   
-Vedi anche: LEVELS, FRIGHTEN, EROI
+Vedi anche: LEVELS, FRIGHTEN, EROI, WHO
 
 #
 MAPPA MONDO "MAPPA MONDO"
@@ -3982,7 +3982,29 @@ visualizzera' tutti i nomi dei giocatori che cominciano con <men>,
 come Menion, Mendoza, Mentor, Mentecatto, Menmeno (anche se alcuni
 di questi nomi non verrebbero mai approvati!).
 
-Vedi anche: GWHO, WHOIS
+$c0009Il colore del livello del personaggio dipende dal PWP:$c0007
+
+Non eroi o eroi fino a 200 pwp:   07 - Grigio 
+
+Eroi:
+- Lord/lady da 201 a 600 pwp:     06 - Azzurro ciano scuro
+- Lord/lady da 601 a 1200 pwp:    04 - Blu scuro
+- Lord/lady da 1201 a 2000 pwp:   03 - Marrone
+
+Eroi Supremi:
+- Lord/lady da 2001 a 3000 pwp:   02 - Verde scuro
+- Lord/lady da 3001 a 4200 pwp:   01 - Rosso scuro
+- Lord/lady da 4201 a 5600 pwp:   08 - Grigio scuro (nero)
+- Lord/lady da 5601 a 7200 pwp:   14 - Azzurro ciano chiaro
+- Lord/lady da 7201 a 9000 pwp:   12 - Blu chiaro
+
+Leggende:
+- Lord/lady da 9001 a 11000 pwp:   11 - Giallo
+- Lord/lady da 11001 a 13000 pwp:  10 - Verde chiaro
+- Lord/lady da 13001 a 15000 pwp:  09 - Rosso chiaro
+- Lord/lady da 15001+ pwp:         15 - Bianco
+
+Vedi anche: GWHO, WHOIS, DIGNITY
 
 #
 GWHO
@@ -13830,6 +13852,10 @@ CHILLED:  la vittima viene parzialmente congelato, ricevendo danno di tipo COLD.
 SHOCKED:  la vittima viene percorsa da scariche elettriche e danneggiata, aumentando
           la possibilita' di ricevere danni critici dagli avversari (se non e' immune alla
           elettricita').
+          
+CORRODED: la vittima viene ricoperta da liquidi acidi che ne consumano il corpo e le vesti,
+          diminuendo l'absorb damage per due round di combattimento (se non e' immune 
+          all'acido)
 
 Le afflizioni vengono applicate solo da certe skill e da certi spell. Sono esclusi da questi
 effetti speciali gli incantesimi piu' potenti, come DISINTEGRATE e ACID STORM, al fine di
