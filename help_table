@@ -797,11 +797,31 @@ giocatori, dando il comando GROUP seguito dal nome di un giocatore che si
 intende fare entrare nel gruppo, e cosi' via per tutti gli altri.
 
 Per cacciare una persona da un gruppo, il Capogruppo deve dare il comando
-GROUP seguito dal nome del  giocatore in questione.  Questo ,se gruppato,
+GROUP seguito dal nome del  giocatore in questione.  Questo, se gruppato,
 verra' espulso dal gruppo.
 
-Il Capogruppo puo'  anche scegliere  il nome del gruppo  (SET GROUP NAME) e
-in certi casi, dare ordini ai suoi 'seguaci' (SET GROUP ORDER) (vedi help).
+$c0009Comandi speciali del Capogruppo: $c0007
+
+- SET GROUP NAME [nome scelto]: permette di assegnare un nuovo nome al
+  gruppo.
+- SET GROUP TANK [nomepg]: permette di definire il tank del gruppo.
+- SET GROUP HEALER [nomepg]: permette di definire il curatore del gruppo.
+- ORDER [nomepg] [azione da compiere]: quando un PG permette al capogruppo
+  di comandarlo (attraverso il comando SET GROUP ORDER ENABLE), il capogruppo 
+  potra' fargli svolgere delle azioni a un PG o a un MOB seguace.
+
+E' possibile vedere i ruoli assegnati tramite il comando GROUP, che restituira'
+anche gli spell attivi e le percentuali di HP, MANA e MOV dei PG.
+
+Il primo personaggio aggiunto al gruppo, ne diventera' vicecapo. Alla
+morte del capogruppo ne prendera' il posto.
+
+Per quanto riguarda la spartizione dei sigilli tra personaggi, la 
+redditivita' del gruppo diminuira' all'aumentare dei PG in gruppo oltre
+una certa soglia. 
+La base di partenza rimane il carisma del capogruppo, ma puo' essere 
+modificata da certe zone quest e avere malus o bonus. Verra' mostrata 
+una scritta quando la redditivita' e' sotto al 100%.
 
 Il gruppo e' molto  utile per  attaccare mobs  molto grossi e potenti, 
 inuccidibili da un singolo personaggio.  L'esperienza derivata da ogni
@@ -816,7 +836,7 @@ al momento del colpo finale.
 
 Ci sono alcune novita' introdotte per incoraggiare il gruppaggio:
 1) il Capogruppo prende il 5% di xp bonus su mob per ogni pc nel suo gruppo.
-2) i 'seguaci' prendono il 3% di xp in piu' (per ogni pc).
+2) i 'seguaci' prendono il 3% di xp in piu' (per ogni pG).
 
 Esempio di gruppaggio:
 
@@ -836,7 +856,7 @@ lo vuole cacciare dal suo gruppo:
 Gabriel : "group Logan"
 (Logan viene cacciato dal gruppo)
 
-In definitiva. l'effetto del comando 'group' e':
+In definitiva. l'effetto del comando 'group' seguito dal nome di un PG e':
 - Includere nel gruppo un pg CHE STA FOLLANDO CHI LO VUOL GRUPPARE, se il
 pg non e' gia' nel gruppo.
 - Cacciare dal gruppo un pg (che cmq continuera' a follare il capogruppo),
@@ -845,7 +865,7 @@ se il pg e' gia' nel gruppo.
 NOTA: Tempora Sanguinis permette come alternativa al gruppo la formazione,
 scrivi HELP FORMAZIONI per saperne di piu'.
 
-Vedi anche: SET GROUP NAME, SET GROUP ORDER, XP EXPERIENCE, FORMAZIONI
+Vedi anche: SET GROUP NAME, SET GROUP ORDER, XP EXPERIENCE, FORMAZIONI, GROUPCHECK
 
 #
 REGOLE
@@ -12863,7 +12883,11 @@ GROUPCHECK GC
 
 Questo comando permette di vedere lo stato dei pg gruppati che sono al di
 sotto di una certa percentuale di hp. Ad esempio per vedere lo stato dei
-soli pg al di sotto del 70% del loro hp basta scrivere groupcheck 70.
+soli pg al di sotto del 70% del loro hp basta scrivere GROUPCHECK 70.
+
+Scrivendo "GROUPCHECK TANK" o "GROUPCHECK HEALER" verranno date informazioni
+sui PG che ricoprono quel ruolo nel gruppo, alla fine del comando puo' essere
+aggiunta una percentuale (per esempio"GROUPCHECK TANK 50")
 
 Vedi anche: GROUP
 
