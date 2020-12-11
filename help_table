@@ -12963,7 +12963,7 @@ elementale	35D!*	Elementale fuoco	Fireshield, lancia incantesimi
 nero		36	Drago nero		Soffio acido
 roo		38*	Cacciatore roo		hide sneak true sight bonus hit e dam
 beholder	40E!	Beholder		Beholder, lancia incantesimi
-antico		40M!*	Mindflayer antico	Lancia incantesimi, 30 spellpower
+antico		40MC!*	Mindflayer antico	Lancia incantesimi, 30 spellpower
 crioidra	41G	Crioidra		Soffio di ghiaccio
 piroidra	41E	Piroidra		Soffio di fuoco
 rani		42*	Rakshasa rani		3 attacchi, bonus hit e dam
@@ -13000,6 +13000,8 @@ personaggi di allineamento buono(G), neutrale(N) o malvagio(E)
 La sigla M indica che il polymorph e' utilizzabile solo dai personaggi
 maghi o stregoni monoclasse, la sigla D indica tutti i personaggi di
 classe non chierico.
+La sigla MC indica che il polymorph e' utilizzabile solo dai personaggi
+maghi o stregoni monoclasse o da biclassi Mu/Cl o So/Cl
 Le razze contrassegnate da * sono umanoidi.
 Le razze contrassegnate da ** si vestono ma non possono castare.
 Le razze contrassegnate da ! lanciano incantesimi automaticamente.
