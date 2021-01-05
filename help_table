@@ -13835,7 +13835,7 @@ e lo gettano a terra.
 Vedi anche: BASH, KICK, GUERRIERO, BARBARO, MONACO, RANGER, PALADINO, ANTIPALADINO
 
 #
-AFFLIZIONI BLEEDING BURNING CHILLED SHOCKED
+AFFLIZIONI BLEEDING BURNING CHILLED SHOCKED CORRODED
 
 Le afflizioni sono particolari stati in cui il personaggio o il MOB si viene a trovare
 a causa degli effetti di danni fisici o magici. L'attivazione di questi stati avviene 
@@ -13847,9 +13847,10 @@ BLEEDING: la vittima comincia a sanguinare copiosamente e perde punti vita. I no
           
 BURNING:  la vittima brucia e perde punti vita per danno di tipo FIRE.
 
-CHILLED:  la vittima viene parzialmente congelato, ricevendo danno di tipo COLD.
+CHILLED:  la vittima viene parzialmente congelata, ricevendo danno di tipo COLD.
           La vittima manchera' l'avversario con i suoi colpi, essendo rallentata (se non 
-          e' immune al freddo).
+          e' immune al freddo). Questa afflizione puo' causare nella vittima l'impossibilita' di 
+          utilizzare all'inizio del round di combattimento una sua procedura speciale.
 
 SHOCKED:  la vittima viene percorsa da scariche elettriche e danneggiata, aumentando
           la possibilita' di ricevere danni critici dagli avversari (se non e' immune alla
