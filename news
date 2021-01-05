@@ -2,6 +2,23 @@
 Versione 2.20.7.12 - $c0009DICEMBRE 2020 $c0007- Potere e Sapienza/3
 - $c0012Quest e aree$c0007 - 
 - EROI - La fossa dei Draghi di Azharul [by Auriel]
+  La terra devastata dalla guerra dei Draghi, vede come salvezza 
+  l’arrivo degli eroi dell’Impero Celeste per aiutare i Dov contro 
+  il Divoratore di Mondi.
+  $c0011Nuova Abilità:$c0007
+  • Urlo del drago
+  $c0011Nuove Quest:$c0007
+  • La gilda dei ladri
+  • L’albero morente
+  • L’avventuriero
+  • La guerra dei Draghi
+  $c0011Nuova meccaniche:$c0007
+  • Ingresso Dungeon procedurale
+  • Incontri Casuali
+  $c0011Nuovi Vendor:$c0007
+  • Il venditore di Skooma
+  • Aurelia la Maga
+  • Trattore il Cartografo
 - Correzioni minori ad alcune aree.
 - $c0012Codice$c0007 - 
 - Riadattato il range dei colori PWP, e introdotto un rango superiore ad
@@ -29,7 +46,7 @@ Versione 2.20.7.12 - $c0009NOVEMBRE 2020 $c0007- Potere e Sapienza/2
 - $c0012QAree$c0007 - 
 - Il macchinario di Midia sud accessibile tramite la miniquest ora e' umanoide e non basha 
   per poter provare nuove skill e combo.
-- Vhal di Midraash ha uno scudo elementale in meno per bilanciarne la difficolt�.
+- Vhal di Midraash ha uno scudo elementale in meno per bilanciarne la difficolt�.
 - La via lattea e' accessibile solo a PG sotto i 1000 PWP.
 - Il Loot goblin annuncia ora quando si teleporta (cosi' e possibile trovarlo 
   se viene aggredito da altri mob)
@@ -255,44 +272,5 @@ Versione 2.20.2.6 - $c0009GIUGNO 2020 $c0007- L'oscuro signore
 - Tolto spam da un alcuni oggetti procedurali.
 
 
-Versione 2.20.18.4 - $c0009APRILE 2020 $c0007- Sangue e gloria
-- $c0012Quest$c0007 - Sono state rinnovate alcune aree:
-- LOAL - Le terre nascoste [by Martinus & Phoenix] - Va online il 
-  nuovo sistema per la gestione delle quest per diventare LORD OF A LAND!
-  Per informazioni sul funzionamento e la lista d'attesa, consultare il
-  divino Phoenix.
-- EROI - La citta' oscura di Menzoberranzan [by Tyrant] - La dea Lloth
-  sembra essere pronta per invadere il Sopramondo, rinvigorita dal potere
-  dei suoi seguaci. Chi potra' fermarla?
-- PVP - La gabbia dei combattimenti di Gan'har [by Auriel & Nalith] - La
-  gabbia e' un luogo in cui e' possibile svolgere sfide a squadre o in 
-  solitaria. L'obiettivo e' accumulare piu' punti possibili e vincere la
-  sfida, guadagnando lauti premi. Chi riuscira' a scalare la classifica
-  divisa in categorie e ottenere gloria e onore?
-- $c0012Aree$c0007 - Sono state rinnovate alcune aree:  
-- PER TUTTI - Il regno dei nani di Gilimdor [Trad. by Nalith] 
-- EROI - La citta' costiera di Rhila [by Nalith]
-- Piccole modifiche e correzioni a varie aree. Nuove procedure a MONTEROTTO.
-- $c0012Miniquestor$c0007 - Aggiunti alcuni miniquestor:
-- EOWARION e' stato molto migliorato e reso piu' semplice. Provatelo e
-  dateci un vostro feedback.
-- MERRIL GHULIAN e' un vecchio minatore del villaggio di Basant. Ora
-  e' sempre alla ricerca di pepite d'oro e delle preziose gemme di Vilintar.
-  Cercalo oltre le colline rocciose, lungo l'antica via che porta a 
-  New Thalos.
-- BURO IL CONTRABBANDIERE cerca qualcuno che possa aiutarlo con i suoi
-  sporchi affari. Cercalo presso il villaggio di Kalivirem.
-- YELAR LA SACERDOTESSA DI VILIRTAN compie riti segreti presso l'altare
-  del tempio rosso a Dumilor. Forse puoi offrire anche tu qualcosa al
-  dio dei nani... Con quale altro nome e' conosciuto presso gli uomini?
-- VANAREL LA SACERDOTESSA ha un passato misterioso e una missione per
-  coloro che vogliono diventare avatar di Nalith. Quali segreti si
-  nasconderanno a Rhila? Cosa vuole nascondere l'Ordine dei maghi di Midia?
-- $c0012Spell$c0007 - Sono state fatte alcune sistemazioni e revisioni:
-- REVERSION ora lagga solo un round. Costo in mana dimezzato se viene
-  lanciato su mob di livello inferiore.
-- PSIONIC DANGER SENSE ora rivela la presenza nella stanza osservata di
-  potenziali TELEPORT e DT a tempo.
-- POISON ha ora effetti aggiuntivi, blocca regen e assegna un danno 
-  percentuale.
+
 
