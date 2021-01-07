@@ -3,22 +3,22 @@ Versione 2.20.7.12 - $c0009DICEMBRE 2020 $c0007- Potere e Sapienza/3
 - $c0012Quest e aree$c0007 - 
 - EROI - La fossa dei Draghi di Azharul [by Auriel]
   La terra devastata dalla guerra dei Draghi, vede come salvezza 
-  l’arrivo degli eroi dell’Impero Celeste per aiutare i Dov contro 
+  l’arrivo degli eroi dell'Impero Celeste per aiutare i Dov contro 
   il Divoratore di Mondi.
-  $c0011Nuova Abilità:$c0007
-  • Urlo del drago
+  $c0011Nuova Abilita':$c0007
+  - Urlo del drago
   $c0011Nuove Quest:$c0007
-  • La gilda dei ladri
-  • L’albero morente
-  • L’avventuriero
-  • La guerra dei Draghi
+  - La gilda dei ladri
+  - L’albero morente
+  - L’avventuriero
+  - La guerra dei Draghi
   $c0011Nuova meccaniche:$c0007
-  • Ingresso Dungeon procedurale
-  • Incontri Casuali
+  - Ingresso Dungeon procedurale
+  - Incontri Casuali
   $c0011Nuovi Vendor:$c0007
-  • Il venditore di Skooma
-  • Aurelia la Maga
-  • Trattore il Cartografo
+  - Il venditore di Skooma
+  - Aurelia la Maga
+  - Trattore il Cartografo
 - Correzioni minori ad alcune aree.
 - $c0012Codice$c0007 - 
 - Riadattato il range dei colori PWP, e introdotto un rango superiore ad
@@ -46,7 +46,7 @@ Versione 2.20.7.12 - $c0009NOVEMBRE 2020 $c0007- Potere e Sapienza/2
 - $c0012QAree$c0007 - 
 - Il macchinario di Midia sud accessibile tramite la miniquest ora e' umanoide e non basha 
   per poter provare nuove skill e combo.
-- Vhal di Midraash ha uno scudo elementale in meno per bilanciarne la difficolt�.
+- Vhal di Midraash ha uno scudo elementale in meno per bilanciarne la difficolta'.
 - La via lattea e' accessibile solo a PG sotto i 1000 PWP.
 - Il Loot goblin annuncia ora quando si teleporta (cosi' e possibile trovarlo 
   se viene aggredito da altri mob)
