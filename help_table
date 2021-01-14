@@ -5150,6 +5150,9 @@ Questi maestri sono: Freccia d'oro, il cacciatore, il  maestro  Ninja,
 il maestro dei monaci Lee,  il  Marinaio  di  Midia  e  la  venerabile 
 Maestra.
 
+Puoi acquistare delle mappe a Midia Sud con le indicazioni per 
+raggiungere i vari maestri.
+
 
 Vedi anche: PRACTICE, GAIN
 
@@ -6545,7 +6548,7 @@ Attento! Al contrario del GOSSIP, il comando HEROGOSSIP non e' limitato
 alla tua zona, ma ha effetto in tutto il mondo.
  
 Vedi anche: GOSSIP, SHOUT, AUCTION, NOHEROGOSSIP, NOGOSSIP, NOAUCTION.
-		DEAFEN, NOOT
+		    DEAFEN, NOOT
 
 #
 PROMPT
@@ -13832,7 +13835,8 @@ Ogni classe puo' attivare una speciale combinazione che, se eseguita con success
 offre la possibilita' di sferrare colpi finali che danneggiano fortemente il nemico
 e lo gettano a terra.
 
-Vedi anche: BASH, KICK, GUERRIERO, BARBARO, MONACO, RANGER, PALADINO, ANTIPALADINO
+Vedi anche: BASH, KICK, GUERRIERO, BARBARO, MONACO, RANGER, PALADINO, ANTIPALADINO, LAG,
+            COOLDOWN
 
 #
 AFFLIZIONI BLEEDING BURNING CHILLED SHOCKED CORRODED
@@ -13846,6 +13850,8 @@ BLEEDING: la vittima comincia a sanguinare copiosamente e perde punti vita. I no
           l'incantesimo HARM).
           
 BURNING:  la vittima brucia e perde punti vita per danno di tipo FIRE.
+          Se la vittima utilizza la magia, puo' perdere la concentrazione con maggior
+          facilita', rimanendo al 30% impossibilitato a lanciare incantesimi.
 
 CHILLED:  la vittima viene parzialmente congelata, ricevendo danno di tipo COLD.
           La vittima manchera' l'avversario con i suoi colpi, essendo rallentata (se non 
@@ -13864,6 +13870,38 @@ Le afflizioni vengono applicate solo da certe skill e da certi spell. Sono esclu
 effetti speciali gli incantesimi piu' potenti, come DISINTEGRATE e ACID STORM, al fine di
 favorire l'uso di combinazioni diverse e speciali: scoprite la vostra e scatenate il potere
 che e' in voi!
+
+#
+LAG
+
+Con il termine LAG si intende il tempo necessario ad un PG o ad un MOB per svolgere o 
+riprendersi da una azione compiuta o subita. Durante questo tempo, che puo' variare da 1 a
+piu' round (della durata di circa 5 secondi), il PG o il MOB sara' impossibilitato a svolgere
+altre azioni, skill, spell e procedure speciali. I comandi dati dal PG subiranno un ritardo 
+nell'esecuzione pari al numero di round di lag.
+
+Durante i combattimenti il lag viene sfruttato principalmente dalle classi tank per impedire
+agli avversari di utilizzare incantesimi e poteri speciali, tramite l'utilizzo di TRIP, KICK
+e BASH o tramite gli incantesimi GUST OF WIND, TELEKINESIS e EARTHQUAKE.
+
+Vedi anche: BASH, KICK, TRIP, GUST OF WIND, TELEKINESIS, EARTHQUAKE COOLDOWN
+
+#
+COOLDOWN
+
+Con il termine COOLDOWN si intende il tempo necessario ad un PG o ad un MOB per ricaricare
+una certa abilità. In questo tempo di attesa, a differenza di cio' che accade con il LAG, 
+permette l'utilizzo di altre skill o altri spell, tranne la specifica skill o spell 
+sottoposta a COOLDOWN.
+
+$c0009Esempio$c0007
+Marlon usa il bash su Ferlon. Ferlon viene gettato a terra e laggato per 
+due round. Marlon, avendo usato il bash, riceve un round di lag e un round di
+cooldown in cui non potra' usare la tecnica del bash, ma solo altre tecniche di
+combattimento.
+
+Vedi anche: BASH, MELEE ATTACK, LAG
+
 
 
 
