@@ -12147,7 +12147,10 @@ in lista, lo si rimuove.
 I messaggi da parte degl'IMPLEMENTOR, degli DEI e degli SPIRITI GUIDA
 non possono essere bloccati col comando GAG.
 
-Vedi anche: -
+Per non essere importunati dagli altri giocatori o dai loro incantesimi
+SCRYING si puo' usare il comando DND (DO NOT DISTURB).
+
+Vedi anche: DND
 
 #
 BANCA BANK BANCHE
@@ -12321,7 +12324,7 @@ N.B. L'abilita' su puo usare anche su se stessi.
 
 La sintassi e':
 
- > curse <persona>
+ > curse <vittima>
 
 Vedi anche: ANTIPALADINO, CURSE
 
@@ -12712,7 +12715,7 @@ se e' possibile creare la pozione.
 Nota 2: Questa skill e' in fase di testing, quindi e' soggetta
 a cambiamenti fino ad una taratura totale.
 
-Vedi anche: SCRIBE
+Vedi anche: SCRIBE, CHARGE
 
 #
 SCRIBE
@@ -12735,7 +12738,7 @@ se e' possibile creare le rispettive pergamene.
 Nota 2: Questa skill e' in fase di testing, quindi e' soggetta
 a cambiamenti fino ad una taratura totale.
 
-Vedi anche: BREW
+Vedi anche: BREW, CHARGE
 
 #
 "DEMONIC FORM"
@@ -12830,7 +12833,7 @@ personal. Il fallimento puo' danneggiare l'arma di un dado, a meno
 che essa non sia IMMUNE; le armi RESISTANT hanno una possibilita'
 di non rovinarsi, mentre quelle normali si rovineranno di certo.
 
-Vedi anche: COLPO CRITICO
+Vedi anche: COLPO CRITICO, GUERRIERO
 
 #
 "COLPO CRITICO"
@@ -12850,6 +12853,11 @@ Il giocatore su cui viene lanciata la skill deve avere l'arma impugnata.
 Attualmente le uniche armi con spell slayer sono le scintille divine di 
 Atlantide, quindi se non avete tali armi e nemmeno i vostri compagni di 
 gruppo ne hanno potete evitare di praticare questa skill.
+
+I druidi monoclasse attraverso questa abilita' possono provare a 
+ricaricare bacchette e bastoni magici. Il potere della natura incanalato
+dai druidi puo' anche causare la rottura degli artefatti magici, e' 
+quindi necessaria molta attenzione!
 
 #
 "SPELL SLAYER"
@@ -12912,9 +12920,9 @@ soli pg al di sotto del 70% del loro hp basta scrivere GROUPCHECK 70.
 
 Scrivendo "GROUPCHECK TANK" o "GROUPCHECK HEALER" verranno date informazioni
 sui PG che ricoprono quel ruolo nel gruppo, alla fine del comando puo' essere
-aggiunta una percentuale (per esempio"GROUPCHECK TANK 50")
+aggiunta una percentuale (per esempio "GROUPCHECK TANK 50")
 
-Vedi anche: GROUP
+Vedi anche: GROUP, FORMAZIONI
 
 #
 "POLYMORPH SELF" "NEW POLYMORPH"
@@ -13902,8 +13910,14 @@ combattimento.
 
 Vedi anche: BASH, MELEE ATTACK, LAG
 
+#
+DND "DO NOT DISTURB"
 
+Per evitare di usare il comando GAG e' possibile utilizzare DND (DO NOT DISTURB), 
+attraverso cui il PG non potra' essere bersaglio degli incantesimi di SCRYING e 
+non potra' essere disturbato da altri giocatori.
 
+Vedi anche: GAG, NOOT
 
 
 #~
