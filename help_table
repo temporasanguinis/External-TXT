@@ -1,7 +1,7 @@
 # 
 EMPTY SLOT
 #
-HELP
+HELP AGGIORNAMENTO
 
 Ultimo aggiornamento: 20 gennaio 2021 a cura di Nalith
 
@@ -5827,12 +5827,13 @@ resistenti al veleno e perdono meno hit points.
 Alcune volte il veleno di certi mostri e' FATALE, quindi e'  opportuno
 fare attenzione quando si combattono serpenti, ragni, ecc.
 
-I ladri possono avvelenare le proprie armi o anche strumenti musicali, 
-ottenendo cosi' la possibilita'di avvelenare e corrodere gli avversari 
-in combattimento per 10 tick. I ladri monoclasse possono avvelenare 
-anche le armi dei propri compagni.
+I ladri possono cospargere di veleno le proprie armi o anche strumenti 
+musicali, ottenendo cosi' la possibilita' di avvelenare e corrodere gli 
+avversari in combattimento per 10 tick. I ladri monoclasse possono 
+avvelenare anche le armi dei propri compagni.
 
-L'uso del comando: "<poison|avvelena> <nome arma|nome avversario>".
+La sintassi del comando e' la seguente: 
+ > POISON/AVVELENA <arma|avversario> 
 
 Vedi anche: DETECT POISON, CURE POISON, REMOVE POISON
 
@@ -8868,7 +8869,7 @@ il comando who.
 $c0015Uso$c0015: AFK (per settare l'AFK mode)
 Per togliere l'AFK, basta ridigitare il comando AFK.
  
-Vedi anche: TELL, GTELL	
+Vedi anche: TELL, GTELL, DND
 
 #
 WHOIS
@@ -9089,7 +9090,7 @@ L'absorb damage e' cumulativo, ma gli oggetti con questa  proprieta'
 sono  molto rari!  L'ABSORB DAMAGE  non viene raddoppiato  se si  e'
 sotto l'effetto del SANCTUARY.
 
-Vedi anche: MELEE COMBAT
+Vedi anche: MELEE COMBAT, AFFLIZIONI
 
 #
 RAPPORTI
@@ -9184,7 +9185,7 @@ immediata  del tuo  personaggio!  Questo tipo  di veleno, dunque, non
 puo'  essere  curato, ma solo  prevenuto, con  incantesimi od oggetti
 magici.
 
-Vedi anche: REMOVE POISON, SLOW POISON, CURE POISON
+Vedi anche: REMOVE POISON, SLOW POISON, CURE POISON, POISON
 
 #
 HEROLIST
@@ -9437,7 +9438,7 @@ Vedi anche: PRACTICE, MAGO, STREGONE, MONACO, LADRO, CHIERICO,
 #
 BID
 
-  Questo comando permette di fare un'offerta per l'asta in corso.
+Questo comando permette di fare un'offerta per l'asta in corso.
 Scrivi BID <somma> per offrire un determinato numero di monete d'oro.
 Perche' la tua offerta sia valida, essa deve superare del 5% quella
 precedente, se l'asta si trova all'uno; se si trova al due, del 25%, e, se si
@@ -9450,7 +9451,7 @@ Vedi anche: AUCTION, NOAUCTION
 #
 DONATE
 
-  Questo comando manda un oggetto direttamente in donation, utilizzatelo,
+Questo comando manda un oggetto direttamente in donation, utilizzatelo,
 non lasciate la donation vuota!
 
 Vedi anche: -
@@ -10046,6 +10047,7 @@ Canibalize      - Maghi, Druidi, Chierici
 Reversion	 - Psionici
 Monsum Seven    - Maghi
 Pain Mirror     - Psionici
+Healing Rain    - Druidi
 
 $c0009--- Livello 7, 500M xp ----------------------------------------$c0007
 
@@ -10069,7 +10071,8 @@ La sua efficacia  dipende sia da  quanto si e'  esperti  nell'abilita',
 sia  dal livello  del giocatore:  si va  da circa  20,40 Hit  Points al
 primo  livello,  fino a  70,90 del  livello 6.  Curarsi  e'  un  lavoro
 molto  impegnativo, che  occupa il  guerriero  per 5  round, e richiede
-40 punti sia di movimento che di mana.
+40 punti sia di movimento che di mana. La quantita' di xp curata dipende
+dagli xp fatti. 
 
 Vedi anche: FIRST AID
 
@@ -10249,7 +10252,7 @@ invece,  aggiunge  un  2x.  L'abilita' non migliora  con la pratica, e questo
 moltiplicatore viene attivato solo se si e' sufficientemente esperti
 nell'abilita'.
 
-Vedi anche: BACKSTAB, LORE
+Vedi anche: BACKSTAB, LORE, CIRCLE
 
 #
 DECAPITATE
@@ -10264,7 +10267,8 @@ la propria  conoscenza della  tecnica e'  fondamentale per  riuscire nel
 decapitare l'avversario. Da 3 round di lag, si migliora  con la pratica.
 Il DECAPITATE dei guerrieri  monoclasse e' piu'  efficace di  quello dei 
 multiclasse e dei barbari.
-Vedi anche: -
+
+Vedi anche: MELEE COMBAT
 
 #
 "MANA SHIELD"
@@ -12071,7 +12075,7 @@ nome del  giocatore all'inizio  della frase,  e la frase risulta
 bianca; ECHO,  invece,  lascia  completa liberta'  al giocatore,
 e la scritta risulta nel colore standard (Grigio Chiaro).
 
-Vedi anche: SOCIAL, NSOCIAL
+Vedi anche: SOCIAL
 
 #
 HITROLL DAMROLL
@@ -12401,7 +12405,7 @@ che riflettera' parte dei danni ricevuti, a chi lo sta
 attaccando. La percentuale dipende molto dal livello e
 dallo spellpower del caster. Quest'abilita' ha effetto
 solo nel tick in cui lo psionico lo usa e quello dopo,
-e poi non e' piu utilizzabile per altre 24 ore del mud.
+e poi non e' piu utilizzabile per altre 8 ore del mud.
 
 #
 "HOLY WORD"
@@ -13899,7 +13903,8 @@ COOLDOWN
 Con il termine COOLDOWN si intende il tempo necessario ad un PG o ad un MOB per ricaricare
 una certa abilità. In questo tempo di attesa, a differenza di cio' che accade con il LAG, 
 permette l'utilizzo di altre skill o altri spell, tranne la specifica skill o spell 
-sottoposta a COOLDOWN.
+sottoposta a COOLDOWN. Questa parola puo' anche venire usata per indicare il tempo di
+attesa necessario affinche' un certo incantesimo possa essere riutilizzato.
 
 $c0009Esempio$c0007
 Marlon usa il bash su Ferlon. Ferlon viene gettato a terra e laggato per 
@@ -13918,5 +13923,29 @@ non potra' essere disturbato da altri giocatori.
 
 Vedi anche: GAG, NOOT
 
+#
+"CHAOS"
+
+$c0015Uso$c0015           : mind 'chaos'
+$c0006Cumulativo$c0006    : No
+$c0005Durata$c0005        : 5 ore
+$c0010Livello$c0010       : 42 psionici
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : 100
+
+Lo psionico sprofonda nel proprio subconscio e lascia che il chaos si impadronisca
+della sua mente, facendogli fare cio' che vuole, pur di garantirsi i suoi poteri.
+Lo psionico perde parte del controllo di se' e viene circondato da un'aura 
+aggressiva che puo' avere su di se' e sulle creature che incontra vari effetti,
+positivi o negativi: puo' dare o togliere mana, movimento, spellpower, save all, 
+applicare suscettibilita' a COLD o aggredire con elettricita.
+Se lo psionico e' affetto dal chaos puo' provocare, attraverso l'uso dello PSIONIC
+BLAST, l'afflizione BLEEDING, quando il danno e' superiore all'1% degli HP della 
+vittima.
+
+Lo psionico puo' uscire da questo stato lanciando nuovamente il comando 
+ > mind 'chaos'
+
+Vedi anche: PSIONIC BLAST, PSYCHIC CRUSH
 
 #~
