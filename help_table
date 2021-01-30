@@ -2,22 +2,10 @@
 EMPTY SLOT
 #
 HELP
-Aggiornamento del 6 agosto 2020 a cura di Nalith
-Aggiornamento del 26 marzo 2020 a cura di Nalith
-Aggiornamento del 20 maggio 2019 a cura di Nalith
-Aggiornamento del 3 maggio 2019 a cura di Nalith
-Aggiornamento del 25 marzo 2019 a cura di Nalith
-Aggiornamento del 15 agosto 2018 a cura di Martinus, Nalith, Phoenix
-Aggiornamento del 20 maggio 2009 a cura di Nis
-Aggiornamento del 23 settembre 2005 a cura di Martinus
-Aggiornamento dell'11 Luglio 2000 a cura di Dryden
-Rittocco dell'11 Luglio 1999 a cura di Logan
-Aggiornamento del 9 Marzo 1999 a cura di Dryden
 
----
+Ultimo aggiornamento: 20 gennaio 2021 a cura di Nalith
 
-
-L'Help di Tempora Sanguinis e' curato da Martinus.
+L'Help di Tempora Sanguinis e' curato da Martinus e da Nalith.
 Se riscontrate errori, incongruenze, o desiderate proporre
 un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
@@ -42,7 +30,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   FIRESTORM, WARP WEAPON, FIND TRAP, RESURRECTION, MULTI PLAYING,
   BROWNIE, ANTI MAGIC SHELL, PSIONIC BLAST, PSI SUMMON, ARENA,
   LISTINO, MAXXAGGI, BACKSTAB POWERUP
-- Aggiunti: INFERNO....
+- Aggiunti: INFERNO
 
 --- Modifiche dalla versione 1.3 alla 1.4 ------------------------
 
@@ -668,8 +656,8 @@ regioni centrali:
   [Monastero dei monaci]                        ...       [Regno dei nani]
              \                                   |          ...  /
               \                      ...         |            \ /
-               \                      |      [Colline]         o
-  ...        [Contea]---...           |          |             |
+               \                      |     [ Miniere  ]       o
+  ...        [Contea]---...           |     [di Falrhun]       |
     \            |                    |          |  [Camelot]  |
      \           |[isola del destino] |          | /           |
 [Foresta elfi]    \          \        |          |/       o----o-----[Ninja]
@@ -731,7 +719,7 @@ regioni centrali:
 . E   Ponte         Grubby       |    Ladri   Argine  Magazzino   .
 . R    |                     Discarica          |                 .
 . A    |                        /        <---Fiume--->            .
-.    Parte sud              Sewer                                 .
+.    Parte sud              Fogne                                 .
 .    di Midia                                                     .
 .      |                                                          .
 .      v                                                          .
@@ -750,6 +738,7 @@ Al momento  DISPLAY usa il tipo  VT100.  Per attivare il suddetto modo,
 usa l'opzione "1", per disattivarlo, invece, l'opzione "0". 
  
 Vedi anche: RESIZE
+
 #
 RESIZE
 
@@ -1022,18 +1011,18 @@ Midia         : I  cani e i  pipistrelli  pagano bene  in xp ai primi
 Spider Haunt  : E' la foresta  dei ragni a sud di Midia, sulla strada
                 del  Sud.  Qui e'  consigliabile  non essere soli, ma
                 gia' in due il posto e' ottimo per i combattimenti.
-Elven Forest  : E' la foresta degli  elfi,  divisa in due  parti.  La
+Foresta elfica: E' la foresta degli  elfi,  divisa in due  parti.  La
                 prima parte, quella adatta ai newbie, la si raggiunge
                 andando otto volte a west dal Centro Commerciale. Poi
                 due nord e ancora una west.
-White Plume   : E' una zona montagnosa ottima per gruppi di giocatori
-                intorno al quinto livello.  La si raggiunge risalendo
+Vulcano White : E' una zona montagnosa ottima per gruppi di giocatori
+Plume           intorno al quinto livello.  La si raggiunge risalendo
                 verso west il fiume a sud della Gilda degli Psionici.
                 Avrai bisogno di una imbarcazione.
-Hallways      : Sono le rovine di Midia, buone per personaggi intorno
-                al quinto livello.  Le si raggiunge  andando ad ovest
+Estensioni    : Sono le rovine di Midia, buone per personaggi intorno
+del tempio      al quinto livello.  Le si raggiunge  andando ad ovest
                 dall' Altare.
-Moria         : Le caverne di Moria sono piene di goblins, orchetti e
+Falrhun       : Le miniere di Falrhun son piene di goblin, orchetti e
                 koboldi.  Ottime per i paladini e i ranger che devono
                 restare buoni. Sono subito a nord/est di Midia.
 Deadhame      : Un'area ostile piena di Non Morti. Vicino al cimitero
@@ -4172,7 +4161,7 @@ fisica,  quanto  mana ha  ancora a disposizione,  quanto denaro
 possiede e  molte altre cose.  Un tipico esempio di score e' il
 seguente:
 
-Sei uno Human
+Sei un umano
 Hai 432(432) hit, 395(400) mana e 134(134) mov points.
 Il tuo allineamento e': Demoniaco
 Hai fatto 183521511 xp, e hai 100000 monete d'oro.
@@ -4562,14 +4551,7 @@ taunt, thank, tickle, toast, tongue,  toss,  touch, tremble , tug, twiddle,
 twirl, twitch,  wave, wedge,  whap, whimper, whine, whistle,  wiggle, wink, 
 worship, yawn, yodel.
 
-Buon divertimento. ;-)
-
-Vedi anche: NSOCIAL, ECHO, EMOTE
-
-#
-NSOCIAL
-
-Questi sono i nuovi social aggiunti da Nifhel.
+A questi sono i nuovi social aggiunti da Nifhel.
 
 Abbaia, accarezza, accoccolati, acrobazia,  acquattarsi, addio, agruppo,
 applaudi,  arrapa,  ascolta,  aureola,  aurac, balla, battaglia, banzai,
@@ -4585,19 +4567,12 @@ pompa,  porc,  rabbia, rimbalza, ricorda, rimprovera, ringhia, risolino,
 ritirarsi,  sbava,  scansati,  scimmia,  scores, scusa, sfottere, sizza,
 smorfia,  snob,  sorpreso,  spalla, spanciati, splush, spacca, stordito,
 stringi, studio, svieni, tedesco, tornero, tossisci, trattieni, tuffati,
-ulula, vino, zompetta.
+ulula, vino, zompetta, owoo, fonzie, capricci, sancami, scemo, flessioni, 
+powerranger, strafottente,vittoria.
 
-Si ringrazia per la collaborazione Vorodin che mi ha dato lo spunto per 
+Si ringrazia per la collaborazione Vorodin  che ha dato lo  spunto  per 
 la creazione  di nuovi social  nonche'  lui stesso  autore di taluni di
-questi.
-
-Ogni modificazione,  alterazione o  duplicazione dei suddetti social e' 
-vietata  e in  ogni  caso deve  essere  sottoposta  a  previo  consenso
-dell'autore. (Nifhel). Stesso dicasi per la riproduzione e la cessione.
-
-Attenzione: sono stati introdotti i seguenti nuovi social: owoo, fonzie,
-capricci, sancami, scemo, flessioni, powerranger, strafottente,vittoria.
-
+questi. 
 I  nuovi social sono stato  proposti da Tyrant  e Koraz e  realizzati da
 Dryden.
 
@@ -4968,7 +4943,7 @@ NEWS
 Visualizza informazioni sulle ultime modifiche apportate a TS.
 Ricordati di usarlo ogni tanto per sapere cosa e' cambiato nel
 mondo  dell'Impero  Celeste,  o  potresti  avere  delle brutte
-sorprese. ;-)
+sorprese.
 
 Vedi anche: -
 
@@ -5837,7 +5812,8 @@ POISON
 $c0015Uso$c0015           : cast 'poison' <vittima|cibo|bevanda>
 $c0006Cumulativo$c0006    : Si sulle persone
 $c0005Durata$c0005        : (livello*2) ore, permanente su cibo e bevande
-$c0010Livello$c0010       : 8 Druidi, 13 Chierici, 10 Antipaladini
+$c0010Livello$c0010       : 8 Druidi, 13 Chierici, 10 Antipaladini, 
+                            25 ladri
 $c0014Tiro salvezza$c0014 : 'vs. paralyzation' per negazione
 $c0012Costo in mana$c0007 : 10
 
@@ -5850,6 +5826,13 @@ resistenti al veleno e perdono meno hit points.
 
 Alcune volte il veleno di certi mostri e' FATALE, quindi e'  opportuno
 fare attenzione quando si combattono serpenti, ragni, ecc.
+
+I ladri possono avvelenare le proprie armi o anche strumenti musicali, 
+ottenendo cosi' la possibilita'di avvelenare e corrodere gli avversari 
+in combattimento per 10 tick. I ladri monoclasse possono avvelenare 
+anche le armi dei propri compagni.
+
+L'uso del comando: "<poison|avvelena> <nome arma|nome avversario>".
 
 Vedi anche: DETECT POISON, CURE POISON, REMOVE POISON
 
@@ -6733,7 +6716,10 @@ Giocatori
 Dryden               - Il Centro Commerciale
 Gorg                 - Il Tempio della Giustizia
 Menion               - La Bottega del Fabbro
- 
+
+Puo' fornire anche informazioni sul nome della zona, sul livello a
+cui e' dedicata e sul pericolo di incontrare nemici aggressivi.
+
 #
 RESTAURANTS FOOD CIBO
 
@@ -7532,6 +7518,7 @@ shield da 70 tick, recitato in combat acid storm di livello 70
 contro l'avversario
 pray shadowdance - richiede 1 punto karma, energy shield da 70 tick.
 pray gard - riservata ai chierici monoclasse
+pray vertus - riservata ai druidi monoclasse
 
 Al momento il sistema di preghiere a costo di punti karma e' in fase 
 di revisione e tali punti non sono piu' ottenibili tramite quest.
@@ -7984,6 +7971,9 @@ Con questa disciplina lo Psionico forza il suo corpo a non sentire piu'
 fame o sete per 12 ore. Questo comando puo' essere usato dallo psionico
 per servirsi di cibi e bevande, senza provare sazieta'.
 
+Puo' essere usata per servirsi di pozioni senza provarne mai sazieta' o 
+disgusto.
+
 Vedi anche: -
  
 #
@@ -8034,8 +8024,11 @@ col risultato di fare sanguinare il suo cervello. Il  danno inflitto
 e' pari a (livello)d6 +1 per ogni 2 livelli del caster. Questo spell
 ha un danno  speciale, percio'  non puo'  subire  riduzioni di danno
 tramite immunita' o resistenze.
+
+Quando il danno provocato e' ingente, causa sempre nella vittima 
+sanguinamento (afflizione Bleeding).
  
-Vedi anche: TOWER OF IRON WILL
+Vedi anche: TOWER OF IRON WILL, AFFLIZIONI
 
 #
 "TOWER OF IRON WILL"
@@ -8161,7 +8154,7 @@ Con questa abilita' lo Psionico circonda il proprio corpo con uno
 scudo di energia mentale. L'effetto e' maggiore  man mano che  lo
 Psionico sale di livello.
 
-Vedi anche: -
+Vedi anche: SHIELD
 
 #
 "FLAME SHROUD"
@@ -8300,8 +8293,14 @@ l'ACCECAMENTO.
 L'attacco agisce sulla psiche della vittima, che rimane comunque scossa,
 e quindi la  vittima perde di  lucidita' mentale. Il  risultato  e'  una
 minore accuratezza nel portare i colpi. Non e'  possibile usare  PSIONIC
-BLAST su creature protette da TOWER OF IRON WILL, o su mostri di livello
-maggiore di 58.
+BLAST su creature protette da TOWER OF IRON WILL.
+
+Con nemici di livello superiore al 50, gli effetti di riduzione di Hitroll
+non si sommano e anche gli effetti di paralisi e svenimento sono molto 
+ridotti. Cio' che invece aumenta ad ogni colpo inferto e' il danno causato,
+che puo' aumentare a dismisura fino a raddoppiare. Se vi sono piu'
+psionici in gruppo, possono aiutarsi a vicenda, continuando a concentrare
+la mente sul nemico.
 
 Vedi anche: TOWER OF IRON WILL, PSIONICI
 
