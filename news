@@ -27,7 +27,7 @@ Versione 2.21.1.2 - $c0009FEBBRAIO 2021 $c0007- La melodia di Yffre
 - Specializzazioni delle skill e benefici. Al momento in fase di test e attivabile
   solo dagli dei. Permette di potenziare alcune skill e spell, sbloccando ulteriori
   benefici.
-- i mob caster soffrono per il burning, subendo gli effetti negativi anche alla 
+- i mob caster soffrono per il BURNING, subendo gli effetti negativi anche alla 
   possibilita' di lanciare incantesimi.
 - Implementati gli apply che offrono BONUS XP e BONUS GOLD.
 - Dopo aver finito una volta tutte le quest di Skyrim, successivamente si possono
@@ -37,15 +37,15 @@ Versione 2.21.1.2 - $c0009FEBBRAIO 2021 $c0007- La melodia di Yffre
   area.
 - Il comando WHOZONE mostrera' il livello suggerito per l'area e il livello di
   pericolo per la presenza di mob aggressivi.
-- Aggiunti cristalli con MUSIC POWER
+- Aggiunti cristalli con MUSIC POWER e oggetti MUSIC INSTRUMENT.
 - REPAIR e FIX funzionano senza togliere l'equipaggiamento.
 - BRITTLE e CURSED si leggono accanto al nome dell'oggetto se in inventario o 
   equipaggiati.
 - Modifica ai limiti e alle stat di alcune razze per renderle piu' appetibili
   per le classi bardo o altri utilizzi. 
-
-  
-- Aggiunti alcuni oggetti MUSIC INSTRUMENT in alcune aree.
+- I limiti per essere considerati NEO EROI sono stati alzati e non conta piu'
+  il fatto di essere LORD. Questo significa che la quest delle DODICI CASE e 
+  altre zone dedicate potranno essere usate piu' a lungo dai PG.
 
 Versione 2.21.11.1 - $c0009GENNAIO 2021 $c0007- La bilancia e la spada
 - $c0012Quest e aree$c0007 - Sono state riveste e ampliate alcune aree per favorire 
