@@ -1,4 +1,52 @@
 
+Versione 2.21.1.2 - $c0009FEBBRAIO 2021 $c0007- La melodia di Yffre
+- $c0012Quest e aree$c0007 - Sono state riveste e ampliate alcune aree per favorire 
+  l'apprendimento dei nuovi arrivati:
+- EROI - La tomba di Lilith - Nuova quest per eroi che servira' per ottenere pegni
+  del male e pegni del bene per potenziare skill e ottenere benefici e specializzazioni.
+- $c0012Classi$c0007 - Dopo piu' di 20 anni di rinvii, arriva il bardo!
+- Entra in fase di test la nuova classe del bardo. Per ora verra' assegnata solo ad
+  alcuni PG momentaneamente per completare i controlli necessari prima del rilascio e
+  per valutare possibili bug ed exploit.
+- I ladri possono imparare la skill POISON e applicare veleni sulle armi. I ladri 
+  monoclasse possono applicarli anche alle armi di altri PG. La durata dell'effetto
+  e' di 10 tick. Gli incantesimi e le skill non sono ancora presenti nell'help.
+- Gli psionici ricevono uno spell nuovo: CHAOS. Attraverso questo potere, apriranno
+  la loro mente al chaos ricevendo bonus e malus e applicandone anche a coloro che
+  sono presenti nella stessa stanza.
+- BLAST, PSYCHIC CRUSH e PAIN MIRROR sono stati migliorati. Consulta l'help per 
+  maggiori informazioni.
+- $c0012Codice e bugfix$c0007 - 
+- Fix ad elemental arrow, che prima uccideva due volte.
+- Fix typo in alcune skill Dragonshout
+- Fix tipo di danno causato dal fallimento nella fase di inserimento dell'esca 
+  nell'amo di una canna da pesca.
+- Nuova versione dei draghi: ora soffiano di meno ma anche se gettati a terra.
+  Quando sono a terra il danno causato e' minore.
+- Fix crash ad un comando degli immortali (users)
+- Specializzazioni delle skill e benefici. Al momento in fase di test e attivabile
+  solo dagli dei. Permette di potenziare alcune skill e spell, sbloccando ulteriori
+  benefici.
+- i mob caster soffrono per il burning, subendo gli effetti negativi anche alla 
+  possibilita' di lanciare incantesimi.
+- Implementati gli apply che offrono BONUS XP e BONUS GOLD.
+- Dopo aver finito una volta tutte le quest di Skyrim, successivamente si possono
+  apprendere due parole alla volta ad ogni completamento.
+- Le scimmie pagano una tassa fissa in banca anziche' una percentuale sui depositi.
+- Bugfix che causava il blocco ad un comando ai pg che scrappavano oggetti fuori 
+  area.
+- Il comando WHOZONE mostrera' il livello suggerito per l'area e il livello di
+  pericolo per la presenza di mob aggressivi.
+- Aggiunti cristalli con MUSIC POWER
+- REPAIR e FIX funzionano senza togliere l'equipaggiamento.
+- BRITTLE e CURSED si leggono accanto al nome dell'oggetto se in inventario o 
+  equipaggiati.
+- Modifica ai limiti e alle stat di alcune razze per renderle piu' appetibili
+  per le classi bardo o altri utilizzi. 
+
+  
+- Aggiunti alcuni oggetti MUSIC INSTRUMENT in alcune aree.
+
 Versione 2.21.11.1 - $c0009GENNAIO 2021 $c0007- La bilancia e la spada
 - $c0012Quest e aree$c0007 - Sono state riveste e ampliate alcune aree per favorire 
   l'apprendimento dei nuovi arrivati:
@@ -278,22 +326,4 @@ Versione 2.20.6.7 - $c0009LUGLIO 2020 $c0007- Forze della natura
   della zona e non il numero dell'area.
 - Le modifiche sono da considerarsi in fase di test e potrebbero essere soggette
   a bilanciamento.
-
-Versione 2.20.2.6 - $c0009GIUGNO 2020 $c0007- L'oscuro signore
-- $c0012Quest$c0007 - Sono state rinnovate alcune aree:
-- EROI - Mordor [by Samak, Auriel, Dimitri & Mordor] - Una grande avventura destinata
-  a gruppi di eroi molto forti. Preparatevi, il signore oscuro vi attende!
-- EROI - Isengard [by Ashur & Auriel] - Le terre di Saruman e degli 
-  Ent sono cambiate. Ora la sfida e' adatta per gruppi di eroi.
-- $c0012Varie$c0007 -
-- La gabbia di Gan'Har ora e' affrontabile anche in solitaria!
-- Modificato il premio della gabbia di Gan'Har: ora e' utile a molte classi.
-- Introdotti alcuni Award (Riconoscimenti) come premio random di alcune quest.
-- $c0012Bugfix$c0007 - Risolti alcuni problemi:
-- Gli affect sui pg polati ora vengono calcolati al save
-- Risolto un problema di visualizzazione per alcune locazioni con certi caratteri.
-- Tolto spam da un alcuni oggetti procedurali.
-
-
-
 
