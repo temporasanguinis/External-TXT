@@ -11604,7 +11604,8 @@ per un totale maggiore di 1200 pwp, in quest'ultimo caso in mancanza di sigilli
 divini e' possibile effettuare il pagamento con (pwp+liv)*2 sigilli elementali.
 
 $c0010Acquisto delle pratiche$c0007
-Al costo di 2500 sigilli elementali per ogni tipo e' acquistabile una pratica.
+I pg con meno di 500 pwp possono comprare pratiche ad un prezzo di 100 sigilli 
+elementali per tipo. 
 Questo servizio e' l'equivalente di 5M di px spesi da Calliope.
 
 $c0010Rename$c0007
