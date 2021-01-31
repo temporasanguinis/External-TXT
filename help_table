@@ -10,9 +10,12 @@ Se riscontrate errori, incongruenze, o desiderate proporre
 un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
                                 
---- Modifiche dalla versione 2.19.2.1 alla 2.20.8.1 ----------------
+--- Modifiche dalla versione 2.19.2.1 alla 2.21.1.2 ----------------
 - Aggiunte: MESTIERI, HEALING RAIN, FISHING, TAN (aggiornato), 
-  SCRIGNO DORATO, LISTINO (aggiornato), AWARD, AVATAR, NOMI, MESTIERI
+  SCRIGNO DORATO, LISTINO (aggiornato), AWARD, AVATAR, NOMI, MESTIERI,
+  AFFLIZIONI, DND, LAG, COOLDOWN, CHAOS, MINE, ALCHIMIA, MELEE COMBAT,
+  PSIONIC BLAST (aggiornato), PSYCHIC CRUSH (aggiornato), POISON 
+  (aggiornato), PAIN MIRROR (aggiornato), CHARGE (aggiornato)
                                                                
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
@@ -11419,7 +11422,7 @@ MODIFICA                    COSTO             MASSIMALE
 +5% Bash, Backstab, Kick	400 sigilli	      5  punti
 +10% Hide, sneak            400 sigilli	      10 punti
 +5% Find traps, Pick, Steal 400 sigilli       5  punti
-+2 all AC massimale	        300 sigilli	      AC:6(AC:8 overedit)
++2 all AC massimale	        300 sigilli	      AC:6 (AC:8 overedit)
 
 Tutti i costi di questa parte del listino sono intesi in sigilli Divini
 I costi per Hitroll e Damroll non sono applicabili alle armi, per le
@@ -11550,10 +11553,10 @@ Chill touch         1200 sigilli divini/6000 sigilli Acqua
 
 Si puo avere anche piu di un weapon spell per arma, ma il costo per
 ogni edit successivo al primo aumenta in questo modo:
-primo weapon spell costo normale
-secondo weapon spell costo x 2
-terzo weapon spell, costo x 3
-quarto weapon spell, costo x 4
+primo weapon spell      costo normale
+secondo weapon spell    costo x 2
+terzo weapon spell      costo x 3
+quarto weapon spell     costo x 4
 Il massimo di weapon spell editabili e' 4
 
 L'unica eccezione a queste regole e' fatta per i monaci,
@@ -11601,7 +11604,7 @@ per un totale maggiore di 1200 pwp, in quest'ultimo caso in mancanza di sigilli
 divini e' possibile effettuare il pagamento con (pwp+liv)*2 sigilli elementali.
 
 $c0010Acquisto delle pratiche$c0007
-Al costo di 20 sigilli elementali per ogni tipo e' acquistabile una pratica.
+Al costo di 2500 sigilli elementali per ogni tipo e' acquistabile una pratica.
 Questo servizio e' l'equivalente di 5M di px spesi da Calliope.
 
 $c0010Rename$c0007
@@ -11614,8 +11617,8 @@ di che la quest viene considerata fallita. Il pg con la vecchia classe va cancel
 questo discorso vale anche se viene cancellato prima della richiesta di rename dal 
 momento in cui rimangono gli oggetti personalizzati/editati.
 I sigilli spesi non saranno refundati.
-- $c0011Rename per il solo cambiamento di nome per pg senza edit$c0007: 200 sigilli elementali a 
-scelta. Il nuovo nome ovviamente non deve essere in uso. Per capirci sono quei casi 
+- $c0011Rename per il solo cambiamento di nome per pg senza edit$c0007: 2000 sigilli elementali. 
+Il nuovo nome ovviamente non deve essere in uso. Per capirci sono quei casi 
 in cui il pg ritiene che il proprio nome non sia piu' adeguato al proprio personaggio 
 e per motivazioni piu' o meno rpg decide di cambiarlo senza secondi fini.
 - $c0011Rename doppi$c0007: sono concessi solo se entrambi i pg da rinominare non hanno oggetti 
@@ -11658,7 +11661,7 @@ di peso.
 
 $c0010Conversione di sigilli$c0007
 E' possibile convertire sigilli divini in sigilli elementali con il seguente cambio:
-1 sigillo divino = 20 sigilli elementali a scelta del giocatore.
+1 sigillo divino = 5 sigilli elementali a scelta del giocatore.
 Non e' possibile invece convertire sigilli elementali in divini. 
 
 $c0010Passaggio di sigilli tra PG$c0007
