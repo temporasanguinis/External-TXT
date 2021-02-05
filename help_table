@@ -686,8 +686,8 @@ regioni centrali:
 ...................................................................
 .                * * * La citta' di MIDIA * * *                   .
 .      North                                                      .
-.        | /Up                  Gli Eventi di Lis                 .
-.        |/                            /                          .
+.        | /Up                                                    .
+.        |/                                                       .
 . West---+---East         La Stanza delle Regole                  .
 .       /|                          /                             .
 .  Down/ |        Cindy            /      Scuola                  .
@@ -740,7 +740,7 @@ e i tuoi punti esperienza.
 Al momento  DISPLAY usa il tipo  VT100.  Per attivare il suddetto modo,
 usa l'opzione "1", per disattivarlo, invece, l'opzione "0". 
  
-Vedi anche: RESIZE
+Vedi anche: RESIZE, COMPACT, PROMPT, LOOK, BRIEF, SET
 
 #
 RESIZE
@@ -752,7 +752,7 @@ numero di linee di default e' 25, ma tramite questo comando e' possibile
 ridimensionarne  il valore a piacimento.  Per ritornare alla  situazione
 di default e' sufficiente digitare <RESIZE 25>.
 
-Vedi anche: DISPLAY
+Vedi anche: DISPLAY, COMPACT, PROMPT, LOOK, BRIEF, SET
 
 #
 DISGUISE
@@ -2591,7 +2591,7 @@ Vedi anche: POLYMORPH
 #
 "TREE TRAVEL"
 
-Usage         : cast 'tree travel'
+$c0015Uso$c0015           : cast 'tree travel'
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 8 Druidi
@@ -3075,7 +3075,7 @@ riesce  nel suo intento, la porta si apre, e colui che ha usato l'abilita'
 viene  scaraventato  nella stanza  che la porta  celava; se fallisce, egli
 rimane leggermente ferito e svenuto per qualche momento.
 
-Vedi anche: -
+Vedi anche: PICK
 
 #
 "DISARM" "DISARM TRAP"
@@ -3143,7 +3143,7 @@ possono  essere definiti molto  semplicemente.  Ad esempio,  per fare in
 modo che ogni  pressione del  tasto 1 venga lanciato un disintegrate, la
 sintassi sarebbe:
 
-  alias 1 cast 'disintegrate'
+>  alias 1 cast 'disintegrate'
 
 Per sapere  quali alias sono configurati al momento, basta digitare solo
 'alias': verra' visualizzata  una lista degli alias definiti.  Per usare
@@ -3809,7 +3809,7 @@ magia KNOCK, che agisce solo sulle porte). Non tutte le serrature,
 comunque,  possono essere forzate:  per  alcune,  sara' necessaria
 la giusta chiave. La sintassi e' PICK <oggetto>.
 
-See Also : OPEN, CLOSE, LOCK, UNLOCK, KNOCK
+See Also : OPEN, CLOSE, LOCK, UNLOCK, KNOCK, DOORBASH
 
 #
 SNEAK
@@ -3892,7 +3892,7 @@ usato in vari modi.
    e' in grado di guardare  cosa si trova nella stanza adiacente come
    se si trovasse fisicamente li'.
 
-Vedi anche: EXAMINE, READ
+Vedi anche: EXAMINE, READ, SPY, SPOT
 
 #
 OPEN CLOSE LOCK UNLOCK CUT DIG PUSH PULL TWIST LIFT
@@ -4101,7 +4101,8 @@ sintassi del comando SET e' la seguente:
    Permette di impostare il blocco nelle visualizzazioni delle
    pagine, in modo da permettere una lettura piu' semplice.
 
-Vedi anche: GROUP, GWHO, ORDER, WHOIS, COLORI, EXITS, SEGUACI
+Vedi anche: GROUP, GWHO, ORDER, WHOIS, COLORI, EXITS, SEGUACI,
+            DISPLAY, COMPACT, RESIZE
  
 #
 INVENTORY INVENTARIO
@@ -4414,11 +4415,11 @@ Esempi:
 - Ho usato l'incantesimo CHARM MONSTER ed ora ho 3 orchi che  sono
   miei schiavi. Posso usare:
 
-        order orco smile
+  >  order orco smile
 
 	ed il primo orco sorride. :)
 
-	order 2.orco smile
+  > order 2.orco smile
 
 	ed il secondo orco sorride.
 
@@ -4426,16 +4427,16 @@ Ci  sono inoltre altre due cose da sapere sull'ORDER. La prima e' che
 e' possibile dare un ordine a TUTTI i propri seguaci usando la parola
 FOLLOWERS. In altre parole:
 
-	order followers smile
+  > order followers smile
 
 fara' si che tutti gli orchi sorridano. Inoltre, esiste una modalita'
 chiamata GUARD, attivabile tramite il comando:
 
-	order orco guard on
+  > order orco guard on
 
 e disattivabile con:
 
-	order orco guard off
+  > order orco guard off
 
 Quando si attiva la modalita' GUARD su un seguace, questo  diventera'
 la guardia del corpo del suo padrone. In pratica,se qualcuno tenta di
@@ -4659,7 +4660,7 @@ del suo equipaggiamento nel caso in cui finisca in stanze in cui sono
 poste delle trappole mortali (DEATHTRAP).
 
 Per vedere le abilita': PRAC T
-Vedi anche: STEAL, SNEAK, BACKSTAB, DUAL WIELD, DISGUISE, HIDE
+Vedi anche: STEAL, SNEAK, BACKSTAB, DUAL WIELD, DISGUISE, HIDE, POISON
 
 #
 CHIERICO CLERIC CHIERICI
@@ -4737,7 +4738,7 @@ essere  anche acquistate  presso  Calliope,  in cambio di punti
 esperienza.
 
 Vedi anche: PRACTICE, GAIN, CLASSI, GILDE, CALLIOPE, EXODUS,
-               CINDY
+            CINDY
 
 #
 EXITS
@@ -4787,7 +4788,7 @@ conoscere dove si trovano i vari  Stagni e dove conduce ognuno di
 essi.
 
 Vedi anche: ENTER, ASTRAL WALK, TELEPORT WITHOUT ERROR,
-		PROBABILITY TRAVEL
+		    PROBABILITY TRAVEL
 
 #
 TIME
@@ -5046,7 +5047,7 @@ via email (ricordati pero' di specificare CHI sei all'interno del
 mud! Ovvero il nome del tuo personaggio).
 
 per conoscere l'email degli dei bisogna usare il commando:
-            whois<nome>
+  > whois <nome>
 
 Vedi anche: GODLIST
 
@@ -5146,7 +5147,7 @@ colui che si cerca  si muove  silenziosamente,  la localizzazione  e'
 impossibile  (il mud  risponde  'Qui intorno...'); se il bersaglio e'
 nascosto, esso non puo' essere in alcun modo trovato.
 
-Vedi anche: LOCATE OBJECT
+Vedi anche: LOCATE OBJECT, WHOZ
 
 #
 LEVELS
@@ -5175,7 +5176,7 @@ Vedi anche: CLASSI, DIGNITY
 #
 BRIEF
 
-Attiva e disattiva la modalita' 'Brief'. Quando si ha il Brief
+Attiva e disattiva la modalita' BRIEF. Quando si ha il BRIEF
 attivo, e ci si sposta, non verra' piu' mostrata la descrizione
 del  posto  in  cui si  e'  arrivati,  sebbene essa  sia sempre
 disponibile  digitando  il  comando  LOOK. Non e' consigliabile
@@ -5186,7 +5187,7 @@ utili  suggerimenti  per non  cadere  nelle trappole mortali, o
 per  risolvere  eventuali quest.  Alcune descrizioni  meritano,
 in ogni caso, di essere lette per la loro bellezza!
  
-Vedi anche: COMPACT, LOOK
+Vedi anche: COMPACT, LOOK, RESIZE, COMPACT, SET
 
 #
 !
@@ -13910,6 +13911,10 @@ permette l'utilizzo di altre skill o altri spell, tranne la specifica skill o sp
 sottoposta a COOLDOWN. Questa parola puo' anche venire usata per indicare il tempo di
 attesa necessario affinche' un certo incantesimo possa essere riutilizzato.
 
+Con il termine COOLDOWN puo' anche essere inteso il tempo per cui un certo incantesimo 
+non potra' essere lanciato, come accade per il CHANGE FORM dei druidi o il CRUSADE del
+paladino.
+
 $c0009Esempio$c0007
 Marlon usa il bash su Ferlon. Ferlon viene gettato a terra e laggato per 
 due round. Marlon, avendo usato il bash, riceve un round di lag e un round di
@@ -13951,5 +13956,35 @@ Lo psionico puo' uscire da questo stato lanciando nuovamente il comando
  > mind 'chaos'
 
 Vedi anche: PSIONIC BLAST, PSYCHIC CRUSH
+
+#
+ACCESSIBILITA' NONVEDENTI IPOVEDENTI
+
+Lo staff di Tempora Sanguinis si impegna a sviluppare un gioco accessibile anche 
+ai giocatori ipovedenti e non vedenti. Per migliorare le possibilita' di gioco e
+favorire l'uso dei sintetizzatori vocali e' possibile utilizzare alcuni comandi 
+che diminuiscono le scritte di gioco.
+
+Puoi attivare la visualizzazione consigliata per ipovedenti tramite il comando 
+  > SET IPOVEDENTE ENABLE
+  
+Questa visualizzazione diminuisce lo scroll dei combattimenti, sommando i colpi
+dei PG e dei MOB interessati dallo scontro, migliorando l'esperienza dei 
+giocatori.
+
+$c0009Altri comandi utili per migliorare l'esperienza di gioco sono:$c0007
+
+- SPOT: permette di vedere quali mob sono presenti nella locazione.
+- SPOT DINTORNI: permette di vedere i mob presenti nelle locazioni vicine, ma lagga
+  il PG per un round.
+- BRIEF: disattiva o attiva la descrizione della stanza.
+- DISPLAY: attiva o disattiva la barra del PROMPT, dove sono indicati i tuoi punti
+  vita, mana e movimento.
+- COMPACT: diminuisce le linee vuote nello scroll del gioco.
+- RESIZE: permette di settare il numero di caratteri visualizzabili per ogni riga.
+
+Puoi consultare le voci dedicate a questi comandi nell'help a loro dedicato
+
+Vedi anche: SET, SPOT, LOOK, BRIEF, DISPLAY, COMPACT, RESIZE
 
 #~
