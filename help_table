@@ -13972,6 +13972,11 @@ Questa visualizzazione diminuisce lo scroll dei combattimenti, sommando i colpi
 dei PG e dei MOB interessati dallo scontro, migliorando l'esperienza dei 
 giocatori.
 
+Per migliorare l'esperienza dei giocatori CASTER, quando si e' in gruppo con altri
+qualsiasi incantesimo offensivo lanciato senza l'indicazione della vittima prescelta,
+verra' indirizzato ad uno dei nemici impegnati in combattimento con il personaggio 
+del gruppo nel ruolo di TANKER.
+
 $c0009Altri comandi utili per migliorare l'esperienza di gioco sono:$c0007
 
 - SPOT: permette di vedere quali mob sono presenti nella locazione.
@@ -13987,4 +13992,118 @@ Puoi consultare le voci dedicate a questi comandi nell'help a loro dedicato
 
 Vedi anche: SET, SPOT, LOOK, BRIEF, DISPLAY, COMPACT, RESIZE
 
+#
+INSPIRE ISPIRA
+
+$c0015Uso$c0015           : inspire/ispira <vittima>
+$c0006Cumulativo$c0006    : si, cumulativo fino a 6 cariche
+$c0005Durata$c0005        : 5 ore
+$c0010Livello$c0010       : 9 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : -
+
+Il bardo dona ispirazione al target o trae ispirazione per se stesso.
+Un personaggio quando ha ispirazione consuma meno mana per lanciare i suoi incantesimi.
+Il bardo invece usa l'ispirazione per abilitare altre skill o spell che lo richiedono.
+Inoltre ogni caricha di ispirazione dona 5 mana regen.
+Se affetto da MYSTICAL CONNECTION, in base alla saggezza, si ha probabilita' di non
+consumare ispirazione quando una skill la spenderebbe.
+
+Vedi anche: REVEAL SPIRIT, SPIRIT SESSION, TALES FROM BEYOND, MYSTICAL CONNECTION
+
+#
+REVEAL SPIRIT
+
+$c0015Uso$c0015           : cast 'reveal spirit' <vittima>
+$c0006Cumulativo$c0006    : no
+$c0005Durata$c0005        : Istantaneo
+$c0010Livello$c0010       : 32 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : -
+
+Il bardo riesce a percepire lo spirito della vittima e vedere dove essa si trova.
+Simile allo scry da psionico ma non mostra il nome della stanza, solo la sua descrizione.
+Se lanciato senza target rivela gli spiriti presenti nella stanza, con una funziona 
+simile allo spell FAERIE FOG.
+Inoltre aiuta il bardo a percepire le forme di vita nascoste, come lo spell SENSE LIFE.
+
+Per essere utilizzato richiede ispirazione.
+
+Vedi anche: INSPIRE, FAERIE FOG, SENSE LIFE
+
+#
+SPIRITUAL FOCUS
+
+$c0015Uso$c0015           : cast 'spiritual focus' <oggetto>
+$c0006Cumulativo$c0006    : no
+$c0005Durata$c0005        : Istantaneo, durata 10 ore, cooldown di 10 ore
+$c0010Livello$c0010       : 34 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : -
+
+Se lanciato su un oggetto personale il bardo riesce a canalizzare meglio il proprio spirito 
+tramite l'oggetto, il quale ottiene dei bonus temporanei, che spesso includono MUSIC POWER.
+Se invece lanciato su un'oggetto non personale, funziona come lo spell IDENTIFY, con 
+cooldown di 5 ore.
+
+Vedi anche: IDENTIFY
+
+#
+SPIRIT SESSION
+
+$c0015Uso$c0015           : cast 'spirit session' <incantesimo>
+$c0006Cumulativo$c0006    : no
+$c0005Durata$c0005        : 1 ora + 1 ora per ogni punto saggezza sopra al 16
+$c0010Livello$c0010       : 50 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : -
+
+Usabile solo in gruppo. Il bardo e il gruppo partecipano a una sessione spirituale dove 
+il bardo cerca di comunicare con lo spirito dei membri del gruppo per ottenerne la 
+conoscenza dell'incantesimo desiderato.
+Il bardo sviene esausto, analogamente allo spell RESURRECT del chierico.
+Se la contemplazione spirituale va a buon fine, il bardo ottiene per una certa durata 
+l'uso dell'incantesimo prescelto. Funziona solo su personaggi di livello uguale o minore.
+
+Richiede massima ispirazione.
+
+Vedi anche: INSPIRE
+
+#
+MYSTICAL CONNECTION
+
+$c0015Uso$c0015           : cast 'mystical connection'
+$c0006Cumulativo$c0006    : no
+$c0005Durata$c0005        : 2 + livello/10
+$c0010Livello$c0010       : 37 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : -
+
+Il bardo espando il tuo spirito e vieni colto dall'estasi mistica.
+Aiuta a non consumare ispirazione da skill che la richiedono.
+Inoltre aumenta SPELLPOWER e MANA REGEN. I bonus dipendono anche dalla saggezza
+del bardo.
+
+Vedi anche: INSPIRE
+
+
+#
+MUSIC ABILITY
+
+$c0015Uso$c0015           : cast 'music ability'
+$c0006Cumulativo$c0006    : no
+$c0005Durata$c0005        : 2 + livello/10
+$c0010Livello$c0010       : 10 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : -
+
+Il bardo si esercita con alcune note e melodie, migliorando le sue capacita' 
+musicali e aumentando il proprio MUSIC POWER.
+La potenza dell'incantesimo dipende dal livello del bardo.
+
+Vedi anche: INSPIRE, PLAY, BARDO
+
+
 #~
+
+
