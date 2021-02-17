@@ -14081,8 +14081,8 @@ $c0012Costo in mana$c0007 : -
 
 Il bardo espando il tuo spirito e vieni colto dall'estasi mistica.
 Aiuta a non consumare ispirazione da skill che la richiedono.
-Inoltre aumenta SPELLPOWER e MANA REGEN. I bonus dipendono anche dalla saggezza
-del bardo.
+Inoltre aumenta SPELL POWER e MANA REGEN. I bonus dipendono anche 
+dalla saggezza del bardo.
 
 Vedi anche: INSPIRE
 
@@ -14091,18 +14091,186 @@ Vedi anche: INSPIRE
 MUSIC ABILITY
 
 $c0015Uso$c0015           : cast 'music ability'
-$c0006Cumulativo$c0006    : no
+$c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 2 + livello/10
 $c0010Livello$c0010       : 10 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0007 : -
 
-Il bardo si esercita con alcune note e melodie, migliorando le sue capacita' 
-musicali e aumentando il proprio MUSIC POWER.
+Il bardo si esercita con alcune note e melodie, migliorando 
+le sue capacita' musicali e aumentando il proprio MUSIC POWER.
 La potenza dell'incantesimo dipende dal livello del bardo.
 
 Vedi anche: INSPIRE, PLAY, BARDO
 
+#
+SLAM
+
+$c0015Uso$c0015           : slam <vittima>
+$c0006Cumulativo$c0006    : No
+$c0005Durata$c0005        : Instantaneo
+$c0010Livello$c0010       : 3 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : -
+$c0001Strumento$c0007     : a percussione o a corde
+
+Questa abilita'  rappresenta la principale forma di attacco del Bardo.
+Il bardo usa il proprio strumento come arma e lo usa a mo di clava 
+sulla vittima. Il danno viene inflitto in base alla DUREVOLEZZA dello
+strumento usato.
+
+Le LORE aumentano il danno inflitto,
+La FORZA aumenta la possibilita che si verifichi un attacco critico,la 
+DESTREZZA migliora la possibilita di colpire.
+In caso di colpo critico, a seconda della forza posseduta la vittima potrebbe
+perdere l'arma e lo strumento danneggiarsi. Un bardo puo sempre riparare i 
+propri strumenti tramite il comando REPAIR <strumento>.
+
+Vedi anche: BACKSTAB, DUAL WIELD, LORE
+
+
+#
+SONG OF LIFE
+
+$c0015Uso$c0015           : play 'song of life'
+$c0006Cumulativo$c0006    : Si
+$c0005Durata$c0005        : Speciale
+$c0010Livello$c0010       : 8 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
+$c0011Costo in mov$c0007  : 10 per proc
+$c0001Strumento$c0007     : a fiato
+
+Per mezzo di questa canzone il Bardo migliora le capacita' di	
+rigenerazione proprie e di chi lo ascolta, ne migliora i tiri
+salvezza e anche la fortuna. Fintanto che il Bardo suona, gli
+HP propri e del gruppo iniziano ad aumentare arrivando fino a
+30% superiori rispetto agli attuali, fino alla fine del tick.
+Al raggiungimento del CULMINE, il bardo puo ottenere effetti
+extra per se stesso ed il proprio gruppo.
+Il MUSIC POWER influenza la potenza dei bonus e la tipologia,
+il CARISMA influenza quante persone oltre al bardo saranno capaci
+di ascoltarlo.
+
+Vedi anche: BARDO, PLAY, HEALING RAIN, CULMINE, SONG OF NATURE
+
+
+#
+SONG OF NATURE
+
+$c0015Uso$c0015           : play 'song of nature'
+$c0006Cumulativo$c0006    : Si
+$c0005Durata$c0005        : Speciale
+$c0010Livello$c0010       : 16 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
+$c0011Costo in mov$c0007  : 10 per proc
+$c0001Strumento$c0007     : a corde
+
+Per mezzo di questa canzone il bardo inizia a richiamare a 
+se le creature della foresta che lo ascoltano.
+La quantita delle creature che e' in grado di richiamare 
+dipende dal CARISMA, mentre la loro potenza dipende dalla
+potenza della sua canzone.
+Al CULMINE della canzone le creature cosi richiamate verranno 
+benedette dagli spiriti della natura.
+
+Vedi anche: BARDO, PLAY, HEALING RAIN, CULMINE, SONG OF LIFE
+
+#
+SONG OF WAR
+
+$c0015Uso$c0015           : play 'song of war'
+$c0006Cumulativo$c0006    : Si
+$c0005Durata$c0005        : Speciale
+$c0010Livello$c0010       : 20 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
+$c0011Costo in mov$c0007  : 10 per proc
+$c0001Strumento$c0007     : a percussione
+
+Per mezzo di questa canzone il bardo migliora le capacita offensive
+proprie e di chi lo ascolta, aumentando in maniera progressiva sia 
+il DAMROLL che lo SPELL POWER.
+La quantita' di persone in grado di ascoltarlo dipende dal CARISMA,
+mentre l'entita' del bonus assegnato dipende dal MUSIC POWER del bardo.
+Al CULMINE il bardo dona l'euforia per la battaglia aumentando gli attacchi
+come avviene con HASTE.
+
+Vedi anche: BARDO, PLAY, HASTE, ADRENALIZE, CULMINE, SONG OF LIFE, SONG OF WAR
+
+#
+TALES FROM BEYOND
+
+$c0015Uso$c0015           : tales <nomestoria> <vittima>
+$c0006Cumulativo$c0006    : No
+$c0005Durata$c0005        : Istantaneo
+$c0010Livello$c0010       : 23 bardi
+$c0014Tiro salvezza$c0014 : Speciale
+$c0012Costo in mana$c0007 : Speciale
+
+Grazie alle sue esperienze ed i suoi viaggi, un Bardo ispirato tramite la
+skill INSPIRE e' in grado di raccontare storie e stornelli a chi lo ascolti.
+L'effetto della storia e' istantaneo, ma la capacita' di farsi sentire
+dipende dalla SAGGEZZA.
+	
+$c0001ATTENZIONE: $c0007L'uso lesivo delle storie per danneggiare volontariamente i giocatori
+fuori da un contesto PKILL e' severamente vietato ed punito dagli DEI.
+
+Vedi anche: BARDO, INSPIRE
+
+#
+SONG OF DUMBING
+
+$c0015Uso$c0015           : play 'song of dumbing'
+$c0006Cumulativo$c0006    : Si
+$c0005Durata$c0005        : Speciale
+$c0010Livello$c0010       : 25 bardi
+$c0014Tiro salvezza$c0014 : Speciali
+$c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
+$c0011Costo in mov$c0007  : 10 per proc
+$c0001Strumento$c0007     : a corde
+
+Per mezzo di questa canzone il bardo inizia a strimpellare senza 
+armonia, con il solo scopo di creare disagio in chi lo ascolti.
+Le note cacofoniche possono scatenare reazioni debilitanti in 
+proporzione alla potenza della canzone stessa o reazioni aggressive.
+La potenza e la durata delle reazioni dipendono dal MUSIC POWER,
+La quantita' di persone ed il quantitativo di afflizioni dipendono
+dal CARISMA.
+
+Al culmine della canzone le reazioni possono includere persino 
+suscettibilita' alle varie fonti di danno.
+
+Vedi anche: BARDO, PLAY, SONG OF WAR
+
+#
+SONG OF PEACE
+
+$c0015Uso$c0015           : play 'song of peace'
+$c0006Cumulativo$c0006    : Si
+$c0005Durata$c0005        : Speciale
+$c0010Livello$c0010       : 25 bardi
+$c0014Tiro salvezza$c0014 : Speciali
+$c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
+$c0011Costo in mov$c0007  : 10 per proc
+$c0001Strumento$c0007     : a fiato
+
+Per mezzo di questa canzone il bardo inizia ad intonare una melodia rilasante,
+con lo scopo di far cessare l'animosita' e la belligeranza di chiunque lo stia
+ascoltando. Con in passare del tempo, gli effetti prodotti sono riduzioni del
+DAMROLL, riduzioni del numero di ATTACCHI e perdita di volonta' di attaccare.
+Al CULMINE un alone azzurro circondera' la stanza, imponendo la cessazione delle
+ostilita', l'azzeramento di qualsiasi danno e per prevenire ulteriori scontri,
+nascondera' alla vista ogni creatura presente alla vista di tutti i presenti.
+
+$c0009Una volta ottenuto l'effetto, varranno le stesse regole valide con la skill
+$c0009dell'HIDE:$c0007
+qualsiasi comando che non sia: STAND,  SIT,  REST,  SLEEP,  WAKE,  WHISPER,
+MEDITATE, SENDING,  MESSENGER, LOOK,  TELEPATHY, HELP, ATTR,  SCORE, HIDE,
+faranno cessare immediatamente l'effetto con eventuale ripresa delle ostilita'.
+
+Vedi anche: BARDO, PLAY, HEALING RAIN, CULMINE, SONG OF LIFE
 
 #~
 
