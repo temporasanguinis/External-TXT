@@ -757,7 +757,7 @@ Vedi anche: DISPLAY, COMPACT, PROMPT, LOOK, BRIEF, SET
 #
 DISGUISE
 
-Skill per : Ladri, Barbari.
+Skill per : Ladri, Barbari, Bardi.
 
 DISGUISE  e' una  abilita' dei  ladri che permette di  travestirsi per non 
 essere riconosciuti. Questo puo' torner utile in molte situazioni.  Non ha
@@ -1125,7 +1125,7 @@ Vedi anche: CONE OF COLD, CHILL TOUCH
 $c0015Uso$c0015           : cast 'find traps'
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del caster) ore
-$c0010Livello$c0010       : 13 Ranger, 15 Druidi, 16 Chierici
+$c0010Livello$c0010       : 13 Ranger, 15 Druidi, 15 Bardi, 16 Chierici
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 10
 
@@ -1214,7 +1214,7 @@ Vedi anche: STONE SKIN
 $c0015Uso$c0015           : cast 'heroes feast'
 $c0006Cumulativo$c0006    : Vedere sotto
 $c0005Durata$c0005        : Vedere sotto
-$c0010Livello$c0010       : 24 Chierici
+$c0010Livello$c0010       : 24 Chierici, 41 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 40
  
@@ -1233,7 +1233,7 @@ Vedi anche: FEAST
 $c0015Uso$c0015           : cast 'weakness' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del mago)/2 ore
-$c0010Livello$c0010       : 6 Maghi e Stregoni
+$c0010Livello$c0010       : 6 Maghi e Stregoni, 43 Bardi
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
 $c0012Costo in mana$c0012 : 10
  
@@ -1405,7 +1405,7 @@ Vedi anche: MANA
 $c0015Uso$c0015           : cast 'astral walk'
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 28 Druidi, 30 Chierici
+$c0010Livello$c0010       : 28 Druidi, 30 Chierici, 42 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 30
 
@@ -1539,7 +1539,7 @@ Vedi anche: CAUSE SERIOUS, CAUSE LIGHT, CURE CRITIC
 $c0015Uso$c0015           : cast 'dispel magic' <vittima/oggetto>
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 9 Druidi, 10 Chierici, 9 Maghi e Stregoni
+$c0010Livello$c0010       : 9 Druidi, 10 Chierici, 9 Maghi e Stregoni, 31 Bardi
 $c0014Tiro salvezza$c0014 : Vedere sotto
 $c0012Costo in mana$c0012 : 15
  
@@ -1688,7 +1688,7 @@ Vedi anche: PICK, DOORBASH
 $c0015Uso$c0015           : cast 'fear' <vittima>
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 8 Maghi e Stregoni
+$c0010Livello$c0010       : 8 Maghi e Stregoni, 19 Bardi
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
 $c0012Costo in mana$c0012 : 15
  
@@ -1780,7 +1780,7 @@ Vedi anche: -
 $c0015Uso$c0015           : cast 'command' <vittima> <comando>
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 1 Chierici
+$c0010Livello$c0010       : 1 Chierici, 6 Bardi
 $c0014Tiro salvezza$c0014 : 'vs. paralysis' per negazione
 $c0012Costo in mana$c0012 : 3
  
@@ -1850,7 +1850,7 @@ Vedi anche: BASH
 $c0015Uso$c0015           : cast 'silence' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del caster) ore
-$c0010Livello$c0010       : 21 Maghi e Stregoni, 23 Chierici, 25 Druidi
+$c0010Livello$c0010       : 21 Maghi e Stregoni, 23 Chierici, 25 Druidi, 45 Bardi
 $c0014Tiro salvezza$c0014 : 'vs spells' per negazione
 $c0012Costo in mana$c0012 : 30
  
@@ -1871,7 +1871,7 @@ Vedi anche: -
 $c0015Uso$c0015           : cast 'sunray' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 27 Druidi
+$c0010Livello$c0010       : 27 Druidi, 21 Bardo
 $c0014Tiro salvezza$c0014 : Speciale
 $c0012Costo in mana$c0012 : 15
 
@@ -2395,7 +2395,7 @@ Vedi anche: FLY
 $c0015Uso$c0015           : cast 'animal friendship' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
-$c0010Livello$c0010       : 5 Druidi, 3 Rangers
+$c0010Livello$c0010       : 5 Druidi, 3 Rangers, 14 Bardo
 $c0014Tiro salvezza$c0014 : 'vs spells' per negazione
 $c0012Costo in mana$c0012 : 2
  
@@ -2727,7 +2727,7 @@ Vedere anche: POWER WORD KILL, BLINDNESS
 $c0015Uso$c0015           : cast 'chain lightning' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 25 Maghi, Stregoni e Druidi
+$c0010Livello$c0010       : 25 Maghi, Stregoni e Druidi, 48 Bardi
 $c0014Tiro salvezza$c0014 : 'vs spell' per meta' danno
 $c0012Costo in mana$c0012 : 30
  
@@ -2747,7 +2747,7 @@ Vedi anche: LIGHTNING BOLT
 $c0015Uso$c0015           : cast 'scare' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 4 Maghi e Stregoni
+$c0010Livello$c0010       : 4 Maghi e Stregoni, 5 Bardi
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0012 : 3
 
@@ -2847,7 +2847,7 @@ Vedi anche: MONSUM, CHARM
 $c0015Uso$c0015           : cast 'aid' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 10 ore
-$c0010Livello$c0010       : 4 Chierici
+$c0010Livello$c0010       : 4 Chierici, 4 Bardi
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0012 : 5
  
@@ -3063,7 +3063,7 @@ Vedi anche: FLY
 "SPY SPYING"
 
 Skill per : Tutti.
-Livello minimo: 1 Ladri, Barbari e Ranger, 2 livello Eroe gli altri.
+Livello minimo: 1 Ladri, Barbari e Ranger, 12 Bardi, 2 livello Eroe gli altri.
 
 Tramite questa utilissima abilita' un personaggio puo' carpire informazioni
 circa  il  mondo  intorno  a lui.  Dopo  aver  scritto  <spy>, e' possibile
@@ -3095,7 +3095,7 @@ Vedi anche: PICK
 #
 "DISARM" "DISARM TRAP"
  
-Skill per : Guerrieri, Ladri, Paladini, Antipaladini, Rangers.
+Skill per : Guerrieri, Ladri, Paladini, Antipaladini, Rangers, Bardi.
 Livello minimo: 1.
 
 Esistono due differenti usi dell'abilita' DISARM: con essa, infatti, si puo'
@@ -3126,7 +3126,7 @@ SILENCE.  La capacita'  di comunicare  dipende da quanto questa e'
 stata imparata:  non e'  detto che  si  riesca a  far  capire cio'
 che si intende  comunicare.  In ogni caso,  chi  non ha  coltivato
 questo linguaggio non sara' mai in grado di capire chi lo parla. 
-
+	
 Vedi anche: SILENCE
 
 #
@@ -3268,7 +3268,7 @@ Vedi anche: ABSORB DAMAGE, MONACI, LADRI, AVOID DEATHTRAP, EVASION
 #
 "RETREAT"
 
-Skill per: Monaci, Ladri.
+Skill per: Monaci, Ladri, Bardi.
 
 Chi impara  questa abilita'  non sara'  piu' preso dal panico nel caso
 decidesse di  scappare  da un  combattimento  (FLEE):  se il controllo
@@ -3519,7 +3519,7 @@ Vedi anche: ICE STORM, CHILL TOUCH
 $c0015Uso$c0015           : cast 'true sight' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello)*2.
-$c0010Livello$c0010       : 19 Chierici, 24 Druidi
+$c0010Livello$c0010       : 19 Chierici, 24 Druidi, 29 Bardi
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0012 : 20
               
@@ -3626,7 +3626,7 @@ e quello fino a cui arrivare.
 $c0015Uso$c0015           : cast 'charm monster'
 Cumualtivo    : No
 $c0005Durata$c0005        : Vedi sotto.
-$c0010Livello$c0010       : 10 Maghi e Stregoni, 12 Druidi
+$c0010Livello$c0010       : 10 Maghi e Stregoni, 12 Druidi, 7 Bardi
 $c0014Tiro salvezza$c0014 : 'vs. paralysis' per negazione
 $c0012Costo in mana$c0012 : 5
  
@@ -3664,7 +3664,7 @@ REFRESH
 $c0015Uso$c0015           : cast 'refresh' <vittima>
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Permanente
-$c0010Livello$c0010       : 3 Chierici, 4 Druidi, 6 Maghi e Stregoni 
+$c0010Livello$c0010       : 3 Chierici, 4 Druidi, 6 Maghi e Stregoni, 9 Bardi
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0012 : 5
 
@@ -3682,7 +3682,7 @@ $c0015Uso$c0015           : cast 'second wind' <vittima>
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 9 Chierici, 14 Druidi, 20 Maghi e Stregoni, 30 Rangers, 
-                35 Paladini
+                35 Paladini, 33 Bardi
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0012 : 5
 
@@ -3697,7 +3697,7 @@ TURN
 $c0015Uso$c0015           : cast 'turn' <vittima>
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Permanente
-$c0010Livello$c0010       : 1 Chierici, 12 Druidi, 10 Paladini, 5 Antipaladini
+$c0010Livello$c0010       : 1 Chierici, 12 Druidi, 10 Paladini, 5 Antipaladini, 47 Bardi
 $c0014Tiro salvezza$c0014 : 'vs spell' per negazione 
 $c0012Costo in mana$c0012 : 5
  
@@ -4243,7 +4243,7 @@ Vedi anche: -
 #
 KICK
 
-Skill per: Monaci, Guerrieri, Antipaladini
+Skill per: Monaci, Guerrieri, Antipaladini, Bardi
 Livello minimo: 1
 
 E' una delle abilita' fondamentali per un combattente. Il successo
@@ -5347,7 +5347,7 @@ ARMOR
 $c0015Uso$c0015           : cast 'armor' <bersaglio>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
-$c0010Livello$c0010       : 2 Chierici, 5 Maghi e Stregoni
+$c0010Livello$c0010       : 2 Chierici, 5 Maghi e Stregoni, 38 Bardo
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0012 : 5
                       
@@ -5399,7 +5399,7 @@ BLESS
 $c0015Uso$c0015           : cast 'bless' <bersaglio>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 6 ore, permanente sugli oggetti.
-$c0010Livello$c0010       : 1 Chierici, 17 Stregoni, 17 Antipaladini
+$c0010Livello$c0010       : 1 Chierici, 17 Stregoni, 17 Antipaladini, 26 Bardi
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0012 : 5
 
@@ -5503,7 +5503,7 @@ Vedi anche: CREATE FOOD, FIND FOOD, FIND WATER
 $c0015Uso$c0015           : cast 'cure blind' <vittima>
 $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Permanente
-$c0010Livello$c0010       : 6 Chierici
+$c0010Livello$c0010       : 6 Chierici, 10 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 5
 
@@ -5585,7 +5585,7 @@ CURSE
 $c0015Uso$c0015           : cast 'curse' <vittima|oggetto>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 7 giorni, permanente sugli oggetti
-$c0010Livello$c0010       : 12 Chierici, 13 Maghi e Stregoni, 11 Antipaladini
+$c0010Livello$c0010       : 12 Chierici, 13 Maghi e Stregoni, 11 Antipaladini, 20 Bardi
 $c0014Tiro salvezza$c0014 : contro 'spell' per negazione
 $c0012Costo in mana$c0012 : 20
 
@@ -5643,7 +5643,7 @@ Vedi anche: DETECT EVIL, ANTIPALADINO, ALLINEAMENTO
 $c0015Uso$c0015           : cast 'detect invisibility'
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*5) ore
-$c0010Livello$c0010       : 2 Maghi e Stregoni, 5 Chierici, 7 Druidi
+$c0010Livello$c0010       : 2 Maghi e Stregoni, 5 Chierici, 7 Druidi, 8 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 5
 
@@ -5694,7 +5694,7 @@ Vedi anche: CURE POISON, POISON, REMOVE POISON
 $c0015Uso$c0015           : cast/recall 'enchant weapon' <arma>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Permanente
-$c0010Livello$c0010       : 14 Maghi e Stregoni
+$c0010Livello$c0010       : 14 Maghi e Stregoni, 44 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 100
 
@@ -5756,7 +5756,7 @@ Vedi anche: BLINDNESS, POWER WORD BLIND, CURE BLIND MINOR HEAL HEALING
 $c0015Uso$c0015           : cast 'minor heal' <vittima>
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 20 Chierici, 18 Druidi
+$c0010Livello$c0010       : 20 Chierici, 18 Druidi, 35 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 25
 
@@ -5832,7 +5832,7 @@ $c0015Uso$c0015           : cast 'poison' <vittima|cibo|bevanda>
 $c0006Cumulativo$c0006    : Si sulle persone
 $c0005Durata$c0005        : (livello*2) ore, permanente su cibo e bevande
 $c0010Livello$c0010       : 8 Druidi, 13 Chierici, 10 Antipaladini, 
-                            25 ladri
+                            25 ladri, 15 Bardi
 $c0014Tiro salvezza$c0014 : 'vs. paralyzation' per negazione
 $c0012Costo in mana$c0012 : 10
 
@@ -5862,7 +5862,7 @@ Vedi anche: DETECT POISON, CURE POISON, REMOVE POISON
 $c0015Uso$c0015           : cast 'protection from evil'
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
-$c0010Livello$c0010       : 7 Chierici, 20 Paladini, 25 Ranger
+$c0010Livello$c0010       : 7 Chierici, 20 Paladini, 25 Ranger, 46 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 5
 
@@ -5895,7 +5895,7 @@ Vedi anche: PROTECTION FROM EVIL, PROTECTION FROM GOOD
 $c0015Uso$c0015           : cast 'remove curse' <vittima|oggetto>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 8 Chierici
+$c0010Livello$c0010       : 8 Chierici, 15 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 5
 
@@ -5929,7 +5929,7 @@ Vedi anche: POSION, CURE POISON
 $c0015Uso$c0015           : cast 'remove paralysis' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 6 Chierici, 9 Druidi
+$c0010Livello$c0010       : 6 Chierici, 9 Druidi, 39 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 10
 
@@ -5978,7 +5978,7 @@ STRENGTH
 $c0015Uso$c0015           : cast 'strength' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*2) ore
-$c0010Livello$c0010       : 6 Maghi e Stregoni
+$c0010Livello$c0010       : 6 Maghi e Stregoni, 28 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 10
 
@@ -6029,7 +6029,7 @@ Vedi anche: -
 $c0015Uso$c0015           : cast 'word of recall'
 $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 15 Chierici
+$c0010Livello$c0010       : 15 Chierici, 36 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 5
 
@@ -6065,7 +6065,7 @@ Vedi anche: PSI SUMMON
 $c0015Uso$c0015           : cast 'charm person' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Dipendente dal carisma del caster
-$c0010Livello$c0010       : 4 Maghi e Stregoni
+$c0010Livello$c0010       : 4 Maghi e Stregoni, 18 Bardi
 $c0014Tiro salvezza$c0014 : 'vs. paralyzation' per negazione
 $c0012Costo in mana$c0012 : 10
 
@@ -6145,7 +6145,7 @@ Vedi anche: STRENGTH, MAGIC MISSILE, SPELL POWER, ICE STORM, CONE OF COLD
 $c0015Uso$c0015           : cast 'burning hards' <vittima>
 $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 5 Maghi e Stregoni
+$c0010Livello$c0010       : 5 Maghi e Stregoni, 24 Bardi
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
 $c0012Costo in mana$c0012 : 15
 
@@ -7421,7 +7421,7 @@ $c0015Uso$c0015           : cast 'darkness' <vittima>
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del caster) ore
 $c0010Livello$c0010       : 3 Chierici, 3 Druidi, 4 Ranger, 5 Maghi e Stregoni,
-                2 Antipaladini
+                2 Antipaladini, 40 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 15
 
@@ -7626,7 +7626,7 @@ Vedi anche: SKIN, RANGER, DETECT POISON, REMOVE POISON
 #
 "DUAL WIELD"
 
-Skill per: Ranger e Ladri
+Skill per: Bardi, Ranger e Ladri
 
 Per mezzo di questa abilita',  i Ranger  ed i Ladri (che  possono
 apprenderla a circa meta' della loro carriera) possono combattere
@@ -7910,10 +7910,10 @@ Vadi anche: BASH, TRIP, GUST OF WIND
 #
 LEVITATION
 
-$c0015Uso$c0015           : mind 'levitation' <vittima>
+$c0015Uso$c0015           : mind/cast 'levitation' <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*2)/10 ore
-$c0010Livello$c0010       : 10 Psionici
+$c0010Livello$c0010       : 10 Psionici, 13 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 20
 
@@ -8503,7 +8503,7 @@ Vedi anche: SAY, TELL
 $c0015Uso$c0015           : cast 'comprehend languages' <vittima>
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello/2) ore
-$c0010Livello$c0010       : 1 Maghi e Stregoni, 3 Chierici
+$c0010Livello$c0010       : 1 Maghi e Stregoni, 3 Chierici, 2 Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 10
 
@@ -8695,7 +8695,7 @@ MESSENGER
 $c0015Uso$c0015           : messenger <nome> <messaggio>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 1 Chierici, Druidi, Ranger, Paladini, Antipaladini
+$c0010Livello$c0010       : 1 Chierici, Druidi, Ranger, Paladini, Antipaladini, Bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 5
 
@@ -9837,13 +9837,15 @@ Skill per: Ladri, Antipaladini
 Abilita' che permette di provocare i mostri insultandoli ferocemente,
 facendoli spostare dalla loro  posizione,  attenti che il  mostro  vi
 attacchera' immediatamente!
+I Bardi, per via della loro loquacita innata, potrebbero essere piu' 
+efficaci e creativi nell'insultare i nemici.
 
 Vedi anche: TRIP, FIRE
 
 #
 TRIP
 
-Skill per: Ladri, Antipaladini, Barbari, Guerrieri, Ranger
+Skill per: Ladri, Antipaladini, Barbari, Guerrieri, Ranger, Bardi
 
 Abilita' dei combattenti  (e dei ladri) che permette di sgambettare
 l'avversario facendolo cadere a terra, l'effetto e' analogo a bash,
@@ -9860,7 +9862,7 @@ Vedi anche: BASH, YELL, MELEE COMBAT
 #
 DIRTKICK
 
-Skill per: Ladri, Antipaladini, Barbari, Guerrieri, Ranger
+Skill per: Ladri, Antipaladini, Barbari, Guerrieri, Ranger, Bardo
 
 Abilita' di combattenti e ladri che permette di gettare della terra
 negli occhi dell'avversario, accecandolo temporaneamente. L'effetto
@@ -12500,10 +12502,10 @@ Vedi anche: -
 #
 "AVOID BACKATTACK"
 
-Skill per: Barbari
+Skill per: Barbari, Bardi
 
 Questa tecnica,  se imparata a  sufficienza, permette ad un barbaro
-di evitare le pugnalate alle spalle, riuscendo a capire nell'istante
+o a un bardo di evitare le pugnalate alle spalle, riuscendo a capire nell'istante
 prima le intenzioni del nemico.
 
 Vedi anche: BACKSTAB, CIRCLE
@@ -12688,10 +12690,9 @@ Vedi anche: -
 "FIND SECRETS"
 
 Uso: find secrets
-Skill per: Ladri
-Livello minimo: 45
+Skill per: 45 Ladri, 22 Bardi
 
-Questa tecnica,  se imparata a  sufficienza, permette ad un ladro di
+Questa tecnica,  se imparata a  sufficienza, permette ad un ladro o un Bardo di
 concentrarsi e controllare a fondo una stanza per trovare eventuali
 passaggi nascosti.
 
@@ -12805,7 +12806,7 @@ durata limitata.
 $c0015Uso$c0015           : cast 'last breath scavenge'
 $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 10 maghi non multiclasse chierici
+$c0010Livello$c0010       : 10 maghi non multiclasse, chierici, 17 Bardi
 $c0014Tiro salvezza$c0014 : vs. breath
 $c0012Costo in mana$c0012 : 1
 
@@ -13049,7 +13050,7 @@ Vedi anche: CHANGE FORM
 #
 SUPERIOR WIZARDRY "SUPERIOR WIZARDRY"
 
-Skill per: Tutti i caster monoclasse, cl/mu e cl/so.
+Skill per: Tutti i caster monoclasse, cl/mu, cl/so e Bardi
 Livello minimo: Eroe di 7 livello.
 Sintassi: superior wizardry
 
@@ -14075,12 +14076,27 @@ $c0010Livello$c0010       : 50 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : -
 
-Usabile solo in gruppo. Il bardo e il gruppo partecipano a una sessione spirituale dove 
-il bardo cerca di comunicare con lo spirito dei membri del gruppo per ottenerne la 
-conoscenza dell'incantesimo desiderato.
-Il bardo sviene esausto, analogamente allo spell RESURRECT del chierico.
-Se la contemplazione spirituale va a buon fine, il bardo ottiene per una certa durata 
-l'uso dell'incantesimo prescelto. Funziona solo su personaggi di livello uguale o minore.
+Questa spell permette al Bardo di entrare in comunione con i membri del gruppo
+permettendogli, laddove abbia successo, di imparare dall'esperienze altrui, il
+modo per lanciare SPELL di ALTRE CLASSI.
+Per poter copiare una SPELL, bosogna soddisfare 3 condizioni:
+	
+- Essere di Livello pari o superiore al possessore della SPELL
+- Essere Ispirato a sufficenza da poter imparare dall'altrui esperienza
+- Essere Gruppato con una o piu persone che hanno la skill da copiare
+
+Qualora la sessione spiritica vada a buon fine, il Bardo si ritrovera' completamente
+esausto per lo sforzo sostenuto (1 hp,1 mana,1 mov) e stordito per 1 ora di tempo,
+ma sara' poi in grado di usare SENZA RESTRIZIONI la SPELL copiata per la restante
+durata della sessione spiritica, anche se il possessora originario della SPELL dovesse
+non essere piu presente.
+
+Sono state contotte prove e test estensivi sul funzionamento della skill stessa per 
+evitare spiacevoli situazioni, restano sempre valide le regole di ogni spell copiata
+(es.feeblemind), ma non e' possibile replicare l'inventiva e le casistiche che solo
+i giocatori possono trovare.
+Quindi laddove troviate anomalie o usi abusivi della skill stessa, dovrete informare
+gli DEI o incorrere nella loro IRA.
 
 Richiede massima ispirazione.
 
@@ -14288,6 +14304,23 @@ MEDITATE, SENDING,  MESSENGER, LOOK,  TELEPATHY, HELP, ATTR,  SCORE, HIDE,
 faranno cessare immediatamente l'effetto con eventuale ripresa delle ostilita'.
 
 Vedi anche: BARDO, PLAY, HEALING RAIN, CULMINE, SONG OF LIFE
+
+#
+PROTECTION FROM BREATH
+
+$c0015Uso$c0015           : cast 'protection from breath'
+$c0006Cumulativo$c0006    : Si
+$c0005Durata$c0005        : Istantaneo
+$c0010Livello$c0010       : 49 bardi
+$c0014Tiro salvezza$c0014 : -
+$c0012Costo in mana$c0012 : 100
+	
+Questo incantesimo e' cosi' potente che non puo' essere replicato o castato
+su altre creature. Fa si che chi e' sotto l'effetto dello spell subisca solo
+1/4 del danno da respiro magico di Drago.
+	
+Questo SPELL e' un dono degli DEI ai Bardi che hanno imparato a cantare le
+storie dell'Impero Celeste grazie a Yffre.
 
 #~
 
