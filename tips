@@ -11,6 +11,7 @@ Per avere ulteriori informazioni e per poter modificare la barra in cui sono ria
 caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009HELP PROMPT$c0007'.~
 Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
 SCORE e ATTRIBUTE$c0007'.~
+Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi '$c0009HELP ACCESSIBILITA'$c0007'.~
 $~
 
 #1-9
@@ -44,6 +45,7 @@ Per avere ulteriori informazioni e per poter modificare la barra in cui sono ria
 caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009HELP PROMPT$c0007'.~
 Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
 SCORE e ATTRIBUTE$c0007'.~
+Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi '$c0009HELP ACCESSIBILITA'$c0007'.~
 $~
 
 #10-20
@@ -54,9 +56,11 @@ Puoi usare il comando '$c0009PRAY AIUTO$c0007' nella sala delle preghiere a Midi
 corpo in caso di morte.~
 Puoi identificare l'equipaggiamento da te trovato da Bronn, a Midia, pagando solo qualche moneta:
 piu' crescerai di livello e piu pagherai.~
-Zone consigliate per fare esperienza: $c0012Castel Mistamere, l'isola del destino, le miniere di Falrhun, .~
-Zone con equipaggiamento che puoi usare: $c0012Utopya, Castel Mistamere, isola del Destino, regno dei nani, 
-fortezza invasa dagli orchi del clan Spezzaossa, il palazzo degli Skexie$c0007.~
+Zone consigliate per fare esperienza: $c0012Castel Mistamere, l'isola del destino, le miniere di Falrhun,il 
+bosco dei Quicklings, la foresta elfica.~
+Zone con equipaggiamento che puoi usare: $c0012le terre dei Quicklings, la foresta elficaUtopya, 
+Castel Mistamere, isola del Destino, i campi dell'arena, fortezza invasa dagli orchi di Kazad, 
+il palazzo degli Skexie$c0007.~
 Per attivare la visione a colori del gioco, usa il comando '$c0009SET ANSI ENABLE$c0007'.~
 Per attivare il canale di comunicazione off-topic, usa il comando '$c0009NOOT$c0007'.~
 Per avere ulteriori informazioni e per poter modificare la barra in cui sono riassunte le 
@@ -66,13 +70,12 @@ SCORE e ATTRIBUTE$c0007'.~
 $~
 
 #21-30
-Puoi migliorare le tue statistice dall'istruttrice Calliope($c0009HELP CALLIOPE$c0007). E' difficile raggiungerla
-a piedi, quindi inizialmente prova a chiedere un $c0009PORTAL$c0007 a qualche altro personaggio in gioco, a
-meno che tu non sia psionico dotato di skill $c0009DOORWAY$c0012 tuo portale personale. Migliorare 
-ogni statistica (Forza, Saggezza, Intelligenza, Carisma, Destrezza, Costituzione) ti costera' 10 pratiche tra 
+Puoi migliorare le tue statistice dall'istruttrice Calliope($c0009HELP CALLIOPE$c0007). Per raggiungerla
+a piedi, devi recarti presso le estensioni del tempio di Midia. CAlliope ti permettera' di migliorare 
+ogni statistica (Forza, Saggezza, Intelligenza, Carisma, Destrezza, Costituzione) al costo di 10 pratiche tra 
 quelle acquisite con l'avanzare dei livelli.~
-Zone consigliate per fare esperienza: $c0012Utopya, Grecia, Fortezza invasa dagli orchi del clan Spezzaossa, Orshingal,
-terre desolate di Lyth, regno dei Nani$c0007.~
+Zone consigliate per fare esperienza: $c0012Utopya, Grecia, Fortezza invasa dagli orchi di Kazad, Orshingal,
+terre desolate di Lyth, i sotterranei della scacchiera, la torre delle viverne, le montagne orientali$c0007.~
 Ora puoi usare quasi tutto l'equipaggiamento che trovi nelle zone dove fai esperienza.
 Puoi ancora identificare gli oggetti da Bronn e scegliere quello che per te e' migliore.~
 Puoi riparare gli oggetti rovinati dal fabbro Compton. Cerca la sua fucina a Midia Sud.~
@@ -84,7 +87,8 @@ oppure puoi usare le gemme che trovi su alcuni mob ($c0009HELP GEMMA$c0007).~
 Puoi ancora identificare i tuoi oggetti da Bronn fino al liv 40.~
 Zone consigliate per fare esperienza: $c0012Utopya, Grecia, citta' di Iperborea, Incantevole foresta di Ydwen, 
 Fortezza invasa dagli orchi del clan Spezzaossa, Ade, terre desolate di Lyth, Orshingal, Mordilnia, Villaggio 
-dei Gitani, Arctica.~
+dei Gitani, Arctica, la torre delle viverne, le montagne orientali, Il palazzo degli Skexie, la terra capovolta
+dei Roo.$c0007~
 Puoi usare tutto l'equipaggiamento che trovi in queste zone, puoi anche provare a vedere
 nella sala delle donazioni di New Thalos se c'e' qualcosa di interessante.~
 $~
@@ -105,7 +109,8 @@ Ora puoi utilizzare quasi tutto l'equipaggiamento che trovi in giro,quindi prova
 dare un'occhiata alla sala donazioni di New Thalos, spesso oggetti che non servono agli 
 eroi potrebbero essere utili a te.~
 Zone con oggetti interessanti o di utilita': $c0012Old thalos, il monastero dei ninja, il vulcano White Plume,
-Darkenwood, le montagne orientali, l'avamposto di Rhyodin, Avalon$c0007.~
+Darkenwood, le montagne orientali, l'avamposto di Rhyodin, Avalon, New Thalos, le caverne dei trogloditi,
+Midia sud, il tempio dei druidi banditi$c0007.~
 Per conoscere le caratteristiche di cio' che trovate, ora dovrete cercare un altro identatore,
 oppure usare pergamene di identificazione.~
 Esplora le terre dell'impero celesto il piu possibile, potresti trovare oggetti rari o utili nelle zone 
