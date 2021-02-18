@@ -3,7 +3,7 @@ EMPTY SLOT
 #
 HELP AGGIORNAMENTO
 
-Ultimo aggiornamento: 20 gennaio 2021 a cura di Nalith
+Ultimo aggiornamento: 18 febbraio 2021 a cura di Nalith e Traxter
 
 L'Help di Tempora Sanguinis e' curato da Martinus e da Nalith.
 Se riscontrate errori, incongruenze, o desiderate proporre
@@ -3620,6 +3620,8 @@ degli Dei,  e' possibile  ridurre  la lista  indicando un range
 di voci da visualizzare,  indicando  lo spell dal quale partire
 e quello fino a cui arrivare.
 
+Vedi anche: PRAC
+
 #
 "CHARM MONSTER"
 
@@ -4117,7 +4119,7 @@ sintassi del comando SET e' la seguente:
    pagine, in modo da permettere una lettura piu' semplice.
 
 Vedi anche: GROUP, GWHO, ORDER, WHOIS, COLORI, EXITS, SEGUACI,
-            DISPLAY, COMPACT, RESIZE
+            DISPLAY, COMPACT, RESIZE, ACCESSIBILITA'
  
 #
 INVENTORY INVENTARIO
@@ -4394,7 +4396,7 @@ consultare l'Help relativo. Per gli Stregoni, invece, il comando
 da usare per lanciare  incantesimi e'  RECALL; per gli Psionici,
 il comando corretto e' MIND.
 
-Vedi anche: RECALL, MIND
+Vedi anche: RECALL, MIND, PLAY
 
 #
 DROP
@@ -4601,7 +4603,7 @@ Vedi anche: SOCIAL, ECHO, EMOTE
 COMMANDS
 Fornisce una lista dei comandi piu' comuni.
  
-Vedi anche: SPELL COMMAND
+Vedi anche: SPELL COMMAND, ALLSPELL, PRAC
 
 #
 MONACO MONK MONACI
@@ -4618,7 +4620,7 @@ La loro particolare  carriera ha una  particolarita', simile a quella  dei
 Druidi.  Essi,  una volta raggiunto  il 10 livello, dovranno  scontrarsi e
 vincere un incontro con un'altro monaco per poter salire al livello seguente.
 
-Per vedere le abilita': PRAC K
+Per vedere le abilita': PRAC MK
 Vedi anche: ATTACCHI DEI MONACI, DANNI DEI MONACI, DODGE, HIDE, SNEAK,
 		QUIVERING PALM, NEW QUIVERING PALM, KICK, SPRINGLEAP,
 		FEIGN DEATH, PICK, SAFE FALL
@@ -4633,7 +4635,7 @@ e proprie macchine da guerra.Il barbaro e' per convinzione scettico
 nei confronti della magia, e rifiutera' ogni aiuto magico, compreso
 l'uso di armi, armature ed oggetti magici in genere.
 
-Per vedere le abilita': PRAC B
+Per vedere le abilita': PRAC BA
 Vedi anche: BERSERK, HIDE, SNEAK, CAMOUFLAGE, FEIGH DEATH, BASH, KICK,
 		SKIN, DISGUISE, FURY
 
@@ -4651,9 +4653,8 @@ La loro conoscenza superiore delle arti del combattimento gli
 permette di fare i cosidetti "colpi critici" che danneggiano
 l'avversario piu del solito.
 
-Per vedere le abilita': PRAC W
-
-Vedi anche: BASH, KICK, TRIP, DIRTKICK, RESCUE, SKIN, BELLOW, DODGE
+Per vedere le abilita': PRAC WA
+Vedi anche: BASH, KICK, TRIP, DIRTKICK, RESCUE, SHARPEN, BELLOW, DODGE
 
 #
 LADRO THIEF LADRI
@@ -4674,7 +4675,7 @@ in trappole e sotterfugi, ha la capacita' speciale di salvare  parte
 del suo equipaggiamento nel caso in cui finisca in stanze in cui sono
 poste delle trappole mortali (DEATHTRAP).
 
-Per vedere le abilita': PRAC T
+Per vedere le abilita': PRAC TH
 Vedi anche: STEAL, SNEAK, BACKSTAB, DUAL WIELD, DISGUISE, HIDE, POISON
 
 #
@@ -4688,7 +4689,7 @@ gli altri, abilita' che rendono i Chierici essenziali e insostituibili
 componenti di ogni gruppo. Possiedono  una vasta gamma di  incantesimi 
 di protezione contro quasi tutte le forze magiche presenti su TS.
 
-Per vedere gli incantesimi: PRAC C
+Per vedere gli incantesimi: PRAC CL
 Vedi anche: SANCTUARY, HEROES FEAST, HEAL
 
 #
@@ -4706,7 +4707,7 @@ potenza di armi e  armature con  la forza della magia.  Dispongono
 anche  dell'incantesimo  BLINK,  forse uno  dei piu'  interessanti
 in assoluto.
 
-Per vedere gli incantesimi: PRAC M
+Per vedere gli incantesimi: PRAC MU
 Vedi anche: STREGONE, BLINK, DISINTEGRATE, INVISIBILITY
 
 #
@@ -4911,7 +4912,7 @@ possono sfruttare alcuni trucchi:
 
 Naturalmente sono leciti anche <get all borsa>, e cosi' via.
 
-Vedi anche: DROP PUT
+Vedi anche: DROP, PUT
 
 #
 PUT
@@ -4964,7 +4965,7 @@ Ricordati di usarlo ogni tanto per sapere cosa e' cambiato nel
 mondo  dell'Impero  Celeste,  o  potresti  avere  delle brutte
 sorprese.
 
-Vedi anche: -
+Vedi anche: AGGIORNAMENTI
 
 #
 SLEEP WAKE REST SIT STAND
@@ -5202,7 +5203,7 @@ utili  suggerimenti  per non  cadere  nelle trappole mortali, o
 per  risolvere  eventuali quest.  Alcune descrizioni  meritano,
 in ogni caso, di essere lette per la loro bellezza!
  
-Vedi anche: COMPACT, LOOK, RESIZE, COMPACT, SET
+Vedi anche: COMPACT, LOOK, RESIZE, COMPACT, SET, ALIAS
 
 #
 !
@@ -6910,7 +6911,7 @@ la classe dello STREGONE e' abbastanza difficile da  giocare, ed  e'
 sconsigliata ai  neofiti  del mud (sebbene  lo stregone  multiclassi
 in molti modi).
 
-Per vedere gli incantesimi: PRAC S
+Per vedere gli incantesimi: PRAC SO
 Vendi anche: MAGO, MEMORIZE, RECALL, FORGET
 
 # 
@@ -7563,7 +7564,7 @@ del  nostro mondo,  egli e' vincolato  ad un allineamento  perfettamente
 neutrale. E', forse, la classe piu' difficile da giocare.
 
 Devono mantenere l'allineamento: NEUTRALE
-Per vedere gli incantesimi: PRAC D
+Per vedere gli incantesimi: PRAC DR
 Vedi anche: CREEPING DEATH, REINCARNATE, ALLINEAMENTO
 
 #
@@ -7584,7 +7585,7 @@ grazie agli insegnamenti della Venerabile Maestra, hanno un bonus del
 superba.
 
 Devono mantenere l'allineamento BUONO ma possono essere anche NEUTRALI
-Per vedere le abilita': PRAC R 
+Per vedere le abilita': PRAC RA
 Vedi anche: RATION, DUAL WIELD, SNEAK, CAMOUFLAGE, SKIN,
 		CLIMB
 
@@ -7654,7 +7655,7 @@ ricorso  ad  ogni mezzo  per  ottenere  la vittoria,  anche  ai piu'
 subdoli.
 
 Devono mantenere l'allineamento: MALVAGIO
-Per vedere le abilita': PRAC A
+Per vedere le abilita': PRAC AP
 Vedi anche: YELL, TRIP, DIRTKICK, DRAIN
 
 #
@@ -7670,7 +7671,7 @@ capacita'  combattive  contro  il maligno  attraverso  la magia  loro
 concessa dalle divinita'.
 
 Devono mantenere l'allineamento: BUONO
-Per vedere le abilita': PRAC P
+Per vedere le abilita': PRAC PA
 Vedi anche: LAY ON HANDS, HOLY WARCRY, BLESSING, HEROIC RESCUE
 
 #
@@ -7745,7 +7746,7 @@ gli psionici  possiedono delle  capacita' tanto  singolari quanto
 utili,  che  rendono  questa una  delle  classi  piu' versatili e
 temibili di tutto l'Impero Celeste.
 
-Per vedere le abilita': PRAC I
+Per vedere le abilita': PRAC PS
 Vedi anche: MIND, INTENSIFY, ULTRA BLAST, SCRY, DOORWAY
 
 #
@@ -7830,9 +7831,9 @@ Questa utile disciplina permette allo Psionico di percepire i pericoli
 attorno a se. In pratica, cio significa che gli permette di  percepire
 le Death  Traps.  Una  volta  che l'abilita'  e' stata  usata,  usando
 LOOK <direzione>, si potra' capire se la stanza in quella direzione e'
-o meno una Death Trap.  Attenzione, questa  abilita' NON  permette  di
-percepire le  TIME DT. Gli  Psionici  sono gli unici a  possedere  una
-abilita' del genere.
+o meno una Death Trap.  Questo incantesimo permette di percepire anche
+la presenza di teleport, segnalandone l'esistenza, sebbene esse possano
+anche non essere pericolose o mortali.
 
 Vedi anche: - 
  
@@ -8056,7 +8057,6 @@ Vedi anche: TOWER OF IRON WILL, AFFLIZIONI
 
 #
 "TOWER OF IRON WILL"
-
 
 $c0015Uso$c0015           : mind 'tower of iron will'
 $c0006Cumulativo$c0006    : No
@@ -8457,7 +8457,7 @@ abilita'. La sintassi e' identica al CAST dei Maghi. Alcune skill
 come MINDSUMMON, REVERSION o PSIONIC BLAST, pero', hanno  comandi
 appositi e non usano il MIND.
 
-Vedi anche: PSIONICO
+Vedi anche: PSIONICO, CAST, PLAY, RECALL
 
 #
 SPECIALIZZAZIONE
@@ -8495,7 +8495,7 @@ Common
 Ogni razza ha una sua lingua natia e parte con quella, le altre devono
 essere imparate dalla Venerabile Maestra a Mordilnia.
 
-Vedi anche: SAY, TELL
+Vedi anche: SAY, TELL, LORE
 
 #
 "COMPREHEND LANGUAGES"
@@ -8961,7 +8961,7 @@ Per rivedere la presentazione di Tempora Sanguinis, scrivi HELP TS.
 #
 NEWBIE
 
-  Se hai gia' letto e compreso l'HELP MUD, allora questo e' l'help
+Se hai gia' letto e compreso l'HELP MUD, allora questo e' l'help
 adatto a te!
 
 - Il Prompt
@@ -9306,7 +9306,7 @@ Vedi anche: EROI, NOMI, DEI, IMMORTALI, LOAL, EROI, SACERDOTE, PRAY
 #
 QUEST MISSIONE
 
-  Spesso gli Dei assegnano delle missioni a dei personaggi: i motivi,
+Spesso gli Dei assegnano delle missioni a dei personaggi: i motivi,
 ed i fini, con cui cio' avviene sono i piu' disparati.
 Spesso e' la voglia di potere dei personaggi a spingerli a chiedere
 una quest ad un Dio, nella speranza che il loro desiderio possa venir
@@ -14005,10 +14005,12 @@ $c0009Altri comandi utili per migliorare l'esperienza di gioco sono:$c0007
   vita, mana e movimento.
 - COMPACT: diminuisce le linee vuote nello scroll del gioco.
 - RESIZE: permette di settare il numero di caratteri visualizzabili per ogni riga.
+- ALIAS: permette di associare ad ogni numero da 0 a 9 una stringa di comandi, 
+  in modo da risparmiare il tempo della digitazione.
 
-Puoi consultare le voci dedicate a questi comandi nell'help a loro dedicato
+Puoi consultare le voci specifiche di questi comandi nell'help a loro dedicato.
 
-Vedi anche: SET, SPOT, LOOK, BRIEF, DISPLAY, COMPACT, RESIZE
+Vedi anche: SET, SPOT, LOOK, BRIEF, DISPLAY, COMPACT, RESIZE, ALIAS
 
 #
 INSPIRE ISPIRA
@@ -14321,6 +14323,94 @@ su altre creature. Fa si che chi e' sotto l'effetto dello spell subisca solo
 	
 Questo SPELL e' un dono degli DEI ai Bardi che hanno imparato a cantare le
 storie dell'Impero Celeste grazie a Yffre.
+
+Vedi anche: CHIERICO, BARDO
+
+#
+PLAY SUONARE
+
+I Bardi, oltre a possedere  alcune skill da battaglia  e di magia,
+possono SUONARE varie canzoni a seconda dello strumento impugnato
+Questa la sintassi:
+
+   play 'nome della canzone' 
+
+La parola  PLAY va messa per  prima;  il nome della canzone  deve
+essere scritto tra gli apici, che sono obbligatori. Il nome della
+canzone si puo' scrivere troncato, ma deve essere comunque  messo
+tra due apici. Il funzionamento del comando PLAY differisce dalle
+normali meccaniche ed e' cosi spiegato:
+
+Ogni comando  PLAY esegue una canzone ed il costo viene calcolato
+a seconda della canzone e  viene scalato per OGNI ripetizione del
+medesimo comando, mentre il costo  in MOV per gli effetti si paga
+quando vengono applicati.
+
+Cambiare strumento necessario a suonare o  non impugnarlo (a causa 
+di cadute o di disarm) fa cessare  immediatamente  le  canzoni  ad 
+esso collegate azzerando i PUNTI CANZONI relativi.
+
+E' possibile suonare piu canzoni allo stesso tempo purche' abbiano 
+in comune il medesimo strumento.
+
+Per avere informazioni riguardo ciascuna CANZONE, basta consultare 
+l'Help relativo. 
+
+Vedi anche: RECALL, MIND, CAST, SONG OF PEACE, SONG OF WAR, SONG OF
+            NATURE, SONG OF DUMBING, SONG OF LIFE, CULMINE
+
+#
+CULMINE "PUNTI CANZONE" "FINALE CANZONE"
+
+Il CULMINE e'la parte con cui il BARDO conclude le proprie CANZONI
+con grande dispendio di energie, ma che permette di ottenere BONUS
+particolari.
+
+Ogni comando PLAY fa guadagnare da 1 a 3 PUNTI CANZONE.
+
+Ogni round di combattimento (circa 4sec) fa PERDERE 1 PUNTO CANZONE
+
+Ogni  canzone ha un limite interno  di 10 PUNTI, superato il quale
+avviene il CULMINE della canzone, con l'applicazione degli effetti
+EXTRA ed il ritorno dei punti canzone interni a 1.
+	
+Tutte le CANZONI hanno il loro contatore interno di punti nascosto
+L'avvicinarsi al CULMINE viene segnalato appositamente (punti 7+),
+stara' quindi al BARDO scegliere la  velocita' con cui eseguire le 
+varie canzoni e decidere se  vuole ottenere  rapidamente l'effetto
+FINALE oppure mantenere il piu' a lungo possibile i relativi bonus 
+alle canzoni in uso.
+
+Per avere informazioni riguardo gli effetti di CULMINE di ciascuna
+CANZONE, basta consultare l'Help relativo. 
+
+Vedi anche: PLAY, SONG OF PEACE, SONG OF WAR, SONG OF NATURE, SONG 
+            OF DUMBING, SONG OF LIFE, CULMINE
+
+#
+BARDO
+
+Il Bardo e' un maestro del canto, della lingua e della magia che essi
+contengono.  I Bardi  affermano  che l'Impero e' stato creato tramite 
+la parola, che e' stato il verbo degli dei a impartire una forma alle 
+cose e che gli  echi di  queste  primordiali  Parole della  Creazione 
+riverberano ancora in tutto il cosmo.
+La musica dei bardi e' un tentativo di afferrare e imbrigliare questi 
+echi e di plasmarli con perizia nelle loro conzoni e nei loro poteri.
+La forza piu' grande di un Bardo e' la sua  straordinaria  versatilita'. 
+Molti bardi preferiscono tenersi ai margini del combattimento, usando 
+la loro magia per ispirare gli alleati ed  ostacolare i nemici da una 
+certa distanza, alcuni sono anche in grado  di  difendersi in mischia
+se necessario, usando la magia per rafforzare le loro armi e armature.
+I loro incantesimi tendono a  prediligere il  fascino e  le illusioni 
+anziche' essere direttamente distruttivi.  I bardi dispongono di vaste
+conoscenze su molti argomenti, di un'indole  innata che permette loro
+di fare bene pressoche' ogni cosa. Spesso un  Bardo  diventa un vero e 
+proprio maestro nel  settore  in cui  decide di  perfezionarsi, dalle 
+esibizioni musicali alle conoscenze esoteriche.
+
+Per vedere gli incantesimi: PRAC BD
+Vedi anche: PLAY, CULMINE, SLAM, TALES FROM BEYOND, SONG OF LIFE
 
 #~
 
