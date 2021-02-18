@@ -776,7 +776,6 @@ Vedi anche: FEIGN DEATH, PSYCHIC IMPERSONATION
 GROUP GROUPING GRUPPO
 
 $c0015Uso$c0015 : GROUP [giocatore]
-      GROUP
 
 Il comando  GROUP serve per  formare e vedere  lo stato di un gruppo. Se
 dato senza argomenti, fornisce un resoconto di tutti i membri del gruppo
@@ -1028,13 +1027,11 @@ del tempio      al quinto livello.  Le si raggiunge  andando ad ovest
 Falrhun       : Le miniere di Falrhun son piene di goblin, orchetti e
                 koboldi.  Ottime per i paladini e i ranger che devono
                 restare buoni. Sono subito a nord/est di Midia.
-Deadhame      : Un'area ostile piena di Non Morti. Vicino al cimitero
-                di Midia.
 Shire         : A Nord/West di Midia c'e' la regione dove abitano gli
                 halflings.  Buoni per i personaggi attorno all'ottavo
                 livello.
-Monk's Guild  : Il Monastero dei Monaci, a nord degli Shire.  Oltre a
-                diversi  monaci piu' o meno forti, il Monastero offre
+Monastero dei : Il Monastero dei Monaci, a nord degli Shire.  Oltre a
+Monaci          diversi  monaci piu' o meno forti, il Monastero offre
                 anche un piccolo dungeon, basta scovare l'entrata.
 Campi d'      : Sono arene create apposta per  poter fare pratica  ed
 Addestramento   imparare bene le  tecniche di gioco.   All'interno si
@@ -1081,7 +1078,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 45 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 100
+$c0012Costo in mana$c0012 : 100
 
 Questo incantesimo, disponibile anche sottoforma di pergamena nel negozio
 di Magia a  Midia, permette di identificare un oggetto. Questo in pratica
@@ -1113,7 +1110,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 11 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Questo incantesimo permette di evocare una grossa sfera di energia fredda che
 colpisce  tutti  i  bersagli  non in gruppo col  caster nella  locazione.  Il
@@ -1130,7 +1127,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del caster) ore
 $c0010Livello$c0010       : 13 Ranger, 15 Druidi, 16 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Questo  incantesimo aumenta  l'abilita' di  un giocatore  di scovare trappole
 che possono  essere di livello  corrispondente o minore a  quello del caster.
@@ -1146,7 +1143,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del mago)+4 ore
 $c0010Livello$c0010       : 3 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs spell' per negazione
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Questo incantesimo costringe la vittima ad addormentarsi, se questa fallisce
 il suo  tiro salvezza.  Se si viene  addormentati  con questa  magia, non e' 
@@ -1163,7 +1160,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del mago)+4 ore
 $c0010Livello$c0010       : 20 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. paralysis' per negazione
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 Se la vittima fallisce il suo tiro salvezza, perde ogni  capacita' di
 movimento. In definitiva, la vittima rimane stunned: questo significa
@@ -1182,7 +1179,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Fino all'ora successiva
 $c0010Livello$c0010       : 16 Druidi
 $c0014Tiro salvezza$c0014 : 'vs spell' per negazione
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 Tramite il potere della magia, il druido fa appello alle forze della
 natura: se fallisce il tiro salvezza, la vittima viene circondata da
@@ -1202,7 +1199,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 3 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
  
 Questo  incantesimo  trasforma la  pelle della vittima,  rendendola simile
 alla corteccia di un albero. L'effetto e'  quello di abbassare  la  classe
@@ -1219,7 +1216,7 @@ $c0006Cumulativo$c0006    : Vedere sotto
 $c0005Durata$c0005        : Vedere sotto
 $c0010Livello$c0010       : 24 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
  
 Questa  evocazione  permette ad  un chierico di creare un fastoso
 banchetto, al quale partecipano il chierico stesso e tutti coloro
@@ -1238,7 +1235,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del mago)/2 ore
 $c0010Livello$c0010       : 6 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
  
 Questo incantesimo rende la vittima  piu' debole. La  sua forza viene
 ridotta di  (livello del mago)/2  punti (lo SPELLPOWER influenza  la
@@ -1250,9 +1247,20 @@ Vedi anche: CHILL TOUCH, SPELLPOWER
 #
 SPOT
 
-"Spot" e'  una abilita' che serve ad un arcere per individuare i suoi
-bersagli. Usando il comando SPOT <dir> o solamente SPOT (per tutte le
-direzioni), si avra' un resoconto su chi c'e' nelle vicinanze.  
+Spot e' un'abilita' che serve per individuare le persone nei paraggi. 
+Puo' avere varie utilita' e funzioni, in base al modo in cui viene 
+utilizzato:
+
+- Scrivendo solo SPOT si vedranno i MOB presenti nella stanza. Questa
+funzione e' stata introdotta per rendere il gioco piu' accessibile per
+i giocatori non vedenti e ipovedenti.
+
+- Scrivendo SPOT DINTORNI si potranno vedere i mob presenti nelle 
+locazioni vicine che potranno essere cosi' presi di mira utilizzando
+armi da tiro (lance, archi, balestre, fionde...).
+
+- Scrivendo SPOT <direzione> si potranno vedere i mob presenti in 
+una certa direzione.
  
 Vedi anche: FIRE, SHOOT, NOTCH, THROW
 
@@ -1286,7 +1294,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del caster) ore
 $c0010Livello$c0010       : 5 Maghi e Stregoni, 1 Druidi, 4 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Lanciando questo incantesimo  su una vittima,  il caster la circonda di un 
 bagliore rosa. Sebbene questo non arrechi danno alla vittima (e quindi non 
@@ -1304,7 +1312,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del mago) ore
 $c0010Livello$c0010       : 11 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. paralysis' per negazione
-$c0012Costo in mana$c0007 : 3
+$c0012Costo in mana$c0012 : 3
  
 Questa magia  crea una enorme  ragnatela che  avvolge il corpo della
 vittima, riducendone drasticamente la capacita' di movimento. Spesso
@@ -1323,7 +1331,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 7 Chierici, 8 Druidi, 45 Stregoni, 47 Paladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 9
+$c0012Costo in mana$c0012 : 9
 
 Questo incantesimo cura la vittima per 2d8 +2 hit points.
  
@@ -1337,7 +1345,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 7 Chierici, 8 Druidi, 45 Stregoni, 25 Antipaladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 9
+$c0012Costo in mana$c0012 : 9
 
 Questo  incantesimo  (se il tiro per colpire riesce)  arreca 2d8 +2 punti di
 danno alla vittima. Se il tiro fallisce, non viene arrecato nessun danno. In 
@@ -1354,7 +1362,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 8 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Il mago  concentra  la sua energia  magica,  fino a creare un sempice
 oggetto. Esso puo' essere un panino, un bicchiere, una piccola spada,
@@ -1399,7 +1407,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 28 Druidi, 30 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Per mezzo di questo incantesimo, il caster trasferisce se stesso e i membri 
 del suo gruppo nel piano astrale.  Qui le distanze non hanno piu' senso: e'
@@ -1415,7 +1423,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 30 Maghi, 30 Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Con questo incantesimo il caster fa viaggiare se e tutto il suo gruppo
 nel piano astrale, ottenendo un effetto analogo all'incantesimo ASTRAL
@@ -1431,7 +1439,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del caster)+24 ore
 $c0010Livello$c0010       : 1 Maghi e Stregoni, 2 Chierici, 3 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Per mezzo di questo incantesimo, il mago crea una sfera luminosa capace di
 illuminare l'ambiente.  La luce, tuttavia,  ha una durata limitata, e dopo
@@ -1447,7 +1455,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 16 Druidi, 26 Chierici, 10 Maghi e Stregoni, 9 Paladini
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Questo incantesimo e' analogo al CREATE LIGHT, ma la potenza della magia
 e' tale che la luce creata e' eterna.
@@ -1463,7 +1471,7 @@ $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 2 Druidi, 4 Chierici, 5 Paladini, 7 Maghi e Stregoni,
                 5 Antipaladini
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Per mezzo di quest'incantesimo, il caster riesce a determinare l'allineamento
 di un altro giocatore o di un mob.
@@ -1478,15 +1486,15 @@ $c0006Cumulativo$c0006    : Yes
 $c0005Durata$c0005        : (livello del caster)+3 ore
 $c0010Livello$c0010       : 6 Druidi, 9 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 La vittima di questo incantesimo puo' respirare sott'acqua. Tuttavia,
 non potra' ugualmente  parlare, e,  naturalmente, pronunciare formule
 magiche.
 
-I  personaggi  e mob  appartenenti alla razza  Sea Elf  (Elfi Marini)
+I  personaggi  e mob  appartenenti alla razza  degli Elfi Marini
 possiedono gia' questo spell in modo permanente. In altre parole, non
-ne hanno bisogno per se stessi. :)
+ne hanno bisogno per se stessi.
 
 Vedi anche: -
 
@@ -1498,7 +1506,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 10 Druidi, 11 Chierici, 16 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 Il potere magico del caster prende  vita dalle sue  dita sottoforma di una
 immensa nuvola di fumo colore porpora. L'effetto di questa magia e' quello
@@ -1518,7 +1526,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 13 Druidi, 10 Chierici
 $c0014Tiro salvezza$c0014 : Tiro per colpire
-$c0012Costo in mana$c0007 : 11
+$c0012Costo in mana$c0012 : 11
  
 Il caster deve riuscire a toccare la vittima per avere successo. Se riesce,
 infligge un forte dolore al corpo della vittima, pari a 3d8+3 Hit Points.
@@ -1533,7 +1541,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 9 Druidi, 10 Chierici, 9 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Vedere sotto
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 Lo scopo di questa magia e' quello di rimuovere tutti gli incantesimi che
 la vittima ha attivi  sulla sua persona.  Se il livello   della vittima e'
@@ -1553,8 +1561,9 @@ l'incantesimo di dispel magic solo su altre creature o pg di livello pari
 o inferiore al proprio. I maghi e stregoni monoclasse sono meno  limitati
 su questo, loro infatti riescono ad usare il dispel magic su creature piu
 potenti di loro. Il livello massimo delle creature dispellabili e'
-calcolato dal livello del mago, piu 1 per ogni 20 punti spellpower
-Vedi anche: - 
+calcolato dal livello del mago, piu 1 per ogni 20 punti spellpower,
+
+Vedi anche: REVERSION
 
 #
 "PORTAL" "SPELL PORTAL"
@@ -1564,7 +1573,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del mago)/5 ore
 $c0010Livello$c0010       : 43 per Maghi e Stregoni, 5 liv. Eroe per i Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
  
 Il caster chiama a se' il potere della magia,  creado un portale magico che
 puo'  essere  attraversato  tramite  il  comando  <enter portal>.  Tutte le
@@ -1582,7 +1591,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del caster)+3 ore
 $c0010Livello$c0010       : 11 Maghi e Stregoni , 14 Druidi, 22 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 Questo incantesimo permette di volare. Questa abilita' consente di sorvolare
 i fiumi, senza dover nuotare e senza risentire degli effetti della corrente.
@@ -1600,10 +1609,10 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del caster)+3 ore
 $c0010Livello$c0010       : 24 Maghi e Stregoni, 22 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Questo incantesimo rende capaci di volare tutti i pc gruppati col caster.
-Ottimo per la gente pigra. :)
+Ottimo per la gente pigra.
  
 Vedi anche: FLY
 
@@ -1628,7 +1637,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del caster) ore
 $c0010Livello$c0010       : 12 Maghi e Stregoni, 7 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Con questo  incantesimo,  la vittima  acquista la capacita' di seguire le
 tracce di un bersaglio tramite il comando track. Gli Elfi cacciano meglio
@@ -1648,7 +1657,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del caster)*2 ore.
 $c0010Livello$c0010       : 20 Maghi e Stregoni, 17 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 Questo incantesimo ha le stesse caratteristiche del MINOR TRACK, ma dura piu'
 a lungo e richiede piu' mana.
@@ -1663,7 +1672,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 3 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Il potere di questo incantesimo e' quello di forzare al volere del mago
 ogni serratura chiusa a chiave.  Con esso si  e' in grado  di aprire la
@@ -1671,7 +1680,7 @@ maggior parte delle porte che ci ostacolano la via, ma non puo'  aprire
 contenitori di  nessun tipo,  per i quali serve il PICK.  Alcune porte,
 tuttavia, resistono anche alla forza di questo incantesimo.
 
-Vedi anche: PICK
+Vedi anche: PICK, DOORBASH
 
 #
 "FEAR"
@@ -1681,7 +1690,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 8 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 Se l'incantesimo ha successo, il riesce ad infondere un senso di terrore
 cosi' forte che la  vittima non puo' fare altro che scappare in preda al
@@ -1700,7 +1709,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 50 Psionici
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Con questa  tecnica mentale lo psionico rallenta le molecole nell'aria
 davanti  a  se  per  formare  un  luminoso  raggio bianco dall'effetto
@@ -1717,7 +1726,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 31 Psionici
 $c0014Tiro salvezza$c0014 : N/A
-$c0012Costo in mana$c0007 : 0
+$c0012Costo in mana$c0012 : 0
 
 Grazie a questa potente tecnica mentale, lo psionico puo' risucchiare
 dalla  mente  della vittima  energia psichica,  esattamente  come  un
@@ -1739,7 +1748,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 46 Psionici
 $c0014Tiro salvezza$c0014 : N/A
-$c0012Costo in mana$c0007 : Speciale
+$c0012Costo in mana$c0012 : Speciale
 
 Tramite  questa  tecnica  psionica e' possibile trasferire la propria
 energia magica nella mente  di  altre persone.  Per  ogni  punto mana
@@ -1757,7 +1766,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 36 Maghi e Stregoni, Druidi Eroi di 3o livello
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 35
+$c0012Costo in mana$c0012 : 35
 
 Questo incantesimo scatena uno sciame di meteore che il mago puo' dirigere su
 una vittima.  Le meteore infliggono (livello del mago)d12 punti di danno alla
@@ -1773,7 +1782,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 1 Chierici
 $c0014Tiro salvezza$c0014 : 'vs. paralysis' per negazione
-$c0012Costo in mana$c0007 : 3
+$c0012Costo in mana$c0012 : 3
  
 Il chierico  puo'  impartire  un  comando  (formato da una sola parola,
 ad esempio 'sleep' o 'flee') ad una qualsiasi  vittima, sempre che essa
@@ -1790,7 +1799,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 15 Druidi, 47 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 L'incantesimo crea dal nulla una cavalcatura al caster. Il tipo di cavalcatura
 dipende dal livello del caster e, dopo il 30 livello, dal suo allineamento.
@@ -1810,7 +1819,7 @@ DICE DADO
 Questo comando permette di simulare il lancio di un dado da 2 a X facce,
 la sintassi e':
 
-DADO X
+ > DADO X
 
 Dove X e' il numero di facce.
 
@@ -1824,7 +1833,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 10 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
-$c0012Costo in mana$c0007 : 2
+$c0012Costo in mana$c0012 : 2
  
 Quando il mago lancia questo incantesimo, una forte raffica di vento investe
 tutti coloro che non sono gruppati con il mago.  Se le vittime falliscono il
@@ -1843,7 +1852,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del caster) ore
 $c0010Livello$c0010       : 21 Maghi e Stregoni, 23 Chierici, 25 Druidi
 $c0014Tiro salvezza$c0014 : 'vs spells' per negazione
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Se l'incantesimo riesce, impedisce alla vittima di parlare. Questo non
 impedisce di parlare con i gesti,  ma non permette  di pronunciare  le
@@ -1864,7 +1873,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 27 Druidi
 $c0014Tiro salvezza$c0014 : Speciale
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Il caster concentra  le sue  energie e crea  un potentissimo  raggio di luce,
 tanto  intenso come  potrebbe essere un raggio di sole.  Tutte le persone non
@@ -1887,7 +1896,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 9 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Se la  vittima  non e'  un  giocatore  umano,  questo spell fornisce al caster
 le statistiche di un mob.  Il livello di  esattezza delle informazioni dipende
@@ -1912,7 +1921,7 @@ Le informazioni sono cumulative.
 Attenzione: e' SEMPRE possibile (anche agli elti livelli) che le informazioni
 ottenute per mezzo di questo spell non siano del tutto esatte!
  
-Vedi anche: -
+Vedi anche: CONSIDER
 
 #
 "ANIMAL GROWTH"
@@ -1922,7 +1931,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del druido/2)+(livello da eroe*2) ore
 $c0010Livello$c0010       : 35 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 L'incantesimo,  se lanciato  su un  animale, ne causa la crescita fino al
 doppio della  dimensione  originale: questo  comporta l'aumento degli hit
@@ -1942,7 +1951,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del druido/2)+(livello da eroe*2) ore
 $c0010Livello$c0010       : 33 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 Questo incantesimo  raddoppia le dimensioni  di un insetto, aumentandone gli
 hit points, il danno  e migliorando  i tiri  salvezza. I  bonus su hp,  hit,
@@ -1959,7 +1968,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 45 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questo  potente incantesimo  fa si che il caster vomiti una massa enorme
 di insetti velenosi, che si propaga nella direzione stabilita, ingoiando
@@ -1979,7 +1988,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 30 Druidi, 40 Ranger
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 45
+$c0012Costo in mana$c0012 : 45
 
 Con questo incantesimo, il caster invoca la protezione di Fauno, Dio
 degli animali,  perche' gli  invii delle creature in soccorso. Dalle
@@ -2002,7 +2011,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 40 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 60
+$c0012Costo in mana$c0012 : 60
 
 Con  questo  potente  incantesimo,  il druido  chiama in  soccorso  Pane,
 Dio delle foreste. Se la  sua  preghiera'  sara'  ascoltata,  gli  alberi
@@ -2024,7 +2033,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 10 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 12
+$c0012Costo in mana$c0012 : 12
 
 L'incantesimo permette al druido di assorbire la forza vitale
 della Natura, consentendogli di dissetarsi completamente.
@@ -2054,7 +2063,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello/10)+1 ore
 $c0010Livello$c0010       : 25 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Il Druido  genera  un'improvvisa  e  violenta grandinata, che infligge
 dei danni, tanto piu' gravi quanto piu' alto e' il livello del druido,
@@ -2068,7 +2077,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 34 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 35
+$c0012Costo in mana$c0012 : 35
 
 Il Druido  genera un  tornado, che strappa di dosso a tutti i presenti,
 tranne il Druido stesso,  parte del loro equipaggiamento, disperdendolo
@@ -2084,7 +2093,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello-38) ore
 $c0010Livello$c0010       : 38 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Il  Druido genera un  fortissimo temporale, che rende il terreno melmoso
 e insicuro.  Finche' continua  a piovere, chiunque tenti di combattere -
@@ -2101,7 +2110,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 20 Druidi e Ranger
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
  
 Quando il caster riesce a lanciare questo incantesimo si fonde intimamente
 con la Natura che  lo circonda.  Questo gli  permette di  espandere i suoi
@@ -2120,7 +2129,7 @@ $c0006Cumulativo$c0006    : Si puo' lanciare solo una volta ogni due giorni
 $c0005Durata$c0005        : 48 ore
 $c0010Livello$c0010       : 15 Druidi, 20 Rangers
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 L'incantesimo  si esegue compiendo  un rituale  che evoca 6 animali, pronti
 ad aiutare il caster per 48 ore,  allo scadere  delle quali il controllo su
@@ -2137,7 +2146,7 @@ $c0006Cumulativo$c0006    : Si puo' lanciare solo una volta ogni due giorni
 $c0005Durata$c0005        : 48 ore
 $c0010Livello$c0010       : 20 Druidi, 25 Rangers
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 L'incantesimo si  esegue compiendo  un rituale che evoca 6 animali, pronti
 ad aiutare il  caster per 48 ore, allo scadere delle quali il controllo su
@@ -2154,7 +2163,7 @@ $c0006Cumulativo$c0006    : Si puo' lanciare solo una volta ogni due giorni
 $c0005Durata$c0005        : 48 ore
 $c0010Livello$c0010       : 25 Druidi, 30 Rangers
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 25
+$c0012Costo in mana$c0012 : 25
 
 L'incantesimo si esegue  compiendo un rituale che  evoca 6 animali, pronti
 ad aiutare  il caster per 48 ore, allo scadere delle quali il controllo su
@@ -2171,7 +2180,7 @@ $c0006Cumulativo$c0006    : Si puo' lanciare una volta al giorno
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 35 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Con  questo  incantesimo,  il druido apre un portale  dimensionale  da  cui
 evoca un elementale del fuoco, che obbedisce per 24*(livello del druido)/11
@@ -2189,7 +2198,7 @@ $c0006Cumulativo$c0006    : Si puo' lanciare una volta al giorno
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 36 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Con  questo  incantesimo,  il druido  apre un  portale  dimensionale  da  cui
 evoca un elementale della terra, che obbedisce per 24*(livello del druido)/11
@@ -2207,7 +2216,7 @@ $c0006Cumulativo$c0006    : Si puo' lanciare una volta al giorno
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 37 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Con questo  incantesimo,  il  druido apre  un portale  dimensionale  da  cui
 evoca un elementale dell'acqua, che obbedisce per 24*(livello del druido)/11
@@ -2225,7 +2234,7 @@ $c0006Cumulativo$c0006    : Si puo' lanciare una volta al giorno
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 38 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Con  questo  incantesimo,  il druido apre  un portale  dimensionale  da cui
 evoca un elementale dell'aria, che obbedisce per 24*(livello del druido)/11
@@ -2243,7 +2252,7 @@ $c0006Cumulativo$c0006     : -
 $c0005Durata$c0005         : Instantaneo
 $c0010Livello$c0010        : 39 Druidi
 $c0014Tiro salvezza$c0014  : -
-$c0012Costo in mana$c0007  : 50 - lascia il caster 1 hit, 1 mana ed 1 mov
+$c0012Costo in mana$c0012  : 50 - lascia il caster 1 hit, 1 mana ed 1 mov
 
 Non appena il  caster pronuncia  questa parola magica,  lo spirito del
 Giocatore esce  dal suo  corpo e assume  una nuova  sembianza.  Questo
@@ -2270,7 +2279,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Vedere sotto
 $c0010Livello$c0010       : 17 Druidi
 $c0014Tiro salvezza$c0014 : 'vs paralysis' per negazione
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
  
 I Druidi possono usare questo incantesimo solo su vegetali, che possono
 pero' avere anche 10 livelli piu' del druido. La pianta obbedira' per un
@@ -2287,7 +2296,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 5 Druidi
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Con questo  spell il druido  crea una  gigantesca  cortina di fiamme che
 circonda  l'intera stanza,  ustionando  tutti coloro che  sono fuori dal
@@ -2306,7 +2315,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del druido/2)+(livello da eroe*2) ore
 $c0010Livello$c0010       : 20 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 L'incantesimo,  se lanciato su un  vegetale, ne causa la crescita fino al
 doppio della dimensione originale:  questo comporta  l'aumento  degli hit
@@ -2326,7 +2335,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Varia
 $c0010Livello$c0010       : 15 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Questo incantesimo fonde l'anima del Druido con quella degli alberi, fino
 ad una completa trasmutazione anche del corpo:  il caster si trasforma in
@@ -2348,7 +2357,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 31 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 Sparse per tutto  l'Impero Celeste si trovano molte rocce e macigni. Sono
 pressoche' inutili per chiunque, tranne che per i Druidi, che grazie alla
@@ -2370,7 +2379,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del caster) ore
 $c0010Livello$c0010       : 10 Druidi, 15 Rangers
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 2
+$c0012Costo in mana$c0012 : 2
  
 Questo incantesimo  ha effetto unicamente sul caster, consentendogli di
 camminare su alcuni  tipi di  terreno  come se  stesse  volando. Questo
@@ -2388,7 +2397,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 5 Druidi, 3 Rangers
 $c0014Tiro salvezza$c0014 : 'vs spells' per negazione
-$c0012Costo in mana$c0007 : 2
+$c0012Costo in mana$c0012 : 2
  
 Il caster  puo' lanciare  questo  incantesimo  su un qualsiasi  animale di
 livello inferiore e il cui allineamento sia neutrale. La vittima di questa
@@ -2404,7 +2413,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 11 Druidi, 8 Rangers
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
  
 Il caster  puo' lanciare questo  incantesimo solo su se stesso, con effetti
 simili a quelli dell'INVISIBILITY. L'immagine del caster, infatti, rimarra'
@@ -2420,7 +2429,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Vedere sotto.
 $c0010Livello$c0010       : 8 Druidi, 5 Rangers
 $c0014Tiro salvezza$c0014 : 'vs spell' per negazione
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
  
 Funziona  solamente se  il caster si  trova in una foresta. Se la vittima
 fallisce  il  suo tiro  salvezza,  i sui  punti movimento vengono ridotti
@@ -2437,7 +2446,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 19 Druidi
 $c0014Tiro salvezza$c0014 : L'arma ha un tiro per evitare il danno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 L'incantesimo puo'  essere lanciato sia  su un arma che sull'avversario
 che la impugna.  L'effetto e' quello di  piegare e  danneggiare un'arma,
@@ -2457,7 +2466,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del druido) ore
 $c0010Livello$c0010       : 23 Druidi
 $c0014Tiro salvezza$c0014 : Vs spell per negazione
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Affiche' la magia abbia effetto,  il druido deve riuscire a sfiorare il
 corpo della vittima. Se essa viene toccata, subira' una perdita del suo
@@ -2475,7 +2484,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 12 ore
 $c0010Livello             : 1 Druidi, 3 Chierici
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
  
 Questa magia  permette di evocare un demone di polvere. Questi obbedira'
 al caster per 24 ore; in ogni  caso, esso non  potra' essere  nuovamente
@@ -2493,7 +2502,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Vedere sotto
 $c0010Livello$c0010       : 10 druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Il Druido puo' trasformarsi in un animale, la cui potenza dipende dal suo
 livello,  secondo la tabella riportata sotto.  Per tornare alla sua forma
@@ -2583,8 +2592,8 @@ I polymorph avanzati sono creature molto potenti, e la trasformazione avra' una
 durata limitata. Inoltre, in seguito il Druido non potra' piu' utilizzare questo
 incantesimo per due giorni interi.
 
-(*) Un sentito grazie a Kyrasys e Nemesis per il supporto e l'aiuto
-    nella realizzazione di questo spell.
+Un sentito grazie a Kyrasys e Nemesis per il supporto e l'aiuto nella 
+realizzazione di questo spell.
  
 Vedi anche: POLYMORPH
 
@@ -2596,7 +2605,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 8 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 2
+$c0012Costo in mana$c0012 : 2
 
 Questo incantesimo permette di  armonizzare il proprio  corpo con  la Natura
 a tal punto che  consente di  attraversare  gli  alberi  e camminare al loro
@@ -2615,7 +2624,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 10 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 L'incantesimo trasporta  il druido da  un albero  direttamente ai piedi di
 una  seconda  pianta.  Il  druido deve trovarsi all'aperto(anche bloom), e
@@ -2636,7 +2645,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 7 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
  
 Usato su una pianta, questo incantesimo permette al druido di parlare
 con essa. E' fondamentale per l'uso del TRANSPORT VIA PLANTS, poiche'
@@ -2652,7 +2661,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Vedi sotto
 $c0010Livello$c0010       : 30 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Questo incantesimo attinge alla forza della natura per permettere al druido
 di  trasformare  un bastone  magico  (staff) in  un enorme  albero  antico.
@@ -2682,7 +2691,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 23 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
  
 Se l'avversario non e' eccessivamente potente, questa utilissima magia
 uccide la vittima all'istante.  Non c'e' tiro salvezza per la vittima,
@@ -2702,7 +2711,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 16 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
  
 Questo incantesimo  puo' funzionare, se lo si pratic subito, su avversari
 anche di pari livello, piu' di quanto non possa fare il simile POWER WORD
@@ -2720,7 +2729,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 25 Maghi, Stregoni e Druidi
 $c0014Tiro salvezza$c0014 : 'vs spell' per meta' danno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Il caster puo'  invocare il tremendo  potere dei fulmini,  per danneggiare
 tutti coloro che sono nella locazione ma che non sono gruppati col caster.
@@ -2740,7 +2749,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 4 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 3
+$c0012Costo in mana$c0012 : 3
 
 E' analogo all'incantesimo FEAR. Provoca un improvviso e incontrollato
 terrore nella vittima, che non puo' fare altro che fuggire.
@@ -2755,7 +2764,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 10 ore
 $c0010Livello$c0010       : 23 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 L'incantesimo provoca una tremenda alterazione nel metabolismo della
 vittima, accelerandolo oltre i limiti naturali:  il risultato e' che
@@ -2763,6 +2772,9 @@ la vittima colpisce piu' velocemente, grazie ad un attacco extra. Lo
 sforzo che deve  sostenere il fisico, pero',  e' enorme, e quando la
 magia scompare,  lascia il corpo invecchiato di un anno. Non si puo'
 lanciare HASTE ne' sui mob, ne sui monaci, anche umani.
+
+I personaggi CASTER risulteranno velocizzati nel lancio degli 
+incantesimi, diminuendo il LAG del 25%. 
 
 Vedi anche: SLOWNESS
 
@@ -2774,7 +2786,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 10 ore
 $c0010Livello$c0010       : 19 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 E' considerato dalla vittima come attacco. Infatti, l'effetto di questo
 incantesimo  e' quello di rallentare il movimento dell'avversario, e il
@@ -2782,6 +2794,9 @@ risultato puo'  essere quello di  diminuire il numero di attacchi della
 vittima. Anche se questo incantesimo e' di tipo HOLD, e' possibile che
 faccia effetto anche su avversari immuni al hold, ovviamente in misura
 minore.
+
+I personaggi CASTER risulteranno rallentati nel lancio degli 
+incantesimi, aumentando il LAG del 25%. 
  
 Vedi anche: HASTE
 
@@ -2793,7 +2808,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 6 Druidi, 10 Paladini, 10 Ranger, 10 Antipaladini
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Questo incantesimo rallenta gli effetti del veleno presente nel corpo di un
 personaggio.  Per eliminarli  del tutto, pero', si puo' ricorrere al REMOVE
@@ -2809,7 +2824,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 2 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Questo  incantesimo evoca  una piccola creatura, che segue il  Mago per
 tutta la sua vita.  Il tipo  di creatura che viene chiamata dipende dal
@@ -2834,7 +2849,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 10 ore
 $c0010Livello$c0010       : 4 Chierici
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
  
 Questo  incantesimo  beneficia  la vittima donando  1d16 hit  points, e
 incrementa l'Hitroll di 2 punti. Il valore di Hp puo' anche superare il
@@ -2865,7 +2880,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 15 Chierici
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 I chierici possono creare dei  Golem fatti di armature. Per ottenere un
 Golem servono varie parti: una da mettere sulla testa, una ai piedi, un
@@ -2887,7 +2902,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 34 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs spells' per negazione
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Se la vittima fallisce il tiro salvezza, diventa un ritardato mentale
 per le successive 24 ore.  Questo abbassa notevolmente l'intelligenza
@@ -2911,7 +2926,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 3 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 I Druidi possono trasformare una semplice clava di legno lanciando  questo
 incantesimo  su di essa.  La  magia  della  Natura  forgia  cosi'  un'arma
@@ -2932,7 +2947,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Permanente 
 $c0010Livello$c0010       : 4 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Questo incantesimo deve essere lanciato all'aperto. Usandolo, il caster crea
 dal nulla  un grosso  mirtillo con  proprieta' curative. Oltre a saziare, il
@@ -2949,7 +2964,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 7 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 I Druidi che hanno a disposizione questo potente incantesimo possono creare
 dal nulla una Spada Elementale. Ai primi livelli,la spada sara' una 1d4,
@@ -3288,7 +3303,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 36 Chierici
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 33 - lascia il caster ad 1 hp, 1 mana e 1 mov
+$c0012Costo in mana$c0012 : 33 - lascia il caster ad 1 hp, 1 mana e 1 mov
  
 Con questo incantesimo  il chierico chiama in suo soccorso la potenza degli
 Dei per riportare il soffio vitale nel cadavere di una persona.  La potenza
@@ -3330,7 +3345,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 12/20/24/28/32/36/48 ore
 $c0010Livello$c0010       : dal 8 al 6o eroe Maghi e dal 6 al 5o eroe Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10/12/15/17/20/22/25
+$c0012Costo in mana$c0012 : 10/12/15/17/20/22/25
 
 Al 6/8 livello, si ha a disposizione solo MONSUM ONE. Man mano che il livello
 aumenta, si hanno a disposizione anche gli altri, fino ad un massimo di sette
@@ -3365,7 +3380,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Vedere sotto
 $c0010Livello$c0010       : 9 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
  
 I Maghi possono usare le loro arti magiche per trasformare il proprio corpo
 in  quello di una  creatura, come  illustra  lo schema  riportato  sotto. A
@@ -3436,7 +3451,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 6 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs spells' per meta' danno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 Il mago puo' evocare un globo di acido, e scagliarlo contro la vittima
 dell'incantesimo. L'acido provoca (livello del mago)d6 di punti danno,
@@ -3454,7 +3469,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 29 Chierici, 30 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
                   
 Nessuno  conosce  l'origine  di questo incantesimo,  e molti potenti
 stregoni hanno tentato invano di comprenderne il potere.  Si sa solo
@@ -3488,7 +3503,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 19 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs spells' per meta' danno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 Il mago crea  una miriade di piccole e  affilate scheggie di ghiaccio, che
 vengono  scagliate con  l'enorme  potere della magia in aria,  formando un
@@ -3506,7 +3521,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello)*2.
 $c0010Livello$c0010       : 19 Chierici, 24 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
               
 Il  TRUE SIGHT e'  un potentissimo incantesimo che permette alla vittima
 di vedere  tutto quello  che lo  circonda in pressoche'  qualsiasi luogo
@@ -3523,7 +3538,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 13 Chierici, 16 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
  
 Il potere di  questo incantesimo e' quello di aprire un  passaggio tra il
 normale piano di esistenza e il piano elementale, dal quale viene evocata
@@ -3566,7 +3581,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 2 Chierici, 4 Maghi e Stregoni, 18 Paladini
 $c0014Tiro salvezza$c0014 : 'vs spells' per negazione
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 Questo incantesimo costringe alla calma un mob che, altrimenti, avrebbe
 un atteggiamento aggressivo nei confronti  dei giocatori. Inoltre serve
@@ -3582,7 +3597,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del caster) ore
 $c0010Livello$c0010       : 26 Maghi e Stregoni, Druidi Eroi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
  
 L'effetto di STONE SKIN e' di trasformare la pelle del mago che lo usa in
 dura pietra, rendendola molto piu'  resistente ai colpi. La pelle diventa
@@ -3613,7 +3628,7 @@ Cumualtivo    : No
 $c0005Durata$c0005        : Vedi sotto.
 $c0010Livello$c0010       : 10 Maghi e Stregoni, 12 Druidi
 $c0014Tiro salvezza$c0014 : 'vs. paralysis' per negazione
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
  
 L'incantesimo permette di rendere un qualsiasi  mob schiavo del
 caster. La durata dell'incantesimo dipende dal carisma del Mago
@@ -3632,7 +3647,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 8 Chierici
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Questo  incantesimo  permette  ad un  chierico di  far risorgere un
 cadavere, sotto forma di zombie,  rendendolo suo schiavo.  La forza
@@ -3651,7 +3666,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 3 Chierici, 4 Druidi, 6 Maghi e Stregoni 
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Se i punti movimento  sono troppo bassi, e' possibile ricorrere a
 questo incantesimo per ritrovare le forze. Esso, infatti, aumenta
@@ -3669,7 +3684,7 @@ $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 9 Chierici, 14 Druidi, 20 Maghi e Stregoni, 30 Rangers, 
                 35 Paladini
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 E' una versione  potenziata del  REFRESH.  Infatti,  questo incantesimo
 aumenta di (livello)d8 + 1 i punti movimento di un qualunque bersaglio.
@@ -3684,7 +3699,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 1 Chierici, 12 Druidi, 10 Paladini, 5 Antipaladini
 $c0014Tiro salvezza$c0014 : 'vs spell' per negazione 
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
  
 Se l'incantesimo ha effetto  e la vittima e' di livello  inferiore a
 quello  del caster  e di razza  Undead,  questa  viene  assalita dal
@@ -3702,7 +3717,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del mago) ore
 $c0010Livello$c0010       : 1 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 1
+$c0012Costo in mana$c0012 : 1
  
 La vittima viene circondata da un potente scudo magico,  che fornisce
 una discreta protezione contro ogni attacco, poiche' abbassa la Armor
@@ -3719,7 +3734,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 23 Chierici, 24 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 Il potere della magia crea,  tramite le parole magiche 'succor',  una
 pergamena.  Chiunque sappia recitare cio'  che e' scritto su di essa,
@@ -3739,7 +3754,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 4 ore
 $c0010Livello$c0010       : 40 Maghi e Stregoni, 45 Chierici, 48 Druidi, 2 Eroe Antipaladini
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 I caster possono  circondare il  proprio corpo  con una potente armatura
 di fuoco,  che li avvolge  completamente.  Chiunque colpisca un mago che
@@ -3761,7 +3776,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 4 ore
 $c0010Livello$c0010       : 50 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 I druidi possono circondare il proprio corpo con la  potenza dei  lampi,
 che li avvolgono completamente e feriscono chiunque si avvicini  troppo.
@@ -3781,7 +3796,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 4 ore
 $c0010Livello$c0010       : Druidi 1o, Maghi, Stregoni, Chierici 4o livello eroe
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 I caster possono  circondare il  proprio corpo  con una potente armatura
 di ghiaccio, che li avvolge completamente. Chiunque colpisca un mago che
@@ -4577,7 +4592,7 @@ powerranger, strafottente,vittoria.
 Si ringrazia per la collaborazione Vorodin  che ha dato lo  spunto  per 
 la creazione  di nuovi social  nonche'  lui stesso  autore di taluni di
 questi. 
-I  nuovi social sono stato  proposti da Tyrant  e Koraz e  realizzati da
+I  nuovi social sono stato  proposti da Tyrant e Koraz e  realizzati da
 Dryden.
 
 Vedi anche: SOCIAL, ECHO, EMOTE
@@ -5334,7 +5349,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 2 Chierici, 5 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
                       
 Serve per creare una potente armatura di forza magica attorno
 alla vittima.  Grazie a questo  incantesimo,  il beneficiario
@@ -5350,7 +5365,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 17 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs spells' per negazione
-$c0012Costo in mana$c0007 : 33
+$c0012Costo in mana$c0012 : 33
  
 La vittima, se fallisce il tiro salvezza, viene istantaneamente
 trasportata dalla magia in una locazione a caso. Il mago non ha
@@ -5386,7 +5401,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 6 ore, permanente sugli oggetti.
 $c0010Livello$c0010       : 1 Chierici, 17 Stregoni, 17 Antipaladini
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 L'incantesimo BLESS puo' essere lanciato su qualsiasi bersaglio, sia
 esso un mob o un giocatore. Esso porta due benefici distinti e molto
@@ -5406,7 +5421,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 2+(livello del caster) ore
 $c0010Livello$c0010       : 12 Maghi e Stregoni, 14 Chierici
 $c0014Tiro salvezza$c0014 : 'vs spells' per negazione
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
  
 Nel caso che la  vittima fallisca il tiro salvezza, essa diventa
 istantaneamente cieca. Non potra' piu' vedere dove si trova, chi
@@ -5428,7 +5443,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : -
 $c0010Livello$c0010       : 15 Druidi, 26 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 25
+$c0012Costo in mana$c0012 : 25
 
 Questo incantesimo cambia le condizioni atmosferiche, rendendo il
 tempo migliore (better) o  peggiore (worse).  Questo puo'  essere  
@@ -5449,7 +5464,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 5 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Per mezzo di questo incantesimo un Chierico puo' chiedere alla sua
 Divinita' di inviargli del cibo.  Questo appare sotto forma di  un 
@@ -5467,7 +5482,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Instantaneo
 $c0010Livello$c0010       : 2 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Riempie d'acqua (la quantita' d'acqua e' data dal livello del
 chierico) un contenitore vuoto o gia' parzialmente  riempito.
@@ -5490,7 +5505,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 6 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Questo incantesimo permette  ad un sacerdote  di curare  una
 persona affetta da cecita' magica (l'incantesimo BLINDNESS).
@@ -5507,7 +5522,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 10 Chierici, 13 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 11
+$c0012Costo in mana$c0012 : 11
 
 Questo spell permette a chi lo usa di curare se stesso o un
 altra persona per un totale di 3d8+3 hit points.
@@ -5522,7 +5537,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Instantaneo
 $c0010Livello$c0010       : 1 Chierici, 2 Druidi, 9 Paladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Questo spell permette a chi lo usa di curare se stesso o un
 altra persona per un totale di 1d8+1 hit points.
@@ -5537,7 +5552,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Instantaneo
 $c0010Livello$c0010       : 10 Chierici, 13 Druid, 50 Antipaladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 11
+$c0012Costo in mana$c0012 : 11
 
 Questo incantesimo e' la versione opposta al CURE CRITIC. Quando
 lo si lancia, se si riesce a toccare il corpo della vittima,  le
@@ -5553,7 +5568,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Instantaneo
 $c0010Livello$c0010       : 1 Chierici, 2 Druid, 12 Antipaladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Questo incantesimo e' la versione opposta al CURE LIGHT.  Quando
 lo si lancia, se si riesce a toccare il corpo della vittima,  le
@@ -5572,7 +5587,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 7 giorni, permanente sugli oggetti
 $c0010Livello$c0010       : 12 Chierici, 13 Maghi e Stregoni, 11 Antipaladini
 $c0014Tiro salvezza$c0014 : contro 'spell' per negazione
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Quest' incantesimo e' una maledizione, che si  puo' lanciare
 su una persona (in questo caso il suo HITROLL  sara' ridotto
@@ -5596,7 +5611,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*5) ore
 $c0010Livello$c0010       : 1 Chierici, 6 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Questo incantesimo permette al caster di vedere un'aura rossa
 intorno a persone ed oggetti malvagi. I Paladini estremamente
@@ -5613,7 +5628,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*5) ore
 $c0010Livello$c0010       : 1 Chierici, 6 Druidi, 2 Antipaladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Questo incantesimo permette  al caster di vedere  un'aura azzurra
 intorno a persone ed oggetti buoni. Gli Antipaladini estremamente
@@ -5630,7 +5645,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*5) ore
 $c0010Livello$c0010       : 2 Maghi e Stregoni, 5 Chierici, 7 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Per mezzo di questo incantesimo il caster diventa capace di
 vedere persone ed oggetti invisibili (e cioe' affetti dallo
@@ -5648,7 +5663,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*5) ore
 $c0010Livello$c0010       : 1 Maghi e Stregoni, 3 Chierici, 5 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Per mezzo di quest'incantesimo, il caster diventa capace di
 vedere la'aura luminosa emessa dagli oggetti magici.
@@ -5663,7 +5678,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 1 Druidi, 3 Ranger
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Lanciato sul cibo o su un contenitore pieno, permette di
 sapere se il cibo o il liquido sono avvelenati.
@@ -5681,7 +5696,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Permanente
 $c0010Livello$c0010       : 14 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 100
+$c0012Costo in mana$c0012 : 100
 
 Questo  incantesimo  permette ad un Mago od   ad uno  Stregone  di
 rendere magica un arma che non lo e'. L'arma incantata guadagnera'
@@ -5725,7 +5740,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 25 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Cura completamente il bersaglio, tranne per 1d4 punti ferita.
 Comunque, questo incantesimo non dona mai piu' di 100  piu 75%
@@ -5743,7 +5758,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 20 Chierici, 18 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 25
+$c0012Costo in mana$c0012 : 25
 
 Cura completamente il bersaglio, fino ad un massimo di 50 piu meta
 dello spellpower del sacerdote, punti ferita.
@@ -5760,7 +5775,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore, permanente sugli oggetti
 $c0010Livello$c0010       : 4 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Questo incantesimo permette al caster di rendere invisibile
 una persona od un oggetto.  La persona o  l'oggetto affetti
@@ -5780,7 +5795,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 46 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 80
+$c0012Costo in mana$c0012 : 80
 
 Questo incantesimo permette al caster di rendere invisibili
 tutti i membri del proprio gruppo, in modo analogo a quello
@@ -5796,7 +5811,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 11 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Con questo  incantesimo il  Chierico  localizza dove si trova  un
 oggetto, se e' presente, all'interno  della zona in cui il caster
@@ -5819,7 +5834,7 @@ $c0005Durata$c0005        : (livello*2) ore, permanente su cibo e bevande
 $c0010Livello$c0010       : 8 Druidi, 13 Chierici, 10 Antipaladini, 
                             25 ladri
 $c0014Tiro salvezza$c0014 : 'vs. paralyzation' per negazione
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Se lo si usa su del cibo o un  contenitore per bevande,  lo  spell fa
 si che chiunque mangi il cibo o beva dal contenitore venga avvelenato.
@@ -5849,7 +5864,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 7 Chierici, 20 Paladini, 25 Ranger
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Questa barriera protettiva rende gli attacchi delle creature
 malvagie meno efficaci,  rende il caster piu'  difficile  da
@@ -5866,7 +5881,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 20 Chierici, 35 Paladini, 45 Ranger
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 45
+$c0012Costo in mana$c0012 : 45
 
 Dona i bonus dell'incantesimo PROTECTION FROM EVIL a tutte
 le persone gruppate col  caster presenti  nella stanza  al
@@ -5882,7 +5897,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 8 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Elimina gli effetti dell'incantesimo  CURSE. Se lanciato  su
 un oggetto, elimina la maledizone su di esso. Per  eliminare
@@ -5901,7 +5916,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 8 Druidi, 17 Chierici, 20 Ranger, 40 Paladini
 $c0014Tiro salvezza$c0014 : 'vs spells', per negazione
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Quest'incantesimo permette di rimuovere veleno nel corpo di una
 persona, nel cibo od in un contenitore per bevande. 
@@ -5916,7 +5931,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 6 Chierici, 9 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Annulla l'effetto della paralisi su una persona.
 
@@ -5930,7 +5945,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 3 ore
 $c0010Livello$c0010       : 26 Chierici - Druidi Eroi di 5 livello
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questo spell chiama la Luce Divina per proteggere la vittima. Tutti gli
 attacchi contro la vittima infliggeranno meta' danno.
@@ -5947,7 +5962,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 15 Chierici
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Lo spell catena una colonna di fuoco sulla vittima. La vittima
 riceve (livello+spellpower)d8 danni da fuoco. 
@@ -5965,7 +5980,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*2) ore
 $c0010Livello$c0010       : 6 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Lo spell aggiunge punti di forza al target in modo non permanente.
 Il numero di punti di forza  aggiunti e' determinato  dalla classe
@@ -5992,7 +6007,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 1 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 A tutti coloro che falliscono il tiro salvezza e si trovano
 nella stessa stanza del caster, sembrera' che la persona  o
@@ -6016,7 +6031,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 15 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Il caster verra' trasportato al suo rifugio, che e' l'ultimo luogo dove ha
 rentato.
@@ -6031,7 +6046,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 19 Chierici, 27 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spell' per negazione, quando applicabile
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Il caster evoca la persona o il mob vittima al suo cospetto. Se il
 target e' un personaggio, non ci sono limitazioni di livello.  Se, 
@@ -6052,7 +6067,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Dipendente dal carisma del caster
 $c0010Livello$c0010       : 4 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. paralyzation' per negazione
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Fa si che la vittima dell'incantesimo diventi s eguace del  caster.
 Da notare che non e' possibile 'charmare' chi e' gia' sotto effetto
@@ -6074,7 +6089,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 5*(livello del caster) ore
 $c0010Livello$c0010       : 4 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Questo incantesimo rende il caster piu' sensibile e gli permette  di
 individuare persone o mostri nascosti (HIDE, CAMOUFLAGE o CHAMELEON)
@@ -6092,7 +6107,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 1 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Questo incantesimo spara uno  sciame  di dardi  incantati dalle dita
 del caster verso la vittima. Ogni  dardo causa 1d4+1 punti di danno.
@@ -6113,7 +6128,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo - 6 ore se usato contro un personaggio
 $c0010Livello$c0010       : 3 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs spells' per meta' danno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Questo incantesimo inietta una sensazione di freddo profondo nel  corpo
 della vittima. Il risultato e' (livello)d3 danni da freddo.
@@ -6132,7 +6147,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 5 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Con questo incantesimo il Mago emette una  violenta fiammata dalle
 mani. Le fiamme danneggiano tutte le persone/mob non gruppate  col
@@ -6148,7 +6163,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 1 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Con questo spell il Mago sviluppa una forte carica elettrica, che
 puo' liberare toccando una creatura ed infliggendo danno. Perche'
@@ -6166,7 +6181,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 10 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 COn questo incantesimo, il Mago rilascia un grosso quantitativo
 d'energia magica sotto forma di una saetta. Il fulmine infligge
@@ -6182,7 +6197,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 14 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spell' per meta' danno
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Quest'incantesimo fa si che il Mago rilasci un raggio d'energia
 colorata, che infligge 4 punti di danno per livello  del caster
@@ -6198,7 +6213,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 23 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
-$c0012Costo in mana$c0007 : 35
+$c0012Costo in mana$c0012 : 35
 
 Se lanciato con successo, questo spell toglie un  livello d'esperienza
 ad un pg od un mob. La vittima perde esperienza, punti ferita massimi,
@@ -6217,7 +6232,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 25 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Il piu' famoso incantesimo  d'attacco a  disposizione  di Maghi e
 Stregoni. Una grossa  palla fiammeggiante viene  scagliata contro
@@ -6238,7 +6253,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 17 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Con questo incantesimo il caster libera dalle mani  un prisma
 colorato, che si posiziona davanti a lui e libera a sua volta
@@ -6264,7 +6279,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 45 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 60
+$c0012Costo in mana$c0012 : 60
 
 Con questo incantesimo il caster evoca una grossa quantita' di gas
 che prende fuoco a contatto con l'aria, causando il prendere fuoco
@@ -6282,7 +6297,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 18 Chierici
 $c0014Tiro salvezza$c0014 : Vedi sotto
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Con quest'incantesimo, il Chierico invoca la potenza del suo Dio  che
 si manifesta sotto forma di un violento sisma. Tutte le persone nella
@@ -6305,7 +6320,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 20 Chierici
 $c0014Tiro salvezza$c0014 : Speciale
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Questo spell bandisce (rispedisce nel proprio piano d'esistenza)
 creature extraplanari d'allineamento CATTIVO.
@@ -6320,7 +6335,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Instantaneo
 $c0010Livello$c0010       : 20 Chierici
 $c0014Tiro salvezza$c0014 : Speciale
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Questo spell bandisce (rispedisce nel proprio piano d'esistenza)
 creature extraplanari d'allineamento BUONO. 
@@ -6335,7 +6350,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 45 Chierici, 18 Druidi
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Con questo spell il caster  evoca le forze della Natura,  sotto forma di  un
 fulmine che colpisce la vittima. Deve essere usato all'aperto e deve piovere
@@ -6356,7 +6371,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 25 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 35
+$c0012Costo in mana$c0012 : 35
  
 Il chierico utilizza la magia per consumare il corpo del nemico, toccandolo
 con la sua mano. Il corpo del nemico viene colpito da piaghe e pustole, come
@@ -6467,7 +6482,7 @@ Sintassi: deafen
 Usa 'deafen' e non leggerai piu' le grida (gli SHOUT) degli altri pg.
 Scrivi 'deafen' di nuovo e tornerai ad udire gli SHOUT.
  
-Vedi anche: NOHEROGOSSIP, NOGOSSIP, NOAUCTION, NOTELL
+Vedi anche: NOHEROGOSSIP, NOGOSSIP, NOAUCTION, NOTELL, DND
 
 #
 NOTELL
@@ -6616,7 +6631,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello del caster)*4 ore
 $c0010Livello$c0010       : 8 Maghi e Stregoni, 5 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 7
+$c0012Costo in mana$c0012 : 7
 
 Per mezzo di questo incantesimo  il target diventa capace  di vedere
 le forme di calore al buio. Non ti permette, per esempio, di leggere 
@@ -6633,6 +6648,8 @@ Vedi anche: BLINDNESS, TRUE SIGHT, DETECT INVISIBILITY, FIREBALL
  
 #
 INFERNO
+
+Sintassi: inferno
 
 Skill per Antipaladini eroi di 5 livello
 L'Antipaladino con questo comando, evoca i demoni dall'inferno che
@@ -6789,6 +6806,8 @@ Vedi anche: GROUP, TELL, GOSSIP
 
 #
 BERSERK
+
+Sintassi: berserk
 
 Questa e' l'abilita' fondamentale dei barbari. Usando questa tecnica,
 il barbaro scatena tutta la sua furia  omicida contro il pg o il  mob
@@ -7404,7 +7423,7 @@ $c0005Durata$c0005        : (livello del caster) ore
 $c0010Livello$c0010       : 3 Chierici, 3 Druidi, 4 Ranger, 5 Maghi e Stregoni,
                 2 Antipaladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Quest'incatesimo e' inutile se non appartieni alla razza dei drow. Questi
 particolari tipi di elfi, soffrono dei malus quando si muovono attraversi
@@ -7425,7 +7444,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 20 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 25
+$c0012Costo in mana$c0012 : 25
  
 Questa protezione rende il Mago immune agli incantesimi  d'attacco
 che sono sotto il 6o livello.
@@ -7443,7 +7462,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 27 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Simile a MINOR INVULNERABILITY, ma ha effetto su spell dal 5o al
 10o livello.
@@ -7458,7 +7477,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 1 ora
 $c0010Livello$c0010       : 48 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 100
+$c0012Costo in mana$c0012 : 100
 
 Questo incantesimo permette al caster di immunizzarsi da qualunque
 forma di magia per un breve periodo di tempo, creando un guscio di
@@ -7479,7 +7498,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 3 ore
 $c0010Livello$c0010       : 48 Chierici, 50 Antipaladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Questo incantesimo permette al caster di invocare  su di se (e  su
 nessun altro!) una protezione dal DRAIN dei nonmorti (nonche' dall
@@ -7737,7 +7756,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 12 Psionici
 $c0014Tiro salvezza$c0014 : 'vs spells' per negazione
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Per mezzo di questa disciplina lo Psionico e' in grado di teleportare
 se stesso od un altra persona in un posto casuale del mondo.
@@ -7753,7 +7772,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 7 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 L'abilita' Psionica  SCRY permette al caster di concentrarsi per
 cercare di creare un legame mentale con la sua vittima, in  modo 
@@ -7774,7 +7793,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 21 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Questa abilita' e' usata dagli Psionici per viaggiare nel piano astrale.
 Quando viene usata, essa trasferisce lo Psionico e tutto il  suo gruppo
@@ -7790,7 +7809,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*2) ore
 $c0010Livello$c0010       : 6 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Usando questa disciplina lo Psionico si rende piu' forte. Il funzionamento
 e' analogo allo spell dei Maghi e Stregoni STRENGTH.
@@ -7805,7 +7824,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 23 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questa utile disciplina permette allo Psionico di percepire i pericoli
 attorno a se. In pratica, cio significa che gli permette di  percepire
@@ -7825,7 +7844,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 3 ore
 $c0010Livello$c0010       : 8 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 45
+$c0012Costo in mana$c0012 : 45
 
 Con questa abilita' lo Psionico diventa in grado di vedere nelle stanze
 adiacenti proprio come se fosse li, in modo molto simile alla skill SPY
@@ -7843,7 +7862,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 38 Psionici
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questa abilita' fa si che lo Psionico sia in grado di disintegrare
 cio' che gli capita a tiro,  per mezzo di un raggio  disintegrante 
@@ -7862,7 +7881,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 35 Psionici
 $c0014Tiro salvezza$c0014 : 'vs. spells' per negazione
-$c0012Costo in mana$c0007 : 35
+$c0012Costo in mana$c0012 : 35
 
 Questa abilita' permette allo Psionico  di usare la forza della sua
 mente per muovere corpi nello spazio.  Gli utilizzi di questa skill
@@ -7896,7 +7915,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*2)/10 ore
 $c0010Livello$c0010       : 10 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Questa disciplina psionica permette a chi la usa di usare la forza della
 mente per fare levitare il proprio corpo o quello della vittima, in modo
@@ -7912,7 +7931,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 14 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 100
+$c0012Costo in mana$c0012 : 100
 
 Quando uno Psionico si trova in difficolta' e sta per morire, puo'
 usufruire  di questa  disciplina, che  ad un costo molto  alto  in 
@@ -7930,7 +7949,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10)+2 ore
 $c0010Livello$c0010       : 11 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 35
+$c0012Costo in mana$c0012 : 35
 
 Con ques'incantesimo, lo psionico  aumenta la propria  capacita'  di
 potenziare gl'incantesimi, in maniera vieppiu' incisiva man mano che
@@ -7947,7 +7966,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Vedere in seguito
 $c0010Livello$c0010       : 8 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Questo incantesimo permette allo psionico di confondersi con i colori
 del luogo in cui si trova, impedendo  ad amici e nemici di  vederlo e
@@ -7970,7 +7989,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo - 12 ore
 $c0010Livello$c0010       : 14 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 60
+$c0012Costo in mana$c0012 : 60
 
 Con questa disciplina lo Psionico forza il suo corpo a non sentire piu'
 fame o sete per 12 ore. Questo comando puo' essere usato dallo psionico
@@ -7989,7 +8008,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 1 Psionici
 $c0014Tiro salvezza$c0014 : 'vs. paralyzation' per negazione
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Lo Psionico  puo'  impartire  un  comando  (formato da una sola parola,
 ad esempio 'sleep' o 'flee') ad una qualsiasi  vittima, sempre che essa
@@ -8006,7 +8025,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 21 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Questo potente attacco Psionico  permette di causare  seri danni alla
 psiche della vittima, in modo del tutto simile allo spell FEEBLEMIND.
@@ -8021,7 +8040,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 7 Psionici
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 25
+$c0012Costo in mana$c0012 : 25
 
 Questa forma di attacco Psionico permette a chi lo usa di mandare un
 forte pensiero di disturbo direttamente nella psiche della  vittima, 
@@ -8044,7 +8063,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 34 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questa disciplina di difesa mentale permette allo  Psionico di evitare
 alcune forme di attacco mentale proteggendo la sua mente. Questa skill
@@ -8064,7 +8083,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello*2)/10 ore
 $c0010Livello$c0010       : 17 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Usando questa disciplina lo Psionico puo' fare in modo che la sua
 mente non venga vista dalle  altre entita'. Il  risultato e'  una
@@ -8080,7 +8099,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 1 ora
 $c0010Livello$c0010       : 3 Psionici
 $c0014Tiro salvezza$c0014 : 'vs. paralyzation' per negazione
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Con questo incantesimo,  lo psionico e'  in grado di  indurre i mob a
 scambiarlo per un altra persona. In questo modo, i mob che lo stavano
@@ -8097,7 +8116,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 20 Psionici
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 60
+$c0012Costo in mana$c0012 : 60
 
 Con  questo potentissimo  attacco  Psionico, il caster  rilascia una
 enorme  onda d'ulto creata per mezzo della mente, la quale  colpisce 
@@ -8115,7 +8134,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Speciale
 $c0010Livello$c0010       : 2 Psionici
 $c0014Tiro salvezza$c0014 : 'vs. charm' per negazione
-$c0012Costo in mana$c0007 : 25
+$c0012Costo in mana$c0012 : 25
  
 Lo Psionico puo' usare le sua  capacita' mentali per  ipnotizzare una
 creature, l'effetto sara' simile a  quello degli incantesimi di CHARM
@@ -8136,7 +8155,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello massimo/2) ore
 $c0010Livello$c0010       : 1 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Usando questa skill, lo Psionico acquista l'abilita' di leggere nei
 pensieri della gente. L'effetto pratico e' che egli  diventa capace
@@ -8153,7 +8172,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello massimo) ore
 $c0010Livello$c0010       : 1 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Con questa abilita' lo Psionico circonda il proprio corpo con uno
 scudo di energia mentale. L'effetto e' maggiore  man mano che  lo
@@ -8169,7 +8188,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello da PSI/5)+10 ore
 $c0010Livello$c0010       : 15 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Questa abilita' e' molto potente. Consente allo Psionico di circondare
 il proprio corpo di fiamme. Le  fiamme proteggono il  caster come  per
@@ -8185,7 +8204,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 10 Psionici
 $c0014Tiro salvezza$c0014 : 'vs. spell', se la vittima e' un mob
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Questa abilita' e' simile allo spell SUMMON di Maghi/Stregoni e
 Chierici. Evoca una vittima al  cospetto del caster, usando  la
@@ -8206,7 +8225,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 3 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Per mezzo di questa utile  abilita', lo Psionico puo' trasferire
 se stesso da un posto ad un altro  in un istante.  La chiave per
@@ -8223,7 +8242,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 32 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 75
+$c0012Costo in mana$c0012 : 75
 
 E' simile allo spell PORTAL, ed allo skill DOORWAY. In questo caso,
 non solo il caster viene trasferito nella locazione  della vittima,
@@ -8239,7 +8258,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo (per gli spell, come i singoli spell)
 $c0010Livello$c0010       : 5 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Lo Psionico usa i suoi poteri per accrescere la sua Vista, e vedere
 l'aura della gente. Cio' significa che  l'effetto e' similare  all'
@@ -8255,7 +8274,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo (per gli spell, come i singoli spell)
 $c0010Livello$c0010       : 11 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 L'abilita' e' una versione migliorata di AURA SIGHT. Qui lo Psionico
 riesce a percepire piu' cose, come  se avesse gli spell  SENSE LIFE,
@@ -8271,7 +8290,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 20 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Lo Psionico scava nella  psiche della vittima,  per liberare la  fonte
 di energia latente in essa. Il risultato e' una violenta accelerazione 
@@ -8288,7 +8307,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Speciale
 $c0010Livello$c0010       : 1 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 25
+$c0012Costo in mana$c0012 : 25
 
 L'attacco base degli Psionici. Oltre a togliere hit points alla vittima,
 (il danno  e' direttamente proporzionale al livello dello Psionico), con
@@ -8317,7 +8336,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Speciale
 $c0010Livello$c0010       : 1 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Per mezzo di questa tecnica, lo Psionico riesce a  piegare la luce
 attorno al suo corpo, in modo che sia distorta. L'effetto rende il 
@@ -8331,9 +8350,7 @@ MEDITATE
 
 Skill per: Psionici, Monaci, Eroi
 
-Sintassi:
-
- > meditate
+Sintassi: meditate
 
 Per mezzo di questa abilita', e' possibile ottenere uno stato di vuoto
 interiore, per poter  recuperare mana (nel caso  degli Psionici e  dei
@@ -8347,7 +8364,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 2 Psionici, Eroi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : Speciale
+$c0012Costo in mana$c0012 : Speciale
 
 Con questa tecnica, lo Psionico converte la sua energia fisica in
 potere mentale. In pratica, puo' convertire una parte dei suoi hp
@@ -8358,7 +8375,7 @@ caster morira' nello sforzo.
 Il Canibalize da eroe ha effetti  diversi a seconda della  classe
 del caster:
 
-- Per gli psi il guadagno e' del 200%
+- Per gli psionici il guadagno e' del 200%
 - Per tutti gli altri monoclasse del 100%
 - Per i multiclasse del 75%
 
@@ -8372,7 +8389,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 5 Psionici
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta danno.
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Grazie a questa tecnica, lo Psionico riesce a  condensare le onde
 della sua mente in un modo tale che esse fuoriescono dalla psiche
@@ -8391,7 +8408,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : Psionici 6o livello Eroe 
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Grazie a questa  tecnica  psionica, il caster  (eroe 6o  monoclasse)
 puo' invertire i processi magici attorno ad una persona, dispellando
@@ -8418,7 +8435,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (3+livello da Eroe) ore
 $c0010Livello$c0010       : Druidi 1o livello Eroe
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 60
+$c0012Costo in mana$c0012 : 60
 
 Per mezzo di quest'incantesimo, il Druido causa (in un luogo al chiuso)
 la  crescita  di piante, fiori  e  rampicanti, facendo si che il  luogo
@@ -8488,7 +8505,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello/2) ore
 $c0010Livello$c0010       : 1 Maghi e Stregoni, 3 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
 
 Per mezzo di questo spell, il mago rende la vittima  in grado di
 capire tutte le lingue, anche quelle che la vittima non conosce.
@@ -8503,7 +8520,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 21 Chierici, 22 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Il Sacerdote invoca il suo Dio o la Natura stessa perche' lo
 protegga contro i danni causati dal fuoco NON MAGICO (quello
@@ -8522,7 +8539,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 20 Chierici, 21 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Il Sacerdote invoca il suo Dio o la Natura stessa perche' lo
 protegga contro i danni causati dal gelo  NON MAGICO (quello
@@ -8541,7 +8558,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 18 Chierici, 19 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Il Sacerdote  invoca il suo  Dio o la Natura stessa perche' lo
 protegga contro i danni causati  dall'elettricita' NON  MAGICA
@@ -8560,7 +8577,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 19 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Il Sacerdote invoca il suo Dio perche' lo protegga dagli attacchi
 da ENERGIA (come il DISINTEGRATE,  per esempio). Il caster  sara'
@@ -8617,7 +8634,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 16 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 100
+$c0012Costo in mana$c0012 : 100
 
 Questo spell permette al Mago di incantare armature,  aumentando il loro
 fattore di protezione, oltre a donargli bonus sui tiri salvezza. In modo
@@ -8648,7 +8665,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 1 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5, anche gli Stregoni usano il mana per questo spell
+$c0012Costo in mana$c0012 : 5, anche gli Stregoni usano il mana per questo spell
 
 Questo  incantesimo rende il  caster capace di  comunicare su  lunghe
 distanze usando la forza del suo pensiero. Se il casting ha successo,
@@ -8664,7 +8681,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 1 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Con questa tecnica lo Psionico si mette in contatto telepatico con
 la persona specificata. Se il casting ha successo, a <nome> verra'
@@ -8680,7 +8697,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 1 Chierici, Druidi, Ranger, Paladini, Antipaladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5
+$c0012Costo in mana$c0012 : 5
 
 Questo incantesimo e' la versione 'clericale' del SENDING dei Maghi,
 ed ha esattamento lo stesso funzionamento e gli stessi limiti.
@@ -8695,7 +8712,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : Solo Immortali+
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : -
+$c0012Costo in mana$c0012 : -
 
 Questo incantesimo e' cosi' potente che non puo' essere memorizzato
 o recitato da menti mortali. Fa si che chi e' sotto l'effetto dello
@@ -8713,7 +8730,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 40 Chierici, 41 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questo incantesimo di protezione fa si che chi e' sotto il suo effetto
 riceva 1/4 dei danni da respiro magico di FUOCO di Drago.
@@ -8730,7 +8747,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 38 Chierici, 39 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questo incantesimo di protezione fa si che chi e' sotto il suo effetto
 riceva 1/4 dei danni da respiro magico di GHIACCIO di Drago.
@@ -8747,7 +8764,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 40 Chierici, 41 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questo incantesimo di protezione fa si che chi e' sotto il suo effetto
 riceva 1/4 dei danni da respiro magico ACIDO di Drago.
@@ -8764,7 +8781,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 39 Chierici, 40 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questo incantesimo di protezione fa si che chi e' sotto il suo effetto
 riceva 1/4 dei danni da respiro magico ELETTRICO di Drago.
@@ -8780,7 +8797,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 37 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questo incantesimo di protezione fa si che chi e' sotto il suo effetto
 riceva 1/4 dei danni da respiro magico GASSOSO di Drago.
@@ -8797,7 +8814,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 48 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
-$c0012Costo in mana$c0007 : 45
+$c0012Costo in mana$c0012 : 45
 
 Usando questo spell il caster  rilascia un potente raggio disintegrante
 di colore verde acceso.Il raggio ha il potere di disgregare le molecole
@@ -8821,7 +8838,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 3 ore
 $c0010Livello$c0010       : 35 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Questo spell evoca un piccolo occhio magico che il caster puo' usare per
 vedere nelle stanze adicenti quella in cui si trova come  se si trovasse 
@@ -9506,7 +9523,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/2) ore
 $c0010Livello$c0010       : 20 Druidi e Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 20
+$c0012Costo in mana$c0012 : 20
 
 Fa si' che il caster riesca a colpire un mago, anche se questi si
 trova sotto la protezione dello spell BLINK. 
@@ -9524,7 +9541,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 10 ore
 $c0010Livello$c0010       : 15 Maghi, 5 Stregoni, 45 Psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : (livello)*(numero di classi)
+$c0012Costo in mana$c0012 : (livello)*(numero di classi)
 
 Quest'incantesimo  permette  al mago  che lo lancia di evitare gli n
 colpi successivi (puoi  paragonarlo anche  all'incantesimo  Immagini
@@ -9643,7 +9660,7 @@ e si combatteranno a turno e ad eliminazione in modo simile ai combattimenti
 in singolar tenzone; il vincitore di solito ha diritto ad un premio.
 Non partecipare ad un torneo non e' considerato atto di codardia.
 
-LA SFIDA IN SINGOLAR TENZONE (aggiunta)
+LA SFIDA IN SINGOLAR TENZONE
 
 In questa particolare sfida si puo' far affidamento solo sulle proprie
 abilita' innate (non ci si puo' far castare magie o far prestare roba
@@ -9715,7 +9732,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 40 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questo incantesimo permette ad un druido di aprire  un portale in un
 albero di cui conosce il nome, e di trasportare con esso lui e tutto
@@ -9731,7 +9748,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello) ore
 $c0010Livello$c0010       : 15 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Con questo incantesimo il Druido evoca  lo spirito di un animale feroce
 e lo  infonde in  una persona,  facendogli  crescere  zanne ed artigli.
@@ -9761,7 +9778,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello) ore
 $c0010Livello$c0010       : 15 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 15
+$c0012Costo in mana$c0012 : 15
 
 Grazie a questo incantesimo, il Druido puo' confondere l'avversario
 evocando un turbine di foglie attorno ad esso. L'effetto  sara' una
@@ -9792,7 +9809,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 23 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Questo spell permette al Druido, se all'aperto, di evocare la forza
 curativa della Natura che lo  circonda, guarendo  completamente  il
@@ -9868,7 +9885,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 10 ore
 $c0010Livello$c0010       : 35 Stregoni, 40 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Con questo incantesimo il caster crea uno scudo protettivo che interessa
 la stanza in cui e'.  I mob che cercheranno di entrare nella stanza  che
@@ -10032,15 +10049,15 @@ Phoenix Stance  - Monaci
 
 $c0010--- Livello 5, 400M xp ----------------------------------------$c0007
 
-Decapitate      - Guerrieri, Barbari, Antipaladini
-Sanctuary       - Druidi
-New quivering   - Monaci
-Backstab powerup- Ladri
-Portal          - Chierici
-Inferno		- Antipaladini
-Fury		- Barbari
-Evasion		- Ladri monoclasse
-Bind wounds	- Paladini
+Decapitate       - Guerrieri, Barbari, Antipaladini
+Sanctuary        - Druidi
+New quivering    - Monaci
+Backstab powerup - Ladri
+Portal           - Chierici
+Inferno		     - Antipaladini
+Fury		     - Barbari
+Evasion	     	 - Ladri monoclasse
+Bind wounds	     - Paladini
 
 $c0009--- Livello 6, 450M xp ----------------------------------------$c0007
 
@@ -10048,7 +10065,7 @@ Shield block    - Tutti i monoclassi
 Feast           - Tutti
 Repair          - Barbari, Ranger
 Canibalize      - Maghi, Druidi, Chierici
-Reversion	 - Psionici
+Reversion	    - Psionici
 Monsum Seven    - Maghi
 Pain Mirror     - Psionici
 Healing Rain    - Druidi
@@ -10105,7 +10122,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : Maghi e Stregoni Eroi di 1 livello
 $c0014Tiro salvezza$c0014 : 'vs spells' per meta' danno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Questo e' l'incantesimo piu'  potente che un mago  possa imparare.  Solo
 gli  Eroi  hanno  l'esperienza  sufficiente  per controllarne  il potere
@@ -10126,7 +10143,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : Chierici Eroi di 3 livello
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 60
+$c0012Costo in mana$c0012 : 60
 
 Questo  incantesimo e' la massima espressione dei poteri curativi dei
 chierici. Lanciandolo una volta su una vittima, essa recupera 170 Hit
@@ -10282,7 +10299,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 2 ore
 $c0010Livello$c0010       : Psionici Eroi di 4 livello, Stregoni eroi di 4 livello
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 70
+$c0012Costo in mana$c0012 : 70
 
 L'enorme  potere mentale  degli psionici  Eroi permette loro di  deflettere
 l'intero  danno diretto verso  il loro corpo su uno scudo di mana, generato
@@ -11186,7 +11203,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 50+Livello da eroe del paladino*2
 $c0010Livello$c0010       : 45 Paladini
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Questo  spell  per  Paladini  permette  di  assumere  la forma  di un
 potente Angelo.  A seconda del livello  (e anche del livello da eroe)
@@ -11224,7 +11241,7 @@ $c0005Durata$c0005 effetto: $c0010Livello$c0010 da eroe - ore
 $c0005Durata$c0005 spell  : 12 ore
 $c0010Livello$c0010       : Paladini Eroi di 3 livello
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 I Paladini possono usare questo incantesimo per evocare l'aiuto degli
 Dei nella loro Eterna lotta contro il Male. Se gli Dei ascoltano la
@@ -11251,7 +11268,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : (livello/2)+24 ore
 $c0010Livello$c0010       : 1 Paladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 NB: Questo incantesimo non e' ancora completo.
 
@@ -11270,7 +11287,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : dipendente dal carisma del caster
 $c0010Livello$c0010       : 30 Paladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 NB: Questo incantesimo non e' ancora completo.
 
@@ -11843,7 +11860,7 @@ fino al raggiungimento del valore massimo, cosi' indicato:
 
 
                  | MonoClasse   BiClasse   TriClasse
-   --------------------------------------------------------
+   --------------|-----------------------------------------
       SPELLPOWER |        120         45+bonus    25+bonus
    ABSORB DAMAGE |         20         16          12
 
@@ -12086,7 +12103,7 @@ Vedi anche: SOCIAL
 HITROLL DAMROLL
 
 Se si  gioca un  po' a  Tempora Sanguinis,  si sentira' spesso nominare
-questi due termini, Hitroll Damroll (a volte abbreviati per semplicita'
+questi due termini, Hitroll e Damroll (a volte abbreviati per semplicita'
 hit  e  dam).  Essi non  sono  altro  che  due  valori numerici, e ogni
 giocatore li possiede. Con il comando ATTRIBUTE  e' possibile vedere un
 giudizio  indicativo dei propri  valori  di  hitroll  e  damroll, anche
@@ -12309,7 +12326,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello del druido/10)+(livello da eroe) ore
 $c0010Livello$c0010       : 20 Druidi
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 150
+$c0012Costo in mana$c0012 : 150
 
 Questo incantesimo,  che  puo' essere lanciato solo su un personaggio,  ne
 causa la crescita  fino  al  doppio  della  dimensione  originale.  Questo
@@ -12344,7 +12361,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : ND
 $c0010Livello$c0010       : 2o eroe Maghi e Stregoni monoclasse
 $c0014Tiro salvezza$c0014 : vs Spell per negazione
-$c0012Costo in mana$c0007 : 70
+$c0012Costo in mana$c0012 : 70
 
 L'incantesimo se lanciato su un bersaglio fa in modo che
 gli incantesimi castati su di lui vengano rimossi,
@@ -12368,7 +12385,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantanea
 $c0010Livello$c0010       : 50 Druidi monoclasse
 $c0014Tiro salvezza$c0014 : vs Spell per meta' danno
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Con questo incantesimo, il druido invoca lo spirito della
 terra, formando una pozzanghera di lava sotto i piedi della
@@ -12385,7 +12402,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantanea
 $c0010Livello$c0010       : 50 Druidi monoclasse
 $c0014Tiro salvezza$c0014 : vs Spell per meta' danno
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Con questo incantesimo, il druido invoca i ghiacci eterni
 causando un congelamento della terra sotto i piedi della
@@ -12403,7 +12420,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
 $c0010Livello$c0010       : 6o livello eroe Psionici monoclasse
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 100
+$c0012Costo in mana$c0012 : 100
 
 Con questa tecnica, lo psionico crea uno specchio mentale
 che riflettera' parte dei danni ricevuti, a chi lo sta
@@ -12420,7 +12437,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : -
 $c0010Livello$c0010       : 20 chierici, 25 paladini
 $c0014Tiro salvezza$c0014 : Speciale
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Con questo incantesimo, il caster con allineamento buono o neutrale
 e' in grado di lanciare una parola sacra a creature di allineamento
@@ -12440,7 +12457,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : -
 $c0010Livello$c0010       : 20 chierici, 25 antipaladini
 $c0014Tiro salvezza$c0014 : Speciale
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Con questo incantesimo, il caster con allineamento malvagio o neutro
 e' in grado di lanciare una parola di potere a creature di allineamento
@@ -12575,7 +12592,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : -
 $c0010Livello$c0010       : 49 maghi e stregoni
 $c0014Tiro salvezza$c0014 : vs spell per meta' danni
-$c0012Costo in mana$c0007 : 60
+$c0012Costo in mana$c0012 : 60
 
 Con questo incantesimo, il caster invoca gli elementi attraverso
 una magia antica rubata ai druidi. Per invocare gli elementi pero
@@ -12594,7 +12611,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/10) ore
 $c0010Livello$c0010       : 19 Chierici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 40
+$c0012Costo in mana$c0012 : 40
 
 Il Sacerdote invoca il suo Dio perche' lo protegga dagli attacchi
 da ACIDO. Il caster  sara' resistente  all'acido,  e subira' solo
@@ -12612,7 +12629,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 3 ore
 $c0010Livello$c0010       : 46 Druidi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 200
+$c0012Costo in mana$c0012 : 200
 
 Il druido invoca le forze della natura per proteggere se stesso
 e i personaggi nel suo gruppo, dagli elementi, rendendoli
@@ -12629,7 +12646,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : -
 $c0010Livello$c0010       : 31 Chierici, 41 Paladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 80
+$c0012Costo in mana$c0012 : 80
 
 Il Sacerdote o il Paladino invoca il suo Dio per rimuovere ogni
 sorta di incantesimo dannoso da un giocatore o un mob.
@@ -12644,7 +12661,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : -
 $c0010Livello$c0010       : 41 Chierici Monoclasse
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 100
+$c0012Costo in mana$c0012 : 100
 
 I Sacerdoti puri  invocano il loro Dio per rimuovere ogni
 sorta di incantesimo dannoso da tutti i membri del loro gruppo.
@@ -12660,7 +12677,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : (livello/2) ore
 $c0010Livello$c0010       : 50 chierici e paladini
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Lo spell aggiunge punti carisma al caster in modo non permanente.
 Il numero di punti carisma  aggiunti e' 1d5+1
@@ -12689,7 +12706,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : -
 $c0010Livello$c0010       : Paladini eroi di 5 livello
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 70
+$c0012Costo in mana$c0012 : 70
 
 L'incantesimo permette ai paladini di curarsi da 30 a 50 punti ferita
 fino al massimo dei loro punti ferita (o la fine dei punti mana :P).
@@ -12756,7 +12773,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 50+Livello da eroe dell'antipaladino*2
 $c0010Livello$c0010       : 35 Antipaladini
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Questo spell per Antipaladini permette di trasformarsi in uno dei
 demoni dell'Abisso. A seconda del livello (anche quello da eroe)
@@ -12790,7 +12807,7 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 10 maghi non multiclasse chierici
 $c0014Tiro salvezza$c0014 : vs. breath
-$c0012Costo in mana$c0007 : 1
+$c0012Costo in mana$c0012 : 1
 
 Questo spell se viene lanciato su un corpo permette di assorbirne le
 energie residue recuperando cosi' qualche punto ferita e/o energia
@@ -12805,7 +12822,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 3 ore
 $c0010Livello$c0010       : Druidi Eroi di 5 livello
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 50
+$c0012Costo in mana$c0012 : 50
 
 Questo spell funziona solo all'aperto e dimezza i danni sia fisici
 che magici inflitti alla vittima. 
@@ -12817,11 +12834,11 @@ Vedi anche: SANCTUARY
 
 $c0015Uso$c0015           : cast 'death grip'
 $c0006Cumulativo$c0006    : No
-$c0005Durata$c0005 effetto: $c0010Livello$c0010 da eroe - ore
+$c0003Durata$c0003 effetto: Livello da eroe
 $c0005Durata$c0005 spell  : 12 ore
 $c0010Livello$c0010       : Antipaladini Eroi di 3 livello
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 30
+$c0012Costo in mana$c0012 : 30
 
 Questo spell permette di modificare il danno inflitto ai mob nel
 seguente modo:
@@ -12887,7 +12904,7 @@ $c0006Cumulativo    : No
 $c0005Durata        : Istantaneo
 $c0010Livello       : 5 Chierici monoclasse
 $c0014Tiro salvezza : Nessuno
-$c0012Costo in mana : $c00070
+$c0012Costo in mana : -
 
 Il caster puo' lanciare questo incantesimo solo su di se'. Questo permette
 di assorbire energia direttamente dalla Terra stessa, per ricostituire le
@@ -12940,7 +12957,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Vedere sotto
 $c0010Livello$c0010       : 10 Maghi e Stregoni
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0007 : 10
+$c0012Costo in mana$c0012 : 10
  
 I Maghi possono usare le loro arti magiche per trasformare il proprio corpo
 in  quello di una  creatura, come  illustra  lo schema  riportato  sotto. A
@@ -13577,12 +13594,12 @@ zone quest.
 $c0010--- Listino premi runici --------------------------------------$c0007
 
 $c0011NOME OGGETTO               LUOGO IN CUI COMPARE$c0007
-una Runa del Ghiaccio      Abissi di Kaltenland
+una Runa del Ghiaccio      Abissi di Kaltenland/Atlantide (a volte)
 una Runa della Lava        Citta' sotterranea di Midraash
 una Runa del Sole          Labirinto tra le nuvole
 una Runa della Sabbia      Cave abbandonate di Monte Rotto
 una Runa del Vento         Portali Dimensionali
-una Runa del Buio          Mordor/Ravenloft/Arachnos/Akin-Ra (a volte)
+una Runa del Buio          Mordor/Ravenloft/Arachnos/Akin-Ra/Menzoberranzan (a volte)
 
 $c0011NOME OGGETTO               PREZZO$c0007
 Scudo Cold                 55 rune del ghiaccio + 5000 sigilli
@@ -13700,7 +13717,7 @@ $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : 2+0
 $c0010Livello$c0010       : Druidi livello 2 Eroe
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 80
+$c0012Costo in mana$c0012 : 80
 
 Il druido invoca le forze naturali nella stanzatramite antichi 
 rituali. Questo incantesimo permette al druido di evocare una pioggia 
@@ -13861,24 +13878,24 @@ Le afflizioni sono particolari stati in cui il personaggio o il MOB si viene a t
 a causa degli effetti di danni fisici o magici. L'attivazione di questi stati avviene 
 casualmente a causa di grandi danni subiti, rimanendo attivi per 1 o 2 round
 
-BLEEDING: la vittima comincia a sanguinare copiosamente e perde punti vita. I non morti
+$c0001BLEEDING$c0007: la vittima comincia a sanguinare copiosamente e perde punti vita. I non morti
           sono immuni a questa afflizione. Il danno e' di tipo speciale (come accade per
           l'incantesimo HARM).
           
-BURNING:  la vittima brucia e perde punti vita per danno di tipo FIRE.
+$c0009BURNING$c0007:  la vittima brucia e perde punti vita per danno di tipo FIRE.
           Se la vittima utilizza la magia, puo' perdere la concentrazione con maggior
           facilita', rimanendo al 30% impossibilitato a lanciare incantesimi.
 
-CHILLED:  la vittima viene parzialmente congelata, ricevendo danno di tipo COLD.
+$c0014CHILLED$c0007:  la vittima viene parzialmente congelata, ricevendo danno di tipo COLD.
           La vittima manchera' l'avversario con i suoi colpi, essendo rallentata (se non 
           e' immune al freddo). Questa afflizione puo' causare nella vittima l'impossibilita' di 
           utilizzare all'inizio del round di combattimento una sua procedura speciale.
 
-SHOCKED:  la vittima viene percorsa da scariche elettriche e danneggiata, aumentando
+$c0012SHOCKED$c0007:  la vittima viene percorsa da scariche elettriche e danneggiata, aumentando
           la possibilita' di ricevere danni critici dagli avversari (se non e' immune alla
           elettricita').
           
-CORRODED: la vittima viene ricoperta da liquidi acidi che ne consumano il corpo e le vesti,
+$c0010CORRODED$c0007: la vittima viene ricoperta da liquidi acidi che ne consumano il corpo e le vesti,
           diminuendo l'absorb damage per due round di combattimento (se non e' immune 
           all'acido)
 
@@ -13940,7 +13957,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 5 ore
 $c0010Livello$c0010       : 42 psionici
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 100
+$c0012Costo in mana$c0012 : 100
 
 Lo psionico sprofonda nel proprio subconscio e lascia che il chaos si impadronisca
 della sua mente, facendogli fare cio' che vuole, pur di garantirsi i suoi poteri.
@@ -14000,7 +14017,7 @@ $c0006Cumulativo$c0006    : si, cumulativo fino a 6 cariche
 $c0005Durata$c0005        : 5 ore
 $c0010Livello$c0010       : 9 bardi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : -
+$c0012Costo in mana$c0012 : -
 
 Il bardo dona ispirazione al target o trae ispirazione per se stesso.
 Un personaggio quando ha ispirazione consuma meno mana per lanciare i suoi incantesimi.
@@ -14019,7 +14036,7 @@ $c0006Cumulativo$c0006    : no
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 32 bardi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : -
+$c0012Costo in mana$c0012 : -
 
 Il bardo riesce a percepire lo spirito della vittima e vedere dove essa si trova.
 Simile allo scry da psionico ma non mostra il nome della stanza, solo la sua descrizione.
@@ -14039,7 +14056,7 @@ $c0006Cumulativo$c0006    : no
 $c0005Durata$c0005        : Istantaneo, durata 10 ore, cooldown di 10 ore
 $c0010Livello$c0010       : 34 bardi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : -
+$c0012Costo in mana$c0012 : -
 
 Se lanciato su un oggetto personale il bardo riesce a canalizzare meglio il proprio spirito 
 tramite l'oggetto, il quale ottiene dei bonus temporanei, che spesso includono MUSIC POWER.
@@ -14056,7 +14073,7 @@ $c0006Cumulativo$c0006    : no
 $c0005Durata$c0005        : 1 ora + 1 ora per ogni punto saggezza sopra al 16
 $c0010Livello$c0010       : 50 bardi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : -
+$c0012Costo in mana$c0012 : -
 
 Usabile solo in gruppo. Il bardo e il gruppo partecipano a una sessione spirituale dove 
 il bardo cerca di comunicare con lo spirito dei membri del gruppo per ottenerne la 
@@ -14077,7 +14094,7 @@ $c0006Cumulativo$c0006    : no
 $c0005Durata$c0005        : 2 + livello/10
 $c0010Livello$c0010       : 37 bardi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : -
+$c0012Costo in mana$c0012 : -
 
 Il bardo espando il tuo spirito e vieni colto dall'estasi mistica.
 Aiuta a non consumare ispirazione da skill che la richiedono.
@@ -14095,7 +14112,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 2 + livello/10
 $c0010Livello$c0010       : 10 bardi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : -
+$c0012Costo in mana$c0012 : -
 
 Il bardo si esercita con alcune note e melodie, migliorando 
 le sue capacita' musicali e aumentando il proprio MUSIC POWER.
@@ -14111,8 +14128,8 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Instantaneo
 $c0010Livello$c0010       : 3 bardi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : -
-$c0001Strumento$c0007     : a percussione o a corde
+$c0012Costo in mana$c0012 : -
+$c0001Strumento$c0001     : a percussione o a corde
 
 Questa abilita'  rappresenta la principale forma di attacco del Bardo.
 Il bardo usa il proprio strumento come arma e lo usa a mo di clava 
@@ -14139,7 +14156,7 @@ $c0010Livello$c0010       : 8 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
 $c0011Costo in mov$c0007  : 10 per proc
-$c0001Strumento$c0007     : a fiato
+$c0001Strumento$c0001     : a fiato
 
 Per mezzo di questa canzone il Bardo migliora le capacita' di	
 rigenerazione proprie e di chi lo ascolta, ne migliora i tiri
@@ -14164,8 +14181,8 @@ $c0005Durata$c0005        : Speciale
 $c0010Livello$c0010       : 16 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
-$c0011Costo in mov$c0007  : 10 per proc
-$c0001Strumento$c0007     : a corde
+$c0011Costo in mov$c0012  : 10 per proc
+$c0001Strumento$c0001     : a corde
 
 Per mezzo di questa canzone il bardo inizia a richiamare a 
 se le creature della foresta che lo ascoltano.
@@ -14185,9 +14202,9 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Speciale
 $c0010Livello$c0010       : 20 bardi
 $c0014Tiro salvezza$c0014 : -
-$c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
-$c0011Costo in mov$c0007  : 10 per proc
-$c0001Strumento$c0007     : a percussione
+$c0012Costo in mana$c0012 : 5 per cast, 100 per culmine, 25% di mana riservato
+$c0011Costo in mov$c0011  : 10 per proc
+$c0001Strumento$c0001     : a percussione
 
 Per mezzo di questa canzone il bardo migliora le capacita offensive
 proprie e di chi lo ascolta, aumentando in maniera progressiva sia 
@@ -14207,7 +14224,7 @@ $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 23 bardi
 $c0014Tiro salvezza$c0014 : Speciale
-$c0012Costo in mana$c0007 : Speciale
+$c0012Costo in mana$c0012 : Speciale
 
 Grazie alle sue esperienze ed i suoi viaggi, un Bardo ispirato tramite la
 skill INSPIRE e' in grado di raccontare storie e stornelli a chi lo ascolti.
@@ -14227,9 +14244,9 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Speciale
 $c0010Livello$c0010       : 25 bardi
 $c0014Tiro salvezza$c0014 : Speciali
-$c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
-$c0011Costo in mov$c0007  : 10 per proc
-$c0001Strumento$c0007     : a corde
+$c0012Costo in mana$c0012 : 5 per cast, 100 per culmine, 25% di mana riservato
+$c0011Costo in mov$c0011  : 10 per proc
+$c0001Strumento$c0001     : a corde
 
 Per mezzo di questa canzone il bardo inizia a strimpellare senza 
 armonia, con il solo scopo di creare disagio in chi lo ascolti.
@@ -14252,9 +14269,9 @@ $c0006Cumulativo$c0006    : Si
 $c0005Durata$c0005        : Speciale
 $c0010Livello$c0010       : 25 bardi
 $c0014Tiro salvezza$c0014 : Speciali
-$c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
-$c0011Costo in mov$c0007  : 10 per proc
-$c0001Strumento$c0007     : a fiato
+$c0012Costo in mana$c0012 : 5 per cast, 100 per culmine, 25% di mana riservato
+$c0011Costo in mov$c0011  : 10 per proc
+$c0001Strumento$c0001     : a fiato
 
 Per mezzo di questa canzone il bardo inizia ad intonare una melodia rilasante,
 con lo scopo di far cessare l'animosita' e la belligeranza di chiunque lo stia
