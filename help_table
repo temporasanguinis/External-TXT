@@ -831,21 +831,19 @@ Ci sono alcune novita' introdotte per incoraggiare il gruppaggio:
 
 Esempio di gruppaggio:
 
-Logan e Dryden vogliono gruppare con Gabriel:
+Logan e Dryden vogliono gruppare con Gabriel (Gabriel non deve seguire nessuno fuorche' se stesso):
 
 Logan   : "follow Gabriel"
 Dryden  : "follow Gabriel"
-(Gabriel non deve seguire nessuno fuorche' se stesso)
-Gabriel : "group Logan"
-(Logan entra nel gruppo)
-Gabriel : "group Dryden"
-(Dryden entra nel gruppo)
+
+Gabriel : "group Logan" (Logan entra nel gruppo)
+
+Gabriel : "group Dryden" (Dryden entra nel gruppo)
 
 Piu' tardi, quando Gabriel si arrabbia con Logan (perche' dorme sempre) e
 lo vuole cacciare dal suo gruppo:
 
-Gabriel : "group Logan"
-(Logan viene cacciato dal gruppo)
+Gabriel : "group Logan" (Logan viene cacciato dal gruppo)
 
 In definitiva. l'effetto del comando 'group' seguito dal nome di un PG e':
 - Includere nel gruppo un pg CHE STA FOLLANDO CHI LO VUOL GRUPPARE, se il
@@ -856,7 +854,8 @@ se il pg e' gia' nel gruppo.
 NOTA: Tempora Sanguinis permette come alternativa al gruppo la formazione,
 scrivi HELP FORMAZIONI per saperne di piu'.
 
-Vedi anche: SET GROUP NAME, SET GROUP ORDER, XP EXPERIENCE, FORMAZIONI, GROUPCHECK
+Vedi anche: SET GROUP NAME, SET GROUP ORDER, XP EXPERIENCE, FORMAZIONI, 
+            GROUPCHECK
 
 #
 REGOLE
@@ -999,6 +998,7 @@ Per i Ranger:
   ma puo' fare ricorso a  spell molto potenti  come ANIMAL BONDING.  Se 
   vuoi sfruttare all 100% il tuo personaggio, impara ad usare anche gli
   spell.
+
 
 Alcuni posti adatti a cominciare:
 
@@ -13139,7 +13139,7 @@ premio  in  denaro.  Se  la  scheda  verra'  completata,  il premio
 risultera'  piu'  consistente. Per  chiedergli  una quest  bastera'
 scrivere il comando:
 
-    ask Eowarion Questcard
+ > ask Eowarion Questcard
 
 Leggendo  la  questcard,   sara'  possibile  conoscere   i  comandi
 specifici e gli oggetti necessari al compimento della missione.  
@@ -14248,8 +14248,8 @@ skill INSPIRE e' in grado di raccontare storie e stornelli a chi lo ascolti.
 L'effetto della storia e' istantaneo, ma la capacita' di farsi sentire
 dipende dalla SAGGEZZA.
 	
-$c0001ATTENZIONE: $c0007L'uso lesivo delle storie per danneggiare volontariamente i giocatori
-fuori da un contesto PKILL e' severamente vietato ed punito dagli DEI.
+$c0001ATTENZIONE: $c0007L'uso lesivo delle storie per danneggiare volontariamente 
+i giocatori fuori da un contesto PKILL e' severamente vietato ed punito dagli DEI.
 
 Vedi anche: BARDO, INSPIRE
 
