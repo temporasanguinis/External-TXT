@@ -3,7 +3,7 @@ EMPTY SLOT
 #
 HELP AGGIORNAMENTO
 
-Ultimo aggiornamento: 18 febbraio 2021 a cura di Nalith e Traxter
+Ultimo aggiornamento: 18 febbraio 2021 a cura di Nalith, Yffre e Traxter
 
 L'Help di Tempora Sanguinis e' curato da Martinus e da Nalith.
 Se riscontrate errori, incongruenze, o desiderate proporre
@@ -15,7 +15,8 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   SCRIGNO DORATO, LISTINO (aggiornato), AWARD, AVATAR, NOMI, MESTIERI,
   AFFLIZIONI, DND, LAG, COOLDOWN, CHAOS, MINE, ALCHIMIA, MELEE COMBAT,
   PSIONIC BLAST (aggiornato), PSYCHIC CRUSH (aggiornato), POISON 
-  (aggiornato), PAIN MIRROR (aggiornato), CHARGE (aggiornato)
+  (aggiornato), PAIN MIRROR (aggiornato), CHARGE (aggiornato), BARDO,
+  PLAY, CULMINE, ACCESSIBILITA'
                                                                
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
@@ -1051,7 +1052,10 @@ Il danno che i monaci fanno con le sole mani aumenta col livello:
    6-11     1d6      22-26     3d4      37-41     5d4       50       8d4
   12-14     2d3      27-29     4d3
  
-$c0007Vedi anche: ATTACCHI DEI MONACI
+Il danno dei pugni dei monaci puo' essere potenziato tramite modifica del
+dei guanti, cosi' come indicato nel listino dei sigilli divini.
+ 
+$c0007Vedi anche: ATTACCHI DEI MONACI, LISTINO
 
 #
 "ARMOR CLASS" "ARMOUR CLASS" AC
@@ -1259,8 +1263,18 @@ i giocatori non vedenti e ipovedenti.
 locazioni vicine che potranno essere cosi' presi di mira utilizzando
 armi da tiro (lance, archi, balestre, fionde...).
 
+- Scrivendo SPOT LUOGO si potra' leggere la descrizione della locazione
+in cui ci si trova. Molto utile quando si sta utilizzando la modalita' di
+visualizzazione BRIEF.
+
+- Scrivendo SPOT OGGETTI si potra' vedere la lista degli oggetti presenti
+nella stanza. Molto utile quando si sta utilizzando la modalita' di
+visualizzazione BRIEF.
+
 - Scrivendo SPOT <direzione> si potranno vedere i mob presenti in 
 una certa direzione.
+
+
  
 Vedi anche: FIRE, SHOOT, NOTCH, THROW
 
@@ -3167,7 +3181,7 @@ riprendendo  l'esempio di  prima, basta  digitare <1 cane>, e il  povero
 cane si vedra'  arrivare  un raggio  disintegrante  addosso.  Un pochino
 esagerato, forse, ma efficace.
 
-Vedi anche: -
+Vedi anche: ACCESSIBILITA'
 
 #
 "SHOOT"
@@ -5191,18 +5205,29 @@ Vedi anche: CLASSI, DIGNITY
 #
 BRIEF
 
-Attiva e disattiva la modalita' BRIEF. Quando si ha il BRIEF
-attivo, e ci si sposta, non verra' piu' mostrata la descrizione
-del  posto  in  cui si  e'  arrivati,  sebbene essa  sia sempre
-disponibile  digitando  il  comando  LOOK. Non e' consigliabile
-attivare  questa  modalita'  a  meno che  non si  conosca molto
-bene la zona che si sta attrversando:  le descrizioni,  oltre a
-dare un'idea del  luogo dove ci  si trova,  possono  anche dare
-utili  suggerimenti  per non  cadere  nelle trappole mortali, o
-per  risolvere  eventuali quest.  Alcune descrizioni  meritano,
-in ogni caso, di essere lette per la loro bellezza!
- 
-Vedi anche: COMPACT, LOOK, RESIZE, COMPACT, SET, ALIAS
+Il comando attiva o disattiva la modalita' BRIEF. 
+Quando si ha la modalita' BRIEF attiva e ci si sposta tra le
+diverse locazioni, non verra' piu' mostrata la DESCRIZIONE del  
+luogo  in  cui si  e'  arrivati ne' gli oggetti presenti in 
+essa se superiori a uno. Quando gli oggetti presenti sono piu' 
+di uno, comparira' la scritta che ti segnala la presenza degli 
+oggetti a terra.
+
+La lista degli oggetti presenti puo' essere vista con il 
+comando SPOT OGGETTI, mentre la descrizione della stanza puo'
+essere vista con il comando SPOT LUOGO.
+
+Questa modalita' e' consigliata per i giocatori ipovedenti e
+non vedenti.
+
+$c0009ATTENZIONE:$c0007
+Le descrizioni delle stanze oltre a dare un'idea del luogo in
+cui ci si trova, possono anche dare utili suggerimenti per non
+cadere nelle trappole mortali o per risolvere eventuali quest.
+Alcune descrizioni  meritano, in ogni caso, di essere lette per 
+la loro bellezza!
+
+Vedi anche: COMPACT, LOOK, RESIZE, COMPACT, SET, ALIAS, ACCESSIBILITA'  
 
 #
 !
@@ -9592,7 +9617,7 @@ REFORM
 Permette al capo della formazione di cambiare la posizione dei membri della
 formazione, la sintassi e':
 
-REFORM <nome> <posizione>
+ > REFORM <nome> <posizione>
 
 La posizione puo' essere una delle seguenti:
 
@@ -11977,7 +12002,7 @@ sentire  cio' che  viene  detto con  questi  comandi,  nemmeno  un
 Immortale. Per poter essere usati, deve essere indicata la persona
 con la quale si vuole comunicare, secondo la sintassi:
 
-   tell/whisper/ask <persona> <messaggio>
+ > tell/whisper/ask <persona> <messaggio>
 
 Quindi, se la persona non e' abbastanza vicina, non sara' possibile
 comunicare con essa.
@@ -12545,7 +12570,7 @@ apprendere fino in fondo le tecniche dal proprio maestro.
 
 Caratteristiche dei vari stili di combattimento:
 
-Mongoose stance:
+$c0011- Mongoose stance:$c0007
 Questo stile si apprende al livello 40, e aumenta notevolmente la
 capacita' difensiva del monaco, permettendogli di schivare i colpi
 con piu destrezza. Con questo stile pero' la capacita' di bloccare
@@ -12554,7 +12579,7 @@ sono inferiori.
 $c0005Durata$c0005 3+ ore
 $c0015Uso$c0015: "stance mangusta"
 
-Tiger stance:
+$c0011- Tiger stance:$c0007
 Questo stile si apprende al livello 48, e aumenta la capacita del
 monaco di infliggere danni all'avversario. Al contrario, la difesa
 e la capacita' di colpire ne risentono, perdendo absorb damage,
@@ -12563,7 +12588,7 @@ di schivare i colpi.
 $c0005Durata$c0005 3+ ore
 $c0015Uso$c0015: "stance tigre"
 
-Phoenix stance:
+$c0011- Phoenix stance:$c0007
 Questo stile di combattimento e' molto avvanzato, e quindi si puo
 apprendere solo dai monaci eroi. Il monaco in questo stile perde
 completamente l'abilita' di schivare i colpi, e quasi completamente
@@ -12814,6 +12839,8 @@ energie residue recuperando cosi' qualche punto ferita e/o energia
 magica. Se l'incantesimo viene lanciato sui resti di un non-morto
 si ottiene l'effetto contrario e si diventa un po' piu' buoni.
 
+Vedi anche: INVESTITURE, CANIBALIZE
+
 #
 "NATURES PROTECTION"
 
@@ -12848,6 +12875,8 @@ seguente modo:
 danno nullo verso i mob non morti di qualunque tipo.
 Questo incantesimo e' cumulabile con eventuali slay align editate.
 
+Vedi anche: ANTIPALADINO, CRUSADE, DRAIN
+
 #
 "SHARPEN"
 
@@ -12868,6 +12897,8 @@ che permette di raddoppiare il danno di ogni colpo con una percentuale
 di riuscita del 10 %. Anche i guerrieri/ladri hanno questa abilita' 
 ma con percentuale di riuscita inferiore.
 
+Vedi anche: SHARPEN, GUERRIERO
+
 #
 "CHARGE"
 
@@ -12884,6 +12915,8 @@ ricaricare bacchette e bastoni magici. Il potere della natura incanalato
 dai druidi puo' anche causare la rottura degli artefatti magici, e' 
 quindi necessaria molta attenzione!
 
+Vedi anche: SPELL SLAYER, STAFF
+
 #
 "SPELL SLAYER"
 
@@ -12895,6 +12928,8 @@ incantesimo lanciato che sia ovviamente dello stesso tipo previsto dalla
 spell slayer che si possiede, dopo di che l'arma va di nuovo ricaricata
 per ottenere il bonus al danno.
 Questa proprieta' non e' editabile.
+
+Vedi anche: CHARGE, SLAY
 
 #
 "INVESTITURE"
@@ -13123,13 +13158,19 @@ completare  una missione,  e c'e'  un tempo  minimo di  attesa per
 poterne  chiedere  una  nuova  dopo  averne  completata  o  fallita
 un'altra. Il comando per interagire con lui e' QUEST / MISSIONE:
 
-    quest  request/richiedi      per  richiedere  una  missione  al
-    Questor quest complete/completa    per fare rapporto al Questor
-    una volta compiuta  la missione quest  fail/fallita         per
-    rinunciare  alla  quest quest  time/tempo            per sapere
-    quanto  tempo  resta  per  compiere  la  quest,  o  per poterne
-    chiedere un'altra quest  info                 per rileggere  il
-    compito assegnato
+ > quest request/richiedi   -  per richiedere una missione al
+                               Questor.
+    
+ > quest complete/completa  -  per fare rapporto al Questor una 
+                               volta compiuta la missione.  
+    
+ > quest fail/fallita       -  per rinunciare alla quest. 
+    
+ > quest time/tempo         -  per sapere quanto tempo resta per  
+                               compiere la quest o per poterne
+                               chiedere un'altra.
+                               
+ > quest info               -  per rileggere il compito assegnato
 
 Oltre al  saggio Dhethor,  esiste un  altro questor,  Eowarion, che
 gira  per  le  strade  di  Midia  assegnando  all'avventuriero  una
@@ -13160,7 +13201,7 @@ Vedi anche: KARMA, SIGILLI, XP
 #
 SOCKET SOCKETABLE CRISTALLI CRISTALLO ARTIFACT 
 
-Sintassi: insert <<oggetto artifact>> <<oggetto socketable>>
+Sintassi: INSERT <oggetto artifact> <oggetto socketable>
 
 In Tempora Sanguinis sono stati introdotti alcuni oggetti  chiamati
 SOCKET,che possono essere trovati  in maniera casuale nei  corpi di
@@ -13183,7 +13224,7 @@ portare a ridurre la specifica caratteristica gia'  precedentemente
 migliorata, azzerarla del tutto o addirittura portare alla  rottura
 dell'oggetto stesso.
 
-Tramite il  comando “INSERT  <<ARTIFACT>> <<SOCKETABLE>>”,  si puo'
+Tramite il  comando “INSERT  <ARTIFACT> <SOCKETABLE>”,  si puo'
 tentare di migliorare le caratteristiche dell'oggetto con rischi  e
 costi in monete crescenti, inserendo fino a 10 cristalli per  tipo,
 rispettando il numero massimo di slot presenti nel pezzo, ovvero 5.
@@ -13996,10 +14037,13 @@ del gruppo nel ruolo di TANKER.
 
 $c0009Altri comandi utili per migliorare l'esperienza di gioco sono:$c0007
 
+- BRIEF: disattiva o attiva la descrizione della stanza e la lista degli oggetti
+  presenti nella stanza.
 - SPOT: permette di vedere quali mob sono presenti nella locazione.
+- SPOT LUOGO: permette di vedere la descrizione della locazione.
+- SPOT OGGETTI: permette di vedere la lista degli oggetti presenti nella locazione.
 - SPOT DINTORNI: permette di vedere i mob presenti nelle locazioni vicine, ma lagga
   il PG per un round.
-- BRIEF: disattiva o attiva la descrizione della stanza.
 - DISPLAY: attiva o disattiva la barra del PROMPT, dove sono indicati i tuoi punti
   vita, mana e movimento.
 - COMPACT: diminuisce le linee vuote nello scroll del gioco.
@@ -14332,7 +14376,7 @@ I Bardi, oltre a possedere  alcune skill da battaglia  e di magia,
 possono SUONARE varie canzoni a seconda dello strumento impugnato
 Questa la sintassi:
 
-   play 'nome della canzone' 
+ > PLAY 'nome della canzone' 
 
 La parola  PLAY va messa per  prima;  il nome della canzone  deve
 essere scritto tra gli apici, che sono obbligatori. Il nome della
@@ -14476,6 +14520,23 @@ successivi 6 mesi, a meno di speciali riconoscimenti dati dagli dei.
 Essendo una procedura lunga e gravosa in termini di tempi e controlli, 
 vi chiediamo di attenervi alle regole.
         
+Vedi anche: LISTINO, REFUND
+
+#
+PERK BENEFICI
+
+I PERK o BENEFICI sono poteri aggiuntivi acquistabili tramite le 
+specializzazioni delle SKILL e degli SPELL disponibili per ogni classe.
+Tali specializzazioni migliorano l'effetto delle abilita', attreverso 
+l'uso dei pegni del male o del bene (ottenibili tramite la quest "la
+tomba di Lilith") e degli xp.
+
+Le abilità possono essere potenziate presso il Mago Azzurro.
+
+Per vedere la lista di PERK e BENEFICI bisogna usare il comando:
+ > PERK/BENEFICI
+
+Vedi anche: TRAIN, PRATICHE
         
 #~
 
