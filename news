@@ -1,4 +1,59 @@
 
+Versione 2.21.1.3 - $c0009MARZO 2021 $c0007- La melodia di Yffre/2
+- $c0012Quest e aree$c0007 - Sono state riveste e ampliate alcune aree per favorire 
+- Aggiornata la zona di Lilith.
+- Aggiunti oggetti music instrument e oggetti con music power.
+- Tradotte e popolate Valley Trail e Lost, per pg di basso livello.
+- Aggiunti premi alternativi per buoni e neutrali a Mordor.
+- Inseriti i livelli suggeriti e il livello di pericolo assegnati a molte zone.
+- Sistemate balestre/archi e proiettili per il nuovo sistema di tiro.
+- I mob con scudi elementali alle 12 case fanno un po' meno danno.
+- Ribilanciata verso il basso la quest di Tiamat.
+- Aggiunte due ricette alchemiche nascoste da trovare nell'impero.
+- Migliorati alcuni oggetti della quest degli Skexie.
+- Aumentati in molte zone per non eroi i punti esperienza sui mob, monete e oggetti (Ade, 
+  Villaggio dei gitani, foresta elfica, Giungla del culto dei serpenti, Hyperborea, 
+  Isola del destino)
+- Inseriti diversi miniquestor in giro per l'Impero.
+- In alcune zone remote sono stati aggiunti dei tesori sui mob.
+- $c0012Codice$c0007 - 
+- Abilitato il bardo in fase "public beta".
+- Una teca per rune vuota e non personalizzata si puo' droppare all'altare elementale.
+- Introdotto il Mago Azzurro che fa specializzare abilita' per pegni della quest Lilith.
+- Introdotti i Benefici ottenibili specializzando abilita'.
+- Il comando spot puo prendere come parametri "oggetti" e "luogo", per vedere oggetti e 
+  descrizione stanza.
+- Implementati corettamente archi e frecce (ora possono avere le SLAY e il tipo di danno).
+- HASTE/SLOW ora funziona anche sui cast e non solo sui colpi fisici.
+- Nuovi comandi per GOD: "define limite_pwp 0/1", per abilitare o disabilitare il check del 
+  pwp globale.
+- Implementato PRAY PEACE che per 1 karma stoppa i combattimenti, fa shield room, e rende 
+  tutti ciechi.
+- Implementato comando SKILLS per tutte le classi e modificato LEVELS e PRAC che funzioni 
+  sullo stesso sistema
+- Ridotto un po' il danno del maremoto del leviatano in quanto la quest ora e' per pwp 
+  limitato.
+- Aggiunto editor di music power alla torre elementi.
+- Il comando SNEAK indica se e' riuscito senza dover usare SCORE per vederlo.
+- I ladri possono usare FIND TRAPS per attivare l'affect FIND TRAPS a breve durata.
+- Se il gruppo sta combattendo si puo' castare spell agressive senza specificare il 
+  target (andra' sul primo agressore).
+- $c0012Bugfix$c0007 - 
+- Alle Dodici case non si entra sotto il livello 40 per prevenire exploit di xp.
+- Fix per morte da polati in DT che non faceva piu follare i follower.
+- Il soffio dei draghi si vedra' con SET IPOVEDENTE ENABLE.
+- Il ladro puo' avvelenare anche archi.
+- Areabuilding: fix a load di mob seguaci che se non caricati in room specifica 
+  venivano buggati.
+- Immortali: il comando STAT ora va prima a stanza/inventario e poi a mondo.
+- Risolto un bug di "crash/infinite loop" di poly che va ld returna e poi si 
+  riconnette e ripola
+- Bugfix a TELEKINESIS che non accettava direzione.
+- Le pray a karma laggano mezzo round per evitare di spammarle.
+- Fix all'apply EXP che non funzionava corettamente in certi casi.
+- Risolto un bug sulle LORE che poteva abilitarle anche se non si aveva la LORE.
+- Correzione su alcuni poly che non risultavano volanti.
+
 Versione 2.21.1.2 - $c0009FEBBRAIO 2021 $c0007- La melodia di Yffre
 - $c0012Quest e aree$c0007 - Sono state riveste e ampliate alcune aree per favorire 
   l'apprendimento dei nuovi arrivati:
