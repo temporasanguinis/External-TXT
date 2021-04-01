@@ -1,4 +1,32 @@
 
+Versione 2.21.1.4 - $c0009APRILE 2021 $c0007- La melodia di Yffre/3
+- $c0012Quest e aree$c0007:
+- Corretti alcuni errori e typo in alcune zone, rivisti alcuni oggetti e tesori nelle aree per non eroi
+- Sistemazione della quest di Menzoberanzan
+- Aggiunto qualche oggetto MUSIC POWER ad Abyss
+- Aggiunti alcuni premi con procedura speciale a Mordor e alzata la probabilita' di uscita
+- Mordor in aggiuntivo paga pegni del male
+- Labirinto in aggiunta paga pegni del bene
+- Aggiunte delle nuove miniquest: a Iperborea e dai gitani per ottenere pietre alchemiche,
+  questina a premi a Castel Mistamere. Aumentato il premio quest di alcune miniquestor.
+- Aggiunte rifiniture alla scuola mud e alla scacchiera
+- Ultimata la traduzione di Spiderhaunt
+- Finita l'associazione di rischio/livello alle zone dell'Impero
+- $c0012Codice e bug$c0007:
+- Fix possibile crash su watch e train e nella quets di Lilith
+- Fix per impossibilita' di prac dal mago azzurro per monoclassi su alcune skill
+- Le skill specializzate non possono essere feeblate e se sono spell non contano lo spellfail
+- Aggiunti detect good e evil al bardo
+- Aggiunto nuova spell al bardo: WAKE SPIRITS
+- Incantesimo stregth aggiunge +15% carry weight
+- Fix a crash da return di polato mentre LD
+- Introdotte le Medaglie di Valore ottenibili in quest e usabili per specializzare skill e spell
+- Aggiunto nuovi benefici (PERK)
+- Dimezzati gli XP ai monsum ma essi ora possono droppare cristalli
+- Fix a un problema di tan che non faceva ottenere bande con Luck e non contava bene il luck
+- Luck visibile in score
+- Corretto un bug su aure agressive in modo che non ingaggino quando non dovrebbero (riscontrato su mind 'chaos')
+
 Versione 2.21.1.3 - $c0009MARZO 2021 $c0007- La melodia di Yffre/2
 - $c0012Quest e aree$c0007 - Sono state riveste e ampliate alcune aree per favorire 
 - Aggiornata la zona di Lilith.
@@ -273,53 +301,4 @@ Versione 2.20.2.9 - $c0009SETTEMBRE 2020 $c0007- Forze della natura/4
   gilde al reboot.
 - Implementati alcuni status nuovi per i mob (shocked, chilled, burning e bleeding).
 - Correzioni varie.
-
-Versione 2.20.25.8 - $c0009AGOSTO 2020 $c0007- Forze della natura/3
-- $c0012Codice$c0007 - Grandi lavori sono stati svolti questo mese!
-- Aggiunta la modalita' di combattimento speciale per migliorare l'accessibilita'
-  per i giocatori non-vedenti e ipovedenti. Per attivare la nuova modalita'
-  bisogna usare il comando SET IPOVEDENTE ENABLE. Per informazioni aggiuntive,
-  leggere la voce HELP SET.
-- Nuovi mestieri: Minatore e Alchimista. Come gia' avvenuto per gli altri mestieri, 
-  le skill sono legate all'ottenimento di Award, tramite il completamento di due
-  miniquest. Per ottenere questi award, visitate l'Accademia dei Sapienti a Midia
-  sud e le miniere dei nani di Gilimdor. Per informazioni aggiuntive, leggere la
-  voce HELP MESTIERI. L'alchimista puo' al momento creare solo oggetti NORENT,
-  in quanto ancora soggetto a bilanciamento.
-- Presso la gabbia si possono svolgere combattimenti tra giocatori PVP, basta 
-  comunicare al custode con i comandi ASK CUSTODE PVP.
-- Sono stati aggiunti molti nuovi mob interattivi, in particolare tra i guildmaster 
-  e i maestri di vario genere. Segnalate eventuali problemi per comportamenti 
-  insoliti o frasi errate.
-- Corretto un problema sui mob negozianti: ora e' possibile acquistare oggetti con 
-  uguale VNUM ma differenti nomi.
-- Bugfix minori e miglioramenti al motore di gioco per supportare delle meccaniche 
-  future in fase di sviluppo.
-- Aggiunti e migliorati alcuni comandi disponibili alle divinita'.
-- $c0012Skill e spell$c0007 - 
-- Correzione dello spell HEALING RAIN: ora castarlo senza eq per riservare meno mana 
-  fara' si che curi di meno. Ora l'incantesimo e' visibile sul pg tramite il comando 
-  LOOK.
-- Gli effetti del sonno e dello svenimento durano due round e non si possono prolungare 
-  fino al passaggio dei due round.
-- Corretto un bug per il quale gli incantesimi ad area dimezzavano il danno ogni volta 
-  che uno tra i mob colpiti passava il tiro salvezza. Tale dimezzamento dei danni era
-  passato anche ai mob successivi colpiti.
-- I barbari possono raccogliere/tenere chiavi anche senza la skill MAGIC RESISTANCE.
-- DODGE: i monaci possono ora evitare anche gli scudi elementali.
-- Ribilanciato il TAN dei conciatori.
-- Il comando ASSIST non lagga piu' il personaggio che viene assistito. In questo modo
-  e' piu' semplice anche per ipovedenti e nonvedenti partecipare al combattimento.
-- $c0012Betatesting$c0007 - Gli dei potranno abilitare queste novita' in betatesting:
-- COOLDOWN: i tank monoclasse quando bashano si laggano di 1 round ma non possono 
-  bashare fino al passaggio del secondo round. Per il round in cui non sono laggati, 
-  potranno fare altro (Drain, kick, bind wounds, raccogliere fiori...).
-- Aggiunte alcune skill da fare nei round di cooldown del bash e quando non si e'  
-  impegnati in un combattimento per le classi tank monoclasse.
-- Gli scudi elementali ora assegnano un danno minore per lo spalm massimale che dipende
-  dal livello del mob affrontato. Ogni round pero' lo scudo elementale genera delle 
-  scariche elementali che possono colpire membri casuali del gruppo, anche non
-  impegnati direttamente nel combattimento.
-- I pg di statura normale possono bashare i mob HUGE ma solo con effetti che durano 1 o
-  2 round. Il bash non potra' fare svenire i mob (STUN).
 
