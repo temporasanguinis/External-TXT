@@ -14537,7 +14537,34 @@ Per vedere la lista di PERK e BENEFICI bisogna usare il comando:
  > PERK/BENEFICI
 
 Vedi anche: TRAIN, PRATICHE
-        
+
+#
+"WAKE SPIRIT"
+
+$c0015Uso$c0015           : cast 'wake spirit'
+$c0006Cumulativo$c0006    : Si
+$c0005Durata$c0005        : 1+0
+$c0010Livello$c0010       : 30 bardi
+$c0014Tiro salvezza$c0014 : Speciale
+$c0012Costo in mana$c0012 : 10$c0007
+$c0001Ispirazione$c0001   : 3 cariche$c0007
+
+Grazie a questa magia, il Bardo incanala la propria ispirazione per risvegliare gli
+spiriti di tutti coloro che nel tempo sono morti in quel luogo, permettendo loro di
+dare libero sfogo alla loro natura. L'allineamento del Bardo influisce sul tipo di
+spiriti risvegliati, mentre la loro potenza e' pari a (livello + (2 x Carisma)):
+
+	Buono:		->	Rinvigoriscono
+	Cattivo:	->	Malus ai mob presenti in stanza
+	Neutrale:	->	Vengono richiamati entrambi i tipi
+
+Per evitare che gli spiriti sfuggano al controllo del Bardo, egli deve trovarsi con
+loro nella stanza durante la durata della spell.
+L'imprevedibilita' degli spiriti potrebbe causare situazioni imprevedibili, quindi
+tenerlo sempre in conto (es.: aggressivo sui mob)
+
+Vedi anche: CHAOS, BARDO
+
 #~
 
 
