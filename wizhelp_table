@@ -1493,6 +1493,8 @@ DEI
     forcerent      Fai rentare uno o piu' pc
     freeze         Congela un pc (non potra piu' fare niente)
     ghost          Fai uscire un pc dalla locanda
+    givemedal      Assegna al PG medaglie al valore
+    getmedal       Toglie al PG medaglie al valore
     goto           Vai da un pc/mob, o in una particolare stanza
     home           Torna a casa (usa wizset home per impostarla)
     iat            Esegui in invisibilita' un comando in un'altra stanza
@@ -1513,6 +1515,7 @@ DEI
     ostat          Ottieni informazioni su un oggetto
     ostring        Effettua un restring
     player         Implementato nullo
+    portal stanza  Cast 'portal' stanza seguito dal VNUM apre un portale alla stanza scelta
     purge          Distrugge un mob od un oggetto, o fa scollegare un pc
     quests         Visualizza lo stato delle quest per LoaL e Immortale
     redit          Edita una stanza in vt100
