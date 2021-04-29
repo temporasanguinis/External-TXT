@@ -680,6 +680,9 @@ regioni centrali:
                           \                      \            |        
             [Campi d'Addestramento]  [Villaggio di Lith]      |  
                                                         [Citta' di Rhila]
+                                                        
+  
+Vedi anche: MAPPA MIDIA, COMANDO MAPPA
 
 
 #
@@ -728,6 +731,10 @@ regioni centrali:
 .      |                                                          .
 .      v                                                          .
 ...................................................................
+
+  
+Vedi anche: MAPPA MONDO, COMANDO MAPPA
+
 #
 DISPLAY
 
@@ -11466,7 +11473,7 @@ MODIFICA                    COSTO             MASSIMALE
 +5% Bash, Backstab, Kick	400 sigilli	      5  punti
 +10% Hide, sneak            400 sigilli	      10 punti
 +5% Find traps, Pick, Steal 400 sigilli       5  punti
-+2 all AC massimale	        300 sigilli	      AC:6 (AC:8 overedit)
++2 all AC massimale	        300 sigilli	      AC:12 (AC:14 overedit)
 
 Tutti i costi di questa parte del listino sono intesi in sigilli Divini
 I costi per Hitroll e Damroll non sono applicabili alle armi, per le
@@ -14050,10 +14057,12 @@ $c0009Altri comandi utili per migliorare l'esperienza di gioco sono:$c0007
 - RESIZE: permette di settare il numero di caratteri visualizzabili per ogni riga.
 - ALIAS: permette di associare ad ogni numero da 0 a 9 una stringa di comandi, 
   in modo da risparmiare il tempo della digitazione.
+- MAPPA: permette di consultare la mappa e scoprire come sono collegate le aree
+  comunicanti con quella nella quale ci si trova.
 
 Puoi consultare le voci specifiche di questi comandi nell'help a loro dedicato.
 
-Vedi anche: SET, SPOT, LOOK, BRIEF, DISPLAY, COMPACT, RESIZE, ALIAS
+Vedi anche: SET, SPOT, LOOK, BRIEF, DISPLAY, COMPACT, RESIZE, ALIAS, COMANDO MAPPA
 
 #
 INSPIRE ISPIRA
@@ -14564,6 +14573,38 @@ L'imprevedibilita' degli spiriti potrebbe causare situazioni imprevedibili, quin
 tenerlo sempre in conto (es.: aggressivo sui mob)
 
 Vedi anche: CHAOS, BARDO
+
+#
+"COMANDO MAPPA"
+
+Digitando il comando MAPPA sara' possibile vedere le stanze dell'area nella quale si
+trova il PG che collegano ad aree esterne.
+
+Usando il comando presso il sentiero meridionale, usciranno le seguenti informazioni:
+
+$c0013Apri la tua mappa e vedi:
+$c0013Ti trovi a $c0011Il sentiero meridionale $c0013in $c0014Le terre meridionali e il villaggio di Toewin (by Nalith).
+
+$c0013Nei dintorni la mappa riporta accessi ai seguenti luoghi:$c0007
+
+$c0006La citta' di Midia:
+   $c0007Andando in direzione $c0011Ovest$c0007 e passando per $c0015Il sentiero meridionale.
+
+$c0006Le citta' di Midir e Geldor (Trad. by Nightingale):
+   $c0007Puoi accederci dalla locazione dove ti trovi.
+
+$c0006La foresta di Mirkwood (Trad. by Nalith):
+   $c0007Andando in direzione $c0011Ovest$c0007 e passando per $c0015L'ingresso della foresta di Mirkwood.$c0007
+   
+Vedi anche: MAPPA MONDO, MAPPA MIDIA, ACCESSIBILITA'
+
+#
+SING
+
+Digitando il comando SING all'aperto, potreste essere sorpresi dall'arrivo di un'aiutante che raccogliera' 
+per voi i tesori e gli oggetti che troverai sconfiggendo i nemici.
+
+Vedi anche: MONSUM, FOLLOWERS
 
 #~
 
