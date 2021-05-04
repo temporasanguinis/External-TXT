@@ -11403,6 +11403,18 @@ Vedi anche: LISTINO
 #
 LISTINO
 
+Il listino indica i prezzi di modifica degli oggetti tramite l'utilizzo
+di sigilli divini e sigilli elementali. Alcune modifiche possono essere 
+svolte in autonomia presso il Tempio degli Elementi, per altre e' necessario
+rivolgersi agli dei e ad alcuni immortali che hanno ricevuto in dote il
+potere di plasmare gli oggetti.
+Per richiedere ad una divinita' di modificare il proprio equipaggiamento
+e' necessario compiere un rito propiziatorio ed elevare al cielo la propria
+preghiera tramite il comnado PRAY. La divinita' potra' comunque chiedere il 
+pagamento di 5 Medaglie al Valore per esercitare i suoi poteri e plasmare 
+gli oggetti.
+
+
 $c0010--- Modifiche alle armi ---------------------------------------$c0007
 
 E' possibile modificare un'arma aggiungendo Hitroll e Damroll. Qualora
@@ -11419,6 +11431,10 @@ Le armi permettono di infliggere un danno aggiuntivo rispetto ai colpi
 a mano nuda. Il danno di un'arma, oltre al bonus Damroll, dipende dal valore
 dei dadi che la caratterizzano. Il primo valore $c0009(A)$c0007 è il numero dei dadi 
 lanciati, mentre il secondo $c0009(B)$c0007 è il numero di facce dei dadi lanciati.
+La formula sara' quindi:
+
+  > $c0009(A)$c0007d$c0009(B)$c0007 
+
 Il danno di un'arma 3d5 sara' il risultato del lancio di 3 dadi da 5 facce, a 
 cui si aggiungeranno i bonus damroll del personaggio, del suo equipaggiamento e 
 quelli derivanti da poteri speciali (incantesimi, procedure speciali, suscettibilita'
@@ -11428,9 +11444,11 @@ E' possibile rendere il valore $c0009(B)$c0007 dell'arma, ovvero il numero di fa
 pari a 1 SOLO se l'arma e' immune, a meno che non lo sia gia'.
 
 $c0009Calcolo del valore dell'arma:$c0007
-Si calcola il valore dell'arma con la seguente formula
+Si calcola il valore dell'arma con la seguente formula:
 
-$c0011A*(B+2)$c0007 dove A sono i dadi dell'arma, e B sono le facce dei dadi.
+  > $c0011A*(B+2)$c0007 
+
+dove A sono i dadi dell'arma, e B sono le facce dei dadi.
 Quindi il valore di un'arma 3d8 sarebbe 3*(8+2) quindi 30
 Si calcola la differenza di valore tra la vecchia e la nuova arma.
 Quindi per il passaggio ad un'arma 4d6, il nuovo valore sara 4*(6+2)
@@ -11456,6 +11474,30 @@ come 10 punti.
  
 NB: Non e' possibile ottenere questo tipo di edit su armi che contengono
 slay magiche, come le scintille divine.
+
+$C0010--- Modifiche al dado degli strumenti musicali ----------------$c0007
+
+Gli strumenti musicali possono essere modificati e potenziati, ma il dado e'
+indicato in modo diverso, in quanto gli strumenti sono sempre considerati
+armi d1.
+
+La formula sara' quindi:
+
+  > $c0009(A)$c0007d$c0009(B)$c0007 
+
+Il valore $c0009(A)$c0007 e' indicato dalla DURABILITA' e puo' essere modificato 
+tramite la spesa di sigilli, rappresentando il numero di dadi lanciati. 
+Il valore $c0009(B)$c0007 negli strumenti musicali equivale sempre a 1.
+Per ogni punto aggiunto al valore di DURABILITA' dello strumento musicale si
+pagano 600 sigilli divini e 1000 sigilli elementali. Il valore massimo e' di 50.
+
+$c0015Il Danno massimale dello strumento musicale non puo superare $c001150$c0015
+inclusi  i  bonus  sul +damroll e non oltre i $c001160$c0015
+compreso il massimale di weapon spell.$c0007
+
+Esempio: uno strumento con durabilita' 10, viene modificato fino a raggiungere
+il valore di 20. La spesa totale per questa modifica sara' di 6000 sigilli divini
+e 10000 sigilli elementali
 
 $c0010--- Bit RESISTANT e IMMUNE ------------------------------------$c0007
 
@@ -11510,11 +11552,12 @@ Es. un guerriero Monoclasse puo' decidere di editare ulteriori 5 hp (e
 massimo 5!) su un oggetto che abbia gia' +20 Hit points, a costo di 400
 sigilli divini.
 
-$c0010--- Saving All -------------------------------------------------$c0007
+$c0010--- Saving All con sigilli elementali --------------------------$c0007
 E' possibile editare un massimo di -10 saving all per pg, al costo di
 200 sigilli elementali per tipo, per ogni save editato e distribuiti a
 piacimento sugli oggetti del giocatore. Rimangono validi i limiti di
-edit e overedit sui singoli oggetti. 
+edit e overedit sui singoli oggetti. Questa modifica viene fatta al 
+tempio elementale in autonomia e non puo' essere richiesta ad un immortale.
 
 $c0010--- Liberare slot di oggetti -----------------------------------$c0007
 E' possibile eliminare apply presenti sugli oggetti al costo di 2000
@@ -11604,12 +11647,12 @@ ALIGNMENT SLAYER		 COSTO
 RACE SLAYER			     COSTO
 
 Slay Human               Non Editabile
-Slay su un tipo di Giant 1200 sigilli divini
-Slay Troll, Titano       2400 sigilli divini
-Slay Brownie             3000 sigilli divini
-Slay Arachnoid           3200 sigilli divini
-Slay Demonic             3000 Sigilli divini
-Slay Devil o Angelic     3000 sigilli divini
+Slay su un tipo di Giant 1600 sigilli divini
+Slay Troll, Titano       2900 sigilli divini
+Slay Brownie             3500 sigilli divini
+Slay Arachnoid           3800 sigilli divini
+Slay Demonic             3500 Sigilli divini
+Slay Devil o Angelic     3500 sigilli divini
 
 NB: Non e' possibile effettuare questo tipo di edit su armi che contengono
 slay magiche, come le scintille divine.
