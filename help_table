@@ -11719,7 +11719,9 @@ gambali potra' essere spostata solo su altri gambali) e andra' ad occupare
 uno slot tra i 5 disponibili. I monaci possono spostare su altri oggetti le 
 procedure presenti sui guanti.
 $c0011Attenzione:$c0007 Non si possono spostare procedure speciali presenti
-su oggetti NORENT o NOEDIT.
+su oggetti NORENT o NOEDIT. Un pg non puo' avere la stessa procedura speciale
+su piu' oggetti. Ogni oggetto puo' avere al massimo una procedura speciale 
+attiva su di esso.
 
 $c0010--- Servizi Vari -----------------------------------------------$c0007
 
