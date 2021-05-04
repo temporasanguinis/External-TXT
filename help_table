@@ -3,7 +3,7 @@ EMPTY SLOT
 #
 HELP AGGIORNAMENTO
 
-Ultimo aggiornamento: 18 febbraio 2021 a cura di Nalith, Yffre e Traxter
+Ultimo aggiornamento: 3 maggio 2021 a cura di Nalith, Yffre e Traxter
 
 L'Help di Tempora Sanguinis e' curato da Martinus e da Nalith.
 Se riscontrate errori, incongruenze, o desiderate proporre
@@ -16,7 +16,8 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   AFFLIZIONI, DND, LAG, COOLDOWN, CHAOS, MINE, ALCHIMIA, MELEE COMBAT,
   PSIONIC BLAST (aggiornato), PSYCHIC CRUSH (aggiornato), POISON 
   (aggiornato), PAIN MIRROR (aggiornato), CHARGE (aggiornato), BARDO,
-  PLAY, CULMINE, ACCESSIBILITA'
+  PLAY, CULMINE, ACCESSIBILITA', LISTINO (aggiornato), CRUSH, SING, 
+  COMANDO MAPPA, WAKE SPIRITS
                                                                
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
@@ -12615,16 +12616,17 @@ di terrore nella stanza, facendo scappare terrorizzati tutti i mostri
 non gruppati con il personaggio. La riuscita di quest'abilita',
 dipende anche dal tiro salvezza della vittima.
 
-Vedi anche: -
+Vedi anche: FEAR
 
 #
 "AVOID BACKATTACK"
 
 Skill per: Barbari, Bardi
 
-Questa tecnica,  se imparata a  sufficienza, permette ad un barbaro
-o a un bardo di evitare le pugnalate alle spalle, riuscendo a capire nell'istante
-prima le intenzioni del nemico.
+Questa tecnica, se imparata a  sufficienza, permette ad un barbaro o a un bardo 
+di evitare le pugnalate alle spalle, riuscendo a capire nell'istante
+prima le intenzioni del nemico. Questa e' una skill passiva e non necessita di
+essere attivata da qualche comando speciale.
 
 Vedi anche: BACKSTAB, CIRCLE
 
@@ -12665,24 +12667,32 @@ apprendere fino in fondo le tecniche dal proprio maestro.
 Caratteristiche dei vari stili di combattimento:
 
 $c0011- Mongoose stance:$c0007
+
+$c0005Durata$c0005 3+ ore
+$c0015Uso$c0015: "stance mangusta"
+
 Questo stile si apprende al livello 40, e aumenta notevolmente la
 capacita' difensiva del monaco, permettendogli di schivare i colpi
 con piu destrezza. Con questo stile pero' la capacita' di bloccare
 gli attacchi con lo scudo diminuisce, e gli attacchi del monaco
 sono inferiori.
-$c0005Durata$c0005 3+ ore
-$c0015Uso$c0015: "stance mangusta"
 
 $c0011- Tiger stance:$c0007
+
+$c0005Durata$c0005 3+ ore
+$c0015Uso$c0015: "stance tigre"
+
 Questo stile si apprende al livello 48, e aumenta la capacita del
 monaco di infliggere danni all'avversario. Al contrario, la difesa
 e la capacita' di colpire ne risentono, perdendo absorb damage,
 armor class e hitroll. Inoltre si ha qualche malus sulla capacita'
 di schivare i colpi.
-$c0005Durata$c0005 3+ ore
-$c0015Uso$c0015: "stance tigre"
 
 $c0011- Phoenix stance:$c0007
+
+$c0005Durata$c0005 3+ ore
+$c0015Uso$c0015: "stance fenice"
+
 Questo stile di combattimento e' molto avvanzato, e quindi si puo
 apprendere solo dai monaci eroi. Il monaco in questo stile perde
 completamente l'abilita' di schivare i colpi, e quasi completamente
@@ -12690,8 +12700,6 @@ l'abilita' di parare i colpi con lo scudo. Con questa tecnica il
 monaco e' capace di fare 2 attacchi ogni round, pero i colpi sono
 infuocati. Gli attacchi dipendono dal livello di maestria del
 monaco nell'abilita', arrivando fino ad un massimo di 3.
-$c0005Durata$c0005 3+ ore
-$c0015Uso$c0015: "stance fenice"
 
 #
 EVASION
@@ -13216,13 +13224,16 @@ Vedi anche: REPAIR
  
 #
 DERENT
+
 E' possibile togliere il rent ad un oggetto. Il costo e' di
 rent/2 sigilli elementali per tipo.
 E' possibile derentare oggetti procedurali spostando le procedura
 su uno stesso tipo di oggetto al costo di 100 Medaglie al Valore e
 1000 sigilli divini. La procedura speciale occupera' uno slot.
 Non si possono spostare procedure speciali presenti su oggetti NOREDIT
-o NORENT.
+o NORENT. Non e' possibile avere la stessa procedura su piu' oggetti del
+proprio equipaggiamento. Un oggetto puo' avere al massimo una procedura 
+speciale.
 
 Vedi anche: LISTINO, REROLL
 
@@ -13478,6 +13489,10 @@ Ma qualcuno cerca di riportare la pace su queste gelide terre.
 sue ragnatele illusorie per distruggere le terre degli uomini.
 Quest'avventura, data la complessita', e' destinata a giocatori con
 PWP  superiore  al  1500. 
+
+A queste si aggiungono altre missioni in vari luoghi come MENZOBERRANZAN,
+ISENGARD, MORDOR, SKYRIM e la speciale quest di LILITH per ottenere 
+i pegni del male e del bene, utili per potenziare SKILL e SPELL.
 
 Esistono alcune zone che, seppur non caratterizzate  da particolari
 narrazioni  di  fondo  o procedure particolari di gioco, consentono 
@@ -13812,8 +13827,13 @@ chiave dell'oggetto per intero. Non funziona  con  abbreviazioni
 Gli oggetti  restringati  o  editati (tipo  le  pozioni vecchie) 
 perderanno il loro restring/edit una volta inseriti. 
 
+Esistono altri contenitori magici: la borsa degli ingredienti
+alchemici (che permette di organizzare le materie prime necessarie
+per l'alchimia), la teca delle rune (che permette di conservare le
+rune raccolte nelle varie missioni) e la cesta dei rami di Lis (per
+conservare i magici rami di Lis).
+
 $c0011ATTENZIONE!$c0007 Gli oggetti unici non verranno refundati.$c0007
-  
 
 Vedi anche: LISTINO, AREAQUEST, RUNE
 
