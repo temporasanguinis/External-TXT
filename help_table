@@ -11635,9 +11635,9 @@ inflitto su avversari della razza o dell'allineamento scelto.
 Nel caso delle Race Slayer il danno viene moltiplicato per due, mentre
 nel caso delle Align Slayer il danno viene moltiplicato per 1.75. 
 Le proprieta' Align Slayer e Race Slayer possono essere editate solo 
-sull'arma (SLASH, BLUNT o PIERCE), sugli archi, sugli strumenti musicali, 
-e sui guanti solo nel caso dei monaci. E' possibile editare una sola Race 
-Slayer per arma.
+sulle armi bianche (SLASH, BLUNT o PIERCE), sulle armi a distanza (archi, balestre, etc...), 
+sugli strumenti musicali e sui guanti solo nel caso dei monaci. E' 
+possibile editare una sola Race Slayer per oggetto.
 
 ALIGNMENT SLAYER		 COSTO
 
@@ -11687,7 +11687,8 @@ Il massimo di weapon spell editabili e' 4
 L'unica eccezione a queste regole e' fatta per i monaci,
 i quali possono avere anche piu weapon spell al costo base, ma
 le armi in questione diventeranno anti monk only class.
-$c0011N.B. si possono avere weapon spell solo sulle armi.$c0007
+$c0011N.B. si possono avere weapon spell sulle armi bianche (SLASH, BLUNT o PIERCE), 
+sulle armi a distanza (archi, balestre, etc...) e sugli strumenti musicali.$c0007
 
 $c0010--- Enchant ----------------------------------------------------$c0007
 
