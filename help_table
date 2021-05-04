@@ -11653,6 +11653,18 @@ fatto in sigilli elementali o divini. In caso di edit che prevedono
 SOLO un tipo di sigilli, il 10% verra' calcolato con quel tipo di sigilli.
 $c0011Attenzione:$c0007 Gli spostamenti di edit si pagano in tutti i casi.
 
+$c0010--- Spostamento procedure speciali per derent ------------------$c0007
+
+E' possibile spostare una procedura speciale da oggetti quest ad altri per 
+effettuare il derent al costo di 100 Medaglie al Valore e 1000 sigilli 
+divini. La procedura potra' essere spostata su un oggetto che si indossa 
+nello stessa tipologia di equipaggiamento (una procedura presente sui 
+gambali potra' essere spostata solo su altri gambali) e andra' ad occupare 
+uno slot tra i 5 disponibili. I monaci possono spostare su altri oggetti le 
+procedure presenti sui guanti.
+$c0011Attenzione:$c0007 Non si possono spostare procedure speciali presenti
+su oggetti NORENT o NOEDIT.
+
 $c0010--- Servizi Vari -----------------------------------------------$c0007
 
 $c0010Reincarnate mirato $c0007
