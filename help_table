@@ -11484,7 +11484,7 @@ MODIFICA                    COSTO             MASSIMALE
 +5% Bash, Backstab, Kick	400 sigilli	      5  punti
 +10% Hide, sneak            400 sigilli	      10 punti
 +5% Find traps, Pick, Steal 400 sigilli       5  punti
-+2 all AC massimale	        300 sigilli	      AC:12 (AC:14 overedit)
++2 all AC massimale	        300 sigilli	      12 punti
 
 Tutti i costi di questa parte del listino sono intesi in sigilli Divini
 I costi per Hitroll e Damroll non sono applicabili alle armi, per le
@@ -11507,7 +11507,12 @@ edit e overedit sui singoli oggetti.
 
 $c0010--- Liberare slot di oggetti -----------------------------------$c0007
 E' possibile eliminare apply presenti sugli oggetti al costo di 2000
-sigilli elementali per tipo.
+sigilli elementali per tipo. In caso di presenza di apply negativo, a 
+questi si aggiungono il costo per portare lo slot a 0. 
+Es. Un oggetto assegna un valore di -5 absorb damage e voglio sostituirlo
+con uno slot di Hit&Dam. Innanzitutto dovro' portare il valore dello slot a 
+0, spendendo 2000 sigilli divini, successivamente spendero' 2000 sigilli 
+elementali per tipo per liberare lo slot.
 
 $c0010--- Spell affect -----------------------------------------------$c0007
 E' possibile ottenere alcuni spell affect. Questi spell affect possono
@@ -11573,8 +11578,9 @@ inflitto su avversari della razza o dell'allineamento scelto.
 Nel caso delle Race Slayer il danno viene moltiplicato per due, mentre
 nel caso delle Align Slayer il danno viene moltiplicato per 1.75. 
 Le proprieta' Align Slayer e Race Slayer possono essere editate solo 
-sull'arma, e solo nel caso dei monaci sui guanti. E' possibile editare 
-una sola Race Slayer per arma.
+sull'arma (SLASH, BLUNT o PIERCE), sugli archi o sugli strumenti musicali, 
+e sui guanti solo nel caso dei monaci. E' possibile editare una sola Race 
+Slayer per arma.
 
 ALIGNMENT SLAYER		 COSTO
 
