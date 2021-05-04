@@ -11415,12 +11415,22 @@ unico slot di Hit&Dam senza costi aggiuntivi.
 
 $C0010--- Dadi delle armi -------------------------------------------$c0007
 
-E' possibile rendere un'arma Xd1 SOLO se l'arma e' immune.
+Le armi permettono di infliggere un danno aggiuntivo rispetto ai colpi 
+a mano nuda. Il danno di un'arma, oltre al bonus Damroll, dipende dal valore
+dei dadi che la caratterizzano. Il primo valore $c0009(A)$c0007 è il numero dei dadi 
+lanciati, mentre il secondo $c0009(B)$c0007 è il numero di facce dei dadi lanciati.
+Il danno di un'arma 3d5 sara' il risultato del lancio di 3 dadi da 5 facce, a 
+cui si aggiungeranno i bonus damroll del personaggio, del suo equipaggiamento e 
+quelli derivanti da poteri speciali (incantesimi, procedure speciali, suscettibilita'
+o slay), dalla forza e da altri bonus.
 
-Calcolo del valore dell'arma:
+E' possibile rendere il valore $c0009(B)$c0007 dell'arma, ovvero il numero di facce, 
+pari a 1 SOLO se l'arma e' immune, a meno che non lo sia gia'.
+
+$c0009Calcolo del valore dell'arma:$c0007
 Si calcola il valore dell'arma con la seguente formula
 
-$c0011A*(B+2)$c0007 dove A sono i dadi dell'arma, e B sono le facce dei dadi,
+$c0011A*(B+2)$c0007 dove A sono i dadi dell'arma, e B sono le facce dei dadi.
 Quindi il valore di un'arma 3d8 sarebbe 3*(8+2) quindi 30
 Si calcola la differenza di valore tra la vecchia e la nuova arma.
 Quindi per il passaggio ad un'arma 4d6, il nuovo valore sara 4*(6+2)
@@ -11434,11 +11444,12 @@ indietro.
 $c0015Il Danno massimale dell'arma non puo superare $c001150$c0015
 inclusi  i  bonus  sul +damroll e non oltre i $c001160$c0015
 compreso il massimale di weapon spell.$c0007
-Esempio, un'arma 6d8 puo avere al massimo un bonus di +2 al damroll
-e non deve avere weapon spell. Un'arma 3d10 con cause critic(27) puo
-arrivare al massimo con un bonus di +3 al damroll
+
+Esempio: un'arma 6d8 puo avere al massimo un bonus di +2 al damroll
+e non deve avere weapon spell. Un'arma 3d10 con cause critic (27) puo'
+arrivare al massimo con un bonus di +3 al damroll.
 Eventuali weapon spell gia' presenti che non fanno danno effettivo ma
-hanno altri effetti(tipo blindness, weakness etc) verranno considerate
+hanno altri effetti (tipo blindness, weakness etc) verranno considerate
 come valore 10 al danno, sul calcolo del massimale dell'arma.
 Anche i weapon spell elementali da 400 sigilli divini, sono considerati
 come 10 punti.
@@ -11448,11 +11459,11 @@ slay magiche, come le scintille divine.
 
 $c0010--- Bit RESISTANT e IMMUNE ------------------------------------$c0007
 
-Rendere resistant un oggetto      500 sigilli divini
+Rendere resistant un oggetto      500  sigilli divini
 Rendere immune un'arma            2000 sigilli divini piu 1000 per elemento
 Se l'arma e' gia' resistente      1500 sigilli divini piu 1000 per elemento
-Rendere immune una borsa          900 sigilli divini piu  750 per elemento 
-Se la borsa e' gia' resistente    400 sigilli divini piu 750 per elemento
+Rendere immune una borsa          900  sigilli divini piu 750 per elemento 
+Se la borsa e' gia' resistente    400  sigilli divini piu 750 per elemento
 Rendere immune i guanti           2000 sigilli divini piu 1000 per elemento
 Se sono  gia' resistenti          1500 sigilli divini piu 1000 per elemento
 
@@ -11480,7 +11491,7 @@ MODIFICA                    COSTO             MASSIMALE
 +1 Absorb Damage            400 sigilli	      2  punti
 -2 Save All                 200 sigilli	      8  punti
 -5 Armor                    100 sigilli	      30 punti	
--5 Age                      200 sigilli	      --------
+-5 Age                      200 sigilli	      Senza massimale
 +5% Bash, Backstab, Kick	400 sigilli	      5  punti
 +10% Hide, sneak            400 sigilli	      10 punti
 +5% Find traps, Pick, Steal 400 sigilli       5  punti
@@ -11509,10 +11520,12 @@ $c0010--- Liberare slot di oggetti -----------------------------------$c0007
 E' possibile eliminare apply presenti sugli oggetti al costo di 2000
 sigilli elementali per tipo. In caso di presenza di apply negativo, a 
 questi si aggiungono il costo per portare lo slot a 0. 
+Ricorda che in caso di malus, il costo per togliere l'affect, raddoppia. 
 Es. Un oggetto assegna un valore di -5 absorb damage e voglio sostituirlo
 con uno slot di Hit&Dam. Innanzitutto dovro' portare il valore dello slot a 
-0, spendendo 2000 sigilli divini, successivamente spendero' 2000 sigilli 
-elementali per tipo per liberare lo slot.
+0, spendendo 4000 sigilli divini, successivamente spendero' 2000 sigilli 
+elementali per tipo per liberare lo slot e potro' editarlo con +4 Hit&Dam, 
+spendendo ulteriori 2000 sigilli divini.
 
 $c0010--- Spell affect -----------------------------------------------$c0007
 E' possibile ottenere alcuni spell affect. Questi spell affect possono
@@ -11526,7 +11539,7 @@ Water Breath                    2400 sigilli divini
 Travelling                      400  sigilli divini
 True Sight                      1200 sigilli divini
 Telepathy                       1200 sigilli divini
-Hide & Sneak                    NON Editabili
+Hide, Sneak, Growth             NON Editabili
 
 $c0010--- Stats ------------------------------------------------------$c0007
 
@@ -11578,7 +11591,7 @@ inflitto su avversari della razza o dell'allineamento scelto.
 Nel caso delle Race Slayer il danno viene moltiplicato per due, mentre
 nel caso delle Align Slayer il danno viene moltiplicato per 1.75. 
 Le proprieta' Align Slayer e Race Slayer possono essere editate solo 
-sull'arma (SLASH, BLUNT o PIERCE), sugli archi o sugli strumenti musicali, 
+sull'arma (SLASH, BLUNT o PIERCE), sugli archi, sugli strumenti musicali, 
 e sui guanti solo nel caso dei monaci. E' possibile editare una sola Race 
 Slayer per arma.
 
@@ -13159,7 +13172,14 @@ Vedi anche: REPAIR
 #
 DERENT
 E' possibile togliere il rent ad un oggetto. Il costo e' di
-rent/2 sigilli elementali per tipo
+rent/2 sigilli elementali per tipo.
+E' possibile derentare oggetti procedurali spostando le procedura
+su uno stesso tipo di oggetto al costo di 100 Medaglie al Valore e
+1000 sigilli divini. La procedura speciale occupera' uno slot.
+Non si possono spostare procedure speciali presenti su oggetti NOREDIT
+o NORENT.
+
+Vedi anche: LISTINO, REROLL
 
 #
 "WEAPON SPELL"
@@ -14504,7 +14524,7 @@ Vedi anche: PLAY, BARDO, SONG OF PEACE, SONG OF WAR, SONG OF NATURE, SONG
             OF DUMBING, SONG OF LIFE, CULMINE
             
 #
-REROLL 
+REROLL "CAMBIO CLASSE"
 
 Non essendoci limitazioni a quante volte un giocatore puo cancellare e ricreare
 il proprio Eroe, di seguito viene descritta la procedura di Cambio Classe nel
@@ -14633,6 +14653,7 @@ SING
 Digitando il comando SING all'aperto, potreste essere sorpresi dall'arrivo di un'aiutante che raccogliera' 
 per voi i tesori e gli oggetti che troverai sconfiggendo i nemici.
 I bardi con un alto livello di MUSICPOWER ottengono un famiglio piu' potente con abilita' aggiuntive.
+Il famiglio potra' essere liberato dall'incantesimo utilizzando il comando ADDIO.
 
 Vedi anche: MONSUM, FOLLOWERS
 
