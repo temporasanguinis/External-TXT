@@ -11430,8 +11430,8 @@ $C0010--- Dadi delle armi -------------------------------------------$c0007
 
 Le armi permettono di infliggere un danno aggiuntivo rispetto ai colpi 
 a mano nuda. Il danno di un'arma, oltre al bonus Damroll, dipende dal valore
-dei dadi che la caratterizzano. Il primo valore $c0009(A)$c0007 è il numero dei dadi 
-lanciati, mentre il secondo $c0009(B)$c0007 è il numero di facce dei dadi lanciati.
+dei dadi che la caratterizzano. Il primo valore $c0009(A)$c0007 e' il numero dei dadi 
+lanciati, mentre il secondo $c0009(B)$c0007 e' il numero di facce dei dadi lanciati.
 La formula sara' quindi:
 
   > $c0009(A)$c0007d$c0009(B)$c0007 
@@ -11460,7 +11460,7 @@ Quindi nell'esempio 3d8->4d6 si pagherebbero 400 sigilli divini e 600
 per ogni elemento. In caso di valore negativo, non si avranno sigilli
 indietro.
 
-$c0015Il Danno massimale dell'arma non puo superare $c001150$c0015
+$c0015Il Danno massimale dell'arma non puo' superare $c001150$c0015
 inclusi  i  bonus  sul +damroll e non oltre i $c001160$c0015
 compreso il massimale di weapon spell.$c0007
 
@@ -11492,8 +11492,8 @@ Il valore $c0009(B)$c0007 negli strumenti musicali equivale sempre a 1.
 Per ogni punto aggiunto al valore di DURABILITA' dello strumento musicale si
 pagano 600 sigilli divini e 1000 sigilli elementali. Il valore massimo e' di 50.
 
-$c0015Il Danno massimale dello strumento musicale non puo superare $c001150$c0015
-inclusi  i  bonus  sul +damroll e non oltre i $c001160$c0015
+$c0015Il Danno massimale dello strumento musicale non puo' superare $c001150
+$c0015inclusi  i  bonus  sul +damroll e non oltre i $c001160$c0015
 compreso il massimale di weapon spell.$c0007
 
 Esempio: uno strumento con durabilita' 10, viene modificato fino a raggiungere
