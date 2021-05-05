@@ -10,14 +10,14 @@ Se riscontrate errori, incongruenze, o desiderate proporre
 un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
                                 
---- Modifiche dalla versione 2.19.2.1 alla 2.21.1.2 ----------------
+--- Modifiche dalla versione 2.19.2.1 alla 2.21.5.2 ----------------
 - Aggiunte: MESTIERI, HEALING RAIN, FISHING, TAN (aggiornato), 
   SCRIGNO DORATO, LISTINO (aggiornato), AWARD, AVATAR, NOMI, MESTIERI,
   AFFLIZIONI, DND, LAG, COOLDOWN, CHAOS, MINE, ALCHIMIA, MELEE COMBAT,
   PSIONIC BLAST (aggiornato), PSYCHIC CRUSH (aggiornato), POISON 
   (aggiornato), PAIN MIRROR (aggiornato), CHARGE (aggiornato), BARDO,
   PLAY, CULMINE, ACCESSIBILITA', LISTINO (aggiornato), CRUSH, SING, 
-  COMANDO MAPPA, WAKE SPIRITS
+  COMANDO MAPPA, WAKE SPIRITS, PERK, REROLL, MUSIC POWER
                                                                
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
@@ -9291,7 +9291,7 @@ Le regole che presiedono alla gestione dei LoaL, le loro possibilita'
 nel mondo di TS, e in generale tutto cio' che li riguarda sono
 documentati nel Codice dei LoaL.
 
-Vedi anche: EROI
+Vedi anche: EROI, FRIGHTEN
 
 #
 GILDE
@@ -10027,7 +10027,7 @@ ogni sessione di pratica da Cindy costa 25 milioni di punti esperienza e non
 puo' essere effettuata se sottraendo i 25 milioni si scende sotto i punti
 necessari a mantenere il proprio livello di eroismo.
 
-Vedi anche: SKILL EROI, HEROGOSSIP, HEROLIST
+Vedi anche: SKILL EROI, HEROGOSSIP, HEROLIST, FRIGHTEN
 
 #
 "SKILL EROI"
@@ -10110,7 +10110,7 @@ Superior wizardry - Tutti i caster monoclasse, cl/mu, cl/so
 
 $c0010---------------------------------------------------------------$c0007
 
-Vedi anche: EROI
+Vedi anche: EROI, FRIGHTEN
 
 #
 "SECOND AID"
@@ -13189,7 +13189,7 @@ SUPERIOR WIZARDRY "SUPERIOR WIZARDRY"
 
 Skill per: Tutti i caster monoclasse, cl/mu, cl/so e Bardi
 Livello minimo: Eroe di 7 livello.
-Sintassi: superior wizardry
+Sintassi: SUPERIOR WIZARDRY
 
 Attivando la skill sara' possibile usare cast, mind e recall anche da seduti.
 
@@ -13197,13 +13197,16 @@ Attivando la skill sara' possibile usare cast, mind e recall anche da seduti.
 FRIGHTEN INTIMORISCI
 
 Social per eroi supremi dal livello  4 in su, ossia dal livello  in
-rosso. Sintassi: frighten (argomento) Usato senza argomento  genera
-un messaggio  nella stanza.  Usato con  l'argomento zone  genera un
-messaggio visibile in tutta l'area in cui si trova il  personaggio;
-questa  opzione  funziona  dal  livello  bianco  in  su.  Usato con
-l'argomento  world genera  un messaggio  visibile a  tutto il  mud;
-questa opzione e'  solo per gli  eroi supremi di  livello 6 (grigio
-scuro).
+rosso. 
+Sintassi: FRIGHTEN (argomento) 
+
+Usato senza argomento  genera un messaggio  nella stanza.  
+Usato con  l'argomento ZONE  genera un messaggio visibile in tutta 
+l'area in cui si trova il  personaggio; questa  opzione  funziona  
+dal  livello  bianco  in  su.  
+Usato con l'argomento  WORLD genera  un messaggio  visibile a  tutto 
+il  mud; questa opzione e'  solo per gli  eroi supremi di  livello 6 
+(grigio scuro).
 
 #
 FIX AGGIUSTA
@@ -13240,6 +13243,7 @@ Vedi anche: LISTINO, REROLL
 
 #
 "WEAPON SPELL"
+
 Per quanto  riguarda gli  edit dei  weapon spell  sulle armi, se il
 dado  dell'arma e'  originale e  l'arma e'  riconoscibile, va  bene
 anche  se  e'  derentata,  e  dovete  editare  solo  weapon   spell
