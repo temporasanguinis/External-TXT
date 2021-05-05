@@ -17,7 +17,8 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   PSIONIC BLAST (aggiornato), PSYCHIC CRUSH (aggiornato), POISON 
   (aggiornato), PAIN MIRROR (aggiornato), CHARGE (aggiornato), BARDO,
   PLAY, CULMINE, ACCESSIBILITA', LISTINO (aggiornato), CRUSH, SING, 
-  COMANDO MAPPA, WAKE SPIRITS, PERK, REROLL, MUSIC POWER
+  COMANDO MAPPA, WAKE SPIRITS, PERK, REROLL, MUSIC POWER, DARKNESS 
+  (aggiornato).
                                                                
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
@@ -7462,7 +7463,8 @@ Quest'incatesimo e' inutile se non appartieni alla razza dei drow. Questi
 particolari tipi di elfi, soffrono dei malus quando si muovono attraversi
 aree illuminate.  Lo spell darkness fa si che il caster crei attorno alla
 vittima uno spesso  globo di oscurita', che da modo al drow di combattere
-al pieno delle sue capacita'.
+al pieno delle sue capacita'. L'incantesimo migliora del 10% le possibilita'
+di nascondersi tra le ombre con l'abilita' HIDE.
 
 Un altro utilizzo di questo spell nasce dal fatto che esso copre gli
 effetti del SANCTUARY e del FIRESHIELD da chi osserva.
