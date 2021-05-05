@@ -11535,10 +11535,10 @@ MODIFICA                    COSTO             MASSIMALE
 -2 Save All                 200 sigilli	      8  punti
 -5 Armor                    100 sigilli	      30 punti	
 -5 Age                      200 sigilli	      Senza massimale
-+5% Bash, Backstab, Kick	400 sigilli	      5  punti
++5% Bash, Backstab, Kick    400 sigilli	      5  punti
 +10% Hide, sneak            400 sigilli	      10 punti
 +5% Find traps, Pick, Steal 400 sigilli       5  punti
-+2 all AC massimale	        300 sigilli	      12 punti
++2 all AC massimale         300 sigilli	      12 punti
 
 Tutti i costi di questa parte del listino sono intesi in sigilli Divini
 I costi per Hitroll e Damroll non sono applicabili alle armi, per le
@@ -11589,10 +11589,10 @@ $c0010--- Stats ------------------------------------------------------$c0007
 
 E' possibile editare i punti delle stats del proprio pg su un'oggetto
 secondo lo schema seguente:
-Forza - 200 sigilli divini e 800 sigilli della terra
-Intelligenza - 200 sigilli divini e 800 sigilli dell'aria
-Destrezza - 200 sigilli divini e 800 sigilli del fuoco
-Carisma - 200 sigilli divini e 800 sigilli dell'acqua
+Forza               200 sigilli divini e 800 sigilli della terra
+Intelligenza        200 sigilli divini e 800 sigilli dell'aria
+Destrezza           200 sigilli divini e 800 sigilli del fuoco
+Carisma             200 sigilli divini e 800 sigilli dell'acqua
 Il costo e' inteso per singolo punto stat.
 In caso di malus, il costo per togliere l'affect, raddoppia. 
 
