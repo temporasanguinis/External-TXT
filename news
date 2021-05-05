@@ -1,5 +1,5 @@
 
-Versione 2.21.1.4 - $c000MAGGIO 2021 $c0007- La clessidra nera
+Versione 2.21.1.5 - $c000MAGGIO 2021 $c0007- La clessidra nera
 - $c0012Varie$c0007:
 - Aggiunte le monete di Morrowindl tra i valori visibili con il comando SCORE
 - Il comando MAPPA ora permette di leggere direzioni per le uscite dalla zona
@@ -42,8 +42,11 @@ Versione 2.21.1.4 - $c000MAGGIO 2021 $c0007- La clessidra nera
 - Rework minore di SONG OF DUMBING
 - Fix a CHAOS dello psionico
 - Bardo: la TALES OF BEYOND "drago" non lagga piu' la vittima
-- Dirtkick non si puo' piu' fare in peaceful
+- Dirtkick non si puo' piu' fare in stanze peaceful
 - Fix a weaponspell che stackavano su tutti gli slot della freccia se incoccata piu volte
+
+Per scoprire tutte le novita' dell'HELP di Tempora Sanguinis, scrivi $c0009HELP AGGIORNAMENTI$c0007
+
 
 Versione 2.21.1.4 - $c0009APRILE 2021 $c0007- La melodia di Yffre/3
 - $c0012Quest e aree$c0007:
