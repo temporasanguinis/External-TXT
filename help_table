@@ -13769,6 +13769,7 @@ $c0011NOME OGGETTO               PREZZO$c0007
 Scudo Cold                 55 rune del ghiaccio + 5000 sigilli
 Scudo Elect                55 rune del vento + 5000 sigilli
 Scudo Acid                 25 rune della sabbia + 2000 sigilli
+Scudo Fire                 55 rune della lava + 5000 sigilli 
 Scintilla Cold             35 rune del ghiaccio + 2000 sigilli
 Scintilla Elect            35 rune del vento + 2000 sigilli
 Scintilla Acid             35 rune della sabbia + 2000 sigilli
@@ -13779,10 +13780,10 @@ $c0010--- Listino premi runici riservati ai monaci ------------------$c0007
 
 $c0011NOME OGGETTO               PREZZO$c0007
 Guanto infuocato           15 rune del vento + 15000 sigilli del fuoco
-Guanto elettrificato       30 rune del vento + 30000 sigilli dell'aria
-Guanto raggelante          30 rune del ghiaccio+ 30000 sigilli dell'acqua
-Guanto corrosivo           30 rune della sabbia + 30000 sigilli della terra
-Guanto energetico          35 rune del sole + 10000 sigilli elementali per tipo
+Guanto elettrificato       15 rune del vento + 15000 sigilli dell'aria
+Guanto raggelante          15 rune del ghiaccio + 15000 sigilli dell'acqua
+Guanto corrosivo           15 rune della sabbia + 15000 sigilli della terra
+Guanto energetico          30 rune del sole + 10000 sigilli elementali per tipo
 
 Possibilita' di usare le Rune del Buio al posto di altre tipologie. 
 Per l'acquisto di un oggetto se ne possono usare al massimo 5 per una 
