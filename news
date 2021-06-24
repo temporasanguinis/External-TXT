@@ -1,4 +1,44 @@
 
+Versione 2.21.1.5 - $c000GIUGNO 2021 $c0007- La clessidra nera/2
+- $c0012Quest e aree$c0007 - Sono state inserite e ampliate alcune aree:
+- EROI - La Baia Grande di Targis - Area marittima a sud di Rhila, in cui sono presenti molte isole
+  e scogli. Verra' ulteriormente ampliata nei prossimi aggiornamenti con l'inserimento di una quest.
+- Inseriti i livelli suggeriti per effettuare alcune miniquest (compaiono usando il comando ASK MOB AIUTO).
+- Corrette alcune location presso la citta' di Rhile e il villaggio di Toewin.
+- Aggiunte alcune miniquest (inittate la Baia Grande e recatevi presso la locanda di Midia o cercate tra
+  le strade di Rhila).
+- Da un importante Ranger e' stata aggiunta una miniquest per ottenere una faretra magica. L'oggetto
+  migliorera' la vostra capacita' di lanciare frecce.
+- A Mordor Sauron evoca un'ombra in meno. Saruman ad Isengard ora paga medaglie al valore.
+- $c0012Oggetti$c0007
+- Aggiunto lo scudo delle Fiamme tra gli oggetti acquistabili con le rune. Permettera' agli implementor
+  di cominciare a valutare le nuove apply EXTRA RES che potrebbero sostituire le immunita' sugli oggetti.
+- $c0012Varie$c0007
+- Alcuni PERK da arciere permettono l'aggiunta del 15% dello spellpower come danno per frecce
+- Modifiche ad alcuni PERK e specializzazioni che avevano problemi di bilanciamento e funzionalita'
+- Aggiunto Mxp per esaminare e comprare su BID con click del mouse;
+- Le aste depositate si pagano 5% del valore in anticipo. La tassa viene restituita quando qu alcuno compra l'oggetto. 
+  Per cancellare l'asta si paga 1% del valore dell'asta. Questo per prevenire l'uso delle aste con prezzi esosi come ripostiglio
+  per oggetti oppure per cercare di imbrogliare altri pg che fanno offerte per oggetti sbagliati.
+- $c0012Skill e spell$c0007
+- REVERSION ora fa danno elementale quando fallisce l'eliminazione dello scudo elementale del nemico;
+- $c0012Bugfix$c0007
+- Corretto il bug percui i pg polati in una razza identica a un mob agressivo non venivano mai aggrediti;
+- Song of peace del bardo poteva in alcuni casi non prevenire l'agressione;
+- HUMANOID GROWTH non si poteva castare se si aveva il perk Armadio di ferro;
+- Fix crash su WARP WEAPON;
+- I mob psionici, maghi e cleric si teleportavano anche se avevano oggetti che si rompono fuori zona,
+- Tolto exploit con follower usandoli in formazione;
+- Ora i mob follower non maxxano le stanze.
+- Corretto un bug di praccaggio di DISGUISE che non funzionava bene
+- BREATH si poteva forzare su altri pg polati
+- KICK non aveva effetto se fatto a cavallo, ora funziona.
+- Correzione di MEDITATE per non maghi e per la relativa scritta. 
+- $c0012Alchimia$c0007
+- Aggiunte alcune ricette nella lista e altre nascoste nelle varie zone dell'Impero.
+- Nuovo concorso: ricerca le ricette nascoste! Scrivendo il comando ALCHEMY senza parametri verranno date
+  al personaggio delle nuove informazioni.
+
 Versione 2.21.1.5 - $c000MAGGIO 2021 $c0007- La clessidra nera
 - $c0012Varie$c0007:
 - Aggiunte le monete di Morrowindl tra i valori visibili con il comando SCORE
@@ -293,35 +333,3 @@ Versione 2.20.7.12 - $c0009NOVEMBRE 2020 $c0007- Potere e Sapienza/2
 - I mob paladini e certi undead non si alzano se incapacitati e non si svegliano 
   subito se addormentati.
 - I non morti non sanguinano piu'.
-
-Versione 2.20.2.9 - $c0009OTTOBRE 2020 $c0007- Potere e Sapienza
-- Tantissime novita' a partire da questi primi giorni di ottobre:
-- Un nuovo sito, un nuovo webclient, una nuova mappa tutta da scoprire!
-  Vai su http://www.temporasanguinis.it e usa il nuovo client ufficiale di TS!
-- $c0012Codice$c0007 - 
-- Miglioramenti a MXP e al PROMPT.
-- Nuove skill di combattimento per alcune classi si possono apprendere dal
-  custode della gabbia di Gan'har. Le tecniche di combattimento usate tramite
-  corrette combinazioni, possono dare origine ad attacchi speciali!
-  Ogni classe ha proprie combinazioni ed effetti speciali.
-- Afflizioni. Implementate delle nuove procedure che provocano effetti 
-  collaterali alla vittima in casi specifici, di durata variabile (1-2 round).
-  Bleeding, Burning, Chilled e Shocked possono essere stati causati da spell
-  elementali che fanno un danno considerevole.
-- La pesca ora si puo' praticare una volta a locazione per boot, con migliori
-  possibilita' di buona riuscita.
-- Aggiunta la key "ingrediente" agli ingredienti dell'alchimia.
-- I nuovi scudi elementali sono ora impostati come default, avendo superato
-  la fase di betatesting. Ora tutti i personaggi in combattimento o fuori dal
-  combattimento possono ricevere danni dalle scariche elementali.
-- Il profeta errante accetta donazioni di denaro e restituisce delle profezie
-  che hanno effetti diversi sul personaggio (piu' e' alta la donazione, maggiori
-  sono gli effetti positivi e negativi).
-- Possibilita' di ottenere tramite le profezie del profeta errante la comparsa
-  del "loot goblin", un mob wimpy, che permette di ottenere degli award e porta 
-  con se' alcuni tesori.
-- Ulteriori agevolazioni per giocatori non vedenti in fase di creazione del
-  personaggio (possono ora segnalare di essere non vedenti o ipovedenti ottenendo
-  automaticamente dei settaggi).
-- $c0012Bugfix$c0007 - 
-- Bellow non e' considerato aggressivo dai mob immortali.
