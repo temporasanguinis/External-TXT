@@ -12,6 +12,8 @@ caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009H
 Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
 SCORE e ATTRIBUTE$c0007'.~
 Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi '$c0009HELP ACCESSIBILITA'$c0007'.~
+Per consultare la mappa e seguire le indicazioni per raggiungere le zone collegate all'area in cui ti trovi,
+scrivi '$c0009MAPPA$c0007'.~
 $~
 
 #1-9
@@ -46,6 +48,8 @@ caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009H
 Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
 SCORE e ATTRIBUTE$c0007'.~
 Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi '$c0009HELP ACCESSIBILITA'$c0007'.~
+Per consultare la mappa e seguire le indicazioni per raggiungere le zone collegate all'area in cui ti trovi,
+scrivi '$c0009MAPPA$c0007'.~
 $~
 
 #10-20
@@ -67,11 +71,14 @@ Per avere ulteriori informazioni e per poter modificare la barra in cui sono ria
 caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009HELP PROMPT$c0007'.~
 Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
 SCORE e ATTRIBUTE$c0007'.~
+Per consultare la mappa e seguire le indicazioni per raggiungere le zone collegate all'area in cui ti trovi,
+scrivi '$c0009MAPPA$c0007'.~
+Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi '$c0009HELP ACCESSIBILITA'$c0007'.~
 $~
 
 #21-30
 Puoi migliorare le tue statistice dall'istruttrice Calliope($c0009HELP CALLIOPE$c0007). Per raggiungerla
-a piedi, devi recarti presso le estensioni del tempio di Midia. CAlliope ti permettera' di migliorare 
+a piedi, devi recarti presso le estensioni del tempio di Midia. Calliope ti permettera' di migliorare 
 ogni statistica (Forza, Saggezza, Intelligenza, Carisma, Destrezza, Costituzione) al costo di 10 pratiche tra 
 quelle acquisite con l'avanzare dei livelli.~
 Zone consigliate per fare esperienza: $c0012Utopya, Grecia, Fortezza invasa dagli orchi di Kazad, Orshingal,
@@ -79,6 +86,9 @@ terre desolate di Lyth, i sotterranei della scacchiera, la torre delle viverne, 
 Ora puoi usare quasi tutto l'equipaggiamento che trovi nelle zone dove fai esperienza.
 Puoi ancora identificare gli oggetti da Bronn e scegliere quello che per te e' migliore.~
 Puoi riparare gli oggetti rovinati dal fabbro Compton. Cerca la sua fucina a Midia Sud.~
+Per consultare la mappa e seguire le indicazioni per raggiungere le zone collegate all'area in cui ti trovi,
+scrivi '$c0009MAPPA$c0007'.~
+Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi '$c0009HELP ACCESSIBILITA'$c0007'.~
 $~
 
 #31-40
@@ -91,6 +101,8 @@ dei Gitani, Arctica, la torre delle viverne, le montagne orientali, Il palazzo d
 dei Roo.$c0007~
 Puoi usare tutto l'equipaggiamento che trovi in queste zone, puoi anche provare a vedere
 nella sala delle donazioni di New Thalos se c'e' qualcosa di interessante.~
+Per consultare la mappa e seguire le indicazioni per raggiungere le zone collegate all'area in cui ti trovi,
+scrivi '$c0009MAPPA$c0007'.~
 $~
 
 #41-49
@@ -116,6 +128,8 @@ oppure usare pergamene di identificazione.~
 Esplora le terre dell'impero celesto il piu possibile, potresti trovare oggetti rari o utili nelle zone 
 piu'sperdute.~
 Se vuoi avere informazioni su quest e aree speciali, scrivi $c0009HELP AREAQUEST$c0007.~
+Nelle varie aree puoi trovare oggetti molto interessanti che compaiono casualmente. Scopri quali sono 
+scrivendo $c0009HELP RANDOMPOP$c0007.~
 $~
 
 #50-52
@@ -139,5 +153,9 @@ come i punti vita, i punti mana, damroll, hitroll, spell power, movimento e i va
 di nome Cindy, consigliamo pero' di farlo al livello 6 eroe dal momento che i tuoi
 maxxaggi xp sono piu alti dei soliti 150000 xp per ogni mob sconfitto e dopo aver imparato tutte le skill.
 Per ulteriori informazioni, consulta l'help del gioco ($c0009HELP EROI, HELP MAXXAGGI, HELP DIGNITY, HELP CINDY$c0007).~
+Nelle varie aree puoi trovare artefatti molto potenti che permettono di acquistare oggetti speciali. Scopri quali sono 
+scrivendo $c0009HELP RUNE$c0007.~
+Puoi potenziare alcune abilita' e incantesimi utilizzando specifici premi quest come le MEDAGLIE AL VALORE o 
+I PEGNI DEL MALE e DEL BENE. Per scoprire come funziona scrivi $c0009HELP PERK$c0007.~
 $~
 
