@@ -9,8 +9,8 @@ L'Help di Tempora Sanguinis e' curato da Martinus e da Nalith.
 Se riscontrate errori, incongruenze, o desiderate proporre
 un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
-                                
---- Modifiche dalla versione 2.19.2.1 alla 2.21.5.2 ----------------
+
+--- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
 - Aggiunte: MESTIERI, HEALING RAIN, FISHING, TAN (aggiornato), 
   SCRIGNO DORATO, LISTINO (aggiornato), AWARD, AVATAR, NOMI, MESTIERI,
   AFFLIZIONI, DND, LAG, COOLDOWN, CHAOS, MINE, ALCHIMIA, MELEE COMBAT,
@@ -18,7 +18,8 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   (aggiornato), PAIN MIRROR (aggiornato), CHARGE (aggiornato), BARDO,
   PLAY, CULMINE, ACCESSIBILITA', LISTINO (aggiornato), CRUSH, SING, 
   COMANDO MAPPA, WAKE SPIRITS, PERK, REROLL, MUSIC POWER, DARKNESS 
-  (aggiornato).
+  (aggiornato), RUNE (aggiornato), PEGNI DI LILITH, MEDAGLIE AL VALORE,
+  REVERSION (aggiornato).
                                                                
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
@@ -12825,7 +12826,7 @@ Questa tecnica,  se imparata a  sufficienza, permette ad un ladro o un Bardo di
 concentrarsi e controllare a fondo una stanza per trovare eventuali
 passaggi nascosti.
 
-Vedi anche: -
+Vedi anche: PSIONIC DANGER SENSE
 
 
 #
@@ -13002,7 +13003,7 @@ che permette di raddoppiare il danno di ogni colpo con una percentuale
 di riuscita del 10 %. Anche i guerrieri/ladri hanno questa abilita' 
 ma con percentuale di riuscita inferiore.
 
-Vedi anche: SHARPEN, GUERRIERO
+Vedi anche: SHARPEN, GUERRIERO, SMASH, DECAPITATE
 
 #
 "CHARGE"
@@ -13548,7 +13549,7 @@ caratteristica, il costo aumenta di ulteriori 400 sigilli per tipo.
 I TRAIN  non contano  nel massimale  dello SPELLPOWER raggiungibile
 sull'equipaggiamento.
 
-Vedi anche: CINDY, LISTINO, EROI
+Vedi anche: CINDY, LISTINO, EROI, PERK
 
 #
 GEMME
@@ -13793,7 +13794,8 @@ ghiaccio e 10 rune del buio, insieme ai sigilli).
 
 $c0010----------------------------------------------------------------$c0007
 
-Vedi anche: AREAQUEST, LISTINO
+Vedi anche: AREAQUEST, LISTINO, PEGNI DI LILITH, MEDAGLIE AL VALORE,
+            SIGILLI DIVINI, PERK
 
 #
 "SCRIGNO DORATO" SCRIGNO 
@@ -13935,7 +13937,8 @@ Per vedere quali titoli sono stati sbloccati dal tuo personaggio, basta
 usare il comando "AWARD". Per vedere la lista dei titoli al momento 
 disponibili, basta usare il comando "AWARD LIST".
 
-Vedi anche: MESTIERI, DIGNITY, AREAQUEST
+Vedi anche: MESTIERI, DIGNITY, AREAQUEST, PERK, PEGNI DI LILITH, 
+            MEDAGLIE AL VALORE
 
 #
 NOME NOMI
@@ -14667,7 +14670,7 @@ Le abilita' possono essere potenziate presso il Mago Azzurro.
 Per vedere la lista di PERK e BENEFICI bisogna usare il comando:
  > PERK/BENEFICI
 
-Vedi anche: TRAIN, PRATICHE
+Vedi anche: TRAIN, PRATICHE, MEDAGLIE AL VALORE, PEGNI DI LILITH
 
 #
 "WAKE SPIRIT"
@@ -14729,6 +14732,31 @@ I bardi con un alto livello di MUSICPOWER ottengono un famiglio piu' potente con
 Il famiglio potra' essere liberato dall'incantesimo utilizzando il comando ADDIO.
 
 Vedi anche: MONSUM, FOLLOWERS
+
+#
+"MEDAGLIE AL VALORE" MEDAGLIE
+
+Nel corso delle tue avventure potrai incontrare dei nemici particolarmente valorosi e pericolosi. La citta'
+di Midia promette a chiunque sconfigga tali nemici titoli e onoreficenze particolari. 
+Se, in gruppo o in solitaria, si uccide il nemico, si otterranno MEDAGLIE AL VALORE.
+
+Le medaglie possono essere spese in vari modi:
+- Tramite il comando PRAY RECALL, si possono spendere 20 medaglie e si puo' tornare a Midia o all'ultima
+  locanda dove si ha affittato una camera.
+- Insieme ai PEGNI DI LILITH e alle pratiche di Calliope per potenziare varie abilita' dal mago azzurro.
+
+Vedi anche: PERK, PEGNI DI LILITH, SIGILLI DIVINI, RUNE, AWARDS, KARMA
+
+#
+"PEGNI DI LILITH" PEGNI
+
+Tramite la quest di Lilith e' possibile ottenere degli artefatti con cui potenziare alcune abilita' e 
+ottenere particolari benefici. Questi artefatti, chiamati PEGNI DI LILITH, possono avere poteri benefici, i
+PEGNI DEL BENE, o malefici, i PEGNI DEL MALE.
+La natura di questi artefatti e' misteriosa! Maneggiateli con cura!
+
+Vedi anche: PERK, MEDAGLIE AL VALORE, SIGILLI DIVINI, RUNE, AWARDS, KARMA
+
 
 #~
 
