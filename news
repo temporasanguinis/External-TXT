@@ -1,4 +1,29 @@
 
+Versione 2.21.31.8 - $c0009AGOSTO 2021 $c0007- Una torrida estate
+- $c0012Quest e aree$c0007:
+- Può accadere che, una volta al boot, i pirati di Varil attacchino la citta' costiera di Rhila.
+  Potete contribuire alla difesa della citta', in base al vostro aiuto il reggente di Rhila, sopravvissuto all'attacco,
+  vi dara' premi diversi. E' presente in citta' una nuova locazione.
+- Rimessa online la vecchia versione dello shire (finche non viene completata la costruzione del villaggio di Comp).
+- Il sindaco di midia per MEDAGLIE AL VALORE puo offrire dei premi.
+- Bugfix alla procedura di Strahd e del Wisteron - ora non attivano alla morte la procedura se muoiono fuori dalla 
+  loro zona
+- Dhethor il questor al completamento della decima e quindicesima quest, paga medaglia del valore, ma dal livello 
+  9 in avanti non e' piu bootabile perche non dice il nome della stanza ma assegna il nome della zona.
+- Bugfix al pop random di Lilith che andava sempre dove era inittato il bardo anziche random.
+- Nuova quest collettiva: Zifnab compra cubi di energia e quando la somma venduta (tra vari boot) arriva a 50 parte 
+  una quest di tipo DeathRoom "infinita" (i cubi si ottengono lavorando come minatori). La quest e' in fase beta.
+- Nalith non ha ancora completato meta' delle cose che aveva detto di voler completare per l'estate.
+- $c0012Classi e mob$c0007:  
+- Cambiamento ai mob ranger: ora si comportano anche da arciere se in possesso di arco e frecce.
+- Bugfix alla procedura della faretra magica e alla gemma anima che potevano non reagire in alcune circostanze.
+- Bugfix a INFERNO che colpiva mob immortali e follower di altri in gruppo
+- I famigli vestiti possono combattersi tra di loro (tramite il comando "order famiglio combatti"), il record 
+  di vittorie massime per pg viene salvato e si vede esaminando il personaggio. Avete forse detto Pokemon?
+- - $c0012Codice$c0007:  
+- EVENT_SOMEBODY_DIED implementato per oggetti e mob (Scatta quando qualcuno muore nella room)
+- SET/GET_GLOBAL_LONG/FLOAT/STRING implementato per salvare lo stato di variabili persistente tra i boot
+
 Versione 2.21.23.6 - $c0009GIUGNO 2021 $c0007- La clessidra nera/2
 - $c0012Quest e aree$c0007 - Sono state inserite e ampliate alcune aree:
 - EROI - La Baia Grande di Targis - Area marittima a sud di Rhila, in cui sono presenti molte isole
