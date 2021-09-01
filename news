@@ -1,25 +1,28 @@
 
 Versione 2.21.31.8 - $c0009AGOSTO 2021 $c0007- Una torrida estate
 - $c0012Quest e aree$c0007:
-- Può accadere che, una volta al boot, i pirati di Varil attacchino la citta' costiera di Rhila.
-  Potete contribuire alla difesa della citta', in base al vostro aiuto il reggente di Rhila, sopravvissuto all'attacco,
+- Puo' accadere che, al massimo una volta per boot, i pirati di Varil attacchino la citta' costiera di Rhila.
+  Potrete contribuire alla difesa della citta': in base al vostro aiuto il reggente di Rhila, sopravvissuto all'attacco,
   vi dara' premi diversi. E' presente in citta' una nuova locazione.
-- Rimessa online la vecchia versione dello shire (finche non viene completata la costruzione del villaggio di Comp).
+- Rimessa online la vecchia versione dello Shire (finche non viene completata la costruzione del villaggio di Comp).
 - Il sindaco di midia per MEDAGLIE AL VALORE puo offrire dei premi.
-- Bugfix alla procedura di Strahd e del Wisteron - ora non attivano alla morte la procedura se muoiono fuori dalla 
+- Bugfix alla procedura di Strahd e del Wisteron: ora non attivano alla morte la procedura se muoiono fuori dalla 
   loro zona
-- Dhethor il questor al completamento della decima e quindicesima quest, paga medaglia del valore, ma dal livello 
+- Dhethor il questor, al completamento della decima e quindicesima quest, paga medaglia del valore, ma dal livello 
   9 in avanti non e' piu bootabile perche non dice il nome della stanza ma assegna il nome della zona.
 - Bugfix al pop random di Lilith che andava sempre dove era inittato il bardo anziche random.
 - Nuova quest collettiva: Zifnab compra cubi di energia e quando la somma venduta (tra vari boot) arriva a 50 parte 
   una quest di tipo DeathRoom "infinita" (i cubi si ottengono lavorando come minatori). La quest e' in fase beta.
 - Nalith non ha ancora completato meta' delle cose che aveva detto di voler completare per l'estate.
 - $c0012Classi e mob$c0007:  
-- Cambiamento ai mob ranger: ora si comportano anche da arciere se in possesso di arco e frecce.
+- Cambiamento ai mob ranger: ora si comportano come arcieri se in possesso di arco e frecce.
 - Bugfix alla procedura della faretra magica e alla gemma anima che potevano non reagire in alcune circostanze.
-- Bugfix a INFERNO che colpiva mob immortali e follower di altri in gruppo
-- I famigli vestiti possono combattersi tra di loro (tramite il comando "order famiglio combatti"), il record 
+- Bugfix a INFERNO che colpiva mob immortali e follower di altri PG in gruppo.
+- I famigli, una volta vestiti, possono combattere tra di loro (tramite il comando "order famiglio combatti"), il record 
   di vittorie massime per pg viene salvato e si vede esaminando il personaggio. Avete forse detto Pokemon?
+- In betatesting, va online una procedura per limitare il Looting tramite bot. Se raccogliete troppi tesori, potreste 
+  avere una riduzione nella raccolta di oro. Tale malus aumenta, se la velocita' di raccolta rimane costante. 
+  I tesori sono un bene di tutti, lasciate che anche gli altri PG ne ottengano qualcuno :)
 - - $c0012Codice$c0007:  
 - EVENT_SOMEBODY_DIED implementato per oggetti e mob (Scatta quando qualcuno muore nella room)
 - SET/GET_GLOBAL_LONG/FLOAT/STRING implementato per salvare lo stato di variabili persistente tra i boot
