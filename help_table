@@ -654,7 +654,7 @@ $c0010Livello$c0010    Dignita'          Colore usato nel comando who
 Vedi anche: LEVELS, FRIGHTEN, EROI, WHO
 
 #
-MAPPA MONDO "MAPPA MONDO"
+MONDO "CARTINA MONDO"
 
 Gran parte delle terre dell'Impero Celeste sono ancora selvagge ed
 inesplorate.  Tuttavia, e' possibile tracciare una mappa delle sue
@@ -685,11 +685,11 @@ regioni centrali:
                                                         [Citta' di Rhila]
                                                         
   
-Vedi anche: MAPPA MIDIA, COMANDO MAPPA
+Vedi anche: CARTINA MIDIA, MAPPA
 
 
 #
-"MAPPA MIDIA" MIDIA
+"CARTINA MIDIA" MIDIA
 ...................................................................
 .                * * * La citta' di MIDIA * * *                   .
 .      North                                                      .
@@ -736,7 +736,7 @@ Vedi anche: MAPPA MIDIA, COMANDO MAPPA
 ...................................................................
 
   
-Vedi anche: MAPPA MONDO, COMANDO MAPPA
+Vedi anche: CARTINA MONDO, MAPPA
 
 #
 DISPLAY
@@ -14706,7 +14706,7 @@ tenerlo sempre in conto (es.: aggressivo sui mob)
 Vedi anche: CHAOS, BARDO
 
 #
-"COMANDO MAPPA"
+"COMANDO MAPPA" MAPPA
 
 Digitando il comando MAPPA sara' possibile vedere le stanze dell'area nella quale si
 trova il PG che collegano ad aree esterne.
@@ -14727,12 +14727,12 @@ $c0006Le citta' di Midir e Geldor (Trad. by Nightingale):
 $c0006La foresta di Mirkwood (Trad. by Nalith):
    $c0007Andando in direzione $c0011Ovest$c0007 e passando per $c0015L'ingresso della foresta di Mirkwood.$c0007
    
-Vedi anche: MAPPA MONDO, MAPPA MIDIA, ACCESSIBILITA'
+Vedi anche: CARTINA MONDO, CARTINA MIDIA, ACCESSIBILITA'
 
 #
-SING
+WHISLTE FISCHIA FAMIGLI
 
-Digitando il comando SING all'aperto, potreste essere sorpresi dall'arrivo di un'aiutante che raccogliera' 
+Digitando il comando WHISTLE all'aperto, potreste essere sorpresi dall'arrivo di un'aiutante che raccogliera' 
 per voi i tesori e gli oggetti che troverai sconfiggendo i nemici.
 I bardi con un alto livello di MUSICPOWER ottengono un famiglio piu' potente con abilita' aggiuntive.
 Il famiglio potra' essere liberato dall'incantesimo utilizzando il comando ADDIO.
