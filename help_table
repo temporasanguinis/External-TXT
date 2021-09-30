@@ -12462,8 +12462,9 @@ $c0012Costo in mana$c0012 : 150$c0007
 Questo incantesimo,  che  puo' essere lanciato solo su un personaggio,  ne
 causa la crescita  fino  al  doppio  della  dimensione  originale.  Questo
 comporta l'aumento dei  punti vita e del danno causato rispettivamente  di
-30 punti e 3 punti, mentre la destrezza viene abbassata di 2 punti, di cui
-uno permanente, fino alla scadenza dello spell.
+30 punti e 3 punti, aggiunte 2 punti forza mentre la destrezza viene abbassata 
+di 2 punti, modificando il massimale di entrambe gli attributi fino alla 
+scadenza dello spell.
 
 #
 CURSING
