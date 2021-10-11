@@ -42,6 +42,8 @@ Versione 2.21.31.8 - $c0009OTTOBRE 2021 $c0007- Ruggine e libri
   confinante che si vuole trovare (sintassi: MAPPA <nome area>. Se fossi presso le montagne orientali, 
   posso vedere le indicazioni per il regno dei nani scrivendo MAPPA NANI).
 - Correzioni varie alla quest alle procedure della quest di Zifnab.
+- Se un PG usa la modalita' accessibile (SET IPOVEDENTE ENABLE), vedra' la scritta $c0011($c5011Interattivo$c0011)$c0007 sui mob
+  che riportano il simbolo $c0011($c5011!$c0011)$c00007.
 - $c0012Bugfix$c0007:  
 - Fix ad alcuni Dragonshout,
 - Fix a perk PIEDE DI FERRO.
