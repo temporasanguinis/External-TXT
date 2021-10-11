@@ -1,35 +1,56 @@
 
 Versione 2.21.31.8 - $c0009OTTOBRE 2021 $c0007- Ruggine e libri
-- $c0012Quest e aree$c0007: piccoli e grandi cambiamenti per migliorare il percorso di crescita dei nuovi giocatori.
-- E' stata rinnovata completamente la scuola dei novizi di Midia. Ora permette ai nuovi e vecchi
-  giocatori di prendere mano con il gameplay. Rivisti gli oggetti dell'area, ora utili per fare i primi 5 
-  livelli. Inserita una maestra che insegna almeno una abilita' per classe.
-- Modificate alcune stanze e alcuni mob delle estensioni del tempio di Midia, ora anch'esse utili per imparare
-  le prime strategie di gioco. E' stato inserito un mob che vende incantesimi a poche monete e una miniquest.
-  Aggiunto sacerdote di Yffre. Ogni sacerdote o sacerdotessa possiede un oggetto specifico per alcune classi, utile
-  dal livello 10: scopriteli tutti.
-- Piccole modifiche ad alcune location della foresta degli elfi. Inserito una nuova pergamena utile.
+- $c0012Quest e aree$c0007: piccoli e grandi cambiamenti per migliorare il percorso di 
+  crescita dei nuovi giocatori.
+- E' stata rinnovata completamente la scuola dei novizi di Midia. Ora permette ai nuovi 
+  e vecchi giocatori di prendere mano con il gameplay. Rivisti gli oggetti dell'area, ora 
+  utili per fare i primi 5 livelli. Inserita una maestra che insegna almeno una abilita' 
+  per classe.
+- Modificate alcune stanze e alcuni mob delle estensioni del tempio di Midia, ora anch'esse 
+  utili per imparare le prime strategie di gioco. E' stato inserito un mob che vende incantesimi 
+  a poche monete e una miniquest.
+  Aggiunto sacerdote di Yffre. Ogni sacerdote o sacerdotessa possiede un oggetto specifico per 
+  alcune classi, utile dal livello 10: scopriteli tutti.
+- Modifiche all'isola del destino di Vilian. Aggiunta di una Miniquest.
+- Piccole modifiche ad alcune location della foresta degli elfi. Inserito una nuova pergamena 
+  utile.
 - Semplificate leggermente le quest di Atlantide, di Darkenwood e della piramide di Akin-Ra.
 - Modificata leggermente l'area del tempio dei banditi druidi. Ora ospita anche una miniquest.
-- Aggiunte descrizioni agli oggetti di Geldor, precedentemente mancanti. Le spade e il pugnale procedurali ora
-  hanno un bonus di +5 hitroll: finalmente potranno essere utilizzate.
+- Aggiunte descrizioni agli oggetti di Geldor, precedentemente mancanti. Le spade e il pugnale 
+  procedurali ora hanno un bonus di +5 hitroll: finalmente potranno essere utilizzate.
 - Aggiunti i credit degli autori ad alcune zone.
-- Modificate alcune location della scacchiera e gli oggetti. Ora gli oggetti neri sono pensati principalmente
-  per le classi di incantatori, mentre quelli bianchi sono pensati per le classi dei combattenti.
+- Modificate alcune location della scacchiera e gli oggetti. Ora gli oggetti neri sono pensati 
+  principalmente per le classi di incantatori, mentre quelli bianchi sono pensati per le classi 
+  dei combattenti.
 - Semplificata la quest del palazzo degli Skexie. Gli oggetti sono stati leggermente potenziati.
 - Corrette alcune strade a sud di Toewin.
-- Modifiche leggere a Spider Haunt, che ora ospita la quest di Artafet (prima si faceva a Castel Destino). Aumentato
-  il premio.
+- Modifiche leggere a Spider Haunt, che ora ospita la quest di Artafet (prima si faceva a Castel 
+  Destino). Aumentato il premio.
 - Aggiunto un piccolo premio random in sigilli a Morrowindl.
-- Miniquest inserite o modificate: l'anello scomparso (Estensioni del tempio di Midia, livello 5-10), furto al monastero
-  (Monastero dei Monaci, livello 20-40), un patto di sangue per Mordilnia (Mordilnia, Orshingal, tempio dei banditi druidi,
+- Aggiunto un mastro forgiatore presso l'Accademia dei Sapienti di Midia sud. Se trovate delle
+  schegge elementali, portategliele.
+- Miniquest inserite o modificate: l'anello scomparso (Estensioni del tempio di Midia, livello 5-10), 
+  i bugiardi (Estensioni del tempio di Midia, livello 5-15), furto al monastero (Monastero dei Monaci, 
+  livello 20-40), un patto di sangue per Mordilnia (Mordilnia, Orshingal, tempio dei banditi druidi,
   livello pwp 150), la vendetta di Artafet (Spider Haunt), l'occhio del drago (Iperborea, livello pwp 100),
-  la confraternita di Tarimok (Midia sud, Geldor, livello pwp 400).
-- - $c0012Codice$c0007:  
-- Modificato il comando MAPPA. ora e' possibile filtrare le indicazioni, inserendo il nome della zona confinante che si vuole
-  trovare (sintassi: MAPPA <nome area>. Se fossi presso le montagne orientali, posso vedere le indicazioni per il regno dei 
-  nani scrivendo MAPPA NANI).
+  la confraternita di Tarimok (Midia sud, Geldor, livello pwp 400), ritorno al passato (Isola di Vilian, 
+  livelli 7-12), il forziere dell'alchimista (Mordilnia, livelli 15-25), la feccia di Felrhun (Felrhun, 
+  livelli 10-20), il fuggitivo (Haon-Dor, Lyth, livelli 20-25)
+- Menzoberranzan paga ora 3 medaglie, Lilith ne paga 1 al gruppo e 3 al capogruppo.
+- $c0012Codice$c0007:  
+- Modificato il comando MAPPA. ora e' possibile filtrare le indicazioni, inserendo il nome della zona 
+  confinante che si vuole trovare (sintassi: MAPPA <nome area>. Se fossi presso le montagne orientali, 
+  posso vedere le indicazioni per il regno dei nani scrivendo MAPPA NANI).
 - Correzioni varie alla quest alle procedure della quest di Zifnab.
+- Nuove pray a disposizione: PRAY ELEMENTS e PRAY NIRVANA (per monaci).
+- Il monaco puo' stunnarle con un calcio ben assestato, ma per farlo e' necessario conoscere i punti deboli
+  dell'avversario. Check sull'intelligenza.
+- Le skill di basso livello si apprendono piu' rapidamente.
+- $c0012Bugfix$c0007:  
+- Fix ad alcuni Dragonshout,
+- Fix a perk PIEDE DI FERRO.
+- Ora si puo' specializzare anche la skill DISARM, che prima si sovrapponega a DISARM TRAP.
+- Risolto problema di specializzazione delle skill dei PG stregoni
 
 Versione 2.21.31.8 - $c0009AGOSTO 2021 $c0007- Una torrida estate
 - $c0012Quest e aree$c0007:
