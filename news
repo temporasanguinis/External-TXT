@@ -42,10 +42,6 @@ Versione 2.21.31.8 - $c0009OTTOBRE 2021 $c0007- Ruggine e libri
   confinante che si vuole trovare (sintassi: MAPPA <nome area>. Se fossi presso le montagne orientali, 
   posso vedere le indicazioni per il regno dei nani scrivendo MAPPA NANI).
 - Correzioni varie alla quest alle procedure della quest di Zifnab.
-- Nuove pray a disposizione: PRAY ELEMENTS e PRAY NIRVANA (per monaci).
-- Il monaco puo' stunnarle con un calcio ben assestato, ma per farlo e' necessario conoscere i punti deboli
-  dell'avversario. Check sull'intelligenza.
-- Le skill di basso livello si apprendono piu' rapidamente.
 - $c0012Bugfix$c0007:  
 - Fix ad alcuni Dragonshout,
 - Fix a perk PIEDE DI FERRO.
