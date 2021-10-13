@@ -1,83 +1,81 @@
 #0-0
 Se hai appena creato il tuo personaggio, ricordati di esaminare il tuo inventario con il
 comando '$c0009INV$c0007'. Troverai molti oggetti utili per iniziare a giocare.~
-Per esaminare il contenuto di borse e forzieri, usa il comando '$c0009EXA [nomeoggetto]$c0007'.~
-Ogni tanto, gli dei organizzano degli Eventi nel gioco, i dettagli si trovano sul forum~
+Per esaminare il contenuto di borse e forzieri, usa il comando $c0009EXA <nomeo oggetto>$c0007.~
+Ogni tanto, gli dei organizzano degli Eventi nel gioco, i dettagli si trovano sul sito.~
 Puoi trovare consigli sul gioco, e molto altro sul sito: https://www.temporasanguinis.it~
-Per attivare/disattivare il canale dei consigli puoi usare il comando '$c0009NOTIPS$c0007'.~
-Per attivare la visione a colori del gioco, usa il comando '$c0009SET ANSI ENABLE$c0007'.~
-Per attivare il canale di comunicazione off-topic, usa il comando '$c0009NOOT$c0007'.~
+Per attivare/disattivare il canale dei consigli puoi usare il comando $c0009NOTIPS$c0007.~
+Per attivare il canale di comunicazione off-topic, usa il comando $c0009NOOT$c0007.~
 Per avere ulteriori informazioni e per poter modificare la barra in cui sono riassunte le 
-caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009HELP PROMPT$c0007'.~
-Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
-SCORE e ATTRIBUTE$c0007'.~
-Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi '$c0009HELP ACCESSIBILITA'$c0007'.~
+caratteristiche principali del tuo personaggio, chiamata prompt, scrivi $c0009HELP PROMPT$c0007.~
+Puoi conoscere molte informazioni sul tuo personaggio con i comandi $c0009INVENTORY, EQUIP, 
+SCORE e ATTRIBUTE$c0007.~
+Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi $c0009HELP ACCESSIBILITA'$c0007.~
 Per consultare la mappa e seguire le indicazioni per raggiungere le zone collegate all'area in cui ti trovi,
-scrivi '$c0009MAPPA$c0007'.~
+scrivi $c0009MAPPA$c0007.~
 $~
 
 #1-9
-Per leggere il contenuto di libri, mappe e pergamene, usa il comando '$c0009READ [nomeoggetto]$c0007'.~
+Per leggere il contenuto di libri, mappe e pergamene, usa il comando $c0009READ <nome oggetto>$c0007.~
 Con l'avanzare dei livelli, riceverai dei doni da parte degli dei, che ti serviranno per giocare
 ed esplorare. Alcuni di essi sono lettere e mappe che ti permetteranno di acquisire le nozioni necessarie
 per migliorare la tua comprensione del mondo di Tempora Sanguinis. Ricordati di leggerle con attenzione!~
-Per esaminare il contenuto di borse e forzieri, usa il comando '$c0009EXA [nomeoggetto]$c0007'.~
+Per esaminare il contenuto di borse e forzieri, usa il comando $c0009EXA <nome oggetto>$c0007.~
 Fino al livello 3 puoi fare esperienza sacrificando gli oggetti che puoi prendere
-usando il comando '$c0009JUNK [nomeoggetto]$c0007', dopo il livello 3 lo stesso comando ti fara' 
+usando il comando $c0009JUNK <nome oggetto>$c0007, dopo il livello 3 lo stesso comando ti fara' 
 guadagnare monete d'oro.~
-Se ti perdi puoi usare il comando '$c0009PRAY CASA$c0007' che ti riportera' nel posto in cui
+Se ti perdi puoi usare il comando $c0009PRAY CASA$c0007 che ti riportera' nel posto in cui
 sei entrato in gioco l'ultima volta. Questo funziona anche se ti trovi in combattimento e
 non da' lag.~
 Se il tuo personaggio muore e non sai come recuperare il corpo e l'equipaggiamento puoi
-andare in sala delle preghiere a Midia e scrivere '$c0009PRAY AIUTO$c0007' che ti portera'
+andare in sala delle preghiere a Midia e scrivere $c0009PRAY AIUTO$c0007 che ti portera'
 il tuo corpo con l'equipaggiamento se non e' stato raccolto da un mob.~
-Per orientarti nella citta' di Midia scrivi '$c0009HELP MIDIA$c0007' che ti mostrera' una mappa.~
-Per conoscere i vari comandi nei dettagli scrivi '$c0009HELP MUD$c0007' ed '$c0009HELP CONTINUAMUD$c0007'~
+Per orientarti nella citta' di Midia scrivi $c0009HELP CARTINA MIDIA$c0007 che ti mostrera' una mappa.~
+Per conoscere i vari comandi nei dettagli scrivi $c0009HELP MUD$c0007 ed $c0009HELP CONTINUAMUD$c0007~
 Zone consigliate per fare esperienza: $c0012la scacchiera di Midia, la foresta di Mirkwood, la 
-foresta elfica, le miniere di Falrhun$c0007.~
+foresta elfica, le miniere di Falrhun, le estensioni del Tempio di Midia$c0007.~
 Zone con equipaggiamento che puoi usare: $c0012la scacchiera di Midia, la foresta di Mirkwood, la 
-foresta elfica, le miniere di Falrhun, Utopya, l'isola del destino$c0007.
+foresta elfica, le miniere di Falrhun, Utopya, l'isola del destino, le estensioni del Tempio di Midia$c0007.
 Per sapere cosa fa un oggetto vai da Bronn, a Midia, dagli l'oggetto e ti dira' le caratteristiche pagando
 un prezzo in monete.~
 Se sei un nuovo giocatore, chiedi informazioni sulla gilda dei Cavalieri del Destino, i membri della gilda
 si impegnano ad aiutare i nuovi giocatori. Per maggiori informazioni contatta gli immortali in gioco.~
-Per attivare la visione a colori del gioco, usa il comando '$c0009SET ANSI ENABLE$c0007'.~
-Per attivare il canale di comunicazione off-topic, usa il comando '$c0009NOOT$c0007'.~
+Per scoprire quali configurazioni puoi attivare, scrivi $c0009HELP SET$c0007.~
+Per attivare il canale di comunicazione off-topic, usa il comando $c0009NOOT$c0007.~
 Per avere ulteriori informazioni e per poter modificare la barra in cui sono riassunte le 
-caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009HELP PROMPT$c0007'.~
-Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
-SCORE e ATTRIBUTE$c0007'.~
-Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi '$c0009HELP ACCESSIBILITA'$c0007'.~
+caratteristiche principali del tuo personaggio, chiamata prompt, scrivi $c0009HELP PROMPT$c0007.~
+Puoi conoscere molte informazioni sul tuo personaggio con i comandi $c0009INVENTORY, EQUIP, 
+SCORE e ATTRIBUTE$c0007.~
+Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi $c0009HELP ACCESSIBILITA'$c0007.~
 Per consultare la mappa e seguire le indicazioni per raggiungere le zone collegate all'area in cui ti trovi,
-scrivi '$c0009MAPPA$c0007'.~
+scrivi $c0009MAPPA$c0007.~
 $~
 
 #10-20
-Puoi usare il comando '$c0009JUNK [nomeoggetto]$c0007' fino al livello 15 per guadagnare monete d'oro,
+Puoi usare il comando $c0009JUNK <nome oggetto>$c0007 fino al livello 15 per guadagnare monete d'oro,
 dal livello 16 le quantita' di monete che guadagnerai dipende dal valore dell'oggetto.~
-Puoi usare il comando '$c0009PRAY CASA$c0007' fino al livello 15.~
-Puoi usare il comando '$c0009PRAY AIUTO$c0007' nella sala delle preghiere a Midia per recuperare il tuo 
+Puoi usare il comando $c0009PRAY CASA$c0007 fino al livello 15.~
+Puoi usare il comando $c0009PRAY AIUTO$c0007 nella sala delle preghiere a Midia per recuperare il tuo 
 corpo in caso di morte.~
 Puoi identificare l'equipaggiamento da te trovato da Bronn, a Midia, pagando solo qualche moneta:
 piu' crescerai di livello e piu pagherai.~
 Zone consigliate per fare esperienza: $c0012Castel Mistamere, l'isola del destino, le miniere di Falrhun,il 
-bosco dei Quicklings, la foresta elfica.~
-Zone con equipaggiamento che puoi usare: $c0012le terre dei Quicklings, la foresta elficaUtopya, 
+bosco dei Quicklings, la foresta elfica, le estensioni del tempio di Midia$c0007.~
+Zone con equipaggiamento che puoi usare: $c0012le terre dei Quicklings, la foresta elfica, Utopya, 
 Castel Mistamere, isola del Destino, i campi dell'arena, fortezza invasa dagli orchi di Kazad, 
 il palazzo degli Skexie$c0007.~
-Per attivare la visione a colori del gioco, usa il comando '$c0009SET ANSI ENABLE$c0007'.~
-Per attivare il canale di comunicazione off-topic, usa il comando '$c0009NOOT$c0007'.~
+Per attivare il canale di comunicazione off-topic, usa il comando $c0009NOOT$c0007.~
 Per avere ulteriori informazioni e per poter modificare la barra in cui sono riassunte le 
-caratteristiche principali del tuo personaggio, chiamata prompt, scrivi '$c0009HELP PROMPT$c0007'.~
-Puoi conoscere molte informazioni sul tuo personaggio con i comandi '$c0009INVENTORY, EQUIP, 
-SCORE e ATTRIBUTE$c0007'.~
+caratteristiche principali del tuo personaggio, chiamata prompt, scrivi $c0009HELP PROMPT$c0007.~
+Puoi conoscere molte informazioni sul tuo personaggio con i comandi $c0009INVENTORY, EQUIP, 
+SCORE e ATTRIBUTE$c0007.~
 Per consultare la mappa e seguire le indicazioni per raggiungere le zone collegate all'area in cui ti trovi,
-scrivi '$c0009MAPPA$c0007'.~
-Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi '$c0009HELP ACCESSIBILITA'$c0007'.~
+scrivi $c0009MAPPA$c0007.~
+Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi $c0009HELP ACCESSIBILITA'$c0007.~
 $~
 
 #21-30
-Puoi migliorare le tue statistice dall'istruttrice Calliope($c0009HELP CALLIOPE$c0007). Per raggiungerla
+Puoi migliorare le tue statistice dall'istruttrice Calliope ($c0009HELP CALLIOPE$c0007). Per raggiungerla
 a piedi, devi recarti presso le estensioni del tempio di Midia. Calliope ti permettera' di migliorare 
 ogni statistica (Forza, Saggezza, Intelligenza, Carisma, Destrezza, Costituzione) al costo di 10 pratiche tra 
 quelle acquisite con l'avanzare dei livelli.~
@@ -87,8 +85,8 @@ Ora puoi usare quasi tutto l'equipaggiamento che trovi nelle zone dove fai esper
 Puoi ancora identificare gli oggetti da Bronn e scegliere quello che per te e' migliore.~
 Puoi riparare gli oggetti rovinati dal fabbro Compton. Cerca la sua fucina a Midia Sud.~
 Per consultare la mappa e seguire le indicazioni per raggiungere le zone collegate all'area in cui ti trovi,
-scrivi '$c0009MAPPA$c0007'.~
-Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi '$c0009HELP ACCESSIBILITA'$c0007'.~
+scrivi $c0009MAPPA$c0007.~
+Puoi conoscere le informazioni sull'accessibilita' per non vedenti, scrivi $c0009HELP ACCESSIBILITA'$c0007.~
 $~
 
 #31-40
@@ -102,7 +100,7 @@ dei Roo.$c0007~
 Puoi usare tutto l'equipaggiamento che trovi in queste zone, puoi anche provare a vedere
 nella sala delle donazioni di New Thalos se c'e' qualcosa di interessante.~
 Per consultare la mappa e seguire le indicazioni per raggiungere le zone collegate all'area in cui ti trovi,
-scrivi '$c0009MAPPA$c0007'.~
+scrivi $c0009MAPPA$c0007.~
 $~
 
 #41-49
