@@ -35,8 +35,14 @@ Versione 2.21.31.8 - $c0009OTTOBRE 2021 $c0007- Ruggine e libri
   livello pwp 150), la vendetta di Artafet (Spider Haunt), l'occhio del drago (Iperborea, livello pwp 100),
   la confraternita di Tarimok (Midia sud, Geldor, livello pwp 400), ritorno al passato (Isola di Vilian, 
   livelli 7-12), il forziere dell'alchimista (Mordilnia, livelli 15-25), la feccia di Felrhun (Felrhun, 
-  livelli 10-20), il fuggitivo (Haon-Dor, Lyth, livelli 20-25)
+  livelli 10-20), il fuggitivo (Haon-Dor, Lyth, livelli 20-25), segreti di famiglia (Torre dei MacAllister, 
+  livelli 25-35).
+- Anche nella quest del sacerdote presso i sotterranei della scacchiera, e' possibile ottenere schegge 
+  elementali.
+- Artafet si trova ora sempre presso la Chiesa del male.
+- Aggiunti Behaviours ai MOB del tempio degli elementi.
 - Menzoberranzan paga ora 3 medaglie, Lilith ne paga 1 al gruppo e 3 al capogruppo.
+- Ora molte quest e miniquest possono assegnare degli award.
 - $c0012Codice$c0007:  
 - Modificato il comando MAPPA. ora e' possibile filtrare le indicazioni, inserendo il nome della zona 
   confinante che si vuole trovare (sintassi: MAPPA <nome area>. Se fossi presso le montagne orientali, 
@@ -47,7 +53,9 @@ Versione 2.21.31.8 - $c0009OTTOBRE 2021 $c0007- Ruggine e libri
 - Fix ad alcuni Dragonshout,
 - Fix a perk PIEDE DI FERRO.
 - Ora si puo' specializzare anche la skill DISARM, che prima si sovrapponega a DISARM TRAP.
-- Risolto problema di specializzazione delle skill dei PG stregoni
+- Risolto problema di specializzazione delle skill dei PG stregoni.
+- Corretta Maestra dei novizi che impediva ai bardi di imparare.
+- Corretto crash su Orchronos
 
 Versione 2.21.31.8 - $c0009AGOSTO 2021 $c0007- Una torrida estate
 - $c0012Quest e aree$c0007:
