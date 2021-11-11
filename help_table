@@ -13420,7 +13420,7 @@ proporzionati al valore della apply finale dell'oggetto.
 Vedi anche: SIGILLI, LISTINO, RANDOMPOP
 
 #
-AREAQUEST ZONAQUEST
+AREAQUEST ZONAQUEST QUEST
 
 Nell'impero  Celeste  eroi  e  avventurieri  trovano  sempre  nuove
 avventure da vivere in gruppo o in solitaria per guadagnare SIGILLI
@@ -13434,97 +13434,206 @@ Un'  AREAQUEST  o ZONAQUEST  e' una zona  speciale,  nella quale  i
 personaggi dovranno  risolvere un'avventura.  Le zone  QUEST, dette
 anche QUEST FISSE,  sono: 
 
-- $c0001LE  DODICI CASE  o  QUEST  DELLO  ZODIACO$c0007, una  zona  dedicata ai  
-NON-EROI  o  a   NEO-EROI,  posta  nell'oceano greco.  I  giocatori  
-dovranno  portare  lo  scudo  di  Atena alla moribonda Lady Isabel,
-sconfiggendo i  cavalieri dello zodiaco che si troveranno sul  loro 
-percorso,   fino  alla  sconfitta   di  Arles.  Oltre  ai   SIGILLI  
-ELEMENTALI  presenti  sui  MOB  della  quest,  una volta consegnato 
-lo scudo  a Lady Isabel,  i giocatori potranno  ottenere dei  buoni  
-XP  o  delle  armature  speciali  che  potranno  essere  accumulate  
-e unite, formando cosi' oggetti piu' potenti. 
 
-- $c0001MORROWINDL$c0007,  una zona  dedicata a  giocatori con  PWP inferiore a
-1200. Gli eroi  dovranno portare il  loro soccorso agli  elfi della
-citta' di Arborlon, sconfiggendo i potenti demoni che assediano  la
-città e il temibile Wisteron, un gigantesco ragno capace di sputare
-acido sui suoi nemici. Alla fine dell' avventura i giocatori, oltre
-ai SIGILLI DIVINI e ai SIGILLI ELEMENTALI, riceveranno delle monete
-speciali che permetteranno  ai giocatori di  ottenere dei pezzi  di
-equipaggiamento forgiati dagli elfi di morrowindl. Tra questi pezzi
-ne  esistono   tre  dotati   di  particolari   caratteristiche  che
-permetteranno ai giocatori  di potenziare il  proprio personaggio. 
+$c0001- LE DODICI CASE o QUEST DELLO ZODIACO$c0007
+una  zona dedicata ai NON-EROI o NEO-EROI, posta nell'oceano greco.
+I giocatori dovranno portare lo scudo  di Atena alla moribonda Lady
+Isabel,sconfiggendo i cavalieri dello zodiaco che si troveranno sul
+loro percorso, fino alla sconfitta di Arles.
+Oltre ai SIGILLI ELEMENTALI presenti sui MOB della quest, una volta
+consegnato lo scudo a Lady Isabel, gli EROI potranno ottenere delle
+ricompense extra, tra cui buoni XP, Gemme o delle armature speciali
+che potranno essere unite, formando cosi' oggetti piu' potenti. 
 
-- $c0001BLACK  HEART$c0007, dopo  aver recuperato  l'indizio dalla  veggente di
-Camelot, i giocatori dovranno affrontare una serie di sfide per poi
-consegnare  al Custode  del Cristallo  il medaglione  di ghiaccio,
-l'anello del  fuoco e  il cuore  del demone  distruttore, ottenendo
-cosi'  preziosi  SIGILLI  DIVINI.  Questa  quest  e'  riservata  ai
-giocatori con un PWP inferiore a 500. 
 
-- $c0001ATLANTIDE$c0007, i  giocatori dovranno  detronizzare   l'usurpatore del
-regno di Atlantide, sconfiggere il terribile  Leviatano e riportare
-sul trono il  vero Re.  Oltre  ai  SIGILLI ELEMENTALI  e i  SIGILLI 
-DIVINI  (consegnati  anche  alla fine  della  quest),  i  giocatori 
-avranno  la possibilita' di accettare  in dono  uno tra due oggetti  
-proposti dal nuovo re. Alcuni oggetti presenti  in questa avventura  
-sono molto potenti  e rari, come  gli scudi  elementali (che donano
-immunita'  ad alcuni elementi) o le scintille  divine che donano ai 
-personaggi caster il potere delle SLAY MAGICHE.
+$c0001- BLACK HEART - PwP Massimo 850$c0007
+dopo aver parlato con la veggente di Camelot,  i giocatori dovranno
+trovare l'ingresso del Cuore, ed affrontare una serie di sfide atte
+a recuperare i manufatti da consegnare al  Custode  del  Cristallo:
+il medaglione di ghiaccio, l'anello del fuoco e il cuore del demone
+distruttore, ottenendo cosi' preziosi SIGILLI DIVINI. 
 
-- $c0001CAVE ABBANDONATE DI MONTE ROTTO$c0007,  le antiche  miniere di minerali
-prezioso, sono diventati il covo degli Skaven.
 
-- $c0001CITTA' SOTTERRANEA DI MIDRAASH$c0007, luogo misterioso il  cui  accesso
-e' proibito dall'Ordine di Midia, e' stato conquistato dalle tribu'
-dell'oscuro Gramfell.
+$c0001- MORROWINDL - PwP massimo 1200$c0007
+Gli eroi  dovranno portare il  loro soccorso agli elfi della citta'
+d'Arborlon, sconfiggendo i potenti demoni che la assediano oltre al
+temibile Wisteron, un enorme ragno capace di sputare acido sui suoi
+nemici. Alla fine dell'avventura gli eroi , oltre ai SIGILLI DIVINI
+ed ai SIGILLI ELEMENTALI, riceveranno delle monete elfiche speciali
+che permetteranno agli eroi di ottenere dei pezzi d'equipaggiamento
+forgiati dagli elfi di morrowindl. Tra questi pezzi ne esistono tre
+dotati di particolari caratteristiche estremamente potenti. 
 
-- $c0001RAVENLOFT$c0007, un luogo  d'ombra popolato da  creature oscure guidate
-dal  potente  Stradh.  I giocatori affronteranno schiere di nemici, 
-guadagnando SIGILLI DIVINI. 
 
--  $c0001IL  LABIRINTO  SOPRA  LE  NUVOLE$c0007,  una  zona che cambia  ad ogni  
-avventura,  dove  ogni  stanza  rivela  insidie  e potenti  nemici.  
-I giocatori dovranno  avventurarsi al  di sopra  delle  nuvole  per 
-sfidare gli angeli presenti, guadagnando SIGILLI DIVINI. 
+$c0001- ATLANTIDE - PwP massimo 3500 $c0007
+Situata alle estremita delle terre greche, durante questa quest gli
+eroi  dovranno  detronizzare  l'usurpatore del regno  di Atlantide,
+sconfiggendo tutti coloro che ne han caldeggiato l'ascesa, compresi
+i guardiani dei sette mari ed affrontare il temibibile  Leviatano e
+riportare sul trono il vero Re.  Oltre  ai  SIGILLI ELEMENTALI ed i
+SIGILLI DIVINI (ottenuti durante e alla fine della quest), gli eroi
+avranno  la possibilita' di accettare  in dono  uno tra due oggetti
+proposti dal nuovo re.
 
--  $c0001I PORTALI DIMENSIONALI$c0007.  I popoli liberi sono  l'ultimo baluardo
-per tutti coloro  che  vogliono sconfiggere  le  terribili creature  
-planari, provenienti da dimensioni lontane, oscure e inaccessibili. 
-Alla fine dell'avventura i  giocatori riceveranno  SIGILLI  DIVINI, 
-oltre  alle  gemme  e  ai  cristalli  trovati  lungo  il  percorso. 
+
+$c0001- CITTA' SOTTERRANEA DI MIDRAASH $c0007
+luogo misterioso il  cui  accesso e' raggiungibile presso i palazzi
+della nobilta di midia. L'Ordine di Midia ne ha proibito l'ingresso
+sigillandone i portoni a seguito dell'invasione dell'antica  citta'
+da parte dei seguaci dell'oscura tribu' dei seguaci di Gramfell. 
+Sebbene vi siano stati sporadici tentativi d'invasione  da parte di
+questi temibili nemici, il consiglio dell'Ordine sottovaluta questo
+pericolo, sopravvalutando il potere del sigillo sul portale.
+L'accesso dovra essege guadagnato con la forza.  Tra le  ricompense
+oltre ai SIGILLI DIVINI ed ai SIGILLI ELEMENTALI si potranno trovar
+le RUNE.
+
+
+$c0001- CAVE ABBANDONATE DI MONTE ROTTO$c0007
+Sperduto tra i vigneti di Toewin si cela  l'antico  ingresso per le
+cave sotterrane, da cui sono stati  estratti i preziosi marmi usati
+nella costruzioni di Midia. L'avidita' scellerata durante gli scavi
+ha portato alla luca delle venature  di pietra  imbevuta di energie
+oscure, la WARPIETRA. Questo oscuro materiale ha velocemente ucciso
+tutti i minatori decretandone l'abbandono ed il sigillo dell'Ordine
+di Midia sull' Ingresso, permettendo  di fatto  alle  forme di vita
+racchiuse all'interno di mutare, da semplici ratti a letali Skaven.
+L'accesso dovra essege guadagnato con la forza.  Tra le  ricompense
+oltre ai SIGILLI DIVINI ed ai SIGILLI ELEMENTALI si potranno trovar
+le RUNE.
+
+
+$c0001- RAVENLOFT$c0007
+Nascosto da una nebbia  pressoche' impenetrabile,  si cela un luogo
+d'ombra popolato da creature oscure guidate dai barlumi di cio' che
+erano durante la vita terrena. Oramai schiavi delle  energie oscure
+del signore dei Vampiri, queste creature ne sono divenuti colpevoli
+guardiani, pronti a succhiare  ogni linfa vitale degli incauti eroi
+che tenteranno di purificare il castello da questi letali nemici.
+Lascate ogni speranza o voi che entrate...
+
+
+$c0001- I PORTALI DIMENSIONALI - pwp minimo 400$c0007
+In cima alla fortezza astrale i popoli liberi son l'ultimo bastione
+per tutti coloro  che vogliono sconfiggere le terrificanti creature
+planari, provenienti da dimensioni lontane, oscure e inaccessibili,
+i cui PORTALI sono stati aperti nello sconfinato Semipiano-Astrale.
+Alla fine dell'avventura i  giocatori riceveranno  SIGILLI  DIVINI,
+oltre alle Rune, le gemme ed i cristalli trovati lungo il percorso.
+
+
+$c0001- IL LABIRINTO SOPRA LE NUVOLE - PwP minimo 500$c0007
+Un tempo luogo di addestramento delle forze del bene e dei Paladini
+al servizio di Dorak, questo luogo e' stato corrotto dal pericoloso
+mago oscuro Orchronos, talmente potente da aver corrotto lo spirito
+di tutti i suoi abitanti ed aver obbligato 1 7 Dei a sigillare tale
+struttura con un potente incantesimo che ne ha reso mutevole, folle
+e senza apparente via d'uscita trasformandolo di fatto in un'enorme
+prigione corrotta. Gli Eroi potrenno ottenere il favore degli Dei e
+liberare lo spirito del figlio di Dorak, ottenendo SIGILLI DIVINI e
+SIGILLI ELEMENTALI, RUNE, Cristalli ed i rarissimi SCRIGNI DORATI,
+insieme ai PEGNI DEL BENE.
+
+
+$c0001- KALTENLAND$c0007
+Tra le gelida lande del nord, tra letali bufere, burroni senza fine
+e barbari dall'indole belligerante, un usurpatore ha preso il posto
+del Gran Sanghor e dalla fortezza d'Ikaya si levano inni di guerra.
+Tra le GUIDE, qualcuno cerca di riportare la pace su queste  gelide
+terre, ma non si fidera' degli  EROI a meno che essi non provino il
+proprio valore.  Tra i premi : SIGILLI DIVINI, SIGILLI ELEMENTALI e
+RUNE
+
+
+$c0001- ARACHNOS - PwP minimo 1101$c0007
+L'imperatrice  dei ragni e' tornata  per tessere  le sue  ragnatele
+illusorie per distruggere le terre degli uomini. Sebbene le guardie
+di Midia mantengano le posizioni di  difesa intorno al  Nido, hanno
+ricevuto ordine dal Consiglio di Midia di non far entrare nessuno.
+Il reggente Larik di Vartim  potrebbe  concedere un  LASCIAPASSARE,
+le guardie potranno respingere gli Eroi troppo deboli o inadeguati.
 Quest'avventura, data la complessita', e' destinata a giocatori con
-PWP  superiore  al  400.  
+PwP elevato e con un gruppo ristretto.
 
--  $c0001KALTENLAND$c0007.  L'usurpatore ha preso il posto del Gran
-Sanghor e ora dalla fortezza di Ikaya si inneggiano inni di guerra.
-Ma qualcuno cerca di riportare la pace su queste gelide terre.
 
--  $c0001ARACHNOS$c0007.  L'imperatrice dei ragni e' tornata e tesse le
-sue ragnatele illusorie per distruggere le terre degli uomini.
-Quest'avventura, data la complessita', e' destinata a giocatori con
-PWP  superiore  al  1500. 
+$c0001- MENZOBERRANZAN$c0007
+Oltre i quartieri poveri della citta' sotterranea degli Elfi Oscuri
+si trova la citta dei seguaci della Lloth, governata dalla famiglia
+Do'Urden. Il reietto  Drizzt ne vuole l'eliminazione per porre fine
+al regno della Dea Lloth. Pochi sono coloro che l'hanno affrontata,
+ancor meno coloro che ne son tornati vivi.
+La reale entita' dei tesori risulta ad oggi ancora incompleta.
 
-A queste si aggiungono altre missioni in vari luoghi come MENZOBERRANZAN,
-ISENGARD, MORDOR, SKYRIM e la speciale quest di LILITH per ottenere 
-i pegni del male e del bene, utili per potenziare SKILL e SPELL.
+
+$c0001- ISENGARD$c0007
+Isengard e' una delle fortezze costruite da Gondor per proteggere i
+confini occidentali e cosa molto importante, custodisce nella torre
+di Orthanc uno dei sette Palantir portati da Elendil nella Terra di
+Mezzo.  Dopo alterne vicende, durante la quale la fortezza fu persa
+e ripresa piu' volte, Isengard giunse in possesso di Saruman che ne
+fece la sua dimora.
+Isengard racchiude in un muro di cinta in pietra circolare un'ampia
+pianura, nel cui centro si ergava la Torre di  Orthanc. La fortezza
+ha solo un  ingresso,  ed e' protetto da un robusto cancello con un
+corpo di guardia. Gli Ent a guardia della foresta possono aiutare a
+superar le difese avendo abbastanza tempo per ascoltar i mormorii..
+
+
+$c0001- MORDOR$c0007
+Nella nuova contea Sam Gamgee attende la  Compagnia dell'Anello per
+raggiungere Frodo a Granburrone. Insieme a Gollum locato all'inizio
+delle paludi a est di Orthanc, rivivrete l'epico  viaggo che porto'
+alla distruzione  dell'Unico Anello.  La Quest  ricalca  il periplo
+con tutti i suoi pericoli e nemici, sarete voi in  grado di bandire
+per sempre Sauron e le sue legioni dalla terra di mezzo?
+Premi quest : Oltre ai consueti SIGILLI DIVINI, SIGILLI ELEMENTALI,
+Gemme, Rune e PEGNI DEL MALE, c'e' la possibilita' che Sauron lasci
+cadere la chiave della sua Armeria al cui interno sono celati i piu
+potenti ARTEFATTI dell'Impero.
+
+
+$c0001- LILITH$c0007
+Il Bardo HICKMAN conosce una leggenda antica che parla degli albori
+dell'Impero e narra dell'antica razza  Iksar, e  della sua temibile
+Regina.  La Chiesa di Midia  ed il Signore di Ravenloft  potrebbero
+essere  interessati  ad avere  informazioni in relazione all'antica
+Leggenda che narra di antichi amori, maledizioni,  debiti di sangue
+e labirintiche prigioni.
+Il premio cambia a seconda  della fazione  con cui ci si schierera'
+ed e' obbligatoria la presenza di qualcuno in grado di disarmare le
+trappole.
+
+
+$c0001- SKYRIM$c0007
+Nel cuore della foresta di HAON-DOR si cela il portale per l'antico
+regno di Skyrim. Questa zona Quest e' particolare perche e' l'unica
+zona che permette di apprendere nuove skill,  gli Urli del Drago se
+si comprende chi puo insegnarli. Avventurieri senza scupoli, mostri
+letali, Draghi, faide tra citta' ed dungeon da affrontare  da soli,
+offono la possibilita' di cimentarsi in prove d'arguzia e di  forza
+cercando di imparare dai propri errori. Se diverrete troppo potenti
+attiretere l'ira dei Draghi.
+E fate attenzione a non deviare dal percorso nella foresta...
+Potreste incappare nel loro nido...
+
 
 Esistono alcune zone che, seppur non caratterizzate  da particolari
-narrazioni  di  fondo  o procedure particolari di gioco, consentono 
-ai giocatori di  guadagnare  SIGILLI  DIVINI. Tra  queste  vi  sono 
-l'OLIMPO, ALIENI, I CREPACCI DEI  GIGANTI  DI  GHIACCIO, I  DEMONI, 
-DROWCITY e  altre  ancora.  Alcune  di queste zone  possono  essere 
-completate solo una volta a reboot.
+narrazioni  di  fondo  o procedure particolari di gioco, consentono
+ai giocatori di  guadagnare  SIGILLI  DIVINI. Tra  queste  vi  sono
+l'OLIMPO, ALIENI, I CREPACCI DEI  GIGANTI  DI  GHIACCIO, I  DEMONI,
+DROWCITY e  altre  ancora.  Alcune  di queste zone  possono  essere
+completate solo una volta a reboot, altre repoppano  ad  intervalli
+regolari
 
 Nell'impero vi capitera' di incontrare dei MOB che necessitano  del
-vostro aiuto, permettendovi cosi' di accedere a missioni secondarie.
-Sono  riconoscibili  per  la  presenta del  simbolo $c0011(!)$c0007
+vostro aiuto, permettendovi cosi' d'accedere a missioni secondarie.
+Sono  riconoscibili  per  la  presenta del  simbolo  (interattivo)
 accanto alla descrizione.
 
 Oltre alle aree riservate, esistono due QUESTOR che si aggirano per
 le strade di Midia: 
 
-- $c0001DHETHOR IL QUESTOR$c0007, che si puo' trovare  in un'incrocio di strade
+$c0001- DHETHOR IL QUESTOR$c0007, che si puo' trovare  in un'incrocio di strade
 nella parte sud di MIDIA, assegna all'avventuriero la ricerca di un
 oggetto rubato, indicandogli la location nella quale potra'  essere
 ritrovato.  Ad  ogni  Reboot  potranno  essere  svolte  fino  a  15
@@ -13532,11 +13641,13 @@ ricerche, che una volta portate a termine verranno premiate in base
 al  livello del  personaggio con  punti esperienza,  punti karma  e
 sigilli di  diverso tipo.  
 
-- $c0001EOWARION  L'ERRANTE$c0007, che gira per  le strade  del centro di MIDIA,
-assegna all'avventuriero  una  Quest  card, su cui  sono  presenti 4  
-oggetti  da  recuperare.  Ogni  oggetto  trovato  fara'  ottenere ai 
-personaggi  1 sigillo divino e un  premio in  denaro.  Se la  scheda 
+$c0001- EOWARION  L'ERRANTE$c0007, che gira per  le strade  del centro di MIDIA,
+assegna all'avventuriero  una  Quest  card, su cui  sono  presenti 4
+oggetti  da  recuperare.  Ogni  oggetto  trovato  fara'  ottenere ai
+personaggi  1 sigillo divino e un  premio in  denaro.  Se la  scheda
 verra'  completata, il  premio risultera' piu' consistente.
+
+Vedi anche: DHETHOR, QUEST, DODICI CASE, QUEST DELLO ZODIACO, RUNE
 
 Vedi anche: DHETHOR, QUEST, DODICI CASE, QUEST DELLO ZODIACO, RUNE
 
@@ -13597,6 +13708,10 @@ specifico  (per esempio  tutti e  5 i  denti di  vampiro),  possono
 essere uniti per  formare un oggetto  piu' potente, che  riportera'
 alcune caratteristiche casuali dei pezzi uniti insieme. Per unire
 i pezzi bisogna recarsi presso le streghe alla torre della magia.
+
+Questi oggetti possono essere ottenuti anche tramite i servigi del
+mastro forgiatore presso l'Accademia dei Sapienti del quartiere
+sud di Midia.
 
 Vedi anche: GEMME, SOCKET, QUESTLIS, RUNE
 
@@ -14761,6 +14876,9 @@ Tramite la quest di Lilith e' possibile ottenere degli artefatti con cui potenzi
 ottenere particolari benefici. Questi artefatti, chiamati PEGNI DI LILITH, possono avere poteri benefici, i
 PEGNI DEL BENE, o malefici, i PEGNI DEL MALE.
 La natura di questi artefatti e' misteriosa! Maneggiateli con cura!
+
+Si dice che un mercante di reliquie a New Thalos permetta di scambiare i pegni ottenuti dai giocatori
+con quelli da loro desiderati.
 
 Vedi anche: PERK, MEDAGLIE AL VALORE, SIGILLI DIVINI, RUNE, AWARDS, KARMA
 
