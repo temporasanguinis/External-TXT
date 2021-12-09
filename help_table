@@ -1,7 +1,7 @@
 # 
 EMPTY SLOT
 #
-HELP AGGIORNAMENTO
+HELP AGGIORNAMENTI AGGIORNAMENTO NOVITA'
 
 Ultimo aggiornamento: 3 maggio 2021 a cura di Nalith, Yffre e Traxter
 
@@ -14047,13 +14047,14 @@ Vedi anche: AWARD, PESCATORE, CONCIATORE, ALCHIMISTA, MINATORE
 AWARD
 
 Gli Award sono titoli onorifici che gli eroi dell'impero celeste
-possono guadagnare durante le loro avventure o come speciale concessione
-degli dei.
+possono guadagnare durante le loro avventure o come speciale 
+concessione degli dei.
 
 Tali titoli possono essere PUBLIC (indicati pubblicamente da alcuni mob),
 GOOD, EVIL, NEUTRAL o SHAMEFUL. Alcuni award sbloccano la possibilita'
 di poter usufruire delle skill derivate dai MESTIERI, altri possono dare
-luogo a azioni di parte di MOB e attivare procedure speciali in alcune aree.
+luogo a azioni di parte di MOB e attivare procedure speciali in alcune 
+aree.
 
 Per vedere quali titoli sono stati sbloccati dal tuo personaggio, basta 
 usare il comando "AWARD". Per vedere la lista dei titoli al momento 
@@ -14067,9 +14068,10 @@ NOME NOMI
 
 Per giocare nel mondo di Tempora Sanguinis 2 e' importante scegliere un
 nome che rispecchi i canoni del Medieval RPG. Nomi inappropriati, non
-allineati all'ambientazione di Tempora Sanguinis 2, gia' presenti su NPC di 
-aree del gioco o semplicemente legati a marchi registrati, sono vietati.
-Gli amministratori si riservano la possibilita' di modificare il nome dei PG.
+allineati all'ambientazione di Tempora Sanguinis 2, gia' presenti su NPC 
+di aree del gioco o semplicemente legati a marchi registrati, sono 
+vietati. Gli amministratori si riservano la possibilita' di modificare il
+nome dei PG.
 
 Vedi anche: AVATAR, NEWBIE, MUD
 
@@ -14078,17 +14080,18 @@ MINE MINATORE
 
 Skill per: Tutti
 
-Questa abilita' permette all'avventuriero di scavare alla ricerca di materiale
-piu' o meno preziosi, utili anche per l'arte alchemica. Per scavare la roccia 
-e' necessario avere un apposito piccone e trovarsi in una locazione appropriata
-(miniera, collina, montagna o tunnel). Questo mestiere puo' essere imparato
-presso le miniere nei territori dei nani di Gilimdor. 
+Questa abilita' permette all'avventuriero di scavare alla ricerca di 
+materiale piu' o meno preziosi, utili anche per l'arte alchemica. Per 
+scavare la roccia e' necessario avere un apposito piccone e trovarsi in 
+una locazione appropriata (miniera, collina, montagna o tunnel). Questo 
+mestiere puo' essere imparato presso le miniere nei territori dei nani di 
+Gilimdor. 
 
-E' necessario avere in mano un piccone prima di procedere allo scavo, tramite
-il comando MINE.
+E' necessario avere in mano un piccone prima di procedere allo scavo, 
+tramite il comando MINE.
 
-Con questa tecnica si possono trovare tesori e persino cristalli. In alternativa, 
-il materiale raccolto puo' essere utilizzato nell'alchimia.
+Con questa tecnica si possono trovare tesori e persino cristalli. In 
+alternativa, il materiale raccolto puo' essere utilizzato nell'alchimia.
 
 La skill migliora anche grazie agli attributi FORZA e COSTITUZIONE.
 
@@ -14100,15 +14103,16 @@ ALCHIMIA ALCHIMISTA
 
 Skill per: Tutti
 
-Questa abilita' permette all'avventuriero di padroneggiare l'arte dell'alchimia.
-Attraverso l'apprendimento di diverse ricette, e' possibile ottenere potenti 
-pozioni, artefatti e polveri magiche. Questo mestiere puo' essere imparato
-presso l'Accademia dei Sapienti, situata nel quartiere sud di Midia
+Questa abilita' permette all'avventuriero di padroneggiare l'arte 
+dell'alchimia. Attraverso l'apprendimento di diverse ricette, e' possibile 
+ottenere potenti pozioni, artefatti e polveri magiche. Questo mestiere puo' 
+essere imparato presso l'Accademia dei Sapienti, situata nel quartiere sud 
+di Midia
 
-E' necessario essere in un luogo adatto, dove sono presenti gli appositi strumenti
-alchemici come un crogiolo, un mortaio e un apparato alchemico. Una volta pronti
-sara' necessario studiare le ricette e predisporre gli ingredienti, preparandoli
-attraverso varie lavorazioni. 
+E' necessario essere in un luogo adatto, dove sono presenti gli appositi 
+strumenti alchemici come un crogiolo, un mortaio e un apparato alchemico. Una 
+volta pronti sara' necessario studiare le ricette e predisporre gli ingredienti, 
+preparandoli attraverso varie lavorazioni. 
 
 Gli ingredienti si possono ottenere pescando, scavando nelle miniere o tramite
 la lavorazione delle pelli delle varie creature. Altri ingredienti possono essere
@@ -14884,5 +14888,6 @@ Vedi anche: PERK, MEDAGLIE AL VALORE, SIGILLI DIVINI, RUNE, AWARDS, KARMA
 
 
 #~
+
 
 
