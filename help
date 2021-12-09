@@ -1,35 +1,32 @@
 
-TEMPORA SANGUINIS - HELP GENERICO
+Puoi trovare molte informazioni cercando la scheda di aiuto relativa
+all'argomento. Per vedere le ultime voci inserite o aggiornate, scrivi
+$c0009HELP AGGIORNAMENTI$c0007.
 
 -------------------------------------------------------------------------
-Comunicazione:                 | Movimento:
-    say ('), shout, tell,      |    north, south, east, west, up, down,
-    emote (:), ask, whisper,   |    enter, exits, follow, mount, ride,
+$c0011COMUNICAZIONE:$c0007                 | $c0011MOVIMENTO:$c0007
+    say, shout, tell,          |    north, south, east, west, up, down,
+    emote, ask, whisper,       |    enter, exits, follow, mount, ride,
     deafen, gossip, auction,   |    dismount, stand, rest, sit, sleep
     nogossip, noauction, sign, |    wake, unlock, lock, open, close,
     gtell, report, notell      |    run
 -------------------------------------------------------------------------
-Oggetti:                       | Combattimento:
+$c0011GESTIONE OGGETTI:$c0007              | $c0011COMBATTIMENTO:$c0007
     get, put, drop, wear,      |    kill, hit, backstab, kick, bash,
     wield, hold, grab, give,   |    flee, cast, wimp, assist, 
-    look, examine, eat, drink, |    recall (sorcer cast),berserk,
-    sip, taste, remove, pour,  |    bellow,warcry,blast,shoot,mind,
-    quaff,notch,load           |    fire
+    look, examine, eat, drink, |    recall, berserk, mind, play,
+    sip, taste, remove, pour,  |    bellow, warcry, blast, shoot, 
+    quaff, notch, load         |    fire
 -------------------------------------------------------------------------
-Informazioni:                  | Utilita':
+$c0011INFORMAZIONI:$c0007                  | $c0011UTILITA':$c0007
     score, attribute, world,   |    save, quit, !, brief, compact,
     news, info, inv, read,     |    typo, bug, idea, allspells, skill,
-    time, wizlist, display     |    prac,commands, set
-    who,gwho, eq               |
+    time, wizlist, display     |    prac, commands, set, rent, prompt,
+    who, gwho, eq              |    tips, accessibilita'
 -------------------------------------------------------------------------
 
-Per avere help su un argomento specifico, digitare HELP <argomento>.
-Per esempio:
-
-HELP BURNING HANDS
-HELP PALADINO
-HELP SCORE
-HELP LISTINO
- 
-Il Help di Tempora Sanguinis 2, e' disponibile anche nella BIBLIOTECA del
-sito ufficiale: http://www.noshout.it
+Per trovare la scheda di aiuto su un argomento specifico, usa il comando
+$c0009HELP$c0007 seguito dall'argomento che vuoi ricercare.
+Per esempio, digita $c0009HELP BURNING HANDS$c0007 per avere informazioni
+su questo incantesimo oppure $c0009HELP PALADINO$c0007 per conoscere 
+questa classe.
