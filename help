@@ -7,7 +7,7 @@ $c0008+-------------------------------+---------------------------------------+
 $c0008| $c0015COMUNICAZIONE:$c0008                | $c0015MOVIMENTO:$c0008                            |
 $c0008| $c0007  say, shout, tell,           $c0008|   $c0007north, south, east, west, up,$c0008       |
 $c0008| $c0007  emote, ask, whisper,        $c0008|   $c0007down, enter, exits, mount, ride,$c0008    |
-$c0008| $c0007  deafen, gossip, auction,    $c0008|   $c0007dismount, stand, rest, sit, sleep,$c0008  |
+$c0008| $c0007  deafen, gossip, auction,    $c0008|   $c0007dismount, stand, rest, sleep,$c0008       |
 $c0008| $c0007  nogossip, noauction, sign,  $c0008|   $c0007wake, unlock, lock, open, close,$c0008    |
 $c0008| $c0007  gtell, report, notell, ot   $c0008|   $c0007run, follow, group, mappa$c0008           | 
 $c0008+-------------------------------+---------------------------------------+
@@ -19,9 +19,9 @@ $c0008| $c0007  sip, taste, remove, pour,   $c0008|   $c0007bellow, warcry, blas
 $c0008| $c0007  quaff, notch, load          $c0008|   $c0007fire, throw$c0008                         |
 $c0008+-------------------------------+---------------------------------------+
 $c0008| $c0015INFORMAZIONI:$c0008                 | $c0015UTILITA':$c0008                             |
-$c0008| $c0007  score, attribute, world,    $c0008|   $c0007save, quit, !, brief, compact,$c0008      |
-$c0008| $c0007  news, info, inv, read,      $c0008|   $c0007typo, bug, idea, allspells, skill,$c0008  |
-$c0008| $c0007  time, wizlist, display      $c0008|   $c0007prac, commands, set, rent, prompt,$c0008  |
-$c0008| $c0007  who, gwho, eq               $c0008|   $c0007tips, set, accessibilita', whistle$c0008  |
+$c0008| $c0007  score, attribute, world,    $c0008|   $c0007save, quit, tips, brief, compact,$c0008   |
+$c0008| $c0007  news, info, inv, read,      $c0008|   $c0007typo, bug, allspells, skill,$c0008        |
+$c0008| $c0007  time, wizlist, display      $c0008|   $c0007prac, commands, set, rent,        $c0008  |
+$c0008| $c0007  who, gwho, eq, prompt       $c0008|   $c0007accessibilita', whistle$c0008             |
 $c0008+-------------------------------+---------------------------------------+
 
