@@ -1,32 +1,27 @@
 
-Puoi trovare molte informazioni cercando la scheda di aiuto relativa
-all'argomento. Per vedere le ultime voci inserite o aggiornate, scrivi
-$c0009HELP AGGIORNAMENTI$c0007.
-
--------------------------------------------------------------------------
-$c0011COMUNICAZIONE:$c0007                 | $c0011MOVIMENTO:$c0007
-    say, shout, tell,          |    north, south, east, west, up, down,
-    emote, ask, whisper,       |    enter, exits, follow, mount, ride,
-    deafen, gossip, auction,   |    dismount, stand, rest, sit, sleep
-    nogossip, noauction, sign, |    wake, unlock, lock, open, close,
-    gtell, report, notell      |    run
--------------------------------------------------------------------------
-$c0011GESTIONE OGGETTI:$c0007              | $c0011COMBATTIMENTO:$c0007
-    get, put, drop, wear,      |    kill, hit, backstab, kick, bash,
-    wield, hold, grab, give,   |    flee, cast, wimp, assist, 
-    look, examine, eat, drink, |    recall, berserk, mind, play,
-    sip, taste, remove, pour,  |    bellow, warcry, blast, shoot, 
-    quaff, notch, load         |    fire
--------------------------------------------------------------------------
-$c0011INFORMAZIONI:$c0007                  | $c0011UTILITA':$c0007
-    score, attribute, world,   |    save, quit, !, brief, compact,
-    news, info, inv, read,     |    typo, bug, idea, allspells, skill,
-    time, wizlist, display     |    prac, commands, set, rent, prompt,
-    who, gwho, eq              |    tips, accessibilita'
--------------------------------------------------------------------------
-
 Per trovare la scheda di aiuto su un argomento specifico, usa il comando
 $c0009HELP$c0007 seguito dall'argomento che vuoi ricercare.
-Per esempio, digita $c0009HELP BURNING HANDS$c0007 per avere informazioni
-su questo incantesimo oppure $c0009HELP PALADINO$c0007 per conoscere 
-questa classe.
+Per vedere le ultime voci aggiornate, scrivi $c0009HELP AGGIORNAMENTI$c0007.
+
+-------------------------------------------------------------------------
+| $c0011COMUNICAZIONE:$c0007                | $c0011MOVIMENTO:$c0007                            |
+| $c0008  say, shout, tell,           $c0007|   $c0008north, south, east, west, up,      $c0007 |
+| $c0008  emote, ask, whisper,        $c0007|   $c0008down, enter, exits, mount, ride,   $c0007 |
+| $c0008  deafen, gossip, auction,    $c0007|   $c0008dismount, stand, rest, sit, sleep  $c0007 |
+| $c0008  nogossip, noauction, sign,  $c0007|   $c0008wake, unlock, lock, open, close,   $c0007 |
+| $c0008  gtell, report, notell, ot   $c0007|   $c0008run, follow, group, mappa          $c0007 | 
+-------------------------------------------------------------------------
+| $c0011GESTIONE OGGETTI:$c0007             | $c0011COMBATTIMENTO:$c0007                        |
+| $c0008  get, put, drop, wear,       $c0007|   $c0007kill, hit, backstab, kick, bash,    $c0007|
+| $c0008  wield, hold, grab, give,    $c0007|   $c0007flee, cast, wimp, assist,           $c0007|
+| $c0008  look, examine, eat, drink,  $c0007|   $c0007recall, berserk, mind, play,        $c0007|
+| $c0008  sip, taste, remove, pour,   $c0007|   $c0007bellow, warcry, blast, shoot,       $c0007|
+| $c0008  quaff, notch, load          $c0007|   $c0007fire, throw                         $c0007|
+-------------------------------------------------------------------------
+| $c0011INFORMAZIONI:$c0007                 | $c0011UTILITA':$c0007                             |
+| $c0008  score, attribute, world,    $c0007|   $c0008save, quit, !, brief, compact,      $c0007|
+| $c0008  news, info, inv, read,      $c0007|   $c0008typo, bug, idea, allspells, skill,  $c0007|
+| $c0008  time, wizlist, display      $c0007|   $c0008prac, commands, set, rent, prompt,  $c0007|
+| $c0008  who, gwho, eq               $c0007|   $c0008tips, set, accessibilita', whistle  $c0007|
+-------------------------------------------------------------------------
+
