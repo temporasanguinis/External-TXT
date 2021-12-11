@@ -19,9 +19,9 @@ $c0008| $c0007  sip, taste, remove, pour,   $c0008|   $c0007bellow, warcry, blas
 $c0008| $c0007  quaff, notch, load          $c0008|   $c0007fire, throw$c0008                         |
 $c0008+-------------------------------+---------------------------------------+
 $c0008| $c0015INFORMAZIONI:$c0008                 | $c0015UTILITA':$c0008                             |
-$c0008| $c0007  score, attribute, world,    $c0008|   $c0007save, quit, tips, brief, compact,$c0008   |
+$c0008| $c0007  score, attribute, world,    $c0008|   $c0007save, tips, brief, compact,$c0008         |
 $c0008| $c0007  news, info, inv, read,      $c0008|   $c0007typo, bug, allspells, skill,$c0008        |
-$c0008| $c0007  time, wizlist, display      $c0008|   $c0007prac, commands, set, rent,        $c0008  |
+$c0008| $c0007  time, wizlist, display      $c0008|   $c0007commands, set, rent,              $c0008  |
 $c0008| $c0007  who, gwho, eq, prompt       $c0008|   $c0007accessibilita', whistle$c0008             |
 $c0008+-------------------------------+---------------------------------------+
 
