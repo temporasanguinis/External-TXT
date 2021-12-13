@@ -11,7 +11,8 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
 
 --- Modifiche della versione 2.21.12.13 ------------------------------
-- DARKNESS (aggiornato), DETECT MAGIC (aggiornato)
+- DARKNESS (aggiornato), DETECT MAGIC (aggiornato), FAMIGLI (aggiornato),
+  PRAY (aggiornato)
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -79,8 +80,8 @@ e per consultarlo e' sufficiente digitare:
 
 Il codice esegue una ricerca sequenziale nel database della parola
 corrispondente  all'argomento  richiesto. Questo significa che per
-cercare,  ad  esempio,  informazioni sullo  spell armor,  verranno
-accettate le richieste 'help armor' 'help arm' ma non 'help arm '.
+cercare,  ad  esempio,  informazioni sullo  spell ARMOR,  verranno
+accettate le richieste 'HELP ARMOR' 'HELP ARM' ma non 'HELP ARM '.
 Possono esserci delle accezioni simili, o che compaiono piu' volte
 nel database.  In questo caso,  viene visualizzato  il primo testo
 trovato;  tuttavia,  se  non e'  quello giusto,  in genere compare
@@ -665,9 +666,9 @@ inesplorate.  Tuttavia, e' possibile tracciare una mappa delle sue
 regioni centrali:
 
   [Monastero dei monaci]                        ...       [Regno dei nani]
-             \                                   |          ...  /
-              \                      ...         |            \ /
-               \                      |     [ Miniere  ]       o
+              \                                  |          ...  /
+         [Citta' di Comp]            ...         |            \ /
+                 |                    |     [ Miniere  ]       o
   ...        [Contea]---...           |     [di Falrhun]       |
     \            |                    |          |  [Camelot]  |
      \           |[isola del destino] |          | /           |
@@ -790,7 +791,7 @@ Vedi anche: FEIGN DEATH, PSYCHIC IMPERSONATION
 #
 GROUP GROUPING GRUPPO
 
-$c0015Uso$c0015 : GROUP [giocatore]
+$c0015Uso$c0015 : GROUP <nome giocatore>
 
 Il comando  GROUP serve per  formare e vedere  lo stato di un gruppo. Se
 dato senza argomenti, fornisce un resoconto di tutti i membri del gruppo
@@ -1017,43 +1018,31 @@ Per i Ranger:
 
 Alcuni posti adatti a cominciare:
 
-La Scacchiera : Dal  Centro  Commerciale:  s, w, w, w, w.  Qui  trovi
+$c0009La Scacchiera$c0007 : Dal  Centro  Commerciale:  s, w, w, w, w.  Qui  trovi
                 Sisyphus, il guardiano della scacchiera. L'entrata e'
-                verso ovest.
+                verso ovest. $c0009(livello: 5-10)$c0007
                 Qui  ci  sono mobs per tutti i primi livelli, e hanno
                 anche dell'equipaggiamento buono per cominciare.
-Midia         : I  cani e i  pipistrelli  pagano bene  in xp ai primi
-                livelli.  Fai attenzione  alle  guardie,  pero',  non
-                combattere se sono nelle vicinanze.
-Spider Haunt  : E' la foresta  dei ragni a sud di Midia, sulla strada
-                del  Sud.  Qui e'  consigliabile  non essere soli, ma
-                gia' in due il posto e' ottimo per i combattimenti.
-Foresta elfica: E' la foresta degli  elfi,  divisa in due  parti.  La
+$c0009Foresta elfica$c0007: E' la foresta degli  elfi,  divisa in due  parti.  La
                 prima parte, quella adatta ai newbie, la si raggiunge
                 andando otto volte a west dal Centro Commerciale. Poi
-                due nord e ancora una west.
-Vulcano White : E' una zona montagnosa ottima per gruppi di giocatori
-Plume           intorno al quinto livello.  La si raggiunge risalendo
-                verso west il fiume a sud della Gilda degli Psionici.
-                Avrai bisogno di una imbarcazione.
-Estensioni    : Sono le rovine di Midia, buone per personaggi intorno
-del tempio      al quinto livello.  Le si raggiunge  andando ad ovest
-                dall' Altare.
-Falrhun       : Le miniere di Falrhun son piene di goblin, orchetti e
-                koboldi.  Ottime per i paladini e i ranger che devono
-                restare buoni. Sono subito a nord/est di Midia.
-Shire         : A Nord/West di Midia c'e' la regione dove abitano gli
+                due nord e ancora una west. $c0009(livello: 10-25)$c0007
+$c0009Estensioni$c0007    : Sono le stanze del tempio di Midia per personaggi di
+$c0009del tempio$c0007      livello 5-15.  Le si raggiunge andando ad ovest
+                dall'altare del tempio. $c0009(livello: 5-15)$c0007
+$c0009Falrhun$c0007       : Le miniere di Falrhun son piene di goblin, orchetti e
+                koboldi. Sono subito a nord/est di Midia.
+				$c0009(livello: 8-20)$c0007
+$c0009Mirkwood$c0007      : A Nord/West di Midia c'e' la regione dove abitano gli
                 halflings.  Buoni per i personaggi attorno all'ottavo
-                livello.
-Monastero dei : Il Monastero dei Monaci, a nord degli Shire.  Oltre a
-Monaci          diversi  monaci piu' o meno forti, il Monastero offre
-                anche un piccolo dungeon, basta scovare l'entrata.
-Campi d'      : Sono arene create apposta per  poter fare pratica  ed
-Addestramento   imparare bene le  tecniche di gioco.   All'interno si
+                livello. $c0009(livello: 8-15)$c0007
+$c0009Campi d'$c0007      : Sono arene create apposta per  poter fare pratica  ed
+$c0009Addestramento$c0007   imparare bene le  tecniche di gioco.   All'interno si
                 possono trovare avversari di livello da 1 a 25/30.
                 Inoltre,  si  dice  che  dentro  ci  sia  un  qualche
                 passaggio segreto... Li si raggiunge andando a Sud da
-                Midia, e poi scendendo alla prima strada.
+                Midia, e poi scendendo alla prima strada. 
+				$c0009(livello: 15-25)$c0007
 
 #
 "DANNI DEI MONACI"
@@ -4402,11 +4391,11 @@ I Maghi, i Chierici, e chiunque altro faccia uso della Magia puo'
 lanciare  un incantesimo di sua  conoscenza attraverso il comando
 CAST. La sintassi generale e':
 
-   cast 'incantesimo' <vittima>
+   cast <incantesimo> <vittima>
 
 La parola CAST va messa per prima;  il nome dell'incantesimo deve
 essere scritto tra gli apici, che sono obbligatori. Il nome della
-Magia si puo' scrivere troncato, ma deve essere comunque compreso
+Magia si puo' scrivere troncato, puo' essere anche compreso
 tra due apici:  ad esempio,  sono corrette  ed analoghe  le forme
 <cast 'disintegrate'  goblin>  e  <cast 'disint' goblin>,  mentre
 <cast 'disintegrate goblin>  e' un  comando illecito,  e pertanto
@@ -4417,12 +4406,18 @@ stessi,  mentre  altri  influenzano  il  mondo e non  una persona
 specifica,  altri  ancora  agiscono  su tutti  i presenti,  senza
 differenze: in questi casi, la sintassi e' semplicemente:
 
-   cast 'incantesimo'
+   cast 'incantesimo' 
+   
+       oppure 
+   
+   cast incantesimo
 
 Per  avere  informazioni  riguardo  ciascun  incantesimo,  basta
 consultare l'Help relativo. Per gli Stregoni, invece, il comando
 da usare per lanciare  incantesimi e'  RECALL; per gli Psionici,
 il comando corretto e' MIND.
+
+$c0009Il comando CAST puo' essere sostituito dal simbolo +$c0007
 
 Vedi anche: RECALL, MIND, PLAY
 
@@ -5707,7 +5702,11 @@ $c0012Costo in mana$c0012 : 5$c0007
 Per mezzo di quest'incantesimo, il caster diventa capace di
 vedere la'aura luminosa emessa dagli oggetti magici.
 
-Vedi anche: TRUE SIGHT
+Se un nemico e' avvolto dall'oscurita' tramite l'incantesimo
+DARKNESS, DETECT MAGIC permettera' di vedere quali altri 
+incantesimi sono attivi (scudi elementali, blink, protezioni...).
+
+Vedi anche: TRUE SIGHT, DARKNESS
 
 #
 "DETECT POISON"
@@ -7015,7 +7014,7 @@ lanciare con:
 La forza dell'incantesimo verra' liberata, ma l'incantesimo
 sara' dimenticato, ed andra' rimemorizzato.
  
-Vedi anche: CAST, STREGONE, MEMORIZE, FORGET
+Vedi anche: CAST, STREGONE, MEMORIZE, FORGET, +
 
 #
 "FIND FOOD"
@@ -7566,14 +7565,34 @@ rimangono non ascoltate. Avere un karma alto, aiuta il giocatore nelle
 preghiere.
 Si puo pregare anche nella Stanza delle Preghiere a Midia, senza dover
 rivolgere le preghiere ad un Dio in particolare.
+
 Ci sono preghiere predefinite con le quali e' possibile ottenere dei
 favori:
-pray casa - si puo' usare fino al livello 15, porta il personaggio
-nel luogo in cui e' entrato in gioco l'ultima volta.
-pray aiuto - per livelli fino al 20, fatto in sala delle preghiere
-riporta il corpo con l'eq.
-pray recall - per tutti ma richiede 1 punto karma, e' come il pray
-casa, non e' possibile usarlo da morrowindl dopo aver usato il loden.
+
+$c0011- PRAY CASA$c0007 - si puo' usare fino al livello 15, porta il personaggio
+	nel luogo in cui e' entrato in gioco l'ultima volta.
+$c0011- PRAY AIUTO$c0007 - per livelli fino al 20, fatto in sala delle preghiere
+	riporta il corpo con l'eq.
+$c0011- PRAY RECALL$c0007 - porta il personaggio nel luogo in cui e' entrato
+	in gioco l'ultima volta. Non e' possibile usarlo da morrowindl dopo aver
+	usato il loden. Costo: 1 medaglia al valore
+
+$c0009NUOVE PREGHIERE$c0007
+
+$c0011- PRAY GARD$c0007 - riservata ai chierici monoclasse, permette
+	al chierico di proteggere tutto il suo gruppo con l'incantesimo
+	SANCTUARY.
+$c0011- PRAY VERTUS$c0007 - riservata ai druidi monoclasse, permette
+	al druido di proteggere tutto il suo gruppo con l'incantesimo
+	NATURES PROTECTION.
+$c0011- PRAY NIRVANA$c0007 - riservata ai monaci, permette
+	al monaco di interrompere il combattimento nell'area e 
+    ottenere vari bonus.
+$c0011- PRAY ELEMENTS$c0007 - permette di ottenere EXTRA RES al 50% per
+    tutti gli elementi. Costo: 1 medaglia al valore.
+
+$c0009PREGHIERE A KARMA$c0007 
+
 pray sanguinarius - richiede 1 punto karma, sanctuary da 70 tick
 pray nisamer - richiede 2 punti karma, ripristino di hp move e mana,
 sanctuary e fireshield da 70 tick, aid, bless, strenght, sense life,
@@ -7583,8 +7602,6 @@ pray naitamer - richiede 1 punto karma recitato fuori combat acid
 shield da 70 tick, recitato in combat acid storm di livello 70 
 contro l'avversario
 pray shadowdance - richiede 1 punto karma, energy shield da 70 tick.
-pray gard - riservata ai chierici monoclasse
-pray vertus - riservata ai druidi monoclasse
 
 Al momento il sistema di preghiere a costo di punti karma e' in fase 
 di revisione e tali punti non sono piu' ottenibili tramite quest.
@@ -13085,7 +13102,7 @@ e da intelligenza, saggezza e carisma naturali.
 E' possibile solo raccogliere gli oggetti, non si puo' farseli dare da altri
 o comprarli all'asta, e una volta raccolti, non si potranno indossare, ne'
 mettere in contenitori, ne' vendere all'asta, ne' portare in locanda. Allo
-scadere dell'effetto, cadranno a terra.
+scadere dell'effetto gli oggetti non cadranno a terra.
 N.B. la skill non migliora con l'uso, ma solo praticandola dal guildmaster.
 
 Vedi anche: BARBARO
@@ -14856,12 +14873,15 @@ $c0006La foresta di Mirkwood (Trad. by Nalith):
 Vedi anche: CARTINA MONDO, CARTINA MIDIA, ACCESSIBILITA'
 
 #
-WHISLTE FISCHIA FAMIGLI
+WHISTLE FISCHIA FAMIGLI FAMIGLIO
 
-Digitando il comando WHISTLE all'aperto, potreste essere sorpresi dall'arrivo di un'aiutante che raccogliera' 
-per voi i tesori e gli oggetti che troverai sconfiggendo i nemici.
+Digitando il comando WHISTLE all'aperto, potreste essere sorpresi dall'arrivo di un'aiutante che 
+raccogliera' per voi i tesori e gli oggetti che troverai sconfiggendo i nemici.
 I bardi con un alto livello di MUSICPOWER ottengono un famiglio piu' potente con abilita' aggiuntive.
 Il famiglio potra' essere liberato dall'incantesimo utilizzando il comando ADDIO.
+
+Alcuni famigli possono essere acquistati con SIGILLI DIVINI tramite uno specifico venditore a Midia o 
+acquisiti tramite speciali missioni. Alcuni di questi possono avere poteri aggiuntivi.
 
 Vedi anche: MONSUM, FOLLOWERS
 
