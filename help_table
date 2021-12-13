@@ -3,12 +3,16 @@ EMPTY SLOT
 #
 HELP AGGIORNAMENTI AGGIORNAMENTO NOVITA'
 
-Ultimo aggiornamento: 3 maggio 2021 a cura di Nalith, Yffre e Traxter
+Ultimo aggiornamento: 13 dicembre 2021 a cura di Nalith, Yffre e Traxter
 
 L'Help di Tempora Sanguinis e' curato da Martinus e da Nalith.
 Se riscontrate errori, incongruenze, o desiderate proporre
 un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
+
+--- Modifiche della versione 2.21.12.13 ------------------------------
+- DARKNESS (aggiornato), DETECT MAGIC (aggiornato)
+
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
 - Aggiunte: MESTIERI, HEALING RAIN, FISHING, TAN (aggiornato), 
@@ -7468,9 +7472,11 @@ al pieno delle sue capacita'. L'incantesimo migliora del 10% le possibilita'
 di nascondersi tra le ombre con l'abilita' HIDE.
 
 Un altro utilizzo di questo spell nasce dal fatto che esso copre gli
-effetti del SANCTUARY e del FIRESHIELD da chi osserva.
+effetti del SANCTUARY e del FIRESHIELD da chi osserva. Soltando tramite
+l'utilizzo di DETECT MAGIC potranno essere percepiti gli incantesimi 
+attivi su colui che e' nascosto dall'oscurita'
 
-Vedi anche: SANCTUARY, FIRESHIELD, DROW
+Vedi anche: SANCTUARY, FIRESHIELD, DROW, DETECT MAGIC
  
 #
 "MINOR INVULNERABILITY"
