@@ -11,8 +11,10 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
 
 --- Modifiche della versione 2.21.12.13 ------------------------------
-- DARKNESS (aggiornato), DETECT MAGIC (aggiornato), FAMIGLI (aggiornato),
-  PRAY (aggiornato)
+- DARKNESS (aggiornato), DETECT MAGIC (aggiornato), MIND (aggiornato),
+  PRAY (aggiornato), CAST (aggiornato), +, RECALL (aggiornato), CHAOS
+  (aggiornato), BASH (aggiornato), TICK, ROUND, FAMIGLI (aggiornato),
+  GROUP (aggiornato)
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -791,7 +793,7 @@ Vedi anche: FEIGN DEATH, PSYCHIC IMPERSONATION
 #
 GROUP GROUPING GRUPPO
 
-$c0015Uso$c0015 : GROUP <nome giocatore>
+Sintassi: GROUP <nome giocatore>
 
 Il comando  GROUP serve per  formare e vedere  lo stato di un gruppo. Se
 dato senza argomenti, fornisce un resoconto di tutti i membri del gruppo
@@ -820,7 +822,7 @@ $c0009Comandi speciali del Capogruppo: $c0007
 E' possibile vedere i ruoli assegnati tramite il comando GROUP, che restituira'
 anche gli spell attivi e le percentuali di HP, MANA e MOV dei PG.
 
-Il primo personaggio aggiunto al gruppo, ne diventera' vicecapo. Alla
+Il primo personaggio aggiunto al gruppo, ne diventera' VICECAPO. Alla
 morte del capogruppo ne prendera' il posto.
 
 Per quanto riguarda la spartizione dei sigilli tra personaggi, la 
@@ -843,7 +845,7 @@ al momento del colpo finale.
 
 Ci sono alcune novita' introdotte per incoraggiare il gruppaggio:
 1) il Capogruppo prende il 5% di xp bonus su mob per ogni pc nel suo gruppo.
-2) i 'seguaci' prendono il 3% di xp in piu' (per ogni pG).
+2) i seguaci prendono il 3% di xp in piu' (per ogni PG).
 
 Esempio di gruppaggio:
 
@@ -4294,32 +4296,39 @@ Se invece si riesce nell'attacco, e' l'avversario che finisce in terra
 e  per due  round  non potra'  dare nessun  comando.  L'importanza del
 bash si  rivela  fondamentale  quando  l'avversario da  uccidere e' un
 caster:  infatti, non e'  possibile  lanciare  nessun  incantesimo  se
-si e' in posizione seduta.  La buon riuscita  di una spallata  dipende
-dalla destrezza del guerriero, da quanto si e' imparata l'abilita',  e
-dal numero e dalla mole degli oggetti che  si hanno in inventario.  Ci 
-sono alcuni oggetti nell'Impero che  permettono di avere dei bonus  su
-questa abilita'.
+si e' in posizione seduta.  
+La buon riuscita di una spallata dipende dalla destrezza del guerriero, 
+da quanto si e' imparata l'abilita', dalla destrezza e dal livello dell'
+avversario, oltre al numero e alla mole degli oggetti che si hanno in 
+inventario.  Ci sono alcuni oggetti nell'Impero che  permettono di avere 
+dei bonus  su questa abilita'.
 
-Nota: Il bash puo'  essere effettuato solo  se chi lo esegue e'  della
-stessa taglia di chi lo  riceve (un gigante su un  umano, per esempio,
-ma non un umano su un gigante). Questo e' vero solo per i pg e non per
-i  mob (che  possono  indifferentemente bashare  anche personaggi piu'
-grossi di loro).  Esiste pero'  un'altra abilita', chiamata TRIP,  che
-permette a chi non e' gigante di sbattere a terra anche gli  avversari
-piu' grossi. Un caso particolare  sono i BROWNIE, essi sono immuni  al
-bash, a meno che non venga fatto da un altro BROWNIE.
+I guerrieri monoclasse hanno un bonus aggiuntivo, riuscendo ad atterrare
+i nemici con maggiore facilita'.
+
+I personaggi e i MOB di razza BROWNIE sono immuni al bash, a meno che 
+non venga fatto da un altro BROWNIE.
 
 Gli effetti della skill dipendono dalla forza del personaggio:
-- Forza 19: il bash potra'  atterrare il nemico 1 o 2 round ma  il lag 
-  per il personaggio sara' sempre di 2 round.
-- Forza 20: il bash atterreta' l'avversario  almeno per 2 o 3 round ma
-  per il personaggio sara' sempre di 2 round.
-- Forza 21: il bash ha la possibilita' di fare  svenire  il nemico per
-  l'impatto.
-- Forza 24: il  titano,  vista  la  sua  immensa  forza,  ha  migliori 
-  possibilita' di fare svenire il nemico.
+- FINO A FORZA 19: il bash potra' atterrare il nemico di 1 o 2 ROUND,
+  ma il LAG per il personaggio sara' sempre di 2 ROUND.
+- FORZA 20: il bash atterreta' l'avversario per 2 ROUND ma
+  per il personaggio il LAG sara' sempre di 2 ROUND.
+- FORZA 21: il bash ha la possibilita' di fare svenire il nemico per
+  l'impatto. Il bash atterreta' l'avversario per 2 o 3 ROUND ma
+  per il personaggio il LAG sara' sempre di 2 ROUND.
+- FORZA 24: il titano, vista la sua immensa forza, ha migliori 
+  possibilita' di fare svenire il nemico. Il bash atterreta' 
+  l'avversario per 2 o 3 ROUND ma per il personaggio il LAG sara' 
+  sempre di 2 ROUND.
+  
+Se il combattente e' un monoclasse e ha imparato le abilita' di 
+MELEE COMBAT, al posto di subire 2 ROUND di LAG dopo aver eseguito
+il bash, avra' un solo ROUND di LAG e uno di COOLDOWN nel quale non 
+potra' comunque usare la skill, ma potra' sfruttare altri 
+attacchi o abilita'.
 
-Vedi anche: KICK, TRIP, BROWNIE
+Vedi anche: KICK, TRIP, BROWNIE, LAG, COOLDOWN, MELEE COMBAT
 
 #
 RESCUE
@@ -4391,33 +4400,55 @@ I Maghi, i Chierici, e chiunque altro faccia uso della Magia puo'
 lanciare  un incantesimo di sua  conoscenza attraverso il comando
 CAST. La sintassi generale e':
 
-   cast <incantesimo> <vittima>
+   > cast <incantesimo> <vittima>
 
-La parola CAST va messa per prima;  il nome dell'incantesimo deve
-essere scritto tra gli apici, che sono obbligatori. Il nome della
-Magia si puo' scrivere troncato, puo' essere anche compreso
-tra due apici:  ad esempio,  sono corrette  ed analoghe  le forme
-<cast 'disintegrate'  goblin>  e  <cast 'disint' goblin>,  mentre
-<cast 'disintegrate goblin>  e' un  comando illecito,  e pertanto
-verra' ignorato.  L'opzione <vittima>,  ovvero la persona  su chi
-deve essere lanciato  l'incantesimo,  a volte non va specificata,
-poiche' alcuni  incantesimi  possono essere  lanciati solo  su se
-stessi,  mentre  altri  influenzano  il  mondo e non  una persona
-specifica,  altri  ancora  agiscono  su tutti  i presenti,  senza
-differenze: in questi casi, la sintassi e' semplicemente:
+Il nome dell'incantesimo puo' essere scritto tra gli apici e 
+puo' essere scritto troncato: sono corrette ed analoghe le forme 
+<cast disintegrate  goblin> e  <cast 'disint' goblin>, mentre 
+la forma <cast 'disintegrate goblin> e' un  comando incompleto, 
+e pertanto verra' ignorato. 
+La <vittima> e' la persona oggetto dell'incantesimo. Quando si e'
+in combattimento, se non specificata, l'incantesimo verra' lanciato
+contro il nemico contro cui il gruppo o il personaggio si sta
+scontrando. 
+Alcuni incantesimi possono essere lanciati solo su se stessi,  
+mentre altri influenzano il mondo circostante e non una persona
+specifica, altri ancora agiscono su tutti i presenti, senza
+differenze. In questi casi, la sintassi e' semplicemente:
 
-   cast 'incantesimo' 
+   > cast 'incantesimo' 
    
-       oppure 
+   oppure 
    
-   cast incantesimo
+   > cast incantesimo
 
-Per  avere  informazioni  riguardo  ciascun  incantesimo,  basta
+L'incantesimo puo' essere abbreviato e quando composto da due 
+diverse parole, si puo' usare il simbolo $c0009-$c0007 tra di esse.
+L'incantesimo SHIELD ROOM puo' essere abbreviato in questo modo:
+
+  > cast sh-ro
+  
+  oppure
+  
+  > cast 'shield-r'
+
+Per avere informazioni riguardo a ciascun incantesimo, basta
 consultare l'Help relativo. Per gli Stregoni, invece, il comando
-da usare per lanciare  incantesimi e'  RECALL; per gli Psionici,
-il comando corretto e' MIND.
+da usare per lanciare incantesimi e' RECALL; per gli Psionici,
+il comando corretto e' MIND. Le canzoni dei bardi possono essere
+suonate con il comando PLAY.
 
-$c0009Il comando CAST puo' essere sostituito dal simbolo +$c0007
+Il comando CAST puo' essere sostituito dal simbolo $c0009+$c0007.
+Per lanciare gli incantesimi non sono piu' necessari gli 
+$c0009apici$c0007.
+
+Ad esempio per lanciare un incantesimo di KNOW MONSTER, si puo'
+ora scrivere:
+
+  > cast 'know monster' <vittima>
+  > cast know-monster <vittima>
+  > cast k-mon <vittima>
+  > + kn-mo <vittima>
 
 Vedi anche: RECALL, MIND, PLAY
 
@@ -7009,10 +7040,24 @@ incantesimi che hanno memorizzato. Una volta  che si ha  in
 memoria,  ad esempio,  lo  spell  'acid blast', lo si  puo' 
 lanciare con:
 
- > recall 'acid blast' <vittima>
+  > recall 'acid blast' <vittima>
+  
+  oppure
+  
+  > recall acid-blast <vittima>
 
 La forza dell'incantesimo verra' liberata, ma l'incantesimo
 sara' dimenticato, ed andra' rimemorizzato.
+
+L'incantesimo puo' essere abbreviato e quando composto da due 
+diverse parole, si puo' usare il simbolo $c0009-$c0007 tra di esse.
+L'incantesimo SHIELD ROOM puo' essere abbreviato in questo modo:
+
+  > recall sh-ro
+  
+  oppure
+  
+  > recall 'shield-r'
  
 Vedi anche: CAST, STREGONE, MEMORIZE, FORGET, +
 
@@ -7573,23 +7618,23 @@ $c0011- PRAY CASA$c0007 - si puo' usare fino al livello 15, porta il personaggio
 	nel luogo in cui e' entrato in gioco l'ultima volta.
 $c0011- PRAY AIUTO$c0007 - per livelli fino al 20, fatto in sala delle preghiere
 	riporta il corpo con l'eq.
-$c0011- PRAY RECALL$c0007 - porta il personaggio nel luogo in cui e' entrato
-	in gioco l'ultima volta. Non e' possibile usarlo da morrowindl dopo aver
-	usato il loden. Costo: 1 medaglia al valore
 
 $c0009NUOVE PREGHIERE$c0007
 
 $c0011- PRAY GARD$c0007 - riservata ai chierici monoclasse, permette
 	al chierico di proteggere tutto il suo gruppo con l'incantesimo
-	SANCTUARY.
+	SANCTUARY. Costo in mana.
 $c0011- PRAY VERTUS$c0007 - riservata ai druidi monoclasse, permette
 	al druido di proteggere tutto il suo gruppo con l'incantesimo
-	NATURES PROTECTION.
+	NATURES PROTECTION. Costo in mana.
 $c0011- PRAY NIRVANA$c0007 - riservata ai monaci, permette
 	al monaco di interrompere il combattimento nell'area e 
     ottenere vari bonus.
 $c0011- PRAY ELEMENTS$c0007 - permette di ottenere EXTRA RES al 50% per
     tutti gli elementi. Costo: 1 medaglia al valore.
+$c0011- PRAY RECALL$c0007 - porta il personaggio nel luogo in cui e' entrato
+	in gioco l'ultima volta. Non e' possibile usarlo da morrowindl dopo aver
+	usato il loden. Costo: 1 medaglia al valore
 
 $c0009PREGHIERE A KARMA$c0007 
 
@@ -8521,7 +8566,10 @@ abilita'. La sintassi e' identica al CAST dei Maghi. Alcune skill
 come MINDSUMMON, REVERSION o PSIONIC BLAST, pero', hanno  comandi
 appositi e non usano il MIND.
 
-Vedi anche: PSIONICO, CAST, PLAY, RECALL
+Per lanciare gli incantesimi non sono piu' necessari gli 
+$c0009apici$c0007.
+
+Vedi anche: PSIONICO, CAST, PLAY, RECALL, +
 
 #
 SPECIALIZZAZIONE
@@ -13362,7 +13410,7 @@ migliorati grazie all'inserimento degli oggetti ARTIFACT, ovvero di
 specifici CRISTALLI che  ne possono migliorare  le caratteristiche,
 fino  a   livelli  addirittura   superiori  a   quelli  normalmente
 raggiungibili  tramite EDIT  del LISTINO  dei sigilli  divini. Nel
-corso  delle  tue  avventure nell'Impero  Celeste,  ti  capiterà di
+corso  delle  tue  avventure nell'Impero  Celeste,  ti  capitera' di
 trovare  nel corpo  degli avversari  sconfitti CRISTALLI  di vario
 genere  (forza,  vita,  potere,  spirito,  concentrazione,  salute,
 difesa,  rigenerazione,  salvezza). Tali  oggetti  possono a  volte
@@ -13969,7 +14017,7 @@ Gli scrigni funzionano con pergamene, pozioni, cristalli e gemme.
 Non accettano oggetti  NORENT  o con  costo di RENT a partire da 
 5000 monete e superiore, inclusi pergamene e pozioni create 
 tramite le skill BREW e SCRIBE.
-Uno scrigno potrà contenere solo un  tipo  di oggetto. Una volta 
+Uno scrigno potra' contenere solo un  tipo  di oggetto. Una volta 
 inserito un’oggetto,  lo  scrigno  non  e' piu' resettabile e si 
 potra' usare solo per quell’oggetto.
 Non si possono inserire oggetti con flag PERSONAL o AUTOPERSONAL
@@ -14042,7 +14090,7 @@ magica che agisce come un'aura intorno al gruppo di cui fa parte. Se
 la pioggia colpisce un personaggio ferito, provvedera' a curarlo ad 
 ogni round, alzando il suo valore di SAVE ALL.
 
-L'incantesimo può essere lanciato all'aperto, guarendo i feriti di 1d8
+L'incantesimo puo' essere lanciato all'aperto, guarendo i feriti di 1d8
 punti ferita ad ogni round. Se il druido si trova in una foresta, acquista 
 un bonus aggiuntivo basato sul suo livello di spellpower. 
 
@@ -14191,7 +14239,7 @@ offre la possibilita' di sferrare colpi finali che danneggiano fortemente il nem
 e lo gettano a terra.
 
 Vedi anche: BASH, KICK, GUERRIERO, BARBARO, MONACO, RANGER, PALADINO, ANTIPALADINO, LAG,
-            COOLDOWN
+            COOLDOWN, ROUND, TICK
 
 #
 AFFLIZIONI BLEEDING BURNING CHILLED SHOCKED CORRODED
@@ -14233,19 +14281,19 @@ Con il termine LAG si intende il tempo necessario ad un PG o ad un MOB per svolg
 riprendersi da una azione compiuta o subita. Durante questo tempo, che puo' variare da 1 a
 piu' round (della durata di circa 5 secondi), il PG o il MOB sara' impossibilitato a svolgere
 altre azioni, skill, spell e procedure speciali. I comandi dati dal PG subiranno un ritardo 
-nell'esecuzione pari al numero di round di lag.
+nell'esecuzione pari al numero di ROUND di lag.
 
 Durante i combattimenti il lag viene sfruttato principalmente dalle classi tank per impedire
 agli avversari di utilizzare incantesimi e poteri speciali, tramite l'utilizzo di TRIP, KICK
 e BASH o tramite gli incantesimi GUST OF WIND, TELEKINESIS e EARTHQUAKE.
 
-Vedi anche: BASH, KICK, TRIP, GUST OF WIND, TELEKINESIS, EARTHQUAKE COOLDOWN
+Vedi anche: BASH, KICK, TRIP, GUST OF WIND, TELEKINESIS, EARTHQUAKE, COOLDOWN, ROUNG, TICK
 
 #
 COOLDOWN
 
 Con il termine COOLDOWN si intende il tempo necessario ad un PG o ad un MOB per ricaricare
-una certa abilità. In questo tempo di attesa, a differenza di cio' che accade con il LAG, 
+una certa abilita'. In questo tempo di attesa, a differenza di cio' che accade con il LAG, 
 permette l'utilizzo di altre skill o altri spell, tranne la specifica skill o spell 
 sottoposta a COOLDOWN. Questa parola puo' anche venire usata per indicare il tempo di
 attesa necessario affinche' un certo incantesimo possa essere riutilizzato.
@@ -14260,7 +14308,7 @@ due round. Marlon, avendo usato il bash, riceve un round di lag e un round di
 cooldown in cui non potra' usare la tecnica del bash, ma solo altre tecniche di
 combattimento.
 
-Vedi anche: BASH, MELEE ATTACK, LAG
+Vedi anche: BASH, MELEE ATTACK, LAG, ROUND, TICK
 
 #
 DND "DO NOT DISTURB"
@@ -14290,9 +14338,11 @@ applicare suscettibilita' a COLD o aggredire con elettricita.
 Se lo psionico e' affetto dal chaos puo' provocare, attraverso l'uso dello PSIONIC
 BLAST, l'afflizione BLEEDING, quando il danno e' superiore all'1% degli HP della 
 vittima.
+Se sono presenti all'interno della stanza dei corpi, il potere mentale del chaos 
+li fara' esplodere causando un'onda d'urto.
 
 Lo psionico puo' uscire da questo stato lanciando nuovamente il comando 
- > mind 'chaos'
+  > mind 'chaos'
 
 Vedi anche: PSIONIC BLAST, PSYCHIC CRUSH
 
@@ -14912,6 +14962,47 @@ con quelli da loro desiderati.
 
 Vedi anche: PERK, MEDAGLIE AL VALORE, SIGILLI DIVINI, RUNE, AWARDS, KARMA
 
+#
+"SIMBOLO +" +
+
+Il simbolo $c0009+$c0007 puo' sostituire il comando CAST al fine di lanciare incantesimi.
+La sintassi per il lancio di incantesimi puo' essere una delle seguenti:
+
+	> cast 'magic missile' <vittima>
+	> cast magic-missile <vittima>
+	> + 'magic missile' <vittima>
+	> + mag-mis <vittima>
+	
+Vedi anche: CAST, MIND, RECALL, PLAY
+
+#
+ROUND
+
+Per ROUND si intende un turno di combattimento nel quale si
+svolgono gli attacchi magici e fisici di tutti gli avversari.
+Corrisponde a circa 5 minuti di tempo virtuale all'interno del 
+gioco, circa 5 secondi di tempo reale.
+
+Il ROUND e' anche una misura di tempo di gioco, insieme al TICK.
+
+Il LAG e il COOLDOWN vengono misurati in ROUND e indicano l'impegno 
+o il tempo necessario per utilizzare abilita' e incantesimi o per 
+riprendersi dagli effetti di abilita' e incantesimi subiti.
+	
+Vedi anche: LAG, COOLDOWN, BASH, TICK
+
+#
+TICK
+
+Il TICK e' una misura di tempo di gioco, insieme al ROUND. Un TICK
+corrisponde a circa un'ora di tempo virtuale all'interno del gioco,
+circa 60 secondi di tempo reale.
+
+I TICK indicano anche il tempo necessario per poter ricaricare una
+certa abilita' o per poter riutilizzare alcuni incantesimi, oltre
+alla durata degli effetti degli stessi. 
+	
+Vedi anche: LAG, COOLDOWN, BASH, ROUND
 
 #~
 
