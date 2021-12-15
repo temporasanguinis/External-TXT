@@ -7595,10 +7595,10 @@ Da notare che questo spell dona RESISTENZA al DRAIN,non IMMUNITA'!
 Vedi anche: DRAIN, ENERGY DRAIN, CHIERICO, ANTIPALADINO
  
 #
-PRAY
+PRAY PREGHIERE
  
-  $c0015Uso$c0015: PRAY <NOME-DIO O NOME-SACERDOTE> <PREGHIERA>
-
+$c0015Uso$c0015           : pray <dio o sacerdote> <preghiera>
+$c0007
 Con questo comando tenti di rivolgere una tua preghiera ad un dato Dio
 o Sacerdote. Le possibilita' di riuscita dipendono dalla tua esperienza.
 In ogni caso, nessuno puo' obbligare un Dio ad esaudire una preghiera,
@@ -7612,41 +7612,41 @@ Si puo pregare anche nella Stanza delle Preghiere a Midia, senza dover
 rivolgere le preghiere ad un Dio in particolare.
 
 Ci sono preghiere predefinite con le quali e' possibile ottenere dei
-favori:
+favori, alcune delle quali riservate ai personaggi di basso livello:
 
 $c0011- PRAY CASA$c0007 - si puo' usare fino al livello 15, porta il personaggio
-	nel luogo in cui e' entrato in gioco l'ultima volta.
-$c0011- PRAY AIUTO$c0007 - per livelli fino al 20, fatto in sala delle preghiere
-	riporta il corpo con l'eq.
+nel luogo in cui e' entrato in gioco l'ultima volta.
+$c0011- PRAY AIUTO$c0007 - per livelli fino al 20, fatto nella sala delle preghiere
+di Midia riporta il corpo con l'equipaggiamento.
+$c0011- PRAY RECALL$c0007 - porta il personaggio nel luogo in cui e' entrato
+in gioco l'ultima volta. Non e' possibile usarlo a Morrowindl dopo aver
+usato il loden. Costo: 1 medaglia al valore.
+$c0011- PRAY ELEMENTS$c0007 - permette di ottenere EXTRA RES al 50% per
+tutti gli elementi. Costo: 1 medaglia al valore.
 
-$c0009NUOVE PREGHIERE$c0007
+Alcune preghiere possono essere utilizzate soltanto da alcune classi:
 
 $c0011- PRAY GARD$c0007 - riservata ai chierici monoclasse, permette
-	al chierico di proteggere tutto il suo gruppo con l'incantesimo
-	SANCTUARY. Costo in mana.
+al chierico di proteggere tutto il suo gruppo con l'incantesimo
+SANCTUARY. Costo in mana.
 $c0011- PRAY VERTUS$c0007 - riservata ai druidi monoclasse, permette
-	al druido di proteggere tutto il suo gruppo con l'incantesimo
-	NATURES PROTECTION. Costo in mana.
+al druido di proteggere tutto il suo gruppo con l'incantesimo
+NATURES PROTECTION. Costo in mana.
 $c0011- PRAY NIRVANA$c0007 - riservata ai monaci, permette
-	al monaco di interrompere il combattimento nell'area e 
-    ottenere vari bonus.
-$c0011- PRAY ELEMENTS$c0007 - permette di ottenere EXTRA RES al 50% per
-    tutti gli elementi. Costo: 1 medaglia al valore.
-$c0011- PRAY RECALL$c0007 - porta il personaggio nel luogo in cui e' entrato
-	in gioco l'ultima volta. Non e' possibile usarlo da morrowindl dopo aver
-	usato il loden. Costo: 1 medaglia al valore
+al monaco di interrompere il combattimento nell'area e ottenere 
+vari bonus.
 
 $c0009PREGHIERE A KARMA$c0007 
 
-pray sanguinarius - richiede 1 punto karma, sanctuary da 70 tick
-pray nisamer - richiede 2 punti karma, ripristino di hp move e mana,
+$c0011- PRAY SANGUINARIUS$c0007 - richiede 1 punto karma, sanctuary da 70 tick
+$c0011- PRAY NISAMER$c0007 - richiede 2 punti karma, ripristino di hp move e mana,
 sanctuary e fireshield da 70 tick, aid, bless, strenght, sense life,
 exorcism
-pray lisamer - richiede 1 punto karma, humanoid growth da 60 tick
-pray naitamer - richiede 1 punto karma recitato fuori combat acid 
+$c0011- PRAY LISAMER$c0007 - richiede 1 punto karma, humanoid growth da 60 tick
+$c0011- PRAY NAITAMER$c0007 - richiede 1 punto karma recitato fuori combat acid 
 shield da 70 tick, recitato in combat acid storm di livello 70 
 contro l'avversario
-pray shadowdance - richiede 1 punto karma, energy shield da 70 tick.
+$c0011- PRAY SHADOWDANCE$c0007 - richiede 1 punto karma, energy shield da 70 tick.
 
 Al momento il sistema di preghiere a costo di punti karma e' in fase 
 di revisione e tali punti non sono piu' ottenibili tramite quest.
