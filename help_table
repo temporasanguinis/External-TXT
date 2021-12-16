@@ -12,9 +12,10 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
 
 --- Modifiche della versione 2.21.12.13 ------------------------------
 - DARKNESS (aggiornato), DETECT MAGIC (aggiornato), MIND (aggiornato),
-  PRAY (aggiornato), CAST (aggiornato), +, RECALL (aggiornato), CHAOS
+  PRAY (aggiornato), CAST (aggiornato), RECALL (aggiornato), CHAOS
   (aggiornato), BASH (aggiornato), TICK, ROUND, FAMIGLI (aggiornato),
-  GROUP (aggiornato)
+  GROUP (aggiornato), SIMBOLI MAGICI, ALIAS (aggiornato), PLAY 
+  (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato)
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -3186,7 +3187,10 @@ riprendendo  l'esempio di  prima, basta  digitare <1 cane>, e il  povero
 cane si vedra'  arrivare  un raggio  disintegrante  addosso.  Un pochino
 esagerato, forse, ma efficace.
 
-Vedi anche: ACCESSIBILITA'
+Alcuni comandi possono essere sostituiti da specifici simboli, per 
+scoprirli, consulta la scheda di aiuto specifica dei SIMBOLI MAGICI.
+
+Vedi anche: ACCESSIBILITA', SIMBOLI MAGICI
 
 #
 "SHOOT"
@@ -4400,7 +4404,7 @@ I Maghi, i Chierici, e chiunque altro faccia uso della Magia puo'
 lanciare  un incantesimo di sua  conoscenza attraverso il comando
 CAST. La sintassi generale e':
 
-   > cast <incantesimo> <vittima>
+ > cast <incantesimo> <vittima>
 
 Il nome dell'incantesimo puo' essere scritto tra gli apici e 
 puo' essere scritto troncato: sono corrette ed analoghe le forme 
@@ -4416,21 +4420,21 @@ mentre altri influenzano il mondo circostante e non una persona
 specifica, altri ancora agiscono su tutti i presenti, senza
 differenze. In questi casi, la sintassi e' semplicemente:
 
-   > cast 'incantesimo' 
+ > cast 'incantesimo' 
    
-   oppure 
+ oppure 
    
-   > cast incantesimo
+ > cast incantesimo
 
 L'incantesimo puo' essere abbreviato e quando composto da due 
 diverse parole, si puo' usare il simbolo $c0009-$c0007 tra di esse.
 L'incantesimo SHIELD ROOM puo' essere abbreviato in questo modo:
 
-  > cast sh-ro
+ > cast sh-ro
   
-  oppure
-  
-  > cast 'shield-r'
+ oppure
+ 
+ > cast 'shield-r'
 
 Per avere informazioni riguardo a ciascun incantesimo, basta
 consultare l'Help relativo. Per gli Stregoni, invece, il comando
@@ -4450,7 +4454,7 @@ ora scrivere:
   > cast k-mon <vittima>
   > + kn-mo <vittima>
 
-Vedi anche: RECALL, MIND, PLAY
+Vedi anche: RECALL, MIND, PLAY, SIMBOLI MAGICI
 
 #
 DROP
@@ -7058,8 +7062,13 @@ L'incantesimo SHIELD ROOM puo' essere abbreviato in questo modo:
   oppure
   
   > recall 'shield-r'
+  
+Il simbolo $c0009*$c0007 puo' sostituire il comando RECALL al fine 
+di lanciare incantesimi.
+
+Per lanciare gli incantesimi non sono piu' necessari gli $c0009apici$c0007.
  
-Vedi anche: CAST, STREGONE, MEMORIZE, FORGET, +
+Vedi anche: CAST, STREGONE, MEMORIZE, FORGET, SIMBOLI MAGICI
 
 #
 "FIND FOOD"
@@ -8566,10 +8575,12 @@ abilita'. La sintassi e' identica al CAST dei Maghi. Alcune skill
 come MINDSUMMON, REVERSION o PSIONIC BLAST, pero', hanno  comandi
 appositi e non usano il MIND.
 
-Per lanciare gli incantesimi non sono piu' necessari gli 
-$c0009apici$c0007.
+Il simbolo $c0009%$c0007 puo' sostituire il comando MIND al fine 
+di lanciare incantesimi.
 
-Vedi anche: PSIONICO, CAST, PLAY, RECALL, +
+Per lanciare gli incantesimi non sono piu' necessari gli $c0009apici$c0007.
+
+Vedi anche: PSIONICO, CAST, PLAY, RECALL, SIMBOLI MAGICI
 
 #
 SPECIALIZZAZIONE
@@ -14383,6 +14394,8 @@ $c0009Altri comandi utili per migliorare l'esperienza di gioco sono:$c0007
   in modo da risparmiare il tempo della digitazione.
 - MAPPA: permette di consultare la mappa e scoprire come sono collegate le aree
   comunicanti con quella nella quale ci si trova.
+  
+Per lanciare gli incantesimi non sono piu' necessari gli $c0009apici$c0007.
 
 Puoi consultare le voci specifiche di questi comandi nell'help a loro dedicato.
 
@@ -14709,7 +14722,7 @@ I Bardi, oltre a possedere  alcune skill da battaglia  e di magia,
 possono SUONARE varie canzoni a seconda dello strumento impugnato
 Questa la sintassi:
 
- > PLAY 'nome della canzone' 
+ > play 'nome della canzone'   o   play nome-della-canzone
 
 La parola  PLAY va messa per  prima;  il nome della canzone  deve
 essere scritto tra gli apici, che sono obbligatori. Il nome della
@@ -14731,6 +14744,10 @@ in comune il medesimo strumento.
 
 Per avere informazioni riguardo ciascuna CANZONE, basta consultare 
 l'Help relativo. 
+
+Il comando PLAY puo' essere sostituito dal simbolo $c0009&$c0007.
+Per lanciare gli incantesimi non sono piu' necessari gli 
+$c0009apici$c0007.
 
 Vedi anche: RECALL, MIND, CAST, SONG OF PEACE, SONG OF WAR, SONG OF
             NATURE, SONG OF DUMBING, SONG OF LIFE, CULMINE
@@ -14963,17 +14980,24 @@ con quelli da loro desiderati.
 Vedi anche: PERK, MEDAGLIE AL VALORE, SIGILLI DIVINI, RUNE, AWARDS, KARMA
 
 #
-"SIMBOLO +" +
+"SIMBOLI MAGICI" + * % &
 
 Il simbolo $c0009+$c0007 puo' sostituire il comando CAST al fine di lanciare incantesimi.
 La sintassi per il lancio di incantesimi puo' essere una delle seguenti:
 
-	> cast 'magic missile' <vittima>
-	> cast magic-missile <vittima>
-	> + 'magic missile' <vittima>
-	> + mag-mis <vittima>
+ > cast 'magic missile' <vittima>     -    Modalita' originale
+ > cast magic-missile <vittima>       -    Modalita' senza apici
+ > + 'magic missile' <vittima>        -    Utilizzo del simbolo +
+ > +mag-mis <vittima>                 -    Utilizzo del simbolo + senza apici o spazi
+
+Il simbolo $c0009&$c0007 puo' sostituire il comando PLAY.
+Il simbolo $c0009*$c0007 puo' sostituire il comando RECALL.
+Il simbolo $c0009%$c0007 puo' sostituire il comando MIND.
+
+Per lanciare gli incantesimi non sono piu' necessari gli 
+$c0009apici$c0007.
 	
-Vedi anche: CAST, MIND, RECALL, PLAY
+Vedi anche: CAST, MIND, RECALL, PLAY, ALIAS
 
 #
 ROUND
@@ -15003,6 +15027,51 @@ certa abilita' o per poter riutilizzare alcuni incantesimi, oltre
 alla durata degli effetti degli stessi. 
 	
 Vedi anche: LAG, COOLDOWN, BASH, ROUND
+
+#
+OVERLOAD
+
+$c0015Uso$c0015           : mind 'overload'
+$c0006Cumulativo$c0006    : Si
+$c0005Durata$c0005        : Speciale
+$c0010Livello$c0010       : 50 Psionici
+$c0014Tiro salvezza$c0014 : Speciale
+$c0012Costo in mana$c0012 : 40
+$c0007
+Con questa  tecnica mentale lo psionico accumula grandi quantita' di
+energia magica all'interno della sua mente, creando una sovraccarico
+psichico. Una volta iniziata la procedura, tale tecnica potra' essere 
+ripetuta per continuare ad aumentare la riserva di potere e aumentare
+gli effetti distruttivi. 
+L'energia accumulata impieghera' un certo tempo di caricamento prima di
+poter essere rilasciata in una potente onda d'urto che colpira' tutti 
+i nemici presenti nella locazione. 
+
+L'effetto distruttivo finale e il tempo di caricamento, dipenderanno
+dalla quantita' di energia magica che lo psionico ha accumulato, ripetendo 
+la tecnica mentale.
+
+Durante il tempo di accumulo, lo psionico potra' comunque lanciare 
+altri incantesimi.
+
+Vedi anche: BLAST, CULMINE
+
+#
+FLOW
+
+$c0015Uso$c0015           : mind 'flow'
+$c0006Cumulativo$c0006    : Si
+$c0005Durata$c0005        : Speciale
+$c0010Livello$c0010       : 50 Psionici
+$c0014Tiro salvezza$c0014 : Speciale
+$c0012Costo in mana$c0012 : 40
+$c0007
+Con questa  tecnica mentale lo psionico converte la propria energia 
+vitale in potere magico, canalizzando la sua riserva di mana in un 
+flusso che raggiunge i propri compagni.
+
+Vedi anche: CANIBALIZE, HEALING RAIN, MENTAL VAMPIRISM, MANA,
+            INSTILL
 
 #~
 
