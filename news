@@ -1,4 +1,26 @@
 
+
+Versione 2.21.20.12 - $c0009DICEMBRE 2021 $c0007- Un Natale speciale
+- $c0012Quest e aree$c0007: 
+- Tre nuove aree aggiunte: La citta' di Comp, le prigioni di Orfaler e la faglia di Worden.
+  Presso la citta' di Comp sono disponibili due nuove miniquest. Cindy ora si puo' trovare
+  presso il palazzo del consiglio cittadino. Trovate l'area a nord della Contea.
+- Sistemata la quest di Menzoberranzan. La dea Lloth e' stata ricalibrata e alcuni passaggi 
+  della quest sono ora piu' semplici e non richiedono di uscire dall'area.
+- Qualche modifica alla Giungla del culto dei serpenti, alla piramide dei serpenti, all'isola
+  di Deadhame e al labirinto del tempio di Midia.
+- A Midia e' comparso un venditore di Famigli che permette di acquistare nuovi servitori e di
+  potenziarne le caratteristiche.
+- $c0012Skill e Spell$c0007: 
+- DARKNESS nasconde le spell attive che diventano visibili solo attraverso DETECT MAGIC.
+- FIX non funziona sempre perfettamente e dipende dalla destrezza del barbaro. Ora puo'
+  usarlo su se stesso.
+- REPAIR ha un round in meno di lag.
+- BERSERK non causa spalm sugli scudi elementali, ma aumenta gli effetti dell'afflizione
+  BLEEDING.
+- KICK quando effettuato da un monaco puo' causare STUN nemico.
+ 
+
 Versione 2.21.31.8 - $c0009OTTOBRE 2021 $c0007- Ruggine e libri
 - $c0012Quest e aree$c0007: piccoli e grandi cambiamenti per migliorare il percorso di 
   crescita dei nuovi giocatori.

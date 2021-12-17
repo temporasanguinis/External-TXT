@@ -15,7 +15,8 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   PRAY (aggiornato), CAST (aggiornato), RECALL (aggiornato), CHAOS
   (aggiornato), BASH (aggiornato), TICK, ROUND, FAMIGLI (aggiornato),
   GROUP (aggiornato), SIMBOLI MAGICI, ALIAS (aggiornato), PLAY 
-  (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato)
+  (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato), FLOW,
+  OVERLOAD.
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -14950,6 +14951,10 @@ Il famiglio potra' essere liberato dall'incantesimo utilizzando il comando ADDIO
 Alcuni famigli possono essere acquistati con SIGILLI DIVINI tramite uno specifico venditore a Midia o 
 acquisiti tramite speciali missioni. Alcuni di questi possono avere poteri aggiuntivi.
 
+Puoi vedere la lista dei famigli a tua disposizione attraverso il comando FAMIGLIO.
+Se disponi dell'AWARD "collezionista di famigli" puoi utilizzare il tuo famiglio per esplorare i
+dintorni finche' non vorra' tornare indietro. Per farlo usa il comando ORDER FAMIGLIO SCOUT.
+
 Vedi anche: MONSUM, FOLLOWERS
 
 #
@@ -14980,7 +14985,7 @@ con quelli da loro desiderati.
 Vedi anche: PERK, MEDAGLIE AL VALORE, SIGILLI DIVINI, RUNE, AWARDS, KARMA
 
 #
-"SIMBOLI MAGICI" + * % &
+"SIMBOLI MAGICI" + * % & ?
 
 Il simbolo $c0009+$c0007 puo' sostituire il comando CAST al fine di lanciare incantesimi.
 La sintassi per il lancio di incantesimi puo' essere una delle seguenti:
@@ -14993,8 +14998,9 @@ La sintassi per il lancio di incantesimi puo' essere una delle seguenti:
 Il simbolo $c0009&$c0007 puo' sostituire il comando PLAY.
 Il simbolo $c0009*$c0007 puo' sostituire il comando RECALL.
 Il simbolo $c0009%$c0007 puo' sostituire il comando MIND.
+Il simbolo $c0009?$c0007 puo' sostituire il comando HELP.
 
-Per lanciare gli incantesimi non sono piu' necessari gli 
+Per lanciare e memorizzare gli incantesimi non sono piu' necessari gli 
 $c0009apici$c0007.
 	
 Vedi anche: CAST, MIND, RECALL, PLAY, ALIAS
@@ -15045,7 +15051,7 @@ ripetuta per continuare ad aumentare la riserva di potere e aumentare
 gli effetti distruttivi. 
 L'energia accumulata impieghera' un certo tempo di caricamento prima di
 poter essere rilasciata in una potente onda d'urto che colpira' tutti 
-i nemici presenti nella locazione. 
+i nemici presenti nella locazione con danno di tipo ENERGIA. 
 
 L'effetto distruttivo finale e il tempo di caricamento, dipenderanno
 dalla quantita' di energia magica che lo psionico ha accumulato, ripetendo 
@@ -15053,6 +15059,9 @@ la tecnica mentale.
 
 Durante il tempo di accumulo, lo psionico potra' comunque lanciare 
 altri incantesimi.
+
+Qualora lo psionico fosse sottoposto all'aurea dell'incantesimo CHAOS,
+ogni attacco produrra' un onda d'urto elementale.
 
 Vedi anche: BLAST, CULMINE
 
@@ -15069,6 +15078,14 @@ $c0007
 Con questa  tecnica mentale lo psionico converte la propria energia 
 vitale in potere magico, canalizzando la sua riserva di mana in un 
 flusso che raggiunge i propri compagni.
+
+Esempio: Marcus ha la riserva di mana allo 0%, Iblis ha la sua riserva di
+mana al 50%.
+Se ogni round lo psionico Ugruf trasferisce un totale di 30 punti mana, 20 
+punti mana andranno nella riserva di Marcus e 10 punti mana nella
+riserva di Iblis.
+La quantita di mana generato dallo psionico dipende dai suoi HP massimali 
+che influenzano la quantita' di energia vitale convertita ogni round.
 
 Vedi anche: CANIBALIZE, HEALING RAIN, MENTAL VAMPIRISM, MANA,
             INSTILL
