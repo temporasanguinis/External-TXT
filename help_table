@@ -16,7 +16,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   (aggiornato), BASH (aggiornato), TICK, ROUND, FAMIGLI (aggiornato),
   GROUP (aggiornato), SIMBOLI MAGICI, ALIAS (aggiornato), PLAY 
   (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato), FLOW,
-  OVERLOAD.
+  OVERLOAD, FIX (aggiornato), PROMPT (aggiornato).
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -4523,6 +4523,12 @@ avere piu' d'una guardia del corpo. Per esempio,per fare si che tutti
 i miei tre orchi diventino mie guardie del corpo usero':
 
   > order followers guard on
+  
+Se il personaggio e' in possesso dell'AWARD "Collezionista di famigli"
+potra' usare le sue creature per esplorare i dintorni, tramite il 
+comando:
+
+  > order famiglio scout
 
 Vedi anche: CHARM PERSON, CHARM MONSTERS, HYPNOTIZE, SHOP, LIST,
 		RESCUE, SET, SEGUACI
@@ -4682,7 +4688,7 @@ vincere un incontro con un'altro monaco per poter salire al livello seguente.
 Per vedere le abilita': PRAC MK
 Vedi anche: ATTACCHI DEI MONACI, DANNI DEI MONACI, DODGE, HIDE, SNEAK,
 		QUIVERING PALM, NEW QUIVERING PALM, KICK, SPRINGLEAP,
-		FEIGN DEATH, PICK, SAFE FALL
+		FEIGN DEATH, PICK, SAFE FALL, STANCE
 
 #
 BARBARO BARBARIAN BARBARI
