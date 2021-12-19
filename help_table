@@ -6666,11 +6666,16 @@ verranno sostituiti dal mud con il loro attuale valore.
       %gr, resoconto del gruppo (per evitare l'uso continuativo del comando 
       GROUP, cosi' da poterlo usare su un pannello visibile, e per un futuro 
       UI nel client ufficiale).
-      
-      Mettendo qualsiasi opzione con ! esclamativo alla fine del codice, 
-      lo manda come entity mxp e non visualizza a schermo. (es.: %H!)
-    
-    
+        
+E' possibile inserire nel prompt un'indicatore per il DPS/HP/MANA 
+medio per round, ma funziona solo nel caso in cui il PG abbia flag 
+PWP attivo: 
+	  %&dpr - Indica il danno medio per round
+	  %&hpr - Indica i punti vita medi per round
+	  %&mpr - Indica il mana medio per round utilizzato.    
+	  
+Mettendo qualsiasi opzione con ! esclamativo alla fine del codice, 
+lo manda come entity mxp e non visualizza a schermo. (es.: %H!)
 
 Questi sono alcuni Prompt gia' preparati, e' sufficiente digitare
 'prompt <numero>',  ad esempio 'prompt 9',  per settare  i prompt
@@ -13306,16 +13311,24 @@ FIX AGGIUSTA
 
 Questo comando puo' essere  utilizzato presso un barbaro  oppure un
 ranger che hanno gia praticato la skill repair, in modo da riparare
-piu' velocemente i  vostri oggetti. La  sintassi e': Fix  <oggetto>
-<personaggio>  dove  "oggetto"  e'  l'oggetto  che  volete  appunto
-riparare, e  "personaggio" e'  il nome  del personaggio,  barbaro o
-ranger, in grado di riparare oggetti. Se il riparatore non fallisce
-la skill non viene laggato dalla riparazione, subisce invece un lag
-minimo se la  riparazione fallisce, e  il personaggio che  usa fix.
+piu' velocemente i  vostri oggetti. 
+
+La  sintassi e': 
+ > fix  <oggetto> <personaggio>  
+ 
+L'"oggetto"  e'  l'oggetto  che  si vuole riparare.
+Il "personaggio" e'  il nome  del fabbro,  barbaro o ranger, in 
+grado di riparare oggetti. 
+Se il riparatore non fallisce la skill non viene laggato dalla 
+riparazione, subisce invece un lag minimo se la  riparazione 
+fallisce, e il personaggio che usa fix.
 L'oggetto  resta  nell'inventario  del riparatore  per  cui  a fine
 riparazione  andra'   restituito.  Il   pagamento  invece   avviene
 automaticamente con una tassa del  10% in piu' su ogni  riparazione
 che andra' al riparatore come ricompensa per il servizio reso.  
+
+Il comando non funziona sempre perfettamente e la qualita' del lavoro
+dipende dalla destrezza del fabbro, che puo' usarlo sui suoi oggetti.
 
 Vedi anche: REPAIR
  
@@ -15055,7 +15068,10 @@ i nemici presenti nella locazione con danno di tipo ENERGIA.
 
 L'effetto distruttivo finale e il tempo di caricamento, dipenderanno
 dalla quantita' di energia magica che lo psionico ha accumulato, ripetendo 
-la tecnica mentale.
+la tecnica mentale. 
+L'energia puo' essere accumulata per un massimo di 5 volte. Maggiori sono
+le cariche, maggiore saranno il numero di round di caricamento e il numero
+di colpi rilasciati. Un nemico potra' essere colpito piu' volte.
 
 Durante il tempo di accumulo, lo psionico potra' comunque lanciare 
 altri incantesimi.

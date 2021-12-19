@@ -1,7 +1,7 @@
 
 
 Versione 2.21.20.12 - $c0009DICEMBRE 2021 $c0007- Un Natale speciale
-- $c0012Quest e aree$c0007: 
+- $c0012Quest e aree$c0007: Tempora Sanguinis ha tutte le zone scritte in italiano!
 - Tre nuove aree aggiunte: La citta' di Comp, le prigioni di Orfaler e la faglia di Worden.
   Presso la citta' di Comp sono disponibili due nuove miniquest. Cindy ora si puo' trovare
   presso il palazzo del consiglio cittadino. Trovate l'area a nord della Contea.
@@ -15,9 +15,14 @@ Versione 2.21.20.12 - $c0009DICEMBRE 2021 $c0007- Un Natale speciale
 - La veggente di Camelot suggerisce subito l'indizio per la quest del Castello del Cuore Nero,
   senza il vincolo di consegnare un oggetto. Alcuni ingressi precedentemente attivi per la 
   quest, sono stati tolti.
+- Quest di Zifnab: distruggere la sfera di luce fara' ripartire la quest da un livello pari
+  alla meta' del livello massimo raggiunto. Il tempo del MUD potra' accelerare o decelerare.
+- Quest di Tiamat: tolte le armi con danno ad area ai Baatezu (ora la possiede solo il capitano).
 - $c0012Cambiamenti principali$c0007:   
 - Tutti gli scudi che offrono immunita' elementali, ora assegnano EXTRA RESISTENZA ELEMENTALE
   al 50%. Per compensare, e' possibile trainare ABSORB ELEMENTALE e aumentare i propri HP.
+- Dispersione degli scudi elementali (fireshield, acidshield, frostshield, electric shield e 
+  energyshield) e' ora dipendente da HP, DAM e ABSORB ELEMENTALE.
 - Una nuova preghiera disponibile: PRAY ELEMENTS. Permette di ottenere EXTRA RES ALL per 10 
   round.
 - Il simbolo $c0009+$c0007 puo' sostituire il comando CAST.
@@ -35,14 +40,23 @@ Versione 2.21.20.12 - $c0009DICEMBRE 2021 $c0007- Un Natale speciale
 - E' possibile inserire nel prompt un'indicatore per il DPS/HP/MANA medio per round, ma funziona
   solo nel caso in cui il PG abbia flag PWP attivo. Per farlo, inserire %&dpr, %&hpr e %&mpr nel
   prompt.
+- Nuovi AWARD disponibili. Con l'ottenimento dell'AWARD "collezionista di famigli", sara' possibile
+  addestrare i propri famigli, permettendogli di esplorare le zone attraverso il comando 
+  ORDER FAMIGLIO SCOUT. Il padrone potra' controllarli ed esplorare i dintorni, fino a quando lo
+  permetteranno.
+- Sono visibili nel prompt i numeri relativi agli AWARD e ai PERK ottenuti
 - $c0012Skill e Spell$c0007: 
+- L'apprendimento di SKILL e SPELL e' piu' rapido. Se possono essere acquisite ai livelli bassi
+  saranno piu' semplici da imparare.
 - DARKNESS nasconde le spell attive che diventano visibili solo attraverso DETECT MAGIC.
-- FIX non funziona sempre perfettamente e dipende dalla destrezza del barbaro. Ora puo'
+- FIX non funziona sempre perfettamente e dipende dalla destrezza del fabbro. Ora puo'
   usarlo su se stesso.
 - REPAIR ha un round in meno di lag.
 - BERSERK non causa spalm sugli scudi elementali, ma aumenta gli effetti dell'afflizione
   BLEEDING.
-- KICK quando effettuato da un monaco puo' causare STUN nemico.
+- Al termine degli effetti di MAGIC RESISTANCE gli oggetti non cadono piu' per terra.
+- KICK quando effettuato da un monaco puo' causare STUN al nemico. Bassa percentuale di
+  riuscita, dipendente dall'intelligenza del monaco.
 - Due nuovi spell disponibili per psionici: OVERLOAD e FLOW. OVERLOAD permette un sovraccarico
   di energia mentale che dopo un certo numero di round causa un'esplosione. Piu' si accumula
   energia, maggiore sara' il danno ad area causato. Mentre lo psionico carica questa energia
@@ -52,7 +66,21 @@ Versione 2.21.20.12 - $c0009DICEMBRE 2021 $c0007- Un Natale speciale
   dello psionico.
 - CHAOS puo' causare l'esplosione dei corpi presenti nella stanza in cui combatte lo psionico,
   causando una potente palla di fuoco.
- 
+- RESCUE, HEAL ed HEALING permettono riallineamento. Questo dipendera' dall'allineamento del PG
+  oggetto dell'incantesimo o dell'abilita'. Se per esempio salvo un giocatore malvagio, il mio 
+  allineamento ne seguira' la direzione. Chi sta con lo zoppo impara a zoppicare.
+- $c0012Bugfix$c0007: 
+- I mob aggressivi non dovrebbero piu' bloccarsi nelle peaceroom.
+- Il puffo non e' piu' stabbabile dai nemici.
+- I draghi sono stati ripotenziati: aumentato il danno da soffio del 30%.
+- Fix ai famigli dei guerrieri monoclasse che non funzionavano correttamente.
+- Cambiati i famigli base del barbaro.
+- Fix a FIND SECRETS per il bardo
+- Aggiunti due scalini di qualita' dell'ARMOR CLASS: Molto Buono e Ottimo.
+- Correzioni alla quest dei pirati di Varil.
+- Fix ai DRAGONSHOUT di Skyrim per coloro che restavano fuori dal gioco a lungo.
+- Correzione ai maestri di gilda che spesso non insegnavano skill differenti se avevano 
+  stesse iniziali (per esempio il DISARM per l'antipaladino).
 
 Versione 2.21.31.8 - $c0009OTTOBRE 2021 $c0007- Ruggine e libri
 - $c0012Quest e aree$c0007: piccoli e grandi cambiamenti per migliorare il percorso di 
@@ -257,7 +285,7 @@ Versione 2.21.1.4 - $c0009APRILE 2021 $c0007- La melodia di Yffre/3
 - Dimezzati gli XP ai monsum ma essi ora possono droppare cristalli
 - Fix a un problema di tan che non faceva ottenere bande con Luck e non contava bene il luck
 - Luck visibile in score
-- Corretto un bug su aure agressive in modo che non ingaggino quando non dovrebbero (riscontrato su mind 'chaos')
+- Corretto un bug su aure aggressive in modo che non ingaggino quando non dovrebbero (riscontrato su mind 'chaos')
 
 
 
