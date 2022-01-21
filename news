@@ -241,53 +241,6 @@ Versione 2.21.23.6 - $c0009GIUGNO 2021 $c0007- La clessidra nera/2
 - Nuovo concorso: ricerca le ricette nascoste! Scrivendo il comando ALCHEMY senza parametri verranno date
   al personaggio delle nuove informazioni.
 
-
-Versione 2.21.1.5 - $c0009MAGGIO 2021 $c0007- La clessidra nera
-- $c0012Varie$c0007:
-- Aggiunte le monete di Morrowindl tra i valori visibili con il comando SCORE
-- Il comando MAPPA ora permette di leggere direzioni per le uscite dalla zona
-- Il sindaco di Midia accetta Medaglie al valore in cambio di premi minori
-- L'ALCHIMIA e' ora piu semplice da padroneggiare
-- Usando il comando SING all'aperto si puo' richiamare un famiglio che raccoglie soldi e 
-  i randompop per il proprietario (si possono rilasciare con il comando ADDIO)
-- PRAY RECALL ora funziona tramite un sacrificio di Medaglie al valore anziche KARMA
-- Introdotta la versione blunt del decapitate: SMASH/FRACASSA
-- Le bande epiche e leggendarie sono state modificate in modo che siano piu utili
-- SONG OF NATURE e' piu potente a livelli di MP piu bassi
-- Alcuni perk acquistabili tramite il mago azzurro sono stati rivisti e modificati
-- Il flag RPG per bardi permette una riduzione di due tick al cooldown di SPIRITUAL FOCUS 
-- Le streghe della torre magia fondono 5 cristalli in cambio di uno casuale
-- Menzoberanzan paga ora Medaglie al valore 
-- Ribilanciato pagamento delle Medaglie al valore presso il labirinto delle nuvole
-- $c0012Aree$c0007:
-- Quest di Lilith: risolto il maxxaggio dei pegni del male nella borsa di Rain
-- Citta' di Midia: il crocevia ora fa parte di Midia. La stanza delle regole e' una e le regole sono 
-  incise sul lastrone presente nella stanza
-- Citta' di Midia: presso la locanda del teschio c'e' una stanza destinata alla gilda dei bardi
-- Mordor: introdotti vari oggetti premio con procedure
-- Nuovi miniquestor in alcune aree poco frequentate
-- $c0012Motore di gioco$c0007:
-- Aggiunti nuovi apply per abilitare o disibilitare skill
-- Finita l'implementazione di resistenze percentuali
-- Per immortali implementato GIVEMEDAL/GETMEDAL e portal su stanza (tramite il VNUM)
-- Il comando WEAR ora provera' a vestire l'oggetto su ogni slot possibile per quell'oggetto
-- Gli oggetti con procedura speciale supportata si possono derentare (si perde uno slot sull'oggetto derentato)
-- DAM, SP, MP, HITROLL presenti in affect (ATTRIBUTE) non maxano come il maxaggio dell'eq
-- $c0012Bugfix$c0007:
-- Gli archi si riparano da pg e fabbri
-- Fix a un possibile crash
-- Il finaleSONG OF PEACE non finiva corettamente. Ora si, ma il bardo deve avere MP molto alto
-- Fix a procedura di Tiamat che creava Baatezu all'infinito
-- Fix a un exploit con archi e frecce e hide
-- Fix a specializzazione di BLESS che al posto di diminuire save li aumentava
-- Fix a TELEPORT WITHOUT ERROR che non funzionava senza target
-- Fix a un memoryleak in spell portal
-- Rework minore di SONG OF DUMBING
-- Fix a CHAOS dello psionico
-- Bardo: la TALES OF BEYOND "drago" non lagga piu' la vittima
-- Dirtkick non si puo' piu' fare in stanze peaceful
-- Fix a weaponspell che stackavano su tutti gli slot della freccia se incoccata piu volte
-
 Per scoprire tutte le novita' dell'HELP di Tempora Sanguinis, scrivi $c0009HELP AGGIORNAMENTO$c0007
 
 
