@@ -1,5 +1,35 @@
 
 
+Versione 2.22.21.1 - $c0009GENNAIO 2022 $c0007- Un nuovo anno
+- $c0012Quest e aree$c0007: 
+- Sotto al regno dei nani i minatori continuano a scavere nuove gallerie. Puo' accadere nel
+  corso della giornata di rinvenire il passaggio verso le caverne di Anghun, fino all'antica
+  citta' dei nani, Kalislan, distrutta in un'epoca antica. Attenzione pero', avventurarsi in
+  quei luoghi puo' essere pericoloso. La conformazione delle caverne e' soggetta a continui 
+  mutamenti, in base a quali gallerie vengono scoperte dai minatori. 
+- Puo' capitare che pericolosi serpenti provenienti dalla faglia di Worden, invadano la citta'
+  di Comp. La caccia di queste creature permettera' di ottenere dei premi.
+  Quando i serpenti attaccano la citta', si apre una nuova via tra i boschi, per permettere
+  ai novizi di raggiungere senza pericolo il monastero dei monaci, evitando il passaggio per
+  la citta' di Comp.
+- La quest della sacerdotessa Vanarel a Rhila ora permette di ottenere premi diversi (un pegno
+  del bene o una runa del sole), oltre ai sigilli divini.
+- $c0012Cambiamenti principali$c0007:   
+- i comandi PUT e GET possono essere usati anche sulle borse indossate. EXAMINE funziona solo
+  se la borsa e' posta nell'inventario.
+- CONSIDER ora funziona in modo diverso per gli eroi. La scritta di pericolo e' presente
+  solo per i non eroi, in quanto principalmente legata al livello di differenza con il nemico.
+- I mob vampiri usano piu' spesso le skill di classe e mordono le vittime un po' meno.
+- SUNRAY puo' essere castato solo all'aperto. Modificato il conteggio del danno.
+- Corretti alcuni PERK esistenti(ARCIERE e COWBOY) e aggiunta di nuovi
+  (RAFFICA STELLARE e PERCEZIONE AVANZATA).
+- PRISMATIC SPRY ora conteggia lo spellpower e al posto di teleportare puo' stunnare.
+- Ora si possono vedere gli AWARD degli altri personaggi.
+- Tra le uscite della stanza si vedono anche quelle chiuse, ma solo se non sono segrete
+- Corretti vari bug che causavano crash.
+
+$c0009NOVITA' IN AGGIORNAMENTO$c0007
+
 Versione 2.21.20.12 - $c0009DICEMBRE 2021 $c0007- Un Natale speciale
 - $c0012Quest e aree$c0007: Tempora Sanguinis ha tutte le zone scritte in italiano!
 - Tre nuove aree aggiunte: La citta' di Comp, le prigioni di Orfaler e la faglia di Worden.
@@ -257,35 +287,5 @@ Versione 2.21.1.5 - $c0009MAGGIO 2021 $c0007- La clessidra nera
 - Fix a weaponspell che stackavano su tutti gli slot della freccia se incoccata piu volte
 
 Per scoprire tutte le novita' dell'HELP di Tempora Sanguinis, scrivi $c0009HELP AGGIORNAMENTO$c0007
-
-
-Versione 2.21.1.4 - $c0009APRILE 2021 $c0007- La melodia di Yffre/3
-- $c0012Quest e aree$c0007:
-- Corretti alcuni errori e typo in alcune zone, rivisti alcuni oggetti e tesori nelle aree per non eroi
-- Sistemazione della quest di Menzoberanzan
-- Aggiunto qualche oggetto MUSIC POWER ad Abyss
-- Aggiunti alcuni premi con procedura speciale a Mordor e alzata la probabilita' di uscita
-- Mordor in aggiuntivo paga pegni del male
-- Labirinto in aggiunta paga pegni del bene
-- Aggiunte delle nuove miniquest: a Iperborea e dai gitani per ottenere pietre alchemiche,
-  questina a premi a Castel Mistamere. Aumentato il premio quest di alcune miniquestor.
-- Aggiunte rifiniture alla scuola mud e alla scacchiera
-- Ultimata la traduzione di Spiderhaunt
-- Finita l'associazione di rischio/livello alle zone dell'Impero
-- $c0012Codice e bug$c0007:
-- Fix possibile crash su watch e train e nella quets di Lilith
-- Fix per impossibilita' di prac dal mago azzurro per monoclassi su alcune skill
-- Le skill specializzate non possono essere feeblate e se sono spell non contano lo spellfail
-- Aggiunti detect good e evil al bardo
-- Aggiunto nuova spell al bardo: WAKE SPIRITS
-- Incantesimo stregth aggiunge +15% carry weight
-- Fix a crash da return di polato mentre LD
-- Introdotte le Medaglie di Valore ottenibili in quest e usabili per specializzare skill e spell
-- Aggiunto nuovi benefici (PERK)
-- Dimezzati gli XP ai monsum ma essi ora possono droppare cristalli
-- Fix a un problema di tan che non faceva ottenere bande con Luck e non contava bene il luck
-- Luck visibile in score
-- Corretto un bug su aure aggressive in modo che non ingaggino quando non dovrebbero (riscontrato su mind 'chaos')
-
 
 
