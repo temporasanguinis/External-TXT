@@ -6,11 +6,7 @@ Guida a Tempora Sanguinis 2	ver. 1.0 (15/05/2000)
 
 INTRO
 
-Questa non puÚ e non vuole essere la guida definitiva a Tempora Sanguinis, ma solo un aiuto da parte di un giocatore con un po' di esperienza a tutti i nuovi giocatori che entreranno, benvenuti, ad animare l'impero Celeste.
-
-Per ogni lamentela o chiarimento bignanni@bigfoot.com
-
-
+Questa non pu√≤ e non vuole essere la guida definitiva a Tempora Sanguinis, ma solo un aiuto da parte di un giocatore con un po' di esperienza a tutti i nuovi giocatori che entreranno, benvenuti, ad animare l'impero Celeste.
 
 INDICE
 
@@ -46,9 +42,9 @@ INDICE
 
 MUD
 
-Cominciamo dicendo che Tempora Sanguinis 2 (da ora TS2) Ë un mud. Mud e' la sigla di Multi-User Dimension, un particolare tipo di gioco multigiocatore su internet. Essenzialmente i MUD sono dei Giochi di Ruolo, dove ogni partecipante, nei panni di un personaggio (PG, personaggio giocante) scelto da lui stesso, deve affrontare un mondo spesso pericoloso, interagendo con altri personaggi come lui e da moltissimi MOB (Mobile, personaggio controllato dal computer).
+Cominciamo dicendo che Tempora Sanguinis 2 (da ora TS2) √® un mud. Mud e' la sigla di Multi-User Dimension, un particolare tipo di gioco multigiocatore su internet. Essenzialmente i MUD sono dei Giochi di Ruolo, dove ogni partecipante, nei panni di un personaggio (PG, personaggio giocante) scelto da lui stesso, deve affrontare un mondo spesso pericoloso, interagendo con altri personaggi come lui e da moltissimi MOB (Mobile, personaggio controllato dal computer).
 
-Non Ë scorretto parlare di un MUD come di un mondo virtuale online, dove moltissimi aspetti della vita sono rispecchiati con una certa fedelt‡ (invecchiamento, morte, esperienza..) ma immersi in un contesto alternativo, spesso fantasy ma anche fantascientifico o horror.
+Non √® scorretto parlare di un MUD come di un mondo virtuale online, dove moltissimi aspetti della vita sono rispecchiati con una certa fedelt√† (invecchiamento, morte, esperienza..) ma immersi in un contesto alternativo, spesso fantasy ma anche fantascientifico o horror.
 
 
 
@@ -56,11 +52,11 @@ Non Ë scorretto parlare di un MUD come di un mondo virtuale online, dove moltiss
 
 GIOCARE A TS2
 
-Ts2 Ë, come la stragrande maggioranza, un mud testuale; questo significa che l'interazione tra voi e il mondo verr‡ rappresentata da descrizioni di azioni compiute da voi o da altri PG; allo stesso modo verrete ambientati nel mondo che vi verr‡ descritto man mano che lo esplorate. Un concetto che potrebbe forse essere ostico vi sembrer‡ molto pi˘ chiaro se immaginate di essere protagonisti di un libro fantasy, dove le pagine cambiano in corrispondenza delle vostre azioni e dove lo scrittore altri non Ë che un narratore delle vostre gesta.
+Ts2 √®, come la stragrande maggioranza, un mud testuale; questo significa che l'interazione tra voi e il mondo verr√† rappresentata da descrizioni di azioni compiute da voi o da altri PG; allo stesso modo verrete ambientati nel mondo che vi verr√† descritto man mano che lo esplorate. Un concetto che potrebbe forse essere ostico vi sembrer√† molto pi√π chiaro se immaginate di essere protagonisti di un libro fantasy, dove le pagine cambiano in corrispondenza delle vostre azioni e dove lo scrittore altri non √® che un narratore delle vostre gesta.
 
 
 
-Se il Mud interagisce con voi mandando delle stringhe di testo, voi dovete fare la stessa cosa con lui e quando decidete di compiere un'azione baster‡ digitare l'apposito comando e i parametri necessari (Es. prendi, mangia, posa...). Inizialmente potr‡ sembrare complesso ricordare tutti i comandi, ma col tempo diventer‡ assolutamente automatico, in ogni caso, in fondo a questo manuale potrete trovare una lista dei comandi da stampare per averli sottomano mentre giocate.
+Se il Mud interagisce con voi mandando delle stringhe di testo, voi dovete fare la stessa cosa con lui e quando decidete di compiere un'azione baster√† digitare l'apposito comando e i parametri necessari (Es. prendi, mangia, posa...). Inizialmente potr√† sembrare complesso ricordare tutti i comandi, ma col tempo diventer√† assolutamente automatico, in ogni caso, in fondo a questo manuale potrete trovare una lista dei comandi da stampare per averli sottomano mentre giocate.
 
 
 
@@ -68,11 +64,11 @@ Se il Mud interagisce con voi mandando delle stringhe di testo, voi dovete fare 
 
 ENTRARE NELL'IMPERO CELESTE, OVVERO CREAZIONE DI UN PG
 
-Per iniziare a giocare avete bisogno di un personaggio da interpretare e con cui muovervi. Coloro fra di voi che hanno gi‡ avuto esperienze di gioco di ruolo non avranno nessun problema in questa fase, in quanto la creazione del personaggio rimane abbastanza simile all'AD&D (cfr. Glossario).
+Per iniziare a giocare avete bisogno di un personaggio da interpretare e con cui muovervi. Coloro fra di voi che hanno gi√† avuto esperienze di gioco di ruolo non avranno nessun problema in questa fase, in quanto la creazione del personaggio rimane abbastanza simile all'AD&D (cfr. Glossario).
 
 Spendiamo invece due parole per tutti coloro che si avvicinano ad un gioco di ruolo per la prima volta:
 
-Il personaggio Ë definito da una serie di caratteristiche, e sta a voi sceglierle per renderlo il pi˘ possibile vicino a ciÚ che vorreste...
+Il personaggio √® definito da una serie di caratteristiche, e sta a voi sceglierle per renderlo il pi√π possibile vicino a ci√≤ che vorreste...
 
 
 
@@ -84,7 +80,7 @@ Forza, Destrezza, Costituzione, Intelligenza, Saggezza,	Carisma
 
 		
 
-Rappresentano a grandi linee le caratteristiche fisiche e mentali del vostro personaggio...quanto puo' sollevare, 	quanto Ë veloce, quanto puo' influenzare gli altri, quanto Ë portato per la magia.
+Rappresentano a grandi linee le caratteristiche fisiche e mentali del vostro personaggio...quanto puo' sollevare, 	quanto √® veloce, quanto puo' influenzare gli altri, quanto √® portato per la magia.
 
 Sono molto importanti, ma non definitivi, li potrete aumentare con la pratica e con degli oggetti particolari, inoltre dipendono da cosa volete fare nella vita (virtuale), un combattente ha molti vantaggi nell'essere forte e robusto, mentre un ladro dovrebbe essere agile e sveglio...
 
@@ -94,7 +90,7 @@ Sono molto importanti, ma non definitivi, li potrete aumentare con la pratica e 
 
 LA RAZZA
 
-Nell'impero celeste esistono pi˘ di cento razze, anche se non tutte sono selezionabili durante la creazione del personaggio, ci vorrebbe un manuale solo per descriverle accuratamente, quindi mi limiterÚ a fare una panoramica per gruppi di massima:
+Nell'impero celeste esistono pi√π di cento razze, anche se non tutte sono selezionabili durante la creazione del personaggio, ci vorrebbe un manuale solo per descriverle accuratamente, quindi mi limiter√≤ a fare una panoramica per gruppi di massima:
 
 
 
@@ -104,7 +100,7 @@ Non hanno bisogno di spiegazioni, datevi un'occhiata :)
 
 ELFI 
 
-(Alti, Scuri, Silvani, Marini) la razza fantasy per eccellenza, belli, agili e intelligenti ma di norma gracili e minuti sono di norma buoni (tranne gli elfi oscuri, incarnazione della malvagit‡)
+(Alti, Scuri, Silvani, Marini) la razza fantasy per eccellenza, belli, agili e intelligenti ma di norma gracili e minuti sono di norma buoni (tranne gli elfi oscuri, incarnazione della malvagit√†)
 
 NANI & NANI OSCURI	
 
@@ -116,15 +112,15 @@ I cosiddetti pelleverde, sono mostri umanoidi di varia misura, cattivelli ma mos
 
 MEZZI-GIGANTI
 
-Beh, vanno separati solo perchË non hanno la pelle verde :)
+Beh, vanno separati solo perch√® non hanno la pelle verde :)
 
 MIDFLAYER	
 
-Bleah,...polipi umanoidi viola con i tentacoli davanti alla bocca...non sono un gran che'da vedere ma hanno delle capacit‡ magiche e psioniche sovrannaturali
+Bleah,...polipi umanoidi viola con i tentacoli davanti alla bocca...non sono un gran che'da vedere ma hanno delle capacit√† magiche e psioniche sovrannaturali
 
 BROWNIE		
 
-Spiritelli..alti 5 cm :) agilissimi e con delle notevoli capacit‡ magiche, anche se hanno qualche handicap dato dalla statura
+Spiritelli..alti 5 cm :) agilissimi e con delle notevoli capacit√† magiche, anche se hanno qualche handicap dato dalla statura
 
 PRIMATE
 
@@ -148,13 +144,13 @@ Basso e robusto, estremamente intelligente e carismatico
 
 LA CLASSE
 
-Nuovo paragrafo per parlare dell'aspetto che pi˘ di tutti caratterizzer‡ il vostro personaggio, la classe.
+Nuovo paragrafo per parlare dell'aspetto che pi√π di tutti caratterizzer√† il vostro personaggio, la classe.
 
 La classe rappresenta in definitiva, il "mestiere" del vostro personaggio...
 
 Volete essere un militare, un mago, un ladro o un sacerdote?
 
-Le classi sono numerose, ma non tutte possono essere scelte da pg di tutte le razze, come dicevamo, i nani non sono inclini alla magia, quindi un pg di quella razza non puÚ diventare mago o stregone...al contrario i mindflayer sono una razza portata alla magia e alle abilit‡ psioniche e non possono diventare guerrieri o barbari. Condizionamenti vengono imposti anche dall'allineamento, ovvero dal codice morale del personaggio; razze naturalmente malvagie non possono scegliere classi come paladino o ranger che 
+Le classi sono numerose, ma non tutte possono essere scelte da pg di tutte le razze, come dicevamo, i nani non sono inclini alla magia, quindi un pg di quella razza non pu√≤ diventare mago o stregone...al contrario i mindflayer sono una razza portata alla magia e alle abilit√† psioniche e non possono diventare guerrieri o barbari. Condizionamenti vengono imposti anche dall'allineamento, ovvero dal codice morale del personaggio; razze naturalmente malvagie non possono scegliere classi come paladino o ranger che 
 
 hanno un rigido codice di condotta, orientato al bene.
 
@@ -166,41 +162,41 @@ Guerriero, Barbaro, Ladro, Paladino, Ranger, Antipaladino, Mago, Stregone, Druid
 
 
 
-Il Guerriero e il Barbaro sono due aspetti della battaglia, il primo ordinato e disciplinato sfrutta le proprie abilit‡ che derivano dall'addestramento mentre il secondo sfrutta la rabbia animale primordiale per trasformarsi in una macchina da guerra senza pi˘ dolore o paura...
+Il Guerriero e il Barbaro sono due aspetti della battaglia, il primo ordinato e disciplinato sfrutta le proprie abilit√† che derivano dall'addestramento mentre il secondo sfrutta la rabbia animale primordiale per trasformarsi in una macchina da guerra senza pi√π dolore o paura...
 
 
 
-Il Paladino Ë anch'egli un militare, ma di un ordine benevolo, associa alle capacit‡ di combattimento del guerriero alcune magie clericali che il suo dio gli concede, ma per queste deve restare assolutamente senza macchia; se scivolasse verso la malvagit‡ perderebbe le sue abilit‡ per sempre...
+Il Paladino √® anch'egli un militare, ma di un ordine benevolo, associa alle capacit√† di combattimento del guerriero alcune magie clericali che il suo dio gli concede, ma per queste deve restare assolutamente senza macchia; se scivolasse verso la malvagit√† perderebbe le sue abilit√† per sempre...
 
 
 
-Il Ranger Ë un combattente votato alla protezione della natura, la serve e la protegge e ne ricava abilit‡ e magie uniche, che lo rendono un combattente formidabile, specialmente in ambienti naturali. PuÚ combattere con due armi contemporaneamente, aumentando i suoi attacchi ma rinunciando allo scudo.
+Il Ranger √® un combattente votato alla protezione della natura, la serve e la protegge e ne ricava abilit√† e magie uniche, che lo rendono un combattente formidabile, specialmente in ambienti naturali. Pu√≤ combattere con due armi contemporaneamente, aumentando i suoi attacchi ma rinunciando allo scudo.
 
 
 
-Il Ladro Ë esattamente cio che si pensa, ruba, si muove silenziosamente, puÚ nascondersi nell'ombra d'un colibrÏ e attaccare i suoi bersagli alle spalle, spesso uccidendoli con un colpo solo, Ë perÚ piuttosto fragile e non Ë un combattente di particolare prestanza.
+Il Ladro √® esattamente cio che si pensa, ruba, si muove silenziosamente, pu√≤ nascondersi nell'ombra d'un colibr√¨ e attaccare i suoi bersagli alle spalle, spesso uccidendoli con un colpo solo, √® per√≤ piuttosto fragile e non √® un combattente di particolare prestanza.
 
 
 
-L'antipaladino Ë, come si immagina dal suo nome, l'opposto del paladino, adora un culto deviato di morte e distruzione, uccide per il gusto di farlo e risucchia l'energia vitale dei deboli per curarsi.
+L'antipaladino √®, come si immagina dal suo nome, l'opposto del paladino, adora un culto deviato di morte e distruzione, uccide per il gusto di farlo e risucchia l'energia vitale dei deboli per curarsi.
 
 
 
 Il Mago e lo stregone sono le classi fantasy per definizione, gracili a vedersi hanno spesso in mano un potere inimmaginabile..in grado di aprire portali dimensionali, evocare fulmini o sciami di meteore, trasformarsi in creature fantastiche o chiamare mostri come servitore...sono una classe misteriosa e da temere...
 
-Il Mago ha molte restrizioni sull'equipaggiamento e usa il mana per lanciare le magie, lo stregone non utilizza mana, ma deve memorizzare prima del combattimento le magie che vuole utilizzare..in compenso puÚ usare quasi tutto l'equipaggiamento dell'impero celeste
+Il Mago ha molte restrizioni sull'equipaggiamento e usa il mana per lanciare le magie, lo stregone non utilizza mana, ma deve memorizzare prima del combattimento le magie che vuole utilizzare..in compenso pu√≤ usare quasi tutto l'equipaggiamento dell'impero celeste
 
 
 
-Il druido, come il ranger Ë un protettore della foresta, ma Ë meno incline al combattimento e pi˘ alle abilit‡ magiche, deve rimanere assolutamente neutrale nella disputa tra il bene e il male...
+Il druido, come il ranger √® un protettore della foresta, ma √® meno incline al combattimento e pi√π alle abilit√† magiche, deve rimanere assolutamente neutrale nella disputa tra il bene e il male...
 
 
 
-Il chierico Ë come il druido un sacerdote, ma Ë libero di scegliere il proprio culto; Ë il curatore per eccellenza, un buon chierico puÚ salvare tutti da situazioni altrimenti mortali.
+Il chierico √® come il druido un sacerdote, ma √® libero di scegliere il proprio culto; √® il curatore per eccellenza, un buon chierico pu√≤ salvare tutti da situazioni altrimenti mortali.
 
 
 
-Lo psionico Ë un personaggio dalle innate capacit‡ mentali, telepatia, telecinesi, poteri psicometabolici sono al suo servizio...puÚ attaccare la mente dei suoi nemici fino a ridurla a un mucchietto di cenere...
+Lo psionico √® un personaggio dalle innate capacit√† mentali, telepatia, telecinesi, poteri psicometabolici sono al suo servizio...pu√≤ attaccare la mente dei suoi nemici fino a ridurla a un mucchietto di cenere...
 
 
 
@@ -212,19 +208,19 @@ Bene, siete finalmente nati..vediamovi un po'...
 
 Con il comando SCORE potete esaminare alcune delle vostre caratteristiche, quali HP (hit points, punti vita), MANA (energia magica) MOV (Movimento), il vostro allineamento, i punti esperienza accumulati etc...
 
-Di particolare importanza HP, MANA e MOV, vediamo perchË:
+Di particolare importanza HP, MANA e MOV, vediamo perch√®:
 
 
 
-Gli HP misurano la vostra capacit‡ di venire danneggiati dagli attacchi senza morire, tipicamente un guerriero o un barbaro hanno pi˘ hp di un mago o un ladro a parit‡ di livello, in quanto piu' avvezzi al combattimento; quando i vostri hp scendono a 0 svenite, quando raggiungono -10 siete morti. Questa caratteristica Ë influenzata dalla costituzione.
+Gli HP misurano la vostra capacit√† di venire danneggiati dagli attacchi senza morire, tipicamente un guerriero o un barbaro hanno pi√π hp di un mago o un ladro a parit√† di livello, in quanto piu' avvezzi al combattimento; quando i vostri hp scendono a 0 svenite, quando raggiungono -10 siete morti. Questa caratteristica √® influenzata dalla costituzione.
 
 
 
-Il MANA rappresenta l'energia sovrannaturale che pervade il vostro personaggio e dipende in maniera diretta dalla classe e dall'intelligenza, Ë necessaria a molte classi per lanciare incantesimi. Non Ë una caratteristica vitale perÚ, se il vostro personaggio raggiunge 0 mana dovete solo aspettare qualche minuto per recuperarlo.
+Il MANA rappresenta l'energia sovrannaturale che pervade il vostro personaggio e dipende in maniera diretta dalla classe e dall'intelligenza, √® necessaria a molte classi per lanciare incantesimi. Non √® una caratteristica vitale per√≤, se il vostro personaggio raggiunge 0 mana dovete solo aspettare qualche minuto per recuperarlo.
 
 
 
-Il MOVIMENTO rappresenta quanto il vostro personaggio si stanca e quanto puÚ percorrere, a piedi, volando, nuotando o scalando prima di fermarsi a riposare. E' molto noioso avere movimento basso ai primi livelli, ma da grandi il problema non si fa sentire pi˘ di tanto, perchË quasi tutte le classi acquistano la possibilit‡ di recuperare i punti movimento molto velocemente.
+Il MOVIMENTO rappresenta quanto il vostro personaggio si stanca e quanto pu√≤ percorrere, a piedi, volando, nuotando o scalando prima di fermarsi a riposare. E' molto noioso avere movimento basso ai primi livelli, ma da grandi il problema non si fa sentire pi√π di tanto, perch√® quasi tutte le classi acquistano la possibilit√† di recuperare i punti movimento molto velocemente.
 
 
 
@@ -232,21 +228,21 @@ Il MOVIMENTO rappresenta quanto il vostro personaggio si stanca e quanto puÚ per
 
 I PRIMI PASSI
 
-Completata la creazione del personaggio, vi troverete nella scuola di Mud di TS2, dove imparerete ad usare molti dei comandi che sono inseriti nella lista in fondo a questo testo. Seguite con attenzione le descrizioni delle stanze e vedrete che la vostra familiarit‡ con i comandi crescer‡ passo passo. Se completerete la scuola sarete autonomi abbastanza da poter comprendere e seguire le iscrizioni sottostanti.
+Completata la creazione del personaggio, vi troverete nella scuola di Mud di TS2, dove imparerete ad usare molti dei comandi che sono inseriti nella lista in fondo a questo testo. Seguite con attenzione le descrizioni delle stanze e vedrete che la vostra familiarit√† con i comandi crescer√† passo passo. Se completerete la scuola sarete autonomi abbastanza da poter comprendere e seguire le iscrizioni sottostanti.
 
 
 
 "Ho un Personaggio, conosco i comandi...e ora?" 
 
-Forse vi trovate in questa situazione...Ë bene quindi spendere due parole su come potrebbe essere la vita del vostro personaggio d'ora in avanti:
+Forse vi trovate in questa situazione...√® bene quindi spendere due parole su come potrebbe essere la vita del vostro personaggio d'ora in avanti:
 
-Il mondo Ë pieno di pericoli ed insidie, e solo i forti riescono a sopravvivere; voi non lo siete, non ancora.
+Il mondo √® pieno di pericoli ed insidie, e solo i forti riescono a sopravvivere; voi non lo siete, non ancora.
 
 Uscendo dalla scuola di mud vi trovate nella Stanza delle Donazioni, dove potrete trovare dell'equipaggiamento e del cibo.
 
 Usate i comandi TAKE per prendere, WEAR per indossare WIELD per impugnare un'arma, oppure DROP per posare un oggetto di cui non siete soddisfatti, tutti seguiti dal nome dell'oggetto con cui volete interagire. Con il comando INV potete vedere quali oggetti avete preso ma non ancora indossato, mentre con EQ vedete quelli che state usando, il comando DROP <nome oggetto> vi permette di togliere un oggetto volete smettere di utilizzare. Ora che avete un equipaggiamento, partiamo alla volta dell'avventura :)
 
-Siete degli apprendisti nella professione che avete scelto, che sia quella del combattimento, della magia, della religione o altro, dovete ancora impararne i fondamenti e i limiti. Un buon punto di partenza Ë recarsi alla propria gilda per imparare le prime abilit‡ e magie. Di seguito trovate la mappa di Midia, usatela per orientarvi e trovare la vostra gilda e il vostro maestro.
+Siete degli apprendisti nella professione che avete scelto, che sia quella del combattimento, della magia, della religione o altro, dovete ancora impararne i fondamenti e i limiti. Un buon punto di partenza √® recarsi alla propria gilda per imparare le prime abilit√† e magie. Di seguito trovate la mappa di Midia, usatela per orientarvi e trovare la vostra gilda e il vostro maestro.
 
 
 
@@ -336,13 +332,13 @@ Druidi 7w,2s,e,s,e,5s (Arcidruido Namor)
 
 
 
-Raggiungendo il vostro maestro, utilizzate il comando PRAC per ottenere la lista delle abilit‡ e magie che Ë disposto ad insegnarvi...non saranno molte, ma potrebbero essere comunque piu' di quelle che potete imparare (sessioni di pratica disponibili); non disperate. Ogni livello prenderete un numero di sessioni di pratica che dipende dalla vostra saggezza e potrete usarle anche per magie o abilit‡ di livelli precedenti. (HELP <nomeabilit‡> per capire come usarle e cosa fanno)
+Raggiungendo il vostro maestro, utilizzate il comando PRAC per ottenere la lista delle abilit√† e magie che √® disposto ad insegnarvi...non saranno molte, ma potrebbero essere comunque piu' di quelle che potete imparare (sessioni di pratica disponibili); non disperate. Ogni livello prenderete un numero di sessioni di pratica che dipende dalla vostra saggezza e potrete usarle anche per magie o abilit√† di livelli precedenti. (HELP <nomeabilit√†> per capire come usarle e cosa fanno)
 
-Imparate alcune abilit‡ Ë ora di sfidare il vostro primo nemico...classicamente, il Pedone Nero.
+Imparate alcune abilit√† √® ora di sfidare il vostro primo nemico...classicamente, il Pedone Nero.
 
-Lo trovate nella scacchiera, ed Ë il primo avversario che potete affrontare, vi servir‡ per praticare le vostre abilit‡, migliorandone la conoscenza e capire quanto potete osare nell'attaccare altri pezzi della scacchiera. Ricordate che i pezzi neri (malvagi) sono pi˘ deboli, a parit‡ di pezzo, dei pezzi bianchi (buoni) tenetene conto. Per il resto la progressione della forza e' tale e quale a quella dell'importanza degli scacchi. A seconda della vostra razza, della vostra classe e dell'equipaggiamento che avete trovato potete affrontare nemici differenti: al primo livello un troll warrior puÚ uccidere con tranquillit‡ avversari che massacrerebbero un mago elfo...ma questo Ë destinato a cambiare man mano che si cresce.
+Lo trovate nella scacchiera, ed √® il primo avversario che potete affrontare, vi servir√† per praticare le vostre abilit√†, migliorandone la conoscenza e capire quanto potete osare nell'attaccare altri pezzi della scacchiera. Ricordate che i pezzi neri (malvagi) sono pi√π deboli, a parit√† di pezzo, dei pezzi bianchi (buoni) tenetene conto. Per il resto la progressione della forza e' tale e quale a quella dell'importanza degli scacchi. A seconda della vostra razza, della vostra classe e dell'equipaggiamento che avete trovato potete affrontare nemici differenti: al primo livello un troll warrior pu√≤ uccidere con tranquillit√† avversari che massacrerebbero un mago elfo...ma questo √® destinato a cambiare man mano che si cresce.
 
-In men che non si dica, potrete leggere la scritta : Hai guadagnato un livello! Per passare effettivamente al livello 2 dovete tornare alla vostra gilda e digitare il comando GAIN che vi passer‡ al prossimo livello; appena fatto questo con il comando PRAC potete vedere quali nuove abilit‡ il vostro maestro Ë disposto ad insegnarvi, potrebbero essere molte, poche o anche nessuna, ancora una volta dipende dalla vostra classe. Ora potete prendere confidenza con le peculiarit‡ e i limiti del vostro personaggio affrontando pezzi sempre piu' forti, prima neri, poi bianchi fino ai livelli 5/10 quando potete avventurarvi nella magica foresta degli elfi, oppure nei campi di addestramento; prima assicuratevi perÚ di avere con voi cibo, acqua e varie torce o altre fonti di luce. I campi di addestramento vi permetteranno di cominciare a sostituire l'equipaggiamento trovato in donation con altro recuperato da voi. Si trovano, dal Centro Commerciale (S,U,4S,D).
+In men che non si dica, potrete leggere la scritta : Hai guadagnato un livello! Per passare effettivamente al livello 2 dovete tornare alla vostra gilda e digitare il comando GAIN che vi passer√† al prossimo livello; appena fatto questo con il comando PRAC potete vedere quali nuove abilit√† il vostro maestro √® disposto ad insegnarvi, potrebbero essere molte, poche o anche nessuna, ancora una volta dipende dalla vostra classe. Ora potete prendere confidenza con le peculiarit√† e i limiti del vostro personaggio affrontando pezzi sempre piu' forti, prima neri, poi bianchi fino ai livelli 5/10 quando potete avventurarvi nella magica foresta degli elfi, oppure nei campi di addestramento; prima assicuratevi per√≤ di avere con voi cibo, acqua e varie torce o altre fonti di luce. I campi di addestramento vi permetteranno di cominciare a sostituire l'equipaggiamento trovato in donation con altro recuperato da voi. Si trovano, dal Centro Commerciale (S,U,4S,D).
 
 Una volta superati i primi 15 livelli avrete abbastanza esperienza per cominciare il vostro primo vero viaggio, alla volta delle spiagge dell'antica grecia, abitata da giganti, amazzoni e mostri leggendari come L'idra di Lerna e il leone di Nemea.
 
@@ -352,7 +348,7 @@ Una volta superati i primi 15 livelli avrete abbastanza esperienza per cominciar
 
 IL COMBATTIMENTO
 
-Tipicamente, per ingaggiare un combattimento basta utilizzare i comandi KILL o HIT seguiti dal nome del mob; molte classi hanno perÚ abilit‡ con cui puÚ essere pi˘ conveniente iniziare un attacco, ad esempio il bash dei warrior, il kick dei monaci o le magie dei maghi..le scelte migliori da effettuare in combattimento le scoprirete dopo molta pratica, meravigliandovi di come un sistema apparentemente semplice, possa nascondere centinaia di variabili pi˘ o meno interessanti.
+Tipicamente, per ingaggiare un combattimento basta utilizzare i comandi KILL o HIT seguiti dal nome del mob; molte classi hanno per√≤ abilit√† con cui pu√≤ essere pi√π conveniente iniziare un attacco, ad esempio il bash dei warrior, il kick dei monaci o le magie dei maghi..le scelte migliori da effettuare in combattimento le scoprirete dopo molta pratica, meravigliandovi di come un sistema apparentemente semplice, possa nascondere centinaia di variabili pi√π o meno interessanti.
 
 
 
@@ -360,9 +356,9 @@ il nemico e' morto! R.I.P.
 
 
 
-Se vi Ë apparsa una scritta come quella sopra, complimenti! Ora che avete fatto la vostra prima vittima potete appropriarvi dei suoi averi, oggetti o soldi che siano; in fondo lui non ne ha pi˘ bisogno.... :)
+Se vi √® apparsa una scritta come quella sopra, complimenti! Ora che avete fatto la vostra prima vittima potete appropriarvi dei suoi averi, oggetti o soldi che siano; in fondo lui non ne ha pi√π bisogno.... :)
 
-Con EXA CORPO potete esaminare il contenuto del cadavere e con il comando TAKE <oggetto> CORPO potete appropriarvi di ciÚ che apparteneva alla vittima.
+Con EXA CORPO potete esaminare il contenuto del cadavere e con il comando TAKE <oggetto> CORPO potete appropriarvi di ci√≤ che apparteneva alla vittima.
 
 
 
@@ -370,15 +366,15 @@ Con EXA CORPO potete esaminare il contenuto del cadavere e con il comando TAKE <
 
 LA MAGIA
 
-Bene, giovani apprendisti, avete deciso di cimentarvi in una via di grande difficolt‡ ma che dona grande potere a chi la segue con tenacia. Chierici, Maghi e Druidi lanciano le magie utilizzando cast 'nomemagia' e spendendo (in automatico) il loro costo in MANA. Le magie che lanciate all'inizio falliranno spessissimo, in particolare se lanciate durante un combattimento, ma con la crescit‡ dell'abilit‡ e un buon equipaggiamento arriverete a non sbagliare praticamente mai.
+Bene, giovani apprendisti, avete deciso di cimentarvi in una via di grande difficolt√† ma che dona grande potere a chi la segue con tenacia. Chierici, Maghi e Druidi lanciano le magie utilizzando cast 'nomemagia' e spendendo (in automatico) il loro costo in MANA. Le magie che lanciate all'inizio falliranno spessissimo, in particolare se lanciate durante un combattimento, ma con la crescit√† dell'abilit√† e un buon equipaggiamento arriverete a non sbagliare praticamente mai.
 
-Gli Psionici utilizzano invece il comando MIND 'nomemagia' per utilizzare le loro capacit‡ mentali; in particolare ci sono pero' alcune abilit‡ psioniche che possono sembrare magie ma non lo sono (blast e psi invisibility ad esempio), per utilizzare queste ultime basta scrivere il loro nome. (quindi Blast <nome> e non Cast 'blast o mind 'blast').
+Gli Psionici utilizzano invece il comando MIND 'nomemagia' per utilizzare le loro capacit√† mentali; in particolare ci sono pero' alcune abilit√† psioniche che possono sembrare magie ma non lo sono (blast e psi invisibility ad esempio), per utilizzare queste ultime basta scrivere il loro nome. (quindi Blast <nome> e non Cast 'blast o mind 'blast').
 
 Ogni volta che imparate una nuova magia digitate HELP <nomemagia> per ottenere le informazioni fondamentali su di essa.
 
-Anche per gli psi vale lo stesso discorso sul fallimento delle magie, con l'unica eccezione che le abilit‡ non vengono peggiorate dall'essere o meno in combattimento.
+Anche per gli psi vale lo stesso discorso sul fallimento delle magie, con l'unica eccezione che le abilit√† non vengono peggiorate dall'essere o meno in combattimento.
 
-Gli stregoni invece, non utilizzano mana per lanciare i loro incantesimi, ma devono sedersi (REST) e memorizzare le magie che intendono usare (MEMO <nomemagia>), una volta fatto questo le loro magie verranno lanciate senza consumare mana con il comando RECALL 'nomemagia'. Particolarit‡ eccellente degli stregoni Ë che non falliscono MAI le magie!
+Gli stregoni invece, non utilizzano mana per lanciare i loro incantesimi, ma devono sedersi (REST) e memorizzare le magie che intendono usare (MEMO <nomemagia>), una volta fatto questo le loro magie verranno lanciate senza consumare mana con il comando RECALL 'nomemagia'. Particolarit√† eccellente degli stregoni √® che non falliscono MAI le magie!
 
 
 
@@ -388,9 +384,9 @@ EQUIPAGGIAMENTO
 
 Avete recuperato degli oggetti da avversari sconfitti, prelevato equipaggiamento dalla stanza delle donazioni e magari anche acquistato oggetti da altri personaggi o da negozianti..ora volete sapere quali utilizzare.
 
-A Midia, Zifnab vende delle pergamene magiche che se utilizzate (RECITE PERGAMENA <oggetto>) permettono di scoprire tutte le qualit‡ nascoste degli oggetti e di scegliere i pi˘ adatti a voi.
+A Midia, Zifnab vende delle pergamene magiche che se utilizzate (RECITE PERGAMENA <oggetto>) permettono di scoprire tutte le qualit√† nascoste degli oggetti e di scegliere i pi√π adatti a voi.
 
-Se non potete leggere o acquistare queste pergamene fatevi consigliare da personaggi pi˘ esperti di voi, oppure osservate cosa indossano personaggi della vostra classe.
+Se non potete leggere o acquistare queste pergamene fatevi consigliare da personaggi pi√π esperti di voi, oppure osservate cosa indossano personaggi della vostra classe.
 
 
 
@@ -398,7 +394,7 @@ Se non potete leggere o acquistare queste pergamene fatevi consigliare da person
 
 COMUNICARE CON I PG
 
-Se non avete voglia di continuare a comunicare con i Mob (a forza di botte:) potete comunicare con gli altri giocatori, utilizzando i comandi TELL, SAY, SHOUT, GOSSIP, SEND, TELEP, MESS come illustrato pi˘ sotto.
+Se non avete voglia di continuare a comunicare con i Mob (a forza di botte:) potete comunicare con gli altri giocatori, utilizzando i comandi TELL, SAY, SHOUT, GOSSIP, SEND, TELEP, MESS come illustrato pi√π sotto.
 
 Potete comunicare anche senza parlare utilizzando i Social, un tipo di comando particolare che produce un messaggio agli altri giocatori presenti nella stanza..esempio:
 
@@ -414,7 +410,7 @@ Ti rotoli per terra dal ridere!
 
 
 
-Non c'Ë come provare, quindi digitate help social e sbizzarritevi ;)
+Non c'√® come provare, quindi digitate help social e sbizzarritevi ;)
 
 
 
@@ -428,9 +424,9 @@ HELP <argomento> 	Visualizza una breve spiegazione su una magia, razza, classe, 
 
 SCORE & ATT		Visualizzano differenti caratteristiche del vostro pg
 
-INV			Mostra ciÚ che avete ma non indossate
+INV			Mostra ci√≤ che avete ma non indossate
 
-EQ			Mostra ciÚ che indossate
+EQ			Mostra ci√≤ che indossate
 
 TAKE <oggetto>		Prendere, seguito da un altro parametro indica DA DOVE lo si prende (take pane borsa)
 
@@ -438,11 +434,11 @@ DROP <oggetto>		Posare
 
 WEAR, WIELD & HOLD	Per utilizzare l'equipaggiamento a seconda che siano armature, armi o fonti di luce
 
-PRAC			Mostra dal proprio maestro le abilit‡ che si possono praticare, seguito da (W,B,T,C,M,I,D,R,K,P,A,H) visualizza tutte le abilit‡ di una classe che si possiedono
+PRAC			Mostra dal proprio maestro le abilit√† che si possono praticare, seguito da (W,B,T,C,M,I,D,R,K,P,A,H) visualizza tutte le abilit√† di una classe che si possiedono
 
 
 
-GAIN			Di fronte al proprio maestro, fa passare di livello se si Ë pronti
+GAIN			Di fronte al proprio maestro, fa passare di livello se si √® pronti
 
 KILL & HIT		Per attaccare un mob
 
@@ -470,15 +466,6 @@ GOSSIP			Per parlare con tutti i presenti nell'area
 
 SHOUT			Per parlare con tutti i pg del mondo
 
-COMMANDS		Mostra una lista dei comandi pi˘ comuni
+COMMANDS		Mostra una lista dei comandi pi√π comuni
 
-
-
-
-
-Buon Gioco!!
-
-Kyrasys, Karyal, Ydwen
-
-Lorenzo Moretti in Real Life :)
 
