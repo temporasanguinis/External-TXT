@@ -17,7 +17,7 @@ Versione 2.22.21.1 - $c0009FEBBRAIO 2022 $c0007- Mappe per tutti
 - Corretta la procedura di Buro il contrabbandiere. I personaggi fino a 2000 PWP possono
   affrontare le missioni. Il pagamento scende all'aumentare del numero dei PG e del PWP 
   degli stessi.
-- Corrette alcune location delle caverne Kaligrin che permettevano ai mob dei livelli 
+- Corrette alcune location delle caverne di Kaligrin che permettevano ai mob dei livelli 
   inferiori di salire verso quelli superiori.
 - Dall'Altomago Rafa Kendall si possono unire i frammenti runici. Lui vi indichera' poi
   cosa fare per trasformare le rune ottenute in oggetti utili ai vostri scopi.
@@ -34,6 +34,7 @@ Versione 2.22.21.1 - $c0009FEBBRAIO 2022 $c0007- Mappe per tutti
 - Alcune correzioni ai PERKS.
 - Il KICK puo' essere imparato anche dai ranger (serve per alcune specializzazioni).
 - Aggiunto un messaggio speciale al BASH del titano.
+- Correzione di alcuni bug che permettevano exploit e raccolta impropria di denaro.
 
 Versione 2.22.21.1 - $c0009GENNAIO 2022 $c0007- Un nuovo anno
 - $c0012Quest e aree$c0007: 
