@@ -4166,6 +4166,12 @@ giocatore non ha modo  di vedere in queste occasioni,  non puo'
 vedere  nemmeno  quello che  sta  indossando,  e quindi nemmeno
 toglierlo, se non con <remove all>.
 
+Con il comando $c0009EQ STATO$c0007 si possono ottenere informazioni aggiuntive
+sui pezzi del prorio equipaggiamento, sulla quantita' degli oggetti 
+personalizzati, su alcune caratteristiche degli stessi e ricevere 
+un avviso qualora non si indossino degli oggetti in alcune posizioni.
+
+
 Vedi anche: INVENTARIO
 
 #
