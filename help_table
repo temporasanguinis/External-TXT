@@ -4171,6 +4171,8 @@ sui pezzi del prorio equipaggiamento, sulla quantita' degli oggetti
 personalizzati, su alcune caratteristiche degli stessi e ricevere 
 un avviso qualora non si indossino degli oggetti in alcune posizioni.
 
+Con il comando $c0009EQ ROVINATO$c0007 si possono ottenere informazioni
+sui pezzi che sono in cattivo stato (danneggiati almeno al 50%).
 
 Vedi anche: INVENTARIO
 
