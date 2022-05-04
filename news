@@ -4,20 +4,56 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - Ora le aree possono avere un livello di PWP consigliato. I personaggi che dispongono di
   un livello maggiore di PWP possono ugualmente entrare nell'area, ma riceveranno premi 
   inferiori completando le miniquest o sconfiggendo i nemici.
-- Inserita una miniquest a tempo presso l'Antro degli esperimenti.
-- Inserita una miniquest a tempo presso i Campi d'addestramento a sud di Midia.
+- Inserita una miniquest a tempo presso l'Antro degli esperimenti(Livello PWP 600).
+- Inserita una miniquest a tempo presso i Campi d'addestramento a sud di Midia (Livello 15-20).
 - Inseriti nuovi messaggi presso i mob questor che indicano la possibilita' di 
   ottenere premi aggiuntivi qualora si fosse in possesso di specifici Award.
+- Corrette alcune scritte presso la scuola di Midia.
+- Se viene sacrificata la vergine presso la piramide dei serpenti, il serpente evocato
+  ha nuove procedure e possibili premi aggiuntivi.
+- Tolto il limite PWP alla Torre nera di Hoeur, aggiunto PWP consigliato.
+- Aumentato il limite PWP alla Via Lattea, aggiunto PWP consigliato.
+- Aggiunte a Geldor e Midia.
 - $c0012Cambiamenti principali$c0007:   
 - Fanno la loro comparsa i MOB MERCENARI! Presso la gilda dei mercenari sono a 
   disposizione alcuni mob che supporteranno i PG nelle loro scorribande. Naturalmente
   i loro servigi sono a pagamento. I PG membri della gilda dispongono di uno sconto
-  speciale.
-- Aggiunti gli oggetti TIMER, che possono essere usati anche per scandire il tempo
-  in quest e missioni, oltre che fungere da bonus temporanei.
+  speciale. La potenza e il costo dei mercenari sono proporzionali al PWP del PG.
+- Aggiunti gli oggetti ETEREI. Questi scompaiono dopo un certo numero di tick
+  definiti e possono essere usati anche per scandire il tempo in quest e missioni, 
+  oltre che fungere da oggetti con bonus temporanei.
 - Aggiunti degli AWARD, alcuni di questi non sono al momento disponibili.
 - Alcune correzioni ai PERKS.
+- Il limite degli oggetti rari che un PG puo' mantenere, passa da 18 a 20.
+- Aggiunto PERK NECROMANTE per Chierici e Antipaladini.
+- Aggiunto PERK SEGUGIO che diminuisce il lag determinato dal TRACK.
+- BLESS, quando viene lanciato sull'equipaggiamento, aggiunge temporaneamente
+  -1 a SAVE ALL.
+- TALE EROE del bardo alza il limite di ABSORB DAMAGE temporaneamente.
 - PRAY NIRVANA puo' rendere la stanza NO MOB, come gia' avviene con l'incantesimo SHIELD ROOM.
+- Aggiunti i comandi EQ STATO ed EQ ROVINATO. Ciascuno di essi da informazioni aggiuntive
+  sui pezzi indossati.
+- BRIEF toglie le scritte della storia dalle TALE del bardo.
+- Gli award "insolente" e "traditore" fanno diminuire il numero totale di award collezionati 
+  nell'indicatore del TITLE.
+- Quando si sbaglia la password di accesso, compare una frase per segnalare l'errore.
+- $c0012Bugfix$c0007: 
+- Corretto un errore di lettura del terminale del Web client.
+- Sistemato un possibile exploit causato dalle skill del drago presso 
+  il nexus del chaos. SUSSURRO assegna solo afflizione da burning, suscettibilita' al
+  freddo ma non cecita'.
+- Sistemato un bug che poteva causare crash con i follower in casi speciali.
+- Sistemato un bug che causava duplicazione delle monete con LUCK o GOLDFIND.
+- Sistemato un bug che poteva causare doppia morte dei mob con la TALE FUGGIASCO.
+- Sistemato il salvataggio del campo dati PARTNER del PG che non si salvava correttamente.
+- Sistemato RESURRECT e REINCARNATE su PG morti LINKDEAD o a causa di un danno non 
+  definito.
+- Sistemato un bug che fermava il combattimento quando si era colpiti da freccia.
+- Corretta l'AI dei mob ladri: ora preferiranno impugnare armi PIERCE se ne hanno a
+  disposizione.
+- Il bash effettuato da PG di piccola statura ai nemici di piccola statura, causa sempre
+  2 round di lag, al fine di alleviare la necessita' per i tank di essere HUGE.
+
 
 Versione 2.22.21.2 - $c0009FEBBRAIO 2022 $c0007- Mappe per tutti
 - Va online la nuova versione del Webclient: sia lode a Yffre!

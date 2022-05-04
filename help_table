@@ -16,7 +16,8 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   (aggiornato), BASH (aggiornato), TICK, ROUND, FAMIGLI (aggiornato),
   GROUP (aggiornato), SIMBOLI MAGICI, ALIAS (aggiornato), PLAY 
   (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato), FLOW,
-  OVERLOAD, FIX (aggiornato), PROMPT (aggiornato), EQUIPMENT (aggiornato).
+  OVERLOAD, FIX (aggiornato), PROMPT (aggiornato), EQUIPMENT (aggiornato),
+  OGGETTI ETEREI.
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -5494,6 +5495,10 @@ aumenta l'hitroll di 2 punti. Al momento,  usare questo  incantesimo
 sopra un  oggetto non  ne cambiera'  le caratteristiche:  esso avra'
 il flag  BLESS,  che ne  impedisce  l'uso  ai barbari,  senza nessun
 altro miglioramento.
+
+Se lanciato su un oggetto, modifica temporaneamente il bonus al 
+SAVE-ALL, assegnando un valore di -1, aumentando quindi il potere
+difensivo dell'oggetto.
  
 Vedi anche: HITROLL
 
@@ -7663,7 +7668,7 @@ al druido di proteggere tutto il suo gruppo con l'incantesimo
 NATURES PROTECTION. Costo in mana.
 $c0011- PRAY NIRVANA$c0007 - riservata ai monaci, permette
 al monaco di interrompere il combattimento nell'area e ottenere 
-vari bonus.
+vari bonus, tra cui l'incantesimo di SHIELD ROOM sulla stanza.
 
 $c0009PREGHIERE A KARMA$c0007 
 
@@ -15119,6 +15124,15 @@ che influenzano la quantita' di energia vitale convertita ogni round.
 
 Vedi anche: CANIBALIZE, HEALING RAIN, MENTAL VAMPIRISM, MANA,
             INSTILL
+			
+#
+"OGGETTI ETEREI" ETEREO
+
+Gli oggetti eterei sono oggetti temporanei, tenuti insieme da incantesimi
+o soggetti a un rapido deterioramento. Possono essere utilizzati nelle quest
+come segnatempo o come bonus temporanei.
+	
+Vedi anche: LAG, COOLDOWN, ROUND, TICK
 
 #~
 
