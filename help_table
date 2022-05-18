@@ -17,7 +17,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   GROUP (aggiornato), SIMBOLI MAGICI, ALIAS (aggiornato), PLAY 
   (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato), FLOW,
   OVERLOAD, FIX (aggiornato), PROMPT (aggiornato), EQUIPMENT (aggiornato),
-  OGGETTI ETEREI.
+  OGGETTI ETEREI, MESTIERI (aggiornato) e MERCANTE D'OSSA.
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -6960,7 +6960,8 @@ Il mestiere si puo' imparare da un un conciatore roo.
 La skill puo' avere risultati  migliori anche grazie agli  attributi 
 DESTREZZA e INTELLIGENZA.
 
-Vedi anche: KILL, RANGER, PESCATORE, ALCHIMISTA, MINATORE, MESTIERI
+Vedi anche: KILL, RANGER, PESCATORE, ALCHIMISTA, MINATORE, MESTIERI,
+			MERCANTE D'OSSA
  
 #
 BELLOW
@@ -14116,7 +14117,7 @@ possibile pescare fino al successivo REBOOT.
 La skill migliora anche grazie agli attributi CARISMA e SAGGEZZA.
 
 Vedi anche: ALLSKILL, ALLSPELL, AWARD, MESTIERI, CONCIATORE,
-            ALCHIMISTA, MINATORE
+            ALCHIMISTA, MINATORE, MERCANTE D'OSSA
 
 #
 "HEALING RAIN"
@@ -14156,7 +14157,8 @@ pratica, dipende dagli attributi del personaggio.
 Con la pratica e' possibile diventarne maestri e sbloccare
 nuove abilita' speciali.
 
-Vedi anche: AWARD, PESCATORE, CONCIATORE, ALCHIMISTA, MINATORE
+Vedi anche: AWARD, PESCATORE, CONCIATORE, ALCHIMISTA, MINATORE,
+			MERCANTE D'OSSA
 
 #
 AWARD
@@ -14210,7 +14212,8 @@ alternativa, il materiale raccolto puo' essere utilizzato nell'alchimia.
 
 La skill migliora anche grazie agli attributi FORZA e COSTITUZIONE.
 
-Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA
+Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
+			MERCANTE D'OSSA
 
 
 #
@@ -14236,7 +14239,7 @@ Esistono ricette segrete o ancora celate, nascoste in luoghi remoti dell'impero.
 
 La skill migliora anche grazie agli attributi INTELLIGENZA e SAGGEZZA.
 
-Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, MINATORE
+Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, MINATORE, MERCANTE D'OSSA
 
 #
 "MELEE COMBAT" HEADBUTT ELBOW KNEEHIT CHOKE BATTLECRY
@@ -15133,6 +15136,26 @@ o soggetti a un rapido deterioramento. Possono essere utilizzati nelle quest
 come segnatempo o come bonus temporanei.
 	
 Vedi anche: LAG, COOLDOWN, ROUND, TICK
+
+#
+"MERCANTE D'OSSA"
+
+Mestiere per: Tutti
+
+Questa abilita' permette all'avventuriero di ottenere le ossa dai cadveri
+di alcune creature al fine di vendere o ricavarci. Questo mestiere puo' 
+essere imparato presso i boschi di Geldor. 
+
+E' necessario avere una sega da ossa e trovarsi in prossimita' di un corpo
+utile al proprio scopo. Per effettuare il sezionamento, bisogna usare il 
+comando $c0009USE SEGA CORPO$c0007.
+
+Con questa tecnica si possono trovare ossa utili al fine di collezionare
+tesori o ottenere famigli rari e pericolosi. 
+
+Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
+			MINATORE
+
 
 #~
 

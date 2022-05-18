@@ -26,7 +26,7 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - Alcune correzioni ai PERKS.
 - Il limite degli oggetti rari che un PG puo' mantenere, passa da 18 a 20.
 - Aggiunto PERK NECROMANTE per Chierici e Antipaladini.
-- Aggiunto PERK SEGUGIO che diminuisce il lag determinato dal TRACK.
+- Aggiunto PERK SEGUGIO che diminuisce il lag causato dal TRACK.
 - BLESS, quando viene lanciato sull'equipaggiamento, aggiunge temporaneamente
   -1 a SAVE ALL.
 - TALE EROE del bardo alza il limite di ABSORB DAMAGE temporaneamente.
