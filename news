@@ -6,6 +6,7 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
   inferiori completando le miniquest o sconfiggendo i nemici.
 - Inserita una miniquest a tempo presso l'Antro degli esperimenti(Livello PWP 600).
 - Inserita una miniquest a tempo presso i Campi d'addestramento a sud di Midia (Livello 15-20).
+- Inserita una miniquest presso la citta' di Geldor (Livello PWP 200).
 - Inseriti nuovi messaggi presso i mob questor che indicano la possibilita' di 
   ottenere premi aggiuntivi qualora si fosse in possesso di specifici Award.
 - Corrette alcune scritte presso la scuola di Midia.
@@ -13,8 +14,13 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
   ha nuove procedure e possibili premi aggiuntivi.
 - Tolto il limite PWP alla Torre nera di Hoeur, aggiunto PWP consigliato.
 - Aumentato il limite PWP alla Via Lattea, aggiunto PWP consigliato.
-- Aggiunte a Geldor e Midia.
-- $c0012Cambiamenti principali$c0007:   
+- Aggiunte a Geldor e Midia. Presso l'arena di Felix e presso Geldor sono state inserite 
+  delle nuove stanze e alcuni mob.
+- $c0012Cambiamenti principali$c0007: 
+- Aggiunta la possibilita' di avere un ripostiglio in condivisione tra i propri
+  personaggi. Inserendo l'email nel menu' dei propri personaggi e dopo averla confermata,
+  sara' possibile accedere ad un ripostiglio in cui depositare degli oggetti condivisi,
+  attraverso i comandi STASH/RIPONI e UNSTASH/RIPRENDI.
 - Fanno la loro comparsa i MOB MERCENARI! Presso la gilda dei mercenari sono a 
   disposizione alcuni mob che supporteranno i PG nelle loro scorribande. Naturalmente
   i loro servigi sono a pagamento. I PG membri della gilda dispongono di uno sconto
@@ -22,6 +28,10 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - Aggiunti gli oggetti ETEREI. Questi scompaiono dopo un certo numero di tick
   definiti e possono essere usati anche per scandire il tempo in quest e missioni, 
   oltre che fungere da oggetti con bonus temporanei.
+- Aggiunta di un nuovo mestiere: il MERCANTE D'OSSA. Usando una speciale sega da ossa
+  si potranno asportare parti specifiche di alcune creature. Tramite la vendita di
+  alcuni specifici set di ossa sara' possibile sbloccare nuovi famigli
+  o per ottenere bonus e premi.
 - Aggiunti degli AWARD, alcuni di questi non sono al momento disponibili.
 - Alcune correzioni ai PERKS.
 - Il limite degli oggetti rari che un PG puo' mantenere, passa da 18 a 20.
@@ -37,6 +47,8 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - Gli award "insolente" e "traditore" fanno diminuire il numero totale di award collezionati 
   nell'indicatore del TITLE.
 - Quando si sbaglia la password di accesso, compare una frase per segnalare l'errore.
+- Alcuni comandi (BASH, KICK, TRIP e ASSIST) non chiedono ora la vittima, ma ingaggiano il 
+  primo mob che sta attaccando il gruppo.
 - $c0012Bugfix$c0007: 
 - Corretto un errore di lettura del terminale del Web client.
 - Sistemato un possibile exploit causato dalle skill del drago presso 
@@ -51,6 +63,7 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - Sistemato un bug che fermava il combattimento quando si era colpiti da freccia.
 - Corretta l'AI dei mob ladri: ora preferiranno impugnare armi PIERCE se ne hanno a
   disposizione.
+- Fix a SONG OF DUMBING che funzionava erroneamente sui pg del gruppo.
 - Il bash effettuato da PG di piccola statura ai nemici di piccola statura, causa sempre
   2 round di lag, al fine di alleviare la necessita' per i tank di essere HUGE.
 
