@@ -17,7 +17,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   GROUP (aggiornato), SIMBOLI MAGICI, ALIAS (aggiornato), PLAY 
   (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato), FLOW,
   OVERLOAD, FIX (aggiornato), PROMPT (aggiornato), EQUIPMENT (aggiornato),
-  OGGETTI ETEREI, MESTIERI (aggiornato) e MERCANTE D'OSSA.
+  OGGETTI ETEREI, MESTIERI (aggiornato) e OCCULTISTA.
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -6961,7 +6961,7 @@ La skill puo' avere risultati  migliori anche grazie agli  attributi
 DESTREZZA e INTELLIGENZA.
 
 Vedi anche: KILL, RANGER, PESCATORE, ALCHIMISTA, MINATORE, MESTIERI,
-			MERCANTE D'OSSA
+			OCCULTISTA
  
 #
 BELLOW
@@ -14117,7 +14117,7 @@ possibile pescare fino al successivo REBOOT.
 La skill migliora anche grazie agli attributi CARISMA e SAGGEZZA.
 
 Vedi anche: ALLSKILL, ALLSPELL, AWARD, MESTIERI, CONCIATORE,
-            ALCHIMISTA, MINATORE, MERCANTE D'OSSA
+            ALCHIMISTA, MINATORE, OCCULTISTA
 
 #
 "HEALING RAIN"
@@ -14158,7 +14158,7 @@ Con la pratica e' possibile diventarne maestri e sbloccare
 nuove abilita' speciali.
 
 Vedi anche: AWARD, PESCATORE, CONCIATORE, ALCHIMISTA, MINATORE,
-			MERCANTE D'OSSA
+			OCCULTISTA
 
 #
 AWARD
@@ -14213,7 +14213,7 @@ alternativa, il materiale raccolto puo' essere utilizzato nell'alchimia.
 La skill migliora anche grazie agli attributi FORZA e COSTITUZIONE.
 
 Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
-			MERCANTE D'OSSA
+			OCCULTISTA
 
 
 #
@@ -14239,7 +14239,7 @@ Esistono ricette segrete o ancora celate, nascoste in luoghi remoti dell'impero.
 
 La skill migliora anche grazie agli attributi INTELLIGENZA e SAGGEZZA.
 
-Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, MINATORE, MERCANTE D'OSSA
+Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, MINATORE, OCCULTISTA
 
 #
 "MELEE COMBAT" HEADBUTT ELBOW KNEEHIT CHOKE BATTLECRY
@@ -15138,11 +15138,11 @@ come segnatempo o come bonus temporanei.
 Vedi anche: LAG, COOLDOWN, ROUND, TICK
 
 #
-"MERCANTE D'OSSA"
+OCCULTISTA
 
 Mestiere per: Tutti
 
-Questa abilita' permette all'avventuriero di ottenere le ossa dai cadveri
+Questa abilita' permette all'avventuriero di ottenere le ossa dai cadaveri
 di alcune creature al fine di vendere o ricavarci. Questo mestiere puo' 
 essere imparato presso i boschi di Geldor. 
 
