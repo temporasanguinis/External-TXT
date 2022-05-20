@@ -7,11 +7,14 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - Inserita una miniquest a tempo presso l'Antro degli esperimenti(Livello PWP 600).
 - Inserita una miniquest a tempo presso i Campi d'addestramento a sud di Midia (Livello 15-20).
 - Inserita una miniquest presso la citta' di Geldor (Livello PWP 200).
+- Inserita una miniquest presso l'arena di Felix per ottenere il primo famiglio divoratore.
+- Inserita una miniquest presso le terre del grande Lag per ottenere il secondo famiglio divoratore.
 - Inseriti nuovi messaggi presso i mob questor che indicano la possibilita' di 
   ottenere premi aggiuntivi qualora si fosse in possesso di specifici Award.
-- Corrette alcune scritte presso la scuola di Midia.
+- Corrette alcune scritte presso la scuola di Midia. Ora aprire le porte e' piu' semplice.
 - Se viene sacrificata la vergine presso la piramide dei serpenti, il serpente evocato
-  ha nuove procedure e possibili premi aggiuntivi.
+  ha nuove procedure e possibili premi alternativi.
+- Andare alla ricerca di Golgar, dio dei trogloditi, puo' ripagare la caccia.
 - Tolto il limite PWP alla Torre nera di Hoeur, aggiunto PWP consigliato.
 - Aumentato il limite PWP alla Via Lattea, aggiunto PWP consigliato.
 - Aggiunte a Geldor e Midia. Presso l'arena di Felix e presso Geldor sono state inserite 
@@ -32,6 +35,8 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
   si potranno asportare parti specifiche di alcune creature. Tramite la vendita di
   alcuni specifici set di ossa sara' possibile sbloccare nuovi famigli
   o per ottenere bonus e premi.
+- L'AWARD "Protettore di Rhila" diventa ora "Cittadino di Rhila" per adeguarsi alle
+  altre cittadinanze ottenibili nel gioco.
 - Aggiunti degli AWARD, alcuni di questi non sono al momento disponibili.
 - Alcune correzioni ai PERKS.
 - Il limite degli oggetti rari che un PG puo' mantenere, passa da 18 a 20.
@@ -277,74 +282,6 @@ Versione 2.21.31.8 - $c0009OTTOBRE 2021 $c0007- Ruggine e libri
 - Corretta Maestra dei novizi che impediva ai bardi di imparare.
 - Corretto crash su Orchronos
 
-Versione 2.21.31.8 - $c0009AGOSTO 2021 $c0007- Una torrida estate
-- $c0012Quest e aree$c0007:
-- Puo' accadere che, al massimo una volta per boot, i pirati di Varil attacchino la citta' costiera di Rhila.
-  Potrete contribuire alla difesa della citta': in base al vostro aiuto il reggente di Rhila, sopravvissuto all'attacco,
-  vi dara' premi diversi. E' presente in citta' una nuova locazione.
-- Rimessa online la vecchia versione dello Shire (finche non viene completata la costruzione del villaggio di Comp).
-- Il sindaco di midia per MEDAGLIE AL VALORE puo offrire dei premi.
-- Bugfix alla procedura di Strahd e del Wisteron: ora non attivano alla morte la procedura se muoiono fuori dalla 
-  loro zona
-- Dhethor il questor, al completamento della decima e quindicesima quest, paga medaglia del valore, ma dal livello 
-  9 in avanti non e' piu bootabile perche non dice il nome della stanza ma assegna il nome della zona.
-- Bugfix al pop random di Lilith che andava sempre dove era inittato il bardo anziche random.
-- Nuova quest collettiva: Zifnab compra cubi di energia e quando la somma venduta (tra vari boot) arriva a 50 parte 
-  una quest di tipo DeathRoom "infinita" (i cubi si ottengono lavorando come minatori). La quest e' in fase beta.
-- Nalith non ha ancora completato meta' delle cose che aveva detto di voler completare per l'estate.
-- $c0012Classi e mob$c0007:  
-- Cambiamento ai mob ranger: ora si comportano come arcieri se in possesso di arco e frecce.
-- Bugfix alla procedura della faretra magica e alla gemma anima che potevano non reagire in alcune circostanze.
-- Bugfix a INFERNO che colpiva mob immortali e follower di altri PG in gruppo.
-- I famigli, una volta vestiti, possono combattere tra di loro (tramite il comando "order famiglio combatti"), il record 
-  di vittorie massime per pg viene salvato e si vede esaminando il personaggio. Avete forse detto Pokemon?
-- In betatesting, va online una procedura per limitare il Looting tramite bot. Se raccogliete troppi tesori, potreste 
-  avere una riduzione nella raccolta di oro. Tale malus aumenta, se la velocita' di raccolta rimane costante. 
-  I tesori sono un bene di tutti, lasciate che anche gli altri PG ne ottengano qualcuno :)
-- - $c0012Codice$c0007:  
-- EVENT_SOMEBODY_DIED implementato per oggetti e mob (Scatta quando qualcuno muore nella room)
-- SET/GET_GLOBAL_LONG/FLOAT/STRING implementato per salvare lo stato di variabili persistente tra i boot
-
-Versione 2.21.23.6 - $c0009GIUGNO 2021 $c0007- La clessidra nera/2
-- $c0012Quest e aree$c0007 - Sono state inserite e ampliate alcune aree:
-- EROI - La Baia Grande di Targis - Area marittima a sud di Rhila, in cui sono presenti molte isole
-  e scogli. Verra' ulteriormente ampliata nei prossimi aggiornamenti con l'inserimento di una quest.
-- Inseriti i livelli suggeriti per effettuare alcune miniquest (compaiono usando il comando ASK MOB AIUTO).
-- Corrette alcune location presso la citta' di Rhile e il villaggio di Toewin.
-- Aggiunte alcune miniquest (inittate la Baia Grande e recatevi presso la locanda di Midia o cercate tra
-  le strade di Rhila).
-- Da un importante Ranger e' stata aggiunta una miniquest per ottenere una faretra magica. L'oggetto
-  migliorera' la vostra capacita' di lanciare frecce.
-- A Mordor Sauron evoca un'ombra in meno. Saruman ad Isengard ora paga medaglie al valore.
-- $c0012Oggetti$c0007
-- Aggiunto lo scudo delle Fiamme tra gli oggetti acquistabili con le rune. Permettera' agli implementor
-  di cominciare a valutare le nuove apply EXTRA RES che potrebbero sostituire le immunita' sugli oggetti.
-- $c0012Varie$c0007
-- La classe del BARDO e' finalmente uscita dal beta testing! Sbizzarritevi nel nome di Yffre!
-- Alcuni PERK da arciere permettono l'aggiunta del 15% dello spellpower come danno per frecce
-- Modifiche ad alcuni PERK e specializzazioni che avevano problemi di bilanciamento e funzionalita'
-- Aggiunto Mxp per esaminare e comprare su BID con click del mouse;
-- Le aste depositate si pagano 5% del valore in anticipo. La tassa viene restituita quando qu alcuno compra l'oggetto. 
-  Per cancellare l'asta si paga 1% del valore dell'asta. Questo per prevenire l'uso delle aste con prezzi esosi come ripostiglio
-  per oggetti oppure per cercare di imbrogliare altri pg che fanno offerte per oggetti sbagliati.
-- $c0012Skill e spell$c0007
-- REVERSION ora fa danno elementale quando fallisce l'eliminazione dello scudo elementale del nemico;
-- $c0012Bugfix$c0007
-- Corretto il bug percui i pg polati in una razza identica a un mob agressivo non venivano mai aggrediti;
-- Song of peace del bardo poteva in alcuni casi non prevenire l'agressione;
-- HUMANOID GROWTH non si poteva castare se si aveva il perk Armadio di ferro;
-- Fix crash su WARP WEAPON;
-- I mob psionici, maghi e cleric si teleportavano anche se avevano oggetti che si rompono fuori zona,
-- Tolto exploit con follower usandoli in formazione;
-- Ora i mob follower non maxxano le stanze.
-- Corretto un bug di praccaggio di DISGUISE che non funzionava bene
-- BREATH si poteva forzare su altri pg polati
-- KICK non aveva effetto se fatto a cavallo, ora funziona.
-- Correzione di MEDITATE per non maghi e per la relativa scritta. 
-- $c0012Alchimia$c0007
-- Aggiunte alcune ricette nella lista e altre nascoste nelle varie zone dell'Impero.
-- Nuovo concorso: ricerca le ricette nascoste! Scrivendo il comando ALCHEMY senza parametri verranno date
-  al personaggio delle nuove informazioni.
 
 Per scoprire tutte le novita' dell'HELP di Tempora Sanguinis, scrivi $c0009HELP AGGIORNAMENTO$c0007
 

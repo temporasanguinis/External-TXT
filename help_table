@@ -17,7 +17,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   GROUP (aggiornato), SIMBOLI MAGICI, ALIAS (aggiornato), PLAY 
   (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato), FLOW,
   OVERLOAD, FIX (aggiornato), PROMPT (aggiornato), EQUIPMENT (aggiornato),
-  OGGETTI ETEREI, MESTIERI (aggiornato) e OCCULTISTA.
+  OGGETTI ETEREI, MESTIERI (aggiornato), ADDESTRATORE e OCCULTISTA.
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -4533,14 +4533,14 @@ i miei tre orchi diventino mie guardie del corpo usero':
 
   > order followers guard on
   
-Se il personaggio e' in possesso dell'AWARD "Collezionista di famigli"
+Se il personaggio e' in possesso dell'AWARD "Maestro addestratore"
 potra' usare le sue creature per esplorare i dintorni, tramite il 
 comando:
 
   > order famiglio scout
 
 Vedi anche: CHARM PERSON, CHARM MONSTERS, HYPNOTIZE, SHOP, LIST,
-		RESCUE, SET, SEGUACI
+		RESCUE, SET, SEGUACI, ADDESTRATORE
 
 #
 BUY SELL LIST
@@ -6961,7 +6961,7 @@ La skill puo' avere risultati  migliori anche grazie agli  attributi
 DESTREZZA e INTELLIGENZA.
 
 Vedi anche: KILL, RANGER, PESCATORE, ALCHIMISTA, MINATORE, MESTIERI,
-			OCCULTISTA
+			OCCULTISTA, ADDESTRATORE
  
 #
 BELLOW
@@ -14117,7 +14117,7 @@ possibile pescare fino al successivo REBOOT.
 La skill migliora anche grazie agli attributi CARISMA e SAGGEZZA.
 
 Vedi anche: ALLSKILL, ALLSPELL, AWARD, MESTIERI, CONCIATORE,
-            ALCHIMISTA, MINATORE, OCCULTISTA
+            ALCHIMISTA, MINATORE, OCCULTISTA, ADDESTRATORE
 
 #
 "HEALING RAIN"
@@ -14158,7 +14158,7 @@ Con la pratica e' possibile diventarne maestri e sbloccare
 nuove abilita' speciali.
 
 Vedi anche: AWARD, PESCATORE, CONCIATORE, ALCHIMISTA, MINATORE,
-			OCCULTISTA
+			OCCULTISTA, ADDESTRATORE
 
 #
 AWARD
@@ -14213,7 +14213,7 @@ alternativa, il materiale raccolto puo' essere utilizzato nell'alchimia.
 La skill migliora anche grazie agli attributi FORZA e COSTITUZIONE.
 
 Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
-			OCCULTISTA
+			OCCULTISTA, ADDESTRATORE
 
 
 #
@@ -14239,7 +14239,8 @@ Esistono ricette segrete o ancora celate, nascoste in luoghi remoti dell'impero.
 
 La skill migliora anche grazie agli attributi INTELLIGENZA e SAGGEZZA.
 
-Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, MINATORE, OCCULTISTA
+Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, MINATORE, OCCULTISTA,
+			ADDESTRATORE
 
 #
 "MELEE COMBAT" HEADBUTT ELBOW KNEEHIT CHOKE BATTLECRY
@@ -14987,10 +14988,10 @@ Alcuni famigli possono essere acquistati con SIGILLI DIVINI tramite uno specific
 acquisiti tramite speciali missioni. Alcuni di questi possono avere poteri aggiuntivi.
 
 Puoi vedere la lista dei famigli a tua disposizione attraverso il comando FAMIGLIO.
-Se disponi dell'AWARD "collezionista di famigli" puoi utilizzare il tuo famiglio per esplorare i
+Se disponi dell'AWARD "Maestro Addestratore" puoi utilizzare il tuo famiglio per esplorare i
 dintorni finche' non vorra' tornare indietro. Per farlo usa il comando ORDER FAMIGLIO SCOUT.
 
-Vedi anche: MONSUM, FOLLOWERS
+Vedi anche: MONSUM, FOLLOWERS, ADDESTRATORE, FAMIGLI
 
 #
 "MEDAGLIE AL VALORE" MEDAGLIE
@@ -15154,7 +15155,30 @@ Con questa tecnica si possono trovare ossa utili al fine di collezionare
 tesori o ottenere famigli rari e pericolosi. 
 
 Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
-			MINATORE
+			MINATORE, ADDESTRATORE
+			
+#
+ADDESTRATORE
+
+Mestiere per: Tutti
+
+Questa abilita' permette all'avventuriero di padroneggiare le tecniche
+di addestramento dei famigli, permettendo di ottenere bonus dalle proprie
+fedeli creature.
+
+E' necessario avere acquistato tutti i famigli di livello 1 disponibili
+dal mercante. Quando si diventa maestri, acquistando tutti i famigli
+sara' possibile utilizzare l'abilita' esplorativa del famiglio, facendolo
+muovere al proprio posto, al fine di esplorare i dintorni, utilizzando il
+comando:
+
+  > order famiglio scout
+
+Alcuni famigli posssono essere ottenuti solo tramite specifiche quest,
+come quelli della famiglia dei Divoratori.
+
+Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
+			MINATORE, OCCULTISTA
 
 
 #~
