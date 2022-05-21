@@ -15180,6 +15180,48 @@ come quelli della famiglia dei Divoratori.
 Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
 			MINATORE, OCCULTISTA
 
+#
+"RIPOSTIGLIO CONDIVISO" STASH UNSTASH RIPONI RIPRENDI
+
+Dopo secoli di suppliche e preghiere, gli dei han concesso ai mortali un
+dono... il RIPOSTIGLIO CONDIVISO.
+L'accesso al Ripostiglio viene attivato agli account verificati.
+Piu' personaggi possono accedere al medesimo ripostiglio finche condividono
+la medesima email.
+Per gestire il Ripostiglio si usano i comandi seguenti :
+
+ STASH / RIPONI : esamina il contenuto del ripostiglio
+ STASH / RIPONI + nomeoggetto : inserisce l'oggetto nel ripostiglio
+ UNSTASH / RIPRENDI + nomeoggetto : recupera l'oggetto dal ripostiglio
+
+Gli items ivi contenuti potranno essere presi da tutti i pg che hanno accesso
+alla medesima e-mail.
+Di regola viene considerato alla stregua dell'inventario di un PG con alcune
+differenze che potrebbero essere variate nel tempo secondo necessita' :
+- Limite oggetti : 200
+- Limite oggetti RARI : 20
+- Non possono essere messi oggetti NO RENT
+- Non sono  ammessi Items con rent maggiore di 5000
+- Essendo uno spazio divino, le magie di locazione non funzionano sul
+  Ripostiglio, ma gli DEI potranno sembre verificarne il contenuto se 
+  necessario.
+
+Vedi anche : ACCOUNT VERIFICATO, EMAIL, E-MAIL
+
+#
+"ACCOUNT VERIFICATO" EMAIL, E-MAIL
+
+Durante la creazione del personaggio o nel menu delle opzioni prima di 
+entrare in gioco e' possibile indicare un indirizzo e-mail alfine di 
+attivare, dopo la conferma dell'indirizzo email, svariate funzionalita'
+tra cui : 
+
+- Ricevere la guida per principianti
+- Accesso al Forum
+- Accesso al Ripostiglio Condiviso
+
+Vedi anche : RIPOSTIGLIO CONDIVISO
+
 
 #~
 
