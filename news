@@ -4,6 +4,10 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - Ora le aree possono avere un livello di PWP consigliato. I personaggi che dispongono di
   un livello maggiore di PWP possono ugualmente entrare nell'area, ma riceveranno premi 
   inferiori completando le miniquest o sconfiggendo i nemici.
+  $c0009Attenzione! $c0007Rimangono valide le regole preesistenti nelle aree con limite di PWP:
+  se il proprio PWP e' maggiore del limite, si perderanno punti karma, xp e sigilli.
+  Le aree si riconoscono per via dei messaggi che compaiono nel momento in cui si accede 
+  alle stesse.
 - Inserita una miniquest a tempo presso l'Antro degli esperimenti(Livello PWP 600).
 - Inserita una miniquest a tempo presso i Campi d'addestramento a sud di Midia (Livello 15-20).
 - Inserita una miniquest presso la citta' di Geldor (Livello PWP 200).
@@ -19,8 +23,10 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - Aumentato il limite PWP alla Via Lattea, aggiunto PWP consigliato.
 - Aggiunte a Geldor e Midia. Presso l'arena di Felix e presso Geldor sono state inserite 
   delle nuove stanze e alcuni mob.
+- Corretti gli oggetti e i mob dell'area de "la tenuta nera (by Fulgore)". Spostata procedura 
+  di soffio elettrico sul mob corretto.
 - $c0012Cambiamenti principali$c0007: 
-- Aggiunta la possibilita' di avere un ripostiglio in condivisione tra i propri
+- Aggiunta la possibilita' di avere un RIPOSTIGLIO in condivisione tra i propri
   personaggi. Inserendo l'email nel menu' dei propri personaggi e dopo averla confermata,
   sara' possibile accedere ad un ripostiglio in cui depositare degli oggetti condivisi,
   attraverso i comandi STASH/RIPONI e UNSTASH/RIPRENDI.
@@ -71,6 +77,10 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - Fix a SONG OF DUMBING che funzionava erroneamente sui pg del gruppo.
 - Il bash effettuato da PG di piccola statura ai nemici di piccola statura, causa sempre
   2 round di lag, al fine di alleviare la necessita' per i tank di essere HUGE.
+- CARVE abbassa l'align del Ranger.
+- Riordinata la priorita' di alcuni comandi, in modo che abbiano la precedenza, nel caso
+  in cui ci sono iniziali uguali con comandi secondari.
+- Corretti dialoghi dell'Occultista.
 
 
 Versione 2.22.21.2 - $c0009FEBBRAIO 2022 $c0007- Mappe per tutti
