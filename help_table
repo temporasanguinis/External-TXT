@@ -9493,6 +9493,9 @@ sottocomandi:
 - DAILY/GIORNALIERA, permette di vedere la lista delle proprie missioni
   giornaliere attive. Tali missioni possono essere completate entro tre 
   giorni.
+- DAILY REROLL, permette di ottenere una nuova quest giornaliera, sostituendo
+  quella appena ricevuta. Puo' essere fatto una sola volta al giorno, andando
+  a sostituire la missione ricevuta in quello specifico giorno.
 
 Vedi anche: DEI, IMMORTALI, LOAL, QUESTOR, DHETHOR, AREAQUEST
 
