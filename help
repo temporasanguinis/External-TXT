@@ -23,6 +23,6 @@ $c0008| $c0015INFORMAZIONI:$c0008                 | $c0015UTILITA':$c0008       
 $c0008| $c0007  score, attribute, world,    $c0008|   $c0007save, tips, brief, alias,$c0008          |
 $c0008| $c0007  news, info, inv, read,      $c0008|   $c0007spot, look, allspell, skill,$c0008       |
 $c0008| $c0007  who, time, display,         $c0008|   $c0007commands, set, rent,$c0008               |
-$c0008| $c0007  gwho, eq, prompt            $c0008|   $c0007accessibilita', whistle, !$c0008         |
+$c0008| $c0007  gwho, eq, prompt, quest     $c0008|   $c0007accessibilita', whistle, !$c0008         |
 $c0008+-------------------------------+--------------------------------------+
 

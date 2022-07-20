@@ -17,7 +17,8 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   GROUP (aggiornato), SIMBOLI MAGICI, ALIAS (aggiornato), PLAY 
   (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato), FLOW,
   OVERLOAD, FIX (aggiornato), PROMPT (aggiornato), EQUIPMENT (aggiornato),
-  OGGETTI ETEREI, MESTIERI (aggiornato), ADDESTRATORE e OCCULTISTA.
+  OGGETTI ETEREI, MESTIERI (aggiornato), ADDESTRATORE, OCCULTISTA,
+  MERCENARI, QUEST (aggiornato).
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -2861,7 +2862,7 @@ propria AC (Armor Class).
                           6-7    Rottweiler
                            8+    Wolf
 
-Vedi anche: MONSUM, CHARM
+Vedi anche: MONSUM, CHARM, MERCENARI
 
 #
 "AID"
@@ -3395,7 +3396,7 @@ Attenzione: l'ultimo e piu' potente incantesimo di monsum,il MONSUM SEVEN, e'
 a tutti  gli  effetti un  incantesimo per soli Eroi.  Va quindi praticato  da
 Exodus, il guildmaster degli Eroi.
 
-Vedi anche: CHARM, EXODUS
+Vedi anche: CHARM, EXODUS, MERCENARI
 
 #
 "OLD POLY"
@@ -3664,7 +3665,7 @@ salvezza, pero', probabilmente considerera' il  mago un nemico,
 e lo attacchera'.  In genere,  se questi ha  molto carisma, non
 succede.
 
-Vedi anche: CHARM PERSON
+Vedi anche: CHARM PERSON, MERCENARI
 
 #
 "ANIMATE DEAD"
@@ -4538,9 +4539,12 @@ potra' usare le sue creature per esplorare i dintorni, tramite il
 comando:
 
   > order famiglio scout
+  
+Per quanto riguarda i mob MERCENARI, il comando ORDER non funziona.
+Per informazioni aggiuntive, leggi la specifica scheda di aiuto.
 
 Vedi anche: CHARM PERSON, CHARM MONSTERS, HYPNOTIZE, SHOP, LIST,
-		RESCUE, SET, SEGUACI, ADDESTRATORE
+		RESCUE, SET, SEGUACI, ADDESTRATORE, MERCENARI
 
 #
 BUY SELL LIST
@@ -6172,7 +6176,7 @@ Una persona 'charmata' seguira' il caster, e non potra'  attaccarlo
 in alcun modo. Il caster potra' dare ordini alla persona 'charmata'
 tramite il comando ORDER.
 
-Vedi anche: FOLLOW, ORDER, CHARM MONSTER
+Vedi anche: FOLLOW, ORDER, CHARM MONSTER, MERCENARI
 
 #
 "SENSE LIFE"
@@ -9453,7 +9457,7 @@ possibilita' di approvare i nomi dei nuovi avventurieri.
 Vedi anche: EROI, NOMI, DEI, IMMORTALI, LOAL, EROI, SACERDOTE, PRAY
 
 #
-QUEST MISSIONE
+QUEST MISSIONE "MISSIONE GIORNALIERA"
 
 Spesso gli Dei assegnano delle missioni a dei personaggi: i motivi,
 ed i fini, con cui cio' avviene sono i piu' disparati.
@@ -9470,6 +9474,25 @@ da questi ultimi delle Missioni Supreme da compiere.
 Il successo in tali missioni donera' loro il diritto di possedere un
 feudo, e di divenire cosi' LORD OF A LAND, o di entrare ad Asgard, la
 dimora degl'IMMORTALI.
+
+Esiste la possibilità di ottenere quest da speciali mob interattivi
+presenti nelle terre dell'impero o direttamente dagli dei, tramite un
+sistema di MISSIONI GIORNALIERE.
+
+Il comando QUEST puo' essere utilizzato per ottenere una missione da 
+parte dei MOB interattivi, iniziando una conversazione o per ottenere
+altre informazioni. Il comando QUEST puo' essere seguito da altri 
+sottocomandi:
+
+- REQUEST/RICHIEDI, permette di ottenere una missione;
+- FAIL/FALLITA, permette di scartare una missione consegnata da Dhethor;
+- TIME/TEMPO, permette di vedere quante ore-mud rimangono a disposizione
+  per completare la missione di Dhethor;
+- COMPLETE/COMPLETA, permette di completare una missione di Dhethor;
+- INFO, permette di ottenere ulteriori informazioni;
+- DAILY/GIORNALIERA, permette di vedere la lista delle proprie missioni
+  giornaliere attive. Tali missioni possono essere completate entro tre 
+  giorni.
 
 Vedi anche: DEI, IMMORTALI, LOAL, QUESTOR, DHETHOR, AREAQUEST
 
@@ -14991,7 +15014,7 @@ Puoi vedere la lista dei famigli a tua disposizione attraverso il comando FAMIGL
 Se disponi dell'AWARD "Maestro Addestratore" puoi utilizzare il tuo famiglio per esplorare i
 dintorni finche' non vorra' tornare indietro. Per farlo usa il comando ORDER FAMIGLIO SCOUT.
 
-Vedi anche: MONSUM, FOLLOWERS, ADDESTRATORE, FAMIGLI
+Vedi anche: MONSUM, FOLLOWERS, ADDESTRATORE, FAMIGLI, MERCENARI
 
 #
 "MEDAGLIE AL VALORE" MEDAGLIE
@@ -15190,9 +15213,9 @@ Piu' personaggi possono accedere al medesimo ripostiglio finche condividono
 la medesima email.
 Per gestire il Ripostiglio si usano i comandi seguenti :
 
- STASH / RIPONI : esamina il contenuto del ripostiglio
- STASH / RIPONI + nomeoggetto : inserisce l'oggetto nel ripostiglio
- UNSTASH / RIPRENDI + nomeoggetto : recupera l'oggetto dal ripostiglio
+- STASH / RIPONI : esamina il contenuto del ripostiglio
+- STASH / RIPONI + nomeoggetto : inserisce l'oggetto nel ripostiglio
+- UNSTASH / RIPRENDI + nomeoggetto : recupera l'oggetto dal ripostiglio
 
 Gli items ivi contenuti potranno essere presi da tutti i pg che hanno accesso
 alla medesima e-mail.
@@ -15223,6 +15246,32 @@ tra cui :
 - Accesso al Ripostiglio Condiviso
 
 Vedi anche : RIPOSTIGLIO CONDIVISO
+
+#
+MERCENARI
+
+Presso la gilda dei mercenari a Midia e' possibile comprare i servigi di alcuni
+esperti combattenti.
+
+In cambio di denaro, essi potranno seguirti in battaglia. A differenza delle creature
+evocate, incantate o ipnotizzate, non risponderanno ai comandi effettuati tramite 
+ordine diretto (vedi comando ORDER), ma parteciperanno al combattimento usando le tecniche
+o gli incantesimi specifici delle loro classi di appartenenza.
+
+Non si possono reclutare mercenari se si hanno gia' ulteriori seguaci o se si e' parte di
+un gruppo. I poteri del mercenario dipendono dal PWP del giocatore da cui viene assunto.
+
+I mercenari possono fare molte cose da soli, puoi anche comandarli tramite il comando INDICA/POINT.$c0007
+ - Se indichi te stesso o altri personaggi, il mercenario cerchera' di compiere un'azione benevola per l'occasione.$c0007
+ - Se indichi una creatura nemica, il mercenario cerchera' di compiere azioni aggressive verso di essa.$c0007
+ - Se indichi a vuoto, il mercenario cerchera' di fare qualche azione riguardante la stanza dove vi trovate.$c0007
+ 
+Le azioni possibili dipendono dalle classi del mercenario e dalla sua potenza.
+
+Gli aderenti alla gilda dei mercenari possono disporre di uno sconto per usufruire dei servigi richiesti.
+
+Vedi anche : SUMMON, ORDER, HYPNOSIS, CHARM, FAMIGLI, PWP
+
 
 
 #~
