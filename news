@@ -1,4 +1,65 @@
 
+Versione 2.22.7.29 - $c0009LUGLIO 2022 $c0007- Missioni per tutti
+- $c0012Cambiamenti principali$c0007: 
+- Aggiunte le MISSIONI GIORNALIERE. Ogni giorno si potra' richiedere una missione,
+  scrivendo QUEST DAILY, da completare entro tre giorni. Anche se non si sono completate
+  le precedenti missioni, ogni giorno si potra' richiederne una nuova. La quest giornaliera
+  puo' essere cambiata, usando il comando QUEST DAILY REROLL.
+  Per ulteriori informazioni, consulta la scheda di aiuto, scrivendo HELP QUEST.
+- Aggiunti moltissimi AWARD e completati alcuni che erano in fase di implementazione.
+  Ora alcuni di essi, nel momento in cui si ottengono, possono pagare dei sigilli divini.
+  Il valore di ciascun pagamento e' visibile con il comando AWARD LIST.
+- Il comando QUEST REQUEST dato davanti ad un mob interattivo permette ora di iniziare 
+  l'interazione con esso.
+- I mercenari sono stati migliorati: ora funzionano meglio, costano meno e offrono maggiori
+  informazioni.
+- Miglioramenti al ripostiglio condiviso, ora e' possibile depositare sigilli, medaglie e monete
+  di morrowindl.
+- Implementato il flag ACCOUNT per oggetti che potranno essere usati da tutti i pg che condividono
+  la stessa email verificata.
+- Coloro che possiedono l'account verificato potranno contare le uccisioni dei nemici potenti,
+  accedendo ad una speciale classifica.
+- Il comando CLASSIFICA non mostra piu' il KARMA ma viene mostra la classifica degli account. 
+- La classifica delle gilde si puo' vedere tramite il comando GUILDRANK
+- Il famiglio divoratore ora potrebbe crearvi problemi, creando scompiglio e rumore.
+- Specializzare MEDITATE puo' fare ottenere DETECT MAGIC.
+- I maghi di gilda ora offrono anche DETECT MAGIC tra gli incantesimi in vendita.
+- STREGONI: con SUPERIOR WIZARDRY sara' possibile seguire il gruppo da seduti durante la 
+  memorizzazione degli incantesimi, ma se fallisce si prende un malus di -20SP per 10 round di gioco.
+- Aumentato il danno dell'afflizione BLEEDING.
+- Aumentato il danno dei draghi.
+- $c0012Quest e aree$c0007: 
+- Inserite alcune aree nuove: la citta' di Lankar, l'acquitrino di Irselt e un'area
+  bonus, il museo di Tempora Sanguinis.
+- Risuonano i cannoni nella Baia Grande di Targis! Durante gli assedi sara' possibile aiutare
+  i pirati nell'invasione di Rhila, cercando la loro nave nella baia e dimostrando di essere
+  dei veri corsari! Arrr!
+- Inserite due miniquest a New Thalos per ottenere la cittadinanza.
+- Inserito un nuovo evento random: la grande caccia. Ogni giorno potranno comparire
+  alcuni animali leggendari da cacciare, molto ricercati dai collezionisti di ossa.
+- Corretti presso la tenuta nera il drago e i veterani: ora e' corretto il comportamento
+  del drago.
+- Aggiunti e corretti alcuni oggetti procedurali un tempo in possesso degli abitanti di 
+  Geldor e Midir. Certateli, ne varra' la pena.
+- Aggiunti tag MXP ad alcune aree: sara' possibile vedere immagini o interagire con 
+  le descrizioni extra tramite un click del mouse. 
+- Ribilanciata l'arena: i danni e le cure sono ridotte.
+- Presso il tempio degli elementi e' stato aggiunto un mob che edita flag RESISTANT.
+- Ad Atlantide e' stato aggiunto il premio di una runa ghiaccio fissa a completamento 
+  della missione. I vecchi premi rimangono.
+- Migliorata l'interazione delle streghe della torre della magia che forgiano set di 
+  oggetti: ora scrivendo ASK DETTAGLI e ASK DOVE si possono ottenere informazioni su +
+  tali oggetti.
+- $c0012Bugfix$c0007: 
+- Corretto funzionamento di spell BLESS: toglie SAVE ALL temporaneamente
+- Corretto il TRACK che permette di seguire automaticamente, ora funziona solo con il PERK SEGUGIO.
+- Fix al salvataggio delle email che non funzionava dal menu se non si entrava prima in gioco.
+- Fix ad alcuni comportamenti dei famigli che potevano provocare crash.
+- Corretto un bug grazie a cui i mob potevano dispellare ANTI MAGIC SHELL
+- Corretto un bug grazie a cui il cap dello SPELL POWER non teneva conto degli affect in ATTRIBUTE
+- Corretto un bug grazie a cui lanciare armi da tiro con weaponspell teneva in combat per un round
+- Il comando EQ ROVINATO non mostrava corettamente tutto l'eq che richiedeva riparazione
+
 Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - $c0012Quest e aree$c0007: 
 - Ora le aree possono avere un livello di PWP consigliato. I personaggi che dispongono di
@@ -234,63 +295,6 @@ Versione 2.21.20.12 - $c0009DICEMBRE 2021 $c0007- Un Natale speciale
 - Correzione ai maestri di gilda che spesso non insegnavano skill differenti se avevano 
   stesse iniziali (per esempio il DISARM per l'antipaladino).
 
-Versione 2.21.31.8 - $c0009OTTOBRE 2021 $c0007- Ruggine e libri
-- $c0012Quest e aree$c0007: piccoli e grandi cambiamenti per migliorare il percorso di 
-  crescita dei nuovi giocatori.
-- E' stata rinnovata completamente la scuola dei novizi di Midia. Ora permette ai nuovi 
-  e vecchi giocatori di prendere mano con il gameplay. Rivisti gli oggetti dell'area, ora 
-  utili per fare i primi 5 livelli. Inserita una maestra che insegna almeno una abilita' 
-  per classe.
-- Modificate alcune stanze e alcuni mob delle estensioni del tempio di Midia, ora anch'esse 
-  utili per imparare le prime strategie di gioco. E' stato inserito un mob che vende incantesimi 
-  a poche monete e una miniquest.
-  Aggiunto sacerdote di Yffre. Ogni sacerdote o sacerdotessa possiede un oggetto specifico per 
-  alcune classi, utile dal livello 10: scopriteli tutti.
-- Modifiche all'isola del destino di Vilian. Aggiunta di una Miniquest.
-- Piccole modifiche ad alcune location della foresta degli elfi. Inserito una nuova pergamena 
-  utile.
-- Semplificate leggermente le quest di Atlantide, di Darkenwood e della piramide di Akin-Ra.
-- Modificata leggermente l'area del tempio dei banditi druidi. Ora ospita anche una miniquest.
-- Aggiunte descrizioni agli oggetti di Geldor, precedentemente mancanti. Le spade e il pugnale 
-  procedurali ora hanno un bonus di +5 hitroll: finalmente potranno essere utilizzate.
-- Aggiunti i credit degli autori ad alcune zone.
-- Modificate alcune location della scacchiera e gli oggetti. Ora gli oggetti neri sono pensati 
-  principalmente per le classi di incantatori, mentre quelli bianchi sono pensati per le classi 
-  dei combattenti.
-- Semplificata la quest del palazzo degli Skexie. Gli oggetti sono stati leggermente potenziati.
-- Corrette alcune strade a sud di Toewin.
-- Modifiche leggere a Spider Haunt, che ora ospita la quest di Artafet (prima si faceva a Castel 
-  Destino). Aumentato il premio.
-- Aggiunto un piccolo premio random in sigilli a Morrowindl.
-- Aggiunto un mastro forgiatore presso l'Accademia dei Sapienti di Midia sud. Se trovate delle
-  schegge elementali, portategliele.
-- Miniquest inserite o modificate: l'anello scomparso (Estensioni del tempio di Midia, livello 5-10), 
-  i bugiardi (Estensioni del tempio di Midia, livello 5-15), furto al monastero (Monastero dei Monaci, 
-  livello 20-40), un patto di sangue per Mordilnia (Mordilnia, Orshingal, tempio dei banditi druidi,
-  livello pwp 150), la vendetta di Artafet (Spider Haunt), l'occhio del drago (Iperborea, livello pwp 100),
-  la confraternita di Tarimok (Midia sud, Geldor, livello pwp 400), ritorno al passato (Isola di Vilian, 
-  livelli 7-12), il forziere dell'alchimista (Mordilnia, livelli 15-25), la feccia di Felrhun (Felrhun, 
-  livelli 10-20), il fuggitivo (Haon-Dor, Lyth, livelli 20-25), segreti di famiglia (Torre dei MacAllister, 
-  livelli 25-35).
-- Anche nella quest del sacerdote presso i sotterranei della scacchiera, e' possibile ottenere schegge 
-  elementali.
-- Artafet si trova ora sempre presso la Chiesa del male.
-- Aggiunti Behaviours ai MOB del tempio degli elementi.
-- Menzoberranzan paga ora 3 medaglie, Lilith ne paga 1 al gruppo e 3 al capogruppo.
-- Ora molte quest e miniquest possono assegnare degli award.
-- $c0012Codice$c0007:  
-- Modificato il comando MAPPA. ora e' possibile filtrare le indicazioni, inserendo il nome della zona 
-  confinante che si vuole trovare (sintassi: MAPPA <nome area>. Se fossi presso le montagne orientali, 
-  posso vedere le indicazioni per il regno dei nani scrivendo MAPPA NANI).
-- Correzioni varie alla quest alle procedure della quest di Zifnab.
-- Aggiunta la scritta $c0011($c5011interattivo$c0011)$c0007 sui mob che riportavano il simbolo $c0011($c5011!$c0011)$c00007.
-- $c0012Bugfix$c0007:  
-- Fix ad alcuni Dragonshout,
-- Fix a perk PIEDE DI FERRO.
-- Ora si puo' specializzare anche la skill DISARM, che prima si sovrapponega a DISARM TRAP.
-- Risolto problema di specializzazione delle skill dei PG stregoni.
-- Corretta Maestra dei novizi che impediva ai bardi di imparare.
-- Corretto crash su Orchronos
 
 
 Per scoprire tutte le novita' dell'HELP di Tempora Sanguinis, scrivi $c0009HELP AGGIORNAMENTO$c0007
