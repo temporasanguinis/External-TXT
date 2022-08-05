@@ -11714,6 +11714,33 @@ con uno slot di Hit&Dam. Innanzitutto dovro' portare il valore dello slot a
 elementali per tipo per liberare lo slot e potro' editarlo con +4 Hit&Dam, 
 spendendo ulteriori 2000 sigilli divini.
 
+$c0010--- Flag ACCOUNT -----------------------------------------------$c0007
+
+E' possibile assegnare ad un oggetto il flag ACCOUNT, che rende possibile
+l'utilizzo dell'oggetto a tutti i personaggi di livello eroe che condividono 
+l'account verificato tramite email (vedi HELP ACCOUNT VERIFICATO).
+
+Il costo del flag corrisponde a un minimo di 5000 divini su un oggetto non 
+editato.
+
+Se l'ggetto e' editato, il prezzo corrisponde al costo in divini gia' spesi,
+piu' l'eventuale costo in rune e medaglie per le procedure speciali.
+
+Se l'oggetto e' di tipo SOCKET, il costo aumenta del 25%.
+
+Esempio: Bobaz deve editare il flag ACCOUNT su "lo scudo delle tempeste",
+ottenuto tramite rune e su cui ha gia' speso 9200 divini. Il costo per tale
+edit sara' di 9200 divini a cui si aggiungono, i sigilli e le rune usate per 
+l'acquisto (55 rune del vento e 5000 sigilli divini).
+
+Tale spesa gli permettera' di utilizzare lo scudo su tutti i suoi 5 eroi che
+accedono al ripostiglio magico condiviso, grazie all'ACCOUNT VERIFICATO.
+
+Dopo aver editato questo flag, l'oggetto mantiene le restrizioni relative 
+(allineamento, classi, genere...) e causa un incremento di prezzo per i
+successivi edit (ogni modifica richiesta costera' 3x volte).
+Tale modifica non si puo' fare su oggetti non derentati.
+
 $c0010--- Spell affect -----------------------------------------------$c0007
 E' possibile ottenere alcuni spell affect. Questi spell affect possono
 essere editati su un singolo slot.
@@ -13855,7 +13882,7 @@ Questi oggetti possono essere ottenuti anche tramite i servigi del
 mastro forgiatore presso l'Accademia dei Sapienti del quartiere
 sud di Midia.
 
-Vedi anche: GEMME, SOCKET, QUESTLIS, RUNE
+Vedi anche: GEMME, SOCKET, QUESTLIS, RUNE, FORTUNA
 
 #
 "SCALA DEI DANNI" DANNI
@@ -14184,7 +14211,7 @@ Con la pratica e' possibile diventarne maestri e sbloccare
 nuove abilita' speciali.
 
 Vedi anche: AWARD, PESCATORE, CONCIATORE, ALCHIMISTA, MINATORE,
-			OCCULTISTA, ADDESTRATORE
+			OCCULTISTA, ADDESTRATORE, FORTUNA
 
 #
 AWARD
@@ -14266,7 +14293,7 @@ Esistono ricette segrete o ancora celate, nascoste in luoghi remoti dell'impero.
 La skill migliora anche grazie agli attributi INTELLIGENZA e SAGGEZZA.
 
 Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, MINATORE, OCCULTISTA,
-			ADDESTRATORE
+			ADDESTRATORE, FORTUNA
 
 #
 "MELEE COMBAT" HEADBUTT ELBOW KNEEHIT CHOKE BATTLECRY
@@ -15210,15 +15237,15 @@ Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
 "RIPOSTIGLIO CONDIVISO" STASH UNSTASH RIPONI RIPRENDI
 
 Dopo secoli di suppliche e preghiere, gli dei han concesso ai mortali un
-dono... il RIPOSTIGLIO CONDIVISO.
-L'accesso al Ripostiglio viene attivato agli account verificati.
+dono... il RIPOSTIGLIO MAGICO CONDIVISO.
+L'accesso al ripostiglio viene concesso agli ACCOUNT VERIFICATI.
 Piu' personaggi possono accedere al medesimo ripostiglio finche condividono
 la medesima email.
 Per gestire il Ripostiglio si usano i comandi seguenti :
 
-- STASH / RIPONI : esamina il contenuto del ripostiglio
-- STASH / RIPONI + nomeoggetto : inserisce l'oggetto nel ripostiglio
-- UNSTASH / RIPRENDI + nomeoggetto : recupera l'oggetto dal ripostiglio
+- STASH/RIPONI : esamina il contenuto del ripostiglio
+- STASH/RIPONI + nomeoggetto : inserisce l'oggetto nel ripostiglio
+- UNSTASH/RIPRENDI + nomeoggetto : recupera l'oggetto dal ripostiglio
 
 Gli items ivi contenuti potranno essere presi da tutti i pg che hanno accesso
 alla medesima e-mail.
@@ -15232,9 +15259,11 @@ differenze che potrebbero essere variate nel tempo secondo necessita' :
   Ripostiglio, ma gli DEI potranno sembre verificarne il contenuto se 
   necessario.
 
-***** Richiesto Livello 10 e Nome approvato dagli Dei/Avatar. *****
+Per utilizzare il ripostiglio e' richiesto Livello 10 e  il Nome approvato dagli Dei/Avatar. 
 
-Vedi anche : ACCOUNT VERIFICATO, EMAIL, E-MAIL
+L'account verificato permette di editare il flag ACCOUNT sugli oggetti.
+
+Vedi anche: ACCOUNT VERIFICATO, EMAIL, E-MAIL, LISTINO
 
 #
 "ACCOUNT VERIFICATO" EMAIL, E-MAIL
@@ -15248,7 +15277,7 @@ tra cui :
 - Accesso al Forum
 - Accesso al Ripostiglio Condiviso
 
-Vedi anche : RIPOSTIGLIO CONDIVISO
+Vedi anche: RIPOSTIGLIO CONDIVISO
 
 #
 MERCENARI
@@ -15273,7 +15302,27 @@ Le azioni possibili dipendono dalle classi del mercenario e dalla sua potenza.
 
 Gli aderenti alla gilda dei mercenari possono disporre di uno sconto per usufruire dei servigi richiesti.
 
-Vedi anche : SUMMON, ORDER, HYPNOSIS, CHARM, FAMIGLI, PWP
+Vedi anche: SUMMON, ORDER, HYPNOSIS, CHARM, FAMIGLI, PWP
+
+#
+LUCK FORTUNA
+
+Esistono alcuni oggetti che hanno il potere di operare direttamente sul fato, contribuendo alla
+positiva riuscita delle azioni di un avventuriero. L'origine di tale potere e' sconosciuta e dai
+piu' viene indicata con il vago termine di "fortuna".
+
+La fortuna opera in questi campi:
+- permette di lavorare meglio, aumentando la buona riuscita delle attivita' operate tramite l'uso dei mestieri;
+- permette di avere maggiore successo con tutto cio' che chiede un "tiro salvezza" (SAVE ALL);
+- aiuta a ottenere premi maggiori in denaro all'uccisione dei nemici (includendo anche un bonus al GOLD FIND);
+- aiuta a ottenere oggetti RANDOMPOP con piu' facilita';
+- NON offre bonus all'inserimento di cristalli.
+
+Gli oggetti che aumentano la fortuna sono rari e temporanei. Si tratta di bonus presenti solo su oggetti NORENT,
+ottenibili tramite alchimia, alcune skill di breve durata (tipo la canzone SONG OF LIFE del bardo)
+o possibilmente anche tramite alcuni mob interattivi (ad esempio il profeta errante).
+
+Vedi anche: MESTIERI, SONG OF LIFE, ALCHIMISTA, RANDOMPOP
 
 
 
