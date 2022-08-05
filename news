@@ -281,25 +281,6 @@ Versione 2.21.20.12 - $c0009DICEMBRE 2021 $c0007- Un Natale speciale
   FLOW permette di canalizzare l'energia vitale dello psionico nei compagni, facendola diventare
   mana. Ad ogni round, i compagni che piu' necessitano di energia magica, riceveranno l'aiuto
   dello psionico.
-- CHAOS puo' causare l'esplosione dei corpi presenti nella stanza in cui combatte lo psionico,
-  causando una potente palla di fuoco.
-- RESCUE, HEAL ed HEALING permettono riallineamento. Questo dipendera' dall'allineamento del PG
-  oggetto dell'incantesimo o dell'abilita'. Se per esempio salvo un giocatore malvagio, il mio 
-  allineamento ne seguira' la direzione. Chi sta con lo zoppo impara a zoppicare.
-- $c0012Bugfix$c0007: 
-- I mob aggressivi non dovrebbero piu' bloccarsi nelle peaceroom.
-- Il puffo non e' piu' stabbabile dai nemici.
-- I draghi sono stati ripotenziati: aumentato il danno da soffio del 30%.
-- Fix ai famigli dei guerrieri monoclasse che non funzionavano correttamente.
-- Cambiati i famigli base del barbaro.
-- Fix a FIND SECRETS per il bardo
-- Aggiunti due scalini di qualita' dell'ARMOR CLASS: Molto Buono e Ottimo.
-- Correzioni alla quest dei pirati di Varil.
-- Fix ai DRAGONSHOUT di Skyrim per coloro che restavano fuori dal gioco a lungo.
-- Correzione ai maestri di gilda che spesso non insegnavano skill differenti se avevano 
-  stesse iniziali (per esempio il DISARM per l'antipaladino).
-
-
 
 Per scoprire tutte le novita' dell'HELP di Tempora Sanguinis, scrivi $c0009HELP AGGIORNAMENTO$c0007
 
