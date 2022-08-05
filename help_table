@@ -18,7 +18,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato), FLOW,
   OVERLOAD, FIX (aggiornato), PROMPT (aggiornato), EQUIPMENT (aggiornato),
   OGGETTI ETEREI, MESTIERI (aggiornato), ADDESTRATORE, OCCULTISTA,
-  MERCENARI, QUEST (aggiornato).
+  MERCENARI, QUEST (aggiornato), LISTINO (AGGIORNATO), FORTUNA.
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
@@ -11977,7 +11977,7 @@ Non e' possibile invece convertire sigilli elementali in divini.
 
 $c0010Passaggio di sigilli tra PG$c0007
 E' possibile, tra pg dello stesso proprietario, passare sigilli dimezzati 
-solo al proprio personaggio principale. Da questo servizio sono esclusi pg 
+solo a personaggi con PWP maggiore di 400. Da questo servizio sono esclusi pg 
 in comune, dove per comune si intende qualsiasi personaggio la cui password 
 e' condivisa da piu' di una persona anche solo per controllare il rent, pg 
 che giocano dallo stesso ip, pg prestati, ceduti o regalati.
@@ -11986,6 +11986,16 @@ al momento. Non e' possibile invece passare i 400 sigilli della quest del
 tribunale e nell'incertezza saranno fatti i dovuti controlli.
 Questo servizio potrebbe essere tolto in qualunque momento in caso
 di abusi o violazione delle regole.
+
+$c0010Passaggio di monete di Morrowindl$c0007
+E' possibile passare le monete tramite RIPOSTIGLIO CONDIVISO o per
+intervento divino. Il costo sara' equivalente al 50% delle monete,
+come accade automaticamente tramite l'utilizzo del ripostiglio.
+
+$c0010Passaggio di Medaglie al valore$c0007
+Non e' possibile cedere, vendere o regalare medaglie al valore.
+L'unico modo per passarle ad un altro proprio PG e' tramite il 
+RIPOSTIGLIO CONDIVISO.
 
 $c0010Personaggi ceduti o regalati$c0007
 Non e' possibile cedere, vendere o regalare un proprio personaggio ad
