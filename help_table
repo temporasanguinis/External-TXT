@@ -11723,6 +11723,10 @@ l'account verificato tramite email (vedi HELP ACCOUNT VERIFICATO).
 Il costo del flag corrisponde a un minimo di 5000 divini su un oggetto non 
 editato.
 
+Per Scrigni dorati, Sacche dell'alchimista e Teche delle rune personalizzate
+il costo per renderle ACCOUNT e' si 1000 divini indipendentemente dal loro
+contenuto.
+
 Se l'ggetto e' editato, il prezzo corrisponde al costo in divini gia' spesi,
 piu' l'eventuale costo in rune e medaglie per le procedure speciali.
 
@@ -11971,7 +11975,7 @@ al costo di 20 sigilli divini e 100 sigilli di ogni elemento per ogni unita
 di peso.
 
 $c0010Conversione di sigilli$c0007
-E' possibile convertire sigilli divini in sigilli elementali con il seguente cambio:
+E' possibile convertire sigilli divini in sigilli elementali a questo rateo:
 1 sigillo divino = 5 sigilli elementali a scelta del giocatore.
 Non e' possibile invece convertire sigilli elementali in divini. 
 
@@ -11986,6 +11990,7 @@ al momento. Non e' possibile invece passare i 400 sigilli della quest del
 tribunale e nell'incertezza saranno fatti i dovuti controlli.
 Questo servizio potrebbe essere tolto in qualunque momento in caso
 di abusi o violazione delle regole.
+E' possibile passare i sigilli tramite il ripostiglio condiviso.
 
 $c0010Passaggio di monete di Morrowindl$c0007
 E' possibile passare le monete tramite RIPOSTIGLIO CONDIVISO o per
@@ -12009,6 +12014,14 @@ slay magiche sullo stesso oggetto. Ogni slay pero' occupera' uno slot diverso.
 Come base e' possibile usare sempre una delle scintille divine. Per aggiungere
 la cold il costo e' di 4000 acqua, per la electricity 4000 aria, per la fire
 4000 fuoco, per la acid 4000 terra, per la energy 1000 elementi per tipo.
+E' possibile disunire le scintille pagandone il doppo del loro costo di fusione,
+come se si trattasse della rimozione di un affect (in questo caso il doppio del
+costo viene giustificato dalla creazione della singola scintilla.
+
+Es.: rimuovee una scintilla fire da una gia unita costa 8000 sigilli fuoco,
+rimuovere la energy costa 2400 divini.
+Se la scintilla energy e' l'ultima che rimane dopo aver tolto le altre,
+non si dovra pagare il costo in divini.
 
 $c0011ATTENZIONE:$c0007 non e' possibile editare slay razziali e/o allineamento,
 ne' i dadi, su armi che contengono slay magiche.$c0007
@@ -14633,7 +14646,7 @@ SLAM
 $c0015Uso$c0015           : slam <vittima>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Instantaneo
-$c0010Livello$c0010       : 3 bardi
+$c0010Livello$c0010       : 21 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : -
 $c0001Strumento$c0001     : a percussione o a corde$c0007
