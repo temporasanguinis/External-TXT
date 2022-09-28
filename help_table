@@ -11741,6 +11741,9 @@ Dopo aver editato questo flag, l'oggetto mantiene le restrizioni relative
 successivi edit (ogni modifica richiesta costera' 3x volte).
 Tale modifica non si puo' fare su oggetti non derentati.
 
+Per SCRIGNI, SACCHE e TECHE personali il costo dell'aggiunta del flag e'
+abbassato a 1000 sigilli divini.
+
 $c0010--- Spell affect -----------------------------------------------$c0007
 E' possibile ottenere alcuni spell affect. Questi spell affect possono
 essere editati su un singolo slot.
