@@ -3,12 +3,18 @@ EMPTY SLOT
 #
 HELP AGGIORNAMENTI AGGIORNAMENTO NOVITA'
 
-Ultimo aggiornamento: 28 aprile 2022 a cura di Nalith, Yffre e Traxter
+Ultimo aggiornamento: 05 novembre 2022 a cura di Nalith, Yffre e Traxter
 
 L'Help di Tempora Sanguinis e' curato da Martinus e da Nalith.
 Se riscontrate errori, incongruenze, o desiderate proporre
 un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
+
+
+--- Modifiche della versione 2.21.12.14 ------------------------------
+- EVADE TRAP, BURNING HANDS (aggiornato), SOCKET (aggiornato), GREEN SLIME
+  
+
 
 --- Modifiche della versione 2.21.12.13 ------------------------------
 - DARKNESS (aggiornato), DETECT MAGIC (aggiornato), MIND (aggiornato),
@@ -6242,7 +6248,7 @@ Vedi anche: STRENGTH, MAGIC MISSILE, SPELL POWER, ICE STORM, CONE OF COLD
 $c0015Uso$c0015           : cast 'burning hards' <vittima>
 $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 5 Maghi e Stregoni, 24 Bardi
+$c0010Livello$c0010       : 5 Maghi e Stregoni, 5 Bardi
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
 $c0012Costo in mana$c0012 : 15$c0007
 
@@ -12085,33 +12091,49 @@ Vedi anche: SAVE
 
 #
 "EDIT SU SOCKET"
-E' possibile solo editare su oggetti socketable ma gli edit non possono essere 
-spostati. Per ovviare a questo problema e' possibile, per chi ne fa richiesta, 
-prima chiudere il pezzo socket (ovvero togliere il flag socketable dall'oggetto) 
-e azzerare i sigilli dati dai cristalli, solo in questo modo gli edit successivi 
-fatti in divini possono essere spostati e nel caso di quelli concessi, recuperati.
-$c0009Una precisazione:$c0007E' possibile azzerare i sigilli di un oggetto socket
-chiuso solo se e' ancora possibile fare edit consistenti sull'oggetto e che possono
-creare confusione con cio' che avete messo a cristalli, nel senso che non e' che
-ve ne venite con un pezzo 5dam 25hp 55mana 15manareg e -6save a dire che sul pezzo
-ci dovete editare altri -2 save, oppure con uno slot vuoto in cui dovete editare
-il true sight che e' ovvio vada editato a sigilli dal momento che non si puo' fare
-a cristalli, tanto per fare solo due esempi di socket su cui il servizio NON e'
-applicabile, inoltre non possono essere azzerati i sigilli di oggetti socket con
-almeno una apply al sesto cristallo.
-Invece e' sempre possibile chiudere un oggetto socket togliendo il flag socketable
-e lasciando i sigilli dati dai cristalli ma non sara' possibile ne' spostare ne'
-recuperare edit da questi oggetti nemmeno se fatti a sigilli.
-Una volta chiuso il socket non e' piu' possibile inserire cristalli e non puo' essere 
-riaperto. E' possibile unificare hitroll e damroll in un solo slot ma anche in 
-questo caso il socket va chiuso dopo la modifica, secondo una delle modalita' 
-citate sopra. $c0014In caso di overedit a sigilli il pezzo socketable diventa only class 
-e in caso di cambio classe per la quale non sono consentiti overedit saranno tolti 
-anche quelli fatti a cristalli, e non ci sara' possibilita' di recuperare questi edit
-in alcun modo, quindi fate attenzione.$c0007
-Per questo tipo di servizio rivolgersi soltanto a $c0015Nis$c0007. 
-Se ci dovessero essere problemi il servizio potrebbe essere tolto in qualunque momento 
-e senza preavviso.
+E' possibile editare gli items SOCKET al pari degli altri items, ma
+lo spostamento degli edit e' soggetto alle seguenti limitazioni:
+
+  -Tutti gli edit ottenibili tramite inserimento cristalli possono
+   essere spostati SOLAMENTE su altri oggetti SOCKET che abbiano
+   slot vuoti e che non abbiano gia' tale edit (no all'unione).
+   
+  -Tutti gli edit da listino non ottenibili da cristalli, possono
+   essere spostati su qualsiasi oggetto, o desigillati, seguendo
+   i normali costi di listino (10% spostamento, 75% refound)
+   
+  -Tutti gli edit che sono PROCEDURE SPECIALI, seguono le regole
+   a loro dedicati.
+   
+  -In nessun caso gli EDIT ottenibili tramite cristalli si possono
+   diseditare e recuperarne i divini/risorse investite nella loro 
+   creazione.
+   
+Esempio :
+  Oggetto SOCKET 1 ha come edit:
+    -20 hp (4 cristalli vita)
+    -2 dam (2 cristalli forza)
+    -vuoto
+    -vuoto
+    -vuoto
+    
+  Oggetto SOCKET 2 ha come edit :
+    -10 hp (2 cristalli vita)
+    -10 SP (5 cristalli potere)
+    -vuoto
+    -vuoto
+    -vuoto
+    
+In questo esempio, e' possibile spostare i 2 damrol e/o i 10 SP da un
+SOCKET all'altro, ma non e' possibile farlo con gli HP in quanto esistono
+su entrambi gli items.
+Per poter spostare gli HP da un oggetto all'altro e' necessario rimuovere
+l'edit sull'oggetto di destinazione.
+I Costi per la rimozione degli slot e quelli per lo spostamento sono di
+listino.
+
+Laddove un items SOCKET venga chiuso, si applichera' il flag EXSOCKET
+per identificarlo nel caso di reroll personaggio.
 
 Vedi anche: SOCKET
 
@@ -14966,7 +14988,9 @@ Qualsiasi XP e Prac del vecchio Eroe verranno persi, mentre i divini spesi
 per eventuali Overedit da Monoclasse e/o edit di EQ Only Class verranno
 refundati integralmente (al contrario del normale disedit al 75%).
 
-I Socket OVEREDITATI a DIVINI saranno COMPLETAMENTE CHIUSI (tutti gli slot).
+I Socket OVEREDITATI a DIVINI saranno COMPLETAMENTE CHIUSI (tutti gli slot),
+e sara applicato il flag EXSOCKET.
+Gli items che abbiano gia' il flag EXSOCKET resteranno come sono
 
 Qualsiasi modifica all' EQ (trasferimento edit, spostamento slot, disedit)
 che non rientri nella casistica di cui sopra (overedid/only class) avra' i 
@@ -15364,6 +15388,27 @@ permetteranno di mantenere il piu a lungo possibile questo stato.
 Si vocifera che i piu grandi monaci siano in grado di compiere azioni senza conseguenze, laddove gli altri muoiono.
 
 Vedi anche: TRAPPOLE, MONACO
+
+#
+GREEN SLIME
+
+$c0015Uso$c0015           : cast 'green slime'
+$c0006Cumulativo$c0006    : No
+$c0005Durata$c0005        : Speciale
+$c0010Livello$c0010       : 48 Ranger
+$c0014Tiro salvezza$c0014 : vs Paralisi
+$c0012Costo in mana$c0012 : 50
+$c0007
+Questo incantesimo permette al ranger di incantare un pugno di polvere e trasformarlo in fanghigli verde che verra
+spalmata sulla propria arma permettendogli, grazie alle proprie conoscenze delle varie creature, di sfruttarle per
+infliggere svariati effetti negativi, oltre a renderli visibli qualosa siano nascosti.
+Il danno e' (liv. + SP)d4 + potenziamento in ambienti bagnati e/o desertici.
+Effetti applicati:
+  -slowness
+  -spell corrode
+  -afflizione acida/corroded
+  
+Vedi anche: RANGER, SLOWNESS, CORRODE, AFFLIZIONI
 
 
 
