@@ -11564,6 +11564,25 @@ preghiera tramite il comnado PRAY. La divinita' potra' comunque chiedere il
 pagamento di 5 Medaglie al Valore per esercitare i suoi poteri e plasmare 
 gli oggetti.
 
+Vista la complessita', e' stato suddiviso in capitoli per renderlo piu
+fruibile completo e leggibile.
+
+$c0010--- Modifiche alle armi ---------------------------------------$c0007
+
+Vedi : LISTINO ARMI
+
+$c0010--- Modifiche all' equipaggiamento -----------------------------$c0007
+
+Vedi : LISTINO EQUIPAGGIAMENTO
+
+$c0010--- Servizi Vari -----------------------------------------------$c0007
+
+Vedi : LISTINO SERVIZI
+
+Vedi anche : LISTINO ARMI, LISTINO EQUIPAGGIAMENTO, LISTINO SERVIZI
+
+#
+MODIFICHE ALLE ARMI
 
 $c0010--- Modifiche alle armi ---------------------------------------$c0007
 
@@ -11647,7 +11666,74 @@ compreso il massimale di weapon spell.$c0007
 
 Esempio: uno strumento con durabilita' 10, viene modificato fino a raggiungere
 il valore di 20. La spesa totale per questa modifica sara' di 6000 sigilli divini
-e 10000 sigilli elementali
+e 10000 sigilli elementali.
+
+$c0010--- Align e Race Slayer ----------------------------------------$c0007
+
+La proprieta' SLAYER aumenta considerevolmente il danno che viene 
+inflitto su avversari della razza o dell'allineamento scelto.
+Nel caso delle Race Slayer il danno viene moltiplicato per due, mentre
+nel caso delle Align Slayer il danno viene moltiplicato per 1.75. 
+Le proprieta' Align Slayer e Race Slayer possono essere editate solo 
+sulle armi bianche (SLASH, BLUNT o PIERCE), sulle armi a distanza (archi, balestre, etc...), 
+sugli strumenti musicali e sui guanti solo nel caso dei monaci. E' 
+possibile editare una sola Race Slayer per oggetto.
+
+ALIGNMENT SLAYER		 COSTO
+
+1a slay su un'arma		 3000 sigilli di tutti i tipi
+2a slay su un'arma		 4000 sigilli di tutti i tipi
+3a slay su un'arma		 5000 sigilli di tutti i tipi
+
+RACE SLAYER			     COSTO
+
+Slay Human               Non Editabile
+Slay su un tipo di Giant 1600 sigilli divini
+Slay Troll, Titano       2900 sigilli divini
+Slay Brownie             3500 sigilli divini
+Slay Arachnoid           3800 sigilli divini
+Slay Demonic             3500 Sigilli divini
+Slay Devil o Angelic     3500 sigilli divini
+
+NB: Non e' possibile effettuare questo tipo di edit su armi che contengono
+slay magiche, come le scintille divine.
+
+$c0010--- Weapon Spell -----------------------------------------------$C0007
+
+La proprieta' weapon spell permette ad un'arma di rilasciare una magia ogni
+volta che colpisce un avversario. Le magie attualmente editabili su di un'arma
+sono queste:
+
+WEAPON SPELL        COSTO
+
+Spark               400  sigilli divini/2000 sigilli Aria
+Scorch              400  sigilli divini/2000 sigilli Fuoco
+Freeze              400  sigilli divini/2000 sigilli Acqua
+Corrode             400  sigilli divini/2000 sigilli Terra
+Energy bolt	        400  sigilli divini/500 sigilli per ogni elemento
+Cause light         1400 sigilli divini
+Cause serious       2500 sigilli divini
+Cause critic        3600 sigilli divini
+Chill touch         1200 sigilli divini/6000 sigilli Acqua
+
+Si puo avere anche piu di un weapon spell per arma, ma il costo per
+ogni edit successivo al primo aumenta in questo modo:
+primo weapon spell      costo normale
+secondo weapon spell    costo x 2
+terzo weapon spell      costo x 3
+quarto weapon spell     costo x 4
+Il massimo di weapon spell editabili e' 4
+
+L'unica eccezione a queste regole e' fatta per i monaci,
+i quali possono avere anche piu weapon spell al costo base, ma
+le armi in questione diventeranno anti monk only class.
+$c0011N.B. si possono avere weapon spell sulle armi bianche (SLASH, BLUNT o PIERCE), 
+sulle armi a distanza (archi, balestre, etc...) e sugli strumenti musicali.$c0007
+
+Vedi anche : LISTINO, LISTINO EQUIPAGGIAMENTO, LISTINO SERVIZI
+
+#
+LISTINO EQUIPAGGIAMENTO
 
 $c0010--- Bit RESISTANT e IMMUNE ------------------------------------$c0007
 
@@ -11720,37 +11806,6 @@ con uno slot di Hit&Dam. Innanzitutto dovro' portare il valore dello slot a
 elementali per tipo per liberare lo slot e potro' editarlo con +4 Hit&Dam, 
 spendendo ulteriori 2000 sigilli divini.
 
-$c0010--- Flag ACCOUNT -----------------------------------------------$c0007
-
-E' possibile assegnare ad un oggetto il flag ACCOUNT, che rende possibile
-l'utilizzo dell'oggetto a tutti i personaggi di livello eroe che condividono 
-l'account verificato tramite email (vedi HELP ACCOUNT VERIFICATO).
-
-Il costo del flag corrisponde a un minimo di 5000 divini su un oggetto non 
-editato.
-
-Per Scrigni dorati, Sacche dell'alchimista e Teche delle rune personalizzate
-il costo per renderle ACCOUNT e' si 1000 divini indipendentemente dal loro
-contenuto.
-
-Se l'ggetto e' editato, il prezzo corrisponde al costo in divini gia' spesi,
-piu' l'eventuale costo in rune e medaglie per le procedure speciali.
-
-Se l'oggetto e' di tipo SOCKET, il costo aumenta del 25%.
-
-Esempio: Bobaz deve editare il flag ACCOUNT su "lo scudo delle tempeste",
-ottenuto tramite rune e su cui ha gia' speso 9200 divini. Il costo per tale
-edit sara' di 9200 divini a cui si aggiungono, i sigilli e le rune usate per 
-l'acquisto (55 rune del vento e 5000 sigilli divini).
-
-Tale spesa gli permettera' di utilizzare lo scudo su tutti i suoi 5 eroi che
-accedono al ripostiglio magico condiviso, grazie all'ACCOUNT VERIFICATO.
-
-Dopo aver editato questo flag, l'oggetto mantiene le restrizioni relative 
-(allineamento, classi, genere...) e causa un incremento di prezzo per i
-successivi edit (ogni modifica richiesta costera' 3x volte).
-Tale modifica non si puo' fare su oggetti non derentati.
-
 $c0010--- Spell affect -----------------------------------------------$c0007
 E' possibile ottenere alcuni spell affect. Questi spell affect possono
 essere editati su un singolo slot.
@@ -11808,67 +11863,10 @@ Drain               2200 sigilli divini
 N.B. I costi con / in mezzo, significano che l'edit e' possibile farlo
 con uno dei tipi di sigilli, a scelta del giocatore.
 
-$c0010--- Align e Race Slayer ----------------------------------------$c0007
+Vedi anche : LISTINO, LISTINO ARMI, LISTINO SERVIZI
 
-La proprieta' SLAYER aumenta considerevolmente il danno che viene 
-inflitto su avversari della razza o dell'allineamento scelto.
-Nel caso delle Race Slayer il danno viene moltiplicato per due, mentre
-nel caso delle Align Slayer il danno viene moltiplicato per 1.75. 
-Le proprieta' Align Slayer e Race Slayer possono essere editate solo 
-sulle armi bianche (SLASH, BLUNT o PIERCE), sulle armi a distanza (archi, balestre, etc...), 
-sugli strumenti musicali e sui guanti solo nel caso dei monaci. E' 
-possibile editare una sola Race Slayer per oggetto.
-
-ALIGNMENT SLAYER		 COSTO
-
-1a slay su un'arma		 3000 sigilli di tutti i tipi
-2a slay su un'arma		 4000 sigilli di tutti i tipi
-3a slay su un'arma		 5000 sigilli di tutti i tipi
-
-RACE SLAYER			     COSTO
-
-Slay Human               Non Editabile
-Slay su un tipo di Giant 1600 sigilli divini
-Slay Troll, Titano       2900 sigilli divini
-Slay Brownie             3500 sigilli divini
-Slay Arachnoid           3800 sigilli divini
-Slay Demonic             3500 Sigilli divini
-Slay Devil o Angelic     3500 sigilli divini
-
-NB: Non e' possibile effettuare questo tipo di edit su armi che contengono
-slay magiche, come le scintille divine.
-
-$c0010--- Weapon Spell -----------------------------------------------$C0007
-
-La proprieta' weapon spell permette ad un'arma di rilasciare una magia ogni
-volta che colpisce un avversario. Le magie attualmente editabili su di un'arma
-sono queste:
-
-WEAPON SPELL        COSTO
-
-Spark               400  sigilli divini/2000 sigilli Aria
-Scorch              400  sigilli divini/2000 sigilli Fuoco
-Freeze              400  sigilli divini/2000 sigilli Acqua
-Corrode             400  sigilli divini/2000 sigilli Terra
-Energy bolt	        400  sigilli divini/500 sigilli per ogni elemento
-Cause light         1400 sigilli divini
-Cause serious       2500 sigilli divini
-Cause critic        3600 sigilli divini
-Chill touch         1200 sigilli divini/6000 sigilli Acqua
-
-Si puo avere anche piu di un weapon spell per arma, ma il costo per
-ogni edit successivo al primo aumenta in questo modo:
-primo weapon spell      costo normale
-secondo weapon spell    costo x 2
-terzo weapon spell      costo x 3
-quarto weapon spell     costo x 4
-Il massimo di weapon spell editabili e' 4
-
-L'unica eccezione a queste regole e' fatta per i monaci,
-i quali possono avere anche piu weapon spell al costo base, ma
-le armi in questione diventeranno anti monk only class.
-$c0011N.B. si possono avere weapon spell sulle armi bianche (SLASH, BLUNT o PIERCE), 
-sulle armi a distanza (archi, balestre, etc...) e sugli strumenti musicali.$c0007
+#
+LISTINO SERVIZI
 
 $c0010--- Enchant ----------------------------------------------------$c0007
 
@@ -11904,6 +11902,37 @@ $c0011Attenzione:$c0007 Non si possono spostare procedure speciali presenti
 su oggetti NORENT o NOEDIT. Un pg non puo' avere la stessa procedura speciale
 su piu' oggetti. Ogni oggetto puo' avere al massimo una procedura speciale 
 attiva su di esso.
+
+$c0010--- Flag ACCOUNT -----------------------------------------------$c0007
+
+E' possibile assegnare ad un oggetto il flag ACCOUNT, che rende possibile
+l'utilizzo dell'oggetto a tutti i personaggi di livello eroe che condividono 
+l'account verificato tramite email (vedi HELP ACCOUNT VERIFICATO).
+
+Il costo del flag corrisponde a un minimo di 5000 divini su un oggetto non 
+editato.
+
+Per Scrigni dorati, Sacche dell'alchimista e Teche delle rune personalizzate
+il costo per renderle ACCOUNT e' si 1000 divini indipendentemente dal loro
+contenuto.
+
+Se l'ggetto e' editato, il prezzo corrisponde al costo in divini gia' spesi,
+piu' l'eventuale costo in rune e medaglie per le procedure speciali.
+
+Se l'oggetto e' di tipo SOCKET, il costo aumenta del 25%.
+
+Esempio: Bobaz deve editare il flag ACCOUNT su "lo scudo delle tempeste",
+ottenuto tramite rune e su cui ha gia' speso 9200 divini. Il costo per tale
+edit sara' di 9200 divini a cui si aggiungono, i sigilli e le rune usate per 
+l'acquisto (55 rune del vento e 5000 sigilli divini).
+
+Tale spesa gli permettera' di utilizzare lo scudo su tutti i suoi 5 eroi che
+accedono al ripostiglio magico condiviso, grazie all'ACCOUNT VERIFICATO.
+
+Dopo aver editato questo flag, l'oggetto mantiene le restrizioni relative 
+(allineamento, classi, genere...) e causa un incremento di prezzo per i
+successivi edit (ogni modifica richiesta costera' 3x volte).
+Tale modifica non si puo' fare su oggetti non derentati.
 
 $c0010--- Servizi Vari -----------------------------------------------$c0007
 
@@ -12065,6 +12094,7 @@ $c0010Oggetti speciali di Lis$c0007
 Gli oggetti con key QNLis e QZLis sono premi doati durante gli eventi dei rami di 
 Lis. Per saperne di piu' leggi attentamente $c0011HELP QUESTLIS$c0007.
 
+Vedi anche : Vedi anche : LISTINO, LISTINO ARMI, LISTINO EQUIPAGGIAMENTO
 
 $c0010----------------------------------------------------------------$c0007
 
