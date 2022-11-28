@@ -11739,9 +11739,10 @@ sulle armi a distanza (archi, balestre, etc...) e sugli strumenti musicali.$c000
 
 $c0010--- Peso delle armi -------------------------------------------$C0007
 
-E' possibile ridurre il peso delle armi, purche' il peso delle medesime non
-sia superiore a 40. Il costo di riduzione del peso e' di 200 divini per ogni
-punto, fino al minimo di 1.
+$c0010Modifica del peso delle armi$c0007
+E' possibile diminuire il peso delle armi con peso iniziale inferiore a 40
+al costo di 20 sigilli divini e 100 sigilli di ogni elemento per ogni unita
+di peso.
 
 Vedi anche : LISTINO, EDITEQ, EDITSERVIZI
 
@@ -12017,11 +12018,6 @@ $c0010Aggiunta del flag ANTI-DT$c0007
 E' possibile AGGIUNGERE il flag ANTI-DT ad un'oggetto al costo di
 1000 sigilli di ogni tipo. L'oggetto diventa personalizzato e a prova di
 Death Trap.
-
-$c0010Modifica del peso delle armi$c0007
-E' possibile diminuire il peso delle armi con peso iniziale inferiore a 40
-al costo di 20 sigilli divini e 100 sigilli di ogni elemento per ogni unita
-di peso.
 
 $c0010Conversione di sigilli$c0007
 E' possibile convertire sigilli divini in sigilli elementali a questo rateo:
