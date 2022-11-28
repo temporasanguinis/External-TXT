@@ -13,6 +13,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
 
 --- Modifiche della versione 2.21.12.14 ------------------------------
 - EVADE TRAP, BURNING HANDS (aggiornato), SOCKET (aggiornato), GREEN SLIME
+  SEPARAZIONE LISTINO, TREE TRAVEL (aggiornato)
   
 
 
@@ -11569,20 +11570,20 @@ fruibile completo e leggibile.
 
 $c0010--- Modifiche alle armi ---------------------------------------$c0007
 
-Vedi : LISTINO ARMI
+Vedi : EDITARMI
 
 $c0010--- Modifiche all' equipaggiamento -----------------------------$c0007
 
-Vedi : LISTINO EQUIPAGGIAMENTO
+Vedi : EDITEQ
 
 $c0010--- Servizi Vari -----------------------------------------------$c0007
 
-Vedi : LISTINO SERVIZI
+Vedi : EDITSERVIZI
 
-Vedi anche : LISTINO ARMI, LISTINO EQUIPAGGIAMENTO, LISTINO SERVIZI
+Vedi anche : EDITARMI, EDITEQ, EDITSERVIZI
 
 #
-MODIFICHE ALLE ARMI
+EDITARMI
 
 $c0010--- Modifiche alle armi ---------------------------------------$c0007
 
@@ -11730,10 +11731,10 @@ le armi in questione diventeranno anti monk only class.
 $c0011N.B. si possono avere weapon spell sulle armi bianche (SLASH, BLUNT o PIERCE), 
 sulle armi a distanza (archi, balestre, etc...) e sugli strumenti musicali.$c0007
 
-Vedi anche : LISTINO, LISTINO EQUIPAGGIAMENTO, LISTINO SERVIZI
+Vedi anche : LISTINO, EDITEQ, EDITSERVIZI
 
 #
-LISTINO EQUIPAGGIAMENTO
+EDITEQ
 
 $c0010--- Bit RESISTANT e IMMUNE ------------------------------------$c0007
 
@@ -11863,10 +11864,10 @@ Drain               2200 sigilli divini
 N.B. I costi con / in mezzo, significano che l'edit e' possibile farlo
 con uno dei tipi di sigilli, a scelta del giocatore.
 
-Vedi anche : LISTINO, LISTINO ARMI, LISTINO SERVIZI
+Vedi anche : LISTINO, EDITARMI, EDITSERVIZI
 
 #
-LISTINO SERVIZI
+EDITSERVIZI
 
 $c0010--- Enchant ----------------------------------------------------$c0007
 
@@ -12094,7 +12095,7 @@ $c0010Oggetti speciali di Lis$c0007
 Gli oggetti con key QNLis e QZLis sono premi doati durante gli eventi dei rami di 
 Lis. Per saperne di piu' leggi attentamente $c0011HELP QUESTLIS$c0007.
 
-Vedi anche : Vedi anche : LISTINO, LISTINO ARMI, LISTINO EQUIPAGGIAMENTO
+Vedi anche : LISTINO, EDITARMI, EDITEQ
 
 $c0010----------------------------------------------------------------$c0007
 
