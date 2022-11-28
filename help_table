@@ -2633,7 +2633,7 @@ Vedi anche: POLYMORPH
 $c0015Uso$c0015           : cast 'tree travel'
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : 24 ore
-$c0010Livello$c0010       : 8 Druidi
+$c0010Livello$c0010       : 8 Druidi, 37 Ranger
 $c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0012 : 2
 $c0007
@@ -11570,13 +11570,19 @@ fruibile completo e leggibile.
 
 $c0010--- Modifiche alle armi ---------------------------------------$c0007
 
+Per tutti gli edit relativi alle armi primarie, secondarie e strumenti.
+
 Vedi : EDITARMI
 
 $c0010--- Modifiche all' equipaggiamento -----------------------------$c0007
 
+Pet tutti gli edit relativi alle armature ed ai vari pezzi non armi.
+
 Vedi : EDITEQ
 
 $c0010--- Servizi Vari -----------------------------------------------$c0007
+
+Per tutti i servizi offerti dagli dei dietro pagamenti vari.
 
 Vedi : EDITSERVIZI
 
@@ -11731,6 +11737,12 @@ le armi in questione diventeranno anti monk only class.
 $c0011N.B. si possono avere weapon spell sulle armi bianche (SLASH, BLUNT o PIERCE), 
 sulle armi a distanza (archi, balestre, etc...) e sugli strumenti musicali.$c0007
 
+$c0010--- Peso delle armi -------------------------------------------$C0007
+
+E' possibile ridurre il peso delle armi, purche' il peso delle medesime non
+sia superiore a 40. Il costo di riduzione del peso e' di 200 divini per ogni
+punto, fino al minimo di 1.
+
 Vedi anche : LISTINO, EDITEQ, EDITSERVIZI
 
 #
@@ -11830,7 +11842,8 @@ Intelligenza        200 sigilli divini e 800 sigilli dell'aria
 Destrezza           200 sigilli divini e 800 sigilli del fuoco
 Carisma             200 sigilli divini e 800 sigilli dell'acqua
 Il costo e' inteso per singolo punto stat.
-In caso di malus, il costo per togliere l'affect, raddoppia. 
+In caso di malus, il costo per togliere l'affect, raddoppia.
+Il limite di edit totale e' di 21 punti per singola statistica. 
 
 $c0010--- Resistenze e Immunita' -------------------------------------$c0007
 
