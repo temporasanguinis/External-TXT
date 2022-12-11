@@ -1,3 +1,82 @@
+Versione 2.22.12.11 - $c0009DICEMBRE 2022 $c0007- Bilanciamento Annuale
+- $c0012Cambiamenti principali$c0007:
+- Una nuova regola in SDR riguardante le interazioni con altri player.
+- Riscrittura del listino in sezioni (vedi help listino).
+- Skill
+- Psionico: reverse ora puo andare senza target come il dispel
+- Ranger: Aggiunta di tree travel, green slime e puo accedere all'offertorio dei druidi.
+		  Carve: ora ha meno lag e disallinea fino a -100 align.
+- Monaco: Evade Traps.
+- Bardo: Aggiunto Burning Hands al livello 5.
+- Tutti: il rescue ora disallinea di meno.
+- Aumentati bonus e malus allo spellpower secondo gli affect di locazione (elementi).
+- Daily quest
+- Nuova daily quest: usa incantesimo da bacchetta, bastone o pergamena
+- Nuova daily quest: cercare oggetti con una determinata caratteristica.
+- Nuova daily quest: subisci danni elementali
+- Nuova daily quest: unione di oggetti randompop
+- Tolti oggetti randompop dalle quest giornaliere
+- Tolta la Foresta Misteriosa dalle daily quest
+- Quest
+- Modifiche ingresso Menzoberranzan, non si sara' piu bloccati se si esce fuori.
+- Aggiunta le catapulte a Rhila per la quest dei pirati, ucciderle aiuta la nave pirata 
+  a sopravvivere piu a lungo.
+- La cittadinanza di New Thalos e' ottenibile anche dal sindaco ora.
+- La quest del Nexus ora non si apre automaticamente al vendere 100 cubi.
+- Alcuni mob in certe quest fisse potranno scagliare gente fuori dalla room.
+- Aggiunto oggetto di mordor: Cintura Haradrim.
+- Il capogruppo puo' usare il mob mercenario in un gruppo.
+- Il finale della quest di tiamat e' stato modificato per prevenire la perdita di premi
+  a chi muore poco prima.
+- Ribilanciamento ai pagamenti di certe daily quest (scopritele :).
+- Alzato il maxxaggio alla scatola di Darkenwood per non bloccare la quest.
+- Progresso nella quest dei Draconiani, forse la vedremo presto :)
+- Preparazioni per il futuro release della nuova quest di Shannara.
+- Miglioramenti
+- Aggiunto filtro opzionale agli award: "award list [filtro]".
+- I prelievi dallo stash di divini e medaglie potranno essere senza interventi divini.
+- Tra i premi del sindaco di Midia ora puo' uscire un tesoro (monete).
+- Gli oggetti brittle si scrappano meno facilmente.
+- Alzato il danno necessario per le scritte di danno sopra il polverizza
+- Gi scudi elementali possono ora perdere extra res quando vengono scrappati, si possono
+  insertare rune in essi per recuperare l'extra res o per overmaxxarli.
+- alcuni oggetti ora avranno flag account di base: teca, scrigno, piccone nanico,
+  canna elfica, sacca alchimisti.
+- Ricalibraggio dei sigilli elementali dai mob, meno sigilli aria di prima in media.
+- Il flag ETEREO ora scatta anche per oggetti in borsa.
+- Modificato il dado a un pugnale di rhowyn sbilanciato.
+- Gli oggetti autojunk non potranno piu' essere usati dai PG per bloccare certi exploit.
+- Detect invisible non blocca piu il watch.
+- Chaing lightning ora scrappa.
+- $c0012Bugfix$c0007:
+- Gli oggetti di dethor sono ora norent e e non rimarranno bloccati in inventario.
+- Tolto alcune aree inacessibili da Eowarion.
+- Correzioni ad oggetti buggati in scacchiera e di livellaggio.
+- Tolto i maxxaggi ad alcuni boss delle quest in modo che il nexus o boccetta vampiri
+  non le blocchi.
+- Risolto un bug sullo shocking grasp, funzionava a SP pieno su certe classi e potenziato 
+  minormente.
+- Risolto un crash con dhethor.
+- Risolto un crash su certi comandi da immortali.
+- Correzioni ad alcune frecce non incoccabili.
+- Correzione alla faretra del Signore dei Ranger, in alcuni casi non si incoccava da essa.
+- Aggiungo lag al soffio di draghi (alcuni non lo avevano).
+- Risolto un raro bug di crash su earthquake.
+- Acid blast da weaponspell funzionava a pieno di spellpower per certe classi.
+- Corretto un caso di elemental arrow che riportava il mob in vita dopo averlo ucciso.
+- Fix a un crash con le aste.
+- Corretto i testi di alcuni mob interattivi.
+- Correzione al sindaco: progrediva la daily quest delle medaglie al valore consumandole.
+- Fix a un crash con AMS sul death knight.
+- IL Warcry del paladino si poteva urlare in stanza silence.
+- Fix a steal enchantment: funzionava su AMS.
+- Fix a sunray: attaccava mob immortali.
+- Fix a un crash se mob con oggetti indossati finiva in death room.
+- Fix a un crash con elementl absorb.
+- Fix a un crash con i seguaci se si moriva da capogruppo.
+- I portali non facevano il check se la stanza e' maxxante/tunnel.
+- Corretto un bug al perk segugio: se si era polati laggava.
+- Risolto un crash causato da mob mercenari.
 
 Versione 2.22.7.29 - $c0009LUGLIO 2022 $c0007- Missioni per tutti
 - $c0012Cambiamenti principali$c0007: 
