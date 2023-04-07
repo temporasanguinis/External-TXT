@@ -3800,6 +3800,10 @@ rendono conto del fatto che  l'avversario sia affetto  dall'incantesimo:
 per  questo,  appena  possibile,  essi cercano  di  cambiare  avversario
 tramite l'abilita' SWITCH, se la posseggono e se ci sono altri giocatori
 che non abbiano l'armatura di fuoco.
+All'inizio del round di combattimento, parte del danno che supera 600 hp
+viene convertito in una palla di danno elementale che colpisce a caso un
+membro del gruppo avversario a quello del caster.
+Una palletta generata per ogni nemico in combat con il caster.
 
 Vedi anche: SWITCH, ELECTRIC SHIELD, FROST SHIELD
 
@@ -3819,6 +3823,10 @@ L'aura elettrica arreca esattamente lo stesso danno che  gli attaccanti
 infliggono al caster. Alcuni mob si rendono conto di  questo, e cercano
 di cambiare avversario tramite l'abilita' SWITCH, se la posseggono e se
 ci sono altri giocatori nella stanza che non abbiano scudi elementali.
+All'inizio del round di combattimento, parte del danno che supera 600 hp
+viene convertito in una palla di danno elementale che colpisce a caso un
+membro del gruppo avversario a quello del caster.
+Una palletta generata per ogni nemico in combat con il caster.
 
 Vedi anche: SWITCH, FIRESHIELD, FROST SHIELD
 
@@ -3842,6 +3850,10 @@ rendono conto del fatto che  l'avversario sia affetto  dall'incantesimo:
 per  questo,  appena  possibile,  essi cercano  di  cambiare  avversario
 tramite l'abilita' SWITCH, se la posseggono e se ci sono altri giocatori
 che non abbiano lo scudo elementale.
+All'inizio del round di combattimento, parte del danno che supera 600 hp
+viene convertito in una palla di danno elementale che colpisce a caso un
+membro del gruppo avversario a quello del caster.
+Una palletta generata per ogni nemico in combat con il caster.
 
 Vedi anche: SWITCH, FIRESHIELD, ELECTRIC SHIELD
 
