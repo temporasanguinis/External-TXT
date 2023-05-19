@@ -14180,6 +14180,18 @@ scintilla e 10 per uno scudo in sostituzione delle rune richieste
 (Esempio: per acquistare uno scudo cold, potro' utilizzare 45 rune di 
 ghiaccio e 10 rune del buio, insieme ai sigilli).
 
+Le rune possono essere usate anche per riparare la % di extra resistance del
+relativo scudo e anche portarlo oltre i limiti di base (overmax).
+Se lo scudo ha meno del 50% di resistenze i punti riguadagnati possono essere
+piu' di uno, mentre dal 50% in su, ogni incastro da 1% fino al 60% massimo.
+
+1 runa sabbia ripara scudo Terra/Morrowindl
+1 runa fuoco  ripara scudo Fire
+1 runa Ghiaccio ripara scudo Cold
+1 runa vento ripara scudo Elect
+1 runa sole non ripara nessuno scudo.
+le rune buio riparano tutti gli scudi.
+
 $c0010----------------------------------------------------------------$c0007
 
 Vedi anche: AREAQUEST, LISTINO, PEGNI DI LILITH, MEDAGLIE AL VALORE,
