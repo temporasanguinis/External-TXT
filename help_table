@@ -14185,12 +14185,12 @@ relativo scudo e anche portarlo oltre i limiti di base (overmax).
 Se lo scudo ha meno del 50% di resistenze i punti riguadagnati possono essere
 piu' di uno, mentre dal 50% in su, ogni incastro da 1% fino al 60% massimo.
 
-1 runa sabbia ripara scudo Terra/Morrowindl
-1 runa fuoco  ripara scudo Fire
-1 runa Ghiaccio ripara scudo Cold
-1 runa vento ripara scudo Elect
-1 runa sole non ripara nessuno scudo.
-le rune buio riparano tutti gli scudi.
+1 runa Sabbia ripara scudo Terra/Morrowindl.
+1 runa Fuoco  ripara scudo Fire.
+1 runa Ghiaccio ripara scudo Cold.
+1 runa Vento ripara scudo Elect.
+1 runa Sole non ripara nessuno scudo.
+le rune Buio riparano tutti gli scudi.
 
 $c0010----------------------------------------------------------------$c0007
 
