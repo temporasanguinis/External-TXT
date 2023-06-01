@@ -1,3 +1,43 @@
+Versione 2.23.6.1 - $c0009GIUGNO 2023 $c0007- Le Immagini di Shannara
+******************************************************************************
+- $c0012Cambiamenti principali$c0007:
+- Nuova Quest : SHANNARA (vedi HELP SHANNARA)
+- Nuova Quest : Specializzazione (un antico drago immobibile risvegliato)
+- In Asta sospesa si possono ora mettere oggetti che maxxano bassi in gioco
+- Aggiunto flag MXP per immagini nel webclient, si disabilita da impostazioni
+- Aggiunto help sullo scrap degli scudi (vedi HELP RUNE)
+- Cambiati alcuni mob nel NEXUS
+- Cambiata procedura Orchronos
+- Aumentata differenza PWP per la quest giornaliera dell'Arena
+- Verificati mob con procedura sbalzo
+- Eowarion e' stato istruito meglio su come assegnare le questcard
+- La razza scimmia e' un Animale, non prende piu Animal Affinity ma Growth
+- il Karma verra azzerato e convertito in Divini
+******************************************************************************
+- Skill
+- Tutti : Rework HIDE (vedi HIDE)
+- Tutti : Nuovi PERK a costo maggiorato
+- Psionico : cell adjustement lag ridotto per monoclasse, si puo specializzare
+- Sorcerer : superior fa alzare al tick se non sta memmando altro
+- Monaco : Disarm lagga 1 round in meno se entra
+- Immortali : aggiunto define per aumentare % di uscita pezzone a MORDOR
+- Immortali : aggiunta vnum su STASH
+******************************************************************************
+- $c0012Bugfix$c0007:
+- Fix sulla scritta degli EXP guadagnati dai monsum
+- FIx al Tomo Eclissi: se dava Award non apriva per completare la quest
+- Fix crash su certi mob con Hate su classe
+- Fix maxxaggio mob di alcuni mob di PD che non poppavano dopo il NEXUS
+- Fix Detect Original di flag EQ non veniva mostrato nel prompt
+- Fix le armi da lancio non funzionano piu contro i mob Immortali
+- Fix affect polveri alchimia su armi che non sono weapon (monaco e arco)
+- Fix crash su locate object su oggetti con short description non chiusa
+- Fix problema dove i questor cancellavano pezzi personal dati per errore
+- Fix award Signore dei draghi, Tiamath non lo incrementava piu'
+- Fix repop zona di lankar
+- Fix i famigli non tentano piu di togliere award che non possono rimuovere
+******************************************************************************
+
 Versione 2.22.12.11 - $c0009DICEMBRE 2022 $c0007- Bilanciamento Annuale
 - $c0012Cambiamenti principali$c0007:
 - Una nuova regola in SDR riguardante le interazioni con altri player.

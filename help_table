@@ -10,6 +10,10 @@ Se riscontrate errori, incongruenze, o desiderate proporre
 un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
 
+--- Modifiche della versione 2.23.6.1 --------------------------------
+- RUNE (aggiornato), HIDE (rework e aggiornato), SHANNARA,
+  DISARM WEAPON (aggiornato), CELL ADJUSTMENT (aggiornato)
+
 
 --- Modifiche della versione 2.22.12.11 ------------------------------
 - EVADE TRAP (aggiornato) , BURNING HANDS (aggiornato), SOCKET (aggiornato),
@@ -3134,8 +3138,7 @@ disarmare un avversario, oppure disarmare una trappola.
 - Contro  un avversario  l'effetto,  se riesce, e'  quello di far cadere di
   mano l'arma che questi stava impugnando; chi ha disarmato,  per due round 
   di  combattimento  non potra'  piu' dare  comandi,  mentre la vittima non 
-  potra' piu' per tre round.
-
+  potra' piu' per tre round. Il Monaco ha lag ridotto se riesce nel DISARM
 - Si  puo'  anche  tentare di  disarmare  una trappola, se si ha l'abilita'
   DISARM TRAP.  Se l'operazione riesce, la trappola viene resa inoffensiva,
   altrimenti scattera' contro il giocatore.
@@ -3915,14 +3918,27 @@ stanza. Se riesce, non puo' essere visto da nessuno, nemmeno tramite
 l'incantesimo  TRUE SIGHT,  ma solo percepito con il SENSE LIFE;  in
 ogni caso,  la sua identita' rimane nascosta. Egli puo' essere pero'
 scoperto  se un mago ricorre all'incantesimo FAERIE FOG, ma solo per
-un  istante.  Il ladro smette  di nascondersi  nonappena  egli prema
-il tasto enter, anche  senza aver  dato nessun  comando particolare:
-fino ad allora, egli puo' rimanere nascosto per un tempo indefinito.
-L'effetto di HIDE finira' solo quando il ladro si muovera', o  dara'
-un comando che non sia: STAND,  SIT,  REST,  SLEEP,  WAKE,  WHISPER,
-MEDITATE, SENDING,  MESSENGER, LOOK,  TELEPATHY, HELP, ATTR,  SCORE,
-oppure un altro HIDE. Questi comandi,  infatti, annullano  l'effetto
-di HIDE.
+un  istante. Qualsiasi comando che NON sia tra quelli indicati nella
+prima tabella interrompono l'HIDE, mentre se si ha SNEAK attivo, i
+comandi della seconda tabella NON rompono l'HIDE:
+____________________________________________________________________
+Comandi che non rompono HIDE   |  non rompono HIDE se SNEAK é Attivo
+_______________________________|____________________________________
+STAND, SIT, KNEEL, BOW, REST,  | NORTH, SOUTH, EAST, WEAST, UP, DOWN
+SLEEP, WAKE, WHISPER, MEDITATE,| PICK, LOCK, UNLOCK, OPEN, LIFT, EAT
+SENDING, LOOK, TELEPHATY, HELP,| TURN, TWIST, PULL, PUSH, CUT, CLOSE
+ATTRIB, SCORE, WHO, WHOZ, GWHO,| STEAL, TRACK, HUNT, DRINK, EXAMINE,
+PGSTAT, WORLD, HIDE, SNEAK, EQ,| GET, PUT, DROP, REMOVE, WEAR, STASH
+INVENTORY, PERK, WATCH, TIME,  | UNSTASH, FORM, REFORM, GROUP, VALUE
+SAVE, CONSIDER, WEATHER, ALIAS,| FORMTEST, UNGROUP, FOLLOW, DISGUISE
+COMMANDS, QUEST, GOD/IMMOLIST  | POISON, FIND, GAIN, SIP, USE, CLIMB
+                               | CAMOUFLAGE, WHERE, ENTER, SPOT,FILL
+							   | QUAFF, EMPTY, POUR, DISARM TRAPS
+							   | PRAY (solo RPG agli dei/avatar)
+____________________________________________________________________
+
+Una volta interrotto l'HIDE, per 2 round non si potra' piu' sparire
+nelle ombre in quanto i mob sono allertati da una presenza ostile.
 
 Anche monaci, ranger e barbari possono usare l'abilita' hide, con le
 stesse modalita' di funzionamento e gli stessi limiti  dell'abilita'
@@ -8099,7 +8115,7 @@ Quando uno Psionico si trova in difficolta' e sta per morire, puo'
 usufruire  di questa  disciplina, che  ad un costo molto  alto  in 
 termini di concentrazione, permette di  manipolare le cellule  del
 proprio corpo  (e solo del proprio) in modo da  guarire 100  punti
-ferita piu 10 per ogni livello eroe.
+ferita piu 10 per ogni livello eroe. Il lag per mono e' ridotto.
 
 Vadi anche: HEAL, NATURES CURE
 
@@ -13729,6 +13745,14 @@ ed ai SIGILLI ELEMENTALI, riceveranno delle monete elfiche speciali
 che permetteranno agli eroi di ottenere dei pezzi d'equipaggiamento
 forgiati dagli elfi di morrowindl. Tra questi pezzi ne esistono tre
 dotati di particolari caratteristiche estremamente potenti. 
+
+$c0001- SHANNARA - PwP consigliato 1500$c0007
+Nella foresta di Morrowindl si cela il sentiero verso le Eastlands,
+dove un vecchio druido potrebbe aver bisogno d'aiuto per risolvere
+i problemi che affliggono quelle terre, sopratutto nel distruggere
+uno degli artefatti piu potenti dell'antico mondo custodito nella
+fortezza di Graymark. A quanto semba, servono almeno due gruppi di
+eroi per poterne ottenere l'accesso... o forso no?
 
 
 $c0001- ATLANTIDE - PwP massimo 3500 $c0007
