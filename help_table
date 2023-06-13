@@ -15487,9 +15487,9 @@ $c0010Livello$c0010       : 48 Ranger
 $c0014Tiro salvezza$c0014 : vs Paralisi
 $c0012Costo in mana$c0012 : 50
 $c0007
-Questo incantesimo permette al ranger di incantare un pugno di polvere e trasformarlo in fanghigli verde che verra
+Questo incantesimo permette al ranger di incantare un pugno di polvere e trasformarlo in fanghiglia verde che verra'
 spalmata sulla propria arma permettendogli, grazie alle proprie conoscenze delle varie creature, di sfruttarle per
-infliggere svariati effetti negativi, oltre a renderli visibli qualosa siano nascosti.
+infliggere svariati effetti negativi, oltre a renderli visibili qualora siano nascosti.
 Il danno e' (liv. + SP)d4 + potenziamento in ambienti bagnati e/o desertici.
 Effetti applicati:
   -slowness
