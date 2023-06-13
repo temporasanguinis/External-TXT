@@ -3933,8 +3933,8 @@ INVENTORY, PERK, WATCH, TIME,  | UNSTASH, FORM, REFORM, GROUP, VALUE
 SAVE, CONSIDER, WEATHER, ALIAS,| FORMTEST, UNGROUP, FOLLOW, DISGUISE
 COMMANDS, QUEST, GOD/IMMOLIST  | POISON, FIND, GAIN, SIP, USE, CLIMB
                                | CAMOUFLAGE, WHERE, ENTER, SPOT,FILL
-							   | QUAFF, EMPTY, POUR, DISARM TRAPS
-							   | PRAY (solo RPG agli dei/avatar)
+			| QUAFF, EMPTY, POUR, DISARM TRAPS
+			| PRAY (solo RPG agli dei/avatar)
 ____________________________________________________________________
 
 Una volta interrotto l'HIDE, per 2 round non si potra' piu' sparire
