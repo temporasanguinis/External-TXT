@@ -3,25 +3,25 @@ EMPTY SLOT
 #
 HELP AGGIORNAMENTI AGGIORNAMENTO NOVITA'
 
-Ultimo aggiornamento: 11 Dicembre 2022 a cura di Nalith, Yffre e Traxter
+Ultimo aggiornamento: 14 Maggio 2023 a cura di Nalith, Yffre e Allanon
 
 L'Help di Tempora Sanguinis e' curato da Martinus e da Nalith.
 Se riscontrate errori, incongruenze, o desiderate proporre
 un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
 
---- Modifiche della versione 2.23.6.1 --------------------------------
+--- Modifiche della versione 2.23.6.1 ----------------------------
 - RUNE (aggiornato), HIDE (rework e aggiornato), SHANNARA,
   DISARM WEAPON (aggiornato), CELL ADJUSTMENT (aggiornato)
 
 
---- Modifiche della versione 2.22.12.11 ------------------------------
+--- Modifiche della versione 2.22.12.11 --------------------------
 - EVADE TRAP (aggiornato) , BURNING HANDS (aggiornato), SOCKET (aggiornato),
   GREEN SLIME, SEPARAZIONE LISTINO, TREE TRAVEL (aggiornato), REGOLE SDR, 
   PSI REVERSE (aggiornato), RESCUE (aggiornato).
   
 
---- Modifiche della versione 2.21.12.13 ------------------------------
+--- Modifiche della versione 2.21.12.13 --------------------------
 - DARKNESS (aggiornato), DETECT MAGIC (aggiornato), MIND (aggiornato),
   PRAY (aggiornato), CAST (aggiornato), RECALL (aggiornato), CHAOS
   (aggiornato), BASH (aggiornato), TICK, ROUND, FAMIGLI (aggiornato),
@@ -32,7 +32,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   MERCENARI, QUEST (aggiornato), LISTINO (AGGIORNATO), FORTUNA.
 
 
---- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 ----------------
+--- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 --------------
 - Aggiunte: MESTIERI, HEALING RAIN, FISHING, TAN (aggiornato), 
   SCRIGNO DORATO, LISTINO (aggiornato), AWARD, AVATAR, NOMI, MESTIERI,
   AFFLIZIONI, DND, LAG, COOLDOWN, CHAOS, MINE, ALCHIMIA, MELEE COMBAT,
@@ -44,7 +44,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
   REVERSION (aggiornato).
                                                                
                                 
---- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 ----------------
+--- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 -------------
 - Aggiunte: SOCKET, GEMME, CRISTALLI, AREAQUEST, DHETHOR, TRAIN,
   RANDOMPOP, SCALA DEI DANNI, DODICI CASE, VALORE OGGETTI, RUNA
                                 
@@ -223,7 +223,7 @@ negativo  in  altri).  Questa  tabella e'  incompleta, ma  ti dara'
 un'idea dei loro campi di azione.
 
 Caratteristica        Influenza
--------------------------------------------------
+------------------------------------------------------------------
 
 Intelligenza       Punti magia e velocita' di apprendimento di
                    abilita' ed incantesimi
@@ -3933,8 +3933,13 @@ INVENTORY, PERK, WATCH, TIME,  | UNSTASH, FORM, REFORM, GROUP, VALUE
 SAVE, CONSIDER, WEATHER, ALIAS,| FORMTEST, UNGROUP, FOLLOW, DISGUISE
 COMMANDS, QUEST, GOD/IMMOLIST  | POISON, FIND, GAIN, SIP, USE, CLIMB
                                | CAMOUFLAGE, WHERE, ENTER, SPOT,FILL
+<<<<<<< HEAD
 			| QUAFF, EMPTY, POUR, DISARM TRAPS
 			| PRAY (solo RPG agli dei/avatar)
+=======
+			       | QUAFF, EMPTY, POUR, DISARM TRAPS
+			       | PRAY (solo RPG agli dei/avatar)
+>>>>>>> 1213566825a0e1e718ccf088b179f05ac0d76042
 ____________________________________________________________________
 
 Una volta interrotto l'HIDE, per 2 round non si potra' piu' sparire
@@ -11808,6 +11813,7 @@ MODIFICA                    COSTO             MASSIMALE
 +15 Moveregen               400 sigilli	      30 punti
 -5 Spellfail                200 sigilli	      20 punti
 +2 Spellpower               400 sigilli	      10 punti
++2 Musicpower               400 sigilli	      10 punti
 +1 Absorb Damage            400 sigilli	      2  punti
 -2 Save All                 200 sigilli	      8  punti
 -5 Armor                    100 sigilli	      30 punti	
@@ -11914,7 +11920,7 @@ EDITSERVIZI
 $c0010--- Enchant ----------------------------------------------------$c0007
 
 Il costo di un Enchant Weapon lanciato da un immortale e' di 400 sigilli divini.
-Il costo di un Enchant Armor lanciato da un immortale e' di 100 sigilli divini.
+Il costo di un Enchant Armor  lanciato da un immortale e' di 100 sigilli divini.
 
 Questi incantesimi rendono l'arma o la corazza indossabili solo da 
 personaggi aventi lo stello align dell'immortale da cui sono state incantate.
@@ -11955,14 +11961,14 @@ l'account verificato tramite email (vedi HELP ACCOUNT VERIFICATO).
 Il costo del flag corrisponde a un minimo di 5000 divini su un oggetto non 
 editato.
 
-Per Scrigni dorati, Sacche dell'alchimista e Teche delle rune personalizzate
-il costo per renderle ACCOUNT e' si 1000 divini indipendentemente dal loro
-contenuto.
+Per i vecchi Scrigni dorati, Sacche dell'alchimista e Teche delle rune 
+personalizzate, il costo per renderle ACCOUNT e' gratuito, in quanto i nuovi
+diventano account al primo uso, indipendentemente dal loro contenuto.
 
-Se l'ggetto e' editato, il prezzo corrisponde al costo in divini gia' spesi,
+Se l'oggetto e' editato, il prezzo corrisponde al costo in divini gia'spesi,
 piu' l'eventuale costo in rune e medaglie per le procedure speciali.
 
-Se l'oggetto e' di tipo SOCKET, il costo aumenta del 25%.
+Se l'oggetto e' di tipo SOCKET (tranne i premi Mordor), il costo aumenta del 25%.
 
 Esempio: Bobaz deve editare il flag ACCOUNT su "lo scudo delle tempeste",
 ottenuto tramite rune e su cui ha gia' speso 9200 divini. Il costo per tale
@@ -12635,41 +12641,53 @@ la bravura e la correttezza di un giocatore. Attualmente e' in corso di
 implementazione e ci sono pocchi utilizzi effettivi di questa caratteristica.
 
 #
-REFUND
+REFOUND
 
-Listino refund ufficiale
+Listino refound ufficiale
 
-Refund per fine dei soldi in rent, sigilli divini equivalenti al proprio pwp.
+Refound per PG PRINCIPALE con pwp inferire a 150 pwp
+	nel caso un giocatore richieda il refound dell'eq per fine soldi in rent
+	o per situazioni tipo DT o fumate complete, il costo e' di 400 divini e 
+	solo nel caso in cui sia il personaggio PRINCIPALE del giocatore e non 
+	abbia altri personaggi con cui pagare il refound (nel caso si applicano
+	le normali regole).
+	Nel caso non disponesse dei 400 divini potra farsi aiutare dai giocatori
+	presenti che potranno, tramite colletta, pagare per tale giocatore.
+
+Refound per fine dei soldi in rent:
+	inferiore a 1000 pwp -> 3000 divini
+	superiore a 1000 pwp -> pwp*(3+n refound nell'ultimo anno)
 E' possibile SOLO il refund completo dell'eq in caso di fine dei soldi.
+
 N.B.  Il pwp si riferisce al pg vestito con tutto l'eq.
 Questo tipo di refund serve ad agevolare i vecchi pg che tornano, per
 chi invece sta gia pensando di abusare legga sotto.
+
 $c0009Attenzione:$c0007come ho detto questo tipo di refund serve ad agevolare
 quei pg che sono andati fuori rent e vogliono tornare a giocare, $c0009e NON
 $c0009i pg armadi$c0007 dove conservate eq di scorta da prendere quando vi
 serve, oppure che avete conservato per un eventuale cambio classe.
-Gli armadi pagheranno i $c00092500$c0007 di refund, anche per colletta.
+Gli armadi pagheranno i $c00093000$c0007 di refund, anche per colletta.
 Vi ricordo che i pg armadi sono fortemente riconoscibili quindi vi sconsiglio 
 di "provare" a fare certe richieste.
-I pg in comune invece NON POTRANNO AVERE REFUND per fuorirent, e questo
+I pg in comune invece NON POTRANNO AVERE REFOUND per fuorirent, e questo
 vale anche per gli armadi in comune.
 Il refund per pwp va pagato almeno in parte dal pg refundato e non da
 altri pg propri, nemmeno dimezzandoli, ne' per colletta, per cui, 
 indipendentemente dal pwp e dal pagamento, i primi 400 divini deve versarli 
 il pg che ha avuto refund, anche diseditando l'eq, oppure pagando a rate
-ENTRO un paio di giorni. (ovvio che se poi avete 100 pwp pagate 100 divini
-ma sempre con il pg refundato).
+ENTRO un paio di giorni.
 
 NB: nel caso di refund per fuori rent si fara' riferimento all'ultimo
 backup mensile, questo vuol dire che puo' capitare che il refund sia
 vecchio di almeno 1 mese e che edit ed eq guadagnati successivamente
 andranno persi.
 Come detto sopra questo tipo di refund serve ad agevolare personaggi
-che tornano dopo molto tempo e NON a convertire 100 sigilli divini in
+che tornano dopo molto tempo e NON a convertire sigilli divini in
 soldi per il vostro rent.
  
 Refund dell'intero eq per cause diverse dal fuori rent per fine soldi:
-2500 divini.
+3000 divini.
 (ad esempio quit in discarica, fuorirent avvenuti lo stesso giorno della fumata
  da 1000 divini per furbata, quit o morte per sbaglio proprio prima del boot, 
  etc...)
@@ -12679,14 +12697,14 @@ Refund per scrap/fumate:
 Oggetto singolo standard(compresi i rari non maxxati a mud) 100 sigilli divini
 (esempio eq morrowindl, eq elementale ecc)
 
-Oggetto singolo raro, maxxato alto a mud 100 sigilli divini
+Oggetto singolo raro, maxxato alto a mud 200 sigilli divini
 (esempio eq demoniaco)
 
-Oggetto singolo raro, maxxato basso a mud 200 sigilli divini
+Oggetto singolo raro, maxxato basso a mud 300 sigilli divini
 (esempio mantello di possius, Tenebra)
 
 Oggetto singolo GROSSO raro o non, maxxato basso a mud oppure tolto dal 
-database 200 sigilli divini
+database 400 sigilli divini
 (esempi, i superpremi di morrowindl, dente di drago, Excalibur, maglio celeste)
 
 Borsa(se fumata con tutto il contenuto), compreso tutto il contenuto non raro 
@@ -12711,11 +12729,15 @@ A questo si aggiunge il 100% del valore in monete d'oro dell'oggetto, come
 se l'oggetto venisse riforgiato. Eventuali variazioni di questo listino si 
 possono fare a discrezione dell'immortale incaricato per i refund.
 
-
 Refund per altri motivi saranno valutati sul caso dall'immortale incaricato
 
-I Refund piu vecchi di 7 giorni, vanno chiesti a Nis o Dimitri e
+I Refund piu vecchi di 7 giorni, vanno chiesti a Martinus o Dimitri e
 potrebbero anche venir rifiutati in caso di mancanza di backup disponibile.
+
+I Refound di tutti i giocatori fisici (non armadi) che non si connettono da
+piu di un anno verranno eseguiti gratuitamente da Martinus come incentivo
+al provare il mud con le ultime modifiche.
+Laddove questo privilegio venisse abusato, verra negato il refound.
 
 IMPORTANTE: Oggetti fumati, scrappati, persi in aree non adatte al proprio
 livello non possono essere refundati, dove per aree non adatte al proprio
