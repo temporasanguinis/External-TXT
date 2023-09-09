@@ -11970,10 +11970,16 @@ piu' l'eventuale costo in rune e medaglie per le procedure speciali.
 
 Se l'oggetto e' di tipo SOCKET (tranne i premi Mordor), il costo aumenta del 25%.
 
+In pratica il costo e' uguale a : 
+5000 divini +(oggetto identico o materiali per ottenerlo) + divini spesi.
+
 Esempio: Bobaz deve editare il flag ACCOUNT su "lo scudo delle tempeste",
 ottenuto tramite rune e su cui ha gia' speso 9200 divini. Il costo per tale
 edit sara' di 9200 divini a cui si aggiungono, i sigilli e le rune usate per 
-l'acquisto (55 rune del vento e 5000 sigilli divini).
+l'acquisto (55 rune del vento e 5000 sigilli divini)ed i 5000 divini del flag.
+
+Se volesse farlo con uno scudo di morrowindl servirebbero o 60 monete elfi o
+un'altro scudo morrowindl o l'analogo scudo terra (con i costi dello scudo)
 
 Tale spesa gli permettera' di utilizzare lo scudo su tutti i suoi 5 eroi che
 accedono al ripostiglio magico condiviso, grazie all'ACCOUNT VERIFICATO.
