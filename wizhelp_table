@@ -46,6 +46,7 @@ SPIRITI "SPIRITI GUIDA"
     string         Cambia la descrizione di un oggetto o di un pc/mob
     think          Invia un tuo pensiero a tutti gli Dei
     transfer       Trasferisci un pc nella stanza in cui ti trovi
+    triggerevent   Forza mob a eseguire la sua procedura
     utenti         Guarda la lista degli utenti collegato con relativo ip
     vis            Diventi visibile
     wizhelp        Ottieni informazioni su un comando per Dei
@@ -658,14 +659,14 @@ accade usando la skill SPOT, ma con esattezza assoluta e senza
 lag, ovviamente.
 
 #
-EVENT
+TRIGGEREVENT
 
 E' usato per il debugging delle procedure speciali dei mob. Il comando
-event forza un mob ad eseguire la propra procedura speciale.
+event forza un mob ad eseguire la propria procedura speciale.
 
 Sintassi:
 
- > event <nome mob>
+ > triggerevent <nome mob>
 
 #
 FORCE
@@ -1486,7 +1487,6 @@ DEI
     discon         Sconnetti un pc (tipicamente usato per i linkdead)
     drain          Fai diminuire di livello un pc
     edit           Obsoleto (per editare una stanza in vt100 usa redit)
-    event          Costringi un mob ad eseguire la sua special procedure
     findkey        Visualizza i dati di uno skill per codice
     findvalue      Visualizza i dati di uno skill per sottostringa
     force          Fai eseguire un comando ad uno o piu' pc
@@ -1551,6 +1551,7 @@ DEI
     teams          Non implementato
     think          Invia un tuo pensiero a tutti gli Dei
     transfer       Trasferisci un pc nella stanza in cui ti trovi
+    triggerevent   Costringi un mob ad eseguire la sua special procedure
     users          Guarda la lista degli utenti collegato
     view           Esamina uno dei file predefiniti di TS
     wizhelp        Ottieni informazioni su un comando per Dei
