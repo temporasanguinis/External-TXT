@@ -3352,7 +3352,10 @@ vittima.
 - Resurrect  dei  Giocatori. Il costo per  resuscitare un giocatore e' pari
   a 75000 monete.Quando un giocatore viene resuscitato, egli perde un punto
   stat casuale in modo permanente; se si ha 4 o meno in una ho piu' stat, 
-  non si puo' venir   riportati in vita.  
+  non si puo' venir   riportati in vita.
+  E' possibile non perdere il punto stat casuale se il chierico ha con se
+  tre gemme qualunque caratteristiche delle stat, anche diverse, eccetto
+  gemme giovinezza.
   Mentre il  chierico esegue  il rituale,  il giocatore deve rimanere sul menu 
   del mud. Se  il giocatore  si  trova  in  gioco al momento del resurrect,  
   il chierico  esegue il rituale senza successo. Il giocatore  non puo piu'  
@@ -3366,10 +3369,6 @@ ha soldi  sufficienti;  infine,  dipende  dal carisma  del  chierico.
 Infatti, se egli non possiede  sufficiente  carisma, il  Resurrect si
 risolvera' in un  fallimento, anche se il  caster rimarra' ugualmente
 svenuto.
-E' possibile non perdere il punto stat casuale se il chierico ha con se
-tre gemme qualunque caratteristiche delle stat, anche diverse, eccetto
-gemme giovinezza.
-
 
 Vedi anche: REINCARNATE 
 
@@ -13625,6 +13624,23 @@ specifici e gli oggetti necessari al compimento della missione.
 VEDI ANCHE: QUEST, AREAQUEST
 
 #
+EVENTI
+
+Tramite il comando EVENTI e' possibile vedere la lista degli eventi
+globali attivi nell'Impero Celeste e le relative zone implicate.
+La durata degli eventi , cosiccome la loro rotazione o frequenza 
+e' totalmente aleatoria.
+
+Alcuni eventi :
+Il bonus per le gemme 
+Il bonus per i cristalli
+Il bonus per i glifi
+Il bonus ai punti esperienza e ai premi divini
+Il bonus all'oro
+
+VEDI ANCHE: GEMME, CRISTALLI, GLIFI
+
+#
 GREED
 
 Sintassi: greed
@@ -13726,6 +13742,9 @@ proporzionati al valore della apply finale dell'oggetto.
 - da +9 a +10 probabilita' di riuscita 17% in caso di fail
 			  si distrugge tutto (oggetto, cristallo, soldi),
 			  costo 5M monete
+
+E' possibile scegliere il tipo di CRISTALLO preferito nel sistema di 
+autoassegnazione scrivendo CRISTALLI + il nome del cristallo.
 
 Vedi anche: SIGILLI, LISTINO, RANDOMPOP
 
@@ -13995,7 +14014,34 @@ alcuni mob una  volta sconfitti. Le  gemme possono essere  di vario
 genere e servono a  migliorare le proprie statistiche  da CALLIOPE,
 in alternativa a XP e PRATICHE.
 
+Tutte le gemme, tranne quelle di giovinezza, possono essere usate
+durante l'incantesimo di RESURREZIONE per evitare la perdita della
+statistica random causata dal medesimo incantesimo. Per usarle il
+Chierico deve avere le 3 gemme in inventario.
+
+E' possibile scegliere il tipo di GEMMA preferito nel sistema di 
+autoassegnazione scrivendo GEMME + il nome della gemma.
+
 Vedi anche: CALLIOPE, RANDOMPOP, RUNE
+
+#
+GLIFI
+
+I glifi sono inseribili in oggetti NON SOCKET e di tipo ARMOR per
+creare delle parole runiche.
+Se i glifi inseriti compongono una combinazione specifica, essa si
+attiva conferendo dei bonus che persistono al rent, ma che possono
+scadere dopo aver esaurito la loro potenza.
+I glifi possono essere trovati unicamente nelle zone EVENTI, comprati
+da Brin, o in condizioni speciali/particolari.
+
+E' possibile scegliere il tipo di GLIFO preferito nel sistema di 
+autoassegnazione scrivendo GLIFI + il nome del glifo.
+
+***Attenzione***
+Al momento i glifi sono in fase di calibrazione, quindi la loro
+potenza, durata, e composizione delle loro ocmbinazioni potrebbe
+essere soggetta a drastici cambiamenti.
 
 #
 RANDOMPOP
