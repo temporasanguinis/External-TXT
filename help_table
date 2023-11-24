@@ -3921,7 +3921,7 @@ un  istante. Qualsiasi comando che NON sia tra quelli indicati nella
 prima tabella interrompono l'HIDE, mentre se si ha SNEAK attivo, i
 comandi della seconda tabella NON rompono l'HIDE:
 ____________________________________________________________________
-Comandi che non rompono HIDE   |  non rompono HIDE se SNEAK é Attivo
+Comandi che non rompono HIDE   | non rompono HIDE se SNEAK e' Attivo
 _______________________________|____________________________________
 STAND, SIT, KNEEL, BOW, REST,  | NORTH, SOUTH, EAST, WEAST, UP, DOWN
 SLEEP, WAKE, WHISPER, MEDITATE,| PICK, LOCK, UNLOCK, OPEN, LIFT, EAT
