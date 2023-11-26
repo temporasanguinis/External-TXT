@@ -1,5 +1,91 @@
+Versione 2.23.11.27 - $c0009NOVEMBRE 2023 $c0007- La notte dei vampiri
+- $c0012Aree$c0007:
+- Inserite nuove immagini presso le seguenti aree: Atlantide, cittadella delle nuvole,
+  Dodici case, Grecia, Corno Tozzo, Rhila, Grande deserto dell'Est, Piramide di Akinra,
+  valle dei maghi, Nuova Thalos, Toewin, Kaligrin, Midraash.
+- $c0012Quest ed eventi$c0007:
+- Nuovi eventi, miniquest e mob interattivi inseriti in giro per l'impero celeste:
+- [QUEST] Atlantide e Morrowindl possono essere fatte anche con PWP superiore al limite
+  ma questo impedira' l'ottenimento del premio finale per il gruppo ma solo dei sigilli
+  calibrati sul livello PWP del singolo personaggio.
+- [QUEST] La notte dei Vampiri (random): evento che puo' colpire varie zone dell'impero, 
+  con nuove meccaniche che permettono di acquisire poteri vampireschi e danni speciali)
+- [QUEST] la fortezza di Graymark e' stata ricalibrata e corretta. Ora paga monete elfi, 
+  Brin puo vendere glifi per monete degli elfi
+- [EVENTO] I ratti della peste (Midia): in certe stagioni la citta' diventa preda dei 
+  ratti (o talvolta questi possono venire scatenati da nemici) che possono portare 
+  epidemie di peste in citta'. Uccidi i ratti e porta i malati al lazzaretto.
+- [EVENTO] Ombre da Ravenloft (Lankar): neri corvi provenienti da Ravenloft seminano il
+  caos in citta', lasciando cadere spesso i resti dei nemici uccisi sul campo.
+- [MINIQUEST] La setta dell'eclisse (Tarisial - aggiunta del capitolo 2)
+- [MINIQUEST] I tesori di Geldor (Yul Piccone)
+- [MINIQUEST] Complotti contro Midia (Baniger)
+- [MINIQUEST] Mappe maledette (Faler - capitolo 1)
+- [MINIQUEST] Il passato di Alakner
+- [MINIQUEST] Nuovi clienti, finalmente! (per ottenere il titolo di maestro occultista)
+- [MINIQUEST] Prigionieri a Monterotto (sidequest per Monterotto)
+- [MINIQUEST] Onore ai gladiatori (presso la gilda dei gladiatori)
+- Aggiunte varie interazioni su mob girovaghi.
+- Correzioni alle zone segnalate (porte di Diebs, chiave di Agarhal, ecc...)
+- $c0012Cambiamenti principali$c0007:
+- Aggiunti nuovi eventi in rotazione sulle zone dell'Impero. Questi eventi 
+  vengono segnalati con appositi messaggi. In ogni momento e' possibile 
+  vedere quali sono attivi, grazie al comando EVENTI.
+- I mob speciali che spostavano gli avversari in altre stanze, effettuano 
+  in maniera meno frequente tale attacco.
+- Il monaco puo' apprendere DIRTKICK e TRIP da Freccia d'Oro
+- I comandi di MELEE COMBAT possono essere imparati dal livello 30.
+- Il capogruppo puo' usare il comando SET AUTOSPLIT per distribuire eventuali
+  gemme, cristalli e glifi al gruppo automaticamente
+- $c0012Oggetti$c0007:
+- [OGGETTO PORTENTOSI] Aggiunta di una nuova categoria di oggetti speciali: i glifi.
+  Essi possono essere usati per potenziare oggetti non socket attraverso delle combinazioni
+  di glifi da scoprire. Per informazioni, vedi HELP GLIFI
+- [OGGETTO PORTENTOSI] Nuova tipologia di oggetti speciali: i set di equipaggiamento. 
+  Tali oggetti aggiungeranno poteri passivi al giocatore che li usa, in base a quanti ne 
+  indossa.
+  Sono presenti tre set (due dei quali, formati ciascuno da due oggetti, sono randompop 
+  su 4 mob). Sono in fase di test quindi potrebbero subire modifiche.
+- Potenziato il frammento del Palantir
+- Oggetti precedentemente identificati dimarranno comprensibili tramite il comando
+  EXAMINE senza aver bisogno di effettuare una nuova identificazione.
+- Chi utilizza la versione per non vedenti, potra' vedere gli oggetti nella stanza
+  tramite comando LOOK senza esserne pero' disturbati durante il movimento.
+- $c0012Nuovi comandi$c0007:
+- EVENTI: per vedere eventi attivi nel mud
+- GLIFI: per vedere dove c'e' l'evento per dove si droppano glifi nel mud e per 
+  configurare glifo preferito
+- CRISTALLI: per vedere dove c'e' l'evento per bonus cristalli nel mud e per 
+  configurare cristallo preferito
+- ESPERIENZA: per vedere dove c'e' l'evento per bonus esperienza (e sigilli divini) 
+  nel mud
+- MONETE: per vedere dove c'e' l'evento per bonus soldi nel mud
+- GEMME: per vedere dove c'e' l'evento per bonus gemme nel mud e per configurare 
+  gemma preferita 
+- SET AUTOSPLIT ENABLE/DISABLE: il capogruppo raccoglie e divide automaticamente 
+  soldi, gemme, cristalli e glifi
+- MUTATE/MUTA: per polare se si ha dei prerequisiti o award speciali
+- $c0012Perk e award$c0007:
+- Migliorati i perk "chierico del male" e "dannato".
+- Nuovi award ottenibili (vedi HELP AWARDS per la lista aggiornata)
+- $c0012Bugfix$c0007:
+- Chameleon e Camouflage non tolgono da hide appena usati
+- I mob barbari non huge non hanno piu 100% alla riuscita di avoid backattack
+- Il colpo ad area dei ranger non aggrediva anche se faceva danno
+- Se bellow stunnava non aveva durata e finiva subito. Ora dovrebbe durare 2 round
+- Il bash da tre non entrava mai sui mob che non erano Huge
+- Corretti alcuni comportamenti dei mob che non funzionavano
+- Gli oggetti eterei non conteggiavano il tempo se erano in borsa in una room
+- Orchronos non dovrebbe piu crashare
+- Song of life: il finale non andava sul bardo se bardo e' solo e non gruppato
+- Song of dumbing: andava sempre oltre i save se sceglieva di stunnare se il pg aveva 
+  oltre un tot di MP
+- Alcuni comandi della lista che non dovevano togliere hide non funzionavano corettamente
+- Evade traps ora dovrebbe essere praccabile dai monaci
+- Goblin e Enfan erano considerati erroneamente Huge
+- Fix a un crash possibile con mob mercenari dopo la morte del padrone
+
 Versione 2.23.6.1 - $c0009GIUGNO 2023 $c0007- Le Immagini di Shannara
-******************************************************************************
 - $c0012Cambiamenti principali$c0007:
 - Nuova Quest : SHANNARA (vedi HELP AREAQUEST)
 - Nuova Quest : Specializzazione (un antico drago immobibile risvegliato)
@@ -20,8 +106,7 @@ Versione 2.23.6.1 - $c0009GIUGNO 2023 $c0007- Le Immagini di Shannara
   Morrowindl, Piano Astrale, Arachnos, Fogne di Midia, Acquitrino di Ilsat,
   Villaggio di Lyth, Lankar, New Thalos, Old Thalos, Geldor e Midir, Rhila,
   Comp, Giungla, Piramide dei serpenti, Grecia, Villaggio dei mezzogiganti.
-******************************************************************************
-- Skill
+- $c0012Skill$c0007
 - Tutti : Rework HIDE (vedi HIDE)
 - Tutti : Nuovi PERK a costo maggiorato
 - Psionico : cell adjustement lag ridotto per monoclasse, si puo specializzare
@@ -29,7 +114,6 @@ Versione 2.23.6.1 - $c0009GIUGNO 2023 $c0007- Le Immagini di Shannara
 - Monaco : Disarm lagga 1 round in meno se entra
 - Immortali : aggiunto define per aumentare % di uscita pezzone a MORDOR
 - Immortali : aggiunta vnum su STASH
-******************************************************************************
 - $c0012Bugfix$c0007:
 - Fix sulla scritta degli EXP guadagnati dai monsum
 - FIx al Tomo Eclissi: se dava Award non apriva per completare la quest
@@ -43,7 +127,6 @@ Versione 2.23.6.1 - $c0009GIUGNO 2023 $c0007- Le Immagini di Shannara
 - Fix award Signore dei draghi, Tiamath non lo incrementava piu'
 - Fix repop zona di lankar
 - Fix i famigli non tentano piu di togliere award che non possono rimuovere
-******************************************************************************
 
 Versione 2.22.12.11 - $c0009DICEMBRE 2022 $c0007- Bilanciamento Annuale
 - $c0012Cambiamenti principali$c0007:
@@ -311,103 +394,4 @@ Versione 2.22.21.2 - $c0009FEBBRAIO 2022 $c0007- Mappe per tutti
 - Aggiunto un messaggio speciale al BASH del titano.
 - Correzione di alcuni bug che permettevano exploit e raccolta impropria di denaro.
 
-Versione 2.22.21.1 - $c0009GENNAIO 2022 $c0007- Un nuovo anno
-- $c0012Quest e aree$c0007: 
-- Sotto al regno dei nani i minatori continuano a scavere nuove gallerie. Puo' accadere nel
-  corso della giornata di rinvenire il passaggio verso le caverne di Anghun, fino all'antica
-  citta' dei nani, Kalislan, distrutta in un'epoca antica. Attenzione pero', avventurarsi in
-  quei luoghi puo' essere pericoloso. La conformazione delle caverne e' soggetta a continui 
-  mutamenti, in base a quali gallerie vengono scoperte dai minatori. 
-- Puo' capitare che pericolosi serpenti provenienti dalla faglia di Worden, invadano la citta'
-  di Comp. La caccia di queste creature permettera' di ottenere dei premi.
-  Quando i serpenti attaccano la citta', si apre una nuova via tra i boschi, per permettere
-  ai novizi di raggiungere senza pericolo il monastero dei monaci, evitando il passaggio per
-  la citta' di Comp.
-- I pirati di Varil ora pagano qualche sigillo, in particolare Ghamir e Mhetos. Il tesoro
-  della citta' e' stato leggermente ridotto.
-- La quest della sacerdotessa Vanarel a Rhila ora permette di ottenere premi diversi (un pegno
-  del bene o una runa del sole), oltre ai sigilli divini.
-- $c0012Cambiamenti principali$c0007:   
-- i comandi PUT e GET possono essere usati anche sulle borse indossate. EXAMINE funziona solo
-  se la borsa e' posta nell'inventario.
-- CONSIDER ora funziona in modo diverso per gli eroi. La scritta di pericolo e' presente
-  solo per i non eroi, in quanto principalmente legata al livello di differenza con il nemico.
-- I mob vampiri usano piu' spesso le skill di classe e mordono le vittime un po' meno.
-- SUNRAY puo' essere castato solo all'aperto. Modificato il conteggio del danno.
-- Corretti alcuni PERK esistenti(ARCIERE e COWBOY) e aggiunta di nuovi
-  (RAFFICA STELLARE e PERCEZIONE AVANZATA).
-- PRISMATIC SPRY ora conteggia lo spellpower e al posto di teleportare puo' stunnare.
-- Ora si possono vedere gli AWARD degli altri personaggi.
-- Tra le uscite della stanza si vedono anche quelle chiuse, ma solo se non sono segrete
-- Corretti vari bug che causavano crash.
-
-$c0009NOVITA' IN AGGIORNAMENTO$c0007
-
-Versione 2.21.20.12 - $c0009DICEMBRE 2021 $c0007- Un Natale speciale
-- $c0012Quest e aree$c0007: Tempora Sanguinis ha tutte le zone scritte in italiano!
-- Tre nuove aree aggiunte: La citta' di Comp, le prigioni di Orfaler e la faglia di Worden.
-  Presso la citta' di Comp sono disponibili due nuove miniquest. Cindy ora si puo' trovare
-  presso il palazzo del consiglio cittadino. Trovate l'area a nord della Contea.
-- Sistemata la quest di Menzoberranzan. La dea Lloth e' stata ricalibrata e alcuni passaggi 
-  della quest sono ora piu' semplici e non richiedono di uscire dall'area.
-- Qualche modifica alla Giungla del culto dei serpenti, alla piramide dei serpenti, all'isola
-  di Deadhame e al labirinto del tempio di Midia.
-- A Midia e' comparso un venditore di Famigli che permette di acquistare nuovi servitori e di
-  potenziarne le caratteristiche.
-- Aggiunta dei danni da catapulta alla quest dell'attacco dei pirati di Varil a Rhila.
-- La veggente di Camelot suggerisce subito l'indizio per la quest del Castello del Cuore Nero,
-  senza il vincolo di consegnare un oggetto. Alcuni ingressi precedentemente attivi per la 
-  quest, sono stati tolti.
-- Quest di Zifnab: distruggere la sfera di luce fara' ripartire la quest da un livello pari
-  alla meta' del livello massimo raggiunto. Il tempo del MUD potra' accelerare o decelerare.
-- Quest di Tiamat: tolte le armi con danno ad area ai Baatezu (ora la possiede solo il capitano).
-- $c0012Cambiamenti principali$c0007:   
-- Tutti gli scudi che offrono immunita' elementali, ora assegnano EXTRA RESISTENZA ELEMENTALE
-  al 50%. Per compensare, e' possibile trainare ABSORB ELEMENTALE e aumentare i propri HP.
-- Dispersione degli scudi elementali (fireshield, acidshield, frostshield, electric shield e 
-  energyshield) e' ora dipendente da HP, DAM e ABSORB ELEMENTALE.
-- Una nuova preghiera disponibile: PRAY ELEMENTS. Permette di ottenere EXTRA RES ALL per 10 
-  round.
-- Il simbolo $c0009+$c0007 puo' sostituire il comando CAST.
-- Il simbolo $c0009&$c0007 puo' sostituire il comando PLAY.
-- Il simbolo $c0009*$c0007 puo' sostituire il comando RECALL.
-- Il simbolo $c0009%$c0007 puo' sostituire il comando MIND.
-- Il simbolo $c0009?$c0007 puo' sostituire il comando HELP.
-- Va online il nuovo sistema per castare senza apici. Ora e' possibile lanciare incantesimi
-  utilizzare varie formule e in sostituzione al comando di lancio alcuni simboli: 
-   > cast 'magic missile' <vittima>     -    Modalita' originale
-   > cast magic-missile <vittima>       -    Modalita' senza apici
-   > + 'magic missile' <vittima>        -    Utilizzo del simbolo +
-   > +mag-mis <vittima>                 -    Utilizzo del simbolo + senza apici o spazi
-- Per informazioni aggiuntive, leggi la scheda di aiuto sui SIMBOLI MAGICI.
-- E' possibile inserire nel prompt un'indicatore per il DPS/HP/MANA medio per round, ma funziona
-  solo nel caso in cui il PG abbia flag PWP attivo. Per farlo, inserire %&dpr, %&hpr e %&mpr nel
-  prompt.
-- Nuovi AWARD disponibili. Con l'ottenimento dell'AWARD "collezionista di famigli", sara' possibile
-  addestrare i propri famigli, permettendogli di esplorare le zone attraverso il comando 
-  ORDER FAMIGLIO SCOUT. Il padrone potra' controllarli ed esplorare i dintorni, fino a quando lo
-  permetteranno.
-- Sono visibili nel prompt i numeri relativi agli AWARD e ai PERK ottenuti
-- $c0012Skill e Spell$c0007: 
-- L'apprendimento di SKILL e SPELL e' piu' rapido. Se possono essere acquisite ai livelli bassi
-  saranno piu' semplici da imparare.
-- DARKNESS nasconde le spell attive che diventano visibili solo attraverso DETECT MAGIC.
-- FIX non funziona sempre perfettamente e dipende dalla destrezza del fabbro. Ora puo'
-  usarlo su se stesso.
-- REPAIR ha un round in meno di lag.
-- BERSERK non causa spalm sugli scudi elementali, ma aumenta gli effetti dell'afflizione
-  BLEEDING.
-- Al termine degli effetti di MAGIC RESISTANCE gli oggetti non cadono piu' per terra.
-- KICK quando effettuato da un monaco puo' causare STUN al nemico. Bassa percentuale di
-  riuscita, dipendente dall'intelligenza del monaco.
-- Due nuovi spell disponibili per psionici: OVERLOAD e FLOW. OVERLOAD permette un sovraccarico
-  di energia mentale che dopo un certo numero di round causa un'esplosione. Piu' si accumula
-  energia, maggiore sara' il danno ad area causato. Mentre lo psionico carica questa energia
-  potra' comunque lanciare ulteriori incantesimi.
-  FLOW permette di canalizzare l'energia vitale dello psionico nei compagni, facendola diventare
-  mana. Ad ogni round, i compagni che piu' necessitano di energia magica, riceveranno l'aiuto
-  dello psionico.
-
 Per scoprire tutte le novita' dell'HELP di Tempora Sanguinis, scrivi $c0009HELP AGGIORNAMENTO$c0007
-
-
