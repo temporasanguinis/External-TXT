@@ -3352,15 +3352,19 @@ vittima.
 - Resurrect  dei  Giocatori. Il costo per  resuscitare un giocatore e' pari
   a 75000 monete.Quando un giocatore viene resuscitato, egli perde un punto
   stat casuale in modo permanente; se si ha 4 o meno in una ho piu' stat, 
-  non si puo' venir   riportati in vita.
+  non si puo' venir  riportati in vita.
   E' possibile non perdere il punto stat casuale se il chierico ha con se
   tre gemme qualunque caratteristiche delle stat, anche diverse, eccetto
   gemme giovinezza.
-  Mentre il  chierico esegue  il rituale,  il giocatore deve rimanere sul menu 
+  Mentre il  chierico esegue il rituale, il giocatore deve rimanere sul menu 
   del mud. Se  il giocatore  si  trova  in  gioco al momento del resurrect,  
   il chierico  esegue il rituale senza successo. Il giocatore  non puo piu'  
-  riguadagnare i  punti esperienza,  e il chierico rimane comunque svenuto 
-  e senza i soldi spesi per il resurrect.
+  riguadagnare i  punti esperienza,  e il chierico rimane comunque svenuto.
+  I soldi spesi vengono presi direttamente dal giocatore che e' stato 
+  resuscitato, ed in mancanza dal chierico che ha eseguito la spell.
+  Il resuscitato ricevera un messaggio indicante chi lo ha riportato in vita
+  permettendo cosi di regolare ventuali restituzioni di gemme.
+  Il Resurrection non toglie il title
 
 Il buon  esito del  Resurrect dipende  da molti fattori:  il corretto
 comportamento del giocatore, che deve scollegarsi abbastanza a lungo;
@@ -4639,6 +4643,10 @@ non puo'  essere rimosso  in ogni caso un oggetto affetto da
 una  maledizione (CURSE).  Si puo' sempre rimuovere tutto il
 proprio equipaggiamento (anche al buio) digitando il comando
 <remove all>.
+Si possono rimuovere oggetti dando la posizione indossata, 
+cosi come il comando wear fa indossare nella posizione scelta
+
+Esempio : remove polso
 
 Vedi anche: WEAR, GET, DROP
 
@@ -11816,7 +11824,7 @@ MODIFICA                    COSTO             MASSIMALE
 -5 Age                      200 sigilli	      Senza massimale
 +5% Bash, Backstab, Kick    400 sigilli	      5  punti
 +10% Hide, sneak            400 sigilli	      10 punti
-+5% Find traps, Pick, Steal 400 sigilli       5  punti
++5% Find traps, Pick, Steal 400 sigilli       10 punti
 +2 all AC massimale         300 sigilli	      12 punti
 
 Tutti i costi di questa parte del listino sono intesi in sigilli Divini
@@ -12176,7 +12184,7 @@ lo spostamento degli edit e' soggetto alle seguenti limitazioni:
    
   -Tutti gli edit da listino non ottenibili da cristalli, possono
    essere spostati su qualsiasi oggetto, o desigillati, seguendo
-   i normali costi di listino (10% spostamento, 75% refound)
+   i normali costi di listino (10% spostamento, 75% refund)
    
   -Tutti gli edit che sono PROCEDURE SPECIALI, seguono le regole
    a loro dedicati.
@@ -12468,6 +12476,29 @@ Inoltre, se dovesse capitare, deve essere disponibile a intraprendere
 una discussione RPG con un altro personaggio.
 In compenso si potranno avere piccoli bonus al gioco, variabili per ogni
 classe.
+
+$c0011Bonus assegnati ai giocatori con flag RPG$c0007
+Mu:	1 livello extra di bonus sul massimo livello raggiungibile sullo steal 
+	enchantment, su avversari di classe non mago. *$c5009Solo Monoclasse$c0007
+Cl: effetti aggiuntivi per Holy e Unholy word.
+WA: Bonus leggero sulla probabilita' che entri il critico e possibilita' 
+	inferiore che l'arma perda il flag SHARP. *$c5009Solo Monoclasse e WA/TH $c0007
+Th: Bonus allo steal.
+Dr: Probabilita leggera di riallineare in modo automatico ad ogni passaggio del tick.
+Mo: Leggero bonus sulla soglia di hp massimi dell'avversario su quivering palm.
+Ba: 1 tick extra di magic resistance e un po' di lag in meno sul berserk.
+So: 1 livello extra di bonus sul massimo livello del dispel magic su avversari di 
+	classe non mago. *$c5009Solo Monoclasse $c0007
+Pa: Bonus sulla possibilita di prendere il lampo divino quando stanno per morire.
+Ra: Sneak attivato automaticamente in foresta.
+Ps: Capacita di prevenire l'attacco dell'avversario sentendo i suoi pensieri, 
+	con conseguenza quella di non perdere blink ogni tanto in combattimento.
+Ap: Il drain ogni tanto puo curare l'Antipaladino fino al 50% dei suoi hp, 
+	oppure fino al 100% se la vittima muore sul colpo.
+	(Il danno inflitto invece resta come prima)
+Bd:	 2 tick di cooldown ridotto al spirit focus.
+	(puo' averne due attivi per due tick, finche' l'altro scade)
+
 Attenzione: avere un rpg evil e/o caotico non autorizza il personaggio
 a non rispettare le regole generali del mud.
 I flag PWP e RPG si escludono a vicenda.
@@ -12643,22 +12674,22 @@ la bravura e la correttezza di un giocatore. Attualmente e' in corso di
 implementazione e ci sono pocchi utilizzi effettivi di questa caratteristica.
 
 #
-REFOUND
+REFUND
 
-Listino refound ufficiale
+Listino refund ufficiale
 
-Refound per PG PRINCIPALE con pwp inferire a 150 pwp
-	nel caso un giocatore richieda il refound dell'eq per fine soldi in rent
+Refund per PG PRINCIPALE con pwp inferire a 150 pwp
+	nel caso un giocatore richieda il refund dell'eq per fine soldi in rent
 	o per situazioni tipo DT o fumate complete, il costo e' di 400 divini e 
 	solo nel caso in cui sia il personaggio PRINCIPALE del giocatore e non 
-	abbia altri personaggi con cui pagare il refound (nel caso si applicano
+	abbia altri personaggi con cui pagare il refund (nel caso si applicano
 	le normali regole).
 	Nel caso non disponesse dei 400 divini potra farsi aiutare dai giocatori
 	presenti che potranno, tramite colletta, pagare per tale giocatore.
 
-Refound per fine dei soldi in rent:
+Refund per fine dei soldi in rent:
 	inferiore a 1000 pwp -> 3000 divini
-	superiore a 1000 pwp -> pwp*(3+n refound nell'ultimo anno)
+	superiore a 1000 pwp -> pwp*(3+n refund nell'ultimo anno)
 E' possibile SOLO il refund completo dell'eq in caso di fine dei soldi.
 
 N.B.  Il pwp si riferisce al pg vestito con tutto l'eq.
@@ -12672,7 +12703,7 @@ serve, oppure che avete conservato per un eventuale cambio classe.
 Gli armadi pagheranno i $c00093000$c0007 di refund, anche per colletta.
 Vi ricordo che i pg armadi sono fortemente riconoscibili quindi vi sconsiglio 
 di "provare" a fare certe richieste.
-I pg in comune invece NON POTRANNO AVERE REFOUND per fuorirent, e questo
+I pg in comune invece NON POTRANNO AVERE refund per fuorirent, e questo
 vale anche per gli armadi in comune.
 Il refund per pwp va pagato almeno in parte dal pg refundato e non da
 altri pg propri, nemmeno dimezzandoli, ne' per colletta, per cui, 
@@ -12736,10 +12767,10 @@ Refund per altri motivi saranno valutati sul caso dall'immortale incaricato
 I Refund piu vecchi di 7 giorni, vanno chiesti a Martinus o Dimitri e
 potrebbero anche venir rifiutati in caso di mancanza di backup disponibile.
 
-I Refound di tutti i giocatori fisici (non armadi) che non si connettono da
+I refund di tutti i giocatori fisici (non armadi) che non si connettono da
 piu di un anno verranno eseguiti gratuitamente da Martinus come incentivo
 al provare il mud con le ultime modifiche.
-Laddove questo privilegio venisse abusato, verra negato il refound.
+Laddove questo privilegio venisse abusato, verra negato il refund.
 
 IMPORTANTE: Oggetti fumati, scrappati, persi in aree non adatte al proprio
 livello non possono essere refundati, dove per aree non adatte al proprio
@@ -15569,7 +15600,27 @@ Effetti applicati:
   
 Vedi anche: RANGER, SLOWNESS, CORRODE, AFFLIZIONI
 
+#
+TRAP TRAPPOLA
 
+$c0015Uso$c0015           : trap / trappola
+$c0006Cumulativo$c0006    : No
+$c0005Durata$c0005        : Speciale
+$c0010Livello$c0010       : 
+$c0014Tiro salvezza$c0014 : Speciale
+$c0012Costo in mana$c0012 : 0
+$c0007
+Skill per Ladri e ranger, ma solo i Ladri monoclasse hanno tutte le trappole nel repertorio.
+
+Il comando trap permette di approntare una trappola.
+Se prima che si decomponga (2 ore) un mob ci passa sopra, la trappola scattera' causando sul mob i suoi effetti.
+
+Con il comando TRAP/TRAPPOLA si possono vedere quali trappole si possono creare e quanto e' il loro tempo di recupero.
+
+Il danno delle trappole che lo provocano dipende dall'intelligenza e dal pwp,
+mentre la potenza degli effetti e la loro durata solamente dall'intelligenza.
+
+Vedi anche: RANGER
 
 #~
 
