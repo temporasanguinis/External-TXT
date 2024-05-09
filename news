@@ -1,3 +1,37 @@
+Versione 2.23.11.27 - $c0009MAGGIO 2024$c0007- Paura e delirio tra le colline rocciose
+- $c0012Novita'$c0007:
+ - [MINIQUEST] Tra le colline rocciose, a sud est di Toewin si nascondono le rovine
+   di un antico villaggio minerario, Balsat. Pare che questo luogo nasconda segreti e intrighi.
+ - [QUEST] Ottieni un nuovo AWARD presso una terra tutta da scoprire: Cyrodiil.
+ - [EVENTO] Assalto dei licantropi: unisciti alle casate in lotta e combatti per ottenere 
+   nuovi poteri.
+ - Sono disponibili nuovi AWARD tutti da conquistare.
+ - Inserite nuove DAILY QUEST in rotazione.
+ - Sono disponibili delle nuove combinazioni di GLIFI che permettono di ottenere nuovi
+   AWARD.
+ - E' stato ricalibrato il pagamento alla quest gladiatori.
+ - Inserite nuove immagini in alcune zone.
+
+- $c0012Cambiamenti principali$c0007:
+ - Alcune razze fanno ora danni elementali quando colpiscono a mani nude.
+ - Inserite alcunepiccole modifiche al listino divini
+ - Ampliato HELP per alcune voci (RPG, REFUND...)
+ - Aggiunti nuovi APPLY al motore di gioco, per ora ottenibili solo tramite il potere dei
+   GLIFI.
+ - [SKILL] Nuova abilità per ladri e ranger: TRAP
+ - Modifiche all'incantesimo RESURRECT: ora prende i soldi a chi e' stato resuscitato, 
+   non rimuove il title del personaggio e dice chi ha effettuato l'incantesimo.
+ - il comando REMOVE puo' rimuovere pezzi di equipaggio dando il nome della posizione
+   in cui si indossa l'oggetto.
+ - Se un personaggio fallisce PICK, un messaggio verra' comunicato ai PG nella stanza.
+ - La veggente ora indica che e' interattiva e si comporta come tale.
+ 
+- $c0012Correzioni$c0007:
+ - Il palantir produrra' meno spam per coloro che sono in modalita' IPOVEDENTE
+ - Exploit corretto nella quest a Graymark
+ - Aggiunto comando autosplit per i rami di Lis a SET AUTOSPLIT
+
+
 Versione 2.23.11.27 - $c0009NOVEMBRE 2023 $c0007- Ombre su Lankar
 - $c0012Aree$c0007:
 - Inserite nuove immagini presso le seguenti aree: Atlantide, cittadella delle nuvole,
@@ -353,43 +387,5 @@ Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
 - Riordinata la priorita' di alcuni comandi, in modo che abbiano la precedenza, nel caso
   in cui ci sono iniziali uguali con comandi secondari.
 - Corretti dialoghi dell'Occultista.
-
-
-Versione 2.22.21.2 - $c0009FEBBRAIO 2022 $c0007- Mappe per tutti
-- Va online la nuova versione del Webclient: sia lode a Yffre!
-  Mettete alla prova le nuove funzionalita' e soprattutto il sistema di mappe dinamiche
-  che sfrutta le pergamene scritte con sapienza da Traxter il cartografo in persona!
-- $c0012Quest e aree$c0007: 
-- Corretta e ampliata la quest della piramide dei serpenti. Ora e' possibile salvare la
-  donna e ottenere dei frammenti runici oppure completare il sacrificio ed evocare una
-  versione piu' potente del serpente umanoide.
-  I frammenti runici possono essere uniti per formare delle rune.
-- Nuovo evento alle prigioni di Orfaler. Puo' accadere che i prigionieri tentino la fuga
-  dalle carceri e si nascondando nei territori vicini. Sapete cosa dovete fare.
-- Essere in possesso dei fiori di Madaran puo' causare problemi con le guardie di Comp.
-- Alcune piante nei territori della faglia di Worden possono causare danno da avvelenamento
-  o ferite urticanti.
-- Inserita una nuova miniquest di ricerca all'isola di Corno Tozzo.
-- Corretta la procedura di Buro il contrabbandiere. I personaggi fino a 2000 PWP possono
-  affrontare le missioni. Il pagamento scende all'aumentare del numero dei PG e del PWP 
-  degli stessi.
-- Corrette alcune location delle caverne di Kaligrin che permettevano ai mob dei livelli 
-  inferiori di salire verso quelli superiori.
-- Dall'Altomago Rafa Kendall si possono unire i frammenti runici. Lui vi indichera' poi
-  cosa fare per trasformare le rune ottenute in oggetti utili ai vostri scopi.
-- Il negoziante di Comp vende oggetti che possono essere offerti presso il tempio degli
-  dei.
-- Qualora riusciste a recuperare un sigillo di Comp, potreste ottenere la cittadinanza 
-  onoraria della citta' dal suo governatore.
-- Una nuova miniquest riservata ai cittadini di Mordilnia e' disponibile presso la 
-  gioielleria di Belmirek.
-- $c0012Cambiamenti principali$c0007:   
-- Aggiunto l'award "Cacciatore di Draghi", ottenibile tramite il piu' noto uccisore di 
-  draghi di Midia. Seguire Biff permettera' anche di ottenere un piccolo premio.
-- Aggiunti gli award "Cittadino di Comp", "Cittadino di Dumilor" e "Cittadino di Mordilnia".
-- Alcune correzioni ai PERKS.
-- Il KICK puo' essere imparato anche dai ranger (serve per alcune specializzazioni).
-- Aggiunto un messaggio speciale al BASH del titano.
-- Correzione di alcuni bug che permettevano exploit e raccolta impropria di denaro.
 
 Per scoprire tutte le novita' dell'HELP di Tempora Sanguinis, scrivi $c0009HELP AGGIORNAMENTO$c0007
