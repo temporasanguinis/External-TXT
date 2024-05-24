@@ -1157,7 +1157,7 @@ Questo  incantesimo aumenta  l'abilita' di  un giocatore  di scovare trappole
 che possono  essere di livello  corrispondente o minore a  quello del caster.
 Non e' comunque possibile individuare le DT, Death Traps.
  
-Vedi anche: FIND TRAPS, DEATH TRAP
+Vedi anche: FIND TRAPS, DEATH TRAP, TRAP
 
 #
 "SLEEP"
@@ -3075,7 +3075,7 @@ Chi possiede questa abilita' puo' controllare se nelle vicinanze ci siano
 trappole  pronte a  scattare,  e, in caso  affermativo,  identificarle  e
 renderle visibili.
  
-Vedi anche: SPELL FIND TRAPS, DISARM TRAP, DEATHTRAP
+Vedi anche: SPELL FIND TRAPS, DISARM TRAP, DEATHTRAP, TRAP
 
 #
 "SAFE FALL"
@@ -15577,7 +15577,7 @@ di far scattare trappole. L'addestramento, la conoscenza delle varie tipologie d
 permetteranno di mantenere il piu a lungo possibile questo stato.
 Si vocifera che i piu grandi monaci siano in grado di compiere azioni senza conseguenze, laddove gli altri muoiono.
 
-Vedi anche: TRAPPOLE, MONACO
+Vedi anche: TRAPPOLE, MONACO, TRAP
 
 #
 GREEN SLIME
