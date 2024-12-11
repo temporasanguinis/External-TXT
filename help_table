@@ -14066,10 +14066,31 @@ da Brin, o in condizioni speciali/particolari.
 E' possibile scegliere il tipo di GLIFO preferito nel sistema di 
 autoassegnazione scrivendo GLIFI + il nome del glifo.
 
-***Attenzione***
-Al momento i glifi sono in fase di calibrazione, quindi la loro
-potenza, durata, e composizione delle loro ocmbinazioni potrebbe
-essere soggetta a drastici cambiamenti.
+***Quest Glifi Completata***
+A seguito del completamento della quest dei glifi, viene resa nota
+la lista delle varie combinazioni e dei loro effetti generici. Per
+avere il dettaglio preciso dell'effetto, non resta che provarle.
+
+- | sekhem  | ket     |        | -> Potenza fisica
+- | akh     | seshat  |        | -> Potenza magica avanzata
+- | ra      | tree    | sa     | -> Protezione divina
+- | ra      | nemes   | sa     | -> Potezione superiore
+- | sekhem  | akh     |        | -> Potenza magica
+- | sekhem  | khet    | scarab | -> Potenza fisica avanzata
+- | sistrum | leb     |        | -> Armonia
+- | hekha   | ka      | seba   | -> Esperienza
+- | ba      | nebu    |        | -> Ricchezza
+- | kneph   | tree    |        | -> Fortuna
+- | sa      | scarab  | duat   | -> Istrice di ferro
+- | sekhem  | seshat  | nemes  | -> Scudo Magico
+- | leb     | khet    | sema   | -> Guerrafondaio
+- | ka      | scarab  | kneph  | -> Scudo e Fiamme
+- | akh     | seba    | knep   | -> Bagliore
+- | ankh    | bennu   | sema   | -> diamante insanguinato
+- | akh     | seba    | duat   | -> Duro come un maglio
+- | sekhem  | sistrum | ra     | -> Cannone di cristallo
+- | sa      | bennu   | sema   | -> Sopravvivenza
+- | kneph   | duat    | ra     | -> Natura selvaggia
 
 #
 RANDOMPOP
