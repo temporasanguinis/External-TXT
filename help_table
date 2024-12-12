@@ -14070,72 +14070,32 @@ I glifi si inseriscono tramite il comando INSERT [nomeglifo] [nomeoggetto].
 E' possibile rimuoverli tramite il comando GET [nomeglifo] [oggetto].
 I glifi cosi recuperati vengono distrutti.
 
-Di seguito le combinazioni:
+Segue la lista di combinazioni conosciute. Componendo una combinazione 
+gli effetti si vedono tramite il comando glifi. Esaminando un oggetto 
+si puo vedere se ha una combinazione applicata.
 ____________________________________________________________________
-- | sekhem  | ket     |        | -> Potenza fisica
-- | +1 damrol, +5hp, durata 700 ore
-____________________________________________________________________
+- | sekhem  | khet    |        | -> Potenza fisica
 - | akh     | seshat  |        | -> Potenza magica avanzata
-- | +2 Spellpower, +20 mana, +25 mana regen, durata 700 ore
-____________________________________________________________________
 - | ra      | tree    | sa     | -> Protezione divina
-- | +1 ABS, +5% res elem, Sanc/life prot al tick, durata 400 ore
-____________________________________________________________________
 - | ra      | nemes   | sa     | -> Potezione superiore
-
-____________________________________________________________________
 - | sekhem  | akh     |        | -> Potenza magica
-- | - |+2 Spellpower, +10 Mana, durata 700 ore
-____________________________________________________________________
-- | sekhem  | khet    | scarab | -> Potenza fisica avanzata
-- | +2 damroll, +10hp, +2 hitroll, durata 700 ore
-____________________________________________________________________
+- | sekhem  | scarab  | khet   | -> Potenza fisica avanzata
 - | sistrum | leb     |        | -> Armonia
-- | +2 Musicpower, +5 move regen, durata 700 ore
-____________________________________________________________________
 - | hekha   | ka      | seba   | -> Esperienza
-- | +10% EXP, durata 700 ore
-____________________________________________________________________
 - | ba      | nebu    |        | -> Ricchezza
-- | +5% Gold, durata 700 ore
-____________________________________________________________________
 - | kneph   | tree    |        | -> Fortuna
-- | +5% LUCK, -5% Spellfail, durata 700 ore
-____________________________________________________________________
 - | sa      | scarab  | duat   | -> Istrice di ferro
-- | +5% evita scrap, +1% danno spine, durata 700 ore
-____________________________________________________________________
 - | sekhem  | seshat  | nemes  | -> Scudo Magico
-- | +2% riduzione danno magico/distanza, +2% danno contro caster
-- | durata 700 ore 
-____________________________________________________________________
 - | leb     | khet    | sema   | -> Guerrafondaio
-- | +2% riduzione danno da mischia, +2% danno contro non-caster
-- | durata 700 ore
-____________________________________________________________________
 - | ka      | scarab  | kneph  | -> Scudo e Fiamme
-- | +2% ignora danno magico/dispel, +1% cast fireball se colpito
-- | durata 400 ore
-____________________________________________________________________
 - | akh     | seba    | knep   | -> Bagliore
-- | +2% prob di accecare, +1% prob di distrarre, durata 500 ore
-____________________________________________________________________
 - | ankh    | bennu   | sema   | -> Diamante insanguinato
-- | +1% penetrazione res/immu, +2hp curati quando fai danno
-____________________________________________________________________
 - | akh     | seba    | duat   | -> Duro come un maglio
-- | +1% (max 3%) prob di stordire, +2% prob di rallentare
-- | durata 400 ore
-____________________________________________________________________
-- | sekhem  | sistrum | ra     | -> Cannone di cristallo
-- | +1% (max 5%) prob di critico, -15 HP, durata 500 ore 
-____________________________________________________________________
-- | sa      | bennu   | sema   | -> Sopravvivenza
-- | +1  ABS elementi, +25 hp a uccisione, durata 600 ore
-____________________________________________________________________
+- | sekhem  | sistrum | ra     | -> Cannone di cristallo_
 - | kneph   | duat    | ra     | -> Natura selvaggia
-- | +8% resistenze elementi, + Detect original, durata 600 ore
 ____________________________________________________________________
+
+Con il comando GLIFI si possono anche vedere le combinazioni sbloccate.
 
 #
 RANDOMPOP
