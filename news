@@ -1,3 +1,38 @@
+Versione 2.24.12.23 - $c0009DICEMBRE 2024$c0007- Un Natale Draconico
+- $c0012Aree$c0007:
+ - nuova zona Quest: Draconici - Silvara potrebbe apparire in alcune citta' principali, 
+   fornendo indizi su una missione da compiere.
+ - Ampliamento di Cyrodiil e aggiunti dei sigilli ai mob.
+ - Midia e' stata addobbata per Natale.
+
+- $c0012Novita'$c0007: 
+ - il macchinario da combattimento mostrera' i danni subiti anche per chi ha il flag RPG
+ - gli oggetti di tipo Money ora si possono aprire con il comando open (al posto di drop e get)
+ - nuovi oggetti di tipo reliquia in giro per il mud
+ - alcuni nuovi award da ottenere
+ - Per evitare monopolizzazione di oggetti e' stato cambiato il sistema di pop di oggetti rari
+   maxxanti sopra a uno: ora potranno apparire con percentuale molto bassa anche se maxxati
+ - mangiare e bere (non via spell o skill) dara' dei bonus temporanei ai regen
+ - un nuovo perk disponibile e alcuni perk ricalibrati
+ - un nuovo luogo speciale per pescare con la canna da pesca elfica
+ - le immagini Mxp non si vedranno piu' muovendosi, ma solo con il comando look
+ - nuovi comandi per aprire una comunicazione privata: privato, pt/pp
+ - il Set di Arakel e' stato modificato, servira' recuperare di nuovo gli oggetti
+
+- $c0012Eventi$c0007::
+ - nel periodo di Halloween alcuni individui mascherati gireranno per l'impero (ricompense in sigilli)
+ - un goblin con una sacca di pozioni, pergamene e monete potrebbe apparire ogni tanto in una zona del mud
+
+- $c0012Correzioni$c0007::
+ - fix al mob Kandiff a New Thalos che non prendeva i soldi per i pegni
+ - fix a un crash possibile nel comando remove
+ - fix a un crash di procedure speciali di oggetti che si distruggevano fuori zona
+ - corretti alcuni mercanti che non funzionavano 
+ - corretto l'attivaggio di alcune combinazioni di glifi
+ - corretta una corruzione di visualizzazione nel comando perk
+ - alcuni nuovi comandi non toglieranno piu' dal hide
+
+
 Versione 2.24.5.11 - $c0009MAGGIO 2024$c0007- Paura e delirio a Balsat
 - $c0012Novita'$c0007:
  - [MINIQUEST] Tra le colline rocciose, a sud est di Toewin si nascondono le rovine
@@ -240,152 +275,5 @@ Versione 2.22.12.11 - $c0009DICEMBRE 2022 $c0007- Bilanciamento Annuale
 - Corretto un bug al perk segugio: se si era polati laggava.
 - Risolto un crash causato da mob mercenari.
 
-Versione 2.22.7.29 - $c0009LUGLIO 2022 $c0007- Missioni per tutti
-- $c0012Cambiamenti principali$c0007: 
-- Aggiunte le MISSIONI GIORNALIERE. Ogni giorno si potra' richiedere una missione,
-  scrivendo QUEST DAILY, da completare entro tre giorni. Anche se non si sono completate
-  le precedenti missioni, ogni giorno si potra' richiederne una nuova. La quest giornaliera
-  puo' essere cambiata, usando il comando QUEST DAILY REROLL.
-  Per ulteriori informazioni, consulta la scheda di aiuto, scrivendo HELP QUEST.
-- Aggiunti moltissimi AWARD e completati alcuni che erano in fase di implementazione.
-  Ora alcuni di essi, nel momento in cui si ottengono, possono pagare dei sigilli divini.
-  Il valore di ciascun pagamento e' visibile con il comando AWARD LIST.
-- Il comando QUEST REQUEST dato davanti ad un mob interattivo permette ora di iniziare 
-  l'interazione con esso.
-- I mercenari sono stati migliorati: ora funzionano meglio, costano meno e offrono maggiori
-  informazioni.
-- Miglioramenti al ripostiglio condiviso, ora e' possibile depositare sigilli, medaglie e monete
-  di morrowindl.
-- Implementato il flag ACCOUNT per oggetti che potranno essere usati da tutti i pg che condividono
-  la stessa email verificata.
-- Coloro che possiedono l'account verificato potranno contare le uccisioni dei nemici potenti,
-  accedendo ad una speciale classifica.
-- Il comando CLASSIFICA non mostra piu' il KARMA ma viene mostra la classifica degli account. 
-- La classifica delle gilde si puo' vedere tramite il comando GUILDRANK
-- Il famiglio divoratore ora potrebbe crearvi problemi, creando scompiglio e rumore.
-- Specializzare MEDITATE puo' fare ottenere DETECT MAGIC.
-- I maghi di gilda ora offrono anche DETECT MAGIC tra gli incantesimi in vendita.
-- STREGONI: con SUPERIOR WIZARDRY sara' possibile seguire il gruppo da seduti durante la 
-  memorizzazione degli incantesimi, ma se fallisce si prende un malus di -20SP per 10 round di gioco.
-- Aumentato il danno dell'afflizione BLEEDING.
-- Aumentato il danno dei draghi.
-- $c0012Quest e aree$c0007: 
-- Inserite alcune aree nuove: la citta' di Lankar, l'acquitrino di Irselt e un'area
-  bonus, il museo di Tempora Sanguinis.
-- Risuonano i cannoni nella Baia Grande di Targis! Durante gli assedi sara' possibile aiutare
-  i pirati nell'invasione di Rhila, cercando la loro nave nella baia e dimostrando di essere
-  dei veri corsari! Arrr!
-- Inserite due miniquest a New Thalos per ottenere la cittadinanza.
-- Inserito un nuovo evento random: la grande caccia. Ogni giorno potranno comparire
-  alcuni animali leggendari da cacciare, molto ricercati dai collezionisti di ossa.
-- Corretti presso la tenuta nera il drago e i veterani: ora e' corretto il comportamento
-  del drago.
-- Aggiunto AWARD a Menzoberranzan.
-- Presso le estensioni del tempio, un mago vende incantesimi a pagamento.
-- Piccole modifiche alla palude dei gitani e a Ravenloft.
-- Tolto LIMITE PWP alla via Lattea e aggiunto PWP CONSIGLIATO.
-- Aggiunti e corretti alcuni oggetti procedurali un tempo in possesso degli abitanti di 
-  Geldor e Midir. Certateli, ne varra' la pena.
-- Aggiunti tag MXP ad alcune aree: sara' possibile vedere immagini o interagire con 
-  le descrizioni extra tramite un click del mouse. 
-- Ribilanciata l'arena: i danni e le cure sono ridotte.
-- Presso il tempio degli elementi e' stato aggiunto un mob che edita flag RESISTANT.
-- Ad Atlantide e' stato aggiunto il premio di una runa ghiaccio fissa a completamento 
-  della missione. I vecchi premi rimangono.
-- Migliorata l'interazione delle streghe della torre della magia che forgiano set di 
-  oggetti: ora scrivendo ASK DETTAGLI e ASK DOVE si possono ottenere informazioni su +
-  tali oggetti.
-- $c0012Bugfix$c0007: 
-- Corretto funzionamento di spell BLESS: toglie SAVE ALL temporaneamente
-- Corretto il TRACK che permette di seguire automaticamente, ora funziona solo con il PERK SEGUGIO.
-- Fix al salvataggio delle email che non funzionava dal menu se non si entrava prima in gioco.
-- Fix ad alcuni comportamenti dei famigli che potevano provocare crash.
-- Corretto un bug grazie a cui i mob potevano dispellare ANTI MAGIC SHELL
-- Corretto un bug grazie a cui il cap dello SPELL POWER non teneva conto degli affect in ATTRIBUTE
-- Corretto un bug grazie a cui lanciare armi da tiro con weaponspell teneva in combat per un round
-- Il comando EQ ROVINATO non mostrava corettamente tutto l'eq che richiedeva riparazione
-
-Versione 2.22.4.5 - $c0009MAGGIO 2022 $c0007- Guardie del corpo
-- $c0012Quest e aree$c0007: 
-- Ora le aree possono avere un livello di PWP consigliato. I personaggi che dispongono di
-  un livello maggiore di PWP possono ugualmente entrare nell'area, ma riceveranno premi 
-  inferiori completando le miniquest o sconfiggendo i nemici.
-  $c0009Attenzione! $c0007Rimangono valide le regole preesistenti nelle aree con limite di PWP:
-  se il proprio PWP e' maggiore del limite, si perderanno punti karma, xp e sigilli.
-  Le aree si riconoscono per via dei messaggi che compaiono nel momento in cui si accede 
-  alle stesse.
-- Inserita una miniquest a tempo presso l'Antro degli esperimenti(Livello PWP 600).
-- Inserita una miniquest a tempo presso i Campi d'addestramento a sud di Midia (Livello 15-20).
-- Inserita una miniquest presso la citta' di Geldor (Livello PWP 200).
-- Inserita una miniquest presso l'arena di Felix per ottenere il primo famiglio divoratore.
-- Inserita una miniquest presso le terre del grande Lag per ottenere il secondo famiglio divoratore.
-- Inseriti nuovi messaggi presso i mob questor che indicano la possibilita' di 
-  ottenere premi aggiuntivi qualora si fosse in possesso di specifici Award.
-- Corrette alcune scritte presso la scuola di Midia. Ora aprire le porte e' piu' semplice.
-- Se viene sacrificata la vergine presso la piramide dei serpenti, il serpente evocato
-  ha nuove procedure e possibili premi alternativi.
-- Andare alla ricerca di Golgar, dio dei trogloditi, puo' ripagare la caccia.
-- Tolto il limite PWP alla Torre nera di Hoeur, aggiunto PWP consigliato.
-- Aumentato il limite PWP alla Via Lattea, aggiunto PWP consigliato.
-- Aggiunte a Geldor e Midia. Presso l'arena di Felix e presso Geldor sono state inserite 
-  delle nuove stanze e alcuni mob.
-- Corretti gli oggetti e i mob dell'area de "la tenuta nera (by Fulgore)". Spostata procedura 
-  di soffio elettrico sul mob corretto.
-- $c0012Cambiamenti principali$c0007: 
-- Aggiunta la possibilita' di avere un RIPOSTIGLIO in condivisione tra i propri
-  personaggi. Inserendo l'email nel menu' dei propri personaggi e dopo averla confermata,
-  sara' possibile accedere ad un ripostiglio in cui depositare degli oggetti condivisi,
-  attraverso i comandi STASH/RIPONI e UNSTASH/RIPRENDI.
-- Fanno la loro comparsa i MOB MERCENARI! Presso la gilda dei mercenari sono a 
-  disposizione alcuni mob che supporteranno i PG nelle loro scorribande. Naturalmente
-  i loro servigi sono a pagamento. I PG membri della gilda dispongono di uno sconto
-  speciale. La potenza e il costo dei mercenari sono proporzionali al PWP del PG.
-- Aggiunti gli oggetti ETEREI. Questi scompaiono dopo un certo numero di tick
-  definiti e possono essere usati anche per scandire il tempo in quest e missioni, 
-  oltre che fungere da oggetti con bonus temporanei.
-- Aggiunta di un nuovo mestiere: l'OCCULTISTA. Usando una speciale sega da ossa
-  si potranno asportare parti specifiche di alcune creature. Tramite la vendita di
-  alcuni specifici set di ossa sara' possibile sbloccare nuovi famigli
-  o per ottenere bonus e premi.
-- L'AWARD "Protettore di Rhila" diventa ora "Cittadino di Rhila" per adeguarsi alle
-  altre cittadinanze ottenibili nel gioco.
-- Aggiunti degli AWARD, alcuni di questi non sono al momento disponibili.
-- Alcune correzioni ai PERKS.
-- Il limite degli oggetti rari che un PG puo' mantenere, passa da 18 a 20.
-- Aggiunto PERK NECROMANTE per Chierici e Antipaladini.
-- Aggiunto PERK SEGUGIO che diminuisce il lag causato dal TRACK.
-- BLESS, quando viene lanciato sull'equipaggiamento, aggiunge temporaneamente
-  -1 a SAVE ALL.
-- TALE EROE del bardo alza il limite di ABSORB DAMAGE temporaneamente.
-- PRAY NIRVANA puo' rendere la stanza NO MOB, come gia' avviene con l'incantesimo SHIELD ROOM.
-- Aggiunti i comandi EQ STATO ed EQ ROVINATO. Ciascuno di essi da informazioni aggiuntive
-  sui pezzi indossati.
-- BRIEF toglie le scritte della storia dalle TALE del bardo.
-- Gli award "insolente" e "traditore" fanno diminuire il numero totale di award collezionati 
-  nell'indicatore del TITLE.
-- Quando si sbaglia la password di accesso, compare una frase per segnalare l'errore.
-- Alcuni comandi (BASH, KICK, TRIP e ASSIST) non chiedono ora la vittima, ma ingaggiano il 
-  primo mob che sta attaccando il gruppo.
-- $c0012Bugfix$c0007: 
-- Corretto un errore di lettura del terminale del Web client.
-- Sistemato un possibile exploit causato dalle skill del drago presso 
-  il nexus del chaos. SUSSURRO assegna solo afflizione da burning, suscettibilita' al
-  freddo ma non cecita'.
-- Sistemato un bug che poteva causare crash con i follower in casi speciali.
-- Sistemato un bug che causava duplicazione delle monete con LUCK o GOLDFIND.
-- Sistemato un bug che poteva causare doppia morte dei mob con la TALE FUGGIASCO.
-- Sistemato il salvataggio del campo dati PARTNER del PG che non si salvava correttamente.
-- Sistemato RESURRECT e REINCARNATE su PG morti LINKDEAD o a causa di un danno non 
-  definito.
-- Sistemato un bug che fermava il combattimento quando si era colpiti da freccia.
-- Corretta l'AI dei mob ladri: ora preferiranno impugnare armi PIERCE se ne hanno a
-  disposizione.
-- Fix a SONG OF DUMBING che funzionava erroneamente sui pg del gruppo.
-- Il bash effettuato da PG di piccola statura ai nemici di piccola statura, causa sempre
-  2 round di lag, al fine di alleviare la necessita' per i tank di essere HUGE.
-- CARVE abbassa l'align del Ranger.
-- Riordinata la priorita' di alcuni comandi, in modo che abbiano la precedenza, nel caso
-  in cui ci sono iniziali uguali con comandi secondari.
-- Corretti dialoghi dell'Occultista.
 
 Per scoprire tutte le novita' dell'HELP di Tempora Sanguinis, scrivi $c0009HELP AGGIORNAMENTO$c0007
