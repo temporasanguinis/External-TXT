@@ -1,14 +1,16 @@
 Versione 2.24.12.23 - $c0009DICEMBRE 2024$c0007- Un Natale Draconico
 - $c0012Aree$c0007:
- - nuova zona Quest: Draconici - Silvara potrebbe apparire in alcune citta' principali, 
+ - NUOVA ZONA QUEST: Draconici - Silvara potrebbe apparire in alcune citta' principali, 
    fornendo indizi su una missione da compiere.
  - Ampliamento di Cyrodiil e aggiunti dei sigilli ai mob.
  - Midia e' stata addobbata per Natale.
+ - Corrette alcune immagini mancanti presso l'acquitrino e le aree ghiacciate.
+ - Corretta la miniquest di Garanim, ora la location finale si apre. Inserita una piccola trappola.
 
 - $c0012Novita'$c0007: 
  - il macchinario da combattimento mostrera' i danni subiti anche per chi ha il flag RPG
- - gli oggetti di tipo Money ora si possono aprire con il comando open (al posto di drop e get)
- - nuovi oggetti di tipo reliquia in giro per il mud
+ - gli oggetti di tipo MONEY ora si possono aprire con il comando open (al posto di drop e get)
+ - nuovi oggetti di tipo RELIQUIA in giro per il mud o ottenibili tramite quest. 
  - alcuni nuovi award da ottenere
  - Per evitare monopolizzazione di oggetti e' stato cambiato il sistema di pop di oggetti rari
    maxxanti sopra a uno: ora potranno apparire con percentuale molto bassa anche se maxxati
@@ -22,6 +24,7 @@ Versione 2.24.12.23 - $c0009DICEMBRE 2024$c0007- Un Natale Draconico
 - $c0012Eventi$c0007::
  - nel periodo di Halloween alcuni individui mascherati gireranno per l'impero (ricompense in sigilli)
  - un goblin con una sacca di pozioni, pergamene e monete potrebbe apparire ogni tanto in una zona del mud
+ - ridotta la probabilita' di avere peste a Midia
 
 - $c0012Correzioni$c0007::
  - fix al mob Kandiff a New Thalos che non prendeva i soldi per i pegni
