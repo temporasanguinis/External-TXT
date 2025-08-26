@@ -829,10 +829,11 @@ $c0009Comandi speciali del Capogruppo: $c0007
 - SET GROUP NAME [nome scelto]: permette di assegnare un nuovo nome al
   gruppo.
 - SET GROUP TANK [nomepg]: permette di definire il tank del gruppo.
-- SET GROUP HEALER [nomepg]: permette di definire il curatore del gruppo.
-- ORDER [nomepg] [azione da compiere]: quando un PG permette al capogruppo
-  di comandarlo (attraverso il comando SET GROUP ORDER ENABLE), il capogruppo 
-  potra' fargli svolgere delle azioni a un PG o a un MOB seguace.
+- SET GROUP HEALER [nomepg]: permette di definire chi cura in gruppo.
+- ORDER [nomepg] [azione da compiere]: quando un PG permette al capo
+  di comandarlo (attraverso il comando SET GROUP ORDER ENABLE), il 
+  capogruppo potra' fargli svolgere delle azioni a un PG o a un MOB
+  seguace.
 
 E' possibile vedere i ruoli assegnati tramite il comando GROUP, che restituira'
 anche gli spell attivi e le percentuali di HP, MANA e MOV dei PG.
@@ -1294,8 +1295,6 @@ visualizzazione BRIEF.
 - Scrivendo SPOT <direzione> si potranno vedere i mob presenti in 
 una certa direzione.
 
-
- 
 Vedi anche: FIRE, SHOOT, NOTCH, THROW
 
 #
@@ -14077,7 +14076,6 @@ ____________________________________________________________________
 - | sekhem  | khet    |        | -> Potenza fisica
 - | akh     | seshat  |        | -> Potenza magica avanzata
 - | ra      | tree    | sa     | -> Protezione divina
-- | ra      | nemes   | sa     | -> Potezione superiore
 - | sekhem  | akh     |        | -> Potenza magica
 - | sekhem  | scarab  | khet   | -> Potenza fisica avanzata
 - | sistrum | leb     |        | -> Armonia
@@ -14091,7 +14089,8 @@ ____________________________________________________________________
 - | akh     | seba    | knep   | -> Bagliore
 - | ankh    | bennu   | sema   | -> Diamante insanguinato
 - | akh     | seba    | duat   | -> Duro come un maglio
-- | sekhem  | sistrum | ra     | -> Cannone di cristallo_
+- | sekhem  | sistrum | ra     | -> Cannone di cristallo
+- | sa      | bennu   | sema   | -> Sopravvivenza
 - | kneph   | duat    | ra     | -> Natura selvaggia
 ____________________________________________________________________
 
