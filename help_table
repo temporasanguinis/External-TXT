@@ -1111,6 +1111,12 @@ vuol  dire  avere  cognizione  delle  sue  caratteristiche  e  delle  sue
 proprieta'  magiche.  L'incantesimo  puo'  anche  essere  usato  su mob e
 giocatori.
 
+Gli oggetti identificati restano tali, per vedere l'identfy e' sufficente
+scrivere EXA nomeoggetto
+
+N.B.: gli identify sono specifici per personaggio, quindi un oggetto del
+personaggio A, dovra essere reidentificato dal personaggio B, e cosi via.
+
 #
 "ATTACCHI DEI MONACI"
 
