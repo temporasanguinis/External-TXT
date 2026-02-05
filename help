@@ -4,25 +4,25 @@ $c0009HELP$c0007 o $c0009?$c0007 seguito dall'$c0009ARGOMENTO$c0007 che vuoi ric
 Per vedere le ultime voci aggiornate, scrivi $c0009HELP AGGIORNAMENTI$c0007.
 Di seguito trovi alcuni dei comandi principali suddivisi in categorie.
 
-$c0008+-------------------------------+--------------------------------------+
+$c0008+--------------------------------+---------------------------------------+
 $c0008| $c0015COMUNICAZIONE:$c0008                | $c0015MOVIMENTO:$c0008                           |
 $c0008| $c0007  say, shout, tell,           $c0008|   $c0007north, south, east, west, up,$c0008      |
 $c0008| $c0007  emote, ask, whisper,        $c0008|   $c0007down, enter, exits, mount, ride,$c0008   |
 $c0008| $c0007  deafen, gos, auction,       $c0008|   $c0007dismount, stand, rest, sleep,$c0008      |
 $c0008| $c0007  bid, sign, nogos, ot,       $c0008|   $c0007wake, unlock, lock, open, close,$c0008   |
 $c0008| $c0007  gtell, report, notell       $c0008|   $c0007run, follow, group, mappa$c0008          | 
-$c0008+-------------------------------+--------------------------------------+
+$c0008+--------------------------------+---------------------------------------+
 $c0008| $c0015GESTIONE OGGETTI:$c0008             | $c0015COMBATTIMENTO:$c0008                       |
 $c0008| $c0007  get, put, drop, wear,       $c0008|   $c0007kill, hit, backstab, kick, bash,$c0008   |
 $c0008| $c0007  wield, hold, grab, give,    $c0008|   $c0007flee, cast, wimp, assist,$c0008          |
 $c0008| $c0007  look, examine, eat, drink,  $c0008|   $c0007recall, berserk, mind, play,$c0008       |
 $c0008| $c0007  sip, taste, remove, pour,   $c0008|   $c0007bellow, warcry, blast, shoot,$c0008      |
 $c0008| $c0007  fill, quaff, notch, load    $c0008|   $c0007fire, throw, order, +$c0008              |
-$c0008+-------------------------------+--------------------------------------+
+$c0008+--------------------------------+---------------------------------------+
 $c0008| $c0015INFORMAZIONI:$c0008                 | $c0015UTILITA':$c0008                            |
 $c0008| $c0007  score, attribute, world,    $c0008|   $c0007save, tips, brief, alias,$c0008          |
 $c0008| $c0007  news, info, inv, read,      $c0008|   $c0007spot, look, allspell, skill,$c0008       |
 $c0008| $c0007  who, time, display,         $c0008|   $c0007commands, set, rent,$c0008               |
 $c0008| $c0007  gwho, eq, prompt, quest     $c0008|   $c0007accessibilita', whistle, !$c0008         |
-$c0008+-------------------------------+--------------------------------------+
+$c0008+--------------------------------+---------------------------------------+
 
