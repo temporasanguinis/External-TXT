@@ -3,62 +3,71 @@ EMPTY SLOT
 #
 HELP AGGIORNAMENTI AGGIORNAMENTO NOVITA'
 
-Ultimo aggiornamento: 14 Maggio 2023 a cura di Nalith, Yffre e Allanon
+Ultimo aggiornamento: 06.02.2026 a cura di Nalith, Yffre e Allanon
 
 L'Help di Tempora Sanguinis e' curato da Martinus e da Nalith.
 Se riscontrate errori, incongruenze, o desiderate proporre
 un nuovo argomento, potete mandare un messaggio all'indirizzo
                                 martinus@temporasanguinis.it
 
+--- Modifiche della versione 2.26.2.1 ----------------------------
+- Aggiornate : WEAPON MASTERY, SPELL CURSE, BURNING HANDS,
+			   SPIRIT SESSION, FIND FAMILIAR, LIGHTNING BOLT,
+			   DUAL WIELD, DANNO SPINE
+- Aggiunte :   INTIMIDIRE, IMPATTO SISMICO, SPACCATURA ELEMENTALE,
+			   ARMI A DUE MANI, ARMI INGOMBRANTI, TATTICA, IGNORA
+			   DOLORE, ROCCAFORTE, CONTROMAGIA, SHADOW BOLT,
+			   DEATH AURA, DANNO SHADOW
+
+
 --- Modifiche della versione 2.23.6.1 ----------------------------
-- RUNE (aggiornato), HIDE (rework e aggiornato), SHANNARA,
-  DISARM WEAPON (aggiornato), CELL ADJUSTMENT (aggiornato)
+- Aggiornate : RUNE, HIDE (rivisto), SHANNARA, DISARM WEAPON,
+			   CELL ADJUSTMENT
 
 
 --- Modifiche della versione 2.22.12.11 --------------------------
-- EVADE TRAP (aggiornato) , BURNING HANDS (aggiornato), SOCKET (aggiornato),
-  GREEN SLIME, SEPARAZIONE LISTINO, TREE TRAVEL (aggiornato), REGOLE SDR, 
-  PSI REVERSE (aggiornato), RESCUE (aggiornato).
+- Aggiornate : EVADE TRAP, BURNING HANDS, SOCKET, GREEN SLIME, 
+			   SEPARAZIONE LISTINO, TREE TRAVEL , REGOLE SDR, 
+			   PSI REVERSE,RESCUE
   
 
 --- Modifiche della versione 2.21.12.13 --------------------------
-- DARKNESS (aggiornato), DETECT MAGIC (aggiornato), MIND (aggiornato),
-  PRAY (aggiornato), CAST (aggiornato), RECALL (aggiornato), CHAOS
-  (aggiornato), BASH (aggiornato), TICK, ROUND, FAMIGLI (aggiornato),
-  GROUP (aggiornato), SIMBOLI MAGICI, ALIAS (aggiornato), PLAY 
-  (aggiornato), MIND (aggiornato), ACCESSIBILITA' (aggiornato), FLOW,
-  OVERLOAD, FIX (aggiornato), PROMPT (aggiornato), EQUIPMENT (aggiornato),
-  OGGETTI ETEREI, MESTIERI (aggiornato), ADDESTRATORE, OCCULTISTA,
-  MERCENARI, QUEST (aggiornato), LISTINO (AGGIORNATO), FORTUNA.
+- Aggiornate : DARKNESS, DETECT MAGIC, MIND, PRAY, CAST, RECALL,
+			   CHAOS, BASH, TICK, ROUND, FAMIGLI, GROUP, ALIAS,
+			   SIMBOLI MAGICI, PLAY, MIND, ACCESSIBILITA', FLOW,
+			   OVERLOAD, FIX, PROMPT, EQUIPMENT,OGGETTI ETEREI,
+			   MESTIERI, ADDESTRATORE, OCCULTISTA, MERCENARI,
+			   QUEST, LISTINO, FORTUNA.
 
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 --------------
-- Aggiunte: MESTIERI, HEALING RAIN, FISHING, TAN (aggiornato), 
-  SCRIGNO DORATO, LISTINO (aggiornato), AWARD, AVATAR, NOMI, MESTIERI,
-  AFFLIZIONI, DND, LAG, COOLDOWN, CHAOS, MINE, ALCHIMIA, MELEE COMBAT,
-  PSIONIC BLAST (aggiornato), PSYCHIC CRUSH (aggiornato), POISON 
-  (aggiornato), PAIN MIRROR (aggiornato), CHARGE (aggiornato), BARDO,
-  PLAY, CULMINE, ACCESSIBILITA', LISTINO (aggiornato), CRUSH, SING, 
-  COMANDO MAPPA, WAKE SPIRITS, PERK, REROLL, MUSIC POWER, DARKNESS 
-  (aggiornato), RUNE (aggiornato), PEGNI DI LILITH, MEDAGLIE AL VALORE,
-  REVERSION (aggiornato).
+- Aggiunte: MESTIERI, HEALING RAIN, FISHING, TAN, SCRIGNO DORATO,
+			LISTINO, AWARD, AVATAR, NOMI, MESTIERI, AFFLIZIONI,
+			DND, LAG, COOLDOWN, CHAOS, MINE, ALCHIMIA, MELEE COMBAT
+			PSIONIC BLAST, PSYCHIC CRUSH, POISON, PAIN MIRROR,
+			CHARGE, BARDO, PLAY, CULMINE, ACCESSIBILITA', CRUSH,
+			SING, COMANDO MAPPA, WAKE SPIRITS, PERK, REROLL,
+			MUSIC POWER, DARKNESS, RUNE, PEGNI DI LILITH,
+			MEDAGLIE AL VALORE, REVERSION.
                                                                
                                 
 --- Modifiche dalla versione 2.18.4.1 alla 2.19.1.28 -------------
 - Aggiunte: SOCKET, GEMME, CRISTALLI, AREAQUEST, DHETHOR, TRAIN,
-  RANDOMPOP, SCALA DEI DANNI, DODICI CASE, VALORE OGGETTI, RUNA
+			RANDOMPOP, SCALA DEI DANNI, DODICI CASE, VALORE OGGETTI
+			RUNA
                                 
 
 --- Modifiche dalla versione 2.8.4.1 alla 2.9.0.0 ----------------
-- Aggiornati: LISTINO, REFUND
+- Aggiornate: LISTINO, REFUND
 - Corretti: BACKSTAB POWERUP
 
 --- Modifiche dalla versione 1.4 alla 1.5 ------------------------
-- Rivisti: DIGNITY, MAPPA MONDO, DISGUISE, CONSIGLI, DANNI MONACI
-  FAERIE FIRE, DISPEL MAGIC, CRYOCINETIC RAY, SILENCE, REINCARNATE
-  FIRESTORM, WARP WEAPON, FIND TRAP, RESURRECTION, MULTI PLAYING,
-  BROWNIE, ANTI MAGIC SHELL, PSIONIC BLAST, PSI SUMMON, ARENA,
-  LISTINO, MAXXAGGI, BACKSTAB POWERUP
+- Rivisti: 	DIGNITY, MAPPA MONDO, DISGUISE, CONSIGLI, DANNI MONACI
+			FAERIE FIRE, DISPEL MAGIC, CRYOCINETIC RAY, SILENCE,
+			REINCARNATE, FIRESTORM, WARP WEAPON, FIND TRAP,
+			RESURRECTION, MULTI PLAYING, BROWNIE, ANTI MAGIC SHELL,
+			PSIONIC BLAST, PSI SUMMON, ARENA, LISTINO, MAXXAGGI,
+			BACKSTAB POWERUP
 - Aggiunti: INFERNO
 
 --- Modifiche dalla versione 1.3 alla 1.4 ------------------------
@@ -226,20 +235,20 @@ Caratteristica        Influenza
 ------------------------------------------------------------------
 
 Intelligenza       Punti magia e velocita' di apprendimento di
-                   abilita' ed incantesimi
+                   abilita' ed incantesimi.
 Forza              Capacita' di combattere, danno inflitto e la
                    quantita' di oggetti che si possono portare 
-                   in mano, 
+                   in mano.
 Destrezza          Capacita' di schivare colpi, di buttare a terra
-                   i propri avversari, di usare archi e frecce
+                   i propri avversari, di usare archi e frecce.
 Saggezza           Numero di abilita' ed incantesimi che puoi
-                   imparare
+                   imparare per livello e bonus tiri salvezza.
 Costituzione       Numero massimo di punti ferita, e resistenza
-                   agli shock fisici
+                   agli shock fisici e la resistenza al veleno.
 Carisma            Reazioni che i personaggi guidati dal computer
                    hanno nei tuoi confronti, numero massimo di mob
                    evocabili e controllabili (con l'incantesimo
-                   MONSUM)
+                   MONSUM) e la capacita di influenza sul gruppo.
 
 
 Probabilmente   avrai  notato    che,  davanti   ai   comandi   che
@@ -765,12 +774,12 @@ DISPLAY
 
 $c0015Uso$c0015 : DISPLAY <0/1>
 
-DISPLAY  permette di cambiare  il setup del tuo  term sul mud. Di fatto
-scrive in fondo allo schermo una info-bar. Questa barra contiene i tuoi
-hit points, il tuo mana, i tuoi punti movimento, le monete che possiedi
-e i tuoi punti esperienza.
+DISPLAY permette di cambiare  il setup del tuo  term sul mud. Di
+fatto scrive in fondo allo schermo una info-bar. Questa barra
+contiene i tuoi hit points, il tuo mana, i tuoi punti movimento,
+le monete che possied e i tuoi punti esperienza.
 
-Al momento  DISPLAY usa il tipo  VT100.  Per attivare il suddetto modo,
+Al momento DISPLAY usa il tipo VT100.Per attivare il suddetto modo,
 usa l'opzione "1", per disattivarlo, invece, l'opzione "0". 
  
 Vedi anche: RESIZE, COMPACT, PROMPT, LOOK, BRIEF, SET
@@ -780,10 +789,10 @@ RESIZE
 
 $c0015Uso$c0015 : RESIZE [dimensione]
  
-Il comando RESIZE  permette di cambiare la dimensione dello schermo.  Il
-numero di linee di default e' 25, ma tramite questo comando e' possibile
-ridimensionarne  il valore a piacimento.  Per ritornare alla  situazione
-di default e' sufficiente digitare <RESIZE 25>.
+Il comando RESIZE  permette di cambiare la dimensione dello schermo.
+Il numero di linee di default e' 25, ma tramite questo comando e'
+possibile ridimensionarne  il valore a piacimento.  Per ritornare
+alla  situazione di default e' sufficiente digitare <RESIZE 25>.
 
 Vedi anche: DISPLAY, COMPACT, PROMPT, LOOK, BRIEF, SET
 
@@ -835,8 +844,9 @@ $c0009Comandi speciali del Capogruppo: $c0007
   capogruppo potra' fargli svolgere delle azioni a un PG o a un MOB
   seguace.
 
-E' possibile vedere i ruoli assegnati tramite il comando GROUP, che restituira'
-anche gli spell attivi e le percentuali di HP, MANA e MOV dei PG.
+E' possibile vedere i ruoli assegnati tramite il comando GROUP, che
+restituira'anche gli spell attivi e le percentuali di HP, MANA, MOV
+dei PG.
 
 Il primo personaggio aggiunto al gruppo, ne diventera' VICECAPO. Alla
 morte del capogruppo ne prendera' il posto.
@@ -2861,22 +2871,26 @@ Vedi anche: POISON, REMOVE POISON, CURE POISON
 $c0015Uso$c0015           : cast 'find familiar' <creatura>
 $c0006Cumulativo$c0006    : No
 $c0005Durata$c0005        : Permanente
-$c0010Livello$c0010       : 2 Maghi e Stregoni
+$c0010Livello$c0010       : 2 Maghi, Stregoni, Bardo
 $c0014Tiro salvezza$c0014 : Nessuno
-$c0012Costo in mana$c0012 : 30
- $c0007
-Questo  incantesimo evoca  una piccola creatura, che segue il  Mago per
+$c0012Costo in mana$c0012 : 30$c0007
+$c0005Recupero$c0005      : (livello /2) Ore
+$c0007
+Questo incantesimo evoca una piccola creatura, che segue il caster per
 tutta la sua vita.  Il tipo  di creatura che viene chiamata dipende dal
 livello del Mago, ma questo non influisce sulla potenza della creatura.
 Inoltre,  avere questa  creatura  abbassa  lievemente  il  valore della
 propria AC (Armor Class).
  
-                      $c0010Livello$c0010    Creatura
-                      ---------------------
-                          2-3    Puppy
-                          4-5    Beagle
-                          6-7    Rottweiler
-                           8+    Wolf
+$c0010Livello$c0007    Creatura
+---------------------
+    1-2     Gatto
+    3-4     Ragno
+    5-6     Coyote
+    7-8     Orso Bruno
+    9-10    Grizzly
+    11-14   Tigre del Bengala
+    15+     Tigre dai denti a sciabola
 
 Vedi anche: MONSUM, CHARM, MERCENARI
 
@@ -4250,8 +4264,12 @@ forza del  giocatore non e' sufficiente, puo' tentare di alzare
 il valore  della propria  forza con oggetti  o con la magia. Se
 non si  riesce nemmeno  in questo modo,  l'arma non puo' essere
 impugnata.
+Un arma che abbi la posizione indossabile sia HOLD che WIELD e'
+considerata arma ingombrante (possono esserne impugnate due ma
+sacrificando l'utilizzo dello scudo).
 
-Vedi anche: REMOVE, EQUIPMENT, WEAR, HOLD
+Vedi anche: REMOVE, EQUIPMENT, WEAR, HOLD, ARMI A DUE MANI, ARMI
+			INGOMBRANTI
 
 #
 SCORE
@@ -5742,6 +5760,9 @@ ridotto  permanentemente di  un punto). In entrambi i  casi,
 lanciare un incantesimo REMOVE CURSE sulla persona maledetta
 o che possiede (ed indossa) l'oggetto maledetto porra'  fine
 alla maledizione.
+La maledizione e' deleteria sopratutto per i Paladini, gli
+riduce al 10% la possibilita di ottenere nuova vita in caso
+di morte.
 
 Vedi anche: REMOVE CURSE, HITROLL
 
@@ -6295,9 +6316,11 @@ $c0010Livello$c0010       : 5 Maghi e Stregoni, 5 Bardi
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
 $c0012Costo in mana$c0012 : 15$c0007
 
-Con questo incantesimo il Mago emette una  violenta fiammata dalle
+Con questo incantesimo il caster emette una  violenta fiammata dalle
 mani. Le fiamme danneggiano tutte le persone/mob non gruppate  col
-caster presenti nella stanza per (1d4+1) per ogni livello del Mago.
+caster presenti nella stanza per (1d3) per ogni livello del Mago,
+spellpower incluso.
+I luoghi caldi aumentano l'efficacia della spell.
  
 Vedi anche: CHILL TOUCH
 
@@ -6325,7 +6348,7 @@ Vedi anche: BURNING HANDS
 $c0015Uso$c0015           : cast 'lightning bolt'
 $c0006Cumulativo$c0006    : -
 $c0005Durata$c0005        : Istantaneo
-$c0010Livello$c0010       : 10 Maghi e Stregoni
+$c0010Livello$c0010       : 10 Maghi e Stregoni, 14 Bardo
 $c0014Tiro salvezza$c0014 : 'vs. spells' per meta' danno
 $c0012Costo in mana$c0012 : 15$c0007
 
@@ -7818,12 +7841,12 @@ Vedi anche: SKIN, RANGER, DETECT POISON, REMOVE POISON
 #
 "DUAL WIELD"
 
-Skill per: Bardi, Ranger e Ladri
+Skill per: Bardi, Ranger, Ladri, Guerrieri
 
 Per mezzo di questa abilita',  i Ranger  ed i Ladri (che  possono
 apprenderla a circa meta' della loro carriera) possono combattere
 usando due armi allo stesso tempo,  una WIELDATA ed  una HOLDATA.
-Questo significa che il combattente avra' 1/2 attacchi in piu'  a
+Questo significa che il combattente avra' 1 attacco in piu'  a
 round con l'arma secondaria, oltre ai normali attacchi con quella
 principale. Combattere con due armi non e' facile,e non e' quindi
 raro che per sbaglio il combattente lasci cadere le armi.
@@ -7831,7 +7854,10 @@ raro che per sbaglio il combattente lasci cadere le armi.
 Per ovvie ragioni la seconda arma deve essere  piccola e  leggera
 (questo vuol dire per esempio un coltello od una daga). 
 
-Vedi anche: RANGER, LADRO, HOLD, WIELD
+I guerrieri utilizzano una versione modificata di questa skill
+
+Vedi anche: RANGER, LADRO, HOLD, WIELD, ARMI A DUE MANI, ARMI
+			INGOMBRANTI
 
 #
 ANTIPALADINO ANTIPALADINI ANTIPALADIN
@@ -10550,20 +10576,51 @@ oltre le due ore.
 Vedi anche: -
 
 #
+ATTRIBUTI
+
+Sono i valori che definiscono gli ATTRIBUTI di base di un personaggio:
+
+STR -> FORZA : danno fisico, peso trasportabile
+DEX -> DESTREZZA : classe armatura, numero oggetti trasportabili
+INT -> INTELLIGENZA : spellfail, memorize, apprendimento
+WIS -> SAGGEZZA : bonus tiri salvezza, pratiche al livellaggio
+CON -> COSTITUZIONE : Hit Point (HP) al livello
+CHR -> CARISMA : numero seguaci, ampiezza abilita' di gruppo
+
+Tali valori danno dei bonus a partire o dei malus a seconda se siano
+superiori o inferiori a 12.
+Al livello 21 sara possibile ottenere punti extra da calliope al 
+costo di 10 pratiche per punto, ed al livello 31 il costo sara'
+ridotto a 5 pratiche, mentre da EROE Calliope accettera anche gemme,
+3 per tipo di punto da ottenere.
+
+Farsi resuscitare costa 1 punto statistica casuale (0 se con gemme)
+Farsi reincarnare da un druido costa sempre un punto costituzione.
+Un personaggio con 3 costituzione non puo' essere ne resuscitato ne
+reincarnato.
+
+Tenendo conto che le modifiche agli attributi NON hanno impatti
+retroattivi e' consigliato avere un elevato valore di CON e WIS sin
+dal primo livello per beneficiare al massimo dei benefici durante il
+livellaggio dal 1 al 50.
+
+Vedi anche: EROI, GEMME, CALLIOPE
+
+#
 CALLIOPE
 
 Si  dice che, in qualche lontano  angolo dell'Impero Celeste,
 viva la Saggia  Calliope.  Ella  possiede  una caratteristica
 unica,  tale  che molti  la  ritengono una semplice leggenda.
 
-Calliope permette a partire dal livello 21 di migliorare le 
-statistiche di FORZA, DESTREZZA, INTELLIGENZA, CARISMA, SAGGEZZA
+Calliope permette a partire dal livello 21 di migliorare gli 
+attributi di FORZA, DESTREZZA, INTELLIGENZA, CARISMA, SAGGEZZA
 e COSTITUZIONE al costo di 10 pratiche per ogni punto aggiuntivo. 
 Dal livello 31, le pratiche necessarie per ogni punto saranno 5.
 In alternativa e' possibile usare 25 mega di xp per comprare una 
 pratica o utilizzare 3 GEMME della tipologia richiesta.
 
-Vedi anche: EROI, GEMME
+Vedi anche: EROI, GEMME, ATTRIBUTI
 
 #
 EXODUS
@@ -12991,6 +13048,10 @@ I guerrieri brownie, essendo di statura piccola, imparano ad usare
 meglio il loro pugnale, guadagnando l'abilita' di dare colpi taglienti
 al loro avversario, ma non guadagnano ulteriori attacchi.
 
+Queste MASTERY  attiveranno solo quando il warror usa arma singola.
+non funziona in dual wield a prescindere dai tipi di arma usate.
+E' una tecnica per arma singola.
+
 #
 STANCE "MONGOOSE STANCE" "TIGER STANCE" "PHOENIX STANCE"
 
@@ -14044,7 +14105,7 @@ GEMME
 
 Le gemme sono oggetti RANDOMPOP, che possono comparire nel corpo di
 alcuni mob una  volta sconfitti. Le  gemme possono essere  di vario
-genere e servono a  migliorare le proprie statistiche  da CALLIOPE,
+genere e servono a  migliorare i propri attributi da CALLIOPE,
 in alternativa a XP e PRATICHE.
 
 Tutte le gemme, tranne quelle di giovinezza, possono essere usate
@@ -14055,7 +14116,7 @@ Chierico deve avere le 3 gemme in inventario.
 E' possibile scegliere il tipo di GEMMA preferito nel sistema di 
 autoassegnazione scrivendo GEMME + il nome della gemma.
 
-Vedi anche: CALLIOPE, RANDOMPOP, RUNE
+Vedi anche: CALLIOPE, RANDOMPOP, RUNE, ATTRIBUTI
 
 #
 GLIFI
@@ -14465,7 +14526,7 @@ dell'incantesimo.
 Vedi anche: HEALING, NATURES CURE, MINOR HEAL
 
 #
-MESTIERI
+"MESTIERI"
 
 Con questo termine si indicano una serie di skill speciali 
 acquistabili tramite il completamento di alcune miniquest e 
@@ -14480,7 +14541,7 @@ Vedi anche: AWARD, PESCATORE, CONCIATORE, ALCHIMISTA, MINATORE,
 			OCCULTISTA, ADDESTRATORE, FORTUNA
 
 #
-AWARD
+"AWARD"
 
 Gli Award sono titoli onorifici che gli eroi dell'impero celeste
 possono guadagnare durante le loro avventure o come speciale 
@@ -14500,7 +14561,7 @@ Vedi anche: MESTIERI, DIGNITY, AREAQUEST, PERK, PEGNI DI LILITH,
             MEDAGLIE AL VALORE
 
 #
-NOME NOMI
+"NOME" "NOMI"
 
 Per giocare nel mondo di Tempora Sanguinis 2 e' importante scegliere un
 nome che rispecchi i canoni del Medieval RPG. Nomi inappropriati, non
@@ -14512,7 +14573,7 @@ nome dei PG.
 Vedi anche: AVATAR, NEWBIE, MUD
 
 #
-MINE MINATORE
+"MINE" "MINATORE"
 
 Skill per: Tutti
 
@@ -14536,7 +14597,7 @@ Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
 
 
 #
-ALCHIMIA ALCHIMISTA
+"ALCHIMIA" "ALCHIMISTA"
 
 Skill per: Tutti
 
@@ -14609,7 +14670,7 @@ Vedi anche: BASH, KICK, GUERRIERO, BARBARO, MONACO, RANGER, PALADINO, ANTIPALADI
             COOLDOWN, ROUND, TICK
 
 #
-AFFLIZIONI BLEEDING BURNING CHILLED SHOCKED CORRODED
+"AFFLIZIONI" BLEEDING BURNING CHILLED SHOCKED CORRODED
 
 Le afflizioni sono particolari stati in cui il personaggio o il MOB si viene a trovare
 a causa degli effetti di danni fisici o magici. L'attivazione di questi stati avviene 
@@ -14642,7 +14703,7 @@ favorire l'uso di combinazioni diverse e speciali: scoprite la vostra e scatenat
 che e' in voi!
 
 #
-LAG
+LAG ATTESA
 
 Con il termine LAG si intende il tempo necessario ad un PG o ad un MOB per svolgere o 
 riprendersi da una azione compiuta o subita. Durante questo tempo, che puo' variare da 1 a
@@ -14657,7 +14718,7 @@ e BASH o tramite gli incantesimi GUST OF WIND, TELEKINESIS e EARTHQUAKE.
 Vedi anche: BASH, KICK, TRIP, GUST OF WIND, TELEKINESIS, EARTHQUAKE, COOLDOWN, ROUNG, TICK
 
 #
-COOLDOWN
+COOLDOWN RECUPERO
 
 Con il termine COOLDOWN si intende il tempo necessario ad un PG o ad un MOB per ricaricare
 una certa abilita'. In questo tempo di attesa, a differenza di cio' che accade con il LAG, 
@@ -14687,7 +14748,7 @@ non potra' essere disturbato da altri giocatori.
 Vedi anche: GAG, NOOT
 
 #
-CHAOS
+"CHAOS"
 
 $c0015Uso$c0015           : mind 'chaos'
 $c0006Cumulativo$c0006    : No
@@ -14714,7 +14775,7 @@ Lo psionico puo' uscire da questo stato lanciando nuovamente il comando
 Vedi anche: PSIONIC BLAST, PSYCHIC CRUSH
 
 #
-ACCESSIBILITA' NONVEDENTI IPOVEDENTI
+"ACCESSIBILITA'" "NONVEDENTI" "IPOVEDENTI"
 
 Lo staff di Tempora Sanguinis si impegna a sviluppare un gioco accessibile anche 
 ai giocatori ipovedenti e non vedenti. Per migliorare le possibilita' di gioco e
@@ -14758,7 +14819,7 @@ Puoi consultare le voci specifiche di questi comandi nell'help a loro dedicato.
 Vedi anche: SET, SPOT, LOOK, BRIEF, DISPLAY, COMPACT, RESIZE, ALIAS, COMANDO MAPPA
 
 #
-INSPIRE ISPIRA
+"INSPIRE" "ISPIRA"
 
 $c0015Uso$c0015           : inspire/ispira <vittima>
 $c0006Cumulativo$c0006    : si, cumulativo fino a 6 cariche
@@ -14786,11 +14847,14 @@ $c0010Livello$c0010       : 32 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : -$c0007
 
-Il bardo riesce a percepire lo spirito della vittima e vedere dove essa si trova.
-Simile allo scry da psionico ma non mostra il nome della stanza, solo la sua descrizione.
-Se lanciato senza target rivela gli spiriti presenti nella stanza, con una funziona 
-simile allo spell FAERIE FOG.
-Inoltre aiuta il bardo a percepire le forme di vita nascoste, come lo spell SENSE LIFE.
+Il bardo riesce a percepire lo spirito della vittima e vedere dove 
+essa si trova.
+Simile allo scry da psionico ma non mostra il nome della stanza, 
+solo la sua descrizione.
+Se lanciato senza target rivela gli spiriti presenti nella stanza, 
+con una funzione simile allo spell FAERIE FOG.
+Inoltre aiuta il bardo a percepire le forme di vita nascoste, come 
+lo spell SENSE LIFE.
 
 Per essere utilizzato richiede ispirazione.
 
@@ -14806,9 +14870,11 @@ $c0010Livello$c0010       : 34 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : -$c0007
 
-Se lanciato su un oggetto personale il bardo riesce a canalizzare meglio il proprio spirito 
-tramite l'oggetto, il quale ottiene dei bonus temporanei, che spesso includono MUSIC POWER.
-Se invece lanciato su un'oggetto non personale, funziona come lo spell IDENTIFY, con 
+Se lanciato su un oggetto personale il bardo riesce a canalizzare 
+meglio il proprio spirito tramite l'oggetto, il quale ottiene dei 
+bonus temporanei, che spesso includono MUSIC POWER.
+Se invece lanciato su un'oggetto non personale, funziona come lo 
+spell IDENTIFY, con 
 cooldown di 5 ore.
 
 Vedi anche: IDENTIFY
@@ -14818,32 +14884,23 @@ Vedi anche: IDENTIFY
 
 $c0015Uso$c0015           : cast 'spirit session' <incantesimo>
 $c0006Cumulativo$c0006    : no
-$c0005Durata$c0005        : 1 ora + 1 ora per ogni punto saggezza sopra al 16
+$c0005Durata$c0005        : 2 ore + (Saggezza sopra a 16)*3 ore
 $c0010Livello$c0010       : 50 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : -$c0007
+$c0012Recupero$c0012      : $c0007 24 ore -carisma
+$c0007
+Possibilita di riuscita   : 
+50% + 5% per ogni compagno in gruppo + 10% per punto carisma sopra 18
 
-Questa spell permette al Bardo di entrare in comunione con i membri del gruppo
-permettendogli, laddove abbia successo, di imparare dall'esperienze altrui, il
-modo per lanciare SPELL di ALTRE CLASSI.
-Per poter copiare una SPELL, bosogna soddisfare 3 condizioni:
-	
-- Essere di Livello pari o superiore al possessore della SPELL
-- Essere Ispirato a sufficenza da poter imparare dall'altrui esperienza
-- Essere Gruppato con una o piu persone che hanno la skill da copiare
+Questa spell permette al Bardo di entrare in comunione con i membri
+del gruppo permettendogli, laddove abbia successo, di imparare dall
+esperienze altrui, il modo per lanciare SPELL di ALTRE CLASSI.
 
-Qualora la sessione spiritica vada a buon fine, il Bardo si ritrovera' completamente
-esausto per lo sforzo sostenuto (1 hp,1 mana,1 mov) e stordito per 1 ora di tempo,
-ma sara' poi in grado di usare SENZA RESTRIZIONI la SPELL copiata per la restante
-durata della sessione spiritica, anche se il possessora originario della SPELL dovesse
-non essere piu presente.
-
-Sono state contotte prove e test estensivi sul funzionamento della skill stessa per 
-evitare spiacevoli situazioni, restano sempre valide le regole di ogni spell copiata
-(es.feeblemind), ma non e' possibile replicare l'inventiva e le casistiche che solo
-i giocatori possono trovare.
-Quindi laddove troviate anomalie o usi abusivi della skill stessa, dovrete informare
-gli DEI o incorrere nella loro IRA.
+Qualora la sessione spiritica vada a buon fine, il Bardo si ritrovera'
+completamente esausto per lo sforzo sostenuto (1 hp,1 mana,1 mov) e
+stordito per 1 ora di tempo, potra' poi usare SENZA RESTRIZIONI la 
+SPELL copiata per la restante durata della sessione spiritica.
 
 Richiede massima ispirazione.
 
@@ -14858,7 +14915,7 @@ $c0005Durata$c0005        : 2 + livello/10
 $c0010Livello$c0010       : 37 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : -$c0007
-
+$c0007
 Il bardo espando il tuo spirito e vieni colto dall'estasi mistica.
 Aiuta a non consumare ispirazione da skill che la richiedono.
 Inoltre aumenta SPELL POWER e MANA REGEN. I bonus dipendono anche 
@@ -14876,7 +14933,7 @@ $c0005Durata$c0005        : 2 + livello/10
 $c0010Livello$c0010       : 10 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : -$c0007
-
+$c0007
 Il bardo si esercita con alcune note e melodie, migliorando 
 le sue capacita' musicali e aumentando il proprio MUSIC POWER.
 La potenza dell'incantesimo dipende dal livello del bardo.
@@ -14893,7 +14950,7 @@ $c0010Livello$c0010       : 21 bardi
 $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : -
 $c0001Strumento$c0001     : a percussione o a corde$c0007
-
+$c0007
 Questa abilita'  rappresenta la principale forma di attacco del Bardo.
 Il bardo usa il proprio strumento come arma e lo usa a mo di clava 
 sulla vittima. Il danno viene inflitto in base alla DUREVOLEZZA dello
@@ -14920,7 +14977,7 @@ $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
 $c0011Costo in mov$c0007  : 10 per proc
 $c0001Strumento$c0001     : a fiato$c0007
-
+$c0007
 Per mezzo di questa canzone il Bardo migliora le capacita' di	
 rigenerazione proprie e di chi lo ascolta, ne migliora i tiri
 salvezza e anche la fortuna. Fintanto che il Bardo suona, gli
@@ -14946,7 +15003,7 @@ $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0007 : 5 per cast, 100 per culmine, 25% di mana riservato
 $c0011Costo in mov$c0012  : 10 per proc
 $c0001Strumento$c0001     : a corde$c0007
-
+$c0007
 Per mezzo di questa canzone il bardo inizia a richiamare a 
 se le creature della foresta che lo ascoltano.
 La quantita delle creature che e' in grado di richiamare 
@@ -14968,7 +15025,7 @@ $c0014Tiro salvezza$c0014 : -
 $c0012Costo in mana$c0012 : 5 per cast, 100 per culmine, 25% di mana riservato
 $c0011Costo in mov$c0011  : 10 per proc
 $c0001Strumento$c0001     : a percussione$c0007
-
+$c0007
 Per mezzo di questa canzone il bardo migliora le capacita offensive
 proprie e di chi lo ascolta, aumentando in maniera progressiva sia 
 il DAMROLL che lo SPELL POWER.
@@ -14988,7 +15045,7 @@ $c0005Durata$c0005        : Istantaneo
 $c0010Livello$c0010       : 23 bardi
 $c0014Tiro salvezza$c0014 : Speciale
 $c0012Costo in mana$c0012 : Speciale$c0007
-
+$c0007
 Grazie alle sue esperienze ed i suoi viaggi, un Bardo ispirato tramite la
 skill INSPIRE e' in grado di raccontare storie e stornelli a chi lo ascolti.
 L'effetto della storia e' istantaneo, ma la capacita' di farsi sentire
@@ -15010,7 +15067,7 @@ $c0014Tiro salvezza$c0014 : Speciali
 $c0012Costo in mana$c0012 : 5 per cast, 100 per culmine, 25% di mana riservato
 $c0011Costo in mov$c0011  : 10 per proc
 $c0001Strumento$c0001     : a corde$c0007
-
+$c0007
 Per mezzo di questa canzone il bardo inizia a strimpellare senza 
 armonia, con il solo scopo di creare disagio in chi lo ascolti.
 Le note cacofoniche possono scatenare reazioni debilitanti in 
@@ -15035,7 +15092,7 @@ $c0014Tiro salvezza$c0014 : Speciali
 $c0012Costo in mana$c0012 : 5 per cast, 100 per culmine, 25% di mana riservato
 $c0011Costo in mov$c0011  : 10 per proc
 $c0001Strumento$c0001     : a fiato$c0007
-
+$c0007
 Per mezzo di questa canzone il bardo inizia ad intonare una melodia rilasante,
 con lo scopo di far cessare l'animosita' e la belligeranza di chiunque lo stia
 ascoltando. Con in passare del tempo, gli effetti prodotti sono riduzioni del
@@ -15300,57 +15357,68 @@ Vedi anche: CARTINA MONDO, CARTINA MIDIA, ACCESSIBILITA'
 #
 WHISTLE FISCHIA FAMIGLI FAMIGLIO
 
-Digitando il comando WHISTLE all'aperto, potreste essere sorpresi dall'arrivo di un'aiutante che 
-raccogliera' per voi i tesori e gli oggetti che troverai sconfiggendo i nemici.
-I bardi con un alto livello di MUSICPOWER ottengono un famiglio piu' potente con abilita' aggiuntive.
-Il famiglio potra' essere liberato dall'incantesimo utilizzando il comando ADDIO.
+Digitando il comando WHISTLE all'aperto, potreste essere sorpresi 
+dall'arrivo di un'aiutante che  raccogliera' per voi i tesori e gli 
+oggetti che troverai sconfiggendo i nemici.
+I bardi con un alto livello di MUSICPOWER ottengono un famiglio piu' 
+potente con abilita' aggiuntive.
+Il famiglio potra' essere liberato dall'incantesimo utilizzando il 
+comando ADDIO.
 
-Alcuni famigli possono essere acquistati con SIGILLI DIVINI tramite uno specifico venditore a Midia o 
-acquisiti tramite speciali missioni. Alcuni di questi possono avere poteri aggiuntivi.
+Alcuni famigli possono essere acquistati con SIGILLI DIVINI tramite 
+uno specifico venditore a Midia o acquisiti tramite speciali missioni.
+Alcuni di questi possono avere poteri aggiuntivi.
 
-Puoi vedere la lista dei famigli a tua disposizione attraverso il comando FAMIGLIO.
-Se disponi dell'AWARD "Maestro Addestratore" puoi utilizzare il tuo famiglio per esplorare i
-dintorni finche' non vorra' tornare indietro. Per farlo usa il comando ORDER FAMIGLIO SCOUT.
+Puoi vedere la lista dei famigli a tua disposizione attraverso il 
+comando FAMIGLIO.
+Se disponi dell'AWARD "Maestro Addestratore" puoi utilizzare il tuo
+famiglio per esplorare i dintorni finche' non vorra' tornare indietro. 
+Per farlo usa il comando ORDER FAMIGLIO SCOUT.
 
 Vedi anche: MONSUM, FOLLOWERS, ADDESTRATORE, FAMIGLI, MERCENARI
 
 #
 "MEDAGLIE AL VALORE" MEDAGLIE
 
-Nel corso delle tue avventure potrai incontrare dei nemici particolarmente valorosi e pericolosi. La citta'
-di Midia promette a chiunque sconfigga tali nemici titoli e onoreficenze particolari. 
-Se, in gruppo o in solitaria, si uccide il nemico, si otterranno MEDAGLIE AL VALORE.
+Nel corso delle tue avventure potrai incontrare dei nemici particolarmente 
+valorosi e pericolosi. La citta' di Midia promette a chiunque sconfigga 
+tali nemici titoli e onoreficenze particolari. Se, in gruppo o in solitaria, 
+si uccide il nemico, si otterranno MEDAGLIE AL VALORE.
 
 Le medaglie possono essere spese in vari modi:
-- Tramite il comando PRAY RECALL, si possono spendere 20 medaglie e si puo' tornare a Midia o all'ultima
+- Tramite il comando PRAY RECALL, si possono spendere 20 medaglie e 
+  si puo' tornare a Midia o all'ultima
   locanda dove si ha affittato una camera.
-- Insieme ai PEGNI DI LILITH e alle pratiche di Calliope per potenziare varie abilita' dal mago azzurro.
+- Insieme ai PEGNI DI LILITH e alle pratiche di Calliope per potenziare 
+  varie abilita' dal mago azzurro.
 
 Vedi anche: PERK, PEGNI DI LILITH, SIGILLI DIVINI, RUNE, AWARDS, KARMA
 
 #
-"PEGNI DI LILITH" PEGNI
+PEGNI PEGNO
 
-Tramite la quest di Lilith e' possibile ottenere degli artefatti con cui potenziare alcune abilita' e 
-ottenere particolari benefici. Questi artefatti, chiamati PEGNI DI LILITH, possono avere poteri benefici, i
+Tramite alcune quest e' possibile ottenere degli artefatti con 
+cui potenziare alcune abilita'e ottenere particolari benefici. Questi 
+artefatti, chiamati PEGNI e possono essere considerati benefici, i
 PEGNI DEL BENE, o malefici, i PEGNI DEL MALE.
 La natura di questi artefatti e' misteriosa! Maneggiateli con cura!
 
-Si dice che un mercante di reliquie a New Thalos permetta di scambiare i pegni ottenuti dai giocatori
-con quelli da loro desiderati.
+Si dice che un mercante di reliquie a New Thalos permetta di scambiare 
+i pegni ottenuti dai giocatori con quelli da loro desiderati.
 
 Vedi anche: PERK, MEDAGLIE AL VALORE, SIGILLI DIVINI, RUNE, AWARDS, KARMA
 
 #
 "SIMBOLI MAGICI" + * % & ?
 
-Il simbolo $c0009+$c0007 puo' sostituire il comando CAST al fine di lanciare incantesimi.
+Il simbolo $c0009+$c0007 puo' sostituire il comando CAST al fine di 
+lanciare incantesimi.
 La sintassi per il lancio di incantesimi puo' essere una delle seguenti:
 
- > cast 'magic missile' <vittima>     -    Modalita' originale
- > cast magic-missile <vittima>       -    Modalita' senza apici
- > + 'magic missile' <vittima>        -    Utilizzo del simbolo +
- > +mag-mis <vittima>                 -    Utilizzo del simbolo + senza apici o spazi
+ > cast 'magic missile' <vittima>	-	Modalita' originale
+ > cast magic-missile <vittima>		-	Modalita' senza apici
+ > + 'magic missile' <vittima>		-	Utilizzo del simbolo +
+ > +mag-mis <vittima>				-   Utilizzo del simbolo + senza apici o spazi
 
 Il simbolo $c0009&$c0007 puo' sostituire il comando PLAY.
 Il simbolo $c0009*$c0007 puo' sostituire il comando RECALL.
@@ -15527,7 +15595,8 @@ differenze che potrebbero essere variate nel tempo secondo necessita' :
   Ripostiglio, ma gli DEI potranno sembre verificarne il contenuto se 
   necessario.
 
-Per utilizzare il ripostiglio e' richiesto Livello 10 e  il Nome approvato dagli Dei/Avatar. 
+Per utilizzare il ripostiglio e'richiesto Livello 10 ed il Nome 
+approvato dagli Dei/Avatar. 
 
 L'account verificato permette di editare il flag ACCOUNT sugli oggetti.
 
@@ -15550,45 +15619,58 @@ Vedi anche: RIPOSTIGLIO CONDIVISO
 #
 MERCENARI
 
-Presso la gilda dei mercenari a Midia e' possibile comprare i servigi di alcuni
-esperti combattenti.
+Presso la gilda dei mercenari a Midia e' possibile comprare i servigi 
+di alcuni esperti combattenti.
 
-In cambio di denaro, essi potranno seguirti in battaglia. A differenza delle creature
-evocate, incantate o ipnotizzate, non risponderanno ai comandi effettuati tramite 
-ordine diretto (vedi comando ORDER), ma parteciperanno al combattimento usando le tecniche
-o gli incantesimi specifici delle loro classi di appartenenza.
+In cambio di denaro, essi potranno seguirti in battaglia. A differenza 
+delle creature evocate, incantate o ipnotizzate, non risponderanno ai 
+comandi effettuati tramite  ordine diretto (vedi comando ORDER), ma 
+parteciperanno al combattimento usando le tecniche o gli incantesimi 
+specifici delle loro classi di appartenenza.
 
-Non si possono reclutare mercenari se si hanno gia' ulteriori seguaci o se si e' parte di
-un gruppo. I poteri del mercenario dipendono dal PWP del giocatore da cui viene assunto.
+Non si possono reclutare mercenari se si hanno gia' ulteriori seguaci 
+o se si e' parte di un gruppo. I poteri del mercenario dipendono dal 
+PWP del giocatore da cui viene assunto.
 
-I mercenari possono fare molte cose da soli, puoi anche comandarli tramite il comando INDICA/POINT.$c0007
- - Se indichi te stesso o altri personaggi, il mercenario cerchera' di compiere un'azione benevola per l'occasione.$c0007
- - Se indichi una creatura nemica, il mercenario cerchera' di compiere azioni aggressive verso di essa.$c0007
- - Se indichi a vuoto, il mercenario cerchera' di fare qualche azione riguardante la stanza dove vi trovate.$c0007
+I mercenari possono fare molte cose da soli, puoi anche comandarli 
+tramite il comando INDICA/POINT.$c0007
+ - Se indichi te stesso o altri personaggi, il mercenario cerchera' 
+   di compiere un'azione benevola per l'occasione.$c0007
+ - Se indichi una creatura nemica, il mercenario cerchera' di compiere 
+   azioni aggressive verso di essa.$c0007
+ - Se indichi a vuoto, il mercenario cerchera' di fare qualche azione 
+   riguardante la stanza dove vi trovate.$c0007
  
-Le azioni possibili dipendono dalle classi del mercenario e dalla sua potenza.
+Le azioni possibili dipendono dalle classi del mercenario e dalla sua 
+potenza.
 
-Gli aderenti alla gilda dei mercenari possono disporre di uno sconto per usufruire dei servigi richiesti.
+Gli aderenti alla gilda dei mercenari possono disporre di uno sconto 
+per usufruire dei servigi richiesti.
 
 Vedi anche: SUMMON, ORDER, HYPNOSIS, CHARM, FAMIGLI, PWP
 
 #
 LUCK FORTUNA
 
-Esistono alcuni oggetti che hanno il potere di operare direttamente sul fato, contribuendo alla
-positiva riuscita delle azioni di un avventuriero. L'origine di tale potere e' sconosciuta e dai
-piu' viene indicata con il vago termine di "fortuna".
+Esistono alcuni oggetti che hanno il potere di operare direttamente 
+sul fato, contribuendo alla positiva riuscita delle azioni di un 
+avventuriero. L'origine di tale potere e' sconosciuta e dai piu' 
+viene indicata con il vago termine di "fortuna".
 
 La fortuna opera in questi campi:
-- permette di lavorare meglio, aumentando la buona riuscita delle attivita' operate tramite l'uso dei mestieri;
-- permette di avere maggiore successo con tutto cio' che chiede un "tiro salvezza" (SAVE ALL);
-- aiuta a ottenere premi maggiori in denaro all'uccisione dei nemici (includendo anche un bonus al GOLD FIND);
+- aiuta la riuscita di qualsiasi abilità;
+- permette di avere maggiore successo con tutto cio' che chiede un 
+  "tiro salvezza" (SAVE ALL);
+- aiuta a ottenere premi maggiori in denaro all'uccisione dei nemici 
+  (includendo anche un bonus al GOLD FIND);
 - aiuta a ottenere oggetti RANDOMPOP con piu' facilita';
 - NON offre bonus all'inserimento di cristalli.
 
-Gli oggetti che aumentano la fortuna sono rari e temporanei. Si tratta di bonus presenti solo su oggetti NORENT,
-ottenibili tramite alchimia, alcune skill di breve durata (tipo la canzone SONG OF LIFE del bardo)
-o possibilmente anche tramite alcuni mob interattivi (ad esempio il profeta errante).
+Gli oggetti che aumentano la fortuna sono rari e temporanei. Si tratta 
+di bonus presenti solo su oggetti NORENT, ottenibili tramite alchimia, 
+alcune skill di breve durata (tipo la canzone SONG OF LIFE del bardo)
+o possibilmente anche tramite alcuni mob interattivi (ad esempio il
+profeta errante).
 
 Vedi anche: MESTIERI, SONG OF LIFE, ALCHIMISTA, RANDOMPOP
 
@@ -15602,16 +15684,19 @@ $c0010Livello$c0010       : 31 Monaci
 $c0014Tiro salvezza$c0014 : No
 $c0012Costo in mana$c0012 : 100
 $c0007
-Grazie alla meditazione e alle pratiche ascetiche, il monaco e' in grado di raggiungere uno stato di concentrazione
-superiore che gli consente di percepire ogni minimo dettaglio dell'ambiente circostante, permettendogli di evitare
-di far scattare trappole. L'addestramento, la conoscenza delle varie tipologie di trappole e l'esperienza gli 
+Grazie alla meditazione e alle pratiche ascetiche, il monaco e' in
+grado di raggiungere uno stato di concentrazione superiore che gli 
+consente di percepire ogni minimo dettaglio dell'ambiente circostante, 
+permettendogli di evitare di far scattare trappole. L'addestramento, 
+la conoscenza delle varie tipologie di trappole e l'esperienza gli 
 permetteranno di mantenere il piu a lungo possibile questo stato.
-Si vocifera che i piu grandi monaci siano in grado di compiere azioni senza conseguenze, laddove gli altri muoiono.
+Si vocifera che i piu grandi monaci siano in grado di compiere azioni 
+senza conseguenze, laddove gli altri muoiono.
 
 Vedi anche: TRAPPOLE, MONACO, TRAP
 
 #
-GREEN SLIME
+"GREEN SLIME"
 
 $c0015Uso$c0015           : cast 'green slime'
 $c0006Cumulativo$c0006    : No
@@ -15620,9 +15705,12 @@ $c0010Livello$c0010       : 48 Ranger
 $c0014Tiro salvezza$c0014 : vs Paralisi
 $c0012Costo in mana$c0012 : 50
 $c0007
-Questo incantesimo permette al ranger di incantare un pugno di polvere e trasformarlo in fanghiglia verde che verra'
-spalmata sulla propria arma permettendogli, grazie alle proprie conoscenze delle varie creature, di sfruttarle per
-infliggere svariati effetti negativi, oltre a renderli visibili qualora siano nascosti.
+Questo incantesimo permette al ranger di incantare un pugno di polvere 
+e trasformarlo in fanghiglia verde che verra' spalmata sulla propria
+arma permettendogli, grazie alle proprie conoscenze delle varie creature,
+di sfruttarle per infliggere svariati effetti negativi, oltre a renderli 
+visibili qualora siano nascosti. 
+
 Il danno e' (liv. + SP)d4 + potenziamento in ambienti bagnati e/o desertici.
 Effetti applicati:
   -slowness
@@ -15641,19 +15729,468 @@ $c0010Livello$c0010       :
 $c0014Tiro salvezza$c0014 : Speciale
 $c0012Costo in mana$c0012 : 0
 $c0007
-Skill per Ladri e ranger, ma solo i Ladri monoclasse hanno tutte le trappole nel repertorio.
+Skill per Ladri e ranger, ma solo i Ladri monoclasse hanno tutte le
+trappole nel repertorio.
 
 Il comando trap permette di approntare una trappola.
-Se prima che si decomponga (2 ore) un mob ci passa sopra, la trappola scattera' causando sul mob i suoi effetti.
+Se prima che si decomponga (2 ore) un mob ci passa sopra, la trappola
+scattera' causando sul mob i suoi effetti.
 
-Con il comando TRAP/TRAPPOLA si possono vedere quali trappole si possono creare e quanto e' il loro tempo di recupero.
+Con il comando TRAP/TRAPPOLA si possono vedere quali trappole si 
+possono creare e quanto e' il loro tempo di recupero.
 
-Il danno delle trappole che lo provocano dipende dall'intelligenza e dal pwp,
-mentre la potenza degli effetti e la loro durata solamente dall'intelligenza.
+Il danno delle trappole che lo provocano dipende dall'intelligenza 
+e dal pwp, mentre la potenza degli effetti e la loro durata solamente
+dall'intelligenza.
 
 Vedi anche: RANGER
 
+#
+INTIMIDATE INTIMIDIRE
+
+Skill per      : Guerrieri, Barbari, Antipaladini
+$c0010Livello$c0010    : 35
+$c0012Costo$c0012      : 20 (+25% Punti Movimento)
+$c0012Recupero$c0012   : 1+0 ore monoclasse, 2+0 multiclasse
+$c0001Attesa$c0001     : 2 ROUND
+$c0007
+Una tecnica marziale in cui il combattente sprigiona pura presenza 
+minacciosa, facendo vacillare il coraggio dei nemici e inducendoli 
+a esitare o retrocedere di fronte alla sua forza.
+
+Usabile senza target, effetto ad area, ed ingaggia i nemici.
+Effetto : blocca le vittime brevemente (1 round)
+
+I nemici intimiditi subiscono per 5 round:
+  - +3 save spell
+  - +10% di danno da mischia ricevuto
+  
+Se la skill viene usata da un combattente monoclasse vengono aggiunti
+ulteriori penalita' ai bersagli sempre per 5 round:
+  - +3 save spell
+  - -1 hit'n'dam per livello eroe
+  - le vittima e' bloccata per un altro round
+
+Bonus alla riuscita: 2 * CON > 16, STR > 18, % Movimento
+
+In caso di riuscita critica, i malus sono ulteriormente raddoppiati,
+inoltre se il combattente riesce ad intimidire almeno una vittima, 
+egli ottiene un +5% di critico per 5 round.
+
+I nemici di tipo incantatori/spellcaster sono suscettibili a questa
+tecnica, portandoli a subire un ulteriore 20% di danno, sempre per
+5 round.
+
+La riuscita base della tecnica dipende dai save contro paralisi del
+bersaglio e dai punti movimento rimanenti al combattente.
+
+Non funziona su dei, non morti, creature inanimate o non senzienti.
+
+Vedi anche: GUERRIERO, BARBARO, ANTIPALADINO
+
+#
+"IMPATTO SISMICO" "SEISMIC SLAM"
+
+Skill per            : Guerrieri, Barbari
+$c0010Livello$c0010              : 15 Guerrieri, 18 Barbari
+$c0012Costo$c0012                : 
+$c0012Recupero$c0012             : 3+0 ore
+$c0001Attesa$c0001               : 2 ROUND
+$c0007
+Il combattente colpisce il terreno con il piede con forza brutale,
+generando un'onda d'urto che si propaga dove egli punta l'arma .
+Il bersaglio e gli altri avversari nell'area accanto al bersaglio
+(fino a max 3),vengono scossi dall'impatto e hanno una probabilità
+di cadere.
+
+ - richiede arma blunt o slash, ed un bersaglio.
+ - 100% del danno base ad area identico a quello dell'arma.
+ - toglie immagini illusorie al target.
+
+I guerrieri monoclassi hanno il 20% di bonus al danno e possono 
+far cadere le vittime stordendole a causa della caduta.
+Se eseguito da un barbaro, l'impatto e' piu potente con l'effetto
+garantito di buttare sempre a terra le vittime.
+
+I livelli 52 ottengono un ulteriore 20% di bonus al danno. 
+
+Vedi anche: ARMI A DUE MANI, ARMI INGOMBRANTI
+
+#
+"SPACCATERRA ELEMENTALE" "ELEMENTAL FISSURE"
+
+Skill per            : Guerrieri, Barbari
+$c0010Livello$c0010              : 40 Guerrieri, 42 Barbari
+$c0012Costo$c0012                : 
+$c0005Durata$c0005               : Speciale 
+$c0012Recupero$c0012             : 4+0 ore
+$c0001Attesa$c0001               : 2 ROUND
+$c0007
+Quando brandisce un'arma a due mani, la tecnica si trasforma in un
+rituale di pura furia ancestrale: il combattente abbatte pesantemente
+l'arma/armi al suolo evocando la furia della terra stessa.
+Il terreno si spacca in una serie di fenditure da cui erompono dal 
+sottosuolo gli elementi ancestrali che travolgono tutti i nemici.
+
+ - arma a due mani, o doppia arma ingombrante, blunt o slash
+ - non richiede bersaglio
+ - 200% del danno di base come elemento casuale
+ - vittime incapacitate per 3 round e buttate a terra
+ - immagini illusorie distrutte
+ - se l'attacco colpisce, il combattente viene protetto con:
+   +66% resistenza aggiuntiva per 10 round e 33% fino allo scadere
+   della Durata
+
+La tecnica provoca fumi tossici e schegge volanti che rendono la 
+magia di volo inutile e rischiosa. Chi volava cade a terra.
+
+I monoclassi hanno il 20% di bonus al danno.
+I livelli 52 ottengono un ulteriore 20% di bonus al danno. 
+
+Vedi anche: ARMI A DUE MANI, ARMI INGOMBRANTI
+
+#
+"ARMI A DUE MANI" "ARMI INGOMBRANTI"
+$c0007
+Sono considerate armi a due mani e/o ingombranti, le armi che hanno
+sia la posizione indossabile HOLD che WIELD.
+
+Le armi a due mani infliggono +15% di danno.
+
+Con esse non e' possibile usare uno scudo, ma si puo' (a malapena) 
+usare una luce/torcia appendendola alla cintura anziche' tenerla in
+mano.
+
+I danni inflitti con arma a due mani hanno una innata probabilita'
+del +10% di colpo critico.
+
+I guerrieri monoclasse hanno +5% di danno con armi a due mani.
+
+Questi bonus (dimezzati) valgono anche per chi brandisce due armi 
+ingombranti (con le quali non e' possibile usare lo scudo).
+
+I guerrieri possono brandire due armi del genere pur non praccando
+il dual wield, come tecnica innata, ma non avendo la destrezza per
+usare armi poco ingombranti, come fanno i ranger e i ladri,devono 
+rinunciare allo scudo per farlo.(solo armi wield+hold)
+
+Ai guerrieri monoclasse che usano due armi, esse non cadono mai, 
+mentre per i multiclasse la possibilita di farle cadere e' dettata
+da fortuna e destrezza, senza possibilita' di migliorarle.
+
+Vedi anche: WIELD, DUAL WIELD
+
+#
+TATTICA "TACTICAL ORDERS"
+
+Skill per            : Guerrieri
+$c0010Livello$c0010              : 50
+$c0012Costo$c0012                : 
+$c0005Durata$c0005               : 
+$c0012Recupero$c0012             : 3+0 ore, 2+0 se carisma > 18
+$c0001Attesa$c0001               : 1 ROUND
+$c0007
+Il guerriero bercia comandi ed ordini che riecheggiano sul campo di
+battaglia:
+i combattenti alleati ricevono ordini chiari, incitati a travolgere
+gli incantatori nemici e gli incantatori alleati vengono guidati a 
+neutralizzare le forze da mischia.
+L'intera squadra sente il morale infiammarsi, combattendo con
+disciplina e ferocia rinnovate.
+
+La potenza di questa tecnica e' legata molteplici fattori:
+all'intelligenza, alla saggezza ed al carisma del guerriero,
+comandante in battaglia.
+
+Ogni punto sopra a 17 di questi attributi e' un moltiplicatore del
+10% ai bonus inferiti ai compagni.
+
+I bonus sono (con durata 5 round):
+ - 10 damroll ai compagni combattenti
+ - 10 spellpower ai compagni incantatori
+ - 15% di danno vs combattenti ai compagni incantatori
+ - 15% di danno vs incantatori ai compagni combattenti
+
+Se il guerriero non usa uno scudo, egli, addestrato nelle arti piu
+estreme della sopravvivenza, ha imparato a deviare gli elementi ed
+a schivare colpi e proiettili con movimenti istintivi e misurati.
+Questa maestria viene attivata all'uso della direttiva tattica e 
+viene condivisa con i suoi alleati, conferendo loro una resistenza 
+aggiuntiva contro danni elementali e da proiettile.
+
+Bonus senza scudo (durata 5 round):
+  + 10% resistenza aggiuntiva agli elementi
+  + 10% resistenza a proiettili e contromagia
+  + 5 absorb damage e elemental absorb
+
+Inoltre per la durata intera della tecnica :
+  + 15% resistenza aggiuntiva agli elementi
+
+I guerreri monoclasse raddoppiano la durata e la potenza dei bonus.
+I Lord of a Land garantiscono inoltre 2 round di Life Protection 
+agli alleati.
+
+Vedi anche: ABSORB, CONTROMAGIA, ELEMENTAL ABSORB, EXTRA RESISTANCE
+
+#
+"ELEMENTAL ABSORB"
+
+Probabilmente identificando alcuni oggetti noterete questa strana
+proprieta'. 
+In pratica usando un oggetto affetto da ELEMENTAL ABSORB by XX 
+sarete in grado attenuare l'effetto di ogni colpo  ricevuto  in
+battaglia di XX punti.
+
+L'ELEMENTAL ABSORB e'cumulativo, gli oggetti con questa proprieta'
+sono molto rari! L'ELEMENTAL ABSORB non viene raddoppiato se si e'
+sotto l'effetto del SANCTUARY, ma viene sottratto dal danno dopo il
+dimezzamento del SANCTUARY.
+
+Vedi anche: ABSORB DAMAGE, AFFLIZIONI, SANCTUARY
+
+#
+"EXTRA RESISTANCE"
+
+Probabilmente identificando alcuni oggetti noterete questa strana
+proprieta'. 
+In pratica usando un oggetto affetto da EXTRA RESISTANCE by XX 
+sarete in grado attenuare l'effetto di ogni colpo  ricevuto  in
+battaglia di XX punti (in %).
+
+L'EXTRA RESISTANCE e'cumulativo ma soggetta a rendimento decrescente
+ovvero ogni punto riduce il valore dei danni rispetto al totale
+rimanente, partendo dal 100% dei danni.
+Le EXTRA RESISTANCE possono essere globali o per elemento magico.
+
+Esempio :   Danno Elementale 100
+             5% Extra Resistance -> danno subito 95
+            10% Extra Resistance -> danno subito 90
+            15% extra resistance -> danno subito 85
+            20% extra resistance -> danno subito 81
+            ..
+            50% extra resistance -> danno subito 59
+            ..
+            75% extra resistance -> danno subito 46
+			
+In questo modo non e' possibile ottenere l'immunità completa agli 
+elementi, in quanto la riduzione diventa meno efficace man mano che
+le resistenze vengono alzate.
+Vengono calcolate sempre dopo il dimezzamento del SANCTUARY.
+
+Vedi anche: ABSORB DAMAGE, AFFLIZIONI, SANCTUARY
+
+#
+"IGNORA DOLORE" "IGNORE PAIN"
+
+Skill per            : Guerrieri, Barbari
+$c0010Livello$c0010              : 45
+$c0012Costo$c0012                : 20 mana
+$c0012Recupero$c0012             : 2+0 ore
+$c0007
+Unicamente i guerrieri ed i barbari che hanno abbracciato la via
+della sofferenza possono padroneggiare questa tecnica.
+Rinunciando allo scudo, essi affrontano il mondo a petto aperto,
+temprandosi con grazie alle ferite, cicatrici ed alle battaglie
+sopravvissute.
+
+A volte, nel cuore dello scontro, scivolano in uno stato mentale in
+cui il dolore diventa irrilevante, soffocato dalla furia. In tali
+momenti, colpi che abbatterebbero chiunque altro, diventano poco
+più che un fastidio recondito, permettendo di combattere con una
+volanta d'acciaio ed una determinazione incrollabile.
+ 
+Richiede : assenza di scudo
+
+Bonus a durata breve (5 round):
+  + 25% riduzione danno da mischia
+  + 25% riduzione danno da proitettili
+
+Bonus a durata lunga (DURATA COOLDOWN):
+  + 3 absorb damage e elemental absorb
+  + 15% resistenza aggiuntiva agli elementi e danni mischia
+
+Gli Eroi monoclassi raddoppiano la durata dei bonus brevi.
+
+Vedi anche: GUERRIERO, BARBARO
+
+#
+ROCCAFORTE "LAST STAND"
+
+Skill per            : Guerrieri
+$c0010Livello$c0010              : 50
+$c0012Costo$c0012                : 
+$c0012Recupero$c0012             : 3+0 ore
+$c0007
+Il guerriero pianta solidamente i piedi a terra e solleva lo scudo
+in una posizione difensiva impenetrabile.
+Usando questa tecnica il guerriero salva e protegge i compagni che
+si trovavano in combattimento. Per un breve periodo, i colpi dei 
+nemici vengono parzialmente assorbiti oppure deviati, riducendo 
+drasticamente i danni subiti da mischia mentre il guerriero resiste
+ con pura determinazione.
+
+Richiede : uno scudo di tipo Metallico o Minerale.
+
+Bonus:
+per 1 round:
+    +15% di schivare attacchi
+per 3 round: 
+    +10% danno spine in percentuale pari a (AC scudo)*(CON > 16)
+per 4 round: 
+    +30% chance di counter magic
+    -20% danno da mischia
+    -2 attacchi
+
+Per i guerrieri monoclasse i bonus sono radoppiati.
+
+Per ogni avversario che combatte il guerriero al momento dell'uso 
+della tecnica, le durate dei bonus sono prolungate di 1 round.
+
+Vedi anche: DANNO SPINE, CONTROMAGIA
+
+#
+CONTROMAGIA "COUNTER MAGIC"
+
+E' la probabilita' in percentuale di schivare completamente il danno 
+provocato tramite un mezzo magico.
+Rientrano in tale categoria le spell, le weaponspell, le aure, ed il
+danno shadow.
+Non si aziona sugli effetti delle skill, ma sul danno inflitto, 
+ignorandolo, con eccezione per il dispel magic che puo' essere 
+considerato come fosse danno inflitto (quindi counterabile)
+
+Vedi anche: DANNO SHADOW
+
+#
+"DANNO SPINE" THORNS
+
+Il danno da spine e' il danno infitto di riflesso ai nemici quando 
+il combattente viene colpito.
+E' un numero percentuale del danno del combattente, inflitto come 
+danno di tipo pierce sugli agressori che lo colpiscono schiantandosi
+sulle spigolature e sulle parti sporgenti dell'armatura.
+
+Il danno di spine non puo' riflettere i danni di scudi elementali.
+Il danno da spine puo' provocare l'afflizione "SANGUINAMENTO".
+Il danno da spine NON riduce il danno subito NE lo evita, puo solo
+riflettere il danno fisico subito (in caso di dogde completo non si
+attiva).
+
+Vedi anche: AFFLIZIONI
+
+#
+"STENDARDO GUERRA" "WAR BANNER"
+
+Skill per            : Guerrieri
+$c0010Livello$c0010              : 48
+$c0012Costo$c0012                : 
+$c0005Durata$c0005               : 1 ora (2 per monoclassi)
+$c0012Recupero$c0012             : 8 - (carisma >18) ore
+$c0007
+Il guerriero sventola uno stendardo ed richiama i compagni con un 
+grido deciso e possente.
+I compagni entro 10 locazioni rispondono al richiamo e convergono 
+verso di lui, conficca poi lo stendardo nel terreno invocando la 
+benedizione degli Dei della Guerra, che permea l'area, rafforzando 
+la formazione e sostenendo chi vi si raduna.
+
+Chi si raduna attorno allo stendardo sara' protetto dall'incantesimo
+sanctuary.
+La potenza degli altri effetti e' piu alta se il guerriero e' un
+Grande Eroe o superiore, e viene radoppiata se monoclasse.
+
+Non e' possibile usare questa skill dove c'e' gia uno stendardo.
+
+Vedi anche: GUERRIERO
+
+#
+"SHADOW BOLT"
+
+$c0015Uso                  : cast 'SHADOW BOLT'
+$c0006Cumulativo           : no
+$c0005Durata               : Istantaneo
+$c0010Livello              : 44 Antipaladino
+$c0014Tiro salvezza        : vs Incantesimi
+$c0012Costo in mana        : 20$c0007
+
+Il caster puo lanciare questa spell contro i nemici a patto che sia
+notte oppure sia avvolto dalle ombre (DARKNESS).
+Il danno viene influenzato dallo spellpower e viene maggiorato dai
+luoghi freddi.
+Puo' accecare (BLIND) ed abbassa i tiri salvezza contro il
+danno shadow del bersaglio.
+ 
+Vedi anche: SHADOW DAMAGE
+
+#
+"DEATH AURA"
+
+$c0015Uso                  : cast 'DEATH AURA'
+$c0006Cumulativo           : AURA
+$c0005Durata               : 2 ore
+$c0010Livello              : 50 Antipaladino
+$c0014Tiro salvezza        : vs Shadow
+$c0012Costo in mana        : 50% mana riservato + 1/20 mana extra danno
+$c0007
+L'antipaladino invoca il potere della morte su se stesso ottenendo 
+in cambio un'aura mortale per due ore.
+Tale potere e' altamente letale al punto da influenzare persino il
+caster ed i suoi compagni.
+Se il caster e' estremamente carismatico (carisma > 18) il danno
+verso i compagni risulta dimezzato.
+La DEATH AURA provoca un danno continuativo e cumulativo nel tempo
+di tipo shadow.
+Tali danni vengono dimezzati se il bersaglio si trova al sole oppure
+senza DARKNESS.
+Un terzo dello spellpower del caster viene aggiunto ai danni.
+I nemici colpiti dall'aura inseguiranno il caster fino alla morte.
+Ricastare l'aura la spegne.
+
+Valgono le regole del danno shadow
+
+Vedi anche: DANNO SHADOW
+
+#
+"DANNO SHADOW" "SHADOW DAMAGE"
+
+Il danno SHADOW e' considerato danno speciale
+esistono due tipi di danno: DIRETTO e CONTINUATO
+COme tutti i danni speciali, non ha resistenze o immunita normali,
+ma segue le seguenti regole :
+
+	- l'immunita' al cold rende resistenti ai danni shadow DIRETTI 
+	  (che "congelano l'anima").
+	- le razze che non si considerano allineate al male prendono
+	  danno doppio di questo tipo.
+	- non essendo un danno elementale, non beneficia delle spell 
+	  slayer (non fa proccare le scintille).
+	- generalmente considerato danno magico, a parte casi speciali
+	- i saving vs shadow fanno resistere al danno shadow (diretto 
+	  ED continuato).
+	- se il danno diretto shadow proviene da uno spell, puo essere
+	  dimezzato dai saving vs spell.
+	- parte del danno shadow diretto provoca danno continuato di tipo
+	  shadow (DoT - Damage over Time).
+	- il danno continuato proveniente da danno diretto si puo cumulare
+	  alcune volte.
+
+Il danno continuato shadow (DoT):
+
+	- si accumula per un numero piu alto di volte se non proveniente
+	  da danno diretto.
+	- e' consierato un danno degenerativo magico e quindi non si
+	  attiva in luoghi no-magic.
+	- gli undead e immuni a heal sono immuni alle piaghe del danno
+	  continuato shadow (ma non al danno diretto).
+	- la resistenza a heal conta come resistenza al danno degenerativo
+	  continuato shadow (anti-heal).
+	- chi ha costituzione alta (> 18) dimezza ulteriormente il danno
+	  continuato shadow.
+	- il danno continuato (di ogni tipo, non solo shadow) non puo'
+	  essere dimezzato dal Sanctuary.
+	- il danno continuato causa sofferenza, ma non puo' uccidre 
+	  (non puo' essere il colpo di grazia)
+
+Vedi anche : DEATH AURA, SHADOW BOLT, ANTIPALADINO
+
 #~
-
-
-
