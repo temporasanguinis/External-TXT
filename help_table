@@ -15972,7 +15972,7 @@ Esempio :   Danno Elementale 100
             ..
             75% extra resistance -> danno subito 46
 			
-In questo modo non e' possibile ottenere l'immunità completa agli 
+In questo modo non e' possibile ottenere l'immunita' completa agli 
 elementi, in quanto la riduzione diventa meno efficace man mano che
 le resistenze vengono alzate.
 Vengono calcolate sempre dopo il dimezzamento del SANCTUARY.
