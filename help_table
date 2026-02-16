@@ -13048,9 +13048,9 @@ I guerrieri brownie, essendo di statura piccola, imparano ad usare
 meglio il loro pugnale, guadagnando l'abilita' di dare colpi taglienti
 al loro avversario, ma non guadagnano ulteriori attacchi.
 
-Queste MASTERY  attiveranno solo quando il warror usa arma singola.
-non funziona in dual wield a prescindere dai tipi di arma usate.
-E' una tecnica per arma singola.
+Queste MASTERY si attiveranno solo quando il guerriero usa arma 
+singola, non funziona in dual wield, a prescindere dai tipi di arma 
+usate, E' una tecnica per arma singola.
 
 #
 STANCE "MONGOOSE STANCE" "TIGER STANCE" "PHOENIX STANCE"
@@ -15890,13 +15890,9 @@ $c0005Durata$c0005               :
 $c0012Recupero$c0012             : 3+0 ore, 2+0 se carisma > 18
 $c0001Attesa$c0001               : 1 ROUND
 $c0007
-Il guerriero bercia comandi ed ordini che riecheggiano sul campo di
-battaglia:
-i combattenti alleati ricevono ordini chiari, incitati a travolgere
-gli incantatori nemici e gli incantatori alleati vengono guidati a 
-neutralizzare le forze da mischia.
-L'intera squadra sente il morale infiammarsi, combattendo con
-disciplina e ferocia rinnovate.
+Il guerriero grazie a questa tecnica riesce ad organizzare e 
+coordinare il proprio party garantendo una maggiore efficacia 
+negli attacchidisciplina e ferocia rinnovate.
 
 La potenza di questa tecnica e' legata molteplici fattori:
 all'intelligenza, alla saggezza ed al carisma del guerriero,
@@ -15911,12 +15907,10 @@ I bonus sono (con durata 5 round):
  - 15% di danno vs combattenti ai compagni incantatori
  - 15% di danno vs incantatori ai compagni combattenti
 
-Se il guerriero non usa uno scudo, egli, addestrato nelle arti piu
-estreme della sopravvivenza, ha imparato a deviare gli elementi ed
-a schivare colpi e proiettili con movimenti istintivi e misurati.
-Questa maestria viene attivata all'uso della direttiva tattica e 
-viene condivisa con i suoi alleati, conferendo loro una resistenza 
-aggiuntiva contro danni elementali e da proiettile.
+Forti dell'esperienza di mille battaglie, I guerrieri piu' temerari
+decidono di abbandonare l'uso dello scudo per attirare l'attenzione
+dei nemici. Cosi' facendo, il proprio party guadagna i seguenti 
+bonus:
 
 Bonus senza scudo (durata 5 round):
   + 10% resistenza aggiuntiva agli elementi
