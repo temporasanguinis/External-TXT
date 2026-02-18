@@ -11816,7 +11816,7 @@ Spark               400  sigilli divini/2000 sigilli Aria
 Scorch              400  sigilli divini/2000 sigilli Fuoco
 Freeze              400  sigilli divini/2000 sigilli Acqua
 Corrode             400  sigilli divini/2000 sigilli Terra
-Energy bolt	        400  sigilli divini/500 sigilli per ogni elemento
+Energy bolt         400  sigilli divini/500 sigilli per ogni elemento
 Cause light         1400 sigilli divini
 Cause serious       2500 sigilli divini
 Cause critic        3600 sigilli divini
@@ -11957,7 +11957,7 @@ Sleep               400  sigilli divini
 Poison              400  sigilli divini
 Hold                800  sigilli divini
 Cold                1200 sigilli divini/4000 sigilli Acqua
-Electricity	        1200 sigilli divini/4000 sigilli Aria
+Electricity         1200 sigilli divini/4000 sigilli Aria
 Acid                1200 sigilli divini/4000 sigilli Terra
 Energy              1200 sigilli divini
 Fire                1200 sigilli divini/4000 sigilli Fuoco
@@ -15789,7 +15789,7 @@ Non funziona su dei, non morti, creature inanimate o non senzienti.
 Vedi anche: GUERRIERO, BARBARO, ANTIPALADINO
 
 #
-"IMPATTO SISMICO" "SEISMIC SLAM"
+"IMPATTO SISMICO" "SEISMIC IMPACT"
 
 Skill per            : Guerrieri, Barbari
 $c0010Livello$c0010              : 15 Guerrieri, 18 Barbari
@@ -15797,22 +15797,26 @@ $c0012Costo$c0012                :
 $c0012Recupero$c0012             : 3+0 ore
 $c0001Attesa$c0001               : 2 ROUND
 $c0007
-Il combattente colpisce il terreno con il piede con forza brutale,
-generando un'onda d'urto che si propaga dove egli punta l'arma .
-Il bersaglio e gli altri avversari nell'area accanto al bersaglio
-(fino a max 3),vengono scossi dall'impatto e hanno una probabilità
-di cadere.
+Il combattente colpisce il suolo con forza brutale, generando un'onda d'urto 
+verso il bersaglio.
+Fino a 3 nemici adiacenti possono cadere a causa dell'impatto.
 
- - richiede arma blunt o slash, ed un bersaglio.
- - 100% del danno base ad area identico a quello dell'arma.
- - toglie immagini illusorie al target.
+Richiede: arma blunt o slash e un bersaglio.
 
-I guerrieri monoclassi hanno il 20% di bonus al danno e possono 
-far cadere le vittime stordendole a causa della caduta.
-Se eseguito da un barbaro, l'impatto e' piu potente con l'effetto
-garantito di buttare sempre a terra le vittime.
+Effetti:
+  - 100% danno base arma ad area
+  - Rimuove immagini illusorie al target
+  - Probabilita' di far cadere i nemici
 
-I livelli 52 ottengono un ulteriore 20% di bonus al danno. 
+Guerriero monoclasse:
+  +20% danno
+  Le vittime possono restare stordite
+
+Barbaro:
+  Impatto potenziato
+  Caduta garantita
+
+Livello 52: +20% danno aggiuntivo
 
 Vedi anche: ARMI A DUE MANI, ARMI INGOMBRANTI
 
@@ -16013,32 +16017,27 @@ ROCCAFORTE "LAST STAND"
 Skill per            : Guerrieri
 $c0010Livello$c0010              : 50
 $c0012Costo$c0012                : 
-$c0012Recupero$c0012             : 3+0 ore
+$c0012Durata$c0012               : 3+0 ore
 $c0007
-Il guerriero pianta solidamente i piedi a terra e solleva lo scudo
-in una posizione difensiva impenetrabile.
-Usando questa tecnica il guerriero salva e protegge i compagni che
-si trovavano in combattimento. Per un breve periodo, i colpi dei 
-nemici vengono parzialmente assorbiti oppure deviati, riducendo 
-drasticamente i danni subiti da mischia mentre il guerriero resiste
- con pura determinazione.
+Il guerriero assume una posizione difensiva con lo scudo,
+proteggendo se stesso e i compagni in combattimento.
+I colpi nemici vengono assorbiti o deviati.
 
-Richiede : uno scudo di tipo Metallico o Minerale.
+Richiede: scudo Metallico o Minerale.
 
-Bonus:
-per 1 round:
-    +15% di schivare attacchi
-per 3 round: 
-    +10% danno spine in percentuale pari a (AC scudo)*(CON > 16)
-per 4 round: 
-    +30% chance di counter magic
-    -20% danno da mischia
-    -2 attacchi
+BONUS;
+ - 1 round:
+     +15% schivare
+ - 3 round:
+     +10% danno spine (AC scudo * (CON > 16))
+ - 4 round:
+     +30% counter magic
+     -20% danno da mischia
+     -2 attacchi
 
-Per i guerrieri monoclasse i bonus sono radoppiati.
+Monoclasse: i bonus sono raddoppiati.
 
-Per ogni avversario che combatte il guerriero al momento dell'uso 
-della tecnica, le durate dei bonus sono prolungate di 1 round.
++1 round di durata per ogni avversario in combattimento.
 
 Vedi anche: DANNO SPINE, CONTROMAGIA
 
@@ -16095,7 +16094,7 @@ Grande Eroe o superiore, e viene radoppiata se monoclasse.
 
 Non e' possibile usare questa skill dove c'e' gia uno stendardo.
 
-Vedi anche: GUERRIERO
+Vedi anche: GUERRIERO, SANCTUARY
 
 #
 "SHADOW BOLT"
@@ -16140,15 +16139,16 @@ Un terzo dello spellpower del caster viene aggiunto ai danni.
 I nemici colpiti dall'aura inseguiranno il caster fino alla morte.
 Ricastare l'aura la spegne.
 
-Valgono le regole del danno shadow
+Valgono le regole del danno ombra.
 
-Vedi anche: DANNO SHADOW
+Vedi anche: DANNO OMBRA
 
 #
-"DANNO SHADOW" "SHADOW DAMAGE"
+"DANNO OMBRA" "SHADOW DAMAGE"
 
-Il danno SHADOW e' considerato danno speciale
-esistono due tipi di danno: DIRETTO e CONTINUATO
+Il danno OMBRA e' considerato danno speciale, esistono due tipi di danno: 
+DIRETTO e CONTINUATO (DoT).
+
 Come tutti i danni speciali, non ha resistenze o immunita' normali,
 ma segue le seguenti regole :
 
@@ -16168,7 +16168,7 @@ ma segue le seguenti regole :
 	- il danno continuato proveniente da danno diretto si puo cumulare
 	  alcune volte.
 
-Il danno continuato shadow (DoT):
+Il danno continuato ombra (DoT):
 
 	- si accumula per un numero piu alto di volte se non proveniente
 	  da danno diretto.
