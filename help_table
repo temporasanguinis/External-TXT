@@ -16187,4 +16187,34 @@ Il danno continuato ombra (DoT):
 
 Vedi anche : DEATH AURA, SHADOW BOLT, ANTIPALADINO
 
+#
+"TOCCO DELLA MORTE" "DEATH TOUCH"
+
+$c0015Uso                  : death touch <vittima>, tocco della morte <vittima>
+$c0010Livello              : Eroi di livello 3
+$c0006Recupero             : 1 ore
+$c0005Durata               : speciale, vedi descrizione
+$c0012Costo in ma          : 75% del mana corrente, minimo 30
+$c0014Tiro salvezza        : nessuno
+$c0007
+L'Antipaladino concentra il potere della morte nella sua mano. 
+Toccando la vittima con la mano putrescente egli ne assorbira' l'anima,
+oltre ad infliggere grande dolore fisico e spirituale.
+
+Per poter essere eseguito richiede Death Grip attivo.
+
+Gli effetti del Tocco della Morte sono:
+ > un colpo con danno di tipo Ombra
+ > un tocco dell'incantesimo Harm
+ > la vittima diventa "Chilled" e "Corroded" per 4 turni
+
+L'Antipaladino guadagna fino alla scadenza di Death Touch: -10 al malus del tiro
+salvezza vs ombra, +100 punti vita massimali, recupero punti vita a colpo pari 
+al livello Eroe, recupero di 50 punti vita a uccisione.
+
+La specializzazione dell'abilita' drain aumenta i punti vita massimali di 
+ulteriori +2 per punto di specializzazione.
+
+Vedi anche: DEATH GRIP, DANNO OMBRA, AFFLIZIONI, SPECIALIZZAZIONE
+
 #~
