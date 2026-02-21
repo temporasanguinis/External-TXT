@@ -13368,11 +13368,9 @@ Vedi anche: SANCTUARY
 "DEATH GRIP"
 
 $c0015Uso$c0015           : cast 'death grip'
-$c0006Cumulativo$c0006    : No
-$c0003Durata$c0003 effetto: Livello da eroe
-$c0005Durata$c0005 spell  : 12 ore
+$c0003Durata$c0003        : Livello da eroe + 1 ore
+$c0005Recupero$c0005      : 12 ore
 $c0010Livello$c0010       : Antipaladini Eroi di 3 livello
-$c0014Tiro salvezza$c0014 : Nessuno
 $c0012Costo in mana$c0012 : 30$c0007
 
 Questo spell permette di modificare il danno inflitto ai mob nel
@@ -13381,9 +13379,12 @@ seguente modo:
 8 % verso mob neutrali
 2 % verso mob malvagi
 danno nullo verso i mob non morti di qualunque tipo.
-Questo incantesimo e' cumulabile con eventuali slay align editate.
+Il danno e' cumulabile con eventuali slay align editate.
 
-Vedi anche: ANTIPALADINO, CRUSADE, DRAIN
+Finche' Death Grip e' in effetto oppure in recupero e' possibile usare
+l'abilita' Death Touch (tocco della morte).
+
+Vedi anche: ANTIPALADINO, CRUSADE, DRAIN, DEATH TOUCH
 
 #
 "SHARPEN"
