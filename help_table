@@ -42,7 +42,7 @@ un nuovo argomento, potete mandare un messaggio all'indirizzo
 
 --- Modifiche dalla versione 2.19.2.1 alla 2.21.6.2 --------------
 - Aggiunte: MESTIERI, HEALING RAIN, FISHING, TAN, SCRIGNO DORATO,
-			LISTINO, AWARD, AVATAR, NOMI, MESTIERI, AFFLIZIONI,
+			LISTINO, AWARDS, AVATAR, NOMI, MESTIERI, AFFLIZIONI,
 			DND, LAG, COOLDOWN, CHAOS, MINE, ALCHIMIA, MELEE COMBAT
 			PSIONIC BLAST, PSYCHIC CRUSH, POISON, PAIN MIRROR,
 			CHARGE, BARDO, PLAY, CULMINE, ACCESSIBILITA', CRUSH,
@@ -581,7 +581,7 @@ PKILL tra LOAL: 20 mega al vincitore; -50 mega allo sconfitto.
 PKILL tra Eroi: 2.5% degli xp dello sconfitto al vincitore;
                 -4% degli xp allo sconfitto.
 
-Vedi anche: EROI, LOAL, REGOLE TIMEPKILL
+Vedi anche: EROI, LOAL, PLAYER KILLING
 
 #
 MOB
@@ -1653,10 +1653,10 @@ Inoltre, mentre si vola, si perde meno movimento del normale; tuttavia, cio'
 non vale  se ci si  sta muovendo  in luoghi chiusi,  poiche' muri e soffitti
 ostacolano il movimento.
 
-Vedi anche: GROUPFLY
+Vedi anche: GROUP FLY
 
 #
-"GROUPFLY"
+"GROUP FLY"
 
 $c0015Uso$c0015           : cast 'group fly'
 $c0006Cumulativo$c0006    : Si
@@ -1896,7 +1896,7 @@ tiro salvezza vengono sbattute per terra, come se fossero state bashate.
 Questo  incantesimo e'  molto  utile  ai  maghi per combattere altre  classi
 dotate del potere di lanciare incantesimi.
 
-Vedi anche: BASH
+Vedi anche: BASH, KICK
 
 #
 "SILENCE"
@@ -4205,7 +4205,8 @@ Un arma che abbi la posizione indossabile sia HOLD che WIELD e'
 considerata arma ingombrante (possono esserne impugnate due ma
 sacrificando l'utilizzo dello scudo).
 
-Vedi anche: REMOVE, EQUIPMENT, WEAR, HOLD, ARMI A DUE MANI, ARMI INGOMBRANTI
+Vedi anche: REMOVE, EQUIPMENT, ARMI A DUE MANI, ARMI INGOMBRANTI
+            WEAR, HOLD,
 
 #
 SCORE
@@ -5252,20 +5253,20 @@ Fornisce una lista dei livelli della tua classe; per ogni livello
 e' riportata la rispettiva dignity e i punti esperienza necessari
 per arrivare al livello successivo.
 
-$c0015Uso$c0015:  levels <W/M/C/T/P/R/D/K/I/B/A/H>
-dove: W - Guerriero
-      M - Mago
-      S - Stregone
-      C - Chierico
-      T - Ladro
-      P - Paladino
-      A - Antipaladino
-      R - Ranger
-      D - Druido
-      K - Monaco
-      I - Psionico
-      B - Barbaro
-      H - Bardo
+$c0015Uso$c0015:  levels <abbreviazione>
+dove: WA - Guerriero
+      MU - Mago
+      SO - Stregone
+      CL - Chierico
+      TH - Ladro
+      PA - Paladino
+      AP - Antipaladino
+      RA - Ranger
+      DR - Druido
+      MK - Monaco
+      PS - Psionico
+      BA - Barbaro
+      BD - Bardo
 
 Vedi anche: CLASSI, DIGNITY
 
@@ -5368,7 +5369,7 @@ fisici dati con particolare  potenza, non possono  spaccare
 tutti gli oggetti,ma solo quelli che hanno il flag BRITTLE.
 
 Vedi anche: DISINTEGRATE, INV, EQUIP, ACID STORM, BRITTLE,
-		METEOR SWARM, REPAIR
+            METEOR SWARM, REPAIR
 
 #
 QUAFF POTION POTIONS POZIONE
@@ -5529,7 +5530,7 @@ dagli effetti di questo incantesimo, oltre ad aspettare che esso
 finisca da solo,  e' che un  altro giocatore  usi  l'incantesimo
 CURE BLINDNESS.
  
-Vedi anche: AC, HITROLL, CURE BLINDNESS, DIRTKICK
+Vedi anche: AC, HITROLL, EXORCISM, DIRTKICK
 
 #
 "CONTROL WEATHER"
@@ -5833,7 +5834,7 @@ dispellata). Per questo motivo, e' bene usare IDENTIFY  sulle armi
 che non si conosce, prima di provare ENCHANT WEAPON.
 
 Vedi anche: ENCHANT ARMOR, IDENTIFY, HITROLL, DAMROLL, 
-		DISPEL MAGIC
+            DISPEL MAGIC
 
 #
 HEAL
@@ -5851,7 +5852,7 @@ dello spellpower del chierico, punti ferita.
 La vittima viene anche curata da un eventuale spell di accecamento
 (BLINDNESS).
 
-Vedi anche: BLINDNESS, POWER WORD BLIND, CURE BLIND MINOR HEAL HEALING
+Vedi anche: BLINDNESS, POWER WORD BLIND, CURE BLIND, MINOR HEAL, HEALING
 
 #
 "MINOR HEAL"
@@ -6545,7 +6546,7 @@ Vedi anche: LOAL, ARENA, TIMEPKILL
 LINKDEAD
  
 Alcuni giocatori hanno dei problemi con le loro connessioni a Tempora
-Sanguinis, ed ai Mud in generale.
+Sanguinis 2, ed ai Mud in generale.
 Questo puo' rivelarsi molto pericoloso per i loro pc, che rischiano di
 morire senza che i loro giocatori possano evitarlo.
 Per risolvere questo problema, se il tuo collegamento cade, ogni volta
@@ -6553,14 +6554,14 @@ che un nemico tenta di colpirti, il tuo personaggio tentera'
 automaticamente di scappare.
 Se riesce, verra' automaticamente trasportato in un posto sicuro,
 sino al momento in cui tu rientrerai nel gioco.
-Purtroppo, Tempora Sanguinis non ha invece modo di riconoscere i
+Purtroppo, Tempora Sanguinis 2 non ha invece modo di riconoscere i
 problemi di lag: ossia, non puo' capire quando il tuo collegamento si
 e' bloccato, impedendoti di comandare il tuo personaggio, e di vedere
 quello che gli sta succedendo. In quest'ultimo caso, cio' che ti
 conviene fare e' di interrompere immediatamente il collegamento, e a
 quel punto il Mud, accorgendosene, iniziera' la procedura di fuga
 automatica e di trasporto in una locazione sicura.
-Contrariamente a quanto accade in altri Mud, qui su Tempora Sanguinis
+Contrariamente a quanto accade in altri Mud, qui su Tempora Sanguinis 2
 i personaggi morti in link dead subiscono l'usuale penalizzazione in
 termini di punti esperienza.
 N.B. In seguito ad abusi di questa "feature", i giocatori morti in
@@ -6644,7 +6645,7 @@ L'asta si puo interrompere solo se uno dei due partecipanti non si trova piu
 in gioco, ma in quel caso perde l'oggetto (o i soldi, se era il compratore). 
 
 Vedi anche: NOAUCTION, BID, SHOUT, GOSSIP, NOGOSSIP, HEROGOSSIP, 
-	NOHEROGOSSIP, DEAFEN
+            NOHEROGOSSIP, DEAFEN
 
 #
 HEROGOSSIP
@@ -7022,6 +7023,7 @@ sconsigliata ai  neofiti  del mud (sebbene  lo stregone  multiclassi
 in molti modi).
 
 Per vedere gli incantesimi: PRAC SO
+
 Vendi anche: MAGO, MEMORIZE, RECALL, FORGET
 
 # 
@@ -7792,8 +7794,7 @@ Per ovvie ragioni la seconda arma deve essere  piccola e  leggera
 
 I guerrieri utilizzano una versione modificata di questa skill
 
-Vedi anche: RANGER, LADRO, HOLD, WIELD, ARMI A DUE MANI, ARMI
-			INGOMBRANTI
+Vedi anche: RANGER, LADRO, HOLD, WIELD, ARMI A DUE MANI, ARMI INGOMBRANTI
 
 #
 ANTIPALADINO ANTIPALADINI ANTIPALADIN
@@ -8693,7 +8694,7 @@ resistente al  fuoco, e subira'  solo 1/2 danno  dagli spell
 da danno da fuoco usati su di lui.
 
 Vedi anche: PROTECTION FROM COLD, PROTECTION FROM ELECTRICITY,
-               PROTECTION FROM ENERGY, PROTECTION FROM ACID
+            PROTECTION FROM ENERGY, PROTECTION FROM ACID
 
 #
 "PROTECTION FROM COLD"
@@ -8712,7 +8713,7 @@ resistente al freddo, e subira'  solo 1/2 danno  dagli spell
 da danno da freddo usati su di lui.
 
 Vedi anche: PROTECTION FROM FIRE, PROTECTION FROM ELECTRICITY,
-               PROTECTION FROM ENERGY, PROTECTION FROM ACID
+            PROTECTION FROM ENERGY, PROTECTION FROM ACID
 
 #
 "PROTECTION FROM ELECTRICITY"
@@ -8731,7 +8732,7 @@ sara' resistente  all'elettricita',  e subira' solo 1/2  danno
 degli spell da danno elettrico usati su di lui.
 
 Vedi anche: PROTECTION FROM COLD, PROTECTION FROM FIRE,
-               PROTECTION FROM ENERGY, PROTECTION FROM ACID
+            PROTECTION FROM ENERGY, PROTECTION FROM ACID
  
 #
 "PROTECTION FROM ENERGY"
@@ -8749,7 +8750,7 @@ resistente all'energia, e subira' solo 1/2 danno dagli spell  da
 danno energetico usati su di lui.
 
 Vedi anche: PROTECTION FROM COLD, PROTECTION FROM ELECTRICITY,
-               PROTECTION FROM FIRE, PROTECTION FROM ACID
+            PROTECTION FROM FIRE, PROTECTION FROM ACID
 
 #
 MAIL SCRIBA
@@ -8882,9 +8883,9 @@ Questo incantesimo e' cosi' potente che non puo' essere memorizzato
 o recitato da menti mortali. Fa si che chi e' sotto l'effetto dello
 spell subisca solo 1/4 del danno da respiro magico di Drago.
 
-Vedi anche: PROTECTION FIRE BREATH, PROTECTION FROST BREATH, PROTECTION
-             ACID BREATH, PROTECTION GAS BREATH, PROTECTION ELECTRIC
-             BREATH
+Vedi anche: PROTECTION FIRE BREATH, PROTECTION FROST BREATH,
+            PROTECTION ACID BREATH, PROTECTION GAS BREATH,
+            PROTECTION ELECTRIC BREATH
  
 #
 "PROTECTION FIRE BREATH"
@@ -8899,9 +8900,9 @@ $c0012Costo in mana$c0012 : 50$c0007
 Questo incantesimo di protezione fa si che chi e' sotto il suo effetto
 riceva 1/4 dei danni da respiro magico di FUOCO di Drago.
 
-Vedi anche: PROTECTION DRAGON BREATH, PROTECTION FROST BREATH, PROTECTION
-             ACID BREATH, PROTECTION GAS BREATH, PROTECTION ELECTRIC
-             BREATH
+Vedi anche: PROTECTION DRAGON BREATH, PROTECTION FROST BREATH,
+            PROTECTION ACID BREATH, PROTECTION GAS BREATH,
+            PROTECTION ELECTRIC BREATH
 
 #
 "PROTECTION FROST BREATH"
@@ -8916,9 +8917,9 @@ $c0012Costo in mana$c0012 : 50$c0007
 Questo incantesimo di protezione fa si che chi e' sotto il suo effetto
 riceva 1/4 dei danni da respiro magico di GHIACCIO di Drago.
 
-Vedi anche: PROTECTION DRAGON BREATH, PROTECTION FIRE BREATH, PROTECTION
-             ACID BREATH, PROTECTION GAS BREATH, PROTECTION ELECTRIC
-             BREATH
+Vedi anche: PROTECTION DRAGON BREATH, PROTECTION FIRE BREATH,
+            PROTECTION ACID BREATH, PROTECTION GAS BREATH,
+            PROTECTION ELECTRIC BREATH
  
 #
 "PROTECTION ACID BREATH"
@@ -8933,9 +8934,9 @@ $c0012Costo in mana$c0012 : 50$c0007
 Questo incantesimo di protezione fa si che chi e' sotto il suo effetto
 riceva 1/4 dei danni da respiro magico ACIDO di Drago.
 
-Vedi anche: PROTECTION DRAGON BREATH, PROTECTION FROST BREATH, PROTECTION
-             FIRE BREATH, PROTECTION GAS BREATH, PROTECTION ELECTRIC
-             BREATH
+Vedi anche: PROTECTION DRAGON BREATH, PROTECTION FROST BREATH,
+            PROTECTION FIRE BREATH, PROTECTION GAS BREATH,
+            PROTECTION ELECTRIC BREATH
  
 #
 "PROTECTION ELECTRIC BREATH"
@@ -8950,8 +8951,9 @@ $c0012Costo in mana$c0012 : 50$c0007
 Questo incantesimo di protezione fa si che chi e' sotto il suo effetto
 riceva 1/4 dei danni da respiro magico ELETTRICO di Drago.
 
-Vedi anche: PROTECTION DRAGON BREATH, PROTECTION FROST BREATH, PROTECTION
-             ACID BREATH, PROTECTION GAS BREATH, PROTECTION FIRE BREATH
+Vedi anche: PROTECTION DRAGON BREATH, PROTECTION FROST BREATH,
+            PROTECTION ACID BREATH, PROTECTION GAS BREATH,
+            PROTECTION FIRE BREATH
 
 #
 "PROTECTION GAS BREATH"
@@ -8966,9 +8968,9 @@ $c0012Costo in mana$c0012 : 50$c0007
 Questo incantesimo di protezione fa si che chi e' sotto il suo effetto
 riceva 1/4 dei danni da respiro magico GASSOSO di Drago.
 
-Vedi anche: PROTECTION DRAGON BREATH, PROTECTION FROST BREATH, PROTECTION
-             ACID BREATH, PROTECTION FIRE BREATH, PROTECTION ELECTRIC
-             BREATH
+Vedi anche: PROTECTION DRAGON BREATH, PROTECTION FROST BREATH,
+            PROTECTION ACID BREATH, PROTECTION FIRE BREATH,
+            PROTECTION ELECTRIC BREATH
  
 #
 "DISINTEGRATE"
@@ -9556,7 +9558,6 @@ questa cosa. Non si possono seguire incontri di giocatori che hanno il
 vostro nome nel loro libro nero, ed e' possibile terminare la visione
 ad un giocatore, se questa e' indesiderata, inserendo il giocatore nel
 proprio libro nero.
-
 
 Vedi anche: REGOLAMENTO
 
@@ -10599,53 +10600,20 @@ a delle abbreviazioni, delle sequenze di comandi, mentre i piu' completi
 arrivano  anche a creare,  in tempo reale,  le mappe  delle zone  che si
 stanno esplorando.
 
-a) AmiMUD (Amiga), il client realizzato da Gabriel, e' all'indirizzo:
+1) Il Client Ufficiale di Tempora Sanguinis 2, sviluppato da Yffre e Mikko
 
-   www.logicom.it/personal/ggreco/amimud.html
+   https://temporasanguinis.it/client/index.html
 
-b) ELF (Windows 3.11, Windows 95, Windows NT), il celebre client
-   realizzato da Alfredo Milani Comparetti, e' all'indirizzo:
-
-   http://ascu.unian.it/~milani
-
-c) ZMud (Windows 3.11, Windows 95, Windows NT), uno tra i client piu'
-   sofisticati e versatili, e' all'indirizzo:
-
-   http://www.zuggsoft.com/
-
-d) TinyFugue (Unix, OS/2, Windows 95, Windows NT, VMS, Amiga), il client
-   piu' utilizzato in ambiente Unix, e' all'indirizzo:
-
-   http://tf.tcp.com/~hawkeye/tf/
-
-e) Tintin++ (Unix, Windows) un altro client largamente usato in ambiente
-   Unix, e' all'indirizzo:
-
-   http://www.port8zero.com/tintin++
-
-N.B. Alcuni di questi client potrebbero essere datati, e/o le pagine 
-   citate qua sopra, non piu esistenti.
+2) E' possibile usare sia Telnet, Mush client, che gli altri MUD client,
+   il supporto verra fornito secondo possibilita'.
  
 --- Gli area editor --------------------------------------------------
 
 Chiunque volesse scrivere nuove aree per il mondo dell'Impero Celeste
 puo' far uso di  programmi progettati  appositamente  a questo scopo: 
-a) Eleutheria  (Windows 3.11, Windows 95, Windows NT),  l'ambiente di
-   sviluppo di aree tradizionalmente in uso in molti MUD italiani, e'
-   disponibile al forum di TS2, nella sezione areabuilder.
 
-
-b) Lair (Windows 95, Windows NT) e' un area editor caratterizzato da
-   un approccio originale alla  creazione di aree, ed e' disponibile
-   all'indirizzo:
-
-   ftp://mcftp.mclink.it/mcprog/l/lair3b4.zip
-
-c) DikuEd (Unix, Ms-Dos) e' un area editor per Diku MUD generici, ed e'
-   stato realizzato mirando  alla portabilita' e all'estensibilita', ed
-   e' disponibile all'indirizzo:
-
-   http://oeh.tu-graz.ac.at/~essl/spare/project/dikued.html
+ -  Kreator (disponibile sul GITHUB di Tempora Sanquinis 2, chiedere
+              a Yffre , Nalith o Martinus)
 
 ----------------------------------------------------------------------
 
@@ -11011,8 +10979,8 @@ In sintesi:
 
 Rent specificato           Rent reale
 -------------------------------------------------------------------
-<20000                     ignorato, perche' il rent  reale e' minore
-                            di 10,000 monete, e quindi viene ignorato
+<10000                     ignorato, perche' il rent  reale e' minore
+                            di 5,000 monete, e quindi viene ignorato
                             (il giocatore  paga solo il  rent globale
                             di 100 monete)
 20000                      10,000, il giocatore paga il rent  (per
@@ -11025,7 +10993,7 @@ Rent specificato           Rent reale
 
 Cosi', ad esempio, un oggetto  con Rent 50,000 costera' al giocatore
 25,000  monete  al  giorno  di  rent,   e  sara'  considerato  raro.
-Al  contrario,  un  oggetto  con  Rent  15,000 non  produrra'  alcun
+Al  contrario,  un  oggetto  con  Rent  5,000 non  produrra'  alcun
 costo di rent al giocatore (oltre le solite 100 monete giornaliere).
 
 Il peso degli oggetti viene espresso in etti, e non puo' essere
@@ -11530,35 +11498,30 @@ del suo carisma.
 Vedi anche: ASCENSION
 
 #
-SIGILLI
+"SIGILLI DIVINI"
 
- I Sigilli dell' Avventuriero sono  degli  speciali riconoscimenti
-conferiti  esclusivamente  dagli Immortali  e dagli  Dei ogni qual
-volta un  giocatore  dimostri di  esserne  degno,  risolvendo  una
-quest.
-I Sigilli sono un dato interno al personaggio, di conseguenza non
+ I Sigilli divini  sono  degli  speciali riconoscimenti conferiti
+durante determinate quest o da determinati nemici e dagli  Dei, 
+ogni qual volta un  giocatore  dimostri di  esserne  degno,  anche 
+risolvendo  una quest.
+I DIVINI sono un dato interno al personaggio, di conseguenza non
 vengono perduti in Death Trap o se disintegrati, per vedere quanti
-sigilli si hanno e' sufficiente usare il comando "score".
+DIVINI si hanno e' sufficiente usare il comando "score".
  
- Ogni  Sigillo, in  seguito, puo' essere  restituito agli  Dei: in
-cambio, la Divinita'  concedera' un  premio particolare, seguendo,
-in linea di massima, il LISTINO dei Sigilli.  Questo non significa
-che gli  Dei siano 'obbligati' ad esaudire le vostre richieste: il
-listino deve essere una guida,  ma gli Dei possono sempre decidere
-diversamente esaminando caso per caso. Non create dunque polemiche
-inutili se,  per qualche ragione nota agli Dei, un altro giocatore
-ha ottenuto uno stesso premio ad un costo inferiore.
+I Sigilli Divini, in  seguito, possono essere spesi presso la torre
+degli elementi o presso gli dei per ottenere dei miglioramenti al 
+proprio equipaggiamento secondo quanto stabilito dal LISTINO.
+Questo non significa che gli  Dei siano 'obbligati' ad esaudire le 
+vostre richieste: il listino deve essere una guida,  ma gli Dei 
+possono sempre decidere diversamente esaminando caso per caso. Non
+create dunque polemiche inutili se,  per qualche ragione nota agli 
+Dei, un altro giocatore ha ottenuto uno stesso premio ad un costo 
+inferiore.
 
  Leggendo il LISTINO, puo' certo sembrare che alcune richieste, in
 termini di numero di  Sigilli, sia  esagerato per quello che si ha
 in  cambio.  Ognuno naturalmente  puo' pensare come vuole,  ma nel
 giudicare i prezzi, tenete conto di alcuni fattori.
-
-- I NUOVI Sigilli (quelli visibili con score), valgono quattro volte
-  meno di quelli vecchi (gli oggetti), che non saranno piu' 
-  considerati validi dal 2002 (ops, no quello e' l'Euro :) ),
-  dall'1 MARZO 1999, per richiedere la conversione (1 sigillo oggetto
-  = 4 sigilli "score") bisogna chiedere ad un dio.
 
 - Spesso,  i prezzi  sono alti per  esigenze di  bilanciamento del
   gioco.  Vero e' che chi dispone di  Sigilli deve poter  avere la
@@ -11577,7 +11540,7 @@ giudicare i prezzi, tenete conto di alcuni fattori.
   richiesto per un Weapon Spell Affect e' poco giustificato per un
   guerriero  puro, ma e' quasi  poco  per uno  psionico,  che puo'
   aumentare la potenza dello Spell a dismisura con lo Spell Power.
-  Oppure, una  Resistenza al  Fuoco costa 12 Sigilli: tenete conto
+  Oppure, una  Resistenza al  Fuoco costa XX Sigilli: tenete conto
   del fatto  che essa non  protegge solo da  Spell aggressivi,  ma
   soprattutto dai  FireShield; inoltre,  assume un  valore  ancora
   maggiore se si e'  Troll: la  resistenza equilibrerebbe il forte
@@ -12381,7 +12344,7 @@ Ci sono molte informazioni:
   N.B. La scadenza e' un'informazione che appare solamente a coloro
        che hanno raggiunto il livello di Eroe Minore.
 
-Vedi anche: SCORE
+Vedi anche: SCORE, ATTRIBUTI
 
 #
 TELL WHISPER ASK
@@ -12793,16 +12756,18 @@ comporta l'aumento dei  punti vita e del danno causato rispettivamente  di
 di 2 punti, modificando il massimale di entrambe gli attributi fino alla 
 scadenza dello spell.
 
+Vedi anche: ANIMAL GROWTH, VEGETABLE GROWTH, INSECT GROWTH
+
 #
 CURSING
 
 Una delle piu'  potenti  abilita' degli  Antipaladini.  Con questa
-speciale maledizione, attuabile   una  volta  ogni  20-carisma ore 
+speciale maledizione, attuabile una  volta  ogni  20-(carisma) ore 
 di MUD, l'antipaladino invoca su di se o su un'altra  persona  una  
 lunga serie di incantesimi  di maledizione, che vengono cumulati 
-mano a mano che l'antipaladino aumenta di  livello. Tra gli effetti 
-del CURSING, se  l'antipaladino e' abbastanza  abile,ci sono potenti 
-incantesimi di attacco, il DISPEL MAGIC  e l'attacco di fame e sete.
+mano a mano che l'antipaladino aumenta di livello. Tra gli effetti 
+del CURSING, se l'antipaladino e' abbastanza  abile,ci sono potenti 
+incantesimi di attacco, il DISPEL MAGIC e l'attacco di fame e sete.
 Per la razza angelo il tempo di attesa viene calcolato diversamente.
 N.B. L'abilita' su puo usare anche su se stessi.
 
@@ -12827,6 +12792,8 @@ gli incantesimi castati su di lui vengano rimossi,
 e lanciati sul mago che usa steal enchantment.
 Ogni incantesimo deve passare il tiro salvezza.
 
+Vedi anche: DISPEL MAGIC
+
 #
 FURY
 
@@ -12835,6 +12802,11 @@ Con questa abilita' i barbari eroi possono permettersi di cominciare
 un combattimento scatenando la propria furia sull'avversario quindi
 direttamente in "Berserk". Quest'abilita' procura 2 round di 
 stordimento alla vittima, e 3 al barbaro.
+Fintanto che il combatttimento infuriato perdura, i danni di ritorno
+degli scudi magici vengono accumulati ed applicati sotto forma di 
+sanguinamento alla fine del combattimento.
+Sedersi dimezza la perdita di sangue ed e' possibile sia curarsi di
+first aid, che di second aid, che tramite cure magiche.
 
 #
 "LAVA POOL"
@@ -13088,8 +13060,7 @@ da ACIDO. Il caster  sara' resistente  all'acido,  e subira' solo
 1/2 danno dagli spell  da danno acido usati su di lui.
 
 Vedi anche: PROTECTION FROM COLD, PROTECTION FROM ELECTRICITY,
-               PROTECTION FROM ENERGY, PROTECTION FROM FIRE
-
+            PROTECTION FROM ENERGY, PROTECTION FROM FIRE
 
 #
 "ELEMENTAL GLOBE"
@@ -13106,7 +13077,7 @@ e i personaggi nel suo gruppo, dagli elementi, rendendoli
 resistenti al fuoco, ghiaccio, acido ed elettricita'.
 
 Vedi anche: PROTECTION FROM COLD, PROTECTION FROM ELECTRICITY,
-PROTECTION FROM ENERGY, PROTECTION FROM FIRE, PROTECTION FROM ACID
+            PROTECTION FROM ENERGY, PROTECTION FROM FIRE, PROTECTION FROM ACID
 
 #
 EXORCISM
@@ -13137,7 +13108,6 @@ I Sacerdoti puri  invocano il loro Dio per rimuovere ogni
 sorta di incantesimo dannoso da tutti i membri del loro gruppo.
 
 Vedi anche: EXORCISM
-
 
 #
 "DIVINE AURA"
@@ -13185,7 +13155,8 @@ Vedi anche: -
 #
 MXP
 
-http://www.zuggsoft.com/zmud/mxp.htm
+Il protocollo MUD eXtension Protocol (MXP) è una specifica aperta 
+per migliorare la comunicazione tra server e client MUD.
 
 #
 BREW
@@ -14478,7 +14449,7 @@ Vedi anche: AWARD, PESCATORE, CONCIATORE, ALCHIMISTA, MINATORE,
 			OCCULTISTA, ADDESTRATORE, FORTUNA
 
 #
-"AWARD"
+"AWARDS"
 
 Gli Award sono titoli onorifici che gli eroi dell'impero celeste
 possono guadagnare durante le loro avventure o come speciale 
@@ -14494,8 +14465,7 @@ Per vedere quali titoli sono stati sbloccati dal tuo personaggio, basta
 usare il comando "AWARD". Per vedere la lista dei titoli al momento 
 disponibili, basta usare il comando "AWARD LIST".
 
-Vedi anche: MESTIERI, DIGNITY, AREAQUEST, PERK, PEGNI DI LILITH, 
-            MEDAGLIE AL VALORE
+Vedi anche: MESTIERI, DIGNITY, AREAQUEST, PERK, PEGNI, MEDAGLIE AL VALORE
 
 #
 "NOME" "NOMI"
@@ -15480,7 +15450,7 @@ comando $c0009USE SEGA CORPO$c0007.
 Con questa tecnica si possono trovare ossa utili al fine di collezionare
 tesori o ottenere famigli rari e pericolosi. 
 
-Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
+Vedi anche: AWARDS, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
 			MINATORE, ADDESTRATORE
 			
 #
@@ -15503,7 +15473,7 @@ comando:
 Alcuni famigli posssono essere ottenuti solo tramite specifiche quest,
 come quelli della famiglia dei Divoratori.
 
-Vedi anche: AWARD, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
+Vedi anche: AWARDS, MESTIERI, PESCATORE, CONCIATORE, ALCHIMISTA,
 			MINATORE, OCCULTISTA
 
 #
@@ -15886,33 +15856,24 @@ Vedi anche: ABSORB DAMAGE, AFFLIZIONI, SANCTUARY
 #
 "EXTRA RESISTANCE"
 
-Probabilmente identificando alcuni oggetti noterete questa strana
-proprieta'. 
+E' la % di riduzione del danno di quel tipo
 In pratica usando un oggetto affetto da EXTRA RESISTANCE by XX 
 sarete in grado attenuare l'effetto di ogni colpo  ricevuto  in
 battaglia di XX punti (in %).
 
-L'EXTRA RESISTANCE e'cumulativo ma soggetta a rendimento decrescente
-ovvero ogni punto riduce il valore dei danni rispetto al totale
-rimanente, partendo dal 100% dei danni.
 Le EXTRA RESISTANCE possono essere globali o per elemento magico.
 
-Esempio :   Danno Elementale 100
-             5% Extra Resistance -> danno subito 95
-            10% Extra Resistance -> danno subito 90
-            15% extra resistance -> danno subito 85
-            20% extra resistance -> danno subito 81
-            ..
-            50% extra resistance -> danno subito 59
-            ..
-            75% extra resistance -> danno subito 46
+ - Indossi un primo oggetto do 50 extra resistance -> ottieni totale 50%
+ - Indossi un altro oggetto da 50 extra resistance -> ottieni totale 75%
+ - Indossi un altro oggetto da 50 extra resistance -> ottieni totale 87,5%
+ 
+La percentuale che si aggiunge influisce sul rimanente non ancora resistito
 			
 In questo modo non e' possibile ottenere l'immunita' completa agli 
 elementi, in quanto la riduzione diventa meno efficace man mano che
 le resistenze vengono alzate.
-Vengono calcolate sempre dopo il dimezzamento del SANCTUARY.
 
-Vedi anche: ABSORB DAMAGE, AFFLIZIONI, SANCTUARY
+Vedi anche: ABSORB DAMAGE, AFFLIZIONI
 
 #
 "IGNORA DOLORE" "IGNORE PAIN"
