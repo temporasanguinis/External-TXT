@@ -6494,33 +6494,33 @@ nell'uso di questo spell.
 Vedi anche: -
 
 #
-"MULTI PLAYING" MP
+"MULTIPLAYING" MP CONDIVISIONE "PERSONAGGIO CONDIVISO"
 
-Il Multi playing - MP per  gli  amici :-)   - e'  la pratica consistente
-nel   far  uso  contemporaneamente  di  piu' personaggi per ottenere dei
+Il Multi Playing (MP) e' l'uso contemporaneo di piu personaggi per ottenere 
 vantaggi illeciti.
 
-Per esempio, un giocatore che fa  gruppare insieme  dei suoi personaggi,
-controllandoli da terminali diversi, o dando la  password di uno di loro
-ad un suo amico perche' lo guidi, sta compiendo Multi Playing.
-E' considerata una forma di MultiPlaying anche usare pg condivisi
-contemporaneamente. Questa forma di MultiPlaying, per quanto tollerata
-per brevi periodi (resurrect e simili), non e' ben vista dagli Dei.
+E' MP:
+ - gruppare propri pg da terminali diversi;
+ - usare un pg mentre un altro e' Link Dead (LD);
+ - usare contemporaneamente pg condivisi;
+ - passare eq o monete tra propri pg attivi.
 
-E' Multi Playing anche il passaggio di  eq o monete da un  proprio pc ad
-un altro, usandoli contemporaneamente. L'unico modo tollerato per fare
-passaggio di eq o soldi, e' posare per terra gli oggetti, con tutti i
-rischi che questo atto comporta (Crash, reboot, mob scavenger ecc).
-In questo caso, l'eq perso non viene refundato in alcun modo.
+Fornire la password configura SHARING. Un pg condiviso usato in simultanea 
+rientra nel MP.
+I pg parte di un account NON possono essere condivisi.
+Se un pg condiviso risulta in un account verra' scollegato dalla STASH 
+e sanzionato.
 
-Gli Immortali hanno diversi mezzi a disposizione per verificare le
-infrazioni a questa regola. In questo caso, spetta all'immortale
-di livello piu alto presente in gioco, decidere la punizione.
+Trasferimenti consentiti:
+ - tramite STASH (con costi previsti);
+ - lasciando oggetti a terra, rentando il primo pg e loggando poi il secondo 
+  (a proprio rischio).
 
-Le punizioni per il Multi Playing variano a seconda della gravita' della
-colpa, e del buonumore  degli Dei :-); si va da un semplice 'esilio' dal
-Mud dei personaggi coinvolti nell'MP per un certo periodo di tempo, alla
-loro completa cancellazione.
+Gli Immortali verificano le infrazioni anche in assenza di segnalazioni.
+Punizioni:
+Dall'esilio temporaneo alla cancellazione definitiva dei pg coinvolti.
+
+Vedi anche : REFUND
 
 #
 "PLAYER KILLING" PKILL
